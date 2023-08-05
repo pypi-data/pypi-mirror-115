@@ -1,0 +1,12 @@
+README.md
+setup.py
+titanicazertyu/__init__.py
+titanicazertyu/get_data.py
+titanicazertyu/model.py
+titanicazertyu/pipeline.py
+titanicazertyu/preprocessing.py
+titanicazertyu/response_json.py
+titanicazertyu.egg-info/PKG-INFO
+titanicazertyu.egg-info/SOURCES.txt
+titanicazertyu.egg-info/dependency_links.txt
+titanicazertyu.egg-info/top_level.txt
