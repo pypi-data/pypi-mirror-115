@@ -1,0 +1,9 @@
+setup.py
+ovos_tts_plugin_espeakng/__init__.py
+ovos_tts_plugin_espeakng.egg-info/PKG-INFO
+ovos_tts_plugin_espeakng.egg-info/SOURCES.txt
+ovos_tts_plugin_espeakng.egg-info/dependency_links.txt
+ovos_tts_plugin_espeakng.egg-info/entry_points.txt
+ovos_tts_plugin_espeakng.egg-info/requires.txt
+ovos_tts_plugin_espeakng.egg-info/top_level.txt
+ovos_tts_plugin_espeakng.egg-info/zip-safe
