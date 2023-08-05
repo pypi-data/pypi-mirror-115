@@ -1,0 +1,9 @@
+
+[dev]
+black
+pytest
+pylint
+
+[docs]
+sphinx
+myst_parser
