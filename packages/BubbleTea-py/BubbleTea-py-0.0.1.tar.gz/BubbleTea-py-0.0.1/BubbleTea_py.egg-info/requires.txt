@@ -1,0 +1,4 @@
+streamlit==0.82.0
+graphql-core==3.1.5
+st-flashcard==0.0.4
+python-dotenv==0.18.0
