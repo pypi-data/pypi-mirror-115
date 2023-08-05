@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: lofti-gaiaDR2
+Version: 1.1.4
+Summary: lofti_gaiaDR2 is now lofti_gaia
+Home-page: UNKNOWN
+License: UNKNOWN
+Description: # lofti_gaiaDR2 is now lofti_gaia
+        
+        This package has been renamed. Use `pip install lofti_gaia` instead.
+        
+        New package: https://pypi.org/project/lofti_gaia/
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 7 - Inactive
+Description-Content-Type: text/markdown
