@@ -1,0 +1,9 @@
+README.md
+license
+setup.py
+tesseract-pack/__init__.py
+tesseract_ocr_data.egg-info/PKG-INFO
+tesseract_ocr_data.egg-info/SOURCES.txt
+tesseract_ocr_data.egg-info/dependency_links.txt
+tesseract_ocr_data.egg-info/not-zip-safe
+tesseract_ocr_data.egg-info/top_level.txt
