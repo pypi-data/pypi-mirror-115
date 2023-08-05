@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = git@github.com:ouster-lidar/ouster_example.git
+	branch = master
+	commit = 47f25ed29ab0b4b6d32c3209fa1b53ea46751d0c
+	parent = 182b352ae9721410cc57fed463d437b68c9c74b0
+	method = merge
+	cmdver = 0.4.3
