@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+soiltexture.egg-info/PKG-INFO
+soiltexture.egg-info/SOURCES.txt
+soiltexture.egg-info/dependency_links.txt
+soiltexture.egg-info/requires.txt
+soiltexture.egg-info/top_level.txt
