@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: ampy-batch-tool
+Version: 0.1
+Summary: An adafruit-ampy batch tool
+Home-page: https://gitee.com/walkline/a-batch-tool
+Author: Walkline Wang
+Author-email: walkline@163.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Provides: ab
