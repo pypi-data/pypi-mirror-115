@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: burnman
+Version: 0.10.0
+Summary: a thermoelastic and thermodynamic toolkit for Earth and planetary sciences
+Home-page: http://burnman.org
+Author: The BurnMan Team
+Author-email: bob.myhill@bristol.ac.uk
+License: GPL
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU General Public License v2 or later (GPLv2+)
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+
+BurnMan is a Python library for generating thermodynamic and thermoelastic models of planetary interiors.
+
