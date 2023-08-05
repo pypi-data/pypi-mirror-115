@@ -1,0 +1,3 @@
+[console_scripts]
+wipeit = wipeit.__main__:cli
+
