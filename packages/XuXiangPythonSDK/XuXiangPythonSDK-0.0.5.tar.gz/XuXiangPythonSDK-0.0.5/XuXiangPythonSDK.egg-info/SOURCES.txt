@@ -1,0 +1,8 @@
+README.md
+Setup.py
+setup.py
+XuXiangPythonSDK.egg-info/PKG-INFO
+XuXiangPythonSDK.egg-info/SOURCES.txt
+XuXiangPythonSDK.egg-info/dependency_links.txt
+XuXiangPythonSDK.egg-info/requires.txt
+XuXiangPythonSDK.egg-info/top_level.txt
