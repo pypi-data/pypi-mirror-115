@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "detect_and_display"
+version = "0.1.1"
+description = ""
+authors = ["patricio tula <tula.patricio@gmail.com>", "agustin tedesco <agustin.tedesco@gmail.com>"]
+packages = [
+    { include = "detect_and_display"},
+    { include = "detect_and_display_cli"}
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+click = "^8.0.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.4"
+pycodestyle = "^2.7.0"
+mypy = "^0.910"
+pytest-cov = "^2.12.1"
+coverage = "^5.5"
+pytest-mock = "^3.6.1"
+
+[tool.poetry.scripts]
+detect-and-display = "detect_and_display_cli.detect_and_display_cli:cli"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
