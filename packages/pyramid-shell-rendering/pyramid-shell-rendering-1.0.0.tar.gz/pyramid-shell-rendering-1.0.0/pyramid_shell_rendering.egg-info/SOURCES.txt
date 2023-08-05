@@ -1,0 +1,5 @@
+setup.py
+pyramid_shell_rendering.egg-info/PKG-INFO
+pyramid_shell_rendering.egg-info/SOURCES.txt
+pyramid_shell_rendering.egg-info/dependency_links.txt
+pyramid_shell_rendering.egg-info/top_level.txt
