@@ -1,0 +1,219 @@
+Metadata-Version: 2.1
+Name: logstash-sync
+Version: 0.5.3
+Summary: Python logging handler for Logstash.
+Home-page: https://gitlab.com/Myrik/python3-logstash
+Author: Sergey Yorsh
+Author-email: myrik260138@tut.by
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: System :: Logging
+License-File: LICENSE
+
+
+logstash-sync
+=============
+
+
+.. image:: https://badge.fury.io/py/logstash-sync.svg
+   :target: https://pypi.org/project/logstash-sync/
+   :alt: PyPI version
+
+
+Python logging handler for Logstash.
+------------------------------------
+
+https://www.elastic.co/products/logstash
+
+Notes:
+^^^^^^
+
+This is a copy of `python-logstash <https://pypi.python.org/pypi/python-logstash>`_
+That has been update to work with python 3.
+
+Installation
+^^^^^^^^^^^^
+
+Using pip:
+
+.. code-block:: bash
+
+   pip install logstash-sync
+
+Usage
+^^^^^
+
+``LogstashHandler`` is a custom logging handler which sends Logstash messages using UDP, or TCP.
+
+For example:
+~~~~~~~~~~~~
+
+.. code-block:: python
+
+   import logging
+   import logstash_sync
+   import sys
+
+   host = 'localhost'
+
+   test_logger = logging.getLogger('logstash_sync')
+   test_logger.setLevel(logging.INFO)
+   test_logger.addHandler(logstash_sync.UDPLogstashHandler(host, 5959, version=1))
+   # test_logger.addHandler(logstash_sync.TCPLogstashHandler(host, 5959, version=1))
+
+   test_logger.error('test logstash_sync error message.')
+   test_logger.info('test logstash_sync info message.')
+   test_logger.warning('test logstash_sync warning message.')
+
+   # add extra field to logstash_sync message
+   extra = {
+        'test_string': f'Python version: {sys.version_info}',
+        'test_boolean': True,
+        'test_dict': {'a': 1, 'b': 'c'},
+        'test_float': 1.23,
+        'test_integer': 123,
+        'test_list': [1, 2, '3'],
+   }
+   test_logger.info('test extra fields', extra=extra)
+
+When using ``extra`` field make sure you don't use reserved names. From `Python documentation <https://docs.python.org/2/library/logging.html>`_.
+     | "The keys in the dictionary passed in extra should not clash with the keys used by the logging system. (See the `Formatter <https://docs.python.org/2/library/logging.html#logging.Formatter>`_ documentation for more information on which keys are used by the logging system.)"
+
+To use the AMQPLogstashHandler you will need to install pika first.
+
+.. code-block:: bash
+
+      pip install pika
+
+For example:
+
+.. code-block:: python
+
+   import logging
+   import logstash_sync
+
+   test_logger = logging.getLogger('logstash_sync')
+   test_logger.setLevel(logging.INFO)
+   test_logger.addHandler(logstash_sync.AMQPLogstashHandler(host='localhost', version=1))
+
+   test_logger.info('test logstash_sync info message.')
+   try:
+        1 / 0
+   except:
+        test_logger.error('Exception with stack trace!')
+
+Using with Django
+^^^^^^^^^^^^^^^^^
+
+Modify your ``settings.py`` to integrate ``python3-logstash`` with Django's logging:
+
+.. code-block:: python
+
+   LOGGING = {
+        # ...
+        'handlers': {
+           'logstash_sync': {
+               'level': 'DEBUG',
+               'class': 'logstash_sync.LogstashHandler',
+               'host': 'localhost',
+               'port': 5959, # Default value: 5959
+               'version': 1, # Version of logstash_sync event schema. Default value: 0 (for backward compatibility of the library)
+               'message_type': 'logstash_sync',  # 'type' field in logstash_sync message. Default value: 'logstash_sync'.
+               'fqdn': False, # Fully qualified domain name. Default value: false.
+               'tags': ['tag1', 'tag2'], # list of tags. Default: None.
+           },
+        },
+        'loggers': {
+           'django.request': {
+               'handlers': ['logstash_sync'],
+               'level': 'DEBUG',
+               'propagate': True,
+           },
+        },
+        # ...
+   }
+
+Using with Gunicorn
+^^^^^^^^^^^^^^^^^^^
+
+Create a logging.conf similar to this:
+
+.. code-block:: ini
+
+   [loggers]
+   keys=root, logstash.error, logstash.access
+
+   [handlers]
+   keys=console , logstash
+
+   [formatters]
+   keys=generic, access, json
+
+   [logger_root]
+   level=INFO
+   handlers=console
+
+   [logger_logstash.error]
+   level=INFO
+   handlers=logstash
+   propagate=1
+   qualname=gunicorn.error
+
+   [logger_logstash.access]
+   level=INFO
+   handlers=logstash
+   propagate=0
+   qualname=gunicorn.access
+
+   [handler_console]
+   class=logging.StreamHandler
+   formatter=generic
+   args=(sys.stdout, )
+
+   [handler_logstash]
+   class=logstash.TCPLogstashHandler
+   formatter=json
+   args=('localhost',5959)
+
+   [formatter_generic]
+   format=%(asctime)s [%(process)d] [%(levelname)s] %(message)s
+   datefmt=%Y-%m-%d %H:%M:%S
+   class=logging.Formatter
+
+   [formatter_access]
+   format=%(message)s
+   class=logging.Formatter
+
+   [formatter_json]
+   class=jsonlogging.JSONFormatter
+
+Note that I am using the jsonlogging module to parse the gunicorn logs
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Sample logstash configuration
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+(\ ``logstash.conf``\ ) for Receiving Events from logstash-sync is:
+
+.. code-block::
+
+     input {
+       tcp {
+         port => 5000
+         codec => json
+       }
+     }
+     output {
+       stdout {
+         codec => rubydebug
+       }
+     }
+
+
