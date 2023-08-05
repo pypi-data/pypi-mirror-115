@@ -1,0 +1,10 @@
+README.rst
+setup.cfg
+setup.py
+client_server_chat_test/Client.py
+client_server_chat_test/Server.py
+client_server_chat_test/__init__.py
+client_server_chat_test.egg-info/PKG-INFO
+client_server_chat_test.egg-info/SOURCES.txt
+client_server_chat_test.egg-info/dependency_links.txt
+client_server_chat_test.egg-info/top_level.txt
