@@ -1,0 +1,11 @@
+README.rst
+setup.py
+pyobject/__init__.py
+pyobject/browser.py
+pyobject/code_.py
+pyobject/newtypes.py
+pyobject/search.py
+pyobject.egg-info/PKG-INFO
+pyobject.egg-info/SOURCES.txt
+pyobject.egg-info/dependency_links.txt
+pyobject.egg-info/top_level.txt
