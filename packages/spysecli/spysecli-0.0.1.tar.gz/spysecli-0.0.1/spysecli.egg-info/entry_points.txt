@@ -1,0 +1,3 @@
+[console_scripts]
+spysecli = bin.main:main
+

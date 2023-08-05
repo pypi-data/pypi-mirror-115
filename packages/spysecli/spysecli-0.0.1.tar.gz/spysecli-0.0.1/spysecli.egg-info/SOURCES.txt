@@ -1,0 +1,15 @@
+LICENSE.md
+README.md
+setup.py
+bin/__init__.py
+bin/main.py
+spysecli/__init__.py
+spysecli/client.py
+spysecli/input_parser.py
+spysecli/printer.py
+spysecli.egg-info/PKG-INFO
+spysecli.egg-info/SOURCES.txt
+spysecli.egg-info/dependency_links.txt
+spysecli.egg-info/entry_points.txt
+spysecli.egg-info/requires.txt
+spysecli.egg-info/top_level.txt
