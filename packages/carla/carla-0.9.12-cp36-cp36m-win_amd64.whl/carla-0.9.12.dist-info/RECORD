@@ -1,0 +1,7 @@
+carla/__init__.py,sha256=PcYIPEF26k1IONsRRDgoGK0CRHD_XvvvrTZM2oUs3JE,276
+carla/command.py,sha256=Fwakqk2L6sxbtBFfnNYa6x_SlnxoH2hhY7vefEXBFHQ,284
+carla/libcarla.cp36-win_amd64.pyd,sha256=NUzbiPm2NUhbS1tZzh0lxr5YpT-wq8QiHCYG2l7sNjU,12265984
+carla-0.9.12.dist-info/METADATA,sha256=ZyrzYxefejUPlmoTTRbN6nfDjVtxUg6JjTVPC5q1F1Q,896
+carla-0.9.12.dist-info/WHEEL,sha256=epucrC2yyYTysDCMzXuz8eGMTMKryzRfNOvMGdslbjc,101
+carla-0.9.12.dist-info/top_level.txt,sha256=R0BpHstdcTUUtgl5ctM0_xRb3oUENRi4rFUl6xepeRg,6
+carla-0.9.12.dist-info/RECORD,,
