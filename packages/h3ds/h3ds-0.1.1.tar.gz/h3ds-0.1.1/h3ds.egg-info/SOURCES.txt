@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+h3ds/__init__.py
+h3ds/config.toml
+h3ds/dataset.py
+h3ds/log.py
+h3ds/numeric.py
+h3ds/utils.py
+h3ds.egg-info/PKG-INFO
+h3ds.egg-info/SOURCES.txt
+h3ds.egg-info/dependency_links.txt
+h3ds.egg-info/requires.txt
+h3ds.egg-info/top_level.txt
