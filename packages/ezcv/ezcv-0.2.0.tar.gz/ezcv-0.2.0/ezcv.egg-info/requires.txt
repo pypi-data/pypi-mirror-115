@@ -1,0 +1,12 @@
+docopt
+pyyaml
+jinja2
+markdown
+tqdm
+requests
+exifread
+python-markdown-math
+
+[dev]
+mkdocs
+pdoc3
