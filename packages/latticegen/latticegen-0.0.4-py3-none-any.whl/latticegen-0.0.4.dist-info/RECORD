@@ -1,0 +1,10 @@
+latticegen/__init__.py,sha256=6aNtHGzXlAEiEU4D2tOsoZRwHYScYNQC3lzz5l6xWw4,219
+latticegen/_version.py,sha256=0GbLEZgeVqYm693LglbqpknvPY7EIRl-IlkAm-kTZRg,497
+latticegen/latticegeneration.py,sha256=rOkNK1WIz_Yimy0BgzpVKNQZ_3PteJAc8HuOSH3wkmM,16146
+latticegen/singularities.py,sha256=M9dBemYqRsNS32_nGlNf1vVw_gN7TE-B20eO9vkBJOA,5924
+latticegen/transformations.py,sha256=FKiEioLd5xNa_ckY1xeKNCIUO8PKzgsRG1cLPOYBT9A,3369
+latticegen-0.0.4.dist-info/LICENSE,sha256=xO6UXh5wbpMvCAcsUd5Tum6zSUfoHEsRNTNpYkcfeZg,1071
+latticegen-0.0.4.dist-info/METADATA,sha256=b1hefroPaxW0BAGB2qFBdkRYABcFshUgh0PP6mgaenc,4790
+latticegen-0.0.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+latticegen-0.0.4.dist-info/top_level.txt,sha256=pxIWhgudEjIvV36Ih4aPjW04htGPIu8gnUVTcgBpjC8,11
+latticegen-0.0.4.dist-info/RECORD,,
