@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: jupyter-matlab-proxy
+Version: 0.3.0
+Summary: Jupyter extension to proxy MATLAB JavaScript Desktop
+Home-page: https://github.com/mathworks/jupyter-matlab-proxy
+Author: The MathWorks, Inc.
+Author-email: jupyter-support@mathworks.com
+License: MATHWORKS CLOUD REFERENCE ARCHITECTURE LICENSE
+Description: UNKNOWN
+Keywords: Jupyter
+Platform: UNKNOWN
+Classifier: Framework :: Jupyter
+Requires-Python: ~=3.7
+Provides-Extra: dev

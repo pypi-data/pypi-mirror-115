@@ -1,0 +1,14 @@
+jupyter-server-proxy
+aiohttp>=3.7.4
+
+[dev]
+aiohttp-devtools
+pytest
+pytest-env
+pytest-cov
+pytest-mock
+pytest-dependency
+pytest-aiohttp
+requests
+psutil
+aioresponses
