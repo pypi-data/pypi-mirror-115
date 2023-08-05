@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+Tinge.egg-info/PKG-INFO
+Tinge.egg-info/SOURCES.txt
+Tinge.egg-info/dependency_links.txt
+Tinge.egg-info/top_level.txt
+tinge/__init__.py
+tinge/color_print.py
+tinge/utils.py
