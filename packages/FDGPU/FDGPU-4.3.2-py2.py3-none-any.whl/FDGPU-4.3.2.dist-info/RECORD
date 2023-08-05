@@ -1,0 +1,15 @@
+FDGPU/__init__.py,sha256=afxcgRl9JJOH9LVIiRG-FmpnYeoJnj0HO9KHR76L3es,1143
+FDGPU/_version.py,sha256=WxHpJDRzNp53KV_7Rh89iOft9haTHWXGNJHmFECZTHM,7230
+FDGPU/_version_save.py,sha256=HHxjHhkBN_1JqIuoruIyOSbg3y2lUEH8EdSaNUfINBY,97
+FDGPU/coefs.py,sha256=D61KM8PldacVmcEwR-nwaYNAk2dpeeOWIi61qWBfR40,6767
+FDGPU/diff.py,sha256=o_vLeOjRM3kAokaUAJRf1eaMf5_3XCQudmWy_z3_osM,17713
+FDGPU/grids.py,sha256=UmgfsMUwonRYp9VkEsjVmwk_dMx41GiyL50K3CkRQb0,694
+FDGPU/operators.py,sha256=W6CMgV6H6CweU4ehkrP53ePl2w3pwAdV51Cv3woEP5I,5702
+FDGPU/stencils.py,sha256=7VIzUKQjnMHEUFSF2wIN1wrs7szKJErWpflMPJvgxwY,4303
+FDGPU/utils.py,sha256=w2UxzfqRrAkivg6StVjEcP7tQywedx286MD87dM1AjE,963
+FDGPU/vector.py,sha256=kX9Nya56O6B2G0hazLrC1foh2jUY52eNLt9Ss2ILPlc,8637
+FDGPU-4.3.2.dist-info/LICENSE,sha256=LoV48WtuomVBIWbotLHaBF_MEfKNsD1mSQhBASSi8B4,35801
+FDGPU-4.3.2.dist-info/METADATA,sha256=OfEPSfjkiTemGPpO4-3RXbFaSj2iXUvjMXvxOIX5TB8,1567
+FDGPU-4.3.2.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+FDGPU-4.3.2.dist-info/top_level.txt,sha256=8XEtuXIvOcax8U-mch_TdzUgMl3fGVkNuBCjVeJKWqQ,6
+FDGPU-4.3.2.dist-info/RECORD,,
