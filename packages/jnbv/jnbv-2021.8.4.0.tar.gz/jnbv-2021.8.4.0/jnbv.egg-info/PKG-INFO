@@ -1,0 +1,410 @@
+Metadata-Version: 2.1
+Name: jnbv
+Version: 2021.8.4.0
+Summary: Validation of Jupyter notebooks and kernels
+Home-page: https://gitlab.com/MAXIV-SCISW/JUPYTERHUB/jnbv
+Author: Jason Brudvik
+Author-email: jason.brudvik@maxiv.lu.se
+License: UNKNOWN
+Project-URL: Bug Tracker, https://gitlab.com/MAXIV-SCISW/JUPYTERHUB/jnbv/-/issues
+Description: # JUPYTER NOTEBOOK VALIDATION
+        [![conda-forge jnbv)](https://img.shields.io/conda/vn/conda-forge/jnbv)](https://anaconda.org/conda-forge/jnbv)
+        [![PyPI jnbv](https://img.shields.io/pypi/v/jnbv)](https://pypi.org/project/jnbv/)
+        [![gitlab jnbv](https://badgen.net/badge/icon/gitlab?icon=gitlab&label=jnbv)](https://gitlab.com/MAXIV-SCISW/JUPYTERHUB/jnbv)
+        [![python versions](https://badgen.net/pypi/python/black)](https://www.python.org/)
+        [![license](https://img.shields.io/pypi/l/jnbv)](https://gitlab.com/MAXIV-SCISW/JUPYTERHUB/jnbv/-/blob/master/LICENSE)
+        
+        1. [Project Overview](#project-overview)
+        2. [Install](#install)
+        3. [Usage](#usage)
+        4. [Contributing](#contributing)
+        
+        
+        ## PROJECT OVERVIEW
+        
+        This repository contains scripts used to validate ipynb notebooks and Jupyter
+        kernels.
+        
+        ### PACKAGE
+        A python package has been created which can be installed via pip or conda:
+        - conda package: [![conda-forge jnbv)](https://img.shields.io/conda/vn/conda-forge/jnbv)](https://anaconda.org/conda-forge/jnbv)
+        - PyPi package: [![PyPI jnbv](https://img.shields.io/pypi/v/jnbv)](https://pypi.org/project/jnbv/)
+        
+        
+        ### GOALS
+        The goals of this project are to be able to:
+        1. Execute validation of Jupyter kernels using ipynb notebooks in the terminal
+        2. Execute validations non-interactively in a CI pipeline
+        3. Check execution output for errors
+        4. Compare output of an execution to known output
+        5. Select different Jupyter kernels to use
+        6. Log results of notebook executions and tests
+        
+        
+        ### EXAMPLE OUTPUT
+        Partial output from validation tests run in the terminal:
+        
+        ![screenshot_validation_comparison_output_terminal](https://gitlab.com/MAXIV-SCISW/JUPYTERHUB/jnbv/raw/master/screenshots/screenshot_validation_comparison_output_terminal.png)
+        
+        Output from an ipynb notebook created from failed execution of a notebook:
+        
+        ![screenshot_jupyter_notebook_failed](https://gitlab.com/MAXIV-SCISW/JUPYTERHUB/jnbv/raw/master/screenshots/screenshot_jupyter_notebook_failed.png)
+        
+        
+        ## INSTALL
+        
+        The jnbv module can be installed with pip or conda using one of the following:
+        - conda package: [![conda-forge jnbv)](https://img.shields.io/conda/vn/conda-forge/jnbv)](https://anaconda.org/conda-forge/jnbv)
+        - PyPi package: [![PyPI jnbv](https://img.shields.io/pypi/v/jnbv)](https://pypi.org/project/jnbv/)
+        - gitlab repository: [![gitlab jnbv](https://badgen.net/badge/icon/gitlab?icon=gitlab&label=jnbv)](https://gitlab.com/MAXIV-SCISW/JUPYTERHUB/jnbv)
+        
+        
+        ### Install with pip
+        
+        Create a virtual environment if you don't already have one:
+        ```bash
+        python3 -m venv venv
+        ```
+        
+        Activate your environment, in this example it's in venv/:
+        ```bash
+        source venv/bin/activate
+        ```
+        
+        Install the code from [PyPi](https://pypi.org/project/jnbv/) using pip:
+        ```bash
+        pip install jnbv
+        ```
+        
+        Or install from gitlab using pip and git:
+        ```bash
+        pip install git+https://gitlab.com/MAXIV-SCISW/JUPYTERHUB/jnbv.git
+        ```
+        
+        With either method, dependencies will also be installed.
+        
+        
+        ### Install with conda
+        Activate and install directly into your environment:
+        ```bash
+        source venv/bin/activate
+        conda install jnbv -c conda-forge
+        ```
+        
+        Or, you can add jnbv via your conda environment yaml file, by adding
+        conda-forge to your list of channels, and jnbv to your list of dependencies, as
+        in this example file:
+        ```bash
+        ---
+        name: my-conda-env
+        channels:
+          - conda-forge
+        dependencies:
+          - jnbv
+        ```
+        
+        Then update your conda environment, for example the base conda environment
+        which is in the directory venv/:
+        ```bash
+        venv/bin/conda env update --name base --file my-conda-env.yml
+        ```
+        
+        
+        ## USAGE
+        
+        ```bash
+        jnbv -h
+        ```
+        
+        ![jnbv_help](https://gitlab.com/MAXIV-SCISW/JUPYTERHUB/jnbv/raw/master/screenshots/jnbv_help.png)
+        
+        
+        ### EXECUTE NOTEBOOK
+        For this, you will need to have:
+        1. A base environment in which jnbv has been installed (see above)
+        2. An ipynb notebook file
+        3. A Jupyter kernel that will be used to execute the file
+        
+        Once you have all these items, the base environment should be activated:
+        ```bash
+        source venv/bin/activate
+        ```
+        
+        Check to see what kernels you have available:
+        ```bash
+        jupyter kernelspec list
+            Available kernels:
+              hdf5-kernel    /var/www/jupyterhub/jnbv/venv/share/jupyter/kernels/hdf5-kernel
+              python3        /var/www/jupyterhub/jnbv/venv/share/jupyter/kernels/python3
+        ```
+        If you don't have any kernels, then install ipykernel into your environment
+        with either pip or conda:
+        ```bash
+        pip install ipykernel
+        conda install ipykernel
+        ```
+        and then you should have the default kernel "python3" available.
+        
+        If you don't have an ipynb notebook handy, you can get an example notebook
+        file here:
+        ```bash
+        wget https://gitlab.com/MAXIV-SCISW/JUPYTERHUB/jnbv/-/raw/master/development/the-meaning-of-life.ipynb
+        ```
+        
+        And then the ipynb notebook can be executed in the terminal, using the default
+        kernel python3 for example:
+        ```bash
+        jnbv the-meaning-of-life.ipynb \
+            --kernel_name python3 \
+            --execute
+        ```
+        
+        ![screenshot_execute](https://gitlab.com/MAXIV-SCISW/JUPYTERHUB/jnbv/raw/master/screenshots/screenshot_execute.png)
+        
+        
+        ### READ NOTEBOOK
+        By defualt, the result of executing an ipynb file is a new ipynb file named
+        output.ipynb.  It can be read in the terminal with:
+        ```bash
+        jnbv output.ipynb --read
+        ```
+        
+        ![screenshot_read](https://gitlab.com/MAXIV-SCISW/JUPYTERHUB/jnbv/raw/master/screenshots/screenshot_read.png)
+        
+        
+        ### TEST NOTEBOOK
+        The same file can be checked for errors:
+        ```bash
+        jnbv output.ipynb --test
+        ```
+        
+        ![screenshot_test](https://gitlab.com/MAXIV-SCISW/JUPYTERHUB/jnbv/raw/master/screenshots/screenshot_test.png)
+        
+        
+        ### COMPARE NOTEBOOKS
+        And two ipynb notebooks can be compared:
+        ```bash
+        jnbv output.ipynb --compare the-meaning-of-life.ipynb
+        ```
+        
+        ![screenshot_compare](https://gitlab.com/MAXIV-SCISW/JUPYTERHUB/jnbv/raw/master/screenshots/screenshot_compare.png)
+        
+        
+        ### EXECUTE, TEST, COMPARE, SAVE
+        All steps can be made to run in succession with one command:
+        ```bash
+        jnbv the-meaning-of-life.ipynb \
+            --kernel_name python3 \
+            --execute --read --test --compare --save
+        ```
+        
+        Or, more simply using the --validate option, which is a combination of 5 other
+        options:
+        ```bash
+        jnbv the-meaning-of-life.ipynb \
+            --kernel_name python3 \
+            --validate
+        ```
+        
+        Note that above the option --save was also added, which then creates the output
+        directory test-results/, and within that creates subdirectories with kernel
+        names, date stamps, and finally log files and new ipynb files.<br>
+        For example:
+        ```bash
+        test-results/
+        └── python3/
+            └── 2021-06-11_14-39-40/
+                ├── the-meaning-of-life.ipynb
+                └── the-meaning-of-life.log
+        ```
+        
+        Example output from executing a simple notebook using the default kernel:
+        
+        ![usage_python3_the-meaning-of-life](https://gitlab.com/MAXIV-SCISW/JUPYTERHUB/jnbv/raw/master/screenshots/usage_python3_the-meaning-of-life.png)
+        
+        
+        ## CONTRIBUTING
+        
+        Would you like to contribute to this project?
+        See: [CONTRIBUTING.md](https://gitlab.com/MAXIV-SCISW/JUPYTERHUB/jnbv/-/blob/master/CONTRIBUTING.md)
+        
+        # JNBV CHANGELOG
+        
+        ## 2021.8.4.0 (2021-08-04)
+        
+        *  reorganization of tests in tox configuration [View](https://gitlab.com/MAXIV-SCISW/JUPYTERHUB/jnbv/-/commit/b91683118fc657ae32aaff0a645a6c9b47412f6d)
+        *  small edits of documentation [View](https://gitlab.com/MAXIV-SCISW/JUPYTERHUB/jnbv/-/commit/fb24be93e3a7e95620654384afcb344097d146a9)
+        
+        
+        ## 2021.8.3.0 (2021-08-03)
+        
+        *  added makefile targets for new tests, added badges to top of readme [View](https://gitlab.com/MAXIV-SCISW/JUPYTERHUB/jnbv/-/commit/9ece8d3114f5168940c9ee43fe15659f6a054100)
+        *  updated documentation a bit [View](https://gitlab.com/MAXIV-SCISW/JUPYTERHUB/jnbv/-/commit/f8577562775c8ffaad13ffa11e8d42bf266b1670)
+        *  edited screenshots slightly [View](https://gitlab.com/MAXIV-SCISW/JUPYTERHUB/jnbv/-/commit/d1983713e3f063c7ffafff4765e777ee24a2d0d9)
+        *  added tests for reading of notebooks [View](https://gitlab.com/MAXIV-SCISW/JUPYTERHUB/jnbv/-/commit/9a7713666de4aa941992839bd3110d4564bbe99d)
+        *  try to make reading tests fail [View](https://gitlab.com/MAXIV-SCISW/JUPYTERHUB/jnbv/-/commit/8527155c0deb942d0531313ebd144dc461f4b90c)
+        *  change to exection CI test triggers [View](https://gitlab.com/MAXIV-SCISW/JUPYTERHUB/jnbv/-/commit/a319f05c08c55af246d0db616c3ba12d349ddc88)
+        *  added tests of test_ipynb function [View](https://gitlab.com/MAXIV-SCISW/JUPYTERHUB/jnbv/-/commit/637531e54031897428b680d0489aa36000a2375b)
+        *  fixed incorrect asserion tests [View](https://gitlab.com/MAXIV-SCISW/JUPYTERHUB/jnbv/-/commit/523c8f2925b04aafef50c9ade6e65fe689dadb36)
+        *  added a bit to the documentation [View](https://gitlab.com/MAXIV-SCISW/JUPYTERHUB/jnbv/-/commit/560ccd65f6df803848594aedcb72c43921a64ee4)
+        *  added simple changelog generator target to makefile [View](https://gitlab.com/MAXIV-SCISW/JUPYTERHUB/jnbv/-/commit/3f8cc1236547e9fbe9b5bde871739e28ddf006ef)
+        *  added comparison tests, combined some test executions in tox config [View](https://gitlab.com/MAXIV-SCISW/JUPYTERHUB/jnbv/-/commit/19cb4f58c4c67334bad4c444d300bcaa30d54cb9)
+        *  fixed typo, changed some CI job names [View](https://gitlab.com/MAXIV-SCISW/JUPYTERHUB/jnbv/-/commit/24381eac34e5bc849e83e47ac643325d8a35d822)
+        *  combined some tests in tox config [View](https://gitlab.com/MAXIV-SCISW/JUPYTERHUB/jnbv/-/commit/565fcedf5350c1f93c43b4837540b4e8e83abf09)
+        *  changed test function names [View](https://gitlab.com/MAXIV-SCISW/JUPYTERHUB/jnbv/-/commit/809f831afad0f94a3dc3f17688ef8ee19a244ccf)
+        *  changed some test names [View](https://gitlab.com/MAXIV-SCISW/JUPYTERHUB/jnbv/-/commit/a1e393774609235dabefdff25b12016d477c63b9)
+        *  fixed incorrect test name in CI config [View](https://gitlab.com/MAXIV-SCISW/JUPYTERHUB/jnbv/-/commit/99033b5cf53cdf9427385c9cad797d6ee7a0360d)
+        *  slight comment change [View](https://gitlab.com/MAXIV-SCISW/JUPYTERHUB/jnbv/-/commit/47e48dd1542ed87c6d5288ee8c428731ccb111ab)
+        *  added some comments [View](https://gitlab.com/MAXIV-SCISW/JUPYTERHUB/jnbv/-/commit/f7023fe43437804ccabe7a5a4ecdc8dfbced573f)
+        *  small change to comparison code, added a test [View](https://gitlab.com/MAXIV-SCISW/JUPYTERHUB/jnbv/-/commit/558292fead5aea7ab721a461b7aad3ae8e2b56f4)
+        *  simplified validation tests, made comparison check for newline better [View](https://gitlab.com/MAXIV-SCISW/JUPYTERHUB/jnbv/-/commit/c378cf6822e0edd3393fde8e191ceacb9befdb85)
+        *  added some more execution and validation tests [View](https://gitlab.com/MAXIV-SCISW/JUPYTERHUB/jnbv/-/commit/34d9c60b2f9e5fc3d9fa01875997239cc5158bba)
+        *  trying to get varsioning, tagging, and changelog to all work nice together [View](https://gitlab.com/MAXIV-SCISW/JUPYTERHUB/jnbv/-/commit/80e8fe3fcf99419364bbca2cd52aa8b055490c9f)
+        *  bumped version in setup.cfg to 2021.8.3.0 [View](https://gitlab.com/MAXIV-SCISW/JUPYTERHUB/jnbv/-/commit/d8bd5c4b9fe9f5b0d94d35fba131c445b48b7dc8)
+        *  bumped version in setup.cfg to 2021.8.3.0 [View](https://gitlab.com/MAXIV-SCISW/JUPYTERHUB/jnbv/-/commit/237819141b60366ac2c8fce02f047e63b2c8f470)
+        
+        
+        ## 2021.7.28.0 (2021-07-28)
+        
+        *  cropped screenshots [View](https://gitlab.com/MAXIV-SCISW/JUPYTERHUB/jnbv/-/commit/8e0e553bbbcce461d4bc2d171faa31dea45981e5)
+        *  created pytest for execution [View](https://gitlab.com/MAXIV-SCISW/JUPYTERHUB/jnbv/-/commit/5107eacec59b01ef8aa623ce39a65f1036fc0a4e)
+        *  fixed mistake in tox test, added to documentation [View](https://gitlab.com/MAXIV-SCISW/JUPYTERHUB/jnbv/-/commit/eaf1bdf5d388c8596c01c726d5475b5cffa38b9a)
+        *  fixed some documentation mistakes [View](https://gitlab.com/MAXIV-SCISW/JUPYTERHUB/jnbv/-/commit/24188f986e970316d111fdff159fc9c6b1d1d838)
+        *  small edits of documentation [View](https://gitlab.com/MAXIV-SCISW/JUPYTERHUB/jnbv/-/commit/9ae1f1f6daf69fd165b51befec4e8607d7f9c48b)
+        *  change to CI triggers, slimmed test_execute_success_hdf5_kernel() [View](https://gitlab.com/MAXIV-SCISW/JUPYTERHUB/jnbv/-/commit/ec588a0dff991ea730e868d940559dda1e783e22)
+        *  added various tests of notebook execution [View](https://gitlab.com/MAXIV-SCISW/JUPYTERHUB/jnbv/-/commit/84d434846e087ee60c142339bdb859baa14da94b)
+        *  some changes to execution tests [View](https://gitlab.com/MAXIV-SCISW/JUPYTERHUB/jnbv/-/commit/cda80cba580792842990d8f913f6e8faef87798a)
+        *  fixed incorrect names [View](https://gitlab.com/MAXIV-SCISW/JUPYTERHUB/jnbv/-/commit/d97f631b1d24ccf9fc787d9120a7da06edc9b0b2)
+        *  changed test names, making CI more compact [View](https://gitlab.com/MAXIV-SCISW/JUPYTERHUB/jnbv/-/commit/6d5505ea89e5f348b80cb194c3cfb3cd72dbdefa)
+        *  bumped version in setup.cfg to 2021.7.28.0 [View](https://gitlab.com/MAXIV-SCISW/JUPYTERHUB/jnbv/-/commit/07ee9c01c61b15a89bb2b5bf4e1dd6c4951235b8)
+        
+        
+        ## 2021.7.21.3 (2021-07-21)
+        
+        *  updated documentation [View](https://gitlab.com/MAXIV-SCISW/JUPYTERHUB/jnbv/-/commit/82b9cea6798a170f528df37247a2ea23b3a8bc9a)
+        *  updated documentation [View](https://gitlab.com/MAXIV-SCISW/JUPYTERHUB/jnbv/-/commit/bc54f51dd5bf0f03a753f96648c65c0756200c66)
+        *  bumped version in setup.cfg to 2021.7.21.3 [View](https://gitlab.com/MAXIV-SCISW/JUPYTERHUB/jnbv/-/commit/e7f8d9a992de846c2ac566b82f8e34e29c3798b8)
+        
+        
+        ## 2021.7.21.2 (2021-07-21)
+        
+        *  created makefile target to upload to PyPi, altered CI to upload to PyPi [View](https://gitlab.com/MAXIV-SCISW/JUPYTERHUB/jnbv/-/commit/5a8ed2df86e407be5b945a5624c28d0e8f496446)
+        *  bumped version in setup.cfg to 2021.7.21.2 [View](https://gitlab.com/MAXIV-SCISW/JUPYTERHUB/jnbv/-/commit/89202b0b895309f4555e5b7e076234d3ea2214cb)
+        
+        
+        ## 2021.7.21.1 (2021-07-21)
+        
+        *  bumped version in setup.cfg to 2021.7.21.1 [View](https://gitlab.com/MAXIV-SCISW/JUPYTERHUB/jnbv/-/commit/5846e79bc2a390369f19554761aedcc950e7a5c8)
+        
+        
+        ## 2021.7.21.0 (2021-07-21)
+        
+        *  have commit counts start at 0 instead of 1 [View](https://gitlab.com/MAXIV-SCISW/JUPYTERHUB/jnbv/-/commit/6401cb3ec47bb9366b7225b1abf05f5e0d568213)
+        *  bumped version in setup.cfg to 2021.7.21.0 [View](https://gitlab.com/MAXIV-SCISW/JUPYTERHUB/jnbv/-/commit/c62d6739562f1bd6557cff00d8d97f9a0ce175a3)
+        
+        
+        ## 2021.7.19.9 (2021-07-19)
+        
+        *  updated documentation [View](https://gitlab.com/MAXIV-SCISW/JUPYTERHUB/jnbv/-/commit/1d6f44a7d6c38a46aed1ccc7e302c2cb9b509b67)
+        *  bumped version in setup.cfg to 2021.7.19.9 [View](https://gitlab.com/MAXIV-SCISW/JUPYTERHUB/jnbv/-/commit/f2985ff74d270528d01626486b8cd2af0e444da6)
+        
+        
+        ## 2021.7.19.8 (2021-07-19)
+        
+        *  bumped version in setup.cfg to 2021.7.19.8 [View](https://gitlab.com/MAXIV-SCISW/JUPYTERHUB/jnbv/-/commit/788772057e0af1fa6af33b6b13b7dd9e4d0100a1)
+        
+        
+        ## 2021.7.19.7 (2021-07-19)
+        
+        *  made link to CONTRIBUTING.md accessible from pypi page [View](https://gitlab.com/MAXIV-SCISW/JUPYTERHUB/jnbv/-/commit/c7ced77ba139a4e33a4012c51ac0568dface8d04)
+        *  bumped version in setup.cfg to 2021.7.19 [View](https://gitlab.com/MAXIV-SCISW/JUPYTERHUB/jnbv/-/commit/8fe577763e4006f8c0c81f175011f200c66f4da9)
+        *  bumped version in setup.cfg to 2021.7.19_8fe57776 [View](https://gitlab.com/MAXIV-SCISW/JUPYTERHUB/jnbv/-/commit/7976e90264038b6268e66c22654f24e2daadb7d3)
+        *  bumped version in setup.cfg to 2021.7.19.7976e902 [View](https://gitlab.com/MAXIV-SCISW/JUPYTERHUB/jnbv/-/commit/6ccdf2a1d2688f0b7d8e29fb22595761511d5a47)
+        *  bumped version in setup.cfg to 2021.7.19.dev6ccdf2a1 [View](https://gitlab.com/MAXIV-SCISW/JUPYTERHUB/jnbv/-/commit/1cac8fe4416859f3ea7d00f410756d906d9f0445)
+        *  bumped version in setup.cfg to 2021.7.19_5 [View](https://gitlab.com/MAXIV-SCISW/JUPYTERHUB/jnbv/-/commit/a6f4613b729bbb1e4f7c80309216f4396885cb08)
+        *  bumped version in setup.cfg to 2021.7.19-6 [View](https://gitlab.com/MAXIV-SCISW/JUPYTERHUB/jnbv/-/commit/7e6c5640d5137f5b5d9f683992707c08c9c3db15)
+        *  bumped version in setup.cfg to 2021.7.19.7 [View](https://gitlab.com/MAXIV-SCISW/JUPYTERHUB/jnbv/-/commit/d1bf8a737c8de54efe2abf402b9efa0dd7da0c88)
+        
+        
+        ## 2021.7.19 (2021-07-19)
+        
+        *  updated readme, added comments to yaml files [View](https://gitlab.com/MAXIV-SCISW/JUPYTERHUB/jnbv/-/commit/71f5950c27049fe15ce791aad805914401bf7d87)
+        *  fixed typos [View](https://gitlab.com/MAXIV-SCISW/JUPYTERHUB/jnbv/-/commit/64a186e89717cd13e6fae3f7a46029a5ed7dbdd2)
+        *  changed triggers for some CI stages [View](https://gitlab.com/MAXIV-SCISW/JUPYTERHUB/jnbv/-/commit/c34531ec4fb34ae7d5cff8f8bc41f42af2b90afd)
+        *  making png image pypi friendly [View](https://gitlab.com/MAXIV-SCISW/JUPYTERHUB/jnbv/-/commit/f25cbd5a3da91729094fef79774d279ebb8c5791)
+        *  bumped version in setup.cfg to 2021.7.19 [View](https://gitlab.com/MAXIV-SCISW/JUPYTERHUB/jnbv/-/commit/c2c6bd7660e29dd726efb1d97f1d22faaec4e510)
+        
+        
+        ## 2021.7.16 (2021-07-16)
+        
+        *  re-grouping of makefile targets, new screenshot [View](https://gitlab.com/MAXIV-SCISW/JUPYTERHUB/jnbv/-/commit/256bde347353b82c19f9f7f2afa5ab1fe38efe54)
+        *  updated documentation [View](https://gitlab.com/MAXIV-SCISW/JUPYTERHUB/jnbv/-/commit/18b815ca82412c77aa3130cbeebd2ea5ee0dd8d2)
+        *  small change to target and stage name [View](https://gitlab.com/MAXIV-SCISW/JUPYTERHUB/jnbv/-/commit/01341423c7da6df7b5e5c7222ab68efc11c94ae0)
+        *  added a bit to the documentation [View](https://gitlab.com/MAXIV-SCISW/JUPYTERHUB/jnbv/-/commit/3d2c851df4cedc96de9e993777fdf0614c56c992)
+        *  bumped version in setup.cfg to 2021.7.16 [View](https://gitlab.com/MAXIV-SCISW/JUPYTERHUB/jnbv/-/commit/6910c35c6e8c4e32fb3446bdf0d284dcf777f6e8)
+        
+        
+        ## 2021.7.15 (2021-07-15)
+        
+        *  small comment edit [View](https://gitlab.com/MAXIV-SCISW/JUPYTERHUB/jnbv/-/commit/7c48bc75c88dbe42149531b488d7ad59c758e4d6)
+        *  created test of jnbv terminal execution [View](https://gitlab.com/MAXIV-SCISW/JUPYTERHUB/jnbv/-/commit/476c61b6475ec28100ca362bccfca88a37f366cf)
+        *  added new jnbv temrinal execution test to CI [View](https://gitlab.com/MAXIV-SCISW/JUPYTERHUB/jnbv/-/commit/a69379a32276ad70ef56a4ff64062e13ee34b4d6)
+        *  try unpinning version in env yaml [View](https://gitlab.com/MAXIV-SCISW/JUPYTERHUB/jnbv/-/commit/a17186a5414f547413d30de6d6a45cc3e50ad79b)
+        *  remove basepython configuration [View](https://gitlab.com/MAXIV-SCISW/JUPYTERHUB/jnbv/-/commit/9900bc7a49cc888cd83f99675c0cbdd179d772cd)
+        *  removed some modules, try to figure out issue [View](https://gitlab.com/MAXIV-SCISW/JUPYTERHUB/jnbv/-/commit/9250b1e1184d7884bcafe023d5d5c66b35ee16ce)
+        *  try adding back in validation test [View](https://gitlab.com/MAXIV-SCISW/JUPYTERHUB/jnbv/-/commit/6f09e1830bae45e5f9e0f2f254a67b81bef742fa)
+        *  ipykenrel is needed, but seems to be the source of issue when installing in gitlab CI [View](https://gitlab.com/MAXIV-SCISW/JUPYTERHUB/jnbv/-/commit/7320c524515a5ed845f0c878c7188f3d2379c5b6)
+        *  try adding validation test again [View](https://gitlab.com/MAXIV-SCISW/JUPYTERHUB/jnbv/-/commit/6d2ef46d4c5952948a20f2bb83b72b04e345efc1)
+        *  cleaned up some comments, changed makefile target names [View](https://gitlab.com/MAXIV-SCISW/JUPYTERHUB/jnbv/-/commit/f708db96fc5eb6df29876bc2666ecf3880f6f8db)
+        *  created a validation test for use with pytest [View](https://gitlab.com/MAXIV-SCISW/JUPYTERHUB/jnbv/-/commit/360ccff78d12bb7a7e1aca69114ff8c69012b26e)
+        *  pytest excution working with all versions of python [View](https://gitlab.com/MAXIV-SCISW/JUPYTERHUB/jnbv/-/commit/cd368b812a4ef740f24324e7d4620671880d9efa)
+        *  fixed incorrect test env name [View](https://gitlab.com/MAXIV-SCISW/JUPYTERHUB/jnbv/-/commit/37c9ffbdb47154cf88d0cd97b4bf19ac02c2d76c)
+        *  split testing environments - one for basic building, the other for testing of a kernel [View](https://gitlab.com/MAXIV-SCISW/JUPYTERHUB/jnbv/-/commit/afce27f2e261ee69e07de8330f095b472561aae3)
+        *  updated instructions and screenshot [View](https://gitlab.com/MAXIV-SCISW/JUPYTERHUB/jnbv/-/commit/06cfc589ab14de8d23d2f10d47beb3c77402c80d)
+        *  bumped version in setup.cfg to 2021.7.15 [View](https://gitlab.com/MAXIV-SCISW/JUPYTERHUB/jnbv/-/commit/45083023626c45b7cef8a88ecd8045e03b4d7666)
+        
+        
+        ## 2021.7.12 (2021-07-12)
+        
+        *  some cleaning up of nested if-statements, added example hdf5 kernel, notebook, data [View](https://gitlab.com/MAXIV-SCISW/JUPYTERHUB/jnbv/-/commit/b5b5956490e37054151a0ccd747a7c7708c60732)
+        *  some more cleaning up [View](https://gitlab.com/MAXIV-SCISW/JUPYTERHUB/jnbv/-/commit/ad82ff4108b3af23174014c9760741e7c633a3fb)
+        *  max-complexity in flake8 now 10 [View](https://gitlab.com/MAXIV-SCISW/JUPYTERHUB/jnbv/-/commit/85f0e368293bd2f2aee7b1cf77f56e52b2cc2fb4)
+        *  a bit more if-nesting removal [View](https://gitlab.com/MAXIV-SCISW/JUPYTERHUB/jnbv/-/commit/b37788cd2d3a88a86959251deaf844858c1e2345)
+        *  added sourcing of conda env prior to test execution [View](https://gitlab.com/MAXIV-SCISW/JUPYTERHUB/jnbv/-/commit/e6b46ad4ba8f919be9dca0adb40fd36a9cc6f75e)
+        *  bumped version in setup.cfg to 2021.7.12 [View](https://gitlab.com/MAXIV-SCISW/JUPYTERHUB/jnbv/-/commit/a84dab907aa7fc0cec5fe37fc8440cd0b2d6da92)
+        
+        
+        
+        BSD 2-Clause License
+        
+        Copyright (c) 2018, math-vrn
+        All rights reserved.
+        
+        Redistribution and use in source and binary forms, with or without
+        modification, are permitted provided that the following conditions are met:
+        
+        * Redistributions of source code must retain the above copyright notice, this
+          list of conditions and the following disclaimer.
+        
+        * Redistributions in binary form must reproduce the above copyright notice,
+          this list of conditions and the following disclaimer in the documentation
+          and/or other materials provided with the distribution.
+        
+        THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+        AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+        IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+        DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+        FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+        DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+        SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+        CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+        OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+        OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+        
+Keywords: jupyter
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Topic :: Scientific/Engineering :: Physics
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
