@@ -1,0 +1,7 @@
+README.md
+injson.py
+setup.py
+injson.egg-info/PKG-INFO
+injson.egg-info/SOURCES.txt
+injson.egg-info/dependency_links.txt
+injson.egg-info/top_level.txt

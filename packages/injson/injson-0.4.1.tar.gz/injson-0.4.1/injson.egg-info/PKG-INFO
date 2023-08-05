@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: injson
+Version: 0.4.1
+Summary: Test the sub json if or not in parent json
+Home-page: https://github.com/sweeterio/injson
+Author: Leo Tong
+Author-email: tonglei@qq.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
