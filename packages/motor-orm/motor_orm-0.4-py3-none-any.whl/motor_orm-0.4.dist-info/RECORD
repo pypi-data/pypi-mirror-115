@@ -1,0 +1,9 @@
+motor_orm/__init__.py,sha256=Uq_2yGS92vmkf9aWior_sU0LS9CGHZGy_RCcU7F1fEU,203
+motor_orm/db.py,sha256=prfXe0jiF5Cn8CfANjQVK37V1faZFbRJZPiVmOdKF5k,1074
+motor_orm/model.py,sha256=T7UFI-dDyLLkw0ujJ9yx2a1WZo7320GvUg_mjf8ycYo,375
+motor_orm/model_service.py,sha256=QnssJvLIv_4ODKM7X2rzuwWPRgrM4kek6-7d5bFrX2g,1974
+motor_orm/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+motor_orm/utils.py,sha256=NHxsuhTVAp01fzzV3IKtt7mpi_mh6DwiNkHr9EGpanM,483
+motor_orm-0.4.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+motor_orm-0.4.dist-info/METADATA,sha256=QAkjFe9LaallUXkUTDjNkHHXwW3cTTu245tVPMB7iaE,420
+motor_orm-0.4.dist-info/RECORD,,
