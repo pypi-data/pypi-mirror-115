@@ -1,0 +1,3 @@
+jageocoder>=0.2.0
+jaconv
+docopt
