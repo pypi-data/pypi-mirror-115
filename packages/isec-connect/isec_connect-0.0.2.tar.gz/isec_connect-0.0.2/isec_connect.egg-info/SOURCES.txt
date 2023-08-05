@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+isec_connect/__init__.py
+isec_connect/isec_ws_sdk.py
+isec_connect.egg-info/PKG-INFO
+isec_connect.egg-info/SOURCES.txt
+isec_connect.egg-info/dependency_links.txt
+isec_connect.egg-info/requires.txt
+isec_connect.egg-info/top_level.txt
