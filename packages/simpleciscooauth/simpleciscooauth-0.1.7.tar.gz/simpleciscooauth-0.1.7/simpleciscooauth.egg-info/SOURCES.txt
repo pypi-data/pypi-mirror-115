@@ -1,0 +1,7 @@
+README.md
+setup.py
+simpleciscooauth/__init__.py
+simpleciscooauth.egg-info/PKG-INFO
+simpleciscooauth.egg-info/SOURCES.txt
+simpleciscooauth.egg-info/dependency_links.txt
+simpleciscooauth.egg-info/top_level.txt
