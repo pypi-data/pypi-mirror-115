@@ -1,0 +1,76 @@
+Metadata-Version: 2.1
+Name: py-uwerr
+Version: 0.1
+Summary: Pure Python library that implements Wolff's method to compute autocorrelation timesof Monte Carlo series.
+Keywords: Monte Carlo,autocorrelation time,tau int,statistics
+Author-email: Dirk Hesse <herr.dirk.hesse@gmail.com>
+Requires-Python: >=3.6
+Description-Content-Type: text/x-rst
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development :: Libraries
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+Requires-Dist: tox==3.24.1 ; extra == "test"
+Project-URL: github, https://github.com/dhesse/py-uwerr
+Provides-Extra: test
+
+============================
+Analysis of Monte Carlo data 
+============================
+
+Author: Dirk Hesse <herr.dirk.hesse@gmail.com>
+
+We implement the method to estimate autocorrelation times of Monte
+Carlo data presented in 
+
+U. Wolff [ALPHA Collaboration], *Monte Carlo errors with less errors*,
+Comput. Phys. Commun.  **156**, 143 (2004) ``[hep-lat/0306017]``.
+
+**PUBLICATIONS MAKING USE OF THIS CODE MUST CITE THE PAPER.**
+
+The main objective is the following: Data coming from a Monte Carlo
+simulation usually suffers from autocorrelation. It is not
+straight-forward to estimate this autocorrelation, which is required
+to give robust estimates for errors. This program implements a method
+proposed by Wolff to estimate autocorrelations in a safe way.
+
+
+Quick start
+===========
+
+This package contains code to generate correlated data, so we can
+conveniently demonstrate the basic functionality of the code in a
+short example::
+
+  >>> from puwr import tauint, correlated_data
+  >>> correlated_data(2, 10)
+  [[array([ 1.02833043,  1.08615234,  1.16421776,  1.15975754,
+            1.23046603,  1.13941114,  1.1485227 ,  1.13464388,
+            1.12461557,  1.15413354])]]
+  >>> mean, delta, tint, d_tint = tauint(correlated_data(10, 200), 0)
+  >>> print "mean = {0} +/- {1}".format(mean, delta)
+  mean = 1.42726267057 +/- 0.03013853
+  >>> print "tau_int = {0} +/- {1}".format(tint, d_tint)
+  tau_int = 9.89344869217 +/- 4.10466090332
+
+The data is expected to be in the format
+``data[observable][replicum][measurement]``. See the documentation
+that comes with this code for more information.
+
+
+License
+=======
+
+See LICENSE file.
+
