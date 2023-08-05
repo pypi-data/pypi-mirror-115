@@ -1,0 +1,3 @@
+[console_scripts]
+sc-excel-splitter = sc_excel_splitter.main:main
+
