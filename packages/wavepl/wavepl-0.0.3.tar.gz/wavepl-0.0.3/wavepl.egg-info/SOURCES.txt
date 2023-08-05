@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+wapl/__init__.py
+wapl/wapl.py
+wavepl.egg-info/PKG-INFO
+wavepl.egg-info/SOURCES.txt
+wavepl.egg-info/dependency_links.txt
+wavepl.egg-info/requires.txt
+wavepl.egg-info/top_level.txt
