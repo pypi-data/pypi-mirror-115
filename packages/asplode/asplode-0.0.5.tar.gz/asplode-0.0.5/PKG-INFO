@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: asplode
+Version: 0.0.5
+Summary: Recursively decompress archives
+Home-page: http://github.com/fprimex/asplode
+Author: Brent Woodruff
+Author-email: brent@fprimex.com
+License: Apache
+Description: Recursively decompress archives
+Keywords: decompression archives zip gzip tar
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Topic :: Utilities
