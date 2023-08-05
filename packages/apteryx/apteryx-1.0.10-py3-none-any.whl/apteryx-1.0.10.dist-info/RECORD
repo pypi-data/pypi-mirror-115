@@ -1,0 +1,13 @@
+apteryx/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+apteryx/google/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+apteryx/google/storage.py,sha256=ewKOUlfHP66OQ1ekdK1tQKbV66MqNptM7gE-KCv_MTE,2590
+apteryx/types.py,sha256=PdiVJh9-EbYXk5RVS2nQ949gZdhHt895TrtTMKjAh0Q,74
+apteryx/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+apteryx/utils/decorators.py,sha256=Jk3crprsOGWeFttuPQmdkyyPbk_C23-WeHox4aSi3b0,648
+apteryx/utils/functions.py,sha256=Qa6kND9fu5md5QDfJ9OE5F2B8oM45wO-wb1SDoLgfs8,256
+apteryx/utils/http/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+apteryx/utils/http/networking.py,sha256=TRTv8H83OF3Qi5x77wxSujaB_AbLPjoGC8dnyqLC6Eo,245
+apteryx/utils/http/parallel.py,sha256=W--W2amatXpbIPt8ic9ndWVwDrz3Hgx_eChp75ZHZ4I,365
+apteryx-1.0.10.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+apteryx-1.0.10.dist-info/METADATA,sha256=KTiO2-TWJRjipwibj1DMgUWYokuQl7h5lLR9g_E3RD8,812
+apteryx-1.0.10.dist-info/RECORD,,
