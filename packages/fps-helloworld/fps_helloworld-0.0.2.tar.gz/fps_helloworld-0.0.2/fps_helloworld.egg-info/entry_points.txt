@@ -1,0 +1,6 @@
+[console_scripts]
+helloworld = fps.cli:app
+
+[fps]
+fps-helloworld = helloworld.main
+
