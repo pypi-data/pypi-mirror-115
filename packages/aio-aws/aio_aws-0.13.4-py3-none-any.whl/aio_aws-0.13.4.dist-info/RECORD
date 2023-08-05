@@ -1,0 +1,17 @@
+aio_aws/__init__.py,sha256=MzE1BRqH81dLa5akdxoY6yqFsTPvZ1LaFei9tpBkIV0,646
+aio_aws/aio_aws_batch.py,sha256=8qK9zCHwfBBTI9kgL9bV5tPoZYcaq6MNzw9nlCWFgj8,45177
+aio_aws/aio_aws_config.py,sha256=UJQs50DsEo-_KUysp2x7Me3BaHmrSh1bTcjiwLUSu5s,11447
+aio_aws/aio_aws_lambda.py,sha256=Rv-iVkd_nD8mH4AT64zJ8Zr4qVNY5UP528l9EleJfr8,14426
+aio_aws/aio_aws_s3.py,sha256=oZqy8JHBXPFmLbqH3zgUV4oK1PKpnlm9mpTop0MninY,24561
+aio_aws/async_executor.py,sha256=lH1UQMI1Rw4BoQyFQ08yrg4p-uJTZ-GJDjkED3l2RpQ,13901
+aio_aws/async_main.py,sha256=uwAwN1nl83eWealWygouMS-mEevLEl1UdYS2QokheT4,955
+aio_aws/logger.py,sha256=ZjdX6PFiMzUfNhgFUp3aYoSJpVKYsIR1FgkC-NvOqRs,1284
+aio_aws/s3_aio.py,sha256=Sw7CmLVcEIImQ0GbZ31wHi9oKDtr40Tu-fhBwp-zUIY,16226
+aio_aws/s3_io.py,sha256=fW_FYw3JNVvMXigGQXpzFgRdjr-H5oZRvpu-pJ7dKLM,11746
+aio_aws/s3_uri.py,sha256=hDlC_2jy1YRaeJFwzIlvxOT3ubJd8_K5X9d7zdj_LMw,14255
+aio_aws/utils.py,sha256=FvfLd6qGMVkNfntF2pVtoODsFYLrnHKM96RNBZj0SGE,909
+aio_aws/version.py,sha256=VW0A2Q5ojmgzVw0MaG2ZFhdkiFBuBuL-vNNZgCkfRd4,281
+aio_aws-0.13.4.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+aio_aws-0.13.4.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+aio_aws-0.13.4.dist-info/METADATA,sha256=Yrq2FsSceA7Cp-fAh-5UV5FOtwFj93pdzxNRqQhcPt0,5295
+aio_aws-0.13.4.dist-info/RECORD,,
