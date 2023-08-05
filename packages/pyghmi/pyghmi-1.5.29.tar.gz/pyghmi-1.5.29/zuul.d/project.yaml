@@ -1,0 +1,15 @@
+- job:
+    name: virtualbmc-tempest-ironic-ipmi-iscsi-pyghmi-src
+    parent: virtualbmc-tempest-ironic-ipmi-iscsi
+    required-projects:
+      - x/pyghmi
+
+- project:
+    templates:
+      - check-requirements
+      - openstack-python3-xena-jobs
+      - build-openstack-docs-pti
+    check:
+      jobs:
+        - virtualbmc-tempest-ironic-ipmi-iscsi-pyghmi-src:
+            voting: false
