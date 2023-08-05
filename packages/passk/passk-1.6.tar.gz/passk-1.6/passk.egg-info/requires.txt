@@ -1,0 +1,4 @@
+pycryptodome
+dropbox
+pbkdf2
+pyperclip
