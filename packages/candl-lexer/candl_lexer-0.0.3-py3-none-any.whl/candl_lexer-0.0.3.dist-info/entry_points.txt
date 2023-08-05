@@ -1,0 +1,4 @@
+
+    [pygments.lexers]
+    candl_lexer = candl_lexer.lexer:CandlLexer
+    
