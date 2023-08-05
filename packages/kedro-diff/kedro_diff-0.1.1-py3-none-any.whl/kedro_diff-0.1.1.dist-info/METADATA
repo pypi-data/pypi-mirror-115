@@ -1,0 +1,139 @@
+Metadata-Version: 2.1
+Name: kedro-diff
+Version: 0.1.1
+Summary: diff commits to your kedro pipeline
+Home-page: https://github.com/WaylonWalker/kedro-diff
+Author: Waylon Walker
+License: OSI APPROVED :: MIT LICENSE
+Keywords: pipelines,machine learning,data pipelines,data science,data engineering
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Plugins
+Classifier: Framework :: Kedro
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Typing :: Typed
+Description-Content-Type: text/markdown
+Requires-Dist: click
+Requires-Dist: kedro
+Requires-Dist: more-itertools
+Requires-Dist: rich
+Provides-Extra: dev
+Requires-Dist: black (==20.8b1) ; extra == 'dev'
+Requires-Dist: bump2version ; extra == 'dev'
+Requires-Dist: flake8 (==3.9.0) ; extra == 'dev'
+Requires-Dist: interrogate ; extra == 'dev'
+Requires-Dist: isort (==5.8.0) ; extra == 'dev'
+Requires-Dist: mypy (==0.812) ; extra == 'dev'
+Requires-Dist: pre-commit ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: pytest-mock ; extra == 'dev'
+Requires-Dist: setuptools ; extra == 'dev'
+Requires-Dist: wheel ; extra == 'dev'
+
+# kedro-diff
+
+
+`kedro-diff` aims to be a familiar interface into comparing two points in
+history.  Git diffs are fantastic tools but often are too granular to see what
+has changed inside the pipeline.  `kedro-diff` aims to be a familiar tool at a
+higher level so we can see changes to nodes (names, inputs, outputs, tags).
+
+## Installation
+
+
+``` bash
+pip install kedro-diff
+```
+
+## Example
+
+``` diff
+kedro diff --stat develop..master
+M  __default__      | 6 ++++-
+M  data_science     | 3 +++
+M  data_engineering | 3 ++-
+?? new_pipeline
+
+4 pipelines changed, 5 insertions(+), 4 deletions(-)
+```
+
+## Usage
+
+``` diff
+# diff develop into master
+kedro diff develop..master
+
+kedro diff develop master
+
+# diff current state with main
+kedro diff main
+
+# diff current state with main
+kedro diff ..main
+
+# comparing pipelines from two branches
+kedro diff master new_branch data_science
+```
+
+## More examples
+
+``` diff
+kedro diff develop..master
+╭──────────────────────────────────────────────────────────────────────────────╮
+│ modified: data_engineering                                                   │
+╰──────────────────────────────────────────────────────────────────────────────╯
++ strip_whitespace
++ lowercase_columns
++ get_trains
+- get_tains
+╭──────────────────────────────────────────────────────────────────────────────╮
+│ modified: data_science                                                       │
+╰──────────────────────────────────────────────────────────────────────────────╯
++ split_data
+```
+
+## Roadmap
+
+### 1.0.0
+
+- [x] commit parser
+- [x] get `pipeline.to_json()` for `__default__` for two different commits
+- [x] get `pipeline.to_json()` for all pipelines for two different commits
+- [x] --stat compares the number of nodes added or dropped in `__default__`
+- [x] --stat compares the number of nodes added or dropped in all pipelines
+- [x] --stat compares attribute changes (inputs, outputs, tags) in all pipelines
+- [x] compare input names
+- [x] compare output names
+- [ ] speed up getting repeat pipelines from the same commit (no need to reaload a new session)
+- [ ] speed up getting repeat commits by checking commit hash (reuse existing json)
+- [ ] minimize untested code
+
+### 2.0.0
+
+_super-size `pipeline.to_json()`_
+- [x] compare all attributes on a node ( not just inputs, outputs, tags)
+- [ ] allow users to specify custom to_json method
+- [ ] function names
+- [ ] function hashes
+- [ ] catalog _filepath
+- [ ] catalog _sql
+
+## Testing
+
+This project strives for 100% test coverage where it makes sense.  Other kedro
+plugins I have created have suffered development speed by the complexity of
+fully testing on a full kedro project. There are so many pieces to get into
+place that it becomes difficult to test accross multiple versions of kedro or
+keep the tests working as kedro changes.  Minimal functionality will be placed
+into modules that require a kedro full kedro project in place to work.
+
+
