@@ -1,0 +1,3 @@
+[console_scripts]
+maze_gitb = maze_gitb.main:main
+
