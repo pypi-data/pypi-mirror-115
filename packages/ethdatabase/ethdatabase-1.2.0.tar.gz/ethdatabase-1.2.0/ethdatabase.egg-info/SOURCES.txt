@@ -1,0 +1,8 @@
+setup.py
+ethdatabase/__init__.py
+ethdatabase/main.py
+ethdatabase.egg-info/PKG-INFO
+ethdatabase.egg-info/SOURCES.txt
+ethdatabase.egg-info/dependency_links.txt
+ethdatabase.egg-info/requires.txt
+ethdatabase.egg-info/top_level.txt
