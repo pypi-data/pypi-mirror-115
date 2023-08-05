@@ -1,0 +1,14 @@
+scancode_glc_plugin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scancode_glc_plugin/pipelines/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scancode_glc_plugin/pipelines/glc_scan.py,sha256=7kQq0mkAohRyNFLQ3Arm7-__NEIHOkno7OipJlblFNQ,1908
+scancode_glc_plugin/pipes/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scancode_glc_plugin/pipes/glc.py,sha256=Ae8bf1yc_C9VcYssLDxfIHZlbseywLCgZyCgWSyH-70,2390
+scancodeio_glc_plugin-0.0.1.dist-info/AUTHORS.rst,sha256=slWE8eNyQu-iQqDwlsWBiS4eS5ELmSxRCkUxEQ7by28,78
+scancodeio_glc_plugin-0.0.1.dist-info/CHANGELOG.rst,sha256=YX4sJCa6wV7w9nc3JwJnAWUWUFFXCQHJ2x0VJqHnyTk,70
+scancodeio_glc_plugin-0.0.1.dist-info/METADATA,sha256=lY97-6zoSodIu8L1egfWW9vax5zCNMTst6mwLoEIeCg,1848
+scancodeio_glc_plugin-0.0.1.dist-info/NOTICE,sha256=SM7ELF-ckyHeexaDSX7P2EqDbjYkb6S8c_CWcsdMyXM,752
+scancodeio_glc_plugin-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+scancodeio_glc_plugin-0.0.1.dist-info/apache-2.0.LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+scancodeio_glc_plugin-0.0.1.dist-info/entry_points.txt,sha256=YUZIVwTVL-cnm1YmUNNcLxGqyYJPaQ_wnwzoQm7K0Zw,96
+scancodeio_glc_plugin-0.0.1.dist-info/top_level.txt,sha256=9IudowS3nXEsa9rwckHIqSbjiqBDK_TT5HBfiVq3JvI,20
+scancodeio_glc_plugin-0.0.1.dist-info/RECORD,,
