@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+candl_lexer/__init__.py
+candl_lexer/lexer.py
+candl_lexer.egg-info/PKG-INFO
+candl_lexer.egg-info/SOURCES.txt
+candl_lexer.egg-info/dependency_links.txt
+candl_lexer.egg-info/entry_points.txt
+candl_lexer.egg-info/requires.txt
+candl_lexer.egg-info/top_level.txt
