@@ -1,0 +1,8 @@
+README.md
+setup.py
+noteth/__init__.py
+noteth/noteth.py
+noteth.egg-info/PKG-INFO
+noteth.egg-info/SOURCES.txt
+noteth.egg-info/dependency_links.txt
+noteth.egg-info/top_level.txt
