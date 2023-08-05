@@ -1,0 +1,5 @@
+The distribution of this package is granted by the license (tesseract_license.txt).
+
+If you are reading this on github or downloaded it,
+please note that 3 files are not inclued in here (libtesseract-5.dll,icudt64.dll,libstdc++-6.dll),
+because they are over 25mb big.

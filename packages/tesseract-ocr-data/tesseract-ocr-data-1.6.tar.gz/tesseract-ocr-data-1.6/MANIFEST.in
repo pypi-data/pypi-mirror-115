@@ -1,0 +1,5 @@
+include tesseract_pack/*
+include tesseract_pack/tessdata/*
+include tesseract_pack/tessdata/tessdata/scripts/*
+include tesseract_pack/tessdata/configs/*
+include tesseract_pack/tessdata/tessconfigs/*
