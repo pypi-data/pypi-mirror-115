@@ -1,0 +1,7 @@
+django>=2.1.*
+
+[dev]
+pytest
+pytest-pep8
+pytest-cov
+pytest-django

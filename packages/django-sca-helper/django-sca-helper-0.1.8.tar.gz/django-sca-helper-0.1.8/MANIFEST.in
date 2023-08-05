@@ -1,0 +1,6 @@
+exclude pytest.ini
+recursive-exclude venv
+exclude .github
+recursive-exclude conf
+exclude manage.py
+include django_helper
