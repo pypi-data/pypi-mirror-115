@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: jupyter-matlab-proxy
+Version: 0.3.0
+Summary: Jupyter extension to proxy MATLAB JavaScript Desktop
+Home-page: https://github.com/mathworks/jupyter-matlab-proxy
+Author: The MathWorks, Inc.
+Author-email: jupyter-support@mathworks.com
+License: MATHWORKS CLOUD REFERENCE ARCHITECTURE LICENSE
+Keywords: Jupyter
+Platform: UNKNOWN
+Classifier: Framework :: Jupyter
+Requires-Python: ~=3.7
+Requires-Dist: jupyter-server-proxy
+Requires-Dist: aiohttp (>=3.7.4)
+Provides-Extra: dev
+Requires-Dist: aiohttp-devtools ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-env ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: pytest-mock ; extra == 'dev'
+Requires-Dist: pytest-dependency ; extra == 'dev'
+Requires-Dist: pytest-aiohttp ; extra == 'dev'
+Requires-Dist: requests ; extra == 'dev'
+Requires-Dist: psutil ; extra == 'dev'
+Requires-Dist: aioresponses ; extra == 'dev'
+
+UNKNOWN
+
+
