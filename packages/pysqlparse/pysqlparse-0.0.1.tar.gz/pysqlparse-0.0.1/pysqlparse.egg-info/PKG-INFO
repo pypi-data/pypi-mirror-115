@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: pysqlparse
+Version: 0.0.1
+Summary: Extract table names and other information from SQL queries
+Home-page: https://github.com/lawrencemq/py-sql-parser
+Author: Lawrence Weikum
+Author-email: lawrencemq@gmail.com
+License: MIT
+Project-URL: Bug Tracker, https://github.com/lawrencemq/py-sql-parser/issues
+Keywords: sql,parse
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Database
+Classifier: Topic :: Software Development
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# py-sql-parser
+Find table names and other information in a SQL query
+
+

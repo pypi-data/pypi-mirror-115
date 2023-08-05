@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+pysqlparse/__init__.py
+pysqlparse/parser.py
+pysqlparse.egg-info/PKG-INFO
+pysqlparse.egg-info/SOURCES.txt
+pysqlparse.egg-info/dependency_links.txt
+pysqlparse.egg-info/top_level.txt
+tests/__init__.py
+tests/test_parser.py
