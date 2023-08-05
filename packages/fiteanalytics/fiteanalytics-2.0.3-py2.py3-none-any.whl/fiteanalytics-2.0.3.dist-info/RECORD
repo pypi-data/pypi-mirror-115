@@ -1,0 +1,10 @@
+fiteanalytics/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fiteanalytics/finx/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fiteanalytics/finx/client.py,sha256=TlhQ3A2P8aOso8PBRE7R6k4yVq3-rtoo4yXOevWhsbI,32960
+fiteanalytics/finx/client_benchmarks.py,sha256=y6fkAVTq0cSQiI8-tB1T5NzIVWkN3Wg4SJBI0kJRpzU,3005
+fiteanalytics/finx/client_example.py,sha256=eS_8toOF-JmznKlsCFX9nK94FASZOWlRUMfRK0s2Lxc,2118
+fiteanalytics-2.0.3.dist-info/LICENSE,sha256=2lWcRAHjsQhqavGNnR30Ymxq3GJ9BaYL_dnfGO_-WFA,34500
+fiteanalytics-2.0.3.dist-info/METADATA,sha256=sU6og9kR7gPVvDT5og9K4yVOu12YOJzzOk5cXV0xYFw,480
+fiteanalytics-2.0.3.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+fiteanalytics-2.0.3.dist-info/top_level.txt,sha256=6pJfWuXjKjeiuxlKVf438Q9zrWRAdxeciDX392zDdNY,14
+fiteanalytics-2.0.3.dist-info/RECORD,,
