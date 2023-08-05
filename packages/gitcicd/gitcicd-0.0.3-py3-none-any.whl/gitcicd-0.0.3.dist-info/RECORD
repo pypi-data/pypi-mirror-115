@@ -1,0 +1,8 @@
+buildspan/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+buildspan/gitci.py,sha256=dTpWJ75TTFU5rFhBPE2-Bi7L_kwj3uR_-h0us0PEf7E,4308
+gitcicd-0.0.3.dist-info/LICENCE,sha256=RlcV46ocynjv78wlXcIWqkH2r7uXwFx9oMwJYNXCBlY,1088
+gitcicd-0.0.3.dist-info/METADATA,sha256=vHe9fXo-uNJqSoNliqTzzmCs6W_JFGE7sdte8XJNmN8,1325
+gitcicd-0.0.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+gitcicd-0.0.3.dist-info/entry_points.txt,sha256=8RMYC-KkXjeiW6GrwocCMJjFUZKHEYqd7AQxkspoMMw,51
+gitcicd-0.0.3.dist-info/top_level.txt,sha256=8kt0RtUyaD7pbJyyRoc2OQNQD1EArS84MEzdWOc34_8,10
+gitcicd-0.0.3.dist-info/RECORD,,
