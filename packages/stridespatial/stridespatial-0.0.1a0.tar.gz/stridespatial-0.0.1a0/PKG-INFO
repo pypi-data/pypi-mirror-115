@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: stridespatial
+Version: 0.0.1a0
+Summary: STRIDE (Spatial TRanscrIptomics DEconvolution by topic modelling) is a cell-type deconvolution tool for spatial transcriptomics. 
+Home-page: https://github.com/dongqingsun96/STRIDE
+Author: Dongqing Sun
+Author-email: Dongqingsun96@gmail.com
+License: GPL-3.0
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Requires-Python: >=3.7
+License-File: LICENSE
+
+UNKNOWN
+
