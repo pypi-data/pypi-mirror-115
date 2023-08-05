@@ -1,0 +1,5 @@
+setup.py
+reddit_ml_service_utils.egg-info/PKG-INFO
+reddit_ml_service_utils.egg-info/SOURCES.txt
+reddit_ml_service_utils.egg-info/dependency_links.txt
+reddit_ml_service_utils.egg-info/top_level.txt
