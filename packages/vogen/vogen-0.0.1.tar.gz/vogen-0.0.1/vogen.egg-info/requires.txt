@@ -1,0 +1,5 @@
+numpy
+jyutping
+pypinyin
+onnxruntime
+pyworld
