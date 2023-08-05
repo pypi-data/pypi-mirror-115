@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+PyYtX/__init__.py
+PyYtX/ythumb.py
+PyYtX.egg-info/PKG-INFO
+PyYtX.egg-info/SOURCES.txt
+PyYtX.egg-info/dependency_links.txt
+PyYtX.egg-info/requires.txt
+PyYtX.egg-info/top_level.txt

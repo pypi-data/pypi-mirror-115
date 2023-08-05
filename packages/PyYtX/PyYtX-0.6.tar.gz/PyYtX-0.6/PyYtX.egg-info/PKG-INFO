@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: PyYtX
+Version: 0.6
+Summary: A Simple Python Program to Get Best Possible Thumbnail Urls From a Youtube Video Link
+Home-page: https://github.com/Itz-fork/PyYtX
+Author: Itz-fork
+Author-email: itz-fork@users.noreply.github.com
+License: MIT
+Download-URL: https://github.com/Itz-fork/PyYtX/archive/refs/tags/v0.6.tar.gz
+Keywords: python,youtube,PyYtX
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+wget
+
