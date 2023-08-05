@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+gunicorn
+python-multipart
+email-validator
+pydantic
+pydantic[email]
+requests
