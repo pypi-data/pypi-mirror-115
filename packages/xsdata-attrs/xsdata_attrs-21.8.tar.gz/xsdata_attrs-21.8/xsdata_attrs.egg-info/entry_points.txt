@@ -1,0 +1,6 @@
+[xsdata.plugins.class_types]
+xsdata_attrs = xsdata_attrs.hooks.class_type
+
+[xsdata.plugins.cli]
+xsdata_attrs = xsdata_attrs.hooks.cli
+
