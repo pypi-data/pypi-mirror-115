@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/kson_jbrazeal.egg-info/PKG-INFO
+src/kson_jbrazeal.egg-info/SOURCES.txt
+src/kson_jbrazeal.egg-info/dependency_links.txt
+src/kson_jbrazeal.egg-info/top_level.txt
