@@ -1,0 +1,4 @@
+include versioneer.py
+include src/gosu/_version.py
+include src/gosu/.coveragerc
+include src/gosu/.flake8
