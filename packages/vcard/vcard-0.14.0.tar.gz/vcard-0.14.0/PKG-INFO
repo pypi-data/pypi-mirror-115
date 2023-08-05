@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: vcard
+Version: 0.14.0
+Summary: vCard validator, class and utility functions
+License: AGPL-3.0-or-later
+Author: Victor Engmark
+Author-email: victor@engmark.name
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: python-dateutil
