@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: PeptidesSearch
+Version: 0.1.1
+Summary: Search a list of peptides in a fasta file (or proteome) and returns exact matches or hits with one mismatch
+Home-page: https://github.com/khaledianehdieh/PeptidesSearch
+Author: Ehdieh Khaledian
+Author-email: khaledianehdieh@gmail.com
+License: MIT
+Download-URL: https://pypi.org/project/PeptidesSearch/
+Keywords: Peptide Search,Peptide Match,One Mismatch,Exact Match,python,Peptide,Protein
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: re
+Requires-Dist: more-itertools
+
+Useful tools to work with Elastic stack in Python
+
+# Description
+    
+This tool consists one module:
+
+- `PeptideSearch`: this tool searches for peptides in a fasta file including proteins, it can find Exact Match or Marches with up to One Mismatch 
+
+# Installation
+ 
+## Normal installation
+
+```bash
+pip install PeptideSearch
+```
+
+## Development installation
+
+```bash
+git clone https://github.com/khaledianehdieh/PeptideSearch.git
+```
+
+# Change log
+
+## [0.1] - 2021-08-02
+- Created
+
+
+
