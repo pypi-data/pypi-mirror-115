@@ -1,0 +1,9 @@
+paddlelite-2.9.1.data/purelib/paddlelite/__init__.py,sha256=yTKTSUPE9Y8sxTNG3Kb-5Wyma0fnz5IsqH4Vb6QJqpM,873
+paddlelite-2.9.1.data/purelib/paddlelite/lite.so,sha256=lpEHO2JoKxGwcJIf790Z7YcU9XCo7rfhfFWra_7UAA8,32952936
+paddlelite-2.9.1.data/purelib/paddlelite/libs/libiomp5.so,sha256=MrQKNEAzuPKOVMvHjWhiQDbNXsS5sWd-1bLFuefcN74,2106132
+paddlelite-2.9.1.data/purelib/paddlelite/libs/libmklml_intel.so,sha256=DclR9DyY67XuGN0NqdUTJT02Z-0YTmbpdokzYlxcN0s,132529016
+paddlelite-2.9.1.data/scripts/paddle_lite_opt,sha256=Kmz6_N5n9_M7JlvlYZE7laD7p5Fu7K_5ejTOfi9F51Y,4900
+paddlelite-2.9.1.dist-info/METADATA,sha256=Z10Gsb_qNro0MxLaOcMwpqu-3Z3qfBrN3CkDeJsyjRM,186
+paddlelite-2.9.1.dist-info/RECORD,,
+paddlelite-2.9.1.dist-info/WHEEL,sha256=i6k7eASF0PYkxTk8xYGDo2lgmvHxPOJop87WoO3c38E,104
+paddlelite-2.9.1.dist-info/top_level.txt,sha256=b3U0N5QLAxUDw34sLWIngLikHmsrxHoFQu_jNPw2h-Y,11
