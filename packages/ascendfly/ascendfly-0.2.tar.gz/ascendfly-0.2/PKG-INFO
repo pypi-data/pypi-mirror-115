@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: ascendfly
+Version: 0.2
+Summary: Ascend inference framework
+Home-page: https://gitee.com/ascend-fae/ascendfly
+Author: zhengguojian
+Author-email: kfengzheng@163.com
+License: UNKNOWN
+Description: The project implements the Ascendfly Inference framework through the Ascend Compute Language Python (pyACL) API, and define a series of easy-to-use python interfaces. The purpose is to simplify the development process of users using pyACL and accelerate the migration and deployment of algorithms. The following is a brief description of ascendfly. This software provides the following functions: 1. Define the Context and Memory resource classes to simplify resource scheduling and allocation.2. Define the AscendArray class (like numpy.ndrray), and manage images and tensor on the device to achieve data unity. AscendArray automatically manages data memory without user operation.3. Define the VideoCapture and VideoWriter classes to obtain real-time H264 (MAIN LEVEL without B frame) protocol RTSP/RTMP stream, and hard-decode it through the Ascend310 chip, or encode the picture into a 264/265 stream frame by frame.4. Define the Image class to realize image processing functions such as image decoding, scaling, cutting, padding, etc.5. Define the Model class to perform model inference functions.6. Define Profiling class to facilitate model performance tuning.7. Other functions such as single operator call, post-processing and so on. 
+Keywords: ascend detection and classification
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Software Development :: Libraries
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.7

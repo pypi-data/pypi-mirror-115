@@ -1,0 +1,5 @@
+numpy>=1.14
+av>=8.0.2
+objgraph>=3.5.0
+opencv-python>=3.4.2
+prettytable>=2.1.0
