@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/h_assets/__init__.py
+src/h_assets/_cached_file.py
+src/h_assets/environment.py
+src/h_assets/view.py
+src/h_assets.egg-info/PKG-INFO
+src/h_assets.egg-info/SOURCES.txt
+src/h_assets.egg-info/dependency_links.txt
+src/h_assets.egg-info/requires.txt
+src/h_assets.egg-info/top_level.txt
