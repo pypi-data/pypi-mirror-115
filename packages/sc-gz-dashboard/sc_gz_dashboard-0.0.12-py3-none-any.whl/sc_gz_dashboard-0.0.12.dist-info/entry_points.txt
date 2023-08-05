@@ -1,0 +1,3 @@
+[console_scripts]
+sc-gz-dashboard = sc_gz_dashboard.main:main
+

@@ -1,0 +1,14 @@
+# 服务相关配置
+server:
+  # 运行服务的名称或者IP地址
+  host: "0.0.0.0"
+  # 运行服务的端口
+  port: 18080
+
+#数据库相关配置
+db:
+  host: "localhost"
+  port: 3306
+  user: "dashboard"
+  password: "dashboard@123"
+  database: "gz_dashboard"
