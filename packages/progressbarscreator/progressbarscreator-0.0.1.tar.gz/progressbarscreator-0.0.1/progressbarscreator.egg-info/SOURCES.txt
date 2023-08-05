@@ -1,0 +1,7 @@
+setup.py
+progressbarscreator/__init__.py
+progressbarscreator/progressbarscreator.py
+progressbarscreator.egg-info/PKG-INFO
+progressbarscreator.egg-info/SOURCES.txt
+progressbarscreator.egg-info/dependency_links.txt
+progressbarscreator.egg-info/top_level.txt
