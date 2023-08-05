@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: frozenSpider
+Version: 0.0.7
+Summary: Library to implement and visualise ML Algorithms
+Home-page: https://github.com/mrfrozen97
+Author: mr_frozen97
+Author-email: mrfrozenpeak@gmail.com
+License: MIT
+Keywords: ml algorithms
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: numpy
+
+This is a library that does all the heavy lifting for the basic ml algorithms such as regression, knn, svm, etc. But, currently this has only linear regression. The speciality about this library is you can plot the outcomes on graph in a single line using class included in the library. Which is fed with default parameters. Which you can change according to your requirements.It uses the following libraries 1) Numpy 2) Matplotlib 3) Random
+
+Change Log 0.0.1 (10/01/2021 )- First Release
+
+
+
