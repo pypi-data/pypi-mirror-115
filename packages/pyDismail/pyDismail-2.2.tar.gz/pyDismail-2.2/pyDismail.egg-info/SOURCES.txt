@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+pyDismail/__init__.py
+pyDismail/dismail.py
+pyDismail.egg-info/PKG-INFO
+pyDismail.egg-info/SOURCES.txt
+pyDismail.egg-info/dependency_links.txt
+pyDismail.egg-info/requires.txt
+pyDismail.egg-info/top_level.txt
