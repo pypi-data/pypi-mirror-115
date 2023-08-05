@@ -1,0 +1,15 @@
+XigtifiedToolbox/FeatDict.py,sha256=25a4ibH6xX2uD4dEKwSPlwF9NFAtzhqI2c4Hw5cIl1g,27621
+XigtifiedToolbox/MorphTypeGuesser.py,sha256=70UZ0sh3uMnbzJNO6qVJcw3Pog06vl7jZJDyI5eNM1g,1712
+XigtifiedToolbox/XigtReader.py,sha256=SMel3I7kolCWcnxWyEF09vTGexETrUhcCQuScuz59Vg,35755
+XigtifiedToolbox/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+XigtifiedToolbox/__main__.py,sha256=gIf6PWqcjjbP6L28dr7Kq2lY4PprWlCq9Z82Qd_nC8A,1302
+XigtifiedToolbox/collect_tags_toolbox.py,sha256=4qGI54ocZ6Wsu6uSf0l_TiPbV8BZEudGtPklVJ3cucA,392
+XigtifiedToolbox/collect_tags_xigt.py,sha256=NhqyCYwqj7POHY81-7pTktVbAYyZBXToPsPnz7xDiFI,3137
+XigtifiedToolbox/query_word_pos.py,sha256=xxONnZNltHTgls-6PVYKq92v3AwMS4gb4OnThWG0mks,307
+XigtifiedToolbox/report_problems.py,sha256=0n1VCwBbsJ0yWpu23LCteAF2EcK4LP5-J5C1fCOGams,4345
+XigtifiedToolbox/util.py,sha256=Cf81seuK5hy3SL4f0lLd1qgg2C8M7c7mVjD6xS_xodg,2404
+XigtifiedToolbox-0.0.1.dist-info/LICENSE,sha256=lyyukxs32gJcKyLEVPbao-Hw-nuDLhch3Lb2Pk3rxhg,1060
+XigtifiedToolbox-0.0.1.dist-info/METADATA,sha256=mna3uUtMRiA2jyOecOqQ3e9hN_Nop_zx7poAIAXi36E,780
+XigtifiedToolbox-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+XigtifiedToolbox-0.0.1.dist-info/top_level.txt,sha256=TsA3omE8PKymVlPdZk4lxeDtOtHYnpJpc2whjODbh7Q,17
+XigtifiedToolbox-0.0.1.dist-info/RECORD,,

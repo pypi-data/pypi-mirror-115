@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: XigtifiedToolbox
+Version: 0.0.1
+Summary: Utilities for working with Xigt data
+Home-page: https://github.com/pypa/sampleproject
+Author: Elizabeth Conrad
+Author-email: ecconrad@uw.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+This is basically a data structure that takes "Xigtified" Toolbox data
+and organizes it so that MOM can use it. There is an additional module
+that performs some consistency checks and will alert you if it suspects
+misalignments in the original Toolbox data.
+
