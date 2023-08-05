@@ -1,0 +1,10 @@
+{% if config.email_subject != None %}
+From: {{ config.email_from }}
+To: {{ config.email_to }}
+{% if config.email_cc != None %}
+Cc: {{ config.email_cc }}
+{% endif %}
+Subject:
+{{- " [REGRESSION]" if regressions|length > 0 }}
+{{- " %s" % (config.email_subject) }}
+{% endif %}
