@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: traffic_generation_utils
+Version: 0.0.1
+Summary: General set of utils to generate network traffic
+Author-email: Daniel Perdices <daniel.perdices@uam.es>
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+
+# traffic-generation-utils
+Python package for traffic generation
+
