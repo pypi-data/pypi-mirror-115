@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/ei/__init__.py
+src/ei/embed.py
+src/ei/hook.py
+src/ei/patch.py
+src/ei/patched.py
+src/ei.egg-info/PKG-INFO
+src/ei.egg-info/SOURCES.txt
+src/ei.egg-info/dependency_links.txt
+src/ei.egg-info/requires.txt
+src/ei.egg-info/top_level.txt
