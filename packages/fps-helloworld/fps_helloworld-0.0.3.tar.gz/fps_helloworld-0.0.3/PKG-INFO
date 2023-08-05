@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: fps_helloworld
+Version: 0.0.3
+Summary: A plugin demo for FPS
+Home-page: https://github.com/adriendelsalle/fps
+Author: Adrien DELSALLE
+Author-email: adrien.delsalle@quantstack.net
+License: UNKNOWN
+Description: # FPS Hello World!
+        
+        This is a simple example of to create a plugin for [fps](https://github.com/adriendelsalle/fps).
+        
+        Just create a fresh environment with `python`, then:
+        
+        - install `fps-helloworld` with `pip` by running `pip install fps-helloworld`
+        - run `fps` or `helloworld` command
+        
+Keywords: server,fastapi,pluggy,plugins
+Platform: Windows
+Platform: Linux
+Platform: Mac OS X
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown

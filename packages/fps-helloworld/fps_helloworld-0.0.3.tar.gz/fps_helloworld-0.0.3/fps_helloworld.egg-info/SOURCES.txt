@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+fps_helloworld/__init__.py
+fps_helloworld/_version.py
+fps_helloworld/main.py
+fps_helloworld.egg-info/PKG-INFO
+fps_helloworld.egg-info/SOURCES.txt
+fps_helloworld.egg-info/dependency_links.txt
+fps_helloworld.egg-info/entry_points.txt
+fps_helloworld.egg-info/requires.txt
+fps_helloworld.egg-info/top_level.txt
