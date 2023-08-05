@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+translate6frames/__init__.py
+translate6frames/translate6frames.py
+translate6frames.egg-info/PKG-INFO
+translate6frames.egg-info/SOURCES.txt
+translate6frames.egg-info/dependency_links.txt
+translate6frames.egg-info/top_level.txt
