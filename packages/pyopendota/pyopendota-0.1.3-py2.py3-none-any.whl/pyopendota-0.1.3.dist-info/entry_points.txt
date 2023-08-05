@@ -1,0 +1,3 @@
+[console_scripts]
+opendota = opendota.cli:main
+
