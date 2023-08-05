@@ -1,0 +1,8 @@
+reversion_rest_framework/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+reversion_rest_framework/serializers.py,sha256=Kfw3DqH_H3nRXDSHDaONOQ-3Bo8Hl2J-KZTOitXQJcw,483
+reversion_rest_framework/viewsets.py,sha256=Q1JNX3lHT4zHUci1Z9kQCActpC2V9FU9vIXDitQL5jg,1295
+django_reversion_rest_framework-0.3.0.dist-info/LICENSE,sha256=HwOectbvtB6Y1Bt6GDmR7lk0phAFfqaskpkq-dxhXGY,1072
+django_reversion_rest_framework-0.3.0.dist-info/METADATA,sha256=flDFbOcV1JYFSGBFf_XNpysrv-LgiTFrldjO5Oy9J_o,3328
+django_reversion_rest_framework-0.3.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+django_reversion_rest_framework-0.3.0.dist-info/top_level.txt,sha256=yln7v0raIkIldwnTJ4mUA-ZuqvQBlM0pQ1mMtnX2I-g,25
+django_reversion_rest_framework-0.3.0.dist-info/RECORD,,
