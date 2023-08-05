@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+src/blindfoldpy/__init__.py
+src/blindfoldpy/main.py
+src/blindfoldpy.egg-info/PKG-INFO
+src/blindfoldpy.egg-info/SOURCES.txt
+src/blindfoldpy.egg-info/dependency_links.txt
+src/blindfoldpy.egg-info/entry_points.txt
+src/blindfoldpy.egg-info/top_level.txt
