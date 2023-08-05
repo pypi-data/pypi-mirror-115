@@ -1,0 +1,5 @@
+setup.py
+wessex.egg-info/PKG-INFO
+wessex.egg-info/SOURCES.txt
+wessex.egg-info/dependency_links.txt
+wessex.egg-info/top_level.txt
