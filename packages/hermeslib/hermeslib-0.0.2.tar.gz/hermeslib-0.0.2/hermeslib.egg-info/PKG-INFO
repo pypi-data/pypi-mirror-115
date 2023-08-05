@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: hermeslib
+Version: 0.0.2
+Summary: The support lib of hermes instrument
+Home-page: https://github.com/keh123000/hermeslib
+Author: keheng
+Author-email: 26467568@qq.com
+License: MIT Licence
+Description: The support lib of hermes instrument
+Keywords: pip,hermes,valkyrie,vantage,keheng
+Platform: any
