@@ -1,0 +1,60 @@
+Instance, Digicloud virtual private servers (VPS)
+
+
+Related Commands:
+# Getting list of possible values for --image parameter:
+$ digicloud image list
+
+# Getting list of possible instance-types for --instance-type parameter:
+$ digicloud instance type list
+
+# Creating and managing networks:
+$ digicloud network create --help
+
+# Creating and managing SSH keys:
+$ digicloud ssh key create --help
+
+# Creating and managing Security Groups:
+$ digicloud security group create --help
+
+
+
+Examples:
+
+# Creating a simple server named master_server with Debian image of type g1.micro
+$ digicloud instance create master_server \
+                        --simple \
+                        --instance-type g1.micro \
+                        --image Debian_9
+
+# Creating a simple server named etcd_server with your own SSHkey named my_key
+$ digicloud instance create etcd_server \
+                        --simple \
+                        --instance-type g1.micro \
+                        --image Debian_9 \
+                        --ssh-key my_key
+
+
+# Creating an advanced server named db_server with a pre-configured network named my_network
+$ digicloud instance create db_server \
+                        --network \
+                        --instance-type g1.micro \
+                        --image Debian_9
+
+# You can use --additional-volume to create extra volume with your intended size:
+$ digicloud instance create backup_server
+                        --network my_network \
+                        --instance-type g1.micro \
+                        --image Debian_9
+                        --additional-volume 500
+
+
+# If you use --with-floating-ip, Digicloud will create and assign a Floating-IP to your new instance:
+$ digicloud instance create backup_server
+                        --network my_network \
+                        --instance-type g1.micro \
+                        --image Debian_9 \
+                        --with-floating-ip
+
+
+

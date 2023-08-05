@@ -1,0 +1,28 @@
+Volumes, Persistent storage
+
+Volumes are storage units which you can attach them to your instances (virtual machines). it usually a good idea
+to not to use your instance's root volume for storing important information.
+
+Examples:
+
+# Creating a SSD volume named box1 with 10GB size
+$ digicloud volume create box1 --type SSD --size 10
+
+# Listing current volumes
+$ digicloud volume list
+
+# Checking the details of a volume
+$ digicloud volume show box1
+
+# Attaching a volume to an instance(virtual machine)
+$ digicloud volume attach box1 --instance some_instance_name
+
+# Detaching a volume from an instance
+$ digicloud volume detach box1 --instance some_instance_name
+
+# Deleting a volume
+$ digicloud volume delete box1
+
+# Remember deleting a volume is a destructive operation, you can't undo that
+# that's why we always ask if you are sure, you can bypass this confirmation using:
+$ digicloud volume delete box1 --i-am-sure

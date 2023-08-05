@@ -1,0 +1,25 @@
+Namespaces, Organize your teams and projects
+
+
+When you create an instance or a volume or a network or pretty much anything else, it always gets created in a namespace.
+a namespace is a container for all your operational objects.
+
+# List your current namespaces
+$ digicloud namespace list
+
+# Let's create a new namespace named awesome_ns
+$ digicloud namespace create awesome_ns
+
+# Now, in order to use your newly created namespace you need to select it
+$ digicloud namespace select awesome_ns
+
+# You can always check your currently active namespace using
+$ digicloud namespace current
+
+# You can invite others to your namespace as new members:
+$ digicloud namespace member add awesome_ns  --email John@smith.me
+
+# You can list your namespaces invitations by the following command:
+$ digicloud namespace invitations list
+
+# Remember you can manage your namespace via Web interface too: https://console.digicloud.ir/settings/namespaces
