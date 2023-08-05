@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: uas
+Version: 0.1.0
+Summary: Random User-Agent
+Home-page: https://github.com/sorl/uas
+Author: Mikko Hellsing
+Author-email: mikko@sumsum.se
+License: MIT
+Project-URL: Bug Tracker, https://github.com/sorl/uas/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# uas
+
+## Description
+This fake user agent generator does not use any external data. Instead it
+randomizes browser versions for Firefox, Chrome and OS versions for MacOS,
+Windows. `uas` also contains some static user agents for bots from Facebook,
+Google and Bing.
+
+## Installation
+
+`pip install uas`
+
+## Usage
+
+```
+import requests
+from uas import chrome, firefox, bot, GOOGLE
+
+
+r = requests.get("https://example.com/chrome", headers={"User-Agent": chrome()})
+r = requests.get("https://example.com/firefox", headers={"User-Agent": firefox()})
+r = requests.get("https://example.com/bot", headers={"User-Agent": bot()})
+r = requests.get("https://example.com/google", headers={"User-Agent": GOOGLE[0]})
+```
+
+

@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+uas/__init__.py
+uas.egg-info/PKG-INFO
+uas.egg-info/SOURCES.txt
+uas.egg-info/dependency_links.txt
+uas.egg-info/top_level.txt
