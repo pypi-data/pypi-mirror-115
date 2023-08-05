@@ -1,0 +1,8 @@
+aiocoingecko/__init__.py,sha256=qEAT9-AM8s5QT0dfKKItdW9lEA1toQqmtLsjZy95XuE,64
+aiocoingecko/api.py,sha256=nkEdus3rHuBvtYUJ3aIK2RXAXsLvbqZ6pCG2KviXBEY,17204
+aiocoingecko/errors.py,sha256=ouZBk5XV4QgNZ-hWjR4aCUrEVh6jEwPved4h0kAUITA,965
+aiocoingecko-1.0.0.dist-info/LICENSE,sha256=ccZuNQSh2QaUxSxOJa64Y-3_JDA9u8KezRYQAKkiKqg,1124
+aiocoingecko-1.0.0.dist-info/METADATA,sha256=axMGC2bLA19YFslfyXyTamSU_cWz9wnpVXdSE4wKCx8,1388
+aiocoingecko-1.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+aiocoingecko-1.0.0.dist-info/top_level.txt,sha256=IMoc8kSYW6ezwgLvEc-QCKwLYCmp3L_u3sNbW1hwPHc,13
+aiocoingecko-1.0.0.dist-info/RECORD,,
