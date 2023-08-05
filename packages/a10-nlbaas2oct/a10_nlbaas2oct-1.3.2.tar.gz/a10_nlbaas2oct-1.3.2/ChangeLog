@@ -1,0 +1,86 @@
+CHANGES
+=======
+
+v1.3.2
+------
+
+* Update README.md
+* Fixed EOL issue
+* Added handling for parent being default. Added handling for case where partition name was used instead of id
+* Changed error message contains '\_' to '-'
+* [STACK-2629] update keystone\_db\_connection option and README
+* Removed option lb-id validation, it already exists
+* Forced status to ACTIVE if ignore status option is enabled
+* Added workaround for l7 status issue present in a10-nlbaas >1.7.3
+* Added validation for lb-id and project-id option
+* Updated readme for use parent project
+* Added provider name and keystone connection string entires to sample config
+* Added function to fetch parent project
+* Added error handling for parent project without keystone connect
+* Added optional keystone connection string to the config for use with parent partition
+* Updated delete message
+* Added stricter logic for CONF.all
+* functools module for python2 handled
+* Conficts resolved in a10\_migration.py file
+* Added support for provider specification
+* Updated readme and sample config
+* Altered flavor migration to use device name instead of entry name
+* Fixed looping issue for \_cleanup\_confirmation function
+* Added option to cleanup. Added device-name to flavor migration
+* Added support for multiple\_lb\_id
+* Added missing loadbalancer topology
+* Refactored hash instantiation
+* Added defrence to vars to prevent list indexing error
+
+v1.2.0
+------
+
+* Updated log messages to provide better action feedback
+* Added check of db usage before tenant binding delete. Updated copyrights
+* Fixed issue due to qoutation style required for json payload
+* Fixed issue where flavor\_id was null on Octavia side
+* Added code to translate name expressions to flavors
+* Added hashring for device selection without db
+
+v1.1.0
+------
+
+* Fixed setup.cfg readme section
+* Update README.md
+* Update README.md
+
+v1.0.1
+------
+
+* Corrected setup config
+* Update README.md
+* Update README.md
+* Repositioned pools to migrate before listeners due to l7policy foreign key constraint
+* Improved error message for lb id not being specified properly. Fixed log message showing up when no action was taken on db table deletion
+* Added fixes for pool, member, l7policy and l7rule
+* Resolved the issue for @funtools.cache
+* Added code fixes for data migration of load\_balancer and listener
+* Removed unneccesary commit & rollback of octavia for tenant bidnings
+* Added deletion path for tenant bindings
+* Added cache for device name select. Added warning for bad axapi version
+* Added a10\_nlbaas2oct as a console command
+* Added example config file
+* Removed old nblaas2oct and a10\_migration folder
+* Corrected syntax errors
+* Migrated files to new directory path to match desired import
+* Added handling for when A10 db isn't different than nlbaas or oct
+* Added a10 migration portion to driver
+* Modified and fixed import paths
+* Further refactoring to make merge A10 and nlbaas2oct tooling
+* Further refactoring. Added util file for minor db operations
+* Refactor pass to combine the two tools into one
+* Fixed vthunder insert function. Added custom partition error
+* Added selection of loadbalancers. Added insert of vthunders
+* Added support for getting devices from config
+* Migrated files over to real project hierarchy
+* Added setup.py. Fixed syntax issues
+* Added config modules from a10-neutron-lbaas to migration tool
+* Added initial implementation of migration script
+* Added skeleton of migration tooling
+* Copied tool from openstack. Added readme notes
+* Initial commit
