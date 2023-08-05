@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: cpfinder
+Version: 0.1.1
+Summary: Online changepoint detection for python
+Home-page: https://github.com/iboraham/online_changepoint_detector
+Author: Ibrahim Onur Serbetci
+Author-email: ionurserbetci@gmail.com
+License: MIT
+Download-URL: https://github.com/iboraham/online_changepoint_detector/archive/v_01.tar.gz
+Description: UNKNOWN
+Keywords: online changepoint detection,changepoint detection,rulsif,bayesian
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
