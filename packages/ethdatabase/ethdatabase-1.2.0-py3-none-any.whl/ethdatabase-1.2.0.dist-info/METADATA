@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: ethdatabase
+Version: 1.2.0
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Alberto Pirillo
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Requires-Dist: mysql-connector-python (~=8.0.26)
+Requires-Dist: PyYAML (~=5.4.1)
+
+UNKNOWN
+
