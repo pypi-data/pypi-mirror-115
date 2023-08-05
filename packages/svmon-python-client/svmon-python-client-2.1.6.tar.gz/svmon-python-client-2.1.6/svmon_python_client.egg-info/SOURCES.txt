@@ -1,0 +1,16 @@
+LICENSE
+README.rst
+setup.py
+svmon
+svmon_python_client/__init__.py
+svmon_python_client/chain_TERENA_SSL_CA_3.pem
+svmon_python_client/config.json
+svmon_python_client/json_operations.py
+svmon_python_client/operating_system_parser.py
+svmon_python_client/remoteConfig.py
+svmon_python_client/report.py
+svmon_python_client/services.py
+svmon_python_client.egg-info/PKG-INFO
+svmon_python_client.egg-info/SOURCES.txt
+svmon_python_client.egg-info/dependency_links.txt
+svmon_python_client.egg-info/top_level.txt
