@@ -1,0 +1,3 @@
+[console_scripts]
+a10_nlbaas2oct = a10_nlbaas2oct.driver:main
+
