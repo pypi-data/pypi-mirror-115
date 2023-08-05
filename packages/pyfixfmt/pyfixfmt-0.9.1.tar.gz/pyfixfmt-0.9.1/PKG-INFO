@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: pyfixfmt
+Version: 0.9.1
+Summary: Run several python fixers over a python file, to provide simple, deterministic code formatting.
+Home-page: https://github.com/untitled-ai/pyfixfmt
+License: MIT
+Author: TJ DeVries
+Author-email: devries.timothyj@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: autoflake (>=1.3.1,<2.0.0)
+Requires-Dist: black (>=19.10b0,<20.0)
+Requires-Dist: isort (>=4.3.21,<5.0.0)
+Project-URL: Repository, https://github.com/untitled-ai/pyfixfmt
+Description-Content-Type: text/markdown
+
+# PyFixFmt
+
+A simple python formatter.
+
+Just removes unused imports (with [autoflake](https://github.com/myint/autoflake)), sorts imports (with [isort](https://github.com/PyCQA/isort)), and then formats the code (with [black](https://black.readthedocs.io/en/stable/)).
+
+Meant to make formatting of python code as deterministic as sanely possible.
+
+
+### Instructions
+
+To install:
+
+`pip install pyfixfmt`
+
+To run:
+
+
+Recommended way, since it should work from wherever
+
+`python -m pyfixfmt --file-glob <your file glob here> --verbose`
+
+Or, to run without installing
+
+`python pyfixfmt --file-glob <your file glob here> --verbose`
+
+
+file-glob can be either a single file name or a normal unix glob.
+
+
+### Developing
+
+Develop with [Poetry](https://python-poetry.org/).
+
+Build with `poetry build`, and publish with `poetry publish`.
