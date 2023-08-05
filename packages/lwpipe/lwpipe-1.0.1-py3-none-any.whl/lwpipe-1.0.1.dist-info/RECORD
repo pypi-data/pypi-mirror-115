@@ -1,0 +1,9 @@
+lwpipe/__init__.py,sha256=EvflZAjPDyfHDLw0Q_jQR3I9qjeDIGsaeo7K6W9JGMk,13538
+lwpipe/io.py,sha256=BKQ409jHJGyyGzvvpqUM1uJwaOgGNW_OAPFSvfNOvUw,1863
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_basic.py,sha256=RJSU1TRTB-UmY2xW-JUIRD0WNyyUGlBnaigmsgpuEhA,6964
+lwpipe-1.0.1.dist-info/LICENSE,sha256=WtjCEwlcVzkh1ziO35P2qfVEkLjr87Flro7xlHz3CEY,11556
+lwpipe-1.0.1.dist-info/METADATA,sha256=yoXULzuxd0Uf1bHc5814n__7mJ--reqREgLKMx7UqK4,4653
+lwpipe-1.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+lwpipe-1.0.1.dist-info/top_level.txt,sha256=m8Uv-W3eUKjIYepebHQW1CNCmc0ltTBHVGW4zbjF7tQ,13
+lwpipe-1.0.1.dist-info/RECORD,,
