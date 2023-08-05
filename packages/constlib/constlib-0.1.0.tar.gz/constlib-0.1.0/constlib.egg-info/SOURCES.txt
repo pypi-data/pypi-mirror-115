@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+constlib/__init__.py
+constlib/color.py
+constlib/maths.py
+constlib/physics.py
+constlib.egg-info/PKG-INFO
+constlib.egg-info/SOURCES.txt
+constlib.egg-info/dependency_links.txt
+constlib.egg-info/top_level.txt
