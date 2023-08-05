@@ -1,0 +1,15 @@
+fw_storage/__init__.py,sha256=afYM_4jnqBSWtqwMUjbcHwX27wB9jGGoEfQmS08xoyE,296
+fw_storage/fileinfo.py,sha256=xjZmTp6FbAgyHX28LXNOraiwHdCHXT3-F0F5Mvq5sR0,509
+fw_storage/filters.py,sha256=uRUENigEK4hxiu9ebQgJb4FeGXgRyzOstW2-SWnTWBQ,1042
+fw_storage/storage.py,sha256=fpUlQd26Qch964gexWtw7Sj52IO4v98zr1Ely8cjWZo,13086
+fw_storage/types/__init__.py,sha256=TT2pfyY-AMuKb4FZduNbVbmWTBRyEC3autb1QbdHE24,28
+fw_storage/types/az.py,sha256=lq29kCuQer3pyS5SKwzEKE4JOvljxy5OtS5iEA4JUHU,7467
+fw_storage/types/dicom.py,sha256=UDyQBrBu9Tp7NqgDq9jTq8MdEKdGz78oe8VUrMmIufg,9351
+fw_storage/types/dicomweb.py,sha256=Ch3yau8YShSZHNiMTDu5pPyDjA1-1DueNb6P4aaP3O0,7674
+fw_storage/types/fs.py,sha256=Aile3MP3cC8tpTxSkGDVi46-G6CQK6AIfdrACGDBryk,5539
+fw_storage/types/gs.py,sha256=dP9pNzBsLRH_enD6UGu3JPUZJWC78XmLa0fDvYhL0qQ,5090
+fw_storage/types/s3.py,sha256=MQfnrcf48qZoVzxrrYTNeYk8LIS_Vgt5N7KcUkLkb4Y,6222
+fw_storage-0.5.1.dist-info/LICENSE,sha256=3QLwoJgDkLWRKwcyYzPn3vLqTHhbdltfjFYeBOZSlDY,1078
+fw_storage-0.5.1.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+fw_storage-0.5.1.dist-info/METADATA,sha256=nFT4a-VbCdFH1kiUuGLV694AkwhxWiPG6iRRxUqtlgw,3753
+fw_storage-0.5.1.dist-info/RECORD,,
