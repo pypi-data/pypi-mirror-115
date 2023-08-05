@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        nvidiafancontrol = nvidia_fan_control.nvidiafancontrol:main
+        
