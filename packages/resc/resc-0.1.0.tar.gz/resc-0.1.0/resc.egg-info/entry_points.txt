@@ -1,0 +1,3 @@
+[console_scripts]
+resc = resc.__main__:main
+
