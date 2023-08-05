@@ -1,0 +1,10 @@
+numpy
+xarray
+dask[array] != 2021.5.1
+distributed != 2021.5.1
+dask-ml
+scipy
+typing-extensions
+numba
+zarr
+fsspec != 2021.6.*
