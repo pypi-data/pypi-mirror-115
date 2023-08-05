@@ -1,0 +1,37 @@
+[tool.poetry]
+name = "defsent"
+version = "0.1.0"
+description = "DefSent: Sentence Embeddings using Definition Sentences"
+authors = ["hppRC <hpp.ricecake@gmail.com>"]
+readme = "README.md"
+homepage = "https://arxiv.org/abs/2105.04339"
+repository = "https://github.com/hppRC/defsent"
+
+include = ["defsent/**/*"]
+exclude = ["experiments/**/*", "examples/**/*"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+transformers = "*"
+torch = "*"
+
+[tool.poetry.dev-dependencies]
+pysen = {version = "^0.9.1", extras = ["lint"]}
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pysen]
+version = "0.9"
+
+[tool.pysen.lint]
+enable_black = true
+enable_flake8 = true
+enable_isort = true
+enable_mypy = false
+mypy_preset = "strict"
+py_version = "py37"
+[[tool.pysen.lint.mypy_targets]]
+paths = ["."]
