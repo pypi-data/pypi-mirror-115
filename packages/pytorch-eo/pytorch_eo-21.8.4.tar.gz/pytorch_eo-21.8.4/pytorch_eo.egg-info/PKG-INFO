@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: pytorch-eo
+Version: 21.8.4
+Summary: DL4EO
+Home-page: https://earthpulse.ai
+Author: earthpulse
+Author-email: it@earthpulse.es
+License: MIT
+Description: # Pytorch EO
+        
+        Deep Learning for Earth Observation applications and research.
+        
+        ## Installation
+        
+        ```
+        pip install pytorch-eo
+        ```
+        
+        ## Examples
+        
+        Learn by doing with our [examples](https://github.com/earthpulse/pytorch_eo/tree/main/examples).
+        
+        ## Ready to use Datasets
+        
+        - [EuroSAT](https://github.com/phelber/EuroSAT)
+        
+        ## Documentation
+        
+        Read our [docs](https://earthpulse.github.io/pytorch_eo/).
+        
+        ## Contributing
+        
+        Read the [CONTRIBUTING](https://github.com/earthpulse/pytorch_eo/blob/main/CONTRIBUTING.md) guide.
+        
+Keywords: deep learning,earth observation,neural networks,pytorch,pytorch lightning
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
