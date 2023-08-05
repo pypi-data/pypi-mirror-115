@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: remoteService
+Version: 0.0.1
+Summary: Remote Service Package
+Home-page: UNKNOWN
+Author: Subhasish Sarkar
+Author-email: subhasish.sarkar@gada.io
+License: UNKNOWN
+Keywords: python,remote service
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: sklearn
+Requires-Dist: flask
+Requires-Dist: Flask-SQLAlchemy
+Requires-Dist: Flask-Marshmallow
+Requires-Dist: Marshmallow-SQLAlchemy
+Requires-Dist: mpld3
+Requires-Dist: wordcloud
+
+Remote Service Package to help build remote services like Recommendation
+engines, insight engines, and analytics pipelines
+
