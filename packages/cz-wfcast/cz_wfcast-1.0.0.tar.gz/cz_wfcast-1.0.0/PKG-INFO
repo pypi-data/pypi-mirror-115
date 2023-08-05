@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: cz_wfcast
+Version: 1.0.0
+Summary: Weather forecast data
+Home-page: https://example.com
+Author: Contrazap
+Author-email: contrazap@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: contrazap,wfcast
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
