@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+meeting_availability/__init__.py
+meeting_availability/meeting_availability.py
+meeting_availability.egg-info/PKG-INFO
+meeting_availability.egg-info/SOURCES.txt
+meeting_availability.egg-info/dependency_links.txt
+meeting_availability.egg-info/top_level.txt
