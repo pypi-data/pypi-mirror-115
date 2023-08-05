@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pyplexed
+Version: 0.0.1
+Summary: Library for working with multiplexed image data, currently in early development.
+Home-page: UNKNOWN
+Author: Malte Kuehl
+Author-email: malte@maltekuehl.de
+License: MIT
+Description: # pyplexed
+        
+        In development..
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
