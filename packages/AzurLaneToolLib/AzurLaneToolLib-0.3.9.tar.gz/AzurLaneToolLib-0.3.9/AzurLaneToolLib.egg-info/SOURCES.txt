@@ -1,0 +1,8 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+AzurLaneToolLib.egg-info/PKG-INFO
+AzurLaneToolLib.egg-info/SOURCES.txt
+AzurLaneToolLib.egg-info/dependency_links.txt
+AzurLaneToolLib.egg-info/top_level.txt
