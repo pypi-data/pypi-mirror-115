@@ -1,0 +1,13 @@
+vcard/.gitignore,sha256=MtrjBS8zHuNNYo71NXCbMBJZpF33x1IsTTXc9Jhz8As,13
+vcard/__init__.py,sha256=x7vmx5VcI2IZC9cEQEZfskCQKPpxx_TKddIBENmLOGc,317
+vcard/vcard.py,sha256=rnrzkvGO94ScPaqksxdRQ5yLl2v3Hx99yXAj_kAny5Y,1254
+vcard/vcard_definitions.py,sha256=liwVqGf0OoG4U40kF0EVoT4gJKgkKCD-ycd75JZSGHM,2270
+vcard/vcard_errors.py,sha256=UjMY22YVvx7kuxnJEgxkTMDQOyi8tEy7fy2TuKIbhhA,4179
+vcard/vcard_property.py,sha256=R2sIUggiQ9s2Ku-K3glEDbezIAPr0cHhKXCJOpvuSVs,300
+vcard/vcard_utils.py,sha256=DKbl0Kjtmnc2A-cnzN3JSGD-O3mT_ANFAkrYOL12YKo,1401
+vcard/vcard_validator.py,sha256=jVckjNyYbeOj1mlDpoVfNg11G5_vVq96FLtJRLQ3-wY,13099
+vcard/vcard_validators.py,sha256=Q0MFUuoncb3mZcNLu0_1e8IRJWAG0Nk40SDr86PjAcw,27964
+vcard-0.14.1.dist-info/LICENSE.txt,sha256=DZak_2itbUtvHzD3E7GNUYSRK6jdOJ-GqncQ2weavLA,34523
+vcard-0.14.1.dist-info/WHEEL,sha256=VN2eEg4PHbTOniXb-cCYQPc6zUTS4dAcATjlgU3q-Lo,83
+vcard-0.14.1.dist-info/METADATA,sha256=r0r4l7BYHLCpIpWNGRNnxbg6ytDAQusA-xcqceHoQBY,590
+vcard-0.14.1.dist-info/RECORD,,
