@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: scheduguru
+Version: 0.0.3
+Summary: Schedule Python functions with ease
+Home-page: https://github.com/doublevcodes/scheduguru
+Author: Vivaan Verma
+Author-email: vivaan.verma@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+
+# scheduguru
+A Python scheduler
+
+
