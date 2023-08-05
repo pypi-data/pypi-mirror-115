@@ -1,0 +1,3 @@
+[console_scripts]
+customer-match-translator = customer_match.cli:main
+
