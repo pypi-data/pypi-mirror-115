@@ -1,0 +1,11 @@
+setup.py
+Gaus-Bino-distributions-joyb-1/Binomialdistribution.py
+Gaus-Bino-distributions-joyb-1/Gaussiandistribution.py
+Gaus-Bino-distributions-joyb-1/Generaldistribution.py
+Gaus-Bino-distributions-joyb-1/__init__.py
+Gaus-Bino-distributions-joyb-1/setup.py
+Gaus_Bino_distributions_joyb_1.egg-info/PKG-INFO
+Gaus_Bino_distributions_joyb_1.egg-info/SOURCES.txt
+Gaus_Bino_distributions_joyb_1.egg-info/dependency_links.txt
+Gaus_Bino_distributions_joyb_1.egg-info/not-zip-safe
+Gaus_Bino_distributions_joyb_1.egg-info/top_level.txt
