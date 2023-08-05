@@ -1,0 +1,10 @@
+alchemical/__init__.py,sha256=vMbR8loSuSFtSebM57q2x3trLFVNhrxZy7vhFRdReG4,43
+alchemical/aio.py,sha256=xsipPnaaRaALLBo4S9ZeCLpPIcshUDp8evOWh7i8BOQ,3592
+alchemical/aioflask.py,sha256=LbOD2akFoIO51v8g4fR1f0w3suJVfS8JAMu_AQhkp-I,811
+alchemical/core.py,sha256=0F1iG5WlHaY_mlrb4JYgdZH6NMu0kLRVo9q2cvUuyHs,7846
+alchemical/flask.py,sha256=4fa7eKJzfEXzQ4FKHgFWBtnTXnG3YsiCytOR1glhO5Q,802
+alchemical-0.3.0.dist-info/LICENSE,sha256=S4q63MXj3SnHGQW4SVKUVpnwp7pB5q-Z6rpG-qvpW7c,1072
+alchemical-0.3.0.dist-info/METADATA,sha256=XeBlS05OP-qG3Q2w87p9JulhuIDuvbn_oOfe2LtQyvo,1175
+alchemical-0.3.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+alchemical-0.3.0.dist-info/top_level.txt,sha256=ZzO1e03gobeUv8dRKmYShhUR_LOPhDCi0PvGB_11W14,11
+alchemical-0.3.0.dist-info/RECORD,,
