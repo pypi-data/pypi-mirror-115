@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: zzz001
+Version: 0.0.3.2
+Summary: Singleton Client
+Home-page: https://github.com/vmware/singleton/tree/g11n-python-client
+Author: Jasper Jin
+Author-email: jasperj@vmware.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Operating System :: OS Independent
