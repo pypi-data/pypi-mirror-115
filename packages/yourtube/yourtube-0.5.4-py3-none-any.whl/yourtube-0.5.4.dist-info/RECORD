@@ -1,0 +1,12 @@
+yourtube/YourTube.ipynb,sha256=_Ew6A5eP2UrtgAog4q29bKTDw08jhSjVylp4x2e4YBc,15018
+yourtube/__init__.py,sha256=0LxDJVjrnULxyJITN02Oa6nJVigtymYk_Xn37fM7krs,374
+yourtube/debug.ipynb,sha256=YC-FPWZDNceltpfg2O02TtLIwE9cad4Hc1FHH7o1gb8,1512
+yourtube/failed/_HCS.ipynb,sha256=QWD5BBvq6x7Zr23AHb7xYxGUth2MI9-3KhaRu7_jyHg,3811
+yourtube/failed/_louvain.ipynb,sha256=S48ToYWu5tqYYhKTnl2X1E_ja3mkt7srdD85X0_jU3U,2283
+yourtube/file_operations.py,sha256=odDd-bKEVJ2nqx1BmTUQIsvWet-cVLtl1aqApswhWxs,5260
+yourtube/scraping.py,sha256=eC-hy4e2sz7thT0uAi4jYjcxeBDxJFleu-nCnnFnJHU,7982
+yourtube-0.5.4.dist-info/entry_points.txt,sha256=JY0YTbkODN-HHznnzPLNosXsXnISocHfxHJLsIG14Tc,162
+yourtube-0.5.4.dist-info/LICENSE,sha256=IMF9i4xIpgCADf0U-V1cuf9HBmqWQd3qtI3FSuyW4zE,26526
+yourtube-0.5.4.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+yourtube-0.5.4.dist-info/METADATA,sha256=zWndFruuAZn9rZL4VvAG7diU315Ql9-AWs14sdWmO4c,836
+yourtube-0.5.4.dist-info/RECORD,,
