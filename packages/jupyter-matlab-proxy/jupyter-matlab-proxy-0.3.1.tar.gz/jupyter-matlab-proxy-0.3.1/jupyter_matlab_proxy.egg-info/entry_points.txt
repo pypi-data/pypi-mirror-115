@@ -1,0 +1,6 @@
+[console_scripts]
+matlab-jupyter-app = jupyter_matlab_proxy.app:main
+
+[jupyter_serverproxy_servers]
+matlab = jupyter_matlab_proxy:setup_matlab
+
