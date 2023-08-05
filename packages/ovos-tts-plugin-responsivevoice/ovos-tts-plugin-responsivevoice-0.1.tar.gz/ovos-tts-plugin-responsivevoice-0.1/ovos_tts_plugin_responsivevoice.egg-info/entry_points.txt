@@ -1,0 +1,3 @@
+[mycroft.plugin.tts]
+ovos-tts-plugin-responsivevoice = ovos_tts_plugin_responsivevoice:ResponsiveVoiceTTSPlugin
+
