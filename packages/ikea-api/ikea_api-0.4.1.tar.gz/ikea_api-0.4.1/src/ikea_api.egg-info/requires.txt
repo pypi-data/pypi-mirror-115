@@ -1,0 +1,7 @@
+aiohttp
+brotli
+requests
+
+[driver]
+chromedriver_autoinstaller
+selenium
