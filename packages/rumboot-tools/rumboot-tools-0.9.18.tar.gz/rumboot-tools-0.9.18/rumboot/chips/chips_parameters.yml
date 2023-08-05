@@ -1,0 +1,29 @@
+---
+required:
+  - name
+  - part
+  - chip_id
+  - chip_rev
+  - baudrate
+  - warning
+  - memories
+  - dumps
+  - hacks
+  - edcl
+  - spl_address
+
+optional:
+  - welcome
+  - stub
+  - skipsync
+  - romdump
+  - flashrom
+  - mt12505
+
+hacks:
+  - skipsync
+  - edclArpBug
+  - silentRom
+  - noxmodem
+  - noedcl
+...

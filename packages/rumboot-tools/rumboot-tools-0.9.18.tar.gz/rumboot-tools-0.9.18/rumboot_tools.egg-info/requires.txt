@@ -1,0 +1,14 @@
+pyusb
+pyserial
+pyft232
+parse
+xmodem
+tqdm
+pyyaml
+hexdump
+netifaces
+netaddr
+getmac
+heatshrink2
+pyqt5
+pygpiotools
