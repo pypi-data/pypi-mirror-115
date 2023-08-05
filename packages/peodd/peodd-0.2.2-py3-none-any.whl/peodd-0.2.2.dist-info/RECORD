@@ -1,0 +1,12 @@
+AUTHORS,sha256=1bL94y0aG-lR1X6gDOBbU3CgpaEVdyde_AKz-IQKq9A,51
+LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+NEWS,sha256=slPHrDCvtDsXa8IudUIJeBzSSypLenWM5xXhoTuw-l4,1331
+README.md,sha256=tv80tKGEdFi8-lKg46xCblcrDjEZGi8maLTX7mw65sM,2395
+peodd/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+peodd/_version.py,sha256=p9ubXu4Ar5p2THCJENWivBwPr3bzT8Bsa2JToGwitA8,86
+peodd/peodd.py,sha256=9jF_PvqIc-q9leTq1mdq5sys5LVMzRkqNLTi3uVVbvU,2814
+peodd-0.2.2.dist-info/entry_points.txt,sha256=6E6KqUoC3G0vRiAcB3TdEZUbDfKan3ytlLjMCnUSzB8,42
+peodd-0.2.2.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+peodd-0.2.2.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+peodd-0.2.2.dist-info/METADATA,sha256=DCZgxVl39jTcSOzJD_N96nQ-RbvJj4Tdwe5nbR2xMG8,3318
+peodd-0.2.2.dist-info/RECORD,,
