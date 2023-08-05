@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: tuhls_core
+Version: 1.0.1
+Summary: UNKNOWN
+Home-page: https://gitlab.com/tuhls/tuhls_core
+Author: Herbert Rusznak (tlb)
+Author-email: herbert.rusznak@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.8
