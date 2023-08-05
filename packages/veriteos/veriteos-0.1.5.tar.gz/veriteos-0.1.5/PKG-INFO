@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: veriteos
+Version: 0.1.5
+Summary: Veriteos sentinel events registry
+Home-page: UNKNOWN
+Author: Veriteos Dev Team
+Author-email: <admin@veriteos.com>
+License: UNKNOWN
+Keywords: python,veriteos,veriteos client,veriteos events register
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+
+A package that allows to build simple streams of video, audio and camera data.
+
