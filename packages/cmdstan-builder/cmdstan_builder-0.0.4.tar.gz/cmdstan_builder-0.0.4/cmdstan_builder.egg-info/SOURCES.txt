@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+cmdstan_builder/__init__.py
+cmdstan_builder.egg-info/PKG-INFO
+cmdstan_builder.egg-info/SOURCES.txt
+cmdstan_builder.egg-info/dependency_links.txt
+cmdstan_builder.egg-info/requires.txt
+cmdstan_builder.egg-info/top_level.txt
