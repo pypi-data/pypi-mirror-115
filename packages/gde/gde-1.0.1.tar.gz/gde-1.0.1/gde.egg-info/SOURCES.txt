@@ -1,0 +1,13 @@
+README.md
+setup.py
+gde/__init__.py
+gde/__main__.py
+gde/_gde_version.py
+gde/gui.py
+gde/qt.py
+gde.egg-info/PKG-INFO
+gde.egg-info/SOURCES.txt
+gde.egg-info/dependency_links.txt
+gde.egg-info/entry_points.txt
+gde.egg-info/requires.txt
+gde.egg-info/top_level.txt
