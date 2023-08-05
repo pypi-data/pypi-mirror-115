@@ -1,0 +1,12 @@
+darbiadev_shipping/__init__.py,sha256=-JIt3g1eBf4bVQNNQd4JBeQNA7o0LK0W9tYKKX_r5s8,22
+darbiadev_shipping/fedex/__init__.py,sha256=LTStk3vMUE1X539O8-L16Fu1fPyKgCwZs2FSHlNHWhQ,569
+darbiadev_shipping/fedex/helpers.py,sha256=-73RJ-vY0lN5UWKHYuZwL2LbZQ3ST9YcHEUyxx_E5AE,96
+darbiadev_shipping/shipping_services.py,sha256=IlElHa4FzEvTYw895x0YX-JJx3I63jlfRVy1LD_Ea6I,1615
+darbiadev_shipping/ups/__init__.py,sha256=Ykh7Sfnp1OEElFWhRVaffLBGUw8rYrathuL18QJRcG4,548
+darbiadev_shipping/ups/helpers.py,sha256=1Wb-iOrodX6kCnXOcSi7ow7MlkggFTo4piOs2AZkgYk,5086
+darbiadev_shipping/usps/__init__.py,sha256=aKiSdXdqF6IZTnrGov2yyM9I_vVwl-sXwqtSnu_8lWc,558
+darbiadev_shipping/usps/helpers.py,sha256=-73RJ-vY0lN5UWKHYuZwL2LbZQ3ST9YcHEUyxx_E5AE,96
+darbiadev_shipping-0.1.0.dist-info/LICENSE,sha256=gwFPVImJHt1JlmC5NnT4rf6bHxUNBms1eMzDBKMItIE,1063
+darbiadev_shipping-0.1.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+darbiadev_shipping-0.1.0.dist-info/METADATA,sha256=UH-2RHDk-lZ1g8A4eYbFZW_Ch1Aliw5iWFLajgPlaRg,1673
+darbiadev_shipping-0.1.0.dist-info/RECORD,,
