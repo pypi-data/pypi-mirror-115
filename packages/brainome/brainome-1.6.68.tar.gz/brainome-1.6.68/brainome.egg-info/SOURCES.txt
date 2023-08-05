@@ -1,0 +1,9 @@
+LICENSE
+README.txt
+brainome
+setup.py
+brainome.egg-info/PKG-INFO
+brainome.egg-info/SOURCES.txt
+brainome.egg-info/dependency_links.txt
+brainome.egg-info/requires.txt
+brainome.egg-info/top_level.txt
