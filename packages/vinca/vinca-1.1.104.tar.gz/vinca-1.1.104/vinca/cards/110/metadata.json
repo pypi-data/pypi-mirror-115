@@ -1,0 +1,29 @@
+{
+  "editor": "two_lines",
+  "reviewer": "media",
+  "scheduler": "base",
+  "tags": [
+    "again"
+  ],
+  "history": [
+    [
+      "2021-06-26",
+      2,
+      "create"
+    ],
+    [
+      "2021-07-14",
+      1,
+      "edit"
+    ],
+    [
+      "2021-07-14",
+      3,
+      "edit"
+    ]
+  ],
+  "deleted": false,
+  "due_date": "2021-06-26",
+  "siblings": [],
+  "string": "o | kj"
+}
