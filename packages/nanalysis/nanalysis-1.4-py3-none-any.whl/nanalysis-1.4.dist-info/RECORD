@@ -1,0 +1,9 @@
+nanalysis/__init__.py,sha256=L6nDbtY-YS03F29buQuzcuB4RoatUGPh713WlRLRYNY,148
+nanalysis/find_roots.py,sha256=FNHy4a88B3itZ8SXl3FrXIWtscKLA6TxL9diOdtpXfM,1872
+nanalysis/interpolation.py,sha256=x-QGPoGZYUYZEGEmD5RJLP9shiypCFaDg6HOov36GNM,4179
+nanalysis/lin_systems.py,sha256=lSKvxdkJumkB9FRTdeztIs8_MRGUETG52RvJa56egpE,4804
+nanalysis/num_methods.py,sha256=e1xmb8LTA2NamxiSohMS6DcKXAHPEGpHsep3stRlkeA,3745
+nanalysis-1.4.dist-info/METADATA,sha256=KQhssYwlf23K_12kJ6aCO0k4b8VocdfaFjH4_uBslbg,320
+nanalysis-1.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+nanalysis-1.4.dist-info/top_level.txt,sha256=q7N68X-u0XilhKIJVLORZnQDyJnABdFZPodtE21U44o,10
+nanalysis-1.4.dist-info/RECORD,,
