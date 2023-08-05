@@ -1,0 +1,6 @@
+apiVersion: 1.0.0
+kind: ServiceAccount
+data:
+  name: calm
+  scopes:
+    - cards:write
