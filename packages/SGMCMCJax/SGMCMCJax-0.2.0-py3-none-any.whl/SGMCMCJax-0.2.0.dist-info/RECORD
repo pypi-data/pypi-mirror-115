@@ -1,0 +1,12 @@
+sgmcmcjax/__init__.py,sha256=Zn1KFblwuFHiDRdRAiRnDBRkbPttWh44jKa5zG2ov0E,22
+sgmcmcjax/diffusions.py,sha256=vzdul4grifldp0-O_kpFSu2Aj-fRXiPEBmQCc6xNiIQ,11195
+sgmcmcjax/gradient_estimation.py,sha256=XBrqHJQBpzuAkUShsiXbLXC4m_guzzQU0RhEL7VHBiE,3812
+sgmcmcjax/kernels.py,sha256=76vc0OAQE3VPS-uALikL6uUCX2X-zYzLPi9vDK-t_wk,9839
+sgmcmcjax/ksd.py,sha256=eerI1nCJ6-3HzDqcg_FOLuhkezuN0RYGPl7owCMfy9U,1105
+sgmcmcjax/samplers.py,sha256=D6cYUbiDZrY5XCH0WEVST-IHzmw0IVRyps-aLoSTyxA,2612
+sgmcmcjax/util.py,sha256=e4-6aw_WNmm_R7lb6WFsQDP9QpHskwSyJq5gf2T3HZM,2601
+SGMCMCJax-0.2.0.dist-info/LICENSE,sha256=8I5xnLDWYYAFYDuILotVNVs0NhU77jTPxN3r2kvmeX8,10243
+SGMCMCJax-0.2.0.dist-info/METADATA,sha256=iL91WevkubOMR_vRce2nKU_PUIVt5n_ue2h9i6FzptU,2806
+SGMCMCJax-0.2.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+SGMCMCJax-0.2.0.dist-info/top_level.txt,sha256=LQ3qmUuctkpU8sPctqEZEPijS8Di2MaBYlm16MWOdHM,10
+SGMCMCJax-0.2.0.dist-info/RECORD,,
