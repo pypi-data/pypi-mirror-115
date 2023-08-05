@@ -1,0 +1,9 @@
+seqal/__init__.py,sha256=Wzf5T3NBDfhQoTnhnRNHSlAsE0XMqbclXG-M81Vas70,22
+seqal/active_learner.py,sha256=xwdoH0gNzxcWjLErujrt6H3kbKpwXhLKeuOctHfGLjk,2706
+seqal/datasets.py,sha256=_Ubjx0fp6LVAsx1Xwjbs53IuVpLlumLGXYQJ60tJKPM,16326
+seqal/query_strategies.py,sha256=62pdr2UsI7BO9S1aCCl7Lduu8POGz8bFVpGAw1xS0kk,4564
+seqal/utils.py,sha256=9MUP334FhUIOsgBVZcSdhYYVZcK5xbuR_m2f5fDjQJ4,480
+seqal-0.2.0.dist-info/LICENSE,sha256=wAyNdwnrExxkOdvEC1KBqsQRKdIIBEKjx-BxZaNeUxg,1066
+seqal-0.2.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+seqal-0.2.0.dist-info/METADATA,sha256=zHZNIvmpJJflNhnYBYSRtwJyeOZwdMcBa3cRyeuR1Dc,6441
+seqal-0.2.0.dist-info/RECORD,,
