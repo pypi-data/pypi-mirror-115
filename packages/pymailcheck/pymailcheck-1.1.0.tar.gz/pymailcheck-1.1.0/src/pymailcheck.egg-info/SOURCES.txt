@@ -1,0 +1,9 @@
+LICENSE
+README.rst
+pyproject.toml
+setup.cfg
+src/pymailcheck/__init__.py
+src/pymailcheck.egg-info/PKG-INFO
+src/pymailcheck.egg-info/SOURCES.txt
+src/pymailcheck.egg-info/dependency_links.txt
+src/pymailcheck.egg-info/top_level.txt
