@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: tweet_preprocesser
+Version: 0.0.2
+Summary: tweet preprocesser
+Home-page: https://github.com/onyanko-pon/tweet_preprocesser
+Author: onyanko-pon
+Author-email: engineer.tsukasa@gmail.com
+License: MIT
+Keywords: twitter,tweet
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+
+## tweet preprocesser
+
+## install
+```
+$ pip install tweet-preprocesser
+```
+
+## usage
+
+```python
+from tweet_preprocesser import preprocesser
+
+print(preprocesser.removeHashtag("hogehoge #huga"))
+# " hogehoge"
+
+print(preprocesser.removeUrl("hogehoge http://example.com/?user=1#hoge https://example.com/?user=1#hoge"))
+# "hogehoge  "
+
+print(preprocesser.removeMention("@taro hello"))
+# " hello"
+
+```
+
