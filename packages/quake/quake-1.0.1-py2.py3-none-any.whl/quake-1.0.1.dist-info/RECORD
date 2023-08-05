@@ -1,0 +1,13 @@
+quake/__init__.py,sha256=VlYfdXhxgdbpD7gvZiswgbxXb7-dpoTzW7gkparFx28,4655
+quake/cli.py,sha256=rcFmwvjocTI7ej1cHfFOVmQ8JyGxjP7ROWv0JZUoeOI,435
+quake/cli_domain.py,sha256=KeZx38_rKsCIn6np7ony0MOvVL-esCaR-Veknv3nevk,1364
+quake/cli_host.py,sha256=vtExu2KOxqO_R7qnJOcpMXrBl6GQppap1QxTkbgCgQw,1756
+quake/cli_info.py,sha256=YV0yPQ1Do5aed9SliIKG2x34J-ZsWhaCrDVx0O7-XBw,604
+quake/cli_init.py,sha256=QMbgbQzpmayIEJYp7H9e_leIMTeHjwVEHkvN-q13wzo,267
+quake/quake.py,sha256=h0hwdogXGFqerm-5ZPeT-irPn91pCcQRjiHThXsRzEk,19
+quake-1.0.1.dist-info/LICENSE,sha256=F2ornjxonXB1RZRczJWEucKZ2ASoCr2dmcane5Q-BDc,1065
+quake-1.0.1.dist-info/METADATA,sha256=hK1koQQ9uEucRFwVXIvVEsB-LNPbgxyBjWvfSK0BD4E,1478
+quake-1.0.1.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+quake-1.0.1.dist-info/entry_points.txt,sha256=vz1N-huJ8xGjjMif6igAtte4E79WAU6ehVT0NlyP4eQ,42
+quake-1.0.1.dist-info/top_level.txt,sha256=J3UJJCSb6p4-aihbeKHNDWbj4X0wCB9R8LrIIQiD064,6
+quake-1.0.1.dist-info/RECORD,,
