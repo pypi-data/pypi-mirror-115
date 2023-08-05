@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+click
+lxml
+boto3
+cython
+owlready2
+rdflib
+wikibaseintegrator
+bs4
+pyyaml
+pydantic
