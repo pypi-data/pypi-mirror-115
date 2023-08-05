@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: platepy
+Version: 1.0.2
+Summary: Create and compute plate models using FEM
+Home-page: https://github.com/tobiadig/platepyProject
+Author: Tobia Diggelmann
+Author-email: tobiadig@gmail.com
+License: UNKNOWN
+Project-URL: Documentation, https://tobiadig.github.io/
+Project-URL: Source Code, https://github.com/tobiadig/platepy
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENCE
+
+# platepy Package
+
+Provides
+
+* Methods to easily model structural components for plates via the Gmsh API (see https://gmsh.info/). Including slabs, walls, columns and downstand beams.
+* Automatic mesh generation with Gmsh.
+* FEM calculation of displacements, rotations, bending moments, shear forces and required bending moment resistance according to SIA262.
+* Results visualization with isolines, 3D plots or as text.
+* Analytical solutions according to Kirchhoff plate theory.
+
+Full documentation and tutorials on https://tobiadig.github.io/. The tutorials are also included in the distribution in the platepy/tutorials folder.
+
