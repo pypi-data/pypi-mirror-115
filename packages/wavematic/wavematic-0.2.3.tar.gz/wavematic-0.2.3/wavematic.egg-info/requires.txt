@@ -1,0 +1,4 @@
+pandas>=1.1.5
+numpy>=1.19.5
+noise>=1.2.2
+scipy>=1.4.1
