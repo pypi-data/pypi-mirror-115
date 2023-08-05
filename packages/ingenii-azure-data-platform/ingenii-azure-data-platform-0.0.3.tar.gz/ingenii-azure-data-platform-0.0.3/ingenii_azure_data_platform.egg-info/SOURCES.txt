@@ -1,0 +1,10 @@
+README.md
+setup.py
+ingenii_azure_data_platform/__init__.py
+ingenii_azure_data_platform/general.py
+ingenii_azure_data_platform/helpers.py
+ingenii_azure_data_platform.egg-info/PKG-INFO
+ingenii_azure_data_platform.egg-info/SOURCES.txt
+ingenii_azure_data_platform.egg-info/dependency_links.txt
+ingenii_azure_data_platform.egg-info/requires.txt
+ingenii_azure_data_platform.egg-info/top_level.txt
