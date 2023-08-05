@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+uv2json/__init__.py
+uv2json/__main__.py
+uv2json/convert_to_json_uv.py
+uv2json.egg-info/PKG-INFO
+uv2json.egg-info/SOURCES.txt
+uv2json.egg-info/dependency_links.txt
+uv2json.egg-info/entry_points.txt
+uv2json.egg-info/requires.txt
+uv2json.egg-info/top_level.txt
