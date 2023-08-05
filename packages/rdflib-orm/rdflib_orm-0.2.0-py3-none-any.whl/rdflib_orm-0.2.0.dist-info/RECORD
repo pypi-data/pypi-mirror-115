@@ -1,0 +1,16 @@
+rdflib_orm/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rdflib_orm/fields.py,sha256=Zko88qcLWfwBvgHEypDJKMov-65qxvBFXGc5tLbMlpE,7085
+rdflib_orm/models.py,sha256=D0c6Y_YDRJAgnHJwKrSpK1LrOc63wHarddaeAUn7c0k,28543
+rdflib_orm/db/__init__.py,sha256=mZVU6-tI8NYFhouiFv7-JDjHzt5JRgiQ4LbOE4fOd60,4387
+rdflib_orm/db/fields.py,sha256=btvAV7YA7ZZQ-ahIKByfzgtXKRmcrCwcTWzLNDygdIM,5363
+rdflib_orm/db/models.py,sha256=GkiLuWpm7__OKEL8JTNdDwxiI7yl1SmuSueytfNDKJo,24482
+tests/__init__.py,sha256=3-YOt1JTLW0AlYs-z4f0YMMU4eqDi9N_YZzUKJcKJkE,87
+tests/test_database_class.py,sha256=U7HAz4DehvOH_Pl1ifNJMgoffdAoKvKXJ_AlSBzeF7s,5401
+tests/test_sparql_store_headers.py,sha256=yT0-3awivj5OcyrER6hPvk1zYsgelilVm6wfobe2-0w,735
+tests/fields/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/fields/test_charfield.py,sha256=oKBGv6dJ4UAoWMkDUvVsDxkTKep35Krqx8-CBkzELVs,4665
+tests/fields/test_irifield.py,sha256=21gCQnJIRL8TwMaU_1VxM7YtC3gVWF-wCQy2g1m-oYg,2387
+rdflib_orm-0.2.0.dist-info/METADATA,sha256=YI6xgY-xIemFeeMOoxdsi1zpduvS91TPqU0bTmdbrI0,7438
+rdflib_orm-0.2.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+rdflib_orm-0.2.0.dist-info/top_level.txt,sha256=P3_VSCtof5ZLwfwxGyF9WE_eZ_gvxEHVNT0QMrIkvu0,17
+rdflib_orm-0.2.0.dist-info/RECORD,,
