@@ -1,0 +1,3 @@
+[console_scripts]
+gde = gde.__main__:main
+
