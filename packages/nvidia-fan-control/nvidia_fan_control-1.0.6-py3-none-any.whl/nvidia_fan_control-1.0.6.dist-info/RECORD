@@ -1,0 +1,15 @@
+nvidia_fan_control/__init__.py,sha256=z1-ITtnw2hPqivizmIxodx89Z9GhewQj4uw5_VZi9zo,304
+nvidia_fan_control/app.py,sha256=qiw4eH5j72kjwlwTBmggNyiP1W66Z27NX0kCgcLIVCY,14679
+nvidia_fan_control/nvidiafancontrol.py,sha256=koeS7Cf9EHNRnH_YtFMv9gjboKJttMsFBPfsDI1AypY,188
+nvidia_fan_control/settings.py,sha256=dk1AYEhlaIVHlWEjIpKkerYzSIiqyAXVTZUY11MaUus,7515
+nvidia_fan_control-1.0.6.data/data/lib/python3.8/dist-packages/nvidia_fan_control/font.css,sha256=NRDRhP-_lhht1enpArYGKt8awC5s622IdmpnpouoczQ,192
+nvidia_fan_control-1.0.6.data/data/lib/python3.8/dist-packages/share/locale/en/LC_MESSAGES/nvidiafancontrol.mo,sha256=e6-ywfvajtDZcvyx9zjUPi2T9zOI9J_tBzXqozQMSw0,1805
+nvidia_fan_control-1.0.6.data/data/lib/python3.8/dist-packages/share/locale/it/LC_MESSAGES/nvidiafancontrol.mo,sha256=OjxGjfWdTLhtb5nwEVKQAgwFc9xXaaLe986qTdbMf3s,2044
+nvidia_fan_control-1.0.6.data/data/share/applications/nvidiafancontrol.desktop,sha256=TB5cYPCtcZQIaVwng3PmauvlUGYKdcgZnWta3YBku8E,307
+nvidia_fan_control-1.0.6.data/data/share/pixmaps/nvidiafancontrol.svg,sha256=Hw0xtxbOchBs-n7LoPy3_GrSV7fjbPPJLEZwTRFs8Bg,35827
+nvidia_fan_control-1.0.6.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+nvidia_fan_control-1.0.6.dist-info/METADATA,sha256=KM3tvt7wB3e7W4hnvaSrz0gGIl5qv2-2ZddxSHGKP04,2193
+nvidia_fan_control-1.0.6.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+nvidia_fan_control-1.0.6.dist-info/entry_points.txt,sha256=waErThnhMZj8woMIw6VPxZZS0hBYdcVcgxVUARn8Cgo,103
+nvidia_fan_control-1.0.6.dist-info/top_level.txt,sha256=cSMAS5t-khyhmYPioSDxASV6HLqmthiqAS6GJtey5-4,19
+nvidia_fan_control-1.0.6.dist-info/RECORD,,
