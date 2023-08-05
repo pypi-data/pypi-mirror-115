@@ -1,0 +1,3 @@
+[console_scripts]
+sc-weekly-points = weekly_points.main:main
+

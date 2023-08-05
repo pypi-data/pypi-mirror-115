@@ -1,0 +1,88 @@
+# 说明：如下配置的索引均从0开始计数，第1列为0、第2列为1，依此类推
+
+# 机构相关配置
+branch:
+  # 机构归属配置
+  attribution_mapping:
+    "江湾支行": "吴征"
+    "财智支行": "吴征"
+    "公司业务二部": "李蕾"
+    "南沙支行": "李蕾"
+    "公司业务三部": "李蕾"
+    "分行营业部": "刘勇"
+    "东风支行": "付豪"
+    "中小企业管理部": "付豪"
+    "粤能支行": "付豪"
+    "黄埔支行": "付豪"
+  # 主管排序
+  manager_order:
+    "吴征": 1
+    "李蕾": 2
+    "刘勇": 3
+    "付豪": 4
+
+# 周周赛配置
+weekly:
+  # 是否启用分析，True分析，False不分析
+  enabled: True
+  # 待分析文件路径
+  source_file_path: "模板.xlsx"
+  # Sheet名称
+  sheet_name: "模板"
+  sheet_config:
+    # 表头行索引
+    header_row: 1
+  # 生成的目标Excel文件存放路径
+  target_directory: "./"
+  # 目标文件名称
+  target_filename: "广州分行周周赛积分表.xlsx"
+  # 周积分名称
+  weekly_summary_name: "周积分"
+  # 月积分名称
+  monthly_summary_name: "月积分"
+  # 年积分名称
+  yearly_summary_name: "年积分"
+  # 主管经理汇总
+  manager_summary_name: "主管行长"
+  # 对公指标
+  corporate:
+    name: "对公"
+    point_config:
+      "新增对公湘籍客户数":
+        point_value: 100
+        point_unit: "分/户"
+      "新增交易银行服务客户数":
+        point_value: 30
+        point_unit: "分/户"
+      "新增对公非息收入":
+        point_value: 50
+        point_unit: "分/万"
+  # 普惠指标
+  finance:
+    name: "普惠"
+    point_config:
+      "新增对公普惠贷款余额":
+        point_value: 1.8
+        point_unit: "分/万"
+      "新增对公有效授信客户数":
+        point_value: 50
+        point_unit: "分/户"
+      "新增对公有效结算户数":
+        point_value: 50
+        point_unit: "分/万"
+  # 零售指标
+  retail:
+    name: "零售"
+    point_config:
+      "新增零售贷款余额":
+        point_value: 1.8
+        point_unit: "分/万"
+      "新增信用卡发卡":
+        point_value: 5
+        point_unit: "分/张"
+      "新增零售湘籍客户数":
+        point_value: 10
+        point_unit: "分/户"
+      "新增个人非息收入":
+        point_value: 380
+        point_unit: "分/万"

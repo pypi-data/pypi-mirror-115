@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: sc-weekly-points
+Version: 0.0.3
+Summary: Weekly Points Analysis
+Home-page: https://github.com/Scott-Lau/sc-weekly-points
+Author: Scott Lau
+Author-email: exceedego@126.com
+License: MIT
+Keywords: python Weekly Points Analysis
+Platform: POSIX
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: sc-utilities (>=0.0.4)
+Requires-Dist: sc-config (>=0.0.6)
+Requires-Dist: pandas (>=1.2.4)
+Requires-Dist: openpyxl (>=3.0.7)
+
+.. image:: https://badge.fury.io/py/sc-weekly-points.svg
+    :target: https://badge.fury.io/py/sc-weekly-points
+.. image:: https://img.shields.io/pypi/pyversions/sc-weekly-points
+    :alt: PyPI - Python Version
+
+A simple Python project sample structure
+========================================
+
+This project provides a sample structure for creating python project.
+
+
+Installation
+------------
+
+It is possible to install the tool with `pip`::
+
+    pip install sc-weekly-points
+
+Configuration
+-------------
+
+Configuration files reading in this order, the first is the top most priority:
+
+#. production.xml in current directory,
+#. production.xml in <project_name> directory under User directory,
+#. production.xml in <project_name> directory under /var/opt/sc/ directory,
+#. default.xml in <project_name> directory under /var/opt/sc/ directory.
+
+The default configuration file looks like this::
+
+    dev:
+      # whether this program is running is development mode
+      dev_mode: False
+
+License
+-------
+
+The script is released under the MIT License.  The MIT License is registered
+with and approved by the Open Source Initiative [1]_.
+
+.. [1] https://opensource.org/licenses/MIT
+
+
