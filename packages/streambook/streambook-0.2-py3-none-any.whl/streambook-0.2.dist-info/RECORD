@@ -1,0 +1,12 @@
+streambook/__init__.py,sha256=d2ywP2Ds9xp3xRzhwcfAk6gheF4zyzc28qvlyBwbYBE,76
+streambook/__main__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+streambook/cli.py,sha256=TNsiXMKIM0vjh3nv62-X4ILp3YzlNJHK27b8PuiB3kw,4054
+streambook/gen.py,sha256=w-7Hx8Tpno8etZfslTASN97Qv-jWaoRiJ673QWQ-ueg,3363
+streambook/lib.py,sha256=jAcgQpGBNOnKisvSQBMWyDxl1ZKWG8_J0_Uk3xX37BE,2598
+streambook/version.py,sha256=Lgf9keBX7aG_JEFt6UYSyiFKcm-BYGtmk9ohpQhYpyk,20
+streambook-0.2.dist-info/LICENSE,sha256=A0xpYJamLWNigNVEfee6uf9xHOU544reL_BYFC7-Ds4,1067
+streambook-0.2.dist-info/METADATA,sha256=QaXZlXg3u_CqRp04LbC3bSU0hT2whmac-ajV_ou_n8c,2792
+streambook-0.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+streambook-0.2.dist-info/entry_points.txt,sha256=a8Gf1xGgCxg9uGXZUZnzYiCqXtvDx_nQY0_6kHy1y8k,51
+streambook-0.2.dist-info/top_level.txt,sha256=fuSSE9X-stV0cSJpX5GeUjxtOa5Nh136G1bET-6_faQ,11
+streambook-0.2.dist-info/RECORD,,

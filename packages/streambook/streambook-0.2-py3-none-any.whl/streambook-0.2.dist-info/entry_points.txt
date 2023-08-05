@@ -1,0 +1,3 @@
+[console_scripts]
+streambook = streambook.cli:app
+
