@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: tex2tree
+Version: 0.1.0
+Summary: 
+Author: 赵文祺
+Author-email: 1027572886a@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: matplotlib (>=3.4.2,<4.0.0)
+Requires-Dist: networkx (>=2.6.2,<3.0.0)
+Requires-Dist: ply (>=3.11,<4.0)

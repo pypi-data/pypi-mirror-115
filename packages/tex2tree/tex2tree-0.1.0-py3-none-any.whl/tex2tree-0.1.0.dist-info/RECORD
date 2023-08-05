@@ -1,0 +1,10 @@
+tex2tree/__init__.py,sha256=UGXkZrsC-BleuXCN_o9YnpuO16WzUkfV_DcuuUgB5Jw,121
+tex2tree/dictionary.txt,sha256=3O80xdtLDTRVlhu_Q0M_UNjh9uqDPD13nzkaLD7tVz8,378
+tex2tree/label_graph.py,sha256=myLEZzr8yOvUnnCD9H15rrH8nOPUHT2llzHXRst7Fyo,2484
+tex2tree/parser.out,sha256=sdeuPUG5ImL_dyP2DC-87VT6seT83NiyFJmr-QKhNck,48752
+tex2tree/parsetab.py,sha256=Q8_9CiRiB5Js3AJnMoen2w9EQxz8GNAUnne5aVz1Nbo,8022
+tex2tree/tex_lex.py,sha256=ohLqFntJ_rY8yl9usRvFsSLEWUGFZByq0JKAWHuhkJU,828
+tex2tree/tex_parser.py,sha256=KDT3RlQSVJ5X5rOuRWwrMTkq0zKUwnVGo-FiPugYm4A,5114
+tex2tree-0.1.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+tex2tree-0.1.0.dist-info/METADATA,sha256=fyb7J-QVNQWDwpV4jaW3jdkKfrSGrSx4DFoYyZNPKgk,459
+tex2tree-0.1.0.dist-info/RECORD,,
