@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+atomsgraph/__init__.py
+atomsgraph/version.py
+atomsgraph.egg-info/PKG-INFO
+atomsgraph.egg-info/SOURCES.txt
+atomsgraph.egg-info/dependency_links.txt
+atomsgraph.egg-info/requires.txt
+atomsgraph.egg-info/top_level.txt
+test/test_atomsgraph.py
