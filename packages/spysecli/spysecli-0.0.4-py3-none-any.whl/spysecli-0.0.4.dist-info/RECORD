@@ -1,0 +1,12 @@
+bin/__init__.py,sha256=zDr350exO14Ii8Pj3TXwPuRxIDrEjrg43CpjYABDqh4,19
+bin/main.py,sha256=p7K9svN0VCU-hTWw-4yYZIzqJk2MKy7pgVhpLIDBfIU,8424
+spysecli/__init__.py,sha256=YMFivYnClhy8-IsXWzZ1bFykwR8Q7oftIoN2mwsNBQo,97
+spysecli/client.py,sha256=s3ykuOMmMK_yXUqAfCfgbqTWx0BljP0QUpMRuwYxTPU,4644
+spysecli/input_parser.py,sha256=8Iko3sUe4gB513ztmJqIO3-gj7AExAwMFmX6mXM8LUs,1944
+spysecli/printer.py,sha256=H89z2eThBqDks8EGgu0WNtj6BYV6LOitaD-iGzhUuSA,2458
+spysecli-0.0.4.dist-info/LICENSE.md,sha256=hPvwY5Ko2Ht3AVMrJJCX7xerDJbFwfJ-NJB7t5QJ1r0,1088
+spysecli-0.0.4.dist-info/METADATA,sha256=JEwztm93LcYIrwHiSxYPp9n3slo1seDiaDyTwwHVwc8,10153
+spysecli-0.0.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+spysecli-0.0.4.dist-info/entry_points.txt,sha256=n53KlY9IT__ayc-9XBHkaoyjqcwA1YppWUpTD_RpDcU,43
+spysecli-0.0.4.dist-info/top_level.txt,sha256=fHUwo5uMXjZLrbu_nsz2QyfJQ7NPhggTRhMDj5WqSGU,13
+spysecli-0.0.4.dist-info/RECORD,,
