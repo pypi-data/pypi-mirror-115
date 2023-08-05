@@ -1,0 +1,16 @@
+dbt/adapters/postgres/__init__.py,sha256=oZ1PT0Xl54nZHq6AO3RQiW-66cCA4vY6rKiK2kKBhmM,618
+dbt/adapters/postgres/__version__.py,sha256=jfxaAjAexDLQL7td5cQy4vYc7xmorMKFLK_t1nyri1k,21
+dbt/adapters/postgres/connections.py,sha256=IzxE4rP6Fz3ytOhHZSb5MAs3C1Atni6I6ciEJJZYp0w,5949
+dbt/adapters/postgres/impl.py,sha256=KwNzGoHzpDiyc9uyRZol9gU_VU2iOYcuCMdAxMazCGo,5071
+dbt/adapters/postgres/relation.py,sha256=-bnllnv0LCJrTCRFx5jl-snKXmzcnTY-VC5heYlrtJY,1022
+dbt/include/postgres/__init__.py,sha256=MPQnGccFsedAruDmH7jUXQ4DyS19z-jk8Sty9zdMXVc,51
+dbt/include/postgres/dbt_project.yml,sha256=Pj-fj36bPbBEFZ0tsfnzGUM8lPSFWeAtg5FfdfcQGOI,75
+dbt/include/postgres/sample_profiles.yml,sha256=FpnI2msEhU8SRn5iKOMUUMxWQQysSJfOV6QHSlEte_M,439
+dbt/include/postgres/macros/adapters.sql,sha256=tY0wmwmEfE3kAjdsEznhbvJLME0G1xR0-QBLmWiWgcc,6877
+dbt/include/postgres/macros/catalog.sql,sha256=2PS90l25RJfGJDwtPwMABTLs1kRRStGsrWV0J8Ht_R4,2257
+dbt/include/postgres/macros/relations.sql,sha256=a0yxM0nYMUcCte7mLYttTRoUWGsYUbyufcd-5dGVa6k,2597
+dbt/include/postgres/macros/materializations/snapshot_merge.sql,sha256=o_syJjzZjK8LWA13vUq4C3pfrEAyK-6tpbTTUacWZFE,794
+dbt_postgres-0.21.0b1.dist-info/METADATA,sha256=1HlbUy_LHHfRcnk-_pn6ZKaj6JAnXAdUgGmLTpQnoVc,911
+dbt_postgres-0.21.0b1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+dbt_postgres-0.21.0b1.dist-info/top_level.txt,sha256=B2YH4he17ajilEWOGCKHbRcEJlCuZKwCcgFcLPntLsE,4
+dbt_postgres-0.21.0b1.dist-info/RECORD,,
