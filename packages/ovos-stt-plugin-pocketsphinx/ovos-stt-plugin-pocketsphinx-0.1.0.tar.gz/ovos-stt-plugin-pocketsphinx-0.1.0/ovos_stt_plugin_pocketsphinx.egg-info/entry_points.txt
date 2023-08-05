@@ -1,0 +1,3 @@
+[mycroft.plugin.stt]
+ovos-stt-plugin-pocketsphinx = ovos_stt_plugin_pocketsphinx:PocketSphinxSTTPlugin
+
