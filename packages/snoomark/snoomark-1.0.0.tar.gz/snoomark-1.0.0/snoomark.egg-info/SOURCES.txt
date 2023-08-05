@@ -1,0 +1,5 @@
+setup.py
+snoomark.egg-info/PKG-INFO
+snoomark.egg-info/SOURCES.txt
+snoomark.egg-info/dependency_links.txt
+snoomark.egg-info/top_level.txt
