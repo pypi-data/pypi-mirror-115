@@ -1,0 +1,16 @@
+frozenSpider/Data_visualisation.py,sha256=unlZCx4F4SgAlkNMCOgCZkBi5BFtUGXJO9T00TMi0Jc,38439
+frozenSpider/__init__.py,sha256=blU3b4UipZa5rUALmLBgl2Uv6y1e1KLIpX3t2xzH9z0,6
+frozenSpider/spiderAlgorithmKnn.py,sha256=whtLwJ6v17eg6izlSP1bpZQY2-ub2-qsYmnpWEiLYUc,13763
+frozenSpider/spiderAlgorithmLR.py,sha256=VLIM6hCP76MT74R_fDNulPDNzTFiimQlb4_ksrjyEEg,15371
+frozenSpider/spiderAlgorithmLoR.py,sha256=z0WG9FXePbR9oljCSge-TJzqhecHu35_kkjflhp-hAY,18814
+frozenSpider/spiderAlgorithmResources.py,sha256=RiBUqPQ4Zq5WMx9hQMZVKqKcIJWkX2NT5RBxPhlvbag,5587
+frozenSpider/spiderAlgorithms.py,sha256=_ow9HknZ0ulmvOmNOWEesjLBKftGPwcyZsini7nVk0w,3509
+frozenSpider/spiderAlgorithmsKMC.py,sha256=zioUt8kdlEz6V3cbWu-2wUjd9SXFkZqzOrQKwOKvXEQ,7968
+frozenSpider/spiderAlgorithmsNB.py,sha256=ms5eWbh7FmcL03bA8G-ZTqHf8wQSQpjDHaWVqIkejVU,14129
+frozenSpider/spiderAlgorithmsSVM.py,sha256=YrVz9Lx-X98p9Flbu9jQ2z2itLfeGOcB3Yh3vo9BMlk,3574
+frozenSpider/spiderNets.py,sha256=D2olfkgWvA9Y-eRr8ZulGWGEBzR0376pZg63GdJSkw0,152
+frozenSpider-0.0.5.dist-info/LICENSE.txt,sha256=AjHa3KKP7zl_Yo14g3tV3i4p9m-vNZL01kcEiqeL38c,95
+frozenSpider-0.0.5.dist-info/METADATA,sha256=yXurmhTtci7GoxZ0pKNQ_eY__4CFu-1bsefePzzRbTw,1046
+frozenSpider-0.0.5.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+frozenSpider-0.0.5.dist-info/top_level.txt,sha256=RRX2LxiOYU3YpMcOlxgAfzNwCdlUt6bwGARQcPTmo2Q,13
+frozenSpider-0.0.5.dist-info/RECORD,,
