@@ -1,0 +1,13 @@
+Metadata-Version: 1.2
+Name: taurunner
+Version: 0.0.4
+Summary: Code for propagating ultra-high-energy neutrinos
+Home-page: https://github.com/icecube/TauRunner
+Author: Safa, I. et al.
+Author-email: isafa@wisc.edu
+License: UNKNOWN
+Description: TauRunner
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.1
