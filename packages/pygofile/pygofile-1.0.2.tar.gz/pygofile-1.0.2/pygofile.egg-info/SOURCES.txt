@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+pygofile/__init__.py
+pygofile/gofile.py
+pygofile.egg-info/PKG-INFO
+pygofile.egg-info/SOURCES.txt
+pygofile.egg-info/dependency_links.txt
+pygofile.egg-info/requires.txt
+pygofile.egg-info/top_level.txt
+tests/__init__.py
+tests/test_all.py
