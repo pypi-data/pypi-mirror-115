@@ -1,0 +1,12 @@
+junit_report/__init__.py,sha256=E5E5w-LVYYsYpZbeVqXRIgTHGyiN5A3chJrc57ItkWw,361
+junit_report/_junit_decorator.py,sha256=wOKRIHbhhMQjSAuGVWF0XTl6s-TutBFiBi1xva-3KtA,3741
+junit_report/_junit_fixture_test_case.py,sha256=THto9XKYwPty61YFbqQMPwnCHRGrHj3BhF9p_iRam1Q,2703
+junit_report/_junit_test_case.py,sha256=fQUkWydrPcbQJmtrR-grFQEnXE5fK72Htnlt_bKhKO4,4584
+junit_report/_junit_test_suite.py,sha256=8FC8fPsMjhfbQbVxM4Vmm6N9of9Y7mhaei9a5wxio5Y,8778
+junit_report/_test_case_data.py,sha256=cKE8y69kHi__6DlRaj6m1-g3Mbdp_-SixqTD2Ya_9uI,1592
+junit_report/_utils.py,sha256=BGETkobyx22uhxO-48Bp1kqeA0MiWxD9G7DB1BlmI4M,2035
+junit_report-0.1.32.dist-info/LICENSE,sha256=JIFpmxO-sa9IhSwwdhjUPcdjXHInk9g3OwoZaTrrCgo,1067
+junit_report-0.1.32.dist-info/METADATA,sha256=1nZHNLfRAsZbWv-bDA0L3KL8mdwolfv4QwW51QaP4-U,3542
+junit_report-0.1.32.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+junit_report-0.1.32.dist-info/top_level.txt,sha256=QhWRRcRo3BoxVkwWVkpii3AT_mZpaEU0nAq_siGDu_Q,13
+junit_report-0.1.32.dist-info/RECORD,,
