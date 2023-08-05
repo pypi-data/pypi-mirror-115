@@ -1,0 +1,15 @@
+PMKL/KernelFunctions.py,sha256=1tFOP-oO1odSSUc6_n6l4RFdpqAUA78XuRiFM-MGMmw,4667
+PMKL/Optimization.py,sha256=tjzvdr3r6_Zw7ZkeOjS7mIjwdwWhRXQyia9YW93oRBI,6637
+PMKL/PMKL.py,sha256=0Kp1gj0E1d39tO62PlrclbYVnPhdyr7S1isYQiKcgek,7952
+PMKL/Transformation.py,sha256=bTTCZRf_BGRudmmX_mkZwNS12Gssgftkc6ge1Fmz05A,1178
+PMKL/__init__.py,sha256=bAxwbCSAZE2j0hBZ5SGlfhcMdZvEeDRqk1BE1wnF9Xc,198
+pyPMKL/KernelFunctions.py,sha256=1tFOP-oO1odSSUc6_n6l4RFdpqAUA78XuRiFM-MGMmw,4667
+pyPMKL/Optimization.py,sha256=tjzvdr3r6_Zw7ZkeOjS7mIjwdwWhRXQyia9YW93oRBI,6637
+pyPMKL/PMKL.py,sha256=0Kp1gj0E1d39tO62PlrclbYVnPhdyr7S1isYQiKcgek,7952
+pyPMKL/Transformation.py,sha256=bTTCZRf_BGRudmmX_mkZwNS12Gssgftkc6ge1Fmz05A,1178
+pyPMKL/__init__.py,sha256=bAxwbCSAZE2j0hBZ5SGlfhcMdZvEeDRqk1BE1wnF9Xc,198
+pyPMKL-0.1.5.dist-info/LICENSE.txt,sha256=EIV5eQ7VA5zhjmM1wbfyIlSPvlDzRGyd3t-0w3URT4M,1058
+pyPMKL-0.1.5.dist-info/METADATA,sha256=aGwVlkT4b8A-c6y1T1LzyhPVlUA5vEy3YEpGYfA9KSo,2401
+pyPMKL-0.1.5.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pyPMKL-0.1.5.dist-info/top_level.txt,sha256=X3AGi0qnn5SnxWL-Q4NR_bQvQgaTPad51V1qDrxz-zw,5
+pyPMKL-0.1.5.dist-info/RECORD,,
