@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+setup.py
+SplitStrains/__init__.py
+SplitStrains/splitStrains.py
+SplitStrains.egg-info/PKG-INFO
+SplitStrains.egg-info/SOURCES.txt
+SplitStrains.egg-info/dependency_links.txt
+SplitStrains.egg-info/entry_points.txt
+SplitStrains.egg-info/requires.txt
+SplitStrains.egg-info/top_level.txt
+refs/included_intervals.txt
+refs/tuberculosis.filtered-intervals.gff
+refs/tuberculosis.fna

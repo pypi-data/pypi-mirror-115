@@ -1,0 +1,7 @@
+matplotlib>=3.3
+mixem
+numpy>=1.15
+pysam
+scikit-learn
+scipy>=1.0
+seaborn

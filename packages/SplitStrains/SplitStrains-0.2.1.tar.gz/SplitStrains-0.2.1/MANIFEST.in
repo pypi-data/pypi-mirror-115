@@ -1,0 +1,3 @@
+include refs/included_intervals.txt
+include refs/tuberculosis.filtered-intervals.gff
+include refs/tuberculosis.fna
