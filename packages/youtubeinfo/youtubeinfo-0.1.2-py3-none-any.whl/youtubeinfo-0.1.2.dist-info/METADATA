@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: youtubeinfo
+Version: 0.1.2
+Summary: Get YouTube data for analysis
+Home-page: https://github.com/umLu/youtubeinfo
+Author: Luiz P.
+Author-email: umluiz@gmail.com
+License: UNKNOWN
+Keywords: youtube data caption
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: google-api-python-client
+Requires-Dist: pandas
+Requires-Dist: youtube-transcript-api
+
+# Youtube-Info
+
+Make YouTube queiries and get data from videos ready for Jupyter Notebooks.
+
+## Installation
+
+```
+pip install youtubeinfo
+```
+
+## USAGE
+
+Create a search object
+```
+import youtubeinfo.core as yt
+yt_search = yt.search("Test", developer_key=<YOUTUBE_DEVELOPER_KEY>)
+yt_search.df  # DataFrame with YouTube info (likes, views, title, etc.)
+```
+
