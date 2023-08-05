@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: tested
+Version: 0.1.9
+Summary: Python test utils
+Home-page: https://github.com/i2mint/tested
+Author: OtoSense
+License: apache-2.0
+Description: 
+        # tested
+        Python test utils
+        
+        
+        To install:	```pip install tested```
+        
+Platform: any
+Description-Content-Type: text/markdown
