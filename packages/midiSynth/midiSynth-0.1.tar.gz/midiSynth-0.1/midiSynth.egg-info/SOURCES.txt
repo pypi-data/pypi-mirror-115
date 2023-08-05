@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+midiSynth.egg-info/PKG-INFO
+midiSynth.egg-info/SOURCES.txt
+midiSynth.egg-info/dependency_links.txt
+midiSynth.egg-info/requires.txt
+midiSynth.egg-info/top_level.txt
+src/__init__.py
+src/synth.py
