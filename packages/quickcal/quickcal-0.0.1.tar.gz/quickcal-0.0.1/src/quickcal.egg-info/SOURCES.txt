@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/quickcal/__init__.py
+src/quickcal.egg-info/PKG-INFO
+src/quickcal.egg-info/SOURCES.txt
+src/quickcal.egg-info/dependency_links.txt
+src/quickcal.egg-info/top_level.txt
