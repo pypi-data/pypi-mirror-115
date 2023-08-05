@@ -1,0 +1,9 @@
+include *.md
+include *.py
+recursive-include pine *.conf
+recursive-include pine *.sh
+recursive-include pine *.py
+recursive-include pine *.txt
+recursive-include pine *.json
+recursive-include pine/config/templates *
+recursive-include pine/playbooks *
