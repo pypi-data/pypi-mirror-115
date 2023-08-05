@@ -1,0 +1,3 @@
+[console_scripts]
+uv2json = uv2json.__main__:main
+
