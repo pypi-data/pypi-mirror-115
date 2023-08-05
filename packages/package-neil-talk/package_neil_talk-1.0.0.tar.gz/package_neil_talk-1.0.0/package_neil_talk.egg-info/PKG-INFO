@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: package-neil-talk
+Version: 1.0.0
+Summary: A small example package
+Home-page: https://xiaohuzhu.xyz
+Author: neil
+Author-email: xhzhu.nju@gmail.com
+License: Apache License
+Platform: all
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries
+License-File: LICENSE
+
+# Example Package
+This is my simple example package. You can visit [my homepage](https://xiaohuzhu.xyz).
+
+
+

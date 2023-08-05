@@ -1,0 +1,9 @@
+LICENSE
+README.rst
+setup.py
+package_neil_talk/__init__.py
+package_neil_talk/main.py
+package_neil_talk.egg-info/PKG-INFO
+package_neil_talk.egg-info/SOURCES.txt
+package_neil_talk.egg-info/dependency_links.txt
+package_neil_talk.egg-info/top_level.txt
