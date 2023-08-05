@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+xpart/__init__.py
+xpart/curve_tools.py
+xpart/gaussian.py
+xpart/particles.py
+xpart/pdf_integrators_2d.py
+xpart/rf_bucket.py
+xpart/rfbucket_matching.py
+xpart.egg-info/PKG-INFO
+xpart.egg-info/SOURCES.txt
+xpart.egg-info/dependency_links.txt
+xpart.egg-info/requires.txt
+xpart.egg-info/top_level.txt
