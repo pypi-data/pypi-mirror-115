@@ -1,0 +1,9 @@
+setup.py
+iTesting/__init__.py
+iTesting/main.py
+iTesting20210802.egg-info/PKG-INFO
+iTesting20210802.egg-info/SOURCES.txt
+iTesting20210802.egg-info/dependency_links.txt
+iTesting20210802.egg-info/entry_points.txt
+iTesting20210802.egg-info/not-zip-safe
+iTesting20210802.egg-info/top_level.txt
