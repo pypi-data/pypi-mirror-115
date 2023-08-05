@@ -1,0 +1,8 @@
+README.md
+setup.py
+mygtestabcdef/Ml.py
+mygtestabcdef/__init__.py
+mygtestabcdef.egg-info/PKG-INFO
+mygtestabcdef.egg-info/SOURCES.txt
+mygtestabcdef.egg-info/dependency_links.txt
+mygtestabcdef.egg-info/top_level.txt
