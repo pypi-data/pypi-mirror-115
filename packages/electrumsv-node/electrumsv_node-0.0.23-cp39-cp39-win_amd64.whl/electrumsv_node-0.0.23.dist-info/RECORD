@@ -1,0 +1,13 @@
+electrumsv_node/__init__.py,sha256=LjR95UBHi3z-lGaqLBbsT0Tj8P9TAnAJ87xn8w0WZBo,58
+electrumsv_node/bitcoin.conf,sha256=1WesRA5BN2pHadqJqYZQxEON1Az0CJaeHvQyFsm-7Cc,127
+electrumsv_node/electrumsv_node.py,sha256=Afvkpj2RTc2vxQxoMIcSx0-S1RGtjzMbf6Pxv8GHuqU,9812
+electrumsv_node/bin/README.md,sha256=WOWESYNHkYE8bwtxA9vj3N0qcgbOj1Oq8L0mVJEQTvg,96
+electrumsv_node/bin/bitcoin-cli.exe,sha256=e27uwD8BRQ4wCxX8e8ohq4srErXsHq8SYPGaCOw--hU,2941440
+electrumsv_node/bin/bitcoin-miner.exe,sha256=dkkVJ4xUosqdTnBkK_oqNK7XOZ3RyfKHGDA9GFSeYV4,2981888
+electrumsv_node/bin/bitcoin-tx.exe,sha256=0UVerG_fIyGJe799XEBNmIQD4vsjElZ5Rt0gx5GVPrk,3217920
+electrumsv_node/bin/bitcoind.exe,sha256=8AffZ86RGmQYLqeu9z-iJ1AArWrgwkHYGzuyzJkdEKY,9244160
+electrumsv_node-0.0.23.dist-info/LICENSE.txt,sha256=o8T5bLLCdIPTZ-7G9kJ8rSddOwqN9EFgjOxCW1cVRFg,1574
+electrumsv_node-0.0.23.dist-info/METADATA,sha256=cj-D6dyL_jl8Y1THChPQabfbnDZAP5aGo9HwUX_pGt4,5662
+electrumsv_node-0.0.23.dist-info/WHEEL,sha256=2Kg4PzfJLrLEnxRV1e1jZf0TVEjxVcXZXjp8WtjE4tI,105
+electrumsv_node-0.0.23.dist-info/top_level.txt,sha256=o_wVdZG30VnVeA4fG1tPrDprctXhKC7oyDEy7a3EDuc,16
+electrumsv_node-0.0.23.dist-info/RECORD,,
