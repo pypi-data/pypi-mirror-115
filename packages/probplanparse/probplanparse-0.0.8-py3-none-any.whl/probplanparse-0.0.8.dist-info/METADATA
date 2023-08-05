@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: probplanparse
+Version: 0.0.8
+Summary: Parse report from prob plan in ext planner
+Home-page: UNKNOWN
+Author: Tomo Bessho
+Author-email: tomobessho018@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+A small library that parses through the report.txt file and converts to a `user-dict` made up of Hypothesis objects. This will use report.txt files from the `external-project`.
+
+Use `pip install probplanparse` to install package.
+
+Here is a short example of how to use this package:
+
+```python
+import probplanparse
+
+probplanparse.parse_report('/mnt/c/Users/14022/Documents/SIFT/external-planner/pr_result/report.txt')
+```
+
+
+# Change Log
+
+## 0.0.8 (8/4/2021)
+
+-   Added in a CHANGELOG
+-   Removed unused functions `main()` and `get_report_from_args()`
+-   Updated print statements to include problem names
+
+## 0.0.7 (8/4/2021)
+
+-   Updated function `parse-report()` to enable it to take paths to `.tar.bz2` folders.
+-   Created new function `get_report_func()` to extract report from `.tar.bz2` folders.
+
+## 0.0.6 (8/3/2021)
+
+-   First working release
+-   Versions 0.0.1 ~ 0.0.5 were broken and not working.
+
+
