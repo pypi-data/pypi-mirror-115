@@ -1,0 +1,11 @@
+MANIFEST.in
+README.rst
+setup.py
+/home/david/Development/zebra-scanner/src/BoostPythonCoreScanner.cpp
+/home/david/Development/zebra-scanner/src/BoostPythonCoreScanner.h
+src/BoostPythonCoreScanner.cpp
+src/BoostPythonCoreScanner.h
+zebra_scanner.egg-info/PKG-INFO
+zebra_scanner.egg-info/SOURCES.txt
+zebra_scanner.egg-info/dependency_links.txt
+zebra_scanner.egg-info/top_level.txt
