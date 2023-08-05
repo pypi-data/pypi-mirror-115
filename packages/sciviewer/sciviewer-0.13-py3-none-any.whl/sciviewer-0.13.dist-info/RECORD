@@ -1,0 +1,9 @@
+sciviewer/__init__.py,sha256=0q4zEIF5vsKrgcF4M-kHOFuPv8F2jX3GhVUy3S_abLE,33
+sciviewer/gui.py,sha256=T_MVn0BA7Hl58lzjf67BHEI0s_nV-Bws7yasFkKfRuA,12520
+sciviewer/sciviewer.py,sha256=j2umzF4M8cEFP7u7-5LuU6ecnfACIloNXbNFfLp0yfM,35796
+sciviewer/utils.py,sha256=A38M_T4xhSr1BLb5BoQuBqhBaAJSbWJzOgWBtDOPwlE,793
+sciviewer-0.13.dist-info/LICENSE,sha256=ZjZj7Kq4Bme0vj0UyJIAL8GDOV3mpD3mXL9GGwh99JY,1089
+sciviewer-0.13.dist-info/METADATA,sha256=oD9iVkjwxkGtjIqF0hXM4p3VGaugZuTOhgnaPi4zm0Y,6278
+sciviewer-0.13.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+sciviewer-0.13.dist-info/top_level.txt,sha256=Nx23r-P50LaOpRTjYPbgDFExa__LHXA72940nZ71thk,10
+sciviewer-0.13.dist-info/RECORD,,
