@@ -1,0 +1,10 @@
+setup.py
+k3rangeset/__init__.py
+k3rangeset/rangeset.py
+k3rangeset/setup.py
+k3rangeset/synopsis.py
+k3rangeset.egg-info/PKG-INFO
+k3rangeset.egg-info/SOURCES.txt
+k3rangeset.egg-info/dependency_links.txt
+k3rangeset.egg-info/requires.txt
+k3rangeset.egg-info/top_level.txt
