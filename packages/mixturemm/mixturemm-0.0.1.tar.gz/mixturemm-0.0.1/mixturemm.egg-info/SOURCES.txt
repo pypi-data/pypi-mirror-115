@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+mixturemm/__init__.py
+mixturemm/mixturemm.py
+mixturemm.egg-info/PKG-INFO
+mixturemm.egg-info/SOURCES.txt
+mixturemm.egg-info/dependency_links.txt
+mixturemm.egg-info/not-zip-safe
+mixturemm.egg-info/top_level.txt
