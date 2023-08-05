@@ -1,0 +1,8 @@
+pytest_breakword/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytest_breakword/main.py,sha256=sYNTJJfziY0NhqkoacgjljJXeE5DfF89Ah8GQkb6ggA,921
+pytest_breakword/version.py,sha256=I4WU5JcKZjfggPiNIoGDFxUDB05Ym1xFhbC3J_MjilA,18
+pytest_breakword-0.1.1.dist-info/entry_points.txt,sha256=NwUg9YbCSWG9IYBFaPiB7gj8755B5HsOHyn01qZzWIY,44
+pytest_breakword-0.1.1.dist-info/LICENSE,sha256=rq_DYkY3j8yCXmOfJCrdpQiIi7ksAfHunmRdpeFPUJk,1073
+pytest_breakword-0.1.1.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+pytest_breakword-0.1.1.dist-info/METADATA,sha256=Hsw_4wjMqwayuA0NvlgkDko5eiIZKR7o7o9HKTM7Yf4,456
+pytest_breakword-0.1.1.dist-info/RECORD,,
