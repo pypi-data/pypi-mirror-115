@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: potrace-py
+Version: 0.0.1
+Summary: Port of potrace written in python
+Home-page: https://github.com/mahdilamb/potrace_py
+Author: Mahdi Lamb
+Author-email: mahdilamb@gmail.com
+License: UNKNOWN
+Description: # potrace_py
+        
+        Python port of [Potrace](http://potrace.sourceforge.net/)
+        
+        
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
