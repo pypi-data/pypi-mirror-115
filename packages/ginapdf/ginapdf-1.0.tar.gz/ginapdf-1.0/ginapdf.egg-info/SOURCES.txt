@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+ginapdf/__init__.py
+ginapdf/pdf2.py
+ginapdf/pdf2text.py
+ginapdf.egg-info/PKG-INFO
+ginapdf.egg-info/SOURCES.txt
+ginapdf.egg-info/dependency_links.txt
+ginapdf.egg-info/top_level.txt
