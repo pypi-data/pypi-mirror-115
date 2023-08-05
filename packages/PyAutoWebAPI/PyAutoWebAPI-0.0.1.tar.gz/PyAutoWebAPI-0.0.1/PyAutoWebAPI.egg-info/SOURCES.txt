@@ -1,0 +1,9 @@
+README.md
+setup.py
+PyAutoWebAPI.egg-info/PKG-INFO
+PyAutoWebAPI.egg-info/SOURCES.txt
+PyAutoWebAPI.egg-info/dependency_links.txt
+PyAutoWebAPI.egg-info/requires.txt
+PyAutoWebAPI.egg-info/top_level.txt
+pyautowebapi/__init__.py
+pyautowebapi/api.py
