@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: juicefs
+Version: 0.0.1
+Summary: JuiceFS Python SDK
+Home-page: https://github.com/megvii-research/juicefs-python
+Author: r-eng
+Author-email: r-eng@megvii.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development
+Classifier: Topic :: Utilities
+Requires-Python: >=3.5
+License-File: LICENSE
+
+UNKNOWN
+

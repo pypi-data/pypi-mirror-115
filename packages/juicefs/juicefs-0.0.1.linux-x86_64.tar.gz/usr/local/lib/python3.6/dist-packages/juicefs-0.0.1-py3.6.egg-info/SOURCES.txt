@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+juicefs/__init__.py
+juicefs/io.py
+juicefs/juicefs.py
+juicefs/libjfs.py
+juicefs/utils.py
+juicefs/version.py
+juicefs.egg-info/PKG-INFO
+juicefs.egg-info/SOURCES.txt
+juicefs.egg-info/dependency_links.txt
+juicefs.egg-info/top_level.txt
+juicefs/lib/__init__.py
+juicefs/lib/libjfs.so
