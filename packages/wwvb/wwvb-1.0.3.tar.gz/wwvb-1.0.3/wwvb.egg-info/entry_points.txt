@@ -1,0 +1,7 @@
+[console_scripts]
+dut1table = wwvb.dut1table:main
+wwvbgen = wwvb.gen:main
+
+[gui_scripts]
+wwvbtk = wwvb.wwvbtk:main
+
