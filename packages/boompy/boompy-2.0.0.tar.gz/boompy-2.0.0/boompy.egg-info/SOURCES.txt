@@ -1,0 +1,11 @@
+LICENSE
+README.rst
+boom.py
+setup.cfg
+setup.py
+boompy.egg-info/PKG-INFO
+boompy.egg-info/SOURCES.txt
+boompy.egg-info/dependency_links.txt
+boompy.egg-info/entry_points.txt
+boompy.egg-info/requires.txt
+boompy.egg-info/top_level.txt
