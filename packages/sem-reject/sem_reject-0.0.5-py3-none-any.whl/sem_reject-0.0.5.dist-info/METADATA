@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: sem-reject
+Version: 0.0.5
+Summary: sem_reject
+Home-page: https://github.com/xiaomihao/sem_reject
+Author: Xiao Mi
+Author-email: 1922188869@qq.com
+License: Apache 2.0
+Platform: UNKNOWN
+Requires-Dist: numpy
+Requires-Dist: keras
+Requires-Dist: tokenizer-tools
+Requires-Dist: flask
+Requires-Dist: flask-cors
+Requires-Dist: ioflow
+Requires-Dist: tf-crf-layer
+Requires-Dist: tf-attention-layer
+Requires-Dist: tensorflow (==1.15)
+Requires-Dist: deliverable-model
+Requires-Dist: gunicorn
+Requires-Dist: micro-toolkit
+Requires-Dist: seq2annotation
+Requires-Dist: mtnlpmodel
+
+UNKNOWN
+
+
