@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+gsindex.egg-info/PKG-INFO
+gsindex.egg-info/SOURCES.txt
+gsindex.egg-info/dependency_links.txt
+gsindex.egg-info/top_level.txt
+src/__init__.py
+src/gsindex.py
