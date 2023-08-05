@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+fipper_python_sdk.egg-info/PKG-INFO
+fipper_python_sdk.egg-info/SOURCES.txt
+fipper_python_sdk.egg-info/dependency_links.txt
+fipper_python_sdk.egg-info/requires.txt
+fipper_python_sdk.egg-info/top_level.txt
+fipper_sdk/__init__.py
+fipper_sdk/exceptions.py
+fipper_sdk/manager.py
+fipper_sdk/utils.py
+fipper_sdk/client/__init__.py
+fipper_sdk/client/sync.py
