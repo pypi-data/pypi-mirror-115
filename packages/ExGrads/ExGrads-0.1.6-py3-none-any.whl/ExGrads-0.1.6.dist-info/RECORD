@@ -1,0 +1,10 @@
+exgrads/-vectorize.py,sha256=deCojmH4ZKz8j-h3JwfZJEFWRlm_b41rcZskzmeu-uQ,910
+exgrads/__init__.py,sha256=f7M-bu6M5aTxDDyqmZ1iZBxkTT4AOzYwxUyPOftqisA,112
+exgrads/grad1.py,sha256=-kGrh0qxkAY1yxJlXonc5scC9tKvUt7gPqoIrszj2R8,1304
+exgrads/hooks.py,sha256=GI0X1CYcbdGZEwORciLfXL03M-VbGPISqnypCOQg53M,2891
+exgrads/trH.py,sha256=36GQ2L7irbYHAwBdrw4A7JM9c49SC5PK46DA2FgVDhg,1353
+ExGrads-0.1.6.dist-info/LICENSE.txt,sha256=EoxTlWMoknallND7IrhkIliNZCuGdk0kMMi3tN5oFYk,1058
+ExGrads-0.1.6.dist-info/METADATA,sha256=f4uxnT-Lj9yaP3IERERh-b65Ijk6zl9tg65dmtcUcJ4,1963
+ExGrads-0.1.6.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+ExGrads-0.1.6.dist-info/top_level.txt,sha256=q3BszMWVPo-JcO3yp4gIzzEkHN3jMY_Zj7whZqWhjiY,8
+ExGrads-0.1.6.dist-info/RECORD,,
