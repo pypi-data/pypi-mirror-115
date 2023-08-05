@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: sbol-utilities
+Version: 1.0a3
+Summary: SBOL-utilities
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: SBOL-utilities is a collection of scripts and functions for manipulating SBOL 3 data that can be imported or run from the command line.
+Platform: UNKNOWN
