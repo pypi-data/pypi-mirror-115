@@ -1,0 +1,9 @@
+README.md
+setup.py
+pdfmaster/__init__.py
+pdfmaster/pdf2image.py
+pdfmaster/pdf2text.py
+pdfmaster_drgk.egg-info/PKG-INFO
+pdfmaster_drgk.egg-info/SOURCES.txt
+pdfmaster_drgk.egg-info/dependency_links.txt
+pdfmaster_drgk.egg-info/top_level.txt
