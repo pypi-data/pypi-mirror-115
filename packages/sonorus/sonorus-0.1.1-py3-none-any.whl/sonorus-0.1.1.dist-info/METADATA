@@ -1,0 +1,91 @@
+Metadata-Version: 2.1
+Name: sonorus
+Version: 0.1.1
+Summary: Named after a spell in the Harry Potter Universe, where it      amplies the sound of a speaker. In muggles' terminology, this is a repository      of modules for audio and speech processing for and on top of machine learning      based tasks such as speech-to-text.
+Home-page: https://github.com/pensieves/sonorus
+Author: Md Imbesat Hassan Rizvi
+Author-email: imbugene@gmail.com
+License: MIT
+Download-URL: https://github.com/pensieves/sonorus/releases
+Keywords: deep learning,speech recognition,speech to text,language modelling
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Environment :: GPU :: NVIDIA CUDA :: 11.2
+Description-Content-Type: text/markdown
+Requires-Dist: six (~=1.15.0)
+Requires-Dist: numpy (~=1.20.2)
+Requires-Dist: scipy (~=1.6.2)
+Requires-Dist: webrtcvad (~=2.0.10)
+Requires-Dist: pyaudio (~=0.2.11)
+Requires-Dist: librosa (~=0.8.0)
+Requires-Dist: tqdm (~=4.49.0)
+Requires-Dist: torch (~=1.7.1)
+Requires-Dist: transformers (~=4.4.2)
+Requires-Dist: omegaconf (~=2.0.6)
+Requires-Dist: google-cloud-speech (~=2.0.1)
+Requires-Dist: pandas (~=1.2.4)
+Requires-Dist: datasets (~=1.5.0)
+Requires-Dist: praat-parselmouth (~=0.4.0)
+Requires-Dist: wget (~=3.2)
+Provides-Extra: kaldi
+Requires-Dist: pykaldi (~=0.2.1) ; extra == 'kaldi'
+Provides-Extra: speechlm
+Requires-Dist: pyflashlight ; extra == 'speechlm'
+Requires-Dist: fairseq (~=1.0.0) ; extra == 'speechlm'
+Requires-Dist: kenlm ; extra == 'speechlm'
+
+# sonorus
+Named after a spell in the Harry Potter Universe, where it amplifies the sound of a speaker. In muggles' terminology, this is a repository of modules for audio and speech processing for and on top of machine learning based tasks such as speech-to-text.
+
+## Getting Started:
+
+### Installation:
+*Install dependencies*
+
+The repository has dependencies such as `kenlm`, `pyflashlight`, `fairseq`, `portaudio` and `libsndfile1` which needs to be installed before pip-installable modules
+
+To install `kenlm` with python bindings, refer to the `kenlm` [github repository](https://github.com/kpu/kenlm).
+
+To install `pyflashlight` with python bindings, refer to the [installation instructions](https://github.com/flashlight/flashlight/tree/master/bindings/python#installation). NOTE that the C++ build itself is not necessarily required for building python bindings. FURTHERMORE, `pyflashlight` will soon be made `pip`-installable via `pypi`.
+
+To install `fairseq`, refer to [requirements and installations](https://github.com/pytorch/fairseq) from the `fairseq` github repository. NOTE that the current `pip`-installable `pypi` module is of version < 1.0 and hence installation from source is currently required. Once the `pypi` index is updated with the latest `fairseq` package, the same can be installed using `pip`.
+
+`pyaudio` and `librosa`/`soundfile` have dependencies on `portaudio` and `libsndfile1`. If not using conda, make sure these are installed. For Ubuntu, the same can be installed by executing:
+
+`sudo apt install portaudio19-dev libsndfile1`
+
+Finally, install requirements by executing:
+
+`pip install -r requirements.txt`
+
+or install using conda in a conda environment.
+
+*Finally, install the package using:*
+
+`pip install sonorus`
+
+### Environment set up:
+
+*Note:* Environment set up is required while using Google Cloud's speech to text api. For this, Google Application Credentials is to be set as an environment variable by exporting e.g.: 
+```
+export GOOGLE_APPLICATION_CREDENTIALS=/path/to/google-cloud-credentials.json
+```
+
+### Sample running instructions:
+
+- Receives speech input from microphone and prints it on console using on-device Facebook's Wav2Vec2 model made available by Hugging Face..
+
+`python3 examples/streaming-stt.py`
+
+To modify the execution parameters of the on-device model such as providing GPU device index in case of availability, the program can be run as:
+
+`python3 examples/streaming-stt.py --gpu_idx 0`
+
+- For using Google cloud's speech to text execute:
+
+`python3 examples/google-streaming-stt.py`
+
+
