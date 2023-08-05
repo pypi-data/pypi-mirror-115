@@ -1,0 +1,15 @@
+xbutil_gui/__init__.py,sha256=R3MteISxk8eLUby3UduHXnTPBv6VjJz7Ix-7kbAjKG4,1132
+xbutil_gui/device_manager.py,sha256=BywO1peHx0hxnqbAAfkQy8onWYj7tToE3ntUMtQ5KuI,17309
+xbutil_gui/plot_metrics.py,sha256=3fzfZ9co6VVAJ-aEMfraRWmCkYQRpxW9PBwxivogoVw,11207
+xbutil_gui/xbutil_gui.py,sha256=xsMAzSElseWA1FJFjFhBZU4ujE_Ms71EgG79EN2fQEg,16843
+xbutil_gui/xbutil_handler.py,sha256=TlTvhgl46IJceNpyZs0zHqdVTFXC9iAZUE0s2XYRdsY,4307
+xbutil_gui/xbutil_top.py,sha256=q2Kn-brhx6KqIr2Rni5eCWJMDksbX64VfKj7quGpm9g,9537
+xbutil_gui/resources/alveo-specifications.json,sha256=cYjJvE3cqe0lab6MDAl9Ipmz5ntwfbvB8x4ImAnAdiw,660
+xbutil_gui/resources/xbutil-gui-config.json,sha256=ln2D8J0MdCxgv_5wIZfqmv_6utSgRMf8RMMpkQg3YJU,66
+xbutil_gui/resources/xbutil-icon.gif,sha256=Hs9qcdCGWB2G4D2ft3LdqnwgrUUkaZeXOlQMuEt4RlI,27135
+xbutil_gui-0.0.8.dist-info/LICENSE,sha256=cgjRRp2uFbR3e_D1tVIfstBdCdaFy3cKwkP6oSoQ_XY,1104
+xbutil_gui-0.0.8.dist-info/METADATA,sha256=4BSkEByI_fYR1OksZnLg6sAzrh0kCMWJmDMDvA0hH-0,2772
+xbutil_gui-0.0.8.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+xbutil_gui-0.0.8.dist-info/entry_points.txt,sha256=ymLJ40Qwk6LkTHC9A_HF9EWTUhJHNEZEzxRgZCExRv0,59
+xbutil_gui-0.0.8.dist-info/top_level.txt,sha256=ZN7_zIMa1JJ9cmDT_6za8SF5tbAUHYJ9wBT1MLQ7Aa4,11
+xbutil_gui-0.0.8.dist-info/RECORD,,
