@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+rainbowcsv/__init__.py
+rainbowcsv/__main__.py
+rainbowcsv.egg-info/PKG-INFO
+rainbowcsv.egg-info/SOURCES.txt
+rainbowcsv.egg-info/dependency_links.txt
+rainbowcsv.egg-info/entry_points.txt
+rainbowcsv.egg-info/requires.txt
+rainbowcsv.egg-info/top_level.txt
