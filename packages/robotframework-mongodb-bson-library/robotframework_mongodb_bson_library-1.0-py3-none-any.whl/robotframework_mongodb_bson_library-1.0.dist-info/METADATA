@@ -1,0 +1,82 @@
+Metadata-Version: 2.1
+Name: robotframework-mongodb-bson-library
+Version: 1.0
+Summary: Mongo Database utility library for Robot Framework that uses bson serialization utils
+Home-page: https://github.com/momenh/robotframework-mongodb-bson-library
+Author: momen heragi
+Author-email: momenh@gmail.com
+License: UNKNOWN
+Keywords: mongodb,robotframework,robotframework-mongodb-bson-library,MongoDBBSONLibrary
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: Public Domain
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Testing
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: tox (>=3.0.0)
+Requires-Dist: coverage
+Requires-Dist: robotframework (>=3.0)
+Requires-Dist: pymongo (>=3.8.0)
+Requires-Dist: bson (>=0.5.8)
+
+Robotframework-MongoDB-Library
+==============================
+
+A library for interacting with MongoDB from RobotFramework.
+
+Uses pymongo.
+
+Notes
+-----
+
+This is a fork from the library [Robotframework-MongoDB-Library](https://github.com/robotframework-thailand/robotframework-mongodb-library.git)
+
+main change is that the json string parsing will be modified to bson loads method, 
+this way all bson functions like (ObjectId, Timestamps ....etc ) will be supported directly without any needs to explicitly parse using bson in robot framwork
+
+
+
+License
+-------
+See LICENSE file for updated license information
+
+Install
+-------
+You can install by pulling down source and executing the following:
+
+'''
+sudo python setup.py install
+'''
+
+
+
+You can install using pip
+
+'''
+pip install robotframework-mongodb-bson-library
+'''
+
+# Documentation
+For the detail keyword documentation. Go to this following link:
+
+https://momenh.github.io/robotframework-mongodb-bson-library/
+
+- install build tools:
+
+    $ python3 -m pip install --upgrade build
+
+- build dist:
+
+    $ python3 -m build
+ 
+- install twine for upload to:
+
+    $ python3 -m pip install --upgrade twine
+
+- upload dist package:
+
+    $ python3 -m twine upload --repository pypi dist/*
+
+
