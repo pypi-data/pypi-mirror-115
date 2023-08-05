@@ -1,0 +1,21 @@
+Metadata-Version: 1.2
+Name: mcquery
+Version: 0.0.1
+Summary: Query tool for Minecraft: Bedrock Edition servers.
+Home-page: https://github.com/w-gao/py-mcpe-query
+Author: w-gao
+Author-email: me@wlgao.com
+License: MIT
+Description: a Python software that uses the query protocol to ping Minecraft: Bedrock edition servers for basic information
+Keywords: minecraft bedrock mcpe mcbe mcpeserver mcbeserver
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: System :: Networking
+Requires-Python: >=3.6
