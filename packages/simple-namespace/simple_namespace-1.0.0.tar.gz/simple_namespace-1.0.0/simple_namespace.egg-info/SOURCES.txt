@@ -1,0 +1,7 @@
+setup.py
+simple_namespace/__init__.py
+simple_namespace/main.py
+simple_namespace.egg-info/PKG-INFO
+simple_namespace.egg-info/SOURCES.txt
+simple_namespace.egg-info/dependency_links.txt
+simple_namespace.egg-info/top_level.txt
