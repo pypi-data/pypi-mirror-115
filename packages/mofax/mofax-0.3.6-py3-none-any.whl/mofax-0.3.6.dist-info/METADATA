@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: mofax
+Version: 0.3.6
+Summary: Work with MOFA+ models in Python
+Author: Danila Bredikhin
+Author-email: danila.bredikhin@embl.de
+Requires-Python: >=3.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: h5py (>=2.9.0)
+Requires-Dist: matplotlib (>=3.1.0)
+Requires-Dist: numpy (>=1.17.0)
+Requires-Dist: pandas (>=1.0.0)
+Requires-Dist: seaborn (>=0.9.0)
