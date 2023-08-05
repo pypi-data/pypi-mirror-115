@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+aiocoingecko/__init__.py
+aiocoingecko/api.py
+aiocoingecko/errors.py
+aiocoingecko.egg-info/PKG-INFO
+aiocoingecko.egg-info/SOURCES.txt
+aiocoingecko.egg-info/dependency_links.txt
+aiocoingecko.egg-info/requires.txt
+aiocoingecko.egg-info/top_level.txt
