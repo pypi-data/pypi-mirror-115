@@ -1,0 +1,13 @@
+scconfig/__init__.py,sha256=G3eKwhyPW-XlTtfHi6zNVCoS91HnEQQNGlY5C9ylMKs,1221
+scconfig/config.py,sha256=axe0GtR9nIpbBz7jTrErqEGCuVSQ0Yjd-MNXkH6dh3I,4870
+scconfig/tests/__init__.py,sha256=geiVmsc9iPhOzHUHdCPrdVcoT42GBjMoafy2eT_JloI,1133
+scconfig/tests/test_config.py,sha256=c6BvcgtrDhvCusrtx60dcUs2FK61_mPF0MVDtjce2d4,1879
+scconfig/tests/sample_config/__init__.py,sha256=geiVmsc9iPhOzHUHdCPrdVcoT42GBjMoafy2eT_JloI,1133
+scconfig/tests/sample_config/default.py,sha256=1NAL4kFEmmqem7zN7fkn31tg3_hXDjwpIC2SFL2oJ-k,125
+scconfig/tests/sample_config/default.yml,sha256=P6lI8dO3Bupryg0yAt8AL_2NTUHhtIDQBuiNo42iQKM,78
+scconfig/tests/sample_config/development.yml,sha256=N6dsN_MDQrzWxV5ImfwpCP3w_wk2pCNJvgfT7KtlfYI,77
+sc_config-0.0.7.dist-info/LICENSE,sha256=qE1ONTqO-JURigwx0cciswGHX9-E7RkwoDtJCqnqBT4,1076
+sc_config-0.0.7.dist-info/METADATA,sha256=12O_mXpF9BDixPScKa_sFsGVnPJDVn1AqP_isa1rAe4,1932
+sc_config-0.0.7.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+sc_config-0.0.7.dist-info/top_level.txt,sha256=Zvo5WZMK3UDwxx8y6B2QEsgpLVlb5KNuEnQvRd6QW30,9
+sc_config-0.0.7.dist-info/RECORD,,
