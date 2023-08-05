@@ -1,0 +1,9 @@
+uv2json/__init__.py,sha256=Cc5aoCEV6dJwK8IZpUQc5Lfb7KJXAHG1GmGOszDhRas,38
+uv2json/__main__.py,sha256=zjStPFFOABKy61aNsXyw0FFWpRNZ0afe4jd5Na_WIbY,616
+uv2json/convert_to_json_uv.py,sha256=pacfUws6zOjLtYqwcHVYI79wjYkPj_SksJAHvhxH1Yw,2352
+uv2json-0.0.13.dist-info/LICENSE,sha256=ljOS4DjXvqEo5VzGfdaRwgRZPbNScGBmfwyC8PChvmQ,32422
+uv2json-0.0.13.dist-info/METADATA,sha256=VkgoH6_ANFjuzqHAxaeYCuuT8v-vpl6GBuRqHby-4tg,664
+uv2json-0.0.13.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+uv2json-0.0.13.dist-info/entry_points.txt,sha256=sTbV_dRqUe-BmaBMc9_ro28e1wHMbNdNj2bWxvzGsOg,59
+uv2json-0.0.13.dist-info/top_level.txt,sha256=DovKnB7naexg_5D5knmSCwANZfX4jC3E_49zys_OABA,8
+uv2json-0.0.13.dist-info/RECORD,,
