@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: hangman-sm
+Version: 0.0.1
+Summary: a basic game of hangman
+Home-page: UNKNOWN
+Author: SM
+Author-email: namefir19@gmail.com
+License: MIT
+Description: this is a pretty basic game of hangman, where the player gets seven incorrect guesses until they lose and the word is revealed. it goes in an "infinate" loop of asking whether they would like to play again until the user says no.
+        
+        change log
+        ==========
+        
+        0.0.1 (7/30/21)
+        ---------------
+        + first release
+Keywords: hangman,game
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Other Audience
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3

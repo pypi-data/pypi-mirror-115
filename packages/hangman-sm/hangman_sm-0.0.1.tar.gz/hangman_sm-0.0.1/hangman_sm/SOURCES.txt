@@ -1,0 +1,12 @@
+MANIFEST.in
+changelog.txt
+functions.py
+lisence.txt
+lists.py
+main.py
+readme.txt
+setup.py
+hangman.egg-info/PKG-INFO
+hangman.egg-info/SOURCES.txt
+hangman.egg-info/dependency_links.txt
+hangman.egg-info/top_level.txt

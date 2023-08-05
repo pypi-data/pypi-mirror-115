@@ -1,0 +1,1 @@
+this is a pretty basic game of hangman, where the player gets seven incorrect guesses until they lose and the word is revealed. it goes in an "infinate" loop of asking whether they would like to play again until the user says no.
