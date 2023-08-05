@@ -1,0 +1,3 @@
+[console_scripts]
+convert_to_json = uv2json.__main__:main
+
