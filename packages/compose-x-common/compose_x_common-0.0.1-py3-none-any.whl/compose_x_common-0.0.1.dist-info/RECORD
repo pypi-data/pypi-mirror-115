@@ -1,0 +1,9 @@
+LICENSE,sha256=HyVuytGSiAUQ6ErWBHTqt1iSGHhLmlC8fO7jTCuR8dU,16725
+MANIFEST.in,sha256=9JooaUInOBOrSzhUYMjWriR4RooFXMA1OPtvqD1NcIM,262
+compose_x_common/__init__.py,sha256=ojR1nYypjR5eQLFUtCCMINyUHxTEdsAucNXfSryDH7c,252
+compose_x_common/aws.py,sha256=0pjW6-KNaxImHcnU9L1iHfn4ofT7mR1ZUvhJwiFyidk,1678
+compose_x_common/compose_x_common.py,sha256=_YXnhat8_A8nKoibJpFSFkPtLLWeAbvFxIjbxizSv_c,938
+compose_x_common-0.0.1.dist-info/LICENSE,sha256=HyVuytGSiAUQ6ErWBHTqt1iSGHhLmlC8fO7jTCuR8dU,16725
+compose_x_common-0.0.1.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+compose_x_common-0.0.1.dist-info/METADATA,sha256=dGcIjILii_NmSX_vidNd6gaAXVtkurZRdT8hwvOQ8cA,1455
+compose_x_common-0.0.1.dist-info/RECORD,,
