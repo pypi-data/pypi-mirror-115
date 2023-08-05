@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+spark_pager/__init__.py
+spark_pager/core.py
+spark_pager/html_text.py
+spark_pager/mailer.py
+spark_pager.egg-info/PKG-INFO
+spark_pager.egg-info/SOURCES.txt
+spark_pager.egg-info/dependency_links.txt
+spark_pager.egg-info/requires.txt
+spark_pager.egg-info/top_level.txt

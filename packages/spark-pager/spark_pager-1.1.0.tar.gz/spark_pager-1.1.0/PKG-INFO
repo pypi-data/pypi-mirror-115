@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: spark_pager
+Version: 1.1.0
+Summary: Mail Notifier for all Spark Jobs
+Home-page: https://github.com/BrightEmah123/spark-pager
+Author: Bright Emah
+Author-email: bemah2020@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3
+License-File: LICENSE
+
+UNKNOWN
+
