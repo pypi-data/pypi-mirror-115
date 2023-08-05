@@ -1,0 +1,12 @@
+LICENSE.md
+README.md
+pyproject.toml
+setup.cfg
+src/fasta_merge/__init__.py
+src/fasta_merge/merge.py
+src/fasta_merge.egg-info/PKG-INFO
+src/fasta_merge.egg-info/SOURCES.txt
+src/fasta_merge.egg-info/dependency_links.txt
+src/fasta_merge.egg-info/entry_points.txt
+src/fasta_merge.egg-info/requires.txt
+src/fasta_merge.egg-info/top_level.txt
