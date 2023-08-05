@@ -1,0 +1,5 @@
+setuptools
+pathlib
+simplejson
+numpy
+pandas

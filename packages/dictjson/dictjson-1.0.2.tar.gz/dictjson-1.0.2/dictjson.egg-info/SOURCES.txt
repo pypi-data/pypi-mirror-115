@@ -1,0 +1,8 @@
+setup.py
+dictjson/__init__.py
+dictjson/create.py
+dictjson.egg-info/PKG-INFO
+dictjson.egg-info/SOURCES.txt
+dictjson.egg-info/dependency_links.txt
+dictjson.egg-info/requires.txt
+dictjson.egg-info/top_level.txt
