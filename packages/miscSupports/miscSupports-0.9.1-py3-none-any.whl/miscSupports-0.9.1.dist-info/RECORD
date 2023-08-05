@@ -1,0 +1,15 @@
+miscSupports/Errors.py,sha256=BYPKaQCVqhQ738PiLNFNZFCmSDtfVmiytgRGqTH0xEs,1176
+miscSupports/ShellMaker.py,sha256=V6qUsM-iteENxFxuYS-AtAaboW6xJQM7FwPoOAh_6sY,1107
+miscSupports/__init__.py,sha256=iMSRrmtPDb0-CT1yrfcXLnwjVEIaBmo0k5dmu90VjJY,319
+miscSupports/alter_array.py,sha256=F7vZco_AjeWbJX7zYbamCN3MTPgE87mVnAKXRpxKRsU,11237
+miscSupports/alter_string.py,sha256=b7IFIxu8LN6f3SQ0CkbaLKGB9bHOe0ZEAOi3vOL04qo,1682
+miscSupports/byte_supports.py,sha256=jUD0nvWka0qFuIJtPi6LfsSG_7giFUYPfvfDwJe9JgU,2748
+miscSupports/dates_and_time.py,sha256=eODTVYhSEG1Dnv07xKxeykHDt3wgPRVdveoyPV3D0nc,3972
+miscSupports/file_support.py,sha256=XDO_F0sv49wzrgp6Bg95zNXPgVAvdva1Yytcgknv2zg,6656
+miscSupports/misc.py,sha256=iYqWG7CZooFDYfsKfJQu4TD0WhNsIRDUUtp_JpYnobU,1826
+miscSupports/shapely_support.py,sha256=mpYJF9USdfDhmFMAcZZfOckpVd0a2ads9buJTkySp-0,1210
+miscSupports-0.9.1.dist-info/LICENSE,sha256=m6Hmim3NNA-_y97X6yarvaf6IUerwLQFF3hlCXsc0KI,1090
+miscSupports-0.9.1.dist-info/METADATA,sha256=rFuVhlLyQWIPuhdd2BTE_hGixfapDXhac0SINnxzrzI,795
+miscSupports-0.9.1.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+miscSupports-0.9.1.dist-info/top_level.txt,sha256=SkyJWNczNshZ7W_O7QO7jvaUJbnBhaN-P0HeWOkl7ts,13
+miscSupports-0.9.1.dist-info/RECORD,,
