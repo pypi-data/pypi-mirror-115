@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: python-simple-caching
+Version: 0.12
+Summary: Simple caching library for python
+Home-page: https://gitlab.com/mihaicristianpirvu/simple-caching/
+Author: Mihai Cristian Pîrvu
+Author-email: mihaicristianpirvu@gmail.com
+License: WTFPL
+Keywords: caching,cache
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# Simple Caching
+
+Small project to standardize storing (key, value) data for caching purposes.
+
+## Supported caching methods:
+1. Disk
+   - **NpyFS** - Numpy array export
+2. Memory
+   - **DictMemory** - keys are stored as dict keys and recalled from memory
+
+
+## TODO:
+- unit tests
+- caching algorithms (LRU, trees etc.) -- should be somehow independent of caching _mechanism_ (memory, disk etc.)
+- more caching mechanisms: h5py, sqlite, torch arrays (?), pickle (?)
+
