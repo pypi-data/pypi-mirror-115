@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: ak48
+Version: 0.0.1
+Summary: common
+Home-page: https://github.com/whdevlab/ak47
+Author: WHDevLab
+Author-email: whdevlab@163.com
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: PyJWT
+Requires-Dist: pyDes
+
+# ak47
+
+
