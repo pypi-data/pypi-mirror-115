@@ -1,0 +1,14 @@
+numpy
+pandas
+pyluach
+python-dateutil
+pytz
+six
+toolz
+
+[dev]
+flake8
+pytest
+pytest-benchmark
+parameterized
+pytest-xdist
