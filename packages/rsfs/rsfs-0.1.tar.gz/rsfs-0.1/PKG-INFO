@@ -1,0 +1,24 @@
+Metadata-Version: 1.1
+Name: rsfs
+Version: 0.1
+Summary: Dimensionality Reduction using Random Subset Feature Selection algorithm.
+Home-page: https://github.com/gksriharsha/RSFS
+Author: G.K.Sriharsha
+Author-email: gksriharsha@gmail.com
+License: cc by-nc-sa 4.0
+Download-URL: https://github.com/gksriharsha/RSFS/archive/refs/tags/v_01.tar.gz
+Description: UNKNOWN
+Keywords: Dimensionality Reduction,Machine Learning,AI,Feature Selection,Supervised Learning
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
