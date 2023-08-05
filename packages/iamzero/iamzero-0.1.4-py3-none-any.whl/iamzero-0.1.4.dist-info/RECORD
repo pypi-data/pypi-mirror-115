@@ -1,0 +1,14 @@
+iamzero/__init__.py,sha256=UxQ-nMoMvdlWSg5BxIleSd4SQLw6OnLvcmlN4RQgjWk,2675
+iamzero/client.py,sha256=xfFl80T1530dUzrZUVZX9WoFm8EpkLlE046g5SSed8Y,4122
+iamzero/config.py,sha256=Dcs-08nG7dZPVMLvMySiHjYEGNMFAxvM5Wxi0dl5Du4,4739
+iamzero/event.py,sha256=UJPPvbUfLDpbe5z9JYkNoshuKBuzlQBIHgyMdr5Ohmg,243
+iamzero/identity.py,sha256=DDRMmkY5S2LS6cTf0YeH5R18loKpIM4qdjMxzPafhIY,3644
+iamzero/instrumentation/__init__.py,sha256=Ah7_5UuvPskpzpZv7-1zUlSVEZJaQVECXhG-hXSR5mw,24
+iamzero/instrumentation/botocore.py,sha256=7qVwgNPvVnMua4utYwghWe6Ha49iuSV2M-7DxT4qPNk,2731
+iamzero/logging.py,sha256=6AQFkXGrDOYvheStc2-3rgnf8fU-qcah8seajqEsIPc,836
+iamzero/publisher.py,sha256=ElPPdNL3dmP7DELUT_WIjbj5RVwjAPEhepgbubiCMKA,12547
+iamzero/test_config.py,sha256=ooYDz744YSwyUO-AfK--VKL75pQaXgbSp5kZ0Md3xZg,138
+iamzero/version.py,sha256=r4JiAExMNe6dFEzilxqWId5R9dA0dJeWyp8WJ8BfKhI,18
+iamzero-0.1.4.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+iamzero-0.1.4.dist-info/METADATA,sha256=Zr_Q9O2dGcG_T9d21qz3AxFONIazUV0dw5hewO_ZIBI,2927
+iamzero-0.1.4.dist-info/RECORD,,
