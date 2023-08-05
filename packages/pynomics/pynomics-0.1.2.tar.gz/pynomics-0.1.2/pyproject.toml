@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "pynomics"
+version = "0.1.2"
+description = "Small library to interact with the [Nomics api](https://p.nomics.com/cryptocurrency-bitcoin-api)."
+authors = ["Soumendra Prasad Dhanee <soumendra@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8.6"
+tqdm = "^4.62.0"
+pydantic = "^1.8.2"
+click = "7.1.2"
+nomics-python = "^3.2.0"
+pandas = "^1.3.1"
+numpy = "^1.21.1"
+
+[tool.poetry.dev-dependencies]
+black = "^21.7b0"
+isort = "^5.9.3"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pynomics
+Version: 0.1.2
+Summary: Small library to interact with the [Nomics api](https://p.nomics.com/cryptocurrency-bitcoin-api).
+Author: Soumendra Prasad Dhanee
+Author-email: soumendra@gmail.com
+Requires-Python: >=3.8.6,<4.0.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: click (==7.1.2)
+Requires-Dist: nomics-python (>=3.2.0,<4.0.0)
+Requires-Dist: numpy (>=1.21.1,<2.0.0)
+Requires-Dist: pandas (>=1.3.1,<2.0.0)
+Requires-Dist: pydantic (>=1.8.2,<2.0.0)
+Requires-Dist: tqdm (>=4.62.0,<5.0.0)
