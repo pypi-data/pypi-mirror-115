@@ -1,0 +1,15 @@
+gravityRecorder/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gravityRecorder/functions.py,sha256=2s4Uuggk2Mfd2CTo5ZfbXbxVt55kD0Yhusr_d7MyT3E,4133
+gravityRecorder/main.py,sha256=xpRAAdcrWDf7BEtWyBjiiINl4oaEedkykZ4w2FiT6DE,22600
+gravityRecorder/settings.py,sha256=J5nKCmDurwFd8eaD8Vs677WxrTnYB1fuZLIboaYRVPc,1515
+gravityRecorder/alerts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gravityRecorder/alerts/alert_funcs.py,sha256=UTjluwkMOjAPOOu910pGqLKZahp8I8iCGQXPwBO6fxg,2942
+gravityRecorder/alerts/settings.py,sha256=HYcK-c5Ji3mVVC6HhLYLFMN0XT9z7HD_m728mh4mBsM,1001
+gravityRecorder/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gravityRecorder/tests/functions_test.py,sha256=Uw542RfM4AUye7y7hI45PiNzDSFEiNXTZeOTYQ6Qtcs,705
+gravityRecorder/tests/main_test.py,sha256=uhXs0v8q04c2qYgfxKobbjE2x3Lc9YDPjCdQjColwJs,11125
+gravityRecorder/tests/test_objects.py,sha256=2sKmcLuTk7K59gKnX7pvLjwDj9xqH1GgjX4HUlKVB1c,365
+gravityRecorder-1.7.4.dist-info/METADATA,sha256=lXow810LYW7_Cd8H_GhJx6bdMSnyTvC3j8WSBGMBf0E,272
+gravityRecorder-1.7.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+gravityRecorder-1.7.4.dist-info/top_level.txt,sha256=wuJ5XJbup7UQrutzkLsobg0Hgz_kU9Jazzu6-1XYPiA,16
+gravityRecorder-1.7.4.dist-info/RECORD,,
