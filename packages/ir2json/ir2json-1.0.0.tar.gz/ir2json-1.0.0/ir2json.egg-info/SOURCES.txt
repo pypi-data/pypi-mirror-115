@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+ir2json/__init__.py
+ir2json/__main__.py
+ir2json/convert_to_json_ir.py
+ir2json.egg-info/PKG-INFO
+ir2json.egg-info/SOURCES.txt
+ir2json.egg-info/dependency_links.txt
+ir2json.egg-info/entry_points.txt
+ir2json.egg-info/requires.txt
+ir2json.egg-info/top_level.txt
