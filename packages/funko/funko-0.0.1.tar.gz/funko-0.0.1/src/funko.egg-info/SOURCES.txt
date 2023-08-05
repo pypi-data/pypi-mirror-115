@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+src/myfuncs.py
+src/funko.egg-info/PKG-INFO
+src/funko.egg-info/SOURCES.txt
+src/funko.egg-info/dependency_links.txt
+src/funko.egg-info/requires.txt
+src/funko.egg-info/top_level.txt
