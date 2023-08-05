@@ -1,0 +1,10 @@
+numpy
+PyQt5
+pyqtgraph>=0.11.0rc0
+matplotlib
+scipy
+scikit-learn
+imageio
+pillow
+paramiko
+scp
