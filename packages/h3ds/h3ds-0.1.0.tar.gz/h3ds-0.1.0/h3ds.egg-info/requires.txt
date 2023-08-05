@@ -1,0 +1,7 @@
+toml
+requests
+trimesh
+Pillow
+tqdm
+opencv-python
+scipy
