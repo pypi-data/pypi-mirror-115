@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+afkodingpdf.egg-info/PKG-INFO
+afkodingpdf.egg-info/SOURCES.txt
+afkodingpdf.egg-info/dependency_links.txt
+afkodingpdf.egg-info/top_level.txt
+pdftools/__init__.py
+pdftools/pdf2image.py
+pdftools/pdf2text.py
