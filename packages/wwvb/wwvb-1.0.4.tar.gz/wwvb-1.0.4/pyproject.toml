@@ -1,0 +1,13 @@
+# SPDX-FileCopyrightText: 2021 Jeff Epler
+#
+# SPDX-License-Identifier: GPL-3.0-only
+
+[build-system]
+requires = [
+    "setuptools>=45",
+    "wheel",
+    "setuptools_scm[toml]>=6.0"
+]
+build-backend = "setuptools.build_meta"
+[tool.setuptools_scm]
+write_to = "wwvb/__version__.py"
