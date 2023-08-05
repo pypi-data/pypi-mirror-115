@@ -1,0 +1,3 @@
+[scancodeio_pipelines]
+glc_scan = scancode_glc_plugin.pipelines.glc_scan:LicenseClassifierScan
+

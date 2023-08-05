@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: scancodeio_glc_plugin
+Version: 0.0.1
+Summary: Google Licenseclassifier pipeline for ScanCode.io
+Home-page: https://github.com/nexB/scancodeio.io-pipeline-glc_scan
+Author: nexB. Inc. and others
+Author-email: info@aboutcode.org
+License: Apache-2.0
+Keywords: utilities,scancodeio,pipelines
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Software Development
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6
+Provides-Extra: testing
+Provides-Extra: docs
+License-File: apache-2.0.LICENSE
+License-File: NOTICE
+License-File: AUTHORS.rst
+License-File: CHANGELOG.rst
+
+Google Licenseclassifier pipeline for ScanCode.io
+=================================================
+
+This package contributes a new pipeline to ScanCode.io. It is based on https://github.com/AvishrantsSh/GoLicense-Classifier.
+
+Install as plug-in
+-------------------
+
+To use Google Licenseclassifier pipeline in your local ScanCode.io instance, use
+
+.. code-block:: bash
+
+    pip install scancodeio.io-pipeline-glc_scan
+
+Development
+-----------
+
+To get started, clone the repository
+
+.. code-block:: bash
+        
+        git clone https://github.com/nexB/scancodeio.io-pipeline-glc_scan.git
+
+
+and, set up your development environment using
+
+.. code-block:: bash
+
+    ./configure --dev
+
+To run unit tests, use
+
+.. code-block:: bash
+
+    venv/bin/python runtests.py
+
