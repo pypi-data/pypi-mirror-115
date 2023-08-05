@@ -1,0 +1,2 @@
+include digicloud/help/*.txt
+recursive-include digicloud *.txt *.py

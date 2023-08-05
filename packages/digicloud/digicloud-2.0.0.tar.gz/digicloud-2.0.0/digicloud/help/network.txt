@@ -1,0 +1,7 @@
+Examples:
+
+# Creating a network named net1
+$ digicloud volume create net1
+
+# You need to add one or more subnet to your network first:
+$ digicloud subnet create sub1 --network net1 --cidr 10.0.0.0/16
