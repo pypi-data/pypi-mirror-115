@@ -1,0 +1,15 @@
+README.md
+setup.py
+bin/course-runner
+course_runner.egg-info/PKG-INFO
+course_runner.egg-info/SOURCES.txt
+course_runner.egg-info/dependency_links.txt
+course_runner.egg-info/not-zip-safe
+course_runner.egg-info/requires.txt
+course_runner.egg-info/top_level.txt
+runner/__init__.py
+runner/api.py
+runner/camisole.py
+runner/config.py
+runner/course.py
+runner/runner.py

@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: course-runner
+Version: 0.1.4
+Summary: autOevaluate yoUr Student Easily
+Home-page: https://gitlab.com/course-autoevaluate/runner
+Author: Thibault Falque
+Author-email: thibault.falque@univ-artois.fr
+License: LGPLv3+
+Keywords: autoevaluate
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# cOUrSE - autOevaluate yoUr Student Easily - Runner
+
+![Sonar Quality Gate](https://img.shields.io/sonar/quality_gate/course-autoevaluate_runner?server=https%3A%2F%2Fsonarcloud.io)
+
+[![pipeline status](https://gitlab.com/course-autoevaluate/runner/badges/master/pipeline.svg)](https://gitlab.com/course-autoevaluate/runner/-/commits/master)
+
