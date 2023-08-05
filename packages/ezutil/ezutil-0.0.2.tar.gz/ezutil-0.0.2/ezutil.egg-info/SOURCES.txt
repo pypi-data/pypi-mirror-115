@@ -1,0 +1,11 @@
+LICENSE.md
+README.md
+setup.cfg
+setup.py
+ezutil/__init__.py
+ezutil.egg-info/PKG-INFO
+ezutil.egg-info/SOURCES.txt
+ezutil.egg-info/dependency_links.txt
+ezutil.egg-info/entry_points.txt
+ezutil.egg-info/requires.txt
+ezutil.egg-info/top_level.txt
