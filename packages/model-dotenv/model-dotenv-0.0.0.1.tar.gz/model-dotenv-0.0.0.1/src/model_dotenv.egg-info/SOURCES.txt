@@ -1,0 +1,11 @@
+LICENCE
+README.md
+pyproject.toml
+setup.py
+src/model_dotenv/__init__.py
+src/model_dotenv/exceptions.py
+src/model_dotenv.egg-info/PKG-INFO
+src/model_dotenv.egg-info/SOURCES.txt
+src/model_dotenv.egg-info/dependency_links.txt
+src/model_dotenv.egg-info/requires.txt
+src/model_dotenv.egg-info/top_level.txt
