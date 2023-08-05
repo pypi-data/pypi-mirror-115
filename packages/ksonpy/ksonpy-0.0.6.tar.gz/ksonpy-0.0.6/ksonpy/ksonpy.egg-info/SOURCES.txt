@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+ksonpy/ksonpy.egg-info/PKG-INFO
+ksonpy/ksonpy.egg-info/SOURCES.txt
+ksonpy/ksonpy.egg-info/dependency_links.txt
+ksonpy/ksonpy.egg-info/entry_points.txt
+ksonpy/ksonpy.egg-info/requires.txt
+ksonpy/ksonpy.egg-info/top_level.txt
