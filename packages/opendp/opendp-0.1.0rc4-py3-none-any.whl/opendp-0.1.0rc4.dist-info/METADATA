@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: opendp
+Version: 0.1.0rc4
+Summary: Python bindings for the OpenDP Library
+Home-page: https://opendp.org
+Author: The OpenDP Project
+Author-email: info@opendp.org
+License: UNKNOWN
+Project-URL: Source, https://github.com/opendp/opendp
+Project-URL: Issues, https://github.com/opendp/opendp/issues
+Project-URL: Documentation, https://docs.opendp.org/
+Keywords: differential privacy
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# OpenDP
+
+Python bindings for the OpenDP Library.
+
+
