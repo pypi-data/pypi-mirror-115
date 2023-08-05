@@ -1,0 +1,10 @@
+numpy
+pandas
+matplotlib
+sklearn
+flask
+Flask-SQLAlchemy
+Flask-Marshmallow
+Marshmallow-SQLAlchemy
+mpld3
+wordcloud
