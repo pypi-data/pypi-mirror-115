@@ -1,0 +1,8 @@
+README.md
+setup.py
+vslogging/__init__.py
+vslogging/vslogging.py
+vslogging.egg-info/PKG-INFO
+vslogging.egg-info/SOURCES.txt
+vslogging.egg-info/dependency_links.txt
+vslogging.egg-info/top_level.txt
