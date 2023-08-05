@@ -1,0 +1,236 @@
+<xigt-corpus>
+  <igt id="IGT1">
+    <tier id="p" type="phrases">
+      <item id="p1">He wraps.</item>
+    </tier>
+    <tier id="w" type="words" segmentation="p">
+      <item id="w1" segmentation="p1">He</item>
+      <item id="w2" segmentation="p1">wraps.</item>
+    </tier>
+    <tier id="m" type="morphemes" segmentation="w">
+      <item id="m1" segmentation="w1">he</item>
+      <item id="m2" segmentation="w2">wrap</item>
+      <item id="m3" segmentation="w2">-s</item>
+    </tier>
+    <tier id="g" type="glosses" alignment="m">
+      <item id="g1" alignment="m1">3SG</item>
+      <item id="g2" alignment="m2">wrap</item>
+      <item id="g3" alignment="m3">-3SG</item>
+    </tier>
+    <tier id="pos" type="pos" alignment="m">
+      <item id="pos1" alignment="m1">pro</item>
+      <item id="pos2" alignment="m2">v</item>
+      <item id="pos3" alignment="m3">-v</item>
+    </tier>
+  </igt>
+  <igt id="IGT2">
+    <tier id="p" type="phrases">
+      <item id="p1">He wrapped.</item>
+    </tier>
+    <tier id="w" type="words" segmentation="p">
+      <item id="w1" segmentation="p1">He</item>
+      <item id="w2" segmentation="p1">wrapped.</item>
+    </tier>
+    <tier id="m" type="morphemes" segmentation="w">
+      <item id="m1" segmentation="w1">he</item>
+      <item id="m2" segmentation="w2">wrap</item>
+      <item id="m3" segmentation="w2">-ed</item>
+    </tier>
+    <tier id="g" type="glosses" alignment="m">
+      <item id="g1" alignment="m1">3SG</item>
+      <item id="g2" alignment="m2">wrap</item>
+      <item id="g3" alignment="m3">-PST</item>
+    </tier>
+    <tier id="pos" type="pos" alignment="m">
+      <item id="pos1" alignment="m1">pro</item>
+      <item id="pos2" alignment="m2">v</item>
+      <item id="pos3" alignment="m3">-v</item>
+    </tier>
+  </igt>
+  <igt id="IGT3">
+    <tier id="p" type="phrases">
+      <item id="p1">He unwraps.</item>
+    </tier>
+    <tier id="w" type="words" segmentation="p">
+      <item id="w1" segmentation="p1">He</item>
+      <item id="w2" segmentation="p1">unwraps.</item>
+    </tier>
+    <tier id="m" type="morphemes" segmentation="w">
+      <item id="m1" segmentation="w1">he</item>
+      <item id="m2" segmentation="w2">un-</item>
+      <item id="m3" segmentation="w2">wrap</item>
+      <item id="m4" segmentation="w2">-s</item>
+    </tier>
+    <tier id="g" type="glosses" alignment="m">
+      <item id="g1" alignment="m1">3SG</item>
+      <item id="g2" alignment="m2">UN-</item>
+      <item id="g3" alignment="m3">wrap</item>
+      <item id="g4" alignment="m4">-3SG</item>
+    </tier>
+    <tier id="pos" type="pos" alignment="m">
+      <item id="pos1" alignment="m1">pro</item>
+      <item id="pos2" alignment="m2">v-</item>
+      <item id="pos3" alignment="m3">v</item>
+      <item id="pos4" alignment="m4">-v</item>
+    </tier>
+  </igt>
+  <igt id="IGT4">
+    <tier id="p" type="phrases">
+      <item id="p1">He rewraps.</item>
+    </tier>
+    <tier id="w" type="words" segmentation="p">
+      <item id="w1" segmentation="p1">He</item>
+      <item id="w2" segmentation="p1">rewraps.</item>
+    </tier>
+    <tier id="m" type="morphemes" segmentation="w">
+      <item id="m1" segmentation="w1">he</item>
+      <item id="m2" segmentation="w2">re-</item>
+      <item id="m3" segmentation="w2">wrap</item>
+      <item id="m4" segmentation="w2">-s</item>
+    </tier>
+    <tier id="g" type="glosses" alignment="m">
+      <item id="g1" alignment="m1">3SG</item>
+      <item id="g2" alignment="m2">RE-</item>
+      <item id="g3" alignment="m3">wrap</item>
+      <item id="g4" alignment="m4">-3SG</item>
+    </tier>
+    <tier id="pos" type="pos" alignment="m">
+      <item id="pos1" alignment="m1">pro</item>
+      <item id="pos2" alignment="m2">v-</item>
+      <item id="pos3" alignment="m3">v</item>
+      <item id="pos4" alignment="m4">-v</item>
+    </tier>
+  </igt>
+  <igt id="IGT5">
+    <tier id="p" type="phrases">
+      <item id="p1">She reunwraps.</item>
+    </tier>
+    <tier id="w" type="words" segmentation="p">
+      <item id="w1" segmentation="p1">She</item>
+      <item id="w2" segmentation="p1">reunwraps.</item>
+    </tier>
+    <tier id="m" type="morphemes" segmentation="w">
+      <item id="m1" segmentation="w1">she</item>
+      <item id="m2" segmentation="w2">re-</item>
+      <item id="m3" segmentation="w2">un-</item>
+      <item id="m4" segmentation="w2">wrap</item>
+      <item id="m5" segmentation="w2">-s</item>
+    </tier>
+    <tier id="g" type="glosses" alignment="m">
+      <item id="g1" alignment="m1">3SG</item>
+      <item id="g2" alignment="m2">RE-</item>
+      <item id="g3" alignment="m3">UN-</item>
+      <item id="g4" alignment="m4">wrap</item>
+      <item id="g5" alignment="m5">-3SG</item>
+    </tier>
+    <tier id="pos" type="pos" alignment="m">
+      <item id="pos1" alignment="m1">pro</item>
+      <item id="pos2" alignment="m2">v-</item>
+      <item id="pos3" alignment="m3">v-</item>
+      <item id="pos4" alignment="m4">v</item>
+      <item id="pos5" alignment="m5">-v</item>
+    </tier>
+  </igt>
+  <igt id="IGT6">
+    <tier id="p" type="phrases">
+      <item id="p1">She worked.</item>
+    </tier>
+    <tier id="w" type="words" segmentation="p">
+      <item id="w1" segmentation="p1">She</item>
+      <item id="w2" segmentation="p1">worked.</item>
+    </tier>
+    <tier id="m" type="morphemes" segmentation="w">
+      <item id="m1" segmentation="w1">She</item>
+      <item id="m2" segmentation="w2">work</item>
+      <item id="m3" segmentation="w2">-ed</item>
+    </tier>
+    <tier id="g" type="glosses" alignment="m">
+      <item id="g1" alignment="m1">3SG.F</item>
+      <item id="g2" alignment="m2">work</item>
+      <item id="g3" alignment="m3">-PST</item>
+    </tier>
+    <tier id="pos" type="pos" alignment="m">
+      <item id="pos1" alignment="m1">pro</item>
+      <item id="pos2" alignment="m2">v</item>
+      <item id="pos3" alignment="m3">-v</item>
+    </tier>
+  </igt>
+  <igt id="IGT7">
+    <tier id="p" type="phrases">
+      <item id="p1">She reworked.</item>
+    </tier>
+    <tier id="w" type="words" segmentation="p">
+      <item id="w1" segmentation="p1">She</item>
+      <item id="w2" segmentation="p1">reworked.</item>
+    </tier>
+    <tier id="m" type="morphemes" segmentation="w">
+      <item id="m1" segmentation="w1">She</item>
+      <item id="m2" segmentation="w2">re-</item>
+      <item id="m3" segmentation="w2">work</item>
+      <item id="m4" segmentation="w2">-ed</item>
+    </tier>
+    <tier id="g" type="glosses" alignment="m">
+      <item id="g1" alignment="m1">3SG.F</item>
+      <item id="g2" alignment="m2">RE-</item>
+      <item id="g3" alignment="m3">work</item>
+      <item id="g4" alignment="m4">-PST</item>
+    </tier>
+    <tier id="pos" type="pos" alignment="m">
+      <item id="pos1" alignment="m1">pro</item>
+      <item id="pos2" alignment="m2">v-</item>
+      <item id="pos3" alignment="m3">v</item>
+      <item id="pos4" alignment="m4">-v</item>
+    </tier>
+  </igt>
+  <igt id="IGT8">
+    <tier id="p" type="phrases">
+      <item id="p1">She weds.</item>
+    </tier>
+    <tier id="w" type="words" segmentation="p">
+      <item id="w1" segmentation="p1">She</item>
+      <item id="w2" segmentation="p1">weds.</item>
+    </tier>
+    <tier id="m" type="morphemes" segmentation="w">
+      <item id="m1" segmentation="w1">She</item>
+      <item id="m2" segmentation="w2">wed</item>
+      <item id="m3" segmentation="w2">-s</item>
+    </tier>
+    <tier id="g" type="glosses" alignment="m">
+      <item id="g1" alignment="m1">3SG.F</item>
+      <item id="g2" alignment="m2">wed</item>
+      <item id="g3" alignment="m3">-3SG</item>
+    </tier>
+    <tier id="pos" type="pos" alignment="m">
+      <item id="pos1" alignment="m1">pro</item>
+      <item id="pos2" alignment="m2">v</item>
+      <item id="pos3" alignment="m3">-v</item>
+    </tier>
+  </igt>
+  <igt id="IGT9">
+    <tier id="p" type="phrases">
+      <item id="p1">She unweds.</item>
+    </tier>
+    <tier id="w" type="words" segmentation="p">
+      <item id="w1" segmentation="p1">She</item>
+      <item id="w2" segmentation="p1">unweds.</item>
+    </tier>
+    <tier id="m" type="morphemes" segmentation="w">
+      <item id="m1" segmentation="w1">She</item>
+      <item id="m2" segmentation="w2">un-</item>
+      <item id="m3" segmentation="w2">wed</item>
+      <item id="m4" segmentation="w2">-s</item>
+    </tier>
+    <tier id="g" type="glosses" alignment="m">
+      <item id="g1" alignment="m1">3SG.F</item>
+      <item id="g2" alignment="m2">UN-</item>
+      <item id="g3" alignment="m3">wed</item>
+      <item id="g4" alignment="m4">-3SG</item>
+    </tier>
+    <tier id="pos" type="pos" alignment="m">
+      <item id="pos1" alignment="m1">pro</item>
+      <item id="pos2" alignment="m2">v-</item>
+      <item id="pos3" alignment="m3">v</item>
+      <item id="pos4" alignment="m4">-v</item>
+    </tier>
+  </igt>
+</xigt-corpus>
