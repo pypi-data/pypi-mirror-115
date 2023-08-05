@@ -1,0 +1,103 @@
+Metadata-Version: 2.1
+Name: embedding-evaluator
+Version: 0.0.1
+Summary: Embedding Evaluator
+Home-page: UNKNOWN
+Author: Data & Analytics Research
+Author-email: analytics.dar@take.net
+Maintainer: daresearch
+Maintainer-email: anaytics.dar@take.net
+License: MIT License
+Keywords: embedding,evaluation
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: gensim (==3.8.3)
+Requires-Dist: scikit-learn (==0.23.2)
+Requires-Dist: numpy (==1.21.0)
+Requires-Dist: pandas (==1.3.0)
+
+# Embedding Evaluator
+
+EmbeddingEvaluator is a tool to provide metrics for evaluating different embedding models. 
+
+The current version only supports evaluation of evaluate only embeddings of the type:
+* FastText 
+
+It evaluates the embeddings based on the two following metrics:
+* Analogy 
+* Outlier Detection
+
+# Installation
+
+The EmbeddingEvaluator can be installed from PyPi:
+
+```bash 
+pip install embeddingevaluator
+```
+
+# Usage
+
+## Analogy Metrics 
+
+To use the EmbeddingEvaluator to measure different embeddings basead on analogy metrics the user needs a file with the following configuration:
+
+|Word 1| Word 2| Word 3| Word 4|
+|-----|-----|-----|-----|
+|1st Pair 1st Word| 1st Pair 2nd Word| 2nd Pair 1st Word| 2nd Pair 2nd Word|
+|Men| King| Women| Queen| 
+
+## Ouliter Detection
+
+To use the EmbeddingEvaluator to measure different embeddings basead on outlier detection metrics the user needs a file with the following configuration:
+* Eight words which are semantically very similar and are all connected with each other by a clear well-known relation. (Cluster)
+* Two words which are very similar to the ones in the cluster. 
+* Two words which are similar and related to the ones in the cluster.
+* Two words which are related, but not similar to the ones in the cluster.
+* Two words which are unrelated and not similar to the ones in the cluster.
+
+## Initialize the EmbeddingEvaluator
+The EmbeddingEvaluator has three parameters as input:
+
+* Input Metrics:  
+A dictionary with a list of the paths for the input evaluation files.
+
+Example:
+```python
+input_metric = {'analogy': ['file_1', 'file_2'],
+                'outlier': ['file_1']}
+```
+
+* Input Models:
+A dictionary with the model names and the paths to the models.
+
+Example:
+```python
+input_model = {'model_1': 'path_1', 
+               'model_2': 'path_2'}
+```
+
+## Initialize the class:
+```python
+emb_evaluator = EmbeddingMetrics(input_metric, input_model)
+```
+
+## Summary a model's metrics
+To summarize the metrics of a model.
+
+```python
+emb_evaluator.summary_metrics('model_1') 
+```
+
+## Compare models metrics
+To compare the metrics of two or more models.
+
+```python
+emb_evaluator.compare_models(['model_1', 'model_2']) 
+```
+
+# References 
+Levy, O. and Goldberg, Y.: Linguistic Regularities in Sparse and Explicit Word Representations (2014)
+Collados, J.C. and Navigli, R.: Find the word that does not belong: A Framework for an Intrinsic Evaluation of Word Vector Representations (2016)
+
