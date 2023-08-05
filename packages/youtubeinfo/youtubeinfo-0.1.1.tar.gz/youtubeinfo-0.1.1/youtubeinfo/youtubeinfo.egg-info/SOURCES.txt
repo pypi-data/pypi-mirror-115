@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+youtubeinfo/config/__init__.py
+youtubeinfo/config/constants.py
+youtubeinfo/youtubeinfo.egg-info/PKG-INFO
+youtubeinfo/youtubeinfo.egg-info/SOURCES.txt
+youtubeinfo/youtubeinfo.egg-info/dependency_links.txt
+youtubeinfo/youtubeinfo.egg-info/requires.txt
+youtubeinfo/youtubeinfo.egg-info/top_level.txt
