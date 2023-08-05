@@ -1,0 +1,2 @@
+include mpl_pymanage/templates/*
+include mpl_pymanage/templates/licenses/*
