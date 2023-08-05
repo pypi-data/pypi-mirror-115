@@ -1,0 +1,6 @@
+setup.py
+wikitojson/src/wikitojson.py
+wikitojson/src/wikitojson.egg-info/PKG-INFO
+wikitojson/src/wikitojson.egg-info/SOURCES.txt
+wikitojson/src/wikitojson.egg-info/dependency_links.txt
+wikitojson/src/wikitojson.egg-info/top_level.txt
