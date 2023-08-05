@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "dsxt"
+version = "0.0.2"
+description = "Data Science Extensions"
+authors = ["tripl3a <34123487+tripl3a@users.noreply.github.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+numpy = "^1.20"
+pandas = "^1.2"
+scikit-learn = "0.24.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2"
+pre_commit = "*"
+flake8 = "*"
+flake8-mypy = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
