@@ -1,0 +1,16 @@
+neuralspace/__init__.py,sha256=3ITyQfKn-h4AMdaHk5rHJaliZbCnbLZ7O3QQnAJH8yI,18
+neuralspace/apis.py,sha256=lDrf4ydZHzCb3KHbp4RlkiabLyEPqwT1GlZ9NtZY0-M,257
+neuralspace/cli.py,sha256=CIwGQmzJa5KL_19dHLuojwUUullm3JHupmBQ8mnMIXo,1219
+neuralspace/constants.py,sha256=AszhVyiD6bxbwZAj4Zr4G7LLNKNzC3bscFe_w-8Gzl4,2295
+neuralspace/utils.py,sha256=s3-rQAGOktclCEzRjfRXkJH4L4RLzspyhYLE_Jlgtws,2483
+neuralspace/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+neuralspace/data/logo.txt,sha256=yw7ZsTTqrnwXRGodYRvo4RRzDSa7HDIToQN_Z1RT8qA,2834
+neuralspace/nlu/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+neuralspace/nlu/apis.py,sha256=kKJaDSOwuQpPluij0R_U-_MaTRjBsWXso5k3NloPptc,19176
+neuralspace/nlu/commands.py,sha256=bU6jkRSC1jlxbSCs6rduMEb6SW2KJlf6KpBndPDGTBQ,12793
+neuralspace/nlu/constants.py,sha256=vOnS72SUUGP4ZF5oCw3HIxZQcOXjDJRRjTQ7anXDqCg,1393
+neuralspace-0.1.2.dist-info/METADATA,sha256=XqmNb0DYFx8g8oag38HA0GOaSfJUVp7dhuipMryPFRA,1363
+neuralspace-0.1.2.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+neuralspace-0.1.2.dist-info/entry_points.txt,sha256=iEqKBHjJYjUxMEYJyNhdzzGedoZxx4A6w4ITwFT12u8,60
+neuralspace-0.1.2.dist-info/top_level.txt,sha256=Kzy-zosaxSctnjFfEYCjzIoEpwR-v8S3NGIF_xfZn38,12
+neuralspace-0.1.2.dist-info/RECORD,,
