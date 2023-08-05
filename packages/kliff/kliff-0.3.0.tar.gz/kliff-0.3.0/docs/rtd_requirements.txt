@@ -1,0 +1,6 @@
+sphinx
+sphinx_rtd_theme
+sphinx-gallery
+sphinx-autodoc-typehints
+pybind11
+matplotlib
