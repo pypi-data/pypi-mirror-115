@@ -1,0 +1,9 @@
+edam_ontology/EDAM.tsv,sha256=J5qNSMnlTwIW7FC068JYLm5UXornfgFHfv7hYmGwA-k,1977072
+edam_ontology/__init__.py,sha256=UZH9g5cazWukwovV960uo9vC7IH9atWCc5aaGLSKlks,520
+edam_ontology/streams.py,sha256=TNHpFhu2pEiI0GTB7LlIx99yEVj7KCtwv5FIrQgVb70,419
+edam_ontology-1.25.2.dev0.dist-info/LICENSE,sha256=L8w8s5BRaUkm_AGY7ZV5fMobZln2-y7LNO25nrnCG7M,1269
+edam_ontology-1.25.2.dev0.dist-info/METADATA,sha256=97IBHAbmae16AJimcYAFFvl0FQroJeu8cTAd9-WDGWo,2357
+edam_ontology-1.25.2.dev0.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+edam_ontology-1.25.2.dev0.dist-info/entry_points.txt,sha256=HsuNIkSL1G9AubOTfXOM-UtAiGXGJMBlhLQ4pUxhSUs,23
+edam_ontology-1.25.2.dev0.dist-info/top_level.txt,sha256=qETtdd3FHhsLD5BKc3Jbr28F_TfU3osPmYNehi8oGmY,14
+edam_ontology-1.25.2.dev0.dist-info/RECORD,,
