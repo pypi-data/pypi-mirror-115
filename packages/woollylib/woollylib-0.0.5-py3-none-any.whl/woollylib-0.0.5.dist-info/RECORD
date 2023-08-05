@@ -1,0 +1,10 @@
+woollylib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+woollylib/dataset.py,sha256=vs3Wy29l1QRotZCm11yTZEaAtSturm7hPGhknrOjo5w,10248
+woollylib/main.py,sha256=jUc7WUkgWy4dsJ-1EbZtbYPOw5_0eDCkeu9KsfcAG7Q,3380
+woollylib/scheduler.py,sha256=FlaN5u50k9nytTTrA2SM80S2j4ZS5t_eVvokulyaL1U,3045
+woollylib/training.py,sha256=HmzcyhZfjGCT-dzJd1ITCFPB8i0qdptT99aC6OWkxhQ,5259
+woollylib-0.0.5.dist-info/LICENSE,sha256=WuSz4UXDvikuM6ubp58bLzZ-rWs8PTisvN3RNAqBqmU,1051
+woollylib-0.0.5.dist-info/METADATA,sha256=Zx_TH0aZJ4og7KWYNvihlM9vjdOjkII9YrvN7vPZcR8,2624
+woollylib-0.0.5.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+woollylib-0.0.5.dist-info/top_level.txt,sha256=oN6XhXQZU498htFmb3_d2tUDV71nexEKwPa_aeHCzZ8,10
+woollylib-0.0.5.dist-info/RECORD,,
