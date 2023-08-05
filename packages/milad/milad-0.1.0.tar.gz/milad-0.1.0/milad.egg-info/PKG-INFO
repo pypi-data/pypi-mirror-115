@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: milad
+Version: 0.1.0
+Summary: Python library for interacting with an atoms graph
+Home-page: https://github.com/muhrin/atomsgraph.git
+Author: Martin Uhrin
+Author-email: martin.uhrin.10@ucl.ac.uk
+License: LGPLv3
+Description: Atoms Graph
+        ===========
+        
+        Python library for interacting with an atoms graph.
+Keywords: machine learning,atomic descriptor,moment invariants
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Provides-Extra: dev
