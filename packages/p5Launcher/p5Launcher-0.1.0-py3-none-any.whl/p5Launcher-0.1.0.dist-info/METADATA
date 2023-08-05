@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: p5Launcher
+Version: 0.1.0
+Summary: compile p5js sketches to javascript and launch them into a standalone window
+Home-page: UNKNOWN
+Author: LF
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: pywebview (==3.4)
+Requires-Dist: pyp5js
+Requires-Dist: livereload
+
+UNKNOWN
+
+
