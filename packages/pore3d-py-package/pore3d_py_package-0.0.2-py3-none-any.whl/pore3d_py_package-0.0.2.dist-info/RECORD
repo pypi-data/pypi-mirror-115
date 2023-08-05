@@ -1,0 +1,12 @@
+pore3d_py_package/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pore3d_py_package/p3dBlob.py,sha256=_SkMpyqJWzUBsbX8P4O4KUWAna0sT7kISddOKIqo504,22656
+pore3d_py_package/p3dBlobPy.py,sha256=3IhjC2B2WKTFD0-mXY903wvMMsj0-IY2Yi0aUPJodPU,4514
+pore3d_py_package/p3dFilt.py,sha256=fJc5Cf4VVhtRBTauS9UlYK0tGMeVPVBBIHNdqTnV4v4,17598
+pore3d_py_package/p3dFiltPy.py,sha256=LqNAe_swY4ox6qM6zfwnUKfEo_OAJzujHFRbxaC5IFA,8645
+pore3d_py_package/p3dSkel.py,sha256=KBk7QQNo9mEwmm1eP5u8JFSBYbi9y7ZpVL0TAsO2yZE,22023
+pore3d_py_package/p3dSkelPy.py,sha256=XvPDPBWH8aUHHN9Xqh8yonoz3I5mTQmEWq-n5Un9e4U,3188
+pore3d_py_package-0.0.2.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+pore3d_py_package-0.0.2.dist-info/METADATA,sha256=l8CEb_ruCAXq3L_tVpo04yweypKCNMOdra3EGAYOBkI,642
+pore3d_py_package-0.0.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pore3d_py_package-0.0.2.dist-info/top_level.txt,sha256=Cc9d2NVtm4Eg5EjFRKNZvY7MryjF1Ge5n7e-eb_oEmQ,18
+pore3d_py_package-0.0.2.dist-info/RECORD,,
