@@ -1,0 +1,10 @@
+setup.py
+ohikendoit_stats_toolkit/Binomialdistribution.py
+ohikendoit_stats_toolkit/Gaussiandistribution.py
+ohikendoit_stats_toolkit/Generaldistribution.py
+ohikendoit_stats_toolkit/__init__.py
+ohikendoit_stats_toolkit.egg-info/PKG-INFO
+ohikendoit_stats_toolkit.egg-info/SOURCES.txt
+ohikendoit_stats_toolkit.egg-info/dependency_links.txt
+ohikendoit_stats_toolkit.egg-info/not-zip-safe
+ohikendoit_stats_toolkit.egg-info/top_level.txt
