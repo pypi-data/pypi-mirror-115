@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: test-poetry99
+Version: 0.1.0
+Summary: 
+Author: yefei
+Author-email: fei_ye@hxecloud.com
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Flask (>=2.0.1,<3.0.0)
+Requires-Dist: gunicorn (>=20.1.0,<21.0.0)
