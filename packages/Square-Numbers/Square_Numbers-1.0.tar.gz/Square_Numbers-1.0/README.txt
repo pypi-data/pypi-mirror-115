@@ -1,0 +1,1 @@
+This is a simple program to find sqaure of 2 Numbers.

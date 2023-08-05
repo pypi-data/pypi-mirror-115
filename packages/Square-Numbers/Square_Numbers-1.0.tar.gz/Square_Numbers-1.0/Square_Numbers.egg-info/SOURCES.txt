@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+__init__.py
+setup.cfg
+setup.py
+Square_Numbers.egg-info/PKG-INFO
+Square_Numbers.egg-info/SOURCES.txt
+Square_Numbers.egg-info/dependency_links.txt
+Square_Numbers.egg-info/top_level.txt
