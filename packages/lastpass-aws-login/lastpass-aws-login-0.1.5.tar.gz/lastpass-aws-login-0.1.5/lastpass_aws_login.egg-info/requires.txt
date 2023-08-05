@@ -1,0 +1,3 @@
+future
+requests>=2.22.0"
+threadlocal-aws==0.9

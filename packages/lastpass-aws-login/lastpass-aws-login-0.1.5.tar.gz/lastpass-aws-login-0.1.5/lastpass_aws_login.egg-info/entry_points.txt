@@ -1,0 +1,3 @@
+[console_scripts]
+lastpass-aws-login = lastpass_aws_login.main:main
+
