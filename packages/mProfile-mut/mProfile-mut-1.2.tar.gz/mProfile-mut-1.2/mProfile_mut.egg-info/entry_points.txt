@@ -1,0 +1,4 @@
+[console_scripts]
+TransloCapture = mProfile.TransloCapture:main
+callMUT = mProfile.callMUT:main
+
