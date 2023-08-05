@@ -1,0 +1,9 @@
+simple_caching/__init__.py,sha256=grKL0FRG2udnJ3T5um_1HJTr4o0dcJQ8Kzs_Ufi39h4,86
+simple_caching/cache.py,sha256=tgihD0BFJKRWIR17CE17pdVdy6nuB-o1vdzfbnO0Cqs,266
+simple_caching/dict_memory.py,sha256=MOhFUjCISUMEXs4RhHMj7-_wmJgH6nzYQNyuw_TanVc,903
+simple_caching/npy_fs.py,sha256=MSyA_hPSqDSjZyz3q_lW5sb5Dk9wi6CCNlQxFelWq_Q,1384
+python_simple_caching-0.12.dist-info/LICENSE.txt,sha256=Sev8Ba_le011QLXeLhEJXYHazJ2NvNb0HmzKSH3Fk1M,496
+python_simple_caching-0.12.dist-info/METADATA,sha256=Nq4NHHsnWOXqjweruQmkaZYhTbg_m4S7RY4zlPKF6c0,953
+python_simple_caching-0.12.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+python_simple_caching-0.12.dist-info/top_level.txt,sha256=8c1js6c9hwjXNrCc-Uq_U_SgU-G0fk2Bxo9RaCizqIk,15
+python_simple_caching-0.12.dist-info/RECORD,,
