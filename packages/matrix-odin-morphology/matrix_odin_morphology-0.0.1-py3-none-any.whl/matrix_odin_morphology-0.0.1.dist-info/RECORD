@@ -1,0 +1,14 @@
+mom/Choices.py,sha256=ndlRQTXwS5gWx8jqahVdH8bdx1oTStAnOWVlYtnf-qY,81904
+mom/Digraph.py,sha256=J7MWbzRUERwtBQ0QFB_E39nDlHcE6xgnFjEyKTIXnZw,4321
+mom/GraphBuilder.py,sha256=8hcOtScum7nGTWiWX05LgM9mftn9lPDtGBmEVxGnGsQ,2317
+mom/MainClasses.py,sha256=Om4VbmSpf2nqFcCDcqUYqlQu8JWZ2FaHyzoKVKVgf7U,14575
+mom/MatrixChoices.py,sha256=gmxSQDTUAMAW8UBpFnRN0wEu3coQ3vEIqV-cPr0KvbI,92968
+mom/Test.py,sha256=IeXkTlOY9E5hC5yY9WpuAZ8uJwfUk11Fq8toWodu4AQ,6369
+mom/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mom/__main__.py,sha256=XbSMmiqvw4zvPv06ACs14aV-UbQ4CT2o0YVOo1-omQg,2811
+mom/testGUI.py,sha256=7jX4g0l-OED0NBNLYVWY_0CSR6Bis-SE5VWG8Ldva5Y,219
+matrix_odin_morphology-0.0.1.dist-info/LICENSE,sha256=qsH0DRU9Zo3k1X2Mh3GVBZVEV7UHgZbqP2NKywBSq-4,1053
+matrix_odin_morphology-0.0.1.dist-info/METADATA,sha256=o-OejTDZHzOLb5FLlR8gwI_LoP3h4i-MS30aomKFKIo,2464
+matrix_odin_morphology-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+matrix_odin_morphology-0.0.1.dist-info/top_level.txt,sha256=nzP5Owac5l4aaCoy07KB7NrMySCxwSHcKDZRvXelRdI,4
+matrix_odin_morphology-0.0.1.dist-info/RECORD,,
