@@ -1,0 +1,13 @@
+dagapp/__init__.py,sha256=oB8nJSht2hVzFQAddypLl56Cgq2gltsaS_cz2v43qrE,61
+dagapp/base.py,sha256=FA0ZPbLnFw1wCpb-ZVrp-tMtYCmkpE9hle0n3OodMuU,1099
+dagapp/page_funcs.py,sha256=RDQmVEp8YMrz8260d7fxJGl_QepTYXDn_K8BiwPxeeo,1505
+dagapp/utils.py,sha256=fXAbJoPsSIRX3e8fdMS54Chbh1kgT0XV7yIayMw3cQI,7804
+dagapp/examples/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dagapp/examples/classification_metric_factory.py,sha256=7oPhLUznKO2aM7R184AhfcgTi-dcaHg8bi8DRjgESE8,3261
+dagapp/examples/configs_example.py,sha256=3kNbiC7pXOSoPQNdyT-Klg71sizXalG122IGevjo6rQ,1860
+dagapp/examples/simple_example.py,sha256=lVcOi38MPakLG_n9TMdm9gxTqBkSiQqVDo4L_OOZLAE,358
+dagapp-0.0.3.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+dagapp-0.0.3.dist-info/METADATA,sha256=cBX5BBNKzC9M-M_iL4OYD6KFrCI5PEh2Y4s6tN-wU0M,3647
+dagapp-0.0.3.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+dagapp-0.0.3.dist-info/top_level.txt,sha256=l6FUFDSCYUNxQl3j535W7rcRwS7c1_tbP2l2IB_5dk4,7
+dagapp-0.0.3.dist-info/RECORD,,
