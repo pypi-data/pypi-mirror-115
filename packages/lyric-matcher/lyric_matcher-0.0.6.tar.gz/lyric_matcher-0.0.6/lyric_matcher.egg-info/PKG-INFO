@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: lyric-matcher
+Version: 0.0.6
+Summary: README.md
+Home-page: UNKNOWN
+Author: hanhaodi zhang, zhaoyang bu
+Author-email: 1004591463@qq.com
+License: UNKNOWN
+Description: # Inputs
+        
+        ## 1.song_path 
+        ## 2.songwithTime_path 
+        
+        
+        # Outputs
+        # timestamp list
+        
+        # Installation:
+        ## pip install lyric_matcher
+        
+        ## t = lyricsmatcher(../lyrics_only_with_section.txt, ../lyrics_only_with_timestamp.txt)
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
