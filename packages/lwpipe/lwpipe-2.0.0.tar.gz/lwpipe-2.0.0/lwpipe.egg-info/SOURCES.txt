@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+lwpipe/__init__.py
+lwpipe/io.py
+lwpipe/utils.py
+lwpipe.egg-info/PKG-INFO
+lwpipe.egg-info/SOURCES.txt
+lwpipe.egg-info/dependency_links.txt
+lwpipe.egg-info/requires.txt
+lwpipe.egg-info/top_level.txt
+tests/__init__.py
+tests/test_basic.py
