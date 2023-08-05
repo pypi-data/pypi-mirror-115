@@ -1,0 +1,9 @@
+README.md
+setup.py
+taxtree.py
+taxtree.egg-info/PKG-INFO
+taxtree.egg-info/SOURCES.txt
+taxtree.egg-info/dependency_links.txt
+taxtree.egg-info/entry_points.txt
+taxtree.egg-info/requires.txt
+taxtree.egg-info/top_level.txt
