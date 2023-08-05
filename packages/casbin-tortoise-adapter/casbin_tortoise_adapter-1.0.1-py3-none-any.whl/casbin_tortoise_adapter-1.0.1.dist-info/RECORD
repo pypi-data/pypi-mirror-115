@@ -1,0 +1,9 @@
+casbin_tortoise_adapter/__init__.py,sha256=TzYmNiC9zSNOLUvjSgJuZxqIyiD5aKkxxL4kL_6tXdc,159
+casbin_tortoise_adapter/adapter.py,sha256=aXjqYuirgUTT00kMmcZuGVpBY9LBOBTT5nN6F-W5wF4,3501
+casbin_tortoise_adapter/filter.py,sha256=Sf4PCIFtkRVgxxiKkpjQgiDvXF7R3fxNIJ2W9f16IGU,400
+casbin_tortoise_adapter/model.py,sha256=vgzjET74cnRxHCCSi5D6-cOmfuC8OqX0IFOfWhuupjc,1001
+casbin_tortoise_adapter/typing.py,sha256=dlxAdBgJ1Myk98MYJphu_A2ayUMabkjZ4pohyr4HLhU,46
+casbin_tortoise_adapter-1.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+casbin_tortoise_adapter-1.0.1.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+casbin_tortoise_adapter-1.0.1.dist-info/METADATA,sha256=1KMxGcc6han2OGOsl9eeB8yn_EtRDoIEGVqqwl9bYj0,3680
+casbin_tortoise_adapter-1.0.1.dist-info/RECORD,,
