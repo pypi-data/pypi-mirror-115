@@ -1,0 +1,49 @@
+Metadata-Version: 1.1
+Name: django_ses_feedback
+Version: 0.2.1b0
+Summary: Process Amazon SES Feedback
+Home-page: https://hg.code.netlandish.com/~netlandish/django-ses-feedback/
+Author: Netlandish Inc.
+Author-email: hello@netlandish.com
+License: UNKNOWN
+Description: django-ses-feedback
+        ===================
+        
+        Simple app to add bounce records to the database. It allows for a helper
+        to check and see if an email should be delivered to a recipient or not.
+        
+        Models
+        ~~~~~~
+        
+        ``django_ses_feedback.models.EmailAddressNotification``
+        
+        Helpers
+        ~~~~~~~
+        
+        ``django_ses_feedback.helpers.can_send_email``
+        
+        Settings
+        ~~~~~~~~
+        
+        \``\` SES\ *FEEDBACK = { 'MAX*\ COUNT': 2, 'PROCESS*BOUNCE': True,
+        'PROCESS*\ COMPLAINT': True, }
+        
+        \``\`
+        
+        Notes
+        ~~~~~
+        
+        This was taken from AnyHow code base for use with other applications.
+        AnyHow itself doesn't use this because of other model requirements but a
+        general application should be able to use this just fine.
+        
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Environment :: Web Environment
