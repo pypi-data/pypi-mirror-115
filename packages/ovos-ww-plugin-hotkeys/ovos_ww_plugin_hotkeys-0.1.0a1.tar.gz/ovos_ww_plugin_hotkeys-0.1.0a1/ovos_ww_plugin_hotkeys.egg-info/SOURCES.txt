@@ -1,0 +1,9 @@
+setup.py
+ovos_ww_plugin_hotkeys/__init__.py
+ovos_ww_plugin_hotkeys.egg-info/PKG-INFO
+ovos_ww_plugin_hotkeys.egg-info/SOURCES.txt
+ovos_ww_plugin_hotkeys.egg-info/dependency_links.txt
+ovos_ww_plugin_hotkeys.egg-info/entry_points.txt
+ovos_ww_plugin_hotkeys.egg-info/requires.txt
+ovos_ww_plugin_hotkeys.egg-info/top_level.txt
+ovos_ww_plugin_hotkeys.egg-info/zip-safe
