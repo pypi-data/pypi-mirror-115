@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: client-server-chat-test
+Version: 2021.8.4
+Summary: Client-server chat for test.
+Home-page: UNKNOWN
+Author: IrrationalDude
+Author-email: painkillerfizz@gmail.com
+License: GNU
+Keywords: chat
+Platform: UNKNOWN
+
+==================
+Client-server chat
+==================
+
+This project provides a TCP client-server chat.
+
