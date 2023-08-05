@@ -1,0 +1,6 @@
+README.md
+setup.py
+lyric_matcher.egg-info/PKG-INFO
+lyric_matcher.egg-info/SOURCES.txt
+lyric_matcher.egg-info/dependency_links.txt
+lyric_matcher.egg-info/top_level.txt

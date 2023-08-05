@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: lyric_matcher
+Version: 0.0.1
+Summary: README.md
+Home-page: UNKNOWN
+Author: hanhaodi zhang, zhaoyang bu
+Author-email: 1004591463@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# Inputs
+## Under data/
+### Create a directory named with songTitle (eg. lyrics), under this directory:
+#### songTitle.txt (from www.genius.com )
+#### songTitlewithTime.txt (from we sing)
+
+# Outputs
+## Under result/
+### songTitle_timestamp.txt
+
+# Run:
+## python lyrics_match.py songTitle
+
