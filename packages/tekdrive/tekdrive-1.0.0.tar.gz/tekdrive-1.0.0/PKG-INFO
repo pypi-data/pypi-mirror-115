@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: tekdrive
+Version: 1.0.0
+Summary: Package to interact with the TekDrive API.
+Home-page: UNKNOWN
+Author: Initial State
+Author-email: thomas@initialstate.com
+License: UNKNOWN
+Description: [![TekCloud Logo](https://raw.githubusercontent.com/tektronix/tekdrive-sdk-python/master/ext/tekcloud-logo.png)](https://tekcloud.com)
+        
+        # TekDrive Python SDK
+        This is a Python SDK for interacting with the TekDrive API.
+        
+        ## Quick Links
+        #### SDK
+        - [PyPI](https://pypi.org/project/tekdrive/)
+        - [Documentation](https://tektronix.github.io/tekdrive-sdk-python/)
+        - [File a Bug/Request a Feature](https://github.com/tektronix/tekdrive-sdk-python/issues/new/choose)
+        
+        #### Other
+        - [TekDrive API Documentation](https://docs.drive.tekcloud.com)
+        - [TekDrive Marketing Page](https://www.tek.com/software/tekdrive)
+        
+        
+        ## Install
+        The SDK is available on PyPI:
+        
+        ```console
+        $ pip install tekdrive
+        ```
+        
+        This SDK officially supports Python 3.6+.
+        
+Keywords: tektronix tekdrive tekcloud
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Provides-Extra: release
+Provides-Extra: lint
+Provides-Extra: test
