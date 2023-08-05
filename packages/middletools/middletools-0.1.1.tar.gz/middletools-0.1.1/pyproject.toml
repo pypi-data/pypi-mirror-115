@@ -1,0 +1,42 @@
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "middletools"
+version = "0.1.1"
+description = "This python library allows you integrate async-await middleware-based system to your project"
+authors = ["deknowny <deknowny@gmail.com>"]
+readme = "README.md"
+homepage = "https://github.com/deknowny/middletools"
+license = "MIT"
+keywords = [
+    "python", "library", "middlewares", "create", "utils"
+]
+classifiers = [
+    "Framework :: AsyncIO",
+    "Intended Audience :: Developers",
+    "Typing :: Typed",
+    "Topic :: Utilities",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.7"
+]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[tool.poetry.dev-dependencies]
+black = "^21.7b0"
+isort = "^5.9.2"
+mypy = "^0.910"
+tox = "^3.24.0"
+pytest = "^6.2.4"
+pytest-cov = "^2.12.1"
+pytest-asyncio = "^0.15.1"
+coveralls = "^3.2.0"
+PyYAML = "^5.4.1"
+
+
+[tool.black]
+line-length = 78
