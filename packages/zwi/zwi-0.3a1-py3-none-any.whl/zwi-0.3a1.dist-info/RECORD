@@ -1,0 +1,14 @@
+zwi/__init__.py,sha256=hqw1ckHzu3lGqKZ7fqJll5xm_W7PQDHYOLwtnaDjOa0,367
+zwi/asset_cache.py,sha256=_Vxgg_R4VPQTMhL3bJPzejxVMeBLXOBUKaZI9CoTRq4,7587
+zwi/core.py,sha256=Xq2uq_kOEEyFMlWUXS8bJ5cbIJNJExlLrxdQtkRGi74,39401
+zwi/qt_gui.py,sha256=aWPbfTlk4F9SJuoXjLDQpcwxjlc5iQgVPEEYwcuyi6o,16748
+zwi/util.py,sha256=F8bVUxs5pqRhhbUUieATAHjOqiIPgxieCwhzRx_UDCw,1351
+zwi/zwi_ui_v0.ui,sha256=5cC8ntvwlP_v-IE2aKHQeVJrnGyXFgmHFac5AdZDOgw,10031
+zwi/scripts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+zwi/scripts/zwi.py,sha256=ysPFwW3Z6wrqKJLJpN4O8x4GQ6nyLvTBiDllvfCO9FU,11521
+zwi/scripts/zwibok.py,sha256=gxw8_wk9cUo2n9qjXMU9H1mMZk3sqypSj8pr1dXL894,23002
+zwi-0.3a1.dist-info/entry_points.txt,sha256=JEhcB_Cmr4-PhXyxS_BwmKqOa8gpttaxk0oGb9dCmGM,75
+zwi-0.3a1.dist-info/LICENSE.md,sha256=wFfx5bfW2urUQ9a3MO1Mt00k6ugTsefKtlh-Znuq6Qc,1077
+zwi-0.3a1.dist-info/WHEEL,sha256=VUbF57hf4yRZWWrOOjp25Fr4BQX9EtnVSbnP2vNxHDM,81
+zwi-0.3a1.dist-info/METADATA,sha256=0DBoDJGKdMJA7shjwzvwwO1_NMJBG_dr6BtpAydr_xk,7259
+zwi-0.3a1.dist-info/RECORD,,
