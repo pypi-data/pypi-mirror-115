@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/pycrowdsec.egg-info/PKG-INFO
+src/pycrowdsec.egg-info/SOURCES.txt
+src/pycrowdsec.egg-info/dependency_links.txt
+src/pycrowdsec.egg-info/top_level.txt
