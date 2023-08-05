@@ -1,0 +1,14 @@
+Cargo.toml
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+nlpo3/__init__.py
+nlpo3.egg-info/PKG-INFO
+nlpo3.egg-info/SOURCES.txt
+nlpo3.egg-info/dependency_links.txt
+nlpo3.egg-info/not-zip-safe
+nlpo3.egg-info/top_level.txt
+src/lib.rs
