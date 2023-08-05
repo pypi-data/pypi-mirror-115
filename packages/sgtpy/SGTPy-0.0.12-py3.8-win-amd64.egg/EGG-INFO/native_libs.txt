@@ -1,0 +1,2 @@
+SGTPy/coloc_cy.cp38-win_amd64.pyd
+SGTPy/sgt/cijmix_cy.cp38-win_amd64.pyd
