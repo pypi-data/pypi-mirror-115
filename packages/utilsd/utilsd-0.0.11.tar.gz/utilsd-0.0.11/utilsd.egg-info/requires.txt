@@ -1,0 +1,10 @@
+addict>=2.4.0
+numpy>=1.18.0
+pyyaml>=5.4.1
+yapf>=0.31.0
+
+[docs]
+sphinx
+
+[full]
+torch>=1.7.1
