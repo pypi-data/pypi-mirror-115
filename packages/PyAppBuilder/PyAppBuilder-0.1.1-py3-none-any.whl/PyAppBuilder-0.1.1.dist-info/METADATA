@@ -1,0 +1,79 @@
+Metadata-Version: 2.1
+Name: PyAppBuilder
+Version: 0.1.1
+Summary: makes applications
+Home-page: UNKNOWN
+Author: Technical Earth
+Author-email: technicalearth0@gmail.com
+License: UNKNOWN
+Keywords: python,GUI,app,tkinter,PyQt5,PYPI
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+Requires-Dist: PyQt5
+Requires-Dist: PyQt5-stubs
+Requires-Dist: PyQtWebEngine
+
+# PyAppBuilder
+
+Developed by Roop Majumder from Technical Earth (c) 2020
+
+## Examples of How To Use
+
+browser
+
+```python
+from PyAppBuilder import browser
+
+browser(name, url, icon)
+```
+
+using browser
+
+```python
+from PyAppBuilder import browser
+
+browser('my browser', 'www.google.com', 'icon.png')
+```
+
+notepad
+
+```python
+from PyAppBuilder import notepad
+
+notepad(name, icon)
+```
+
+using notepad
+
+```python
+from PyAppBuilder import notepad
+
+notepad('my notepad', 'icon.png')
+```
+
+calculator
+
+```python
+from PyAppBuilder import calculator
+
+calculator(name, icon)
+```
+
+using calculator
+
+```python
+from PyAppBuilder import calculator
+
+calculator('my calculator', 'icon.png')
+```
+
+##### There are more to explore stay around.
+
+##### more things coming soon.
+
