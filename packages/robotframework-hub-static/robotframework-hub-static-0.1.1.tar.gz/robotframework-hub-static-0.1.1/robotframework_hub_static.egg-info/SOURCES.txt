@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+rfhub_static/__init__.py
+rfhub_static/keyword_doc.py
+rfhub_static/version.py
+robotframework_hub_static.egg-info/PKG-INFO
+robotframework_hub_static.egg-info/SOURCES.txt
+robotframework_hub_static.egg-info/dependency_links.txt
+robotframework_hub_static.egg-info/entry_points.txt
+robotframework_hub_static.egg-info/requires.txt
+robotframework_hub_static.egg-info/top_level.txt
+robotframework_hub_static.egg-info/zip-safe
