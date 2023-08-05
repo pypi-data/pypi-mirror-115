@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: tsx
+Version: 0.0.1
+Summary: TimeStam eXtensions for Python
+Home-page: https://github.com/asuiu/tsx
+Author: Andrei Suiu
+Author-email: andrei.suiu@gmail.com
+License: GPL
+Keywords: logging elasticsearch handler log instrumentation
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: System :: Logging
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Internet :: Log Analysis
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Description-Content-Type: text/markdown
+Requires-Dist: typing-extensions (>=3.10.0.0)
+Requires-Dist: dateparser (>=1.0.0)
+Requires-Dist: pyxtension (>=1.13.15) ; python_version >= "3.6"
+
+# tsx
+Time Stamp eXtensions for Python
+
+### Usage:
+
+TS(ts: Union[int, float, str], prec: Literal["s", "ms"] = "s")
+TSMsec(ts: Union[int, float, str], prec: Literal["s", "ms"] = "ms")
+
+prec - means precision of the `ts` argument.
+    If prec=="s" - the `ts` argument will be interpreted as nr of seconds since epoch,
+    If prec=="s" - the `ts` argument will be interpreted as nr of milliseconds since epoch 
+
+Example:
+ts = TS(ts="1519855200.123856", prec="s")
+
+ts==1519855200.123856
+ts.as_iso == '2018-02-28T22:00:00.123856Z'
+ts.as_iso_tz(pytz.timezone("Europe/Bucharest"))=='2018-03-01T00:00:00.123856+02:00'
+
+
+
