@@ -1,0 +1,16 @@
+fps/__init__.py,sha256=DOPW8Ls07XROhNxX797s03qFCRpHch5oCsRrgwSLPI0,181
+fps/_version.py,sha256=epZ9fRsjPuOWgr8vyD3GA01mm4BsGg1eHqL01KRNftg,72
+fps/api.py,sha256=ZshebKCPtAFiQcRsTGvHA2U7Zz8-0_ZNpeoIVoC7TMw,302
+fps/cli.py,sha256=_PKT8Z9j8h5Fdj0JzH-9BeQ1t4uOlY_YaDc8KrVhHds,892
+fps/config.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fps/hooks.py,sha256=5uBgv0U6727v6eKXPIbD5eihx5M0SswgvR_3Q5djp3s,412
+fps/logging.py,sha256=B2vePv60ALmK_m9pjriqo0_-7kXin8862ljzUKG3Pa4,4776
+fps/main.py,sha256=tgmiQZiha-Cg97A2taBdbGaEiwTR-iHdTa-WfhfZyxU,1542
+fps/plugins.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fps/utils.py,sha256=sS97Vb5PmWPltM1y8rgPvw62q0U7C4-jlL1UEZ2UKas,667
+fps-0.0.1.dist-info/LICENSE,sha256=Pq_RKgBCIf768nCDHks1Uva57tVp_blxPrsG-DTjeYQ,1486
+fps-0.0.1.dist-info/METADATA,sha256=X0JIKWtGB9UnkOHgP7dvQD4ueBgrsTED44G7pGMOS-4,649
+fps-0.0.1.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+fps-0.0.1.dist-info/entry_points.txt,sha256=_7OmnZ5JAb2NL9__D0HyCKYZZrirx49wTAVWuV_Vl7E,37
+fps-0.0.1.dist-info/top_level.txt,sha256=LWQWr3oC_3qQUL1bobs1WG4BL1MOQ4bP7yqPGGLKFbM,4
+fps-0.0.1.dist-info/RECORD,,
