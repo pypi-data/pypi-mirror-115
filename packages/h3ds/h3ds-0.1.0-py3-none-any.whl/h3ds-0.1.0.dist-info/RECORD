@@ -1,0 +1,11 @@
+h3ds/__init__.py,sha256=QTYqXqSTHFRkM9TEgpDFcHvwLbvqHDqvqfQ9EiXkcAM,23
+h3ds/config.toml,sha256=8OinLdQGbwq893LTwhMvdsrtiNNEjes7Uxuo6E3gBYk,4227
+h3ds/dataset.py,sha256=05HKr0q48oNdLmiz9QYT6fLiKgZdKTAaVGUJyPjVCUs,8263
+h3ds/log.py,sha256=8izgRz5BzQlU__fCn28hh2NAMb0oP2nlpMeVZFvag-I,2394
+h3ds/numeric.py,sha256=HxK1hW1eCF85Y7rKqoRT0aw_WLqO9Ji8nL65xmDYzgg,1515
+h3ds/utils.py,sha256=2lstJzqNVVWPhXA2AiI1fZdIt9IEkk051_ZB0Ya5Vnw,1168
+h3ds-0.1.0.dist-info/LICENSE,sha256=a0UVNdw3wALIY41ESUQSbt3lxC09td5BQ0TYLgvtzSI,1065
+h3ds-0.1.0.dist-info/METADATA,sha256=KbPAX6ZmipVc_AGZVlNz5EaPxPHbbYKa4ljZ-RW9idw,2040
+h3ds-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+h3ds-0.1.0.dist-info/top_level.txt,sha256=PN91H5ywpbhrXGaBJTfdIEZbajAT3dbPABhK4u9NAb0,5
+h3ds-0.1.0.dist-info/RECORD,,
