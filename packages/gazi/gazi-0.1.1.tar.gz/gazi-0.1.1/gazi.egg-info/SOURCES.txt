@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+gazi/__init__.py
+gazi/app.py
+gazi/request.py
+gazi/response.py
+gazi/route.py
+gazi.egg-info/PKG-INFO
+gazi.egg-info/SOURCES.txt
+gazi.egg-info/dependency_links.txt
+gazi.egg-info/top_level.txt
