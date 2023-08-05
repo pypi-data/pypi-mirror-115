@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: Dino-Chrome
+Version: 0.1
+Summary: A package to play the google chrome dino game
+Home-page: UNKNOWN
+Author: Shourya Vardhan Goyal
+License: UNKNOWN
+Keywords: dino,chrome,automate,play,game,shourya vardhan goyal
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pyautogui
+Requires-Dist: keyboard
+
+
+# Dino Chrome
+## A package to play the google chrome dino game.
+## Steps:
+### Open chrome:\dino
+### In python file
+### from dino import main
+### main.run()
+
+
