@@ -1,0 +1,14 @@
+convect/__init__.py,sha256=gpOb_bO3zy7k7GHOpQwWm1YbGOoqwJv086NVE08eXkU,27
+convect/command_line.py,sha256=Oq-FiexlTRIHNbFujMJrP0BONuk4234KYJAaNKUOOEw,238
+convect/helpers.py,sha256=kYWpW2cxPIyh1Gnt8KaPUHlW-dv8T7YEjLH6fLdLoeg,1224
+convect/sdk.py,sha256=U9d6XMbjeYRM1ouEsyBw2hBhhkRsq2WliM-WZxYyJRU,3255
+convect/tests/__init__.py,sha256=hCZbP6xwLr_J-8029mrrzdChgzITOdWCfzpThsvATbQ,1277
+convect/tests/test_command_line.py,sha256=Kn5HTW4eThThv07xgLCXGtdPWmMX6UokAFAtwX3Ds08,758
+convect/tests/test_helpers.py,sha256=mF5jR9T9HyXGoGAlunfHIf37vrwh8RLBzee58O17k00,1908
+convect/tests/test_sdk.py,sha256=vIPi0bpbYX2eiWm-vfYFUG9NQek7W0yp1ZCXggfQzHE,3787
+convect-0.0.1.post13.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+convect-0.0.1.post13.dist-info/METADATA,sha256=tcwSZG3u9L5Vn458CKo2F3celGcvZT5t_Ic_lCxtntw,1170
+convect-0.0.1.post13.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+convect-0.0.1.post13.dist-info/entry_points.txt,sha256=xmY-Gns9AStYKX4wYI2a5SRhTywaiXhqWdYz2GQ0vvc,55
+convect-0.0.1.post13.dist-info/top_level.txt,sha256=Ch9odO85gGDA3qA1PWEUmgszER2VTzpbKdGGaPpBwMY,8
+convect-0.0.1.post13.dist-info/RECORD,,
