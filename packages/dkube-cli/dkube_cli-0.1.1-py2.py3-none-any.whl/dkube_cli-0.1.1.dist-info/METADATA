@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: dkube-cli
+Version: 0.1.1
+Summary: CLI tool to operate dkube from command line
+Home-page: https://github.com/deepio-oc/dkube_cli
+Author: oneconvergence
+Author-email: dkube@oneconvergence.com
+License: UNKNOWN
+Keywords: dkube_cli
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.5
+Requires-Dist: Click (>=7.0)
+Requires-Dist: tabulate (==0.8.7)
+Requires-Dist: dkube
+Requires-Dist: packaging
+
+=========
+DKube CLI
+=========
+
+
+
+
+
+
+CLI tool to operate dkube from command line
+
+
+
+Features
+--------
+
+* TODO
+
+Credits
+-------
+
+This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+
+.. _Cookiecutter: https://github.com/audreyr/cookiecutter
+.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+
+
+=======
+History
+=======
+
+0.1.0 (2021-01-08)
+------------------
+
+* First release on PyPI.
+
+
