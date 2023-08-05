@@ -1,0 +1,7 @@
+fastapi_satella_metrics/__init__.py,sha256=nRyDA2OQZu-02W_0ZsdXn6Pk0d5tB_szR-XaT4PvKHs,2153
+fastapi_satella_metrics/prometheus_exporter.py,sha256=Y2UqdiKBDUBBf9-tk7d99hHzMmaa7kEzeed_7Ezvz9o,1163
+fastapi_satella_metrics-2.0.0.dist-info/LICENSE.md,sha256=Mb2mM2QryjMK1CSJxxecprK0GkVPtIxEfptAA9bNdi4,1083
+fastapi_satella_metrics-2.0.0.dist-info/METADATA,sha256=K94yNP9xj3y6HydJmbqJ8M3gMiLqNU3NTUeLcpfmTT4,3898
+fastapi_satella_metrics-2.0.0.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+fastapi_satella_metrics-2.0.0.dist-info/top_level.txt,sha256=EWienUk97di51gR2U3l94ugW547i7edye4FOtwPETWc,24
+fastapi_satella_metrics-2.0.0.dist-info/RECORD,,
