@@ -1,0 +1,7 @@
+MeHscr.py
+setup.py
+MeHscr.egg-info/PKG-INFO
+MeHscr.egg-info/SOURCES.txt
+MeHscr.egg-info/dependency_links.txt
+MeHscr.egg-info/requires.txt
+MeHscr.egg-info/top_level.txt
