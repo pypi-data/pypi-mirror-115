@@ -1,0 +1,9 @@
+README.md
+setup.py
+scheduguru/__init__.py
+scheduguru/main.py
+scheduguru.egg-info/PKG-INFO
+scheduguru.egg-info/SOURCES.txt
+scheduguru.egg-info/dependency_links.txt
+scheduguru.egg-info/requires.txt
+scheduguru.egg-info/top_level.txt
