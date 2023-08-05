@@ -1,0 +1,23 @@
+from distutils.core import setup
+
+setup(name="asplode",
+      version="0.0.4",
+      scripts=["bin/asplode"],
+      py_modules=["asplode"],
+      packages=[],
+      description="Recursively decompress archives",
+      long_description="Recursively decompress archives",
+      classifiers=["Development Status :: 4 - Beta",
+                   "Intended Audience :: End Users/Desktop",
+                   "License :: OSI Approved :: Apache Software License",
+                   "Topic :: Utilities",
+                  ],
+      keywords="decompression archives zip gzip tar",
+      author="Brent Woodruff",
+      author_email="brent@fprimex.com",
+      url="http://github.com/fprimex/asplode",
+      license="Apache",
+      include_package_data=True,
+      zip_safe=False,
+      install_requires=["plac"],
+)
