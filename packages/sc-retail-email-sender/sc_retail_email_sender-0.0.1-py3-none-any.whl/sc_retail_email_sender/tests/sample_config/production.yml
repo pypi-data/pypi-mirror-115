@@ -1,0 +1,44 @@
+# 邮件配置
+email:
+  # SMTP 服务器
+  smtp: "mail.mis.bcs"
+  # 发件人账号
+  username: "99002@cscb.cn"
+  # 发件人账号密码
+  password: "abcd@123"
+  # 邮件主题
+  subject: "通知"
+  # 模板文件路径
+  template_filename: "email-template.html"
+  # 附件文件名模式
+  attachment_filename_pattern: "广州分行考核指标统计-*.xlsx"
+  # 接收者列表（按部门）
+  receiver:
+    "分行营业部":
+      - "2972@cscb.cn"
+    "粤能支行":
+      - "3976@cscb.cn"
+    "财智支行":
+      - "2956@cscb.cn"
+      - "5008@cscb.cn"
+    "江湾支行":
+      - "2767@cscb.cn"
+      - "7287@cscb.cn"
+    "东风支行":
+      - "2952@cscb.cn"
+    "南沙支行":
+      - "2936@cscb.cn"
+    "黄埔支行":
+      - "5007@cscb.cn"
+    "公司业务二部":
+      - "2937@cscb.cn"
+    "公司业务三部":
+      - "5355@cscb.cn"
+  # 抄送人列表
+  cc_receiver:
+    - "2109@cscb.cn"
+    - "13783@cscb.cn"
+    - "11036@cscb.cn"
+    - "13469@cscb.cn"
+    - "13577@cscb.cn"
+    - "3662@cscb.cn"
