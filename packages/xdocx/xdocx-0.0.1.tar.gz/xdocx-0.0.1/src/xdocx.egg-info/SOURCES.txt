@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+src/xdocx.egg-info/PKG-INFO
+src/xdocx.egg-info/SOURCES.txt
+src/xdocx.egg-info/dependency_links.txt
+src/xdocx.egg-info/entry_points.txt
+src/xdocx.egg-info/top_level.txt

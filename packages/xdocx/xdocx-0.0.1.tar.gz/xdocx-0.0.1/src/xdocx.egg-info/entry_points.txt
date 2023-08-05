@@ -1,0 +1,3 @@
+[console_scripts]
+xdocx = xdocx.main:main
+
