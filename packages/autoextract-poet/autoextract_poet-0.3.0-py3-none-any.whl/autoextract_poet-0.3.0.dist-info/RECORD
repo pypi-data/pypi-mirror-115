@@ -1,0 +1,11 @@
+autoextract_poet/__init__.py,sha256=QLN_RtCveukE2YmP2BKtHyv4UmIXQJU9b6tAAgC76LQ,89
+autoextract_poet/adapters.py,sha256=DieCNYlvqiiDVIttQ92JRLbv6DZy0MqACpLM7MMedxc,2880
+autoextract_poet/items.py,sha256=N3Yw6A_1UmUlNySQSpNnzxNW3dGlLIB5cQnxnMVYsHI,15921
+autoextract_poet/page_inputs.py,sha256=jBjRPhM6wEwk6w06NgV-DiLC8VSUT5nmTLc0kdsBRkA,3752
+autoextract_poet/pages.py,sha256=F3t0QlXkycCxx_BZ79GxEORnx0mpPet7t3bvY7AUtw0,4548
+autoextract_poet/util.py,sha256=OB-25N5WfBqpF5_FF-c5m4roJUe1jXPS63yYaw-5COA,1829
+autoextract_poet-0.3.0.dist-info/LICENSE,sha256=3gGt4l6Y8kdxOgzTYnfEa5JEh11pPD8srZDYTkaDhao,1509
+autoextract_poet-0.3.0.dist-info/METADATA,sha256=ZfaIC2detJxn1lJOFwLeNV02IdHmAzA_KgpmAf9DOAQ,1856
+autoextract_poet-0.3.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+autoextract_poet-0.3.0.dist-info/top_level.txt,sha256=p7fEOvXSdvTCQdAJWHcb1MOGqmgtbqYSHqfuaXaUgw8,17
+autoextract_poet-0.3.0.dist-info/RECORD,,
