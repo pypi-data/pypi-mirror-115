@@ -1,0 +1,3 @@
+[console_scripts]
+rainbowcsv = rainbowcsv.__main__:main
+
