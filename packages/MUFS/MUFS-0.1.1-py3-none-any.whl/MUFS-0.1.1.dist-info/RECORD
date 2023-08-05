@@ -1,0 +1,11 @@
+mufs/Metrics.py,sha256=NbTxN_bMzDJJP7MleONLo_YOpolJGGg27clCMp8OVTU,12255
+mufs/Selection.py,sha256=xGFTSJZOvrnk7rvfDH3xqDRswsuPm5XfZZcHdYPTcDM,8395
+mufs/__init__.py,sha256=qaZZNz1GtiikR7HrsJksJ5k73eRul5IbPU4mbE2PKJs,251
+mufs/tests/MUFS_test.py,sha256=DTutPmomyAAZZoa8YusMHA1pV1OumEQrw-wLXe-Zr9M,5195
+mufs/tests/Metrics_test.py,sha256=ddGH1KSyEZfPYOVsaXmfkWk3oHqrGsLIgeVQ5j4y4is,9076
+mufs/tests/__init__.py,sha256=RZi3U8JMqcrsK85aww-AYMPeRY_BmRw8QW8pZz3kNQo,113
+MUFS-0.1.1.dist-info/LICENSE,sha256=__e5_Ep-WUJ4WGJKKQRMB3PKlFdBQ6hBlcgUU4_R7Zk,1069
+MUFS-0.1.1.dist-info/METADATA,sha256=rDZWu7nkubeHIYq3SHXqVS6F7nTx6ZkDfAj_i9dMrFU,1703
+MUFS-0.1.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+MUFS-0.1.1.dist-info/top_level.txt,sha256=iPk3Sbb_j8JEuv7txVtKFo7KacGjII-R1KKySLy9-po,5
+MUFS-0.1.1.dist-info/RECORD,,
