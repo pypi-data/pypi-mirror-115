@@ -1,0 +1,11 @@
+openscm_units/__init__.py,sha256=odn61cotlyf379Txijm5qQjqIZ6pJEnuhUSe7pcqhtQ,233
+openscm_units/_unit_registry.py,sha256=FAqOb8k7xDNVWkb60VZyLsjZITeF0DgSelXv-_6GmH4,20942
+openscm_units/_version.py,sha256=d2KyDkVGZp4ywqKFeGGELiRA5br7NvtQM3g3gMMUQ04,497
+openscm_units/data/__init__.py,sha256=S7DqyPMqL1OwzkJ69phWz2wweOK8C8g0uNFXq6J8fAk,135
+openscm_units/data/metric_conversions.csv,sha256=xMiKP227P-s-dkhy5eRkGWRdpt9CulGB1o-NpkbUwKE,2738
+openscm_units/data/mixtures.py,sha256=AKQ2HdTGieqy5gyK6uDpXViG7HRRQieWDaS_ZgqS3SY,14607
+openscm_units-0.4.0.dist-info/LICENSE,sha256=ITOgPnNDMd5OU3fW9knUnsXD0bzFeuJeIJw0jl_14t8,1552
+openscm_units-0.4.0.dist-info/METADATA,sha256=M1OPl7YeXQhbNT39ICBj0_5bzX2xrpK32n1qCKCnu8g,2980
+openscm_units-0.4.0.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+openscm_units-0.4.0.dist-info/top_level.txt,sha256=fbn-w9Dsghg-js3T-oiFzGR0vymszGqqpaoO9Lo1HBM,14
+openscm_units-0.4.0.dist-info/RECORD,,
