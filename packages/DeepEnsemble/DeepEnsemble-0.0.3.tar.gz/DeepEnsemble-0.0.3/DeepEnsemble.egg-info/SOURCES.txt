@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+DeepEnsemble/DeepEnsemble.py
+DeepEnsemble/__init__.py
+DeepEnsemble.egg-info/PKG-INFO
+DeepEnsemble.egg-info/SOURCES.txt
+DeepEnsemble.egg-info/dependency_links.txt
+DeepEnsemble.egg-info/top_level.txt
+Test/__init__.py
+Test/test.py
+test/test.py
