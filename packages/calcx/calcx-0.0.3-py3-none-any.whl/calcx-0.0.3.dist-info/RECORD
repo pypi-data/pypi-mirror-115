@@ -1,0 +1,10 @@
+calcx/__init__.py,sha256=0-cOaziPPN8toZV39VBM3ahtWzk7qPT7Ad2KdMX9InI,865
+calcx/_version.py,sha256=Uk7Yhf9ECilw4B9oAE3_cXqCnD252oT6-9ivzmUl3nA,471
+calcx/calcx.py,sha256=EV8Gtz2Q82VAbpbbH8OFPFmgJcffbbYUQFunFDZGRJs,24661
+calcx/perf_attrib.py,sha256=E6y1ZeFvWC6DNb2lKq_tVPzalfK6pk19MXUeWorJLD8,5834
+calcx/periods.py,sha256=3kmfOF9ZVwqPWItW_BQjaiDyAnMi9OSokaVmfiNzyMg,804
+calcx-0.0.3.dist-info/LICENSE,sha256=B0kLFpnKpsig34ukMJXDe4alFNPeO17lMHHeUD3LEH4,1634
+calcx-0.0.3.dist-info/METADATA,sha256=HtjADGnf2JPSPFNNE2wLD_wLFhPJpzH4WMxNpprH2pM,462
+calcx-0.0.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+calcx-0.0.3.dist-info/top_level.txt,sha256=ALPo5GUWwytNKuACg_GxdGbSX0o-nxLaFox1ZE6LkiU,6
+calcx-0.0.3.dist-info/RECORD,,
