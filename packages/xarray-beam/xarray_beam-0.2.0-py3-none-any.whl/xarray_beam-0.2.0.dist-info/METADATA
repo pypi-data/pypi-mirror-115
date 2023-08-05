@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: xarray-beam
+Version: 0.2.0
+Summary: UNKNOWN
+Home-page: https://github.com/google/xarray-beam
+Author: Google LLC
+Author-email: noreply@google.com
+License: Apache 2.0
+Platform: UNKNOWN
+Requires-Python: >=3
+Requires-Dist: apache-beam (>=2.31.0)
+Requires-Dist: dask
+Requires-Dist: immutabledict
+Requires-Dist: rechunker
+Requires-Dist: zarr
+Requires-Dist: xarray
+Provides-Extra: tests
+Requires-Dist: absl-py ; extra == 'tests'
+Requires-Dist: pandas ; extra == 'tests'
+Requires-Dist: pytest ; extra == 'tests'
+
+UNKNOWN
+
+
