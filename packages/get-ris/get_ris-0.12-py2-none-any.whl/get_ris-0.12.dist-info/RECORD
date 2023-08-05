@@ -1,0 +1,12 @@
+get_ris_pack/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+get_ris_pack/article.py,sha256=MuWjxfi-R4epvmvP47DEXi_odfoEbLAwZgsCxgYGVdw,1212
+get_ris_pack/download_pdf.py,sha256=lA4lG5FA0wWnv_fwtd0oMNw8rTHBApqKhIykfPSb8Gk,1823
+get_ris_pack/get_info_by_id.py,sha256=KzPG1JaXJNqhG4aQXNh_X6HRMpaD4wCfdZDYx55Gp-A,1814
+get_ris_pack/get_ris.py,sha256=aGIJQi2kjHorCYxEG8rQj_xyrT6okW8OVvdVDrUswk4,2356
+get_ris_pack/read_clipboard.py,sha256=Fw4anTw0u9uD4OOrMPEgEFELb1XUqhssgDbmntYfijc,472
+get_ris-0.12.dist-info/METADATA,sha256=vm-4A_cXdsmI06dDJklG3CVtcfNwlTUmi11lHV1iHZo,243
+get_ris-0.12.dist-info/WHEEL,sha256=bK8TJl-oUKFDa18qkB68zwTZhIBCifqi4qjS_NS4aFQ,92
+get_ris-0.12.dist-info/entry_points.txt,sha256=n97TstHVlSO1hkk8Zq9pqwJKvzfZcgQJehdBL3e-P4o,101
+get_ris-0.12.dist-info/top_level.txt,sha256=uhrmpbCQQuCsDnrZw-4hPCVBjp0Vo5io0saVjtAzfb8,13
+get_ris-0.12.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+get_ris-0.12.dist-info/RECORD,,

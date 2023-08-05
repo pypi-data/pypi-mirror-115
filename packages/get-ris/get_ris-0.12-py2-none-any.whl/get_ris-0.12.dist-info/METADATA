@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: get-ris
+Version: 0.12
+Summary: Script to download RIS and import into EndNote
+Home-page: UNKNOWN
+Author: Felix
+Author-email: qiyu_sjtu@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: requests
+
+UNKNOWN
+
+
