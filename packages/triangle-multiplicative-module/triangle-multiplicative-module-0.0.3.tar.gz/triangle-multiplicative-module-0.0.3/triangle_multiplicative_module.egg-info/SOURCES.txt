@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+triangle_multiplicative_module/__init__.py
+triangle_multiplicative_module/triangle_multiplicative_module.py
+triangle_multiplicative_module.egg-info/PKG-INFO
+triangle_multiplicative_module.egg-info/SOURCES.txt
+triangle_multiplicative_module.egg-info/dependency_links.txt
+triangle_multiplicative_module.egg-info/requires.txt
+triangle_multiplicative_module.egg-info/top_level.txt
