@@ -1,0 +1,17 @@
+.github/
+.vscode/
+**/*__pycache__/
+**/*.app/
+**/*.archive/
+**/*.DS_Store
+**/*.egg-info/
+**/*.git/
+**/*.pyc
+dist/
+Icon
+Icon?
+pydoni/cli/app_default_param_values.yaml
+pydoni/cli/commands/cli_notes.py
+pydoni/cli/commands/imessage/workflow_elt/manual_tables/table_data/contact_names_ignored.csv
+pydoni/cli/commands/imessage/workflow_elt/manual_tables/table_data/contact_names_manual.csv
+tests/test_data

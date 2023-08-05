@@ -1,0 +1,27 @@
+Welcome to the Photo ELT (Extract, Load, Transform) Data
+Workflow! This pipeline refreshes the local Photo database
+in Postgres with source mediafile metadata.
+
+This pipeline is entirely {click.style('non-destructive', bold=True)}, meaning
+none of the original source file metadata is not mutated in any way.
+
+->->->->->->->->->->->->-> {click.style('Verbosity', bold=True)} <-<-<-<-<-<-<-<-<-<-<-<-<-
+
+Colorized tags are used in the verbose output of this
+workflow to indicate where a particular option has affected
+the execution of the workflow:
+
+{tab}{click.style('<full-refresh>', fg='red')}
+{tab}Indicates that all rows from a staged table have been
+{tab}deleted, but the table structure has remained intact.
+
+{tab}{click.style('<dry-run>', fg='magenta')}
+{tab}Indicates that SQL was not actually executed against the
+{tab}target Postgres DB, but rather that it {click.style('would have', bold=True)}
+{tab}been executed, had this flag not been set to {click.style('True', bg='white')}.
+
+{tab}{click.style('<step-name>', fg='blue')}
+{tab}Indicates a particular workflow subprocess is responsible
+{tab}for a line of logged output.
+
+Let's go!

@@ -1,0 +1,6 @@
+{
+    "fpath": "varchar not null",
+    "raw_exif_attr": "varchar not null",
+    "raw_value": "varchar not null",
+    "logged_ts": "timestamp not null default timezone('utc'::text, now())"
+}

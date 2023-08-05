@@ -1,0 +1,930 @@
+{
+    "AFAreaMode": {
+        "sql_dtype": "varchar",
+        "short_name": "af_area_mode",
+        "group": "focus",
+        "cleaning_process_ordered": {}
+    },
+    "AFAreaModeSetting": {
+        "sql_dtype": "varchar",
+        "short_name": "af_area_mode_setting",
+        "group": "focus",
+        "cleaning_process_ordered": {}
+    },
+    "AFTracking": {
+        "sql_dtype": "varchar",
+        "short_name": "af_tracking",
+        "group": "focus",
+        "cleaning_process_ordered": {}
+    },
+    "AmbientTemperature": {
+        "sql_dtype": "varchar",
+        "short_name": "ambient_temperature",
+        "group": "camera",
+        "cleaning_process_ordered": {
+            "1": {
+                "function_name": "value_map",
+                "args": {"mapping": {"0 C": "None"}}
+            },
+            "2": {
+                "function_name": "str_replace",
+                "args": {"pat": "C", "repl": ""}
+            },
+            "3": {
+                "function_name": "str_strip",
+                "args": {}
+            },
+            "4": {
+                "function_name": "to_numeric",
+                "args": {}
+            }
+        }
+    },
+    "Aperture": {
+        "sql_dtype": "varchar",
+        "short_name": "aperture",
+        "group": "exposure",
+        "cleaning_process_ordered": {
+            "1": {
+                "function_name": "value_map",
+                "args": {"mapping": {"n/a": "None"}}
+            },
+            "2": {
+                "function_name": "to_numeric",
+                "args": {}
+            }
+        }
+    },
+    "APS-CSizeCapture": {
+        "sql_dtype": "bool",
+        "short_name": "apsc_size_capture",
+        "group": "sensor",
+        "cleaning_process_ordered": {
+            "1": {
+                "function_name": "first_list_item",
+                "args": {}
+            },
+            "2": {
+                "function_name": "map_on_off",
+                "args": {}
+            }
+        }
+    },
+    "BatteryLevel": {
+        "sql_dtype": "float",
+        "short_name": "battery_level",
+        "group": "camera",
+        "cleaning_process_ordered": {
+            "1": {
+                "function_name": "value_map",
+                "args": {"mapping": {"Full": "None", "Medium": "None", "Low": "None", "Near Empty": "None"}}
+            },
+
+            "2": {
+                "function_name": "str_replace",
+                "args": {"pat": "%", "repl": ""}
+            },
+            "3": {
+                "function_name": "str_strip",
+                "args": {}
+            },
+            "4": {
+                "function_name": "to_numeric",
+                "args": {}
+            }
+        }
+    },
+    "BatteryTemperature": {
+        "sql_dtype": "float",
+        "short_name": "battery_temperature",
+        "group": "camera",
+        "cleaning_process_ordered": {
+            "1": {
+                "function_name": "str_replace",
+                "args": {"pat": "C", "repl": ""}
+            },
+            "2": {
+                "function_name": "str_strip",
+                "args": {}
+            },
+            "3": {
+                "function_name": "to_numeric",
+                "args": {}
+            }
+        }
+    },
+    "CameraOrientation": {
+        "sql_dtype": "varchar",
+        "short_name": "camera_orientation",
+        "group": "sensor",
+        "cleaning_process_ordered": {}
+    },
+    "CameraTemperature": {
+        "sql_dtype": "varchar",
+        "short_name": "camera_temperature",
+        "group": "sensor",
+        "cleaning_process_ordered": {
+            "1": {
+                "function_name": "first_list_item",
+                "args": {}
+            },
+            "2": {
+                "function_name": "str_replace",
+                "args": {"pat": "C", "repl": ""}
+            },
+            "3": {
+                "function_name": "str_strip",
+                "args": {}
+            },
+            "4": {
+                "function_name": "to_numeric",
+                "args": {}
+            }
+        }
+    },
+    "CreativeStyle": {
+        "sql_dtype": "varchar",
+        "short_name": "creative_style",
+        "group": "in_camera_edit",
+        "cleaning_process_ordered": {
+            "1": {
+                "function_name": "first_list_item",
+                "args": {}
+            }
+        }
+    },
+    "ElectronicFrontCurtainShutter": {
+        "sql_dtype": "varchar",
+        "short_name": "electronic_front_curtain_shutter",
+        "group": "sensor",
+        "cleaning_process_ordered": {
+            "1": {
+                "function_name": "map_on_off",
+                "args": {}
+            }
+        }
+    },
+    "ExposureCompensation": {
+        "sql_dtype": "varchar",
+        "short_name": "exposure_compensation",
+        "group": "exposure",
+        "cleaning_process_ordered": {
+            "1": {
+                "function_name": "to_numeric",
+                "args": {}
+            }
+        }
+    },
+    "ExposureMode": {
+        "sql_dtype": "varchar",
+        "short_name": "exposure_mode",
+        "group": "exposure",
+        "cleaning_process_ordered": {}
+    },
+    "ExposureProgram": {
+        "sql_dtype": "varchar",
+        "short_name": "exposure_program",
+        "group": "exposure",
+        "cleaning_process_ordered": {
+            "1": {
+                "function_name": "first_list_item",
+                "args": {}
+            }
+        }
+    },
+    "ExposureTime": {
+        "sql_dtype": "varchar",
+        "short_name": "exposure_time",
+        "group": "exposure",
+        "cleaning_process_ordered": {
+            "1": {
+                "function_name": "first_list_item",
+                "args": {}
+            },
+            "2": {
+                "function_name": "to_numeric",
+                "args": {}
+            }
+        }
+    },
+    "FacesDetected": {
+        "sql_dtype": "varchar",
+        "short_name": "faces_detected",
+        "group": "camera",
+        "cleaning_process_ordered": {
+            "1": {
+                "function_name": "first_item_split_on_space",
+                "args": {}
+            },
+            "2": {
+                "function_name": "to_numeric",
+                "args": {}
+            }
+        }
+    },
+    "FileFormat": {
+        "sql_dtype": "varchar",
+        "short_name": "file_format",
+        "group": "sensor",
+        "cleaning_process_ordered": {}
+    },
+    "Flash": {
+        "sql_dtype": "varchar",
+        "short_name": "flash",
+        "group": "exposure",
+        "cleaning_process_ordered": {}
+    },
+    "FocalLengthIn35mmFormat": {
+        "sql_dtype": "varchar",
+        "short_name": "focal_length_in_35mm_format",
+        "group": "focus",
+        "cleaning_process_ordered": {
+            "1": {
+                "function_name": "first_item_split_on_space",
+                "args": {}
+            },
+            "2": {
+                "function_name": "to_numeric",
+                "args": {}
+            }
+        }
+    },
+    "FocusDistance2": {
+        "sql_dtype": "varchar",
+        "short_name": "focus_distance2",
+        "group": "focus",
+        "cleaning_process_ordered": {
+            "1": {
+                "function_name": "first_item_split_on_space",
+                "args": {}
+            },
+            "2": {
+                "function_name": "to_numeric",
+                "args": {}
+            }
+        }
+    },
+    "FocusLocation": {
+        "sql_dtype": "varchar",
+        "short_name": "focus_location",
+        "group": "focus",
+        "cleaning_process_ordered": {}
+    },
+    "FOV": {
+        "sql_dtype": "varchar",
+        "short_name": "fov",
+        "group": "lens",
+        "cleaning_process_ordered": {
+            "1": {
+                "function_name": "first_item_split_on_space",
+                "args": {}
+            },
+            "2": {
+                "function_name": "to_numeric",
+                "args": {}
+            }
+        }
+    },
+    "FullImageSize": {
+        "sql_dtype": "varchar",
+        "short_name": "full_image_size",
+        "group": "sensor",
+        "cleaning_process_ordered": {}
+    },
+    "HDR": {
+        "sql_dtype": "varchar",
+        "short_name": "hdr",
+        "group": "sensor",
+        "cleaning_process_ordered": {}
+    },
+    "HyperfocalDistance": {
+        "sql_dtype": "varchar",
+        "short_name": "hyperfocal_distance",
+        "group": "focus",
+        "cleaning_process_ordered": {
+            "1": {
+                "function_name": "first_item_split_on_space",
+                "args": {}
+            },
+            "2": {
+                "function_name": "to_numeric",
+                "args": {}
+            }
+        }
+    },
+    "ImageDescription": {
+        "sql_dtype": "varchar",
+        "short_name": "image_description",
+        "group": "postprocessing",
+        "cleaning_process_ordered": {
+            "1": {
+                "function_name": "value_map",
+                "args": {"mapping": {"None": "None", "": "None"}}
+            }
+        }
+    },
+    "ImageHeight": {
+        "sql_dtype": "varchar",
+        "short_name": "image_height",
+        "group": "sensor",
+        "cleaning_process_ordered": {
+            "1": {
+                "function_name": "to_numeric",
+                "args": {}
+            }
+        }
+    },
+    "ImageSize": {
+        "sql_dtype": "varchar",
+        "short_name": "image_size",
+        "group": "sensor",
+        "cleaning_process_ordered": {}
+    },
+    "ImageStabilization": {
+        "sql_dtype": "varchar",
+        "short_name": "image_stabilization",
+        "group": "sensor",
+        "cleaning_process_ordered": {
+            "1": {
+                "function_name": "map_on_off",
+                "args": {}
+            }
+        }
+    },
+    "ImageWidth": {
+        "sql_dtype": "varchar",
+        "short_name": "image_width",
+        "group": "sensor",
+        "cleaning_process_ordered": {
+            "1": {
+                "function_name": "to_numeric",
+                "args": {}
+            }
+        }
+    },
+    "ISO": {
+        "sql_dtype": "varchar",
+        "short_name": "iso",
+        "group": "exposure",
+        "cleaning_process_ordered": {
+            "1": {
+                "function_name": "first_list_item",
+                "args": {}
+            },
+            "2": {
+                "function_name": "to_numeric",
+                "args": {}
+            }
+        }
+    },
+    "ISOSetting": {
+        "sql_dtype": "varchar",
+        "short_name": "isosetting",
+        "group": "exposure",
+        "cleaning_process_ordered": {}
+    },
+    "LensModel": {
+        "sql_dtype": "varchar",
+        "short_name": "lens_model",
+        "group": "lens",
+        "cleaning_process_ordered": {}
+    },
+    "LensZoomPosition": {
+        "sql_dtype": "varchar",
+        "short_name": "lens_zoom_position",
+        "group": "lens",
+        "cleaning_process_ordered": {
+            "1": {
+                "function_name": "first_list_item",
+                "args": {}
+            },
+            "2": {
+                "function_name": "str_replace",
+                "args": {"pat": "%", "repl": ""}
+            },
+            "3": {
+                "function_name": "str_strip",
+                "args": {}
+            },
+            "4": {
+                "function_name": "to_numeric",
+                "args": {}
+            },
+            "5": {
+                "function_name": "algebraic_operation",
+                "args": {"operator": "divide", "number": 100}
+            }
+        }
+    },
+    "Make": {
+        "sql_dtype": "varchar",
+        "short_name": "make",
+        "group": "camera",
+        "cleaning_process_ordered": {
+            "1": {
+                "function_name": "value_map",
+                "args": {"mapping": {"SONY": "Sony", "NIKON CORPORATION": "Nikon", "YUNEEC": "Yuneec", "OLYMPUS IMAGING CORP.": "Olympus"}}
+            }
+        }
+    },
+    "MeteringMode": {
+        "sql_dtype": "varchar",
+        "short_name": "meteringmode",
+        "group": "exposure",
+        "cleaning_process_ordered": {}
+    },
+    "Model": {
+        "sql_dtype": "varchar",
+        "short_name": "model",
+        "group": "camera",
+        "cleaning_process_ordered": {}
+    },
+    "Orientation": {
+        "sql_dtype": "varchar",
+        "short_name": "orientation",
+        "group": "sensor",
+        "cleaning_process_ordered": {}
+    },
+    "Quality": {
+        "sql_dtype": "varchar",
+        "short_name": "quality",
+        "group": "sensor",
+        "cleaning_process_ordered": {}
+    },
+    "RAWFileType": {
+        "sql_dtype": "varchar",
+        "short_name": "raw_file_type",
+        "group": "sensor",
+        "cleaning_process_ordered": {}
+    },
+    "ReleaseMode": {
+        "sql_dtype": "varchar",
+        "short_name": "release_mode",
+        "group": "camera",
+        "cleaning_process_ordered": {}
+    },
+    "ShotNumberSincePowerUp": {
+        "sql_dtype": "varchar",
+        "short_name": "shot_number_since_powerup",
+        "group": "camera",
+        "cleaning_process_ordered": {
+            "1": {
+                "function_name": "to_numeric",
+                "args": {}
+            }
+        }
+    },
+    "Shutter": {
+        "sql_dtype": "varchar",
+        "short_name": "shutter",
+        "group": "exposure",
+        "cleaning_process_ordered": {
+            "1": {
+                "function_name": "parse_shutter_type",
+                "args": {}
+            }
+        }
+    },
+    "ShutterCount": {
+        "sql_dtype": "varchar",
+        "short_name": "shutter_count",
+        "group": "exposure",
+        "cleaning_process_ordered": {
+            "1": {
+                "function_name": "first_list_item",
+                "args": {}
+            },
+            "2": {
+                "function_name": "to_numeric",
+                "args": {}
+            }
+        }
+    },
+    "ShutterSpeed": {
+        "sql_dtype": "varchar",
+        "short_name": "shutter_speed",
+        "group": "exposure",
+        "cleaning_process_ordered": {
+            "1": {
+                "function_name": "value_map",
+                "args": {"mapping": {"n/a": "None"}}
+            },
+            "1": {
+                "function_name": "to_numeric",
+                "args": {}
+            }
+        }
+    },
+    "Software": {
+        "sql_dtype": "varchar",
+        "short_name": "software",
+        "group": "postprocessing",
+        "cleaning_process_ordered": {}
+    },
+    "WhiteBalance": {
+        "sql_dtype": "varchar",
+        "short_name": "white_balance",
+        "group": "sensor",
+        "cleaning_process_ordered": {
+            "1": {
+                "function_name": "first_list_item",
+                "args": {}
+            }
+        }
+    },
+    "AbsoluteAltitude": {
+        "sql_dtype": "float",
+        "short_name": "absolute_altitude",
+        "group": "gps",
+        "cleaning_process_ordered": {
+            "1": {
+                "function_name": "to_numeric",
+                "args": {}
+            }
+        }
+    },
+    "DNGVersion": {
+        "sql_dtype": "varchar",
+        "short_name": "dng_version",
+        "group": "postprocessing",
+        "cleaning_process_ordered": {}
+    },
+    "GimbalPitchDegree": {
+        "sql_dtype": "float",
+        "short_name": "gimbal_pitch_degree",
+        "group": "gps",
+        "cleaning_process_ordered": {
+            "1": {
+                "function_name": "to_numeric",
+                "args": {}
+            }
+        }
+    },
+    "GimbalRollDegree": {
+        "sql_dtype": "float",
+        "short_name": "gimbal_roll_degree",
+        "group": "gps",
+        "cleaning_process_ordered": {
+            "1": {
+                "function_name": "to_numeric",
+                "args": {}
+            }
+        }
+    },
+    "GimbalYawDegree": {
+        "sql_dtype": "float",
+        "short_name": "gimbal_yaw_degree",
+        "group": "gps",
+        "cleaning_process_ordered": {
+            "1": {
+                "function_name": "to_numeric",
+                "args": {}
+            }
+        }
+    },
+    "GlobalAltitude": {
+        "sql_dtype": "float",
+        "short_name": "global_altitude",
+        "group": "gps",
+        "cleaning_process_ordered": {
+            "1": {
+                "function_name": "to_numeric",
+                "args": {}
+            }
+        }
+    },
+    "GPSAltitude": {
+        "sql_dtype": "float",
+        "short_name": "gps_altitude",
+        "group": "gps",
+        "cleaning_process_ordered": {
+            "1": {
+                "function_name": "first_item_split_on_space",
+                "args": {}
+            },
+            "2": {
+                "function_name": "to_numeric",
+                "args": {}
+            }
+        }
+    },
+    "GPSAltitudeRef": {
+        "sql_dtype": "varchar",
+        "short_name": "gps_altitude_ref",
+        "group": "gps",
+        "cleaning_process_ordered": {}
+    },
+    "GPSLatitude": {
+        "sql_dtype": "float",
+        "short_name": "gps_latitude",
+        "group": "gps",
+        "cleaning_process_ordered": {
+            "1": {
+                "function_name": "parse_dms_lat",
+                "args": {}
+            }
+        }
+    },
+    "GPSLatitudeRef": {
+        "sql_dtype": "varchar",
+        "short_name": "gps_latitude_ref",
+        "group": "gps",
+        "cleaning_process_ordered": {}
+    },
+    "GPSLongitude": {
+        "sql_dtype": "float",
+        "short_name": "gps_longitude",
+        "group": "gps",
+        "cleaning_process_ordered": {
+            "1": {
+                "function_name": "parse_dms_lng",
+                "args": {}
+            }
+        }
+    },
+    "GPSLongitudeRef": {
+        "sql_dtype": "varchar",
+        "short_name": "gps_longitude_ref",
+        "group": "gps",
+        "cleaning_process_ordered": {}
+    },
+    "GPSPosition": {
+        "sql_dtype": "varchar",
+        "short_name": "gps_position",
+        "group": "gps",
+        "cleaning_process_ordered": {}
+    },
+    "LightValue": {
+        "sql_dtype": "float",
+        "short_name": "light_value",
+        "group": "exposure",
+        "cleaning_process_ordered": {
+            "1": {
+                "function_name": "to_numeric",
+                "args": {}
+            }
+        }
+    },
+    "Blacks2012": {
+        "sql_dtype": "float",
+        "short_name": "blacks2012",
+        "group": "postprocessing",
+        "cleaning_process_ordered": {
+            "1": {
+                "function_name": "to_numeric",
+                "args": {}
+            }
+        }
+    },
+    "Clarity2012": {
+        "sql_dtype": "float",
+        "short_name": "clarity2012",
+        "group": "postprocessing",
+        "cleaning_process_ordered": {
+            "1": {
+                "function_name": "to_numeric",
+                "args": {}
+            }
+        }
+    },
+    "ColorTemperature": {
+        "sql_dtype": "varchar",
+        "short_name": "color_temperature",
+        "group": "postprocessing",
+        "cleaning_process_ordered": {}
+    },
+    "Contrast2012": {
+        "sql_dtype": "float",
+        "short_name": "contrast2012",
+        "group": "postprocessing",
+        "cleaning_process_ordered": {
+            "1": {
+                "function_name": "to_numeric",
+                "args": {}
+            }
+        }
+    },
+    "CropAngle": {
+        "sql_dtype": "float",
+        "short_name": "crop_angle",
+        "group": "postprocessing",
+        "cleaning_process_ordered": {
+            "1": {
+                "function_name": "to_numeric",
+                "args": {}
+            }
+        }
+    },
+    "CropBottom": {
+        "sql_dtype": "float",
+        "short_name": "crop_bottom",
+        "group": "postprocessing",
+        "cleaning_process_ordered": {
+            "1": {
+                "function_name": "first_item_split_on_space",
+                "args": {}
+            },
+            "2": {
+                "function_name": "to_numeric",
+                "args": {}
+            }
+        }
+    },
+    "CropLeft": {
+        "sql_dtype": "float",
+        "short_name": "crop_left",
+        "group": "postprocessing",
+        "cleaning_process_ordered": {
+            "1": {
+                "function_name": "first_item_split_on_space",
+                "args": {}
+            },
+            "2": {
+                "function_name": "to_numeric",
+                "args": {}
+            }
+        }
+    },
+    "CropRight": {
+        "sql_dtype": "float",
+        "short_name": "crop_right",
+        "group": "postprocessing",
+        "cleaning_process_ordered": {
+            "1": {
+                "function_name": "first_item_split_on_space",
+                "args": {}
+            },
+            "2": {
+                "function_name": "to_numeric",
+                "args": {}
+            }
+        }
+    },
+    "CropTop": {
+        "sql_dtype": "float",
+        "short_name": "crop_top",
+        "group": "postprocessing",
+        "cleaning_process_ordered": {
+            "1": {
+                "function_name": "first_item_split_on_space",
+                "args": {}
+            },
+            "2": {
+                "function_name": "to_numeric",
+                "args": {}
+            }
+        }
+    },
+    "Dehaze": {
+        "sql_dtype": "float",
+        "short_name": "dehaze",
+        "group": "postprocessing",
+        "cleaning_process_ordered": {
+            "1": {
+                "function_name": "to_numeric",
+                "args": {}
+            }
+        }
+    },
+    "Exposure2012": {
+        "sql_dtype": "float",
+        "short_name": "exposure2012",
+        "group": "postprocessing",
+        "cleaning_process_ordered": {
+            "1": {
+                "function_name": "to_numeric",
+                "args": {}
+            }
+        }
+    },
+    "HasCrop": {
+        "sql_dtype": "bool",
+        "short_name": "has_crop",
+        "group": "postprocessing",
+        "cleaning_process_ordered": {}
+    },
+    "Highlights2012": {
+        "sql_dtype": "float",
+        "short_name": "highlights2012",
+        "group": "postprocessing",
+        "cleaning_process_ordered": {
+            "1": {
+                "function_name": "to_numeric",
+                "args": {}
+            }
+        }
+    },
+    "HistoryWhen": {
+        "sql_dtype": "varchar",
+        "short_name": "history_when",
+        "group": "postprocessing",
+        "cleaning_process_ordered": {}
+    },
+    "Saturation": {
+        "sql_dtype": "float",
+        "short_name": "saturation",
+        "group": "postprocessing",
+        "cleaning_process_ordered": {
+            "1": {
+                "function_name": "value_map",
+                "args": {"mapping": {"Normal": "None", "Auto": "None", "High": "None", "Medium": "None", "Low": "None"}}
+            },
+            "2": {
+                "function_name": "to_numeric",
+                "args": {}
+            }
+        }
+    },
+    "Shadows2012": {
+        "sql_dtype": "float",
+        "short_name": "shadows2012",
+        "group": "postprocessing",
+        "cleaning_process_ordered": {
+            "1": {
+                "function_name": "to_numeric",
+                "args": {}
+            }
+        }
+    },
+    "SharpenDetail": {
+        "sql_dtype": "float",
+        "short_name": "sharpen_detail",
+        "group": "postprocessing",
+        "cleaning_process_ordered": {
+            "1": {
+                "function_name": "to_numeric",
+                "args": {}
+            }
+        }
+    },
+    "Sharpness": {
+        "sql_dtype": "float",
+        "short_name": "sharpness",
+        "group": "postprocessing",
+        "cleaning_process_ordered": {
+            "1": {
+                "function_name": "first_list_item",
+                "args": {}
+            },
+            "2": {
+                "function_name": "value_map",
+                "args": {"mapping": {"Normal": "None", "Auto": "None", "Hard": "None"}}
+            },
+            "3": {
+                "function_name": "to_numeric",
+                "args": {}
+            }
+        }
+    },
+    "Tint": {
+        "sql_dtype": "float",
+        "short_name": "tint",
+        "group": "postprocessing",
+        "cleaning_process_ordered": {
+            "1": {
+                "function_name": "to_numeric",
+                "args": {}
+            }
+        }
+    },
+    "Title": {
+        "sql_dtype": "varchar",
+        "short_name": "title",
+        "group": "postprocessing",
+        "cleaning_process_ordered": {}
+    },
+    "ToneCurve": {
+        "sql_dtype": "varchar",
+        "short_name": "tone_curve",
+        "group": "postprocessing",
+        "cleaning_process_ordered": {}
+    },
+    "ToneCurveName": {
+        "sql_dtype": "varchar",
+        "short_name": "tone_curve_name",
+        "group": "postprocessing",
+        "cleaning_process_ordered": {}
+    },
+    "Vibrance": {
+        "sql_dtype": "float",
+        "short_name": "vibrance",
+        "group": "postprocessing",
+        "cleaning_process_ordered": {
+            "1": {
+                "function_name": "to_numeric",
+                "args": {}
+            }
+        }
+    },
+    "Whites2012": {
+        "sql_dtype": "float",
+        "short_name": "whites2012",
+        "group": "postprocessing",
+        "cleaning_process_ordered": {
+            "1": {
+                "function_name": "to_numeric",
+                "args": {}
+            }
+        }
+    }
+}

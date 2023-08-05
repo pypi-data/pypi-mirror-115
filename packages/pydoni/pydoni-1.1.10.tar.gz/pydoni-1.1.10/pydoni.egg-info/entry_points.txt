@@ -1,0 +1,3 @@
+[console_scripts]
+pydoni = pydoni.cli_main:main
+

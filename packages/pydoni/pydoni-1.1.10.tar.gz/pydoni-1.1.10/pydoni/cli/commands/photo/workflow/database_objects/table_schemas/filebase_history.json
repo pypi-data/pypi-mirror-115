@@ -1,0 +1,7 @@
+{
+    "fpath": "varchar not null",
+    "ftype": "varchar not null",
+    "fsize": "int not null",
+    "fmod_ts": "timestamp",
+    "logged_ts": "timestamp not null"
+}
