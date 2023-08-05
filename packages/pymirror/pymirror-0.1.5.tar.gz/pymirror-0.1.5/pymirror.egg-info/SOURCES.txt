@@ -1,0 +1,11 @@
+README.md
+setup.py
+pymirror/__init__.py
+pymirror/pymirror.py
+pymirror.egg-info/PKG-INFO
+pymirror.egg-info/SOURCES.txt
+pymirror.egg-info/dependency_links.txt
+pymirror.egg-info/entry_points.txt
+pymirror.egg-info/not-zip-safe
+pymirror.egg-info/requires.txt
+pymirror.egg-info/top_level.txt

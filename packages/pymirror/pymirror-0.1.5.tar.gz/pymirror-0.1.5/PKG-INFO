@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: pymirror
+Version: 0.1.5
+Summary: Upload files to multiple free hosting servers
+Home-page: https://github.com/Alyetama/pymirror
+Author: Alyetama
+License: MIT
+Description: Upload files to multiple free hosting servers
+Keywords: mirror upload files hosting
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
