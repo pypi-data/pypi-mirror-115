@@ -1,0 +1,11 @@
+scikit-learn>=0.23.2
+numpy
+pandas
+tqdm
+lightgbm
+joblib
+Boruta
+scipy
+optuna
+matplotlib
+seaborn
