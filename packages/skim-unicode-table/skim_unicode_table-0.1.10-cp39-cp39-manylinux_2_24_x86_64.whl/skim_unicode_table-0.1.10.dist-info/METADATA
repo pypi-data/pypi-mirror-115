@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: skim-unicode-table
+Version: 0.1.10
+Summary: Interactive fuzzy-searchable unicode table using lotabout/skim
+Home-page: https://github.com/smheidrich/skim-unicode-table
+Author: Shahriar Heidrich
+Author-email: smheidrich@weltenfunktion.de
+License: UNKNOWN
+Keywords: unicode,table,interactive,character,fuzzy
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+Requires-Dist: cairocffi
+Requires-Dist: pangocairocffi
+
+# skim-unicode-table
+
+Interactive fuzzy-searchable Unicode table using [lotabout's skim][1].
+
+Can be used to quickly search for a character and copy it to the clipboard.
+
+
+## Demo video
+
+TODO
+
+
+## Installation
+
+**NOTE:** If prebuilt wheels are not available for your operating system,
+installation will take a long time and use a lot of space because it has to
+compile skim from scratch.
+
+```bash
+pip install skim-unicode-table
+```
+
+If you want enlarged character previews like in the demo video above to work,
+you'll also have to install [atanunq's viu][2] and make sure it can be found
+from `PATH`.
+
+
+[1]: https://github.com/lotabout/skim "lotabout/skim on GitHub"
+[2]: https://github.com/atanunq/viu "atanunq/viu on GitHub"
+
+
