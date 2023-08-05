@@ -1,0 +1,7 @@
+README.md
+setup.py
+src/dastruct.py
+src/dastruct.egg-info/PKG-INFO
+src/dastruct.egg-info/SOURCES.txt
+src/dastruct.egg-info/dependency_links.txt
+src/dastruct.egg-info/top_level.txt

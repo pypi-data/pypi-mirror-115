@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: dastruct
+Version: 0.0.1
+Summary: This package is a converter of different data structure we use. i.e. list, tuple, sets, collection etc to each other
+Home-page: UNKNOWN
+Author: Amun Timilsina
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: Data structure converter,tuple to list
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9.5
+Description-Content-Type: text/markdown
