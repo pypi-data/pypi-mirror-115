@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: datadog-custom-logger
+Version: 0.1.0
+Summary: Logger Tool for Datadog logs monitoring
+Home-page: https://github.com/meet86/datadog-custom-logger
+Author: Meet Vasani
+Author-email: meet.vasani86@gmail.com
+License: UNKNOWN
+Description: # Datadog Custom Logger
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
