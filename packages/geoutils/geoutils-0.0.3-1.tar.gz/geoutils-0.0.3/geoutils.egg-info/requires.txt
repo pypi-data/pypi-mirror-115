@@ -1,0 +1,7 @@
+rasterio
+geopandas
+pyproj
+scipy
+
+[rioxarray]
+rioxarray

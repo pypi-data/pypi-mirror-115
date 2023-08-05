@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: geoutils
+Version: 0.0.3
+Summary: Tools for working with geospatial data
+Home-page: https://www.github.com/GlacioHack/geoutils/
+Author: The GlacioHack Team
+License: BSD-3
+Platform: UNKNOWN
+Provides-Extra: rioxarray
+License-File: LICENSE
+
+UNKNOWN
+
