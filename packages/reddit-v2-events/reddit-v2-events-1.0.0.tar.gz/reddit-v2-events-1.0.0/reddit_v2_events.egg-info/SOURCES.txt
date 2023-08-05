@@ -1,0 +1,5 @@
+setup.py
+reddit_v2_events.egg-info/PKG-INFO
+reddit_v2_events.egg-info/SOURCES.txt
+reddit_v2_events.egg-info/dependency_links.txt
+reddit_v2_events.egg-info/top_level.txt
