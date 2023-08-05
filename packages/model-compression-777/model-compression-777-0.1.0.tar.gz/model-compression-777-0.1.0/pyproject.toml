@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "model-compression-777"
+version = "0.1.0"
+description = "Pre-pruned pytorch model compression toolkit"
+authors = ["Richard Yan <yrh@berkeley.edu>"]
+license = "Proprietary"
+packages = [
+    { include = "model_compression", from = "src" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+numpy = "^1.21.1"
+pytorch = "^1.0.2"
+
+[tool.poetry.dev-dependencies]
+pytorch = "^1.0.2"
+numpy = "^1.21.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
