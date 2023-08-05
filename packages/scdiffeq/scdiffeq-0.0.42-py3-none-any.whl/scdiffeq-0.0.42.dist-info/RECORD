@@ -1,0 +1,14 @@
+scdiffeq/__init__.py,sha256=xLhLGtMzjFP_RQTbaZpaLVeJmc2TC86KozIoGz88UJw,238
+scdiffeq/data/__init__.py,sha256=F42B9VS-m_QCLglnYCdflhHbTSIcA7LKBu1Ze3rwZk8,363
+scdiffeq/data/_data_loader_utils.py,sha256=P4rzzZEK9b1Z-WTvphJFLVfGMo5vNIASkTqe5ILrFsI,4281
+scdiffeq/data/generate_initial_conditions.py,sha256=bKgW6aGeNd1Ah2SOjVWDHnfPIuYLBeOQiP0bEeMGYNk,649
+scdiffeq/data/load_EMT_simulation.py,sha256=GaASU1-xb7UUC3aJfPUUwT5KzyblCcS_IR8dCXdmQcM,838
+scdiffeq/data/load_LARRY.py,sha256=DiBqrP4wO5eeVH0_w-TAr2Y3FgkdXvh_5h958rBEzP4,771
+scdiffeq/data/simulate_trajectories.py,sha256=iyr42jtsFsZlXGdpramt7CpllYG2mZL6qOCdTDK_hh8,3199
+scdiffeq/plotting/__init__.py,sha256=XSkyQU7pOR-6v1LGtex9IW171d-4qoo2gQRvEfThI8A,136
+scdiffeq/tools/__init__.py,sha256=0fCbqXsJD9T28TnbCD8p3oWeHPMlUKuSNCm6wmyhJ4I,639
+scdiffeq/utilities/__init__.py,sha256=R5nFR7aaog34KXJE8lrwUdGD6byC3_sCoNGtaf1jqb8,1791
+scdiffeq-0.0.42.dist-info/METADATA,sha256=w3AroRm0gA1vCPMhthgX9DQQVTXZArPyLmAxEgqmq8A,933
+scdiffeq-0.0.42.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+scdiffeq-0.0.42.dist-info/top_level.txt,sha256=Am61V7OjsrlJlfeB3JXT8q2w1KYT4QCjfIiTI_qn4IM,9
+scdiffeq-0.0.42.dist-info/RECORD,,
