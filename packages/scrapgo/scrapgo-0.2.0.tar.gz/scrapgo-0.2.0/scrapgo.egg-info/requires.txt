@@ -1,0 +1,8 @@
+requests
+requests-cache
+fake-useragent
+bs4
+
+[dev]
+
+[test]
