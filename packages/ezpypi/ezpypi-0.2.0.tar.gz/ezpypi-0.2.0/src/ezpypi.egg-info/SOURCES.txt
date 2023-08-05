@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+doc/EzPyPI_Git_flow.svg
+doc/README.md
+src/ezpypi/__init__.py
+src/ezpypi.egg-info/PKG-INFO
+src/ezpypi.egg-info/SOURCES.txt
+src/ezpypi.egg-info/dependency_links.txt
+src/ezpypi.egg-info/not-zip-safe
+src/ezpypi.egg-info/requires.txt
+src/ezpypi.egg-info/top_level.txt
+src/ezpypi/core/__init__.py
+src/ezpypi/core/main.py

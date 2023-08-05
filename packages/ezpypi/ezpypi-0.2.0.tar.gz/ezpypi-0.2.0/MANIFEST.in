@@ -1,0 +1,20 @@
+include MANIFEST.in
+include LICENSE
+
+# Top-level build script
+include setup.cfg
+include pyproject.toml
+
+# All source files
+recursive-include ezpypi *
+
+# All documentation
+recursive-include doc *
+include README.md
+
+# Add build and testing tools
+
+# Exclude what we don't want to include
+prune */venv
+prune */__pycache__
+global-exclude *.pyc *~ *.bak *.swp *.pyo *.json
