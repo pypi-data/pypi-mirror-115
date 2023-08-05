@@ -1,0 +1,10 @@
+cst_geometry/.DS_Store,sha256=hkGUk8Y416HyJ0to4OtfZLQSWgO8binxjvTnNGXwjC8,6148
+cst_geometry/__init__.py,sha256=wd-SfaZNqt6wtOkp1v7YhC0NcntZRX7ZkeemTlwloWg,170
+cst_geometry/_script.py,sha256=u83DvaRsmM8LsCwmcQwEDaWNPEvxHDVslTazs0JBXW4,6018
+cst_geometry/basic_script/script.bas,sha256=tlyUfvOZymaupeVWGrYXs02Eu-KmFP33z20X7oKUxx4,5192
+cst_geometry/geometry.py,sha256=gHE35T8QK1Tr-5Vd4vSmg2RLw3T9qT3Xmvpzca4qlBk,1625
+cst_geometry/simple_geometries.py,sha256=AWWsczJhPeTA9X3naXJpT3OHgua3UicPAnF0Jx0rBO0,2064
+cst_geometry-0.0.10.dist-info/LICENSE,sha256=5T9zLszEB6ZtzaZ9AG6__crXo7E1wLVH9_JLRnCDGXg,1067
+cst_geometry-0.0.10.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+cst_geometry-0.0.10.dist-info/METADATA,sha256=ES6NfVtQww1pgW4AEMQg-kdV5fr38Eeux5RhuzCS6ZM,493
+cst_geometry-0.0.10.dist-info/RECORD,,
