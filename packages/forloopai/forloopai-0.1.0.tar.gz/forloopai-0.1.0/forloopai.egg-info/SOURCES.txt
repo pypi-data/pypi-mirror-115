@@ -1,0 +1,8 @@
+README.md
+setup.py
+forloopai/__init__.py
+forloopai/forloop_core.py
+forloopai.egg-info/PKG-INFO
+forloopai.egg-info/SOURCES.txt
+forloopai.egg-info/dependency_links.txt
+forloopai.egg-info/top_level.txt
