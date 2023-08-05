@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: django_abstractions
+Version: 0.0.13
+Summary: Django abstractions. Bicycles out of the box.
+Home-page: https://github.com/riros/django_abstractions
+Author: Ivan Valenkov (Riros)
+Author-email: ivanvalenkov@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# django-abstractions
+Bicycles out of the box.
+
+
