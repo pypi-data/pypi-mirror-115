@@ -1,0 +1,8 @@
+scikit-learn
+tensorflow
+rasterio
+rasterstats
+fiona
+geopandas
+pyarrow
+psutil
