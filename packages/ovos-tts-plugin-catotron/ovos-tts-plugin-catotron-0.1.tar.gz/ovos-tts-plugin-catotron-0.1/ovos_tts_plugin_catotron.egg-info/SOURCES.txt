@@ -1,0 +1,9 @@
+setup.py
+ovos_tts_plugin_catotron/__init__.py
+ovos_tts_plugin_catotron.egg-info/PKG-INFO
+ovos_tts_plugin_catotron.egg-info/SOURCES.txt
+ovos_tts_plugin_catotron.egg-info/dependency_links.txt
+ovos_tts_plugin_catotron.egg-info/entry_points.txt
+ovos_tts_plugin_catotron.egg-info/requires.txt
+ovos_tts_plugin_catotron.egg-info/top_level.txt
+ovos_tts_plugin_catotron.egg-info/zip-safe
