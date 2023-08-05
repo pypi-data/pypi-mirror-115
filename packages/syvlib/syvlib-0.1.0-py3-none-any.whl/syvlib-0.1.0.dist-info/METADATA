@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: syvlib
+Version: 0.1.0
+Summary: Array codec and API wrapper for SYV server
+Home-page: https://bitbucket.org/Thomas_Ash/syvlib/
+Author: Thomas Ash
+Author-email: syv.development@protonmail.com
+License: GPL
+Platform: UNKNOWN
+License-File: LICENSE.md
+Requires-Dist: numpy
+
+UNKNOWN
+
