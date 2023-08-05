@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: tweet-preprocesser
+Version: 0.0.1
+Summary: tweet preprocesser
+Home-page: https://github.com/onyanko-pon/tweet_preprocesser
+Author: onyanko-pon
+Author-email: engineer.tsukasa@gmail.com
+License: MIT
+Keywords: twitter,tweet
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+Requires-Dist: pytest
+Requires-Dist: wheel
+Requires-Dist: twine
+
+## tweet preprocesser
+
+
