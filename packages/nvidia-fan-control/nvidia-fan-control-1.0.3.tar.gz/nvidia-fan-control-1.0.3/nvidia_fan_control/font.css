@@ -1,0 +1,10 @@
+* {
+    font-family: Arial, Ubuntu Mono, monospace;
+    font-size: 14px;
+}
+
+label#main_panel {
+    font-family: Ubuntu Mono, monospace;
+    font-size: 15px;
+    padding-top: 10px;
+}
