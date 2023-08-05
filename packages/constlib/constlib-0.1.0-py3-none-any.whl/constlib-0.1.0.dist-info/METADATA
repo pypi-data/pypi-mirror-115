@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: constlib
+Version: 0.1.0
+Summary: A powerful constant library for scientific computing with Python.
+Home-page: https://github.com/0Micfong0/constlib
+Author: Micfong
+Author-email: micfong2@outlook.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Constlib
+
+Constlib is a powerful constant library for scientific computing with Python.
+
+It provides
+
+* 65 mathematical constants
+* 37 physical constants
+* 148 HTML named colors
+
+---
+###### This program is under Apache License 2.0
+
+
+
+
