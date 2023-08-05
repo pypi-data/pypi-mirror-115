@@ -1,0 +1,4 @@
+[plover.command]
+py = plover_run_py:py_command
+py_f = plover_run_py:py_command_file
+
