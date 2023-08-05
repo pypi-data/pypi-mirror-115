@@ -1,0 +1,3 @@
+[console_scripts]
+sdf-wot-converter = converter:main
+
