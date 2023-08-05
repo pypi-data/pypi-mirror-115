@@ -1,0 +1,17 @@
+pyDBA/Conf.py,sha256=g3cfDYC33ctIu9R9lse2e6ib3WqPMX6t-OswFft3Kcc,165
+pyDBA/DBAccess.py,sha256=PXYKI2eGurWQyxuRHzJJGWENQucTjLwC7udFQ4wQoIo,369
+pyDBA/Model.py,sha256=6FIUWTUEuWKSsJZrxDYzkhN_2eO_yGBqLku3W9PVmDI,4125
+pyDBA/Nidus.py,sha256=na09TaKWe_ldbqRA2nMRc6xODA8E-jOYnM1sR0dAknA,639
+pyDBA/Report.py,sha256=vQnekkTuqYpEh5_3axzyYl-6cN4JaBgPU8w_VXatLNs,218
+pyDBA/Role.py,sha256=LjIGtKYVgOAILEswfzRYPQKyy-99e-dvl2TLKIBJBUc,124
+pyDBA/Series.py,sha256=z3T9vdLb-I589vLTfGlvDAui-2ImNF449gr9fQYEZI0,1606
+pyDBA/User.py,sha256=v7IKzTKQ5JRzCtXAceR8iXlkMF6FHb8j2BKwscMGyN0,874
+pyDBA/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyDBA/mongoEng.py,sha256=zBcKN1imPn0yhrbj8YIAxZmL-62T4F5ZJwPvh9gzDag,1827
+pyDBA/pymongoTest.py,sha256=otctpt7YiNyXhN-m29R8PKDCM6yjt2M8bIdgNeO5row,815
+pyDBA/test2.py,sha256=4M6y5UlBmGlifsxaLISwdz-j083Y7drvM0JEUoGyg1Y,2375
+pyDBA/utils.py,sha256=5ieGdFXAFnbPm9nYjEfkDQ_qs-hToP8lcyXnOU4VXWo,898
+bcm_db_opt-0.1.0.dist-info/METADATA,sha256=SF-hs5DRfDEPABd7IZB1RBqhnsoGiORpuYNxYKpuaow,341
+bcm_db_opt-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+bcm_db_opt-0.1.0.dist-info/top_level.txt,sha256=4_RkhZSW1_GU5Kd7vM1S7D-LAi5xphYjJ9b_Gdm3MG8,6
+bcm_db_opt-0.1.0.dist-info/RECORD,,

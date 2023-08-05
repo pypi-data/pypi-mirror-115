@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: bcm-db-opt
+Version: 0.1.0
+Summary: Ai-BCM DB operation interface
+Home-page: UNKNOWN
+Author: bcm
+License: MIT Licence
+Keywords: pip,okta,cli,cmd,steven
+Platform: any
+Requires-Python: >=3.5.0
+Description-Content-Type: text/markdown
+Requires-Dist: pymongo
+Requires-Dist: mongoengine
+
+Ai-BCM DB operation interface
+
+
