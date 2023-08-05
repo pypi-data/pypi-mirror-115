@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: vslogging
+Version: 0.1.4
+Summary: Very Simple Logging
+Home-page: UNKNOWN
+Author: Jason Smith
+Author-email: UNKNOWN
+License: MIT
+Description: Very Simple Logging sets up console and file logging automatically
+Platform: UNKNOWN
