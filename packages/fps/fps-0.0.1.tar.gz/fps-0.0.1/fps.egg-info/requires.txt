@@ -1,0 +1,4 @@
+fastapi
+typer
+uvicorn
+pluggy~=1.0.0.dev0
