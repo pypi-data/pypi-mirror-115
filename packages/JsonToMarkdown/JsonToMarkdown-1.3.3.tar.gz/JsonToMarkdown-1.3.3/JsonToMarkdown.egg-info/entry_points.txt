@@ -1,0 +1,4 @@
+[console_scripts]
+jsontomd = JsonToMarkdown.main:main
+jsontoobs = JsonToMarkdown.json_to_obs:main
+
