@@ -1,0 +1,10 @@
+potrace/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+potrace/__main__.py,sha256=9OwHpAzd8_cictjI6I5VeIzWA7TXGTxzgGFQpXs5eOk,2096
+potrace/common.py,sha256=OU1NkwuKvJTSxK_GVOrfn0jiR8DBIl6b7Cqf2eStgsI,2718
+potrace/io.py,sha256=D7ARjuijg6wC1jTlsdl1cfPOU4e2B2eddcw2UqXMd6o,3255
+potrace/potrace.py,sha256=yyAWDdKNkd5g3yla8DY8tGhsxhDe0MvfkKd6uhHCaKU,27207
+potrace_py-0.0.1.dist-info/LICENSE.txt,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+potrace_py-0.0.1.dist-info/METADATA,sha256=-ODIg6uUzwvz_PCXUuqVHJ_miiCTU4JPn5IhpNJqsBs,559
+potrace_py-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+potrace_py-0.0.1.dist-info/top_level.txt,sha256=tyx8cXLtl19MrFeqf-EOnU5ZNn4Y7eyrF7rj-kk314Q,8
+potrace_py-0.0.1.dist-info/RECORD,,
