@@ -1,0 +1,12 @@
+README.md
+setup.py
+calcx/__init__.py
+calcx/_version.py
+calcx/calcx.py
+calcx/perf_attrib.py
+calcx/periods.py
+calcx.egg-info/PKG-INFO
+calcx.egg-info/SOURCES.txt
+calcx.egg-info/dependency_links.txt
+calcx.egg-info/requires.txt
+calcx.egg-info/top_level.txt
