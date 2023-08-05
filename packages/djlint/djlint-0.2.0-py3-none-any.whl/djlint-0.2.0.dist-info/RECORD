@@ -1,0 +1,16 @@
+djlint/__init__.py,sha256=7vMqjX7Ca_JiW6UHIAfvP1MtDJrwt0C5qq1BQJxS50w,7998
+djlint/__main__.py,sha256=AZgAzxxGDtuCXlsQrTYeQMreRoGCtPR1gDOWcCERnhI,78
+djlint/lint.py,sha256=TMO2Cfv9r8HpMs8Ywbjnz8EzL1YCSL4Aw38wKhh4Ak4,2001
+djlint/reformat.py,sha256=PJZDnUw0gUINqiiJrp2f3Y57vrMmT638OHnLKJ4QciY,1269
+djlint/rules.yaml,sha256=ZpGSw21ERARwSr9893WCpTKcqUnt41Z4zGwjuyUEJ4s,3251
+djlint/settings.py,sha256=jl5LKCQGfrmzN-jP7_gj8ed039U2z3fZsOTtk7wWuh8,4706
+djlint/formatter/__init__.py,sha256=NUtMrHcGtWLojCx-t65a4oRO9wtZRD4XlcvUNiMzdYM,14
+djlint/formatter/compress_html.py,sha256=fVGRu2R20fXycgP9_RlkJ4PJyBJwa4Ed-Jcqj4OObSo,3175
+djlint/formatter/expand_html.py,sha256=2stKz-SAt5_BKzBCFc3GHijSzszFoNWxdiDYGmfvcE0,4714
+djlint/formatter/indent_html.py,sha256=OiF-gAoc0-_CY91pWPCjITsaQVZdtfrwcFn_qH2IvE0,5286
+djlint-0.2.0.dist-info/LICENSE,sha256=M7wm1EmMGDtwPRdg7kW4d00h1uAXjKOT3HFScYQMeiE,34916
+djlint-0.2.0.dist-info/METADATA,sha256=XvrBTZKNVd5fEB9mvdciUA1lsLqDBtWrgqxy45zpxN8,3327
+djlint-0.2.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+djlint-0.2.0.dist-info/entry_points.txt,sha256=CDISJVSDBeiHaRbPcBV1CrA5a0ubkyPLgNt89U9vyt8,40
+djlint-0.2.0.dist-info/top_level.txt,sha256=lQYDIcTNWWsZhJpfH2MwiTnQlm0t-d89iNlsvViweOA,7
+djlint-0.2.0.dist-info/RECORD,,
