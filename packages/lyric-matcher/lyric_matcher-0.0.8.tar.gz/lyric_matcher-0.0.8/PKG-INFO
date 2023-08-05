@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: lyric_matcher
+Version: 0.0.8
+Summary: README.md
+Home-page: UNKNOWN
+Author: hanhaodi zhang, zhaoyang bu
+Author-email: 1004591463@qq.com
+License: UNKNOWN
+Description: # Lyrics Matcher
+        
+        ## Overview
+        
+        Lyrics Matcher is for getting the timestamp of the beginning of each lyric section.
+        
+        ## Installation
+        
+        ```sh
+        $ pip install lyric_matcher
+        ```
+        
+        ## Usage
+        
+        ```python
+        >>> from lyricsmatcher import lyrics_matcher
+        >>> t = lyrics_matcher.lyrics_matcher('YRMU.txt','YRMUwithTime.txt')
+        >>> print(t)
+        
+        """
+        ['[00:14.59]', '[00:45.75]', '[01:59.28]', '[03:01.19]', '[04:07.14]']
+        """
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
