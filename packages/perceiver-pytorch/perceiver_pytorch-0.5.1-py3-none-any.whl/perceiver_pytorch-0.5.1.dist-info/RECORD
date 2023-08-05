@@ -1,0 +1,11 @@
+perceiver_pytorch/__init__.py,sha256=bdD7nQ8FZuXr9o6PFM2jxdkX6HKVBVXrZh_hGN51p3o,126
+perceiver_pytorch/experimental.py,sha256=iNJg0WY9gd9mRaB3X8eieXpQN-j4dXN5hqEaOj1F_CY,5590
+perceiver_pytorch/gated.py,sha256=dk60cQhJuu-ZNfFZbvN8TcOADJMLu4e9JRtWuzmlAOc,4255
+perceiver_pytorch/mixed_latents.py,sha256=0Jlarjp6NN-IJaT_S5MH8vpdD4VOPkr-MJCNtsqY5PE,3691
+perceiver_pytorch/perceiver_io.py,sha256=_TWjoxlNrfEDAKNnAyXko1tykRB6ePiC6nd2LaDwotY,6473
+perceiver_pytorch/perceiver_pytorch.py,sha256=EhuAtZVJ4v347PWvPP1JyVFBGdk0Lp3MztdpY5iQ1gw,8804
+perceiver_pytorch-0.5.1.dist-info/LICENSE,sha256=_nRlQFj-K6BpgI2_Nt79biB7r4hZ82NmpqPOrlqm7MU,1066
+perceiver_pytorch-0.5.1.dist-info/METADATA,sha256=lR_ZlXIp_ubNBJRCFBZDHvRQCD2UOhwmu3JtD4WkfYg,642
+perceiver_pytorch-0.5.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+perceiver_pytorch-0.5.1.dist-info/top_level.txt,sha256=_jrhV533qLq7O_b38gWUGtan-SWc--Tu2dZ95pbVYTY,18
+perceiver_pytorch-0.5.1.dist-info/RECORD,,
