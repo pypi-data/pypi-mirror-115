@@ -1,0 +1,14 @@
+xbrl/__init__.py,sha256=nKgU20OmGD1tAju6ugI1t8ITEvOcaKsQ_qllspK1dpc,2701
+xbrl/cache.py,sha256=jGGJ9WYC8p8mDdllgD190IOpf_pOm43WsDA-uffI1Jo,6616
+xbrl/instance.py,sha256=ISSXsS42Yu073kVxc_T2Dj1-JEMl1zube4zFZ5R9MVE,29874
+xbrl/linkbase.py,sha256=UtZEqZ_y_mEALUwHUdJ3PXvYTtqO7cn_rB-kAJtKOJg,27386
+xbrl/taxonomy.py,sha256=dkOO0cUf4RvpxGrz97ly2ddbF_U6lerhWbl1k0FB7vY,17958
+xbrl/helper/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xbrl/helper/connection_manager.py,sha256=GhDEce1jj1XhYAe2vQQheP_xumosLeWE6di53cGly8A,2379
+xbrl/helper/uri_helper.py,sha256=yGc00XtCms67TFestA_u8Z3ffqgoSEw2hCj_eBzkhms,2753
+xbrl/helper/xml_parser.py,sha256=HRwToWXUx0k7afPfDUjDlgY4d3d7yqCesjEkP5puyQU,870
+py_xbrl-2.0.7.dist-info/LICENSE,sha256=gcuuhKKc5-dwvyvHsXjlC9oM6N5gZ6umYbC8ewW1Yvg,35821
+py_xbrl-2.0.7.dist-info/METADATA,sha256=mYkNOVbd-Mjoq4IvbRXhQwsc6CeV5p_0P3UwYsnLOjY,8432
+py_xbrl-2.0.7.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+py_xbrl-2.0.7.dist-info/top_level.txt,sha256=llBe0HskYqZQcLph1ru5I8voSOuyDixfUKhuj7veBY8,5
+py_xbrl-2.0.7.dist-info/RECORD,,
