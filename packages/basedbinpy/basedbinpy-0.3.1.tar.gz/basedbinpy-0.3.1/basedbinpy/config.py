@@ -1,0 +1,1 @@
+ALLOWED_MEDIA_TYPES = ["text", "image"]

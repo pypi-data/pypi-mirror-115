@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+basedbinpy/__init__.py
+basedbinpy/client.py
+basedbinpy/config.py
+basedbinpy/exceptions.py
+basedbinpy.egg-info/PKG-INFO
+basedbinpy.egg-info/SOURCES.txt
+basedbinpy.egg-info/dependency_links.txt
+basedbinpy.egg-info/requires.txt
+basedbinpy.egg-info/top_level.txt

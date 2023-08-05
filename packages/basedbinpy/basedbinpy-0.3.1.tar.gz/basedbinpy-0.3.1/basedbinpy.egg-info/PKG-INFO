@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: basedbinpy
+Version: 0.3.1
+Summary: Simple python library for basedbin pastebin-like service.
+Home-page: https://github.com/samedamci/basedbinpy
+Author: samedamci
+Author-email: samedamci@disroot.org
+License: UNKNOWN
+Project-URL: Source, https://github.com/samedamci/basedbinpy
+Project-URL: Tracker, https://github.com/samedamci/basedbinpy/issues
+Keywords: basedbin library api client
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: ISC License (ISCL)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Utilities
+Classifier: Typing :: Typed
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# basedbinpy
+
+Simple python library for [basedbin](https://github.com/samedamci/basedbinpy) pastebin-like service.
+
+## Installing
+
+```shell
+$ python3 -m pip install basedbinpy
+```
+
+## Usage demo
+
+```python
+from basedbinpy import Client
+
+client = Client(BASEDBIN_URL)  # example: "http://localhost:8080"
+
+paste = client.get_paste(PASTE_ID)
+
+print(paste["file_content"])
+```
+
