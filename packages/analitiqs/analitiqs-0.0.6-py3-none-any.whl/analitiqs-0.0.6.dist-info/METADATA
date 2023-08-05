@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: analitiqs
+Version: 0.0.6
+Summary: etl package for pyspark
+Home-page: https://github.com/AnalitiQsBV/analitiqs.python
+Author: John Martens
+Author-email: john.martens@analitiqs.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: pyspark (>=3.0.0)
+
+AnalitiQs
+Transform dataframes.
+
