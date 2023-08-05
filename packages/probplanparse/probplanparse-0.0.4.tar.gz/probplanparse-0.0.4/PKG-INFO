@@ -1,0 +1,12 @@
+Metadata-Version: 1.0
+Name: probplanparse
+Version: 0.0.4
+Summary: Parse report from prob plan in ext planner
+Home-page: UNKNOWN
+Author: Tomo Bessho
+Author-email: tomobessho018@gmail.com
+License: UNKNOWN
+Description: # PR Result 
+         A small library that parses through the report.txt file and converts to a `user-dict` made up of Hypothesis objects. This will use report.txt files from the `external-project`. 
+         Use `pip install pr-result` to install package.
+Platform: UNKNOWN
