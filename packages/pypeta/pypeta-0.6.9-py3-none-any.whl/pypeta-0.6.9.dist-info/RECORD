@@ -1,0 +1,11 @@
+pypeta/__init__.py,sha256=dJD5GBItjMP2XWo2cqxlVSphSon5B3atahZ5AyMF3Cg,94
+pypeta/getstudyid.py,sha256=ZrwFdt8Hb68JbXobIykf1RcXuLlVWn9nz0EASsbmZcY,284
+pypeta/gettoken.py,sha256=Z0kK75CInBfqjGuF43REn0zcw0cbg8k6QNnPvX9rVwM,158
+pypeta/hgvs_variant.py,sha256=KSGk2O6kq8AAOiB0kzbUIjLHtNGL8sE0JnVWkNyJidE,54520
+pypeta/pypeta.py,sha256=2lbCfHkVsCJmMJ8LSOu1JgmhprdHKKNTlBgjXJeU5NU,10643
+pypeta/utils.py,sha256=Nn9In9Iict9cU0iTBi-qMLdYV10LUi3bAFXHuURtSn0,9156
+pypeta-0.6.9.dist-info/LICENSE,sha256=TmXJOdcsaTharxwxGV_orNT4u2L11BOQHqOFu1cnd_E,1066
+pypeta-0.6.9.dist-info/METADATA,sha256=hTVXoBk_jJEDRjPiAHgYy9uN4xAdZEzUpOjEaDWfRog,1720
+pypeta-0.6.9.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pypeta-0.6.9.dist-info/top_level.txt,sha256=urc_P7UhqOlga1UXi8QjjTWm_OZykijZofHB9gnOCLg,7
+pypeta-0.6.9.dist-info/RECORD,,
