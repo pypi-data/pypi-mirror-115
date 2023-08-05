@@ -1,0 +1,1487 @@
+/////////////////////////////////////////////////////////////////////////////
+// This C file has been created automatically. Do not edit!!!
+/////////////////////////////////////////////////////////////////////////////
+
+/** @file gen_leech.c
+The functions in file ``gen_leech.c`` implement operations on the
+vectors of the Leech lattice modulo 2 and modulo 3  and on the
+subgroup \f$Q_{x0}\f$. We use the terminology defined in
+the document *The C interface of the mmgroup project*, 
+section *Description of the mmgroup.generators extension*.
+*/
+
+
+/*************************************************************************
+** External references 
+*************************************************************************/
+
+/// @cond DO_NOT_DOCUMENT 
+#include <string.h>
+#include "mat24_functions.h"
+#define MMGROUP_GENERATORS_INTERN
+#include "mmgroup_generators.h"
+/// @endcond 
+
+
+
+
+// %%EXPORT_KWD MAT24_API
+
+
+// %%GEN ch
+#ifdef __cplusplus
+extern "C" {
+#endif
+// %%GEN c
+
+
+// %%GEN h
+// %%GEN c
+
+
+
+/*************************************************************************
+*** Subtype of a vector in the Leech lattice mod 2
+*************************************************************************/
+
+//  %%GEN h
+//  %%GEN c
+
+
+/**
+  @brief Return subtype of vector in Leech lattice mod 2
+
+  The function returns the subtype of the vector \f$v_2\f$
+  in the Leech lattice modulo 2 as a BCD-coded two-digit
+  integer. \f$v_2\f$ must be given in Leech lattice encoding.
+  
+  The subtype of a vector in the Leech lattice mod 2 is 
+  defined in **The mmgroup guide for developers**, 
+  section **Computations in the Leech lattice modulo 2**.
+*/
+// %%EXPORT px
+MAT24_API
+uint32_t gen_leech2_type(uint64_t v2)
+// Return ``0x10 * type(v2) + subtype(v2)`` for a vector ``x``
+// in the Leech lattice modulo ``2``.
+// The type of a vector is half the length of the shortest 
+// representative of a vector in the Leech lattice.
+// The subtype decsribes the double coset of the vector in
+// in ``N_x \ Co_1 / N_x``, where ``Co``_1 is the automorphism 
+// group of the Leech lattice modulo ``2``, and ``N_x`` is the 
+// automorphism group of a vector ``(2,...,2)`` in the standard 
+// basis of the Leech lattice modulo ``N_x`` has structure 
+// ``2^11. Mat_24``, with ``Mat_24`` the Mathieu group operating
+// on 24 elements.
+//
+// In :cite`:`Con85` a vector in the Leech lattice is
+// denotes by ``x_d * x_delta``, where ``d`` is an element of
+// the Golay code and ``delta`` is an element of it cocode. 
+// Subtypes can be described as follows:
+//
+// 0: The set contains an element with ``delta = 0``
+// 1: ``delta`` has weight ``1`` for all elements in the set.
+// 2: ``d`` or its complement is an octad and ``delta`` is
+//     even and contained in that octad.
+// 3: ``delta`` has weight ``1`` for all elements in the set.  
+// 4: ``d`` or its complement is an octad and ``delta`` is
+//     even and not contained in that octad.
+// 6: ``d`` has weight 12
+// 8: The singleton containing ``(2,...,2)`` 
+//
+// Valid combinations of type and subtype (hex) are
+//
+// 00,   20, 21, 22,   31, 33, 34, 36,  
+// 40, 42, 43, 44, 46, 48.
+{
+    static uint8_t tab_odd[4] = {
+        0x21, 0x31, 0x43, 0x33
+    };
+    static uint8_t tab_even_scalar1[7] = {
+        0xff, 0xff, 0x34, 0x36, 0x34, 0xff, 0xff
+    };
+    uint_fast32_t  x1, gcodev, cocodev, theta, w, cw,scalar, lsb;
+    x1 = (uint_fast32_t)v2;
+    theta = MAT24_THETA_TABLE[(x1 >> 12) & 0x7ff]; 
+    // put cw = min weight of cocode word
+    cw = mat24_cocode_weight(x1 ^ theta);
+    // Put scalar = scalar product (code, cocode)
+    scalar = (x1 >> 12) &  x1 & 0xfff;
+    scalar ^= scalar >> 6;
+    scalar ^= scalar >> 3;
+    scalar = (0x96 >> (scalar & 7)) & 1;
+    
+    // Deal with odd cocode first
+    if (x1 & 0x800) return tab_odd[cw-1+scalar]; 
+    
+    // Put w = weight(code word gcodev) / 4
+    w = 0 - ((x1 >> 23) & 1);
+    w = (((theta >> 12) & 7) ^ w) + (w & 7);  
+
+    // Deal with even cocode and scalar == 1
+    if (scalar) return tab_even_scalar1[w];
+   
+    switch (w) {
+        case 6:
+            if (cw == 0) return 0x48;
+        case 0: 
+            return cw << 4;
+        case 3:
+            return 0x46;
+        case 4:
+            // Add 1....1 to bit vector x (in vector rep)
+            x1 ^= 0x800000; 
+        default:   // This must be case 2:
+            // Put gcodev = codeword (in vector rep)
+            gcodev = mat24_gcode_to_vect(x1 >> 12); 
+            // Put coccodev = cocode word (in vector rep), such that
+            // the cocode word is a suboctad of gcodev if possible
+            lsb = mat24_def_lsbit24(gcodev);
+            cocodev = mat24_cocode_syndrome(x1 ^ theta, lsb); 
+            // Put cw = 0x22 if (w ^ cw) & 2 is 2, else put cw = 0x42
+            cw = 0x42 - (((w ^ cw) & 2) << 4);
+            // Return cw if cocodev is a suboctad of gcodev
+            if ((gcodev & cocodev) == cocodev) return cw;
+            // Otherwise vector is of type 44
+            return 0x44;          
+    }
+}
+
+
+/**
+  @brief Check vector in Leech lattice mod 2 is of type 2
+
+  This function returns 1 if the vector \f$v_2\f$ in the Leech 
+  lattice modulo 2 is of type 2 and 0 otherwise.
+
+  It is much faster than function ``gen_leech2_type()``.
+  
+*/
+// %%EXPORT px
+MAT24_API
+uint32_t gen_leech2_is_type2(uint64_t v2)
+{
+    uint_fast32_t  x1, theta, tab, scalar, b1, b0, vect, lsb, syn, w;
+    x1 = (uint_fast32_t)v2;
+    // Deal with odd cocode words
+    if (x1 & 0x800) {   // Deal with odd cocode words
+         // Let tab be the syndrome table entry for the cocode part
+         theta = MAT24_THETA_TABLE[(x1 >> 12) & 0x7ff];
+         tab = MAT24_SYNDROME_TABLE[(theta ^ x1) & 0x7ff];
+         // Return 0 if tab does not encode a cocode word of length 1
+         if ((tab & 0x3ff) < (24 << 5)) return 0;
+         // Return  scalar product <code, cocode> + 1   (mod 2)
+         scalar = (x1 >> 12) &  x1 & 0xfff;
+         scalar ^= scalar >> 6;
+         scalar ^= scalar >> 3;
+         scalar = (0x69 >> (scalar & 7)) & 1;
+         return scalar;
+    }
+    // Deal with Golay code word 0
+    if ((x1 & 0x7ff000L) == 0) {
+         // Let tab be the syndrome table entry for the cocode part 
+         // XORed with basis vector 0. 
+         tab = MAT24_SYNDROME_TABLE[(x1 ^ MAT24_RECIP_BASIS[0]) & 0x7ff];
+         // Set b1 True iff tab encodes a cocode word of length 3
+         b1 =  (tab & 0x3ff) < (24 << 5);
+         // Set b0  True iff tab encodes a cocode word with bit 0 not set
+         b0 =  (tab & 0x1f) !=  0;
+         //  b0 ^ b1 is True iff (the even) cocode word has length 2
+         return b0 ^ b1;
+    }
+    // If v2 is of type 2 here, it must be a suboctad
+
+    // Return 0 if v2 is not a (possibly complemented) octad
+    if (mat24_def_not_nonstrict_octad(x1 >> 12)) return 0;
+
+    // let vect = Golay code in vector representation
+    vect = mat24_gcode_to_vect(x1 >> 12);
+    // Put  w =  weight(code word) / 8     (mod 2);
+    // so w is True iff the Golay code word is an octad.
+    theta = MAT24_THETA_TABLE[(x1 >> 12) & 0x7ff];
+    w = ((x1 >> 23) ^ (theta >> 13)) & 1;  
+    // Complement vect if it is not an octad
+    vect ^= w - 1;
+    // let lsb be the least significant bit of vect
+    lsb = mat24_def_lsbit24(vect);
+    // Let tab be the table entry for the cocode part XORed
+    // with basis vector ``lsb``. 
+    tab = MAT24_SYNDROME_TABLE[
+        (x1 ^ theta ^ MAT24_RECIP_BASIS[lsb]) & 0x7ff];
+    // Compute cocode syndrome from tab
+    syn = (1 << (tab & 31)) ^ (1 << ((tab >> 5) & 31))   
+                               ^ (1 << ((tab >> 10) & 31));
+    // Return 0 if syndrome is not a subword of ``vect``
+    if ((vect & syn) != syn) return 0;
+    // Set b1 True iff tab encodes a cocode word of length 3
+    b1 =  (tab & 0x3ff) < (24 << 5);
+    // Set b0 True iff tab encodes a cocode word with bit ``lsb`` not set
+    b0 =  (tab & 0x1f) !=  lsb;
+    // Put b0 = 0 if cocode word has length 0 or 4 
+    // Put b0 = 1 if cocode word has length 2 
+    b0 ^= b1;
+    return b0 ^ w;
+}
+
+
+
+/// @cond DO_NOT_DOCUMENT 
+// In the following procedure we'll store 1 << LSTEPS vectors for speed up
+#define LSTEPS 6
+/// @endcond  
+
+
+/**
+  @brief Count type-2 vectors in an affine subspace of the Leech lattice mod 2
+
+  This function returns the number of type-2 vectors in an affine 
+  subspace \f$V\f$  of the Leech lattice mod 2. Subspace \f$V\f$ is
+  defined by an array \f$a\f$ of length \f$n\f$ of bit vectors. 
+  If \f$a_1,\ldots,a_{n-1}\f$ are linear independent then \f$V\f$ is
+  given by:
+
+  \f$V = \{a_0 + \sum_{i=1}^{n-1} \lambda_i a_i \mid \lambda_i=0,1\}\f$.
+  
+*/
+// %%EXPORT px
+MAT24_API
+uint32_t gen_leech2_count_type2(uint32_t *a, uint32_t n)
+{
+    uint32_t b[1 << LSTEPS];
+    uint_fast32_t count, i, j, l, n0, bigsteps, v;
+    
+    if (n == 0) return 0;
+    b[0] = a[0];
+    ++a; --n;
+    n0 = n  < LSTEPS ? n : LSTEPS;
+    bigsteps = 1 << (n - n0);
+    l = 1;  
+    for (i = 0; i < n0; ++i) {
+        for (j = 0; j < l; ++j) b[l + j] = b[j] ^ a[i];
+        l += l;
+    }
+    a += n0;
+    count = v = 0;
+    for (i = 1; ; ++i) {
+         for (j = 0; j < l; ++j) {
+             count += gen_leech2_is_type2(v ^ b[j]);
+         }
+         if (i == bigsteps) break;
+         v ^= a[mat24_def_lsbit24(i)];
+    }
+    return count;
+}
+
+
+#undef LSTEPS
+
+
+/************************************************************************
+*************************************************************************
+*** Leech lattice mod 2
+*************************************************************************
+*************************************************************************/
+
+
+/*************************************************************************
+*** Operation of monomial generators on the extraspecial group Q{x0}
+*************************************************************************/
+
+
+/// @cond DO_NOT_DOCUMENT 
+
+/**
+  @brief Perform operation \f$x_d x_\delta\f$ on \f$Q_{x0}\f$
+
+  The function returns the element \f$q_0 x_d x_\delta\f$ for
+  \f${q_0} \in Q_{x0}\f$. Here  parameters ``d`` and 
+  ``delta`` are the numbers of the Golay code element \f$d\f$
+  and the cocode element \f$\delta\f$ defined in the API reference  
+  in section **The Golay code and its cocode**.
+  
+  Parameter \f${q_0}\f$ and the result are given Leech lattice 
+  encoding.
+*/
+static inline
+uint32_t op_x_d_delta(uint32_t q0, uint32_t d, uint32_t delta)
+{
+    uint32_t s;
+    delta ^= MAT24_THETA_TABLE[d & 0x7ff];
+    s = ((q0 >> 12) & delta) ^ (q0 & d);
+    s ^= s >> 6; s ^= s >> 3;
+    s = (0x96 >> (s & 7)) & 1;
+    return q0 ^ (s << 24);
+}
+
+
+/**
+  @brief Perform operation \f$x_\delta x_\pi\f$ on \f$Q_{x0}\f$
+
+  The function returns the element \f$q_0 x_\delta x_\pi\f$ for
+  \f${q_0} \in Q_{x0}\f$. Here  parameter ``pi`` is the number 
+  of the permutation \f$\pi\f$  in \f$_{24}\f$, and ``d`` is the
+  number of the cocode element \f$\delta x\f$. These numbers are 
+  defined in the API reference  in sections **Automorphisms of the 
+  Parker loop** and  **The Golay code and its cocode**, respectively.
+  
+  Parameter \f${q_0}\f$ and the result are given Leech lattice 
+  encoding.
+*/
+static inline
+uint32_t op_delta_pi(uint32_t q0, uint32_t delta, uint32_t pi)
+{
+    uint32_t xd, xdelta;
+    uint8_t perm[24];
+    uint32_t autpl[12];
+    
+    xd = (q0 >> 12) & 0x1fff;
+    xdelta =  (q0 ^ MAT24_THETA_TABLE[(q0 >> 12) & 0x7ff]) & 0xfff;
+    if (pi == 0 || mat24_m24num_to_perm(pi, perm)) {
+        xd ^=  mat24_scalar_prod(xd, delta) << 12;
+    } else {
+        mat24_perm_to_autpl(delta, perm, autpl);
+        xd = mat24_op_ploop_autpl(xd, autpl);
+        xdelta =  mat24_op_cocode_perm(xdelta, perm);
+    }
+    return (xd << 12) ^ xdelta ^ (MAT24_THETA_TABLE[xd & 0x7ff] & 0xfff);
+}
+
+
+/**
+  @brief Inverse of function ``op_delta_pi``
+
+  We have 
+  ``op_delta_pi(op_delta_pi_inv(q0, delta , pi), delta, pi) = q0``.
+*/
+static inline
+uint32_t op_delta_pi_inv(uint32_t q0, uint32_t delta, uint32_t pi)
+{
+    uint32_t xd, xdelta;
+    uint8_t perm[24], inv_perm[24];
+    uint32_t inv_autpl[12];
+    
+    xd = (q0 >> 12) & 0x1fff;
+    xdelta =  (q0 ^ MAT24_THETA_TABLE[(q0 >> 12) & 0x7ff]) & 0xfff;
+    if (pi == 0 || mat24_m24num_to_perm(pi, perm)) {
+        xd ^=  mat24_scalar_prod(xd, delta) << 12;
+    } else {
+        mat24_perm_to_iautpl(delta, perm, inv_perm, inv_autpl);
+        xd = mat24_op_ploop_autpl(xd, inv_autpl);
+        xdelta =  mat24_op_cocode_perm(xdelta, inv_perm);
+    }
+    return (xd << 12) ^ xdelta ^ (MAT24_THETA_TABLE[xd & 0x7ff] & 0xfff);
+}
+
+/**
+  @brief Perform operation \f$x_d\f$ on \f$Q_{x0}\f$
+
+  The function returns the element \f$q_0 y_d\f$ for
+  \f${q_0} \in Q_{x0}\f$. Here  parameter ``d`` is the number
+  of the Golay code element \f$d\f$ defined in the API reference  
+  in section **The Golay code and its cocode**.
+  
+  Parameter \f${q_0}\f$ and the result are given Leech lattice 
+  encoding.
+*/
+static inline
+uint32_t op_y(uint32_t q0, uint32_t d)
+{
+    // We use the formula for conjugation of 
+    // \f$`\tilde{x}_d x_\delta\f$ with \f$y_e\f$ 
+    // in the **guide**, section 
+    // **Implementing generators of the Monster group**.
+    uint32_t s, o, theta_q0, theta_y, odd, eps;
+    odd = 0 - ((q0 >> 11) & 1);
+    theta_q0 = MAT24_THETA_TABLE[(q0 >> 12) & 0x7ff];
+    theta_y = MAT24_THETA_TABLE[d & 0x7ff];
+    s =  (theta_q0 & d) ^ (~odd &  q0 & d); 
+    s ^= s >> 6; s ^= s >> 3;
+    s = (0x96 >> (s & 7)) & 1;
+    o = (theta_y & (q0 >> 12)) ^ (q0 & d);
+    o ^= (theta_y >> 12) & 1 & odd;
+    o ^= o >> 6; o ^= o >> 3;
+    o = (0x96 >> (o & 7)) & 1;
+    eps = theta_q0 ^ (theta_y & ~odd) 
+           ^  MAT24_THETA_TABLE[((q0 >> 12) ^ d) & 0x7ff]; 
+    q0 ^= (eps & 0xfff) ^ ((d << 12) & 0x1fff000 & odd);
+    q0 ^= (s << 24) ^ (o << 23);
+    return q0;
+}
+
+/// @endcond 
+
+
+/*************************************************************************
+*** Conjugating a vector in the extraspecial group 2^{1+24}
+*************************************************************************/
+
+
+/**
+  @brief Perform operation of \f$G_{x0}\f$ on \f$Q_{x0}\f$
+
+  The function returns the element \f$g^{-1} q_0 g\f$ for
+  \f$q_0 \in Q_{x0}\f$ and \f$g \in G_{x0}\f$. Here \f$g\f$
+  is given as a word of genenators of length \f$n\f$ in the 
+  array ``pg``. Each atom of the word \f$g\f$ is encoded as 
+  defined in the header file ``mmgroup_generators.h``.
+  
+  Parameter \f${q_0}\f$ and the result are given Leech lattice 
+  encoding.
+*/
+// %%EXPORT px
+MAT24_API
+uint32_t gen_leech2_op_word(uint32_t q0, uint32_t *pg, uint32_t n)
+// Conjugate the element ``q0`` of the Pauli group with element 
+// ``e`` of the group ``G_{x1}`` with the atom
+// given by ``v``. Atom ``v`` is interpreted as follows:
+// Bit 31:      sign of exponent
+// Bit 30..28   tag
+// Bit 27..0    operarand
+// Tag are as follows:
+//
+//                bit
+// Tag  word     length   operand
+//  0:  1         -       unit of the group, no operand
+//  1:  x_delta   12      delta in C* in 'cocode' rep
+//  2:  x_pi      28      pi a permutation number  
+//  3:  x_d       13      d an element of the parker loop
+//  4:  y_d       13      d an element of the parker loop
+//  5:  t**e      28      exponent e, legal in special cases only
+//  6:  xi**e     28      exponent e
+//  7   illegal                  
+// 
+// 
+{
+    uint_fast32_t tag, i, v, y;
+    static uint8_t  o[2][4] = {{0,2,3,1},{0,3,1,2}};
+ 
+    q0 &= 0x1ffffff;
+    for (i = 0; i < n; ++i) {
+        v = pg[i];
+        tag = v & MMGROUP_ATOM_TAG_ALL;
+        v  &= MMGROUP_ATOM_DATA;
+        y = 0;
+        switch(tag) {
+            case MMGROUP_ATOM_TAG_1:
+            case MMGROUP_ATOM_TAG_I1:
+               break;
+            case MMGROUP_ATOM_TAG_ID:
+            case MMGROUP_ATOM_TAG_D:
+               q0 = op_x_d_delta(q0, 0, v & 0xfff);
+               break;
+            case MMGROUP_ATOM_TAG_IP:
+               q0 = op_delta_pi_inv(q0, 0, v);
+               break;
+            case MMGROUP_ATOM_TAG_P:
+               q0 = op_delta_pi(q0, 0, v);
+               break;
+            case MMGROUP_ATOM_TAG_IX:
+            case MMGROUP_ATOM_TAG_X:
+               q0 = op_x_d_delta(q0, v & 0xfff, 0);
+               break;
+            case MMGROUP_ATOM_TAG_IY:
+               y ^= (MAT24_THETA_TABLE[v & 0x7ff] & 0x1000);
+            case MMGROUP_ATOM_TAG_Y:
+               y ^= v & 0x1fffUL;
+               q0 = op_y(q0, y & 0x1fff);
+               break;
+            case MMGROUP_ATOM_TAG_IT:
+               v ^= 0xfffffff;
+            case MMGROUP_ATOM_TAG_T:
+               v = v % 3;
+               if (v) {
+                   if (q0 & 0x7fffffUL) return (uint32_t)(0-1UL);
+                   q0 = (uint32_t)(o[v-1][(q0 >> 23) & 3]) << 23UL;
+               }
+               break;
+            case MMGROUP_ATOM_TAG_IL:
+               v ^= 0xfffffff;
+            case MMGROUP_ATOM_TAG_L:
+               q0 = gen_xi_op_xi(q0, v);
+               break;
+            default:
+               return (uint32_t)(0-1UL);
+        }
+    }
+    return q0;
+}
+
+
+/**
+  @brief Atomic operation of \f$G_{x0}\f$ on \f$Q_{x0}\f$
+
+  Equivalent to ``gen_leech2_op_word(q0, &g, 1)``.
+*/
+// %%EXPORT px
+MAT24_API
+uint32_t gen_leech2_op_atom(uint32_t q0, uint32_t g)
+{
+    return  gen_leech2_op_word(q0, &g, 1);
+}
+
+
+
+
+
+/*************************************************************************
+*** Reduce type-4 vector  mod 2
+*************************************************************************/
+
+/// @cond DO_NOT_DOCUMENT 
+
+#define RED_STD_OCTAD 0x80fUL
+
+static uint8_t RED_STD_HEPTAD[7] =  {0,1,2,3,4,5,8};
+static uint8_t RED_IMG_CASE_44[7] =  {0,1,2,3,8,9,4};
+static uint8_t RED_STD_DODECAD[] = {0,1,2,3,8,9,14,15,18,19};
+
+/**
+  @brief Apply permutation to vector in Leech lattice mod 2.
+  
+  Let \f$\pi\f$ be the permutation given by the array ``p`` 
+  as a permutation on the set  \f$\{0,\ldotss,23\}\f$. Let 
+  \f$v_2\f$ be the vector in the Leech lattice mod  2 given 
+  by parameter ``v2``. The function returns \f$v_2 x_\pi\f$
+  Parameter ``v2`` and the return value are given in Leech
+  lattice encoding.
+  
+  Parameter ``p_res`` points to an integer where the function 
+  stores the permutation \f$\pi\f$ as a generator of the
+  monster group as as described  in file ``mmgroup_generators.h``.
+  That generator is stored with tag  ``MMGROUP_ATOM_TAG_IP`` so
+  that we can compute the inverse of \f$\pi\f$ very efficiently. 
+*/
+static inline 
+uint32_t apply_perm(uint32_t v2, uint8_t *p, uint32_t *p_res)
+{
+    uint32_t m[12], xd, xdelta;
+    uint8_t pi[24];
+    xd = (v2 >> 12) & 0xfff;
+    xdelta = (v2 ^ mat24_ploop_theta(xd)) & 0xfff;
+    mat24_perm_to_matrix(p, m);
+    xd = mat24_op_gcode_matrix(xd, m);
+    xdelta = mat24_op_cocode_perm(xdelta, p);
+    mat24_inv_perm(p, pi);
+    *p_res = 0xA0000000 + mat24_perm_to_m24num(pi);
+    return (xd << 12) ^ xdelta ^ mat24_ploop_theta(xd);
+}
+
+/**
+  @brief A variant of function ``apply_perm``.
+  
+  Here permutation \f$\pi\f$  must be given as a mapping from
+  an umbral heptad referred by ``p_src`` to an umbral heptad 
+  referred by ``p_dest``. Here ``p_src`` and ``p_dest`` define
+  the  permutation \f$\pi\f$ as in function 
+  ``mat24_perm_from_heptads`` in file ``mat24_functions.c c``.
+*/
+static inline 
+uint32_t apply_perm_heptad(uint32_t v2, uint8_t *p_src, uint8_t *p_dest, uint32_t *p_res)
+{
+    uint8_t p[24];
+    mat24_perm_from_heptads(p_src, p_dest, p);
+    return apply_perm(v2, p, p_res);
+}
+
+/// @endcond  
+
+
+/**
+  @brief Auxiliary function for ``gen_leech2_reduce_type4``
+  
+  Let \f$v_2\f$ be the vector in the Leech lattice mod 2 given 
+  by parameter ``v2`` in Leech lattice encoding. Let  
+  \f$\Omega, \omega, \gamma(.)\f$ be as in [Sey20].
+  
+  The function  tries to find an exponent \f$e\f$ such that 
+  \f$v_2 \xi^e\f$ is  equal to an element 
+  \f$\lambda_\delta \pmod{\lambda_\Omega}\f$ of
+  \f$\Lambda / 2 \Lambda\f$, 
+  \f$\delta \in \mathcal{C}^*\f$, \f$\delta\f$ even. The 
+  function returns \f$e\f$ if such an  \f$e\f$ exists and -1
+  otherwise.
+  
+  Assume \f$v_2 = \lambda_d + \lambda_\delta + \lambda_\epsilon, 
+  d \in \mathcal{C}, \delta, \epsilon \in \mathcal{C}^*\f$, 
+  \f$d, \delta\f$ grey, even,  \f$\epsilon\f$ coloured. 
+  The function returns
+  
+  \f$e=0\f$ if \f$d=0 \pmod{\Omega}\f$,
+     
+  \f$e=1\f$ if \f$\delta=\gamma(d) \pmod{\omega} \f$,
+
+  \f$e=2\f$ if \f$\delta=0  \pmod{\omega} \f$. 
+  
+  In all other cases there is no suitable exponent \f$e\f$.
+*/
+static inline 
+int32_t map_to_standard12_xi_exp(uint32_t v2)
+{
+    uint_fast32_t parity;
+    if ((v2 & 0x7ff800) == 0) return 0;
+    if ((v2 & 0x7f080f) == 0) return 1;
+    parity = 0 - ((0x6996 >> (v2 & 0xf)) & 1);
+    v2 ^= ((v2 >> 12) ^ parity) & 0xf;
+    if ((v2 & 0x7f080f) == 0) return 2;
+    return -1; // no exponent found
+}
+     
+
+
+/**
+  @brief Map a frame in the Leech lattice to the standard frame
+  
+  A frame in the Leech lattice \f$\Lambda\f$ is a maximal set
+  of type-4 vectors which are equal modulo \f$2 \Lambda\f$. 
+  A frame is equivalent to a type-4 vector in 
+  \f$\Lambda / 2 \Lambda\f$. 
+  
+  Let \f$v_2 \in \Lambda / 2 \Lambda\f$ of type 4 be given by 
+  parameter ``v2`` in Leech lattice encoding. Then the function 
+  constructs a \f$g \in G_{x0}\f$ that maps \f$v_2\f$ to the 
+  standard frame \f$\Omega\f$. The standard frame \f$\Omega\f$ 
+  consists of the type-4 vectors parallel to the coordinate axes.
+  
+  The element \f$g\f$ is returned as a word in the generators
+  of \f$G_{x0}\f$ of length \f$n \leq 6\f$. Each atom of the 
+  word \f$g\f$ is encoded as  defined in the header file 
+  ``mmgroup_generators.h``. Let \f$H\f$ be the stabilizer of
+  \f$\Omega\f$.  We choose a representative  \f$g\f$ in
+  the coset \f$gH\f$ such that the inverse  \f$g^{-1}\f$ 
+  is a short as possible.
+
+  The function stores \f$g\f$ as a word of generators in the
+  array ``pg_out`` and returns the length  \f$n\f$  of that
+  word. It returns a negative number in case of failure, 
+  e.g. if \f$v_2\f$ is not of type 4.
+  
+  The function uses the method described in the
+  ``The mmgroup guide for developers``, section  
+  ``Computations in the Leech lattice modulo 2``.  
+*/
+// %%EXPORT px
+MAT24_API
+int32_t gen_leech2_reduce_type4(uint32_t v2, uint32_t *pg_out)
+{
+    uint32_t *pg_end = pg_out; // pointer to end of word g
+    uint32_t  vtype;           // subtype of current vector v2
+    uint32_t  gc;              // Golay code part of v2 in vector rep
+    uint32_t  coc;             // Cocode part of v2 in cocode rep
+    uint32_t  i;
+    int32_t exp;               // expomemt of \f$xi\f$
+
+    // In the main loop we change vector v2 to a vector of a simpler
+    // subtype. Therefore we first apply a permutation pi and
+    // then a power of xi to v2.
+    for (i = 4; i; --i ) {
+        // Compute Golay code part and cocode part of v2
+        gc = mat24_gcode_to_vect(v2 >> 12);
+        coc = (v2 ^  mat24_ploop_theta(v2 >> 12)) & 0xfff;
+        // Compute subtype of v2
+        vtype = gen_leech2_type(v2);
+        // Depending on the subype of v2, we apply a permutation
+        // pi and we calculate a exponent  exp such that
+        // v2 * pi * ex has a simpler sybtype.
+        switch (vtype) {
+            case 0x48:
+                // All done: return length of word g
+                return (int32_t)(pg_end - pg_out);
+            case 0x40:
+                // Map v2 to a vector of subtype 48
+                {
+                    uint8_t sextet[24];
+                    if (v2 & 0x7ffbff) {
+                        // If coc is not grey:
+                        // Compute sextet corresponding to coc, and map
+                        // the first tetrad of that sextet to (0,1,2,3)
+                        if (mat24_cocode_to_sextet(coc, sextet) < 0) 
+                             return -0x10000 + 0x100 * vtype + 1;
+                        sextet[6] = sextet[8];
+                        v2 = apply_perm_heptad(v2,
+                            sextet, RED_STD_HEPTAD, pg_end++);
+                    }
+                    // exp = 2 - <gcode, omega>, where omega is the
+                    // standard sextet represented by (0,1,2,3).
+                    exp = 2 - ((v2 >> 23) & 1);
+                }
+                break;
+            case 0x42:
+                // Map v2 to a vector of subtype 40
+                // Perform a permutation on v2 if necessary
+                if ((exp = map_to_standard12_xi_exp(v2)) < 0) {
+                    uint8_t oct[24], *poct = oct;
+                    uint32_t w;
+                    // Complement gc if it has weight 16, so that gc is an
+                    // octad. Let poct[0...7] be the elements of that octad.
+                    w = mat24_vect_to_bit_list(gc, oct); // w is 8 or 16
+                    poct = oct + (w & 16);
+                    // Map octad gc to the standard octad (0,...,7)
+                    poct[6] = oct[(w & 16) ? 0 : 8];
+                    v2 = apply_perm_heptad(v2, poct, RED_STD_HEPTAD, 
+                        pg_end++);
+                    // Now we may calculate a suitable exponent of xi
+                    // so that xi**exp transforms v2 to type 40.
+                    exp = map_to_standard12_xi_exp(v2);
+                    // Abort with fatal error if this fails
+                    if (exp < 0) return -0x10000 + 0x100 * vtype + 1;
+                }
+                break;
+            case 0x44:
+                // Map v2 to a vector of subtype 40
+                // Perform a permutation on v2 if necessary
+                if ((exp = map_to_standard12_xi_exp(v2)) < 0) {
+                    uint8_t oct[24], syn_list[24], a2_list[24], *poct = oct;
+                    uint32_t w, syn, a = 0, a1, a2, j, special;
+                    // Complement gc if it has weight 16, so that gc is an
+                    // octad. Let poct[0...7] be the elements of that octad.
+                    w = mat24_vect_to_bit_list(gc, oct); // w is 8 or 16
+                    poct = oct + (w & 16);
+                    gc ^= (w & 16) ? 0xffffff : 0;
+                    // If |coc| == 2 then let syn_list[0,1] be the syndrome 
+                    // list of coc. If |coc| == 4 the let T be a tetrad 
+                    // intersecting with gc, and let syn_list[0,1] be
+                    // the set of elements of T that are not in gc. Abort
+                    // with fatal error if syn_list has length != 2.      
+                    syn =  mat24_cocode_syndrome(coc, poct[0]) & ~gc;
+                    w = mat24_vect_to_bit_list(syn, syn_list);
+                    if (w != 2) return -0x10000 + 0x100 * vtype + 1;
+                    // Put a = sum(1<<i) for i in (poct[0],...,poct[4])
+                    for (j = 0; j < 5; ++j) a += 1L << poct[j];
+                    a1 = a ^ (1 << syn_list[0]) ^ (1 << syn_list[1]);
+                    // Let special be the syndrome of 
+                    // [poct[0], ..., poct[4],  syn_list[0],  syn_list[1]].
+                    // This must be a singlton; which we call c 
+                    special = mat24_syndrome(a1, 24);
+                    // Let a2_list be the list [poct[0], ..., poct[4]],
+                    // and then remove c from that list. Abort with fatal
+                    // error if that list has not length 4.
+                    a2 = a & ~special;
+                    w = mat24_vect_to_bit_list(a2, a2_list);
+                    // Append [syn_list[0], syn_list[0], c] to the list
+                    // a2_list, so that is has length 7.
+                    if (w != 4) return -0x10000 + 0x100 * vtype + 2;
+                    a2_list[4] = syn_list[0]; a2_list[5] = syn_list[1];
+                    a2_list[6] = (uint8_t)(mat24_lsbit24(a & special));
+                    // Map the heptad a2_list[0...6] to the heptad
+                    // (0,1,2,3,4,5,8). This maps octad gc to the 
+                    // standard octad (0,...,7).
+                    v2 = apply_perm_heptad(v2, 
+                        a2_list, RED_IMG_CASE_44, pg_end++);
+                    // Now we may calculate a suitable exponent of xi
+                    // so that xi**exp transforms v2 to type 40.
+                    exp = map_to_standard12_xi_exp(v2);
+                    // Abort with fatal error if this fails
+                    if (exp < 0) return -0x10000 + 0x100 * vtype + 3;
+                }
+                break;
+            case 0x46:
+                // Map v2 to a vector of subtype 42
+                {
+                    uint8_t dodecad[24], perm[24];
+                    uint32_t scalar;
+                    // Perform a permutation on v2 that maps gc to the
+                    // dodecad (0,1,2,3,8,9,14,15,18,19,22,23)
+                    mat24_vect_to_bit_list(gc, dodecad); 
+                    mat24_perm_from_dodecads(dodecad, RED_STD_DODECAD, 
+                        perm); 
+                    v2 = apply_perm(v2, perm, pg_end++); 
+                    // Put exp = 2 - scalar, where scalar is the scalar
+                    // product of the cocode part 'coc' of the permuted 
+                    // v2 with the standard octad (0,...,7).
+                    coc = mat24_ploop_theta(v2 >> 12) ^ v2;
+                    scalar = mat24_scalar_prod(RED_STD_OCTAD, coc);
+                    exp = 2 - scalar;
+                }
+                break;
+            case 0x43:
+                // Map v2 to a vector of subtype 44
+                {
+                    uint8_t cv_list[24], octad_list[24], rem_list[24];
+                    uint32_t cv, w, j, oct, syn;
+                    // let cv_list[0..2] be the syndrome list of coc. Abort
+                    // with fatal error if that list has not length 3.
+                    cv = mat24_cocode_syndrome(coc, 24);
+                    w = mat24_vect_to_bit_list(cv, cv_list);
+                    if (w != 3) return -0x10000 + 0x100 * vtype + 1;
+                    // Let octad_list[0,...,7] be an octad o containing
+                    // coc, and let octad_list[8] not be in that octad.
+                    oct = 0;
+                    for (j = 0; j < 5; ++j) oct += 1 << cv_list[j];
+                    syn =  mat24_syndrome(oct, 24);
+                    oct ^= syn;
+                    w =  mat24_vect_to_bit_list(oct, octad_list);
+                    if (w != 8) return -0x10000 + 0x100 * vtype + 2;
+                    // Put cv_list = [c0, c1, c2, o0, o1, o2, r] with
+                    // coc = (c0, c1, c2); o0, o1, o2 in o, but not in
+                    // c, an r not in o. 
+                    w = mat24_vect_to_bit_list(oct & ~cv, rem_list);
+                    if (w != 5) return -0x10000 + 0x100 * vtype + 3;
+                    cv_list[3] = rem_list[0]; cv_list[4] = rem_list[1];
+                    cv_list[5] = rem_list[2]; cv_list[6] = octad_list[8];
+                    // Map the heptad cv_list to the standars octad
+                    // (0,...,7)
+                    v2 = apply_perm_heptad(v2, 
+                        cv_list, RED_STD_HEPTAD, pg_end++);
+                    // Put exp = 2 - k, where k is the scalar product of 
+                    // the permuted gcode part of v2 with the standard 
+                    // tetrad represented by (0,1,2,3).
+                    exp = 2 - ((v2 >> 22) & 1);
+                }
+                break;
+            default:
+                // Abort if v is not of type 4
+                return -1L;
+        }
+        // Apply xi**exp to the permuted vector v2
+        if (exp) {
+            v2 = gen_xi_op_xi(v2, exp);       // Apply xi**exp to v2
+            if (v2 & 0xfe000000) return -1L;  // Abort if this fails
+            *pg_end++ = 0xe0000003 - exp;     // Store atom for xi**exp 
+        }
+    } 
+    // Abort if not done after three rounds
+    return -1L;
+}
+
+ 
+/*************************************************************************
+*** Self test
+*************************************************************************/
+
+
+/** 
+  @brief Test functions ``gen_leech2_type`` and ``gen_leech2_reduce_type4``
+
+  Function ``gen_leech2_type`` may tested as follows: 
+
+  We compute the subtypes of all \f$2^{24}\f$ vectors 
+  \f$v \in \Lambda / 2 \Lambda\f$ and we count the obtained 
+  subtypes in an array ``result`` of length 0x50. The sizes of 
+  the orbits of each subtype are known form [Iva99], so a 
+  high-level test routine may check the array  ``result``.
+
+  During that process we may also test function
+  ``gen_leech2_reduce_type4``. Whenever vector of type-4
+  vector \f$v\f$ occurs, we compute a ``g \in G_{x0}`` that
+  maps  \f$v\f$ to the standard frame using function
+  ``gen_leech2_reduce_type4``; and we check the correctness of 
+  that mapping using function ``gen_leech2_op_word``. We return the
+  number of successful such operations. This number must be equal 
+  to the number of type-4 vectors in \f$\Lambda / 2 \Lambda\f$.
+
+  Since this test takes a long time, a high-level function might
+  want to distribute it over several processes. So this function
+  acccumulates the test results for the vectors \f$v\f$ with
+  \f$\mbox{start} \leq v < \mbox{start} + \mbox{n}\f$ only.
+   
+*/
+// %%EXPORT px
+MAT24_API
+uint32_t gen_leech2_type_selftest(uint32_t start, uint32_t n, uint32_t *result)
+{
+    uint32_t type_count[0x100], word[16];
+    uint32_t v, v_type, v_reduced, i, n_success = 0;
+    int32_t len_word;
+
+    for (i = 0; i < 0x100; ++i) type_count[i] = 0;
+    for (v = start; v < start + n; ++v) {
+        v_type = gen_leech2_type(v);
+        ++type_count[v_type & 0xff];
+        if ((v_type & 0xf0) == 0x40) {
+            len_word = gen_leech2_reduce_type4(v, word);
+            if ((len_word >= 0) && (len_word <= 6)) {
+                v_reduced = gen_leech2_op_word(v, word, len_word);
+                n_success += (v_reduced & 0xffffff) == 0x800000;
+            }            
+        }
+    }    
+    for (i = 0; i < 0x50; ++i) result[i] = type_count[i];
+    for (i = 0x50; i < 0x100; ++i) result[0x10] += type_count[i];
+    return n_success;
+}
+
+
+
+
+
+
+
+/************************************************************************
+*************************************************************************
+*** Functions for supporting the Leech lattice mod 3
+*************************************************************************
+*************************************************************************/
+
+/*************************************************************************
+** Simple functions for Leech lattice vectors modulo 3
+*************************************************************************/
+
+
+
+/**
+  @brief Scalar product of two vectors in the Leech lattice mod 3
+
+  The function returns the scalar product of the 
+  vectors \f$v_{3,1}, v_{3,2}\f$. The parameters are given in 
+  Leech lattice mod 3 encoding. The result is between 0 and 2.
+*/
+// %%EXPORT px
+MAT24_API
+uint32_t gen_leech3_scalprod(uint64_t v3_1, uint64_t v3_2)
+{
+    return short_3_scalprod(v3_1, v3_2);
+}
+
+
+/**
+  @brief Add two vectors in the Leech lattice mod 3
+
+  The function returns the sum of the 
+  vectors \f$v_{3,1}, v_{3,2}\f$. The parameters and the
+  result are given in Leech lattice mod 3 encoding. 
+*/
+// %%EXPORT px
+MAT24_API
+uint64_t gen_leech3_add(uint64_t v3_1, uint64_t v3_2)
+{
+    // quick and dirty implementation, not optimized.
+    uint64_t res, sum, cy;
+    v3_1 = short_3_reduce(v3_1);
+    v3_2 = short_3_reduce(v3_2);
+    sum = v3_1 ^ v3_2; 
+    cy = v3_1 & v3_2;
+    res = sum | ((cy & 0xffffffL) << 24) | ((cy >> 24) & 0xffffffL);    
+    return short_3_reduce(res);
+}
+
+
+/**
+  @brief Negate a vector in the Leech lattice mod 3
+
+  The function returns the negated vector  \f$v_{3}\f$.
+  The parameter and the result are given in Leech lattice 
+  mod 3 encoding. 
+*/
+// %%EXPORT px
+MAT24_API
+uint64_t gen_leech3_neg(uint64_t v3)
+{
+    uint64_t res;
+    res = ((v3 & 0xffffffL) << 24) | ((v3 >> 24) & 0xffffffL);    
+    return short_3_reduce(res);
+}
+
+/*************************************************************************
+** Convert a short vector (mod 2) to a short vector (mod 3)
+*************************************************************************/
+
+/// @cond DO_NOT_DOCUMENT 
+
+#define ONE ((uint64_t)(1ULL))
+
+/// @endcond  
+
+
+/**
+  @brief Map short vector from \f$\Lambda/2\Lambda\f$ to \f$\Lambda/3\Lambda\f$
+
+  Here parmeter \f$v_2\f$ is a short vector (i.e. a vector of type 2)
+  in \f$\Lambda/2\Lambda\f$ in Leech lattice encoding. 
+
+  The function returns a short vector in \f$\Lambda/3\Lambda\f$
+  corresponding to \f$v_2\f$ in Leech lattice mod3 encoding.
+
+  The result is unique upto sign only. The function returns 0 if
+  \f$v_2\f$ is not short.
+*/
+// %%EXPORT px
+MAT24_API
+uint64_t gen_leech2to3_short(uint64_t v2)
+{
+    uint64_t  gcodev, cocodev, theta, w, result;
+    // Put gcodev = codeword (in vector rep)
+    gcodev = mat24_gcode_to_vect((uint32_t)v2 >> 12); 
+    theta = MAT24_THETA_TABLE[((uint32_t)v2 >> 12) & 0x7ff]; 
+    // Put w = weight(code word gcodev) / 4
+    w = 0 - ((v2 >> 23) & 1);
+    w = (((theta >> 12) & 7) ^ w) + (w & 7);  
+
+    if (v2 & 0x800) {  // case odd cocode
+        uint_fast32_t scalar; 
+        // Put cocodev = cocode word (in vector rep)
+        cocodev = mat24_cocode_syndrome((uint32_t)(v2 ^ theta), 0);    
+        if (cocodev & (cocodev - 1)) return 0;
+        // Put scalar = scalar product (code, cocode)
+        scalar = (v2 >> 12) &  v2 & 0xfff;
+        scalar ^= scalar >> 6;
+        scalar ^= scalar >> 3;
+        scalar = (0x96 >> (scalar & 7));
+        if (scalar & 1) return 0;
+        result = (gcodev ^ ((gcodev ^ 0xffffff) << 24))
+               & ~(cocodev | (cocodev << 24));
+        return result;        
+    } else { 
+        uint_fast32_t  c_w;
+        uint8_t c_list[4];
+        // Put v2[11...0] = cocode word (in cocode rep)
+        v2 ^= theta; 
+        switch (w) {
+            case 4:
+                gcodev ^= 0xffffff;
+            case 2:
+                // Put cocodev = cocode word (in vector rep)
+                cocodev = mat24_cocode_syndrome((uint32_t)v2, 
+                    mat24_lsbit24((uint32_t)gcodev));
+                // Put c_w = min weight of cocode word
+                c_w = mat24_bw24((uint32_t)cocodev);
+                if ( ((cocodev & gcodev) != cocodev)
+                    ||  (c_w ^ 2 ^ w) & 3 ) return 0;
+                result = (gcodev & ~cocodev) | (cocodev << 24);
+                return result;
+            case 3:
+                return 0;
+            default:  // can be case 0 or 6 only
+                // Put c_w = min weight of cocode word
+                // and store cocode bits in c_list.
+                c_w = mat24_cocode_to_bit_list((uint32_t)v2, 0, c_list);
+                if (c_w != 2) return 0;
+                result = (ONE <<  c_list[0]) + (ONE <<  (c_list[1] + 24 - 4 * w));
+                return result;
+        }
+    } 
+}
+
+
+
+
+
+/*************************************************************************
+** Convert a short vector (mod 3) to a short vector (mod 2)
+*************************************************************************/
+
+
+
+/**
+  @brief Map short vector from \f$\Lambda/3\Lambda\f$ to \f$\Lambda/2\Lambda\f$
+
+  Here parmeter \f$v_3\f$ is a short vector (i.e. a vector of type 2)
+  in \f$\Lambda/3\Lambda\f$ in Leech lattice mod 3 encoding. 
+
+  The function returns a short vector in \f$\Lambda/2\Lambda\f$
+  corresponding to \f$v_3\f$ in Leech lattice encoding.
+
+  The result is unique. The function returns 0 if \f$v_3\f$ is not 
+  short. This function is an inverse of function ``gen_leech2to3_short``.
+*/
+// %%EXPORT px
+MAT24_API
+uint64_t gen_leech3to2_short(uint64_t v3)
+{
+    uint_fast32_t  gcodev, cocodev, theta, w1, w2;
+    v3 = short_3_reduce(v3);
+    w1 = mat24_bw24((uint32_t)v3); 
+    w2 = mat24_bw24((uint32_t)(v3 >> 24));
+    switch (w1 + w2) {
+        case 23:
+            cocodev = ~(uint32_t)(v3 | (v3 >> 24)) & 0xffffffUL;
+            if ((cocodev == 0) || (cocodev & (cocodev - 1))) return 0; 
+            gcodev = (uint32_t)(v3 >> ((0-(w1 & 1)) & 24)) & 0xffffffUL;
+            if ((w1 + 1) & 4)  gcodev ^= 0xffffffUL;
+            break;              
+        case 8:
+            if (w1 & 1) return 0;
+            gcodev = (v3 | (v3 >> 24)) & 0xffffffUL;
+            cocodev = v3 & 0xffffffUL;
+            if (w1 & 2) gcodev ^= 0xffffffUL;
+            break;
+        case 2:
+            cocodev = (v3 |  (v3 >> 24)) & 0xffffffUL;
+            gcodev = (w1 & 1) ? 0 : 0xffffffUL;
+            break;
+        default:
+            return 0;        
+    }
+    gcodev = mat24_vect_to_gcode(gcodev);
+    if (gcodev & 0xfffff000UL) return 0;
+    theta = MAT24_THETA_TABLE[gcodev & 0x7ff] & 0xfff;
+    cocodev = mat24_vect_to_cocode(cocodev);
+    return (gcodev << 12) ^ theta ^ cocodev;
+}
+
+
+
+/*************************************************************************
+*** Convert a type-4 vector (mod 3) to a type-4 vector (mod 2)
+*************************************************************************/
+
+
+/// @cond DO_NOT_DOCUMENT 
+
+
+/**
+  @brief Return parity of a 12-bit integer
+*/
+static inline uint32_t parity12(uint64_t x)
+{
+    x ^= x >> 6; x ^= x >> 3;
+    return (0x96 >> (x & 7)) & 1;
+}
+
+
+/**
+  @brief Return parity of a 24-bit integer
+*/
+static inline uint32_t parity24(uint64_t x)
+{
+    x ^= x >> 12; x ^= x >> 6; x ^= x >> 3;
+    return (0x96 >> (x & 7)) & 1;
+}
+
+
+/// @endcond 
+
+/**
+  @brief Map type-4 vector from \f$\Lambda/3\Lambda\f$ to \f$\Lambda/2\Lambda\f$
+
+  Here parameter \f$v_3\f$ is a type-4 vector 
+  in \f$\Lambda/3\Lambda\f$ in Leech lattice mod 3 encoding. 
+
+  The function returns a type-4 vector in \f$\Lambda/2\Lambda\f$
+  corresponding to \f$v_3\f$ in Leech lattice encoding.
+
+  The result is unique. The function returns 0 if \f$v_3\f$ is not of
+  type 4.
+*/
+// %%EXPORT px
+MAT24_API
+uint64_t gen_leech3to2_type4(uint64_t v3)
+{
+    uint_fast32_t  gcodev, cocodev, h, w, w1, x1, syn, t, omega, res;
+    v3 = short_3_reduce(v3);
+    // Let h be the support of v3, i.e. the bit vector of nonzero
+    // coordinates of the vector v3 (modulo 3)
+    h = ((v3 >> 24) | v3) & 0xffffff;
+    // Let w be the number of indices with coordinate 1 or 2
+    w = mat24_bw24((uint32_t)h);
+    // Compute ``gcode`` and ``cocode`` for vector v3. Return 0 if we 
+    // detect that is not of type 4. If ``omega`` is odd then ``gcode`` 
+    // has to be corrected by a term 0xffffff. At the end of the
+    // switch statemnt, ``gcode`` might not correspond to a Golay
+    // code vector; this means that v3 is not of type 4.
+    switch (w) {
+        case 22:
+            // type (5**1, 3**2, 1**21)
+            syn = mat24_syndrome((uint32_t)v3, 0);
+            gcodev = (v3 ^ syn) & 0xffffff;
+            t = h & syn;
+            cocodev = t | (0xffffff & ~h);
+            if ((t == 0) || (t & (t-1))) return 0;
+            omega = 0;
+            break;              
+        case 19:
+            // type (3**5, 1**19)
+            w1 = mat24_bw24((uint32_t)v3);
+            x1 = ((w1 & 1) ? v3 : (v3 >> 24)) & 0xffffff;
+            syn = mat24_syndrome(x1, 0);
+            cocodev = ~h & 0xffffff;
+            if (syn & h) syn = cocodev;            
+            gcodev = (x1 ^ syn) & 0xffffff;
+            omega = 0;
+            break;
+        case 16:
+            // type (2**16, 0**8)
+            w1 = mat24_bw24((uint32_t)v3);
+            if (w1 & 1) return 0;
+            gcodev = h;
+            omega = w1 >> 1;
+            cocodev = v3 & 0xfffffff;
+            break;
+        case 13:
+            // type (4**1, 2**12, 0**11)
+        case 10:
+            // type (4**2, 2**8, 0**14)
+            syn = mat24_syndrome(h & 0xffffff, 0);
+            if ((h & syn) != syn) return 0;                  
+            gcodev = h ^ syn;
+            cocodev = syn | (v3 & ~syn & 0xffffff);
+            w1 = mat24_bw24(cocodev);
+            if (w1 & 1)  return 0;
+            omega = (w1 >> 1) + parity24(syn & v3) + w;
+            break; 
+        case 7:
+            // type (6**1, 2**7, 0**16)
+            syn = mat24_syndrome(h, 0);
+            if (syn & (syn - 1)) return 0;
+            gcodev = h ^ syn;
+            cocodev = (v3 & 0xffffff);
+            w1 = mat24_bw24(cocodev);
+            cocodev |=  (0 - (w1 & 1)) & syn;
+            omega = ((w1 + 1) >> 1) + 1;
+            break; 
+        case 4:
+            gcodev = 0;
+            cocodev = h;
+            omega = parity24(v3);
+            break;
+        case 1:
+            gcodev = cocodev = 0;
+            omega = 1;
+            break;    
+        default:
+            return 0;        
+    }
+    gcodev = mat24_vect_to_gcode(gcodev); 
+    if (gcodev & 0xfffff000UL) return 0;
+    cocodev = mat24_vect_to_cocode(cocodev);
+    cocodev ^= MAT24_THETA_TABLE[gcodev & 0x7ff] & 0xfff;
+    // correct ``gcodev`` by term ``Omega`` if omega is odd
+    gcodev ^= (omega & 1) << 11;         
+    res = (gcodev << 12) ^ cocodev;
+    // Correct an odd result
+    if (w >= 19 && parity12(res & (res >> 12))) res ^= 0x800000;
+    return res;
+}
+
+
+
+
+/**
+  @brief Map type-3 vector from \f$\Lambda/3\Lambda\f$ to \f$\Lambda/2\Lambda\f$
+
+  Here parameter \f$v_3\f$ is a type-3 vector 
+  in \f$\Lambda/3\Lambda\f$ in Leech lattice mod 3 encoding. 
+
+  The function returns a type-3 vector in \f$\Lambda/2\Lambda\f$
+  corresponding to \f$v_3\f$ in Leech lattice encoding.
+
+  The result is unique. The function returns 0 if \f$v_3\f$ is not of
+  type 3.
+*/
+// %%EXPORT px
+MAT24_API
+uint64_t gen_leech3to2_type3(uint64_t v3)
+{
+    uint_fast32_t  gcodev, cocodev, h, w, w1, syn, omega, res;
+    v3 = short_3_reduce(v3);
+    // Let h be the support of v3, i.e. the bit vector of nonzero
+    // coordinates of the vector v3 (modulo 3)
+    h = ((v3 >> 24) | v3) & 0xffffff;
+    // Let w be the number of indices with coordinate 1 or 2
+    w = mat24_bw24((uint32_t)h);
+    // Compute ``gcode`` and ``cocode`` for vector v3. Return 0 if we 
+    // detect that is not of type 4. If ``omega`` is odd then ``gcode`` 
+    // has to be corrected by a term 0xffffff. At the end of the
+    // switch statemnt, ``gcode`` might not correspond to a Golay
+    // code vector; this means that v3 is not of type 3.
+    switch (w) {
+        case 24:
+            // type (5**1, 1**23)
+            cocodev = mat24_syndrome((uint32_t)v3, 0);
+            gcodev = (v3 ^ cocodev) & 0xffffff;
+            if ((cocodev == 0) || (cocodev & (cocodev-1))) return 0;
+            omega = 0;
+            break;              
+        case 21:
+            // type (3**3, 1**21)
+            syn = mat24_syndrome((uint32_t)v3, 0);
+            gcodev = (v3 ^ syn) & 0xffffff;
+            cocodev = 0xffffff & ~h;
+            if ((syn & cocodev) != syn) return 0;
+            omega = 0;
+            break;              
+        case 12:
+            // type (2**12, 0**12)
+            gcodev = h;
+            syn = mat24_syndrome(h, 0);
+            cocodev = v3 & 0xffffff;
+            w1 = mat24_bw24(cocodev);
+            if (w1 & 1)  return 0;
+            omega = (w1 >> 1) + 1;
+            break; 
+        case 9:
+            // type (4**1, 2**8, 0**15)
+            syn = mat24_syndrome(h, 0);
+            if ((h & syn) != syn) return 0;                  
+            gcodev = h ^ syn;
+            cocodev = syn | (v3 & ~syn & 0xffffff);
+            w1 = mat24_bw24(cocodev);
+            if (w1 & 1)  return 0;
+            omega = (w1 >> 1) + parity24(syn & v3);
+            break; 
+        default:
+            return 0;
+    }
+    gcodev = mat24_vect_to_gcode(gcodev); 
+    if (gcodev & 0xfffff000UL) return 0;
+    cocodev = mat24_vect_to_cocode(cocodev);
+    cocodev ^= MAT24_THETA_TABLE[gcodev & 0x7ff] & 0xfff;
+    // correct ``gcodev`` by term ``Omega`` if omega is odd
+    gcodev ^= (omega & 1) << 11;         
+    res = (gcodev << 12) ^ cocodev;
+    // Correct an odd result by a term of Omega if required
+    if (w >= 21 && parity12(res & (res >> 12)) == 0) res ^= 0x800000;
+    return res;
+}
+
+
+/*************************************************************************
+*** Operation of G_{x1} on the Leech lattice mod 3
+*************************************************************************/
+
+
+
+/**
+  @brief Special case of fucntion ``gen_leech3_op_vector_word``
+
+  For internal purposes only. This is equivalent to
+  ``gen_leech3_op_vector_word(v3, g)``, where ``g`` encodes
+  the element \f$\xi^e\f$ of \f$G_{x1}\f$.
+  
+  Parameter \f${v_3}\f$ and the result are given Leech lattice 
+  mod 3 encoding.
+*/
+// %%EXPORT px
+MAT24_API
+uint64_t gen_leech3_op_xi(uint64_t v3, uint32_t e)
+{
+    uint64_t a, b, t, ee1;
+    e %= 3;
+    if (e == 0) return v3;
+
+    ee1 = 0ULL - (uint64_t)((e - 1) & 1ULL);
+    v3 ^= 0x111111111111ULL & ~ee1;
+    // multiply x with matrix  (++++),    where '+' means 1
+    //                         (++--)     and   '-' means -1
+    //                         (+-+-)
+    //                         (+--+)
+    // reorder bits of a, 7 ops
+    a = ((v3 & 0xaaaaaa555555ULL) ^ ((v3 >> 23) & 0xaaaaaaULL)
+         ^ ((v3 & 0xaaaaaaULL) << 23));
+    // special step
+    a ^= 0xcccccc000000ULL;
+    // split a
+    b = (a >> 2) & 0x333333333333ULL;
+    a &= 0x333333333333ULL;
+    // 1st Hadamard step.11 ops
+    t = a + b;
+    b = a + (b ^ 0x333333333333ULL);
+    a = t & 0x444444444444ULL;
+    a = t - a + (a >> 2);
+    t = b & 0x444444444444ULL;
+    b = b - t + (t >> 2);
+    // exchange high and low part of b
+    b = ((b >> 24) & 0xffffffULL) + ((b & 0xffffffULL) << 24);
+    // 2nd Hadamard step, 11 ops
+    t = a + b;
+    b = a + (b ^ 0x333333333333ULL);
+    a = t & 0x444444444444ULL;
+    a = t - a + (a >> 2);
+    t = b & 0x444444444444ULL;
+    b = b - t + (t >> 2);
+    // unite a and b
+    a = a ^ (b << 2);
+    // special step
+    a ^= 0xcccccc000000ULL;
+    // reorder bits of a, 7 ops
+    a = ((a & 0xaaaaaa555555ULL) ^ ((a >> 23) & 0xaaaaaaULL)
+         ^ ((a & 0xaaaaaaULL) << 23));
+    // matrix multipliction done
+    a ^= 0x111111111111ULL & ee1; 
+    return a;
+}
+
+
+/**
+  @brief Operation of \f$G_{x1}\f$ on the Leech lattice mod 3
+
+  The function returns the element \f$v_3 g\f$ for
+  \f$v_3 \in \Lambda/3\Lambda\f$ and \f$g \in G_{x0}\f$. Here 
+  \f$g\f$ is given as a word of genenators of length \f$n\f$ in 
+  the array ``pg``. Each atom of the word \f$g\f$ is encoded as 
+  defined in the header file ``mmgroup_generators.h``.
+  
+  Parameter \f${v_3}\f$ and the result are given Leech lattice 
+  mod 3 encoding.
+*/
+// %%EXPORT px
+MAT24_API
+uint64_t gen_leech3_op_vector_word(uint64_t v3, uint32_t *pg, uint32_t n)
+{
+    uint_fast32_t tag, i, v;
+    uint8_t perm[24], perm_i[24];
+
+    for (i = 0; i < n; ++i) {
+        v = pg[i];
+        tag = v >> 28;
+        v  &= 0xfffffff;
+        switch(tag) {
+            case 8:
+            case 0:
+            case 8 + 1:
+            case 1:
+            case 8 + 3:
+            case 3:
+               break;
+            case 8 + 2:
+               mat24_m24num_to_perm(v, perm);
+               mat24_inv_perm(perm, perm_i);
+               v3 = gen_leech3_op_pi(v3, perm_i);
+               break;
+            case 2:
+               mat24_m24num_to_perm(v, perm);
+               v3 = gen_leech3_op_pi(v3, perm);
+               break;
+            case 8 + 4:
+            case 4:
+               v3 = gen_leech3_op_y(v3, v & 0x1fffUL);
+               break;
+            case 8 + 5:
+            case 5:
+               v = v % 3;
+               if (v) return 0xffff000000000000ULL;
+               break;
+            case 8 + 6:
+               v ^= 0xfffffff;
+            case 6:
+               if (v)  v3 = gen_leech3_op_xi(v3, v);
+               break;
+            default:
+               return 0xffff000000000000ULL;
+        }
+    }       
+    return short_3_reduce(v3);
+}
+
+
+
+
+/**
+  @brief Atomic operation of \f$G_{x1}\f$ on the Leech lattice mod 3
+
+  Equivalent to ``gen_leech3_op_vector_word(v3, &g, 1)``.
+  
+  Parameter \f${v_3}\f$ and the result are given Leech lattice 
+  mod 3 encoding.
+*/
+// %%EXPORT px
+MAT24_API
+uint64_t gen_leech3_op_vector_atom(uint64_t v3, uint32_t g)
+{
+    return gen_leech3_op_vector_word(v3, &g, 1);
+}
+
+
+
+//  %%GEN h
+//  %%GEN c
+
+
+
+// %%GEN ch
+#ifdef __cplusplus
+}
+#endif
+
+
+
+
