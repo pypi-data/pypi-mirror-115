@@ -1,0 +1,83 @@
+# Introduction
+
+---
+
+This repository include Python scripts that transform raw sensor data collected from Android mobile devices into features of interest for analysis. 
+
+**Current research topic**: identify contextual prompt-level factors that predict response or no response in microEMA. 
+
+**Statistical methodology**: multi-level modeling
+
+**Outcomes**: compliance rate
+
+**Predictors**: 
+
+- Within-person or prompt level: 
+  - time of the day
+  - day of the week
+  - day in study
+  - activity level
+  - battery level
+  - location
+
+- Between-person or person level
+  - age
+  - gender
+  - study mode
+
+# Exploratory Discussions on Factors
+
+---  
+  
+Detailed discussions on factors can be found [here](https://docs.google.com/presentation/d/1u_p3DPljLYUxwfPMLncl004VjWGq7K16nDx_XGsYmR8/edit?usp=sharing).
+
+# Features Overview
+
+---
+**Smartphone**  
+
+| Outcome              | Level                                     | Effect Type | Variable Type                                     | Data Source                                                |
+| ---------------------|-------------------------------------------|-------------|---------------------------------------------------|------------------------------------------------------------|
+| Compliance Rate      | Level 1 (Within-person or prompt level)   | Random      | Numeric                                           | ./logs-watch/PromptResponses.log.csv                       |
+|                      | Level 2 (Between-person or person level)  | Random      |                                                   |                                                            |
+
+
+| Feature              | Level                                     | Effect Type | Variable Type                                     | Data Source                                                |
+| ---------------------|-------------------------------------------|-------------|---------------------------------------------------|------------------------------------------------------------|
+| Day of the Week      | Level 1 (Within-person or prompt level)   | Random      | Categorical (Mon-Sat: 0-6)                        | ./logs-watch/.../PromptResponses.log.csv                   |
+| Time of the Day      | Level 1 (Within-person or prompt level)   | Random      | Categorical (morning, afternoon, evening/night)   | ./logs-watch/.../PromptResponses.log.csv                   |
+| Days in Study        | Level 1 (Within-person or prompt level)   | Random      | Numeric (numeric value of day from the first day) | ./logs-watch (start from the first date of created folder) |
+| Battery Level        | Level 1 (Within-person or prompt level)   | Random      | Numeric (Battery%)                                | ./data-watch/.../Battery.##.event.csv                  |
+| Location (LOC)       | Level 1 (Within-person or prompt level)   | Random      |                                                   |                                                            |
+| Activity Level (ACT) | Level 1 (Within-person or prompt level)   | Random      |                                                   |                                                            |
+  
+
+---
+**Smartwatch**  
+
+| Outcome              | Level                                     | Effect Type | Variable Type                                     | Data Source                                                |
+| ---------------------|-------------------------------------------|-------------|---------------------------------------------------|------------------------------------------------------------|
+| Compliance Rate      | Level 1 (Within-person or prompt level)   | Random      | Numeric                                           | ./logs-watch/PromptResponses.log.csv                       |
+|                      | Level 2 (Between-person or person level)  | Random      |                                                   |                                                            |
+
+
+| Feature              | Level                                     | Effect Type | Variable Type                                     | Data Source                                                |
+| ---------------------|-------------------------------------------|-------------|---------------------------------------------------|------------------------------------------------------------|
+| Day of the Week      | Level 1 (Within-person or prompt level)   | Random      | Categorical (Mon-Sat: 0-6)                        | ./logs-watch/.../PromptResponses.log.csv                   |
+| Time of the Day      | Level 1 (Within-person or prompt level)   | Random      | Categorical (morning, afternoon, evening/night)   | ./logs-watch/.../PromptResponses.log.csv                   |
+| Days in Study        | Level 1 (Within-person or prompt level)   | Random      | Numeric (numeric value of day from the first day) | ./logs-watch (start from the first date of created folder) |
+| Battery Level        | Level 1 (Within-person or prompt level)   | Random      | Numeric (Battery%)                                | ./data-watch/.../Battery.##.event.csv                  |
+| Location (LOC)       | Level 1 (Within-person or prompt level)   | Random      |                                                   |                                                            |
+| Activity Level (ACT) | Level 1 (Within-person or prompt level)   | Random      |                                                   |                                                            |
+
+
+
+# Code Usage for Feature Matrix Generation
+
+---
+
+```
+#!python
+python main.py [intermediate_root_path] [feature_save_path] [participants_included_text_file_path] start_date end_date
+```
+e.g., python main.py E:\ E:\ C:\Users\jixin\Documents\GitHub\microt_compliance\analysis_task\watch_participants_included.txt 2020-01-01 2020-08-01
