@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+src/QtDesign/__init__.py
+src/QtDesign.egg-info/PKG-INFO
+src/QtDesign.egg-info/SOURCES.txt
+src/QtDesign.egg-info/dependency_links.txt
+src/QtDesign.egg-info/top_level.txt
+src/QtDesign/QtdUiTools/QDesignLoader.py
+src/QtDesign/QtdUiTools/__init__.py
+src/QtDesign/QtdWidgets/QCardWidget.py
+src/QtDesign/QtdWidgets/QRichTabBar.py
+src/QtDesign/QtdWidgets/QRichTabWidget.py
+src/QtDesign/QtdWidgets/__init__.py
