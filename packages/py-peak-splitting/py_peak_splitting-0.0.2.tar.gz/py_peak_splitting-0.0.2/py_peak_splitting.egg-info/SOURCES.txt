@@ -1,0 +1,13 @@
+LICENCE
+LICENSE.txt
+README.md
+setup.py
+py_peak_splitting/__init__.py
+py_peak_splitting/hampel_filter.py
+py_peak_splitting/simulate_ps_signals.py
+py_peak_splitting/th_filter.py
+py_peak_splitting.egg-info/PKG-INFO
+py_peak_splitting.egg-info/SOURCES.txt
+py_peak_splitting.egg-info/dependency_links.txt
+py_peak_splitting.egg-info/requires.txt
+py_peak_splitting.egg-info/top_level.txt
