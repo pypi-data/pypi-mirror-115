@@ -1,0 +1,3 @@
+[console_scripts]
+compile-graph=compile_graph.compile_graph:main
+
