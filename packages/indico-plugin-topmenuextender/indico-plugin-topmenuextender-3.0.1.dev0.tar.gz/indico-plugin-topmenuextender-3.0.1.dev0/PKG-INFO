@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: indico-plugin-topmenuextender
+Version: 3.0.1.dev0
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: MLZ indico team
+Author-email: bjoern.pedersen@frm2.tum.de
+License: MIT
+Platform: UNKNOWN
+Classifier: Environment :: Plugins
+Classifier: Environment :: Web Environment
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+License-File: LICENSE
+
+UNKNOWN
+

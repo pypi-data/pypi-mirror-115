@@ -1,0 +1,17 @@
+.gitignore
+.style.yapf
+LICENSE
+README.md
+pyproject.toml
+setup.py
+.github/workflows/python-publish.yml
+indico_plugin_topmenuextender.egg-info/PKG-INFO
+indico_plugin_topmenuextender.egg-info/SOURCES.txt
+indico_plugin_topmenuextender.egg-info/dependency_links.txt
+indico_plugin_topmenuextender.egg-info/entry_points.txt
+indico_plugin_topmenuextender.egg-info/not-zip-safe
+indico_plugin_topmenuextender.egg-info/requires.txt
+indico_plugin_topmenuextender.egg-info/top_level.txt
+indico_topmenu_extender/__init__.py
+indico_topmenu_extender/plugin.py
+indico_topmenu_extender/version.py
