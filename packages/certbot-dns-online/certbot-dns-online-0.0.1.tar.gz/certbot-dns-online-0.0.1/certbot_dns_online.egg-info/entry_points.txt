@@ -1,0 +1,3 @@
+[certbot.plugins]
+dns-online = certbot_dns_online._internal.dns_online:Authenticator
+
