@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: useful-classes
+Version: 0.1.2
+Summary: A bundle of useful python classes
+Home-page: https://github.com/BarakBenzi/useful_classes
+Author: Benzi
+Author-email: BarakBenZion@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+Just import and start using :)
+
+
