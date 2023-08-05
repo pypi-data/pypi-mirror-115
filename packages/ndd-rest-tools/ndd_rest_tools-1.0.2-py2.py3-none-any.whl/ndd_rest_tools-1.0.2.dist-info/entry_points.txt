@@ -1,0 +1,3 @@
+[console_scripts]
+welcome = ndd_rest_tools:welcome
+
