@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: gotify
+Version: 0.2.0
+Summary: Access your gotify server.
+Home-page: https://github.com/d-k-bo/python-gotify
+Author: d-k-bo
+Author-email: dkbo@mail.de
