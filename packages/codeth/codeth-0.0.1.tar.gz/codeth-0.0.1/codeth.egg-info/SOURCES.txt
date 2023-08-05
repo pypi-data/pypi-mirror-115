@@ -1,0 +1,8 @@
+README.md
+setup.py
+codeth/__init__.py
+codeth/codeth.py
+codeth.egg-info/PKG-INFO
+codeth.egg-info/SOURCES.txt
+codeth.egg-info/dependency_links.txt
+codeth.egg-info/top_level.txt
