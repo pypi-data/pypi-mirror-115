@@ -1,0 +1,15 @@
+AdapAttnIC.py,sha256=VD8mnUvUSjj8F1_I_ZsJ7LZkFCb2L1EP0D23pp9TZ7I,6018
+CharCNN.py,sha256=C1zcuDL_YQEE_1ZTqiZcUhDRIQ2zHUrvO6YXMd93sBA,1532
+Inpainting.py,sha256=FFYnVuxiVS164vYkTssuXSRY1EWK5oXHCQoE7romgqM,27390
+PSPNet.py,sha256=xItj7lmtfU-nLscYzFlofgLJKN1AN5ZWth4bIEr7xnM,3833
+PointNet.py,sha256=aP4mgc_T4vb6j2X7e1rkC9NYPx3jvLg9fGV9rk6nt6Q,5161
+StackGAN.py,sha256=ZquoP_5SMGkzujK77TFxf74NG-rsrklwViQ6HfrAFao,12041
+UNet.py,sha256=sA3fBsy8QFSBcGUYqZqQtNklLiBgYHzY1x3HQzbf7eQ,7530
+UNetPP.py,sha256=gFKrXIRAcNMcvfxhIBjG16krQrEg9UmJXON69ZD3DzM,7392
+modelzoo_iitm.py,sha256=VedoyRh-3Pg30bbabwRz0Q6l7HSCzgSzwXv20FZpqX0,6048
+resnet.py,sha256=ji2lL04FGRSiXEUcXw6VFHPURLNoZRs5rq__SgXh-OE,7828
+modelzoo_iitm-0.0.4.dist-info/LICENSE.txt,sha256=ZXMaZdW3ZeY4avyjO7OKY2JXd94fpjIeC8qGrDbsv0o,1069
+modelzoo_iitm-0.0.4.dist-info/METADATA,sha256=dkI8aahFlxpaQA0ab_ygM3hwCWTnodYDa_2xH52Axd4,1236
+modelzoo_iitm-0.0.4.dist-info/WHEEL,sha256=pqI-DBMA-Z6OTNov1nVxs7mwm6Yj2kHZGNp_6krVn1E,92
+modelzoo_iitm-0.0.4.dist-info/top_level.txt,sha256=SGy6_iQ11qDvSwBIVwzfUWOcvO2BhCdR0HGzDybEXW8,14
+modelzoo_iitm-0.0.4.dist-info/RECORD,,
