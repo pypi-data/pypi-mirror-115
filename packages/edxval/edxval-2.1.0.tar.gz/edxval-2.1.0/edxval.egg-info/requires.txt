@@ -1,0 +1,10 @@
+edx-toggles>=2.0.0
+pact-python
+django-storages
+lxml
+pysrt
+edx-drf-extensions
+django-model-utils
+Django>=1.11
+boto
+django-fernet-fields
