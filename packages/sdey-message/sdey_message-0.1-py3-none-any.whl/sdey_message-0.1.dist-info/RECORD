@@ -1,0 +1,9 @@
+com/__init__.py,sha256=Ithf0mtyVLLF4Wrqe5a3MoaXAWT1MxWpkLdxpcwgXHg,13
+com/sdey/__init__.py,sha256=Ithf0mtyVLLF4Wrqe5a3MoaXAWT1MxWpkLdxpcwgXHg,13
+com/sdey/info/__init__.py,sha256=4UiOk-Tlwf6WEvQyWv7T-J6KP-JjVZsKVPbprdwGayw,50
+com/sdey/info/sys_argv.py,sha256=QhSQonZRKkHQCFhLrDRxE-9EnmqJN56bR000ysqcBtY,225
+com/sdey/info/sys_module.py,sha256=5kPf6gVbdHHFRsOHogpg4FwI8XcPBqoQjy7xno6LbPc,246
+sdey_message-0.1.dist-info/METADATA,sha256=J4IOngjkin4SQcxyAkegwd4BAxvOAj9QOiFieR1lBx4,215
+sdey_message-0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+sdey_message-0.1.dist-info/top_level.txt,sha256=A7eVUp0bsHtbJ7vD4f_Ju79_mDJojU9deED6-LV9_s0,4
+sdey_message-0.1.dist-info/RECORD,,
