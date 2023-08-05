@@ -1,0 +1,9 @@
+LICENSE
+setup.py
+Dino_Chrome.egg-info/PKG-INFO
+Dino_Chrome.egg-info/SOURCES.txt
+Dino_Chrome.egg-info/dependency_links.txt
+Dino_Chrome.egg-info/requires.txt
+Dino_Chrome.egg-info/top_level.txt
+dino_chrome/__init__.py
+dino_chrome/main.py
