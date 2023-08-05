@@ -1,0 +1,106 @@
+Metadata-Version: 2.1
+Name: ksonpy
+Version: 0.0.8
+Summary: KSON is JSON with embedded SQL and networking
+Home-page: https://gitlab.com/jacob.brazeal/ksonpy
+Author: Jacob Brazeal
+Author-email: jacob.brazeal@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://gitlab.com/jacob.brazeal/ksonpy/-/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+
+# KSON: JSON with SQL and Networking
+
+> Of course it's a good idea: why would you ask?
+
+KSON is a superset of JSON with the following features:
+
+- Remote document references (so you can embed a JSON, KSON, or CSV file available at a public URL or file address)
+- Embedded SQL: Write queries against other objects in your JSON file (including references and deeply nested objects)
+  with the full power of SQLite and have the queries evaluate to JSON
+- Use comments (`/* ... */`) and global named references (`"foo": "bar" as myRef`).
+- Compiles to JSON: Run `kson file.kson` (see installation instructions below) and boom! you have JSON.
+
+KSON combines the portability of the top data exchange formats (JSON, CSV) with the expressiveness of the leading data
+querying language
+(SQL), and the flexibility of dynamic embedded references.
+
+## Installation
+
+Run
+
+```bash
+python3 -m pip install -g kson
+```
+
+This will create a global executable `kson` which you can run on
+`.kson` files to produce `.json` output:
+
+```bash
+kson file.kson [--indent <integer>]
+```
+
+or pipe to a file:
+
+```bash
+kson file.kson > file.json
+```
+
+## Examples
+
+You can find examples in the `examples/` directory.
+
+- [examples/gdp.kson](examples/gdp.kson): Demonstrates how you can query an external data source (in this case, CSV file
+  on GitHub.)
+- [examples/join-gdp-and-population.kson](examples/join-gdp-and-population.kson): Fetch data from _two_ data sources (
+  GDP by country and population by country) and perform a join to see GDP per capita.
+
+## FAQ
+
+### How does this work?
+
+It's pretty simple, actually: First we parse the KSON file
+via [recursive descent](https://en.wikipedia.org/wiki/Recursive_descent_parser). Where JSON has arrays and dictionaries,
+we throw in a few extra types - refs, aliases, and SQL queries.
+
+To compile the file, we traverse the tree, making network requests, building appropriately-named SQLite tables, and
+performing SQL queries as we go, eventually collapsing the whole business to JSON.
+
+Some constraints of this approach are that we make network requests in serial, and that you must define an alias before
+any SQL queries which use it. On the other hand, we achieve a great deal of flexibility in indexing into deeply nested
+remote documents: suppose a remote document has a structure like so:
+
+```json
+{
+  "foo": {
+    "bar": {
+      "baz": [
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  }
+}
+
+```
+
+If we alias the document as `doc`, then our SQL queries can acess the contents of the array by querying
+`select * from "$doc$foo$bar$baz"`.
+
+### Is this a good idea, and where did you get it?
+
+Haha, well, um. More appropriate adjectives might include "interesting", "tempting", and "risky".
+
+For reasons which are best elided, I had to write an enormous number of JSON parsers in a short period of time, and then
+got some additional ideas about the format. It's called "KSON" because k comes after j, get it? :-)
+
+
