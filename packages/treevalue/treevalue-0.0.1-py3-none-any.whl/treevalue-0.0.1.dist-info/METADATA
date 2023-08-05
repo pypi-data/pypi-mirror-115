@@ -1,0 +1,119 @@
+Metadata-Version: 2.1
+Name: treevalue
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: https://github.com/HansBug/treevalue
+Author: HansBug, DI-engine's Contributors
+Author-email: hansbug@buaa.edu.cn
+License: Apache License, Version 2.0
+Keywords: Tree-structured Value Management
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: enum-tools
+Requires-Dist: treelib (<2,>=1.5)
+Provides-Extra: doc
+Requires-Dist: sphinx (>=2.2.1) ; extra == 'doc'
+Requires-Dist: sphinx-rtd-theme (~=0.4.3) ; extra == 'doc'
+Requires-Dist: enum-tools ; extra == 'doc'
+Requires-Dist: sphinx-toolbox ; extra == 'doc'
+Requires-Dist: plantumlcli (>=0.0.2) ; extra == 'doc'
+Requires-Dist: packaging ; extra == 'doc'
+Requires-Dist: sphinx-multiversion (~=0.2.4) ; extra == 'doc'
+Requires-Dist: where (~=1.0.2) ; extra == 'doc'
+Requires-Dist: numpy (<2,>=1.19) ; extra == 'doc'
+Requires-Dist: easydict (<2,>=1.7) ; extra == 'doc'
+Provides-Extra: test
+Requires-Dist: coverage (<5,>=4) ; extra == 'test'
+Requires-Dist: mock (>=4.0.3) ; extra == 'test'
+Requires-Dist: flake8 (~=3.5) ; extra == 'test'
+Requires-Dist: pytest (~=5.4.3) ; extra == 'test'
+Requires-Dist: pytest-cov (~=2.10.1) ; extra == 'test'
+Requires-Dist: pytest-mock (~=3.5.1) ; extra == 'test'
+Requires-Dist: pytest-forked (~=1.3.0) ; extra == 'test'
+Requires-Dist: pytest-xdist (~=1.34.0) ; extra == 'test'
+Requires-Dist: pytest-timeout (~=1.4.2) ; extra == 'test'
+Requires-Dist: pytest-rerunfailures (~=9.1.1) ; extra == 'test'
+Requires-Dist: numpy (<2,>=1.19) ; extra == 'test'
+Requires-Dist: torch (<=1.8.0,>=1.3.1) ; extra == 'test'
+Requires-Dist: easydict (<2,>=1.7) ; extra == 'test'
+
+# treevalue
+
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![Docs Deploy](https://github.com/opendilab/treevalue/workflows/Docs%20Deploy/badge.svg)](https://github.com/opendilab/treevalue/actions?query=workflow%3A%22Docs+Deploy%22)
+[![Code Test](https://github.com/opendilab/treevalue/workflows/Code%20Test/badge.svg)](https://github.com/opendilab/treevalue/actions?query=workflow%3A%22Code+Test%22)
+[![codecov](https://codecov.io/gh/opendilab/treevalue/branch/main/graph/badge.svg?token=XJVDP4EFAT)](https://codecov.io/gh/opendilab/treevalue)
+
+![Loc](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/HansBug/ff0bc026423888cd7c4f287eaed4b3f5/raw/loc.json)
+![Comments](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/HansBug/ff0bc026423888cd7c4f287eaed4b3f5/raw/comments.json)
+
+`TreeValue` is a generalized tree-based data structure.
+Almost all the operation can be supported in form of trees in a convenient way to simplify the structure processing when the calculation is tree-based.
+
+## Installation
+
+You can simply install it with `pip` command line from the official PyPI site.
+
+```shell
+pip install treevalue
+```
+
+For more information about installation, you can refer to [Installation](https://opendilab.github.io/treevalue/main/tutorials/installation/index.html#).
+
+## Documentation
+
+The detailed documentation are hosted on [https://opendilab.github.io/treevalue](https://opendilab.github.io/treevalue/).
+
+Only english version is provided now, the chinese documentation is still under development.
+
+## Quick Start
+
+You can easily create a tree value object based on `FastTreeValue`.
+
+```python
+from treevalue import FastTreeValue
+
+if __name__ == '__main__':
+    t = FastTreeValue({'a': 1, 'b': 2, 'x': {'c': 3, 'd': 4}})
+    print(t)
+```
+
+The result should be
+
+```text
+<FastTreeValue 0x7fbbe2979f90 keys: ['a', 'b', 'x']>
+├── 'a' --> 1
+├── 'b' --> 2
+└── 'x' --> <FastTreeValue 0x7fbbe2979a10 keys: ['c', 'd']>
+    ├── 'c' --> 3
+    └── 'd' --> 4
+```
+
+For more quick start explanation and further usage, take a look at:
+
+* [Quick Start](https://opendilab.github.io/treevalue/main/tutorials/quick_start/index.html)
+* [Basic Usage](https://opendilab.github.io/treevalue/main/tutorials/basic_usage/index.html)
+* [Advanced Usage](https://opendilab.github.io/treevalue/main/tutorials/advanced_usage/index.html)
+
+## Contributin
+
+We appreciate all contributions to improve treevalue, both logic and system designs. Please refer to CONTRIBUTING.md for more guides.
+
+## License
+
+`treevalue` released under the Apache 2.0 license.
+
+
