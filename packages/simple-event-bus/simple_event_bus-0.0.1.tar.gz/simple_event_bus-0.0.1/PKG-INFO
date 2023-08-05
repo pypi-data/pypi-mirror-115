@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: simple_event_bus
+Version: 0.0.1
+Summary: a simple python event bus
+Home-page: https://github.com/AngusWG/simple-event-bus
+Author: AngusWG
+Author-email: z740713651@outlook.com
+License: MIT license
+Description: # simple-event-bus
+        
+        --- 
+        
+        a simple python event bus
+        
+        ## Install:
+        
+        ``` bash
+        pip install simple_event_bus
+        ```
+        
+        ## Example:
+        
+        
+        ## Features
+        
+        ---
+        
+        * EventBus
+        * AsyncEventBus
+        * EventBus.run_forever function
+        * EventBus.publish_event accept Event , EVENT_TYPE and str.
+        * Event can get current_app
+        * listening function args check
+        
+        ---
+        
+        * [Black formatter](https://github.com/psf/black)
+        
+        > This project use black, please set `Continuation indent` = 4  
+        > Pycharm - File - Settings - Editor - Code Style - Python - Tabs and Indents
+        
+        * [Flake8 lint](https://github.com/PyCQA/flake8)
+        
+        > Use flake8 to check your code style.
+        
+        * This project is made by [AngusWG/cookiecutter-py-package](https://github.com/AngusWG/cookiecutter-py-package.git)
+        
+        
+        # simple_event_bus history
+        
+        ----
+        
+        ## 0.0.0
+        
+        * first commit
+        
+Keywords: simple_event_bus
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Provides-Extra: dev_require
