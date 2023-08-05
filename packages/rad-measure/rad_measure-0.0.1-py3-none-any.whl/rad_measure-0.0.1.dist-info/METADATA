@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: rad-measure
+Version: 0.0.1
+Summary: Are VQA systems RAD? Measuring robustness to augmented data with focused interventions
+Home-page: https://github.com/danrosenberg/rad-measure
+Author: Daniel Rosenberg
+Author-email: daniel.rnberg@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/danrosenberg/rad-measure/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+![rad_flowchart](https://user-images.githubusercontent.com/84754885/120110941-6b938b80-c178-11eb-9929-c5a95e5ac868.png)
+
+## RAD Measure
+
+This repository implements tools for general purpose RAD calculation. In particular, it contains specific VQA tools that integrate with our proposed dataset.
+
+Please see our paper for more details: [Are VQA systems RAD? Measuring robustness to augmented data with focused interventions](https://arxiv.org/abs/2106.04484).
+
+## Our YesNoVQA Dataset
+
+Please visit our website for [downloads, examples, and usage instructions](https://danrosenberg.github.io/rad-measure/).
+
+## Code
+
+Coming soon...
+
+
