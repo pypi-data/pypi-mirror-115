@@ -1,0 +1,5 @@
+#!python
+
+from card_temps.temps import main
+
+main()
