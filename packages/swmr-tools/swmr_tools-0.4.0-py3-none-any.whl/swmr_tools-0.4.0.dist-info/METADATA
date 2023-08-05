@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: swmr-tools
+Version: 0.4.0
+Summary: Python iterator for safely monitoring NeXus files
+Home-page: https://github.com/DiamondLightSource/python-swmrtools
+Author: Diamond Light Source Ltd
+Author-email: scientificsoftware@diamond.ac.uk
+License: MIT
+Download-URL: https://github.com/DiamondLightSource/python-swmrtools/v0.3.tar.gz
+Keywords: HDF5,Iterator,Diamond
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+License-File: LICENSE
+Requires-Dist: h5py
+Requires-Dist: numpy
+
+UNKNOWN
+
