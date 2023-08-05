@@ -1,0 +1,13 @@
+lastpass_aws_login/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lastpass_aws_login/conf.py,sha256=rQ8rfbrggH6ZG12b86MDucCFpcvY6VkNtyOg-SdaU18,4406
+lastpass_aws_login/credentials.py,sha256=uphff2fWCFY3-VtVVa00uQfQwlEvyU2xbZ7KVnV39ko,848
+lastpass_aws_login/exceptions.py,sha256=VO64V78rTKy6TpEG-H8Djz7CP6EbL_2x-1GBdCQe5f4,743
+lastpass_aws_login/lastpass.py,sha256=GdkQhVH407F4cgL89J6hkpnufwvi6HiOi5S5yP6tqjI,8354
+lastpass_aws_login/main.py,sha256=RUloKMBtYASqUq4pYHFXkNd2U0D36RZu6KqaphE8ebI,4432
+lastpass_aws_login/utils.py,sha256=067k5vEsH940VTPDgW4TjERmVK3DpBl-ISiM6Jqm1Ew,1219
+lastpass_aws_login-0.1.5.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+lastpass_aws_login-0.1.5.dist-info/METADATA,sha256=yxJTGyw_RQBw_PHlXJHLiasx_y2f9CkcWndrBdXU_cY,2621
+lastpass_aws_login-0.1.5.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+lastpass_aws_login-0.1.5.dist-info/entry_points.txt,sha256=BgOplz6q7qONSjEpEZCAA0aFRKa9_L1d_gPf7SuTB5c,69
+lastpass_aws_login-0.1.5.dist-info/top_level.txt,sha256=6Fvfr76OsRUI3ejLjZHfiY6_GDlu9UxHGo3ucxA5KFI,19
+lastpass_aws_login-0.1.5.dist-info/RECORD,,
