@@ -1,0 +1,12 @@
+ellatu/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ellatu/ellatu.py,sha256=959AsobQSA1BB4AdVoBYROy7C_corS_Q2LjXPzsuE_Q,27518
+ellatu/ellatu_bot.py,sha256=EnOhgDZFaQ-G8pzGA6-Kt3XW9XKJDWZiwn7_rpAkw7g,7282
+ellatu/ellatu_db.py,sha256=EkgbCgMiJwoDSBTBEzW_adWC9NfwHJeRHsXp0gAxeEs,18862
+ellatu/ellatu_main.py,sha256=8czqfdEDeE3shkjM3hg7RxlHGEsh6e2JzNQRDNajoKc,3516
+ellatu/image_editing.py,sha256=KGlOYNQrrXSeAkhK8KiGkye3WebZlTsN8sGUP8Xukyc,1568
+ellatu/mapper.py,sha256=ZcVcapJ9B6dTuoS7im34w3SdH04HFd4iQ3iHEZYNqz4,21517
+ellatu/mapper_pipeline.py,sha256=7Ho_7KZ5n40-pCoFlN0553y4U_L4jY6uUwsR8_OaAto,3247
+ellatu-0.0.3.dist-info/METADATA,sha256=1ZTbNzPks83ucHOZOr-thDs836d4oKaJChZ-blDAlKE,467
+ellatu-0.0.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+ellatu-0.0.3.dist-info/top_level.txt,sha256=_F0A3j8kKlivI8Thl83BTqEObYKMThv54sBVm6nqixE,7
+ellatu-0.0.3.dist-info/RECORD,,
