@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+avi_basic_calculator.egg-info/PKG-INFO
+avi_basic_calculator.egg-info/SOURCES.txt
+avi_basic_calculator.egg-info/dependency_links.txt
+avi_basic_calculator.egg-info/top_level.txt
+basic-calculator/__init__.py
