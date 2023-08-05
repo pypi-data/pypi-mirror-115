@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: calcx
+Version: 0.0.3
+Summary: Calculate the indicators of fund
+Home-page: UNKNOWN
+Author: ZD
+Author-email: 995084571@qq.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: System :: Logging
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
