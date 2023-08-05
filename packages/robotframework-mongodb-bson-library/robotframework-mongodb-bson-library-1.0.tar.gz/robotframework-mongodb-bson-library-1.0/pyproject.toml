@@ -1,0 +1,8 @@
+[build-system]
+requires = [
+    "twine>=1.13.0",
+    "setuptools>=41.0.1",
+    "virtualenv>=16.7.2",
+    "wheel>=0.33.4"
+]
+build-backend = "setuptools.build_meta"
