@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+yeoboseyo.egg-info/PKG-INFO
+yeoboseyo.egg-info/SOURCES.txt
+yeoboseyo.egg-info/dependency_links.txt
+yeoboseyo.egg-info/not-zip-safe
+yeoboseyo.egg-info/requires.txt
+yeoboseyo.egg-info/top_level.txt
