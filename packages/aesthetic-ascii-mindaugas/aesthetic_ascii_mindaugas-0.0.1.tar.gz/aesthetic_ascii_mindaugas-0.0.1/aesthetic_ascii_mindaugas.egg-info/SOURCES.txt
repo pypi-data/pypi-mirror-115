@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+aesthetic_ascii_mindaugas/__init__.py
+aesthetic_ascii_mindaugas/synthesize.py
+aesthetic_ascii_mindaugas.egg-info/PKG-INFO
+aesthetic_ascii_mindaugas.egg-info/SOURCES.txt
+aesthetic_ascii_mindaugas.egg-info/dependency_links.txt
+aesthetic_ascii_mindaugas.egg-info/top_level.txt
