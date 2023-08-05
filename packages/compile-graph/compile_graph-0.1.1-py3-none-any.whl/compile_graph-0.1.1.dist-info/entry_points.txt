@@ -1,0 +1,3 @@
+[compile-graph]
+main=compile_graph:main
+
