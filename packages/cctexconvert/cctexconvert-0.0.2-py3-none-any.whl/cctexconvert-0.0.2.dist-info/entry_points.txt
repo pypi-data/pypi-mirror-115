@@ -1,0 +1,3 @@
+[console_scripts]
+cctexconvert = cctexconvert.cli:main
+
