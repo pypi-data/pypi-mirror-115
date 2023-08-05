@@ -1,0 +1,7 @@
+README.md
+setup.py
+p5Launcher.egg-info/PKG-INFO
+p5Launcher.egg-info/SOURCES.txt
+p5Launcher.egg-info/dependency_links.txt
+p5Launcher.egg-info/requires.txt
+p5Launcher.egg-info/top_level.txt
