@@ -1,0 +1,11 @@
+py3streams/__init__.py,sha256=N2kdeh-59hE3DEkU2vwJuPczSoiBBLSyWutCaohHVQo,121
+py3streams/dict_stream.py,sha256=yH390gk4bEwPpTs72dLeDMcpv0lXG2xJtl7udeqFZ1A,1098
+py3streams/int_stream.py,sha256=FV_dG4KGIEhSMbxsWmHLPRUDd5FSaJG9PAU-uCYTMcA,451
+py3streams/optional.py,sha256=qm8Vjs3O9DFkUSK_VhbYF_7bGo8WyT8ZUchkG4h_Od8,1518
+py3streams/stream.py,sha256=UeGAaiWzFCyabqBjTebVwIBtyK-SpPgsMwqnq4ZOyNE,2711
+py3streams/stream_base.py,sha256=wR0KcFb4tajiiQKvga8AEZ0Wc-iJH5sPXCjJOISsRAA,1358
+py3streams-0.1.1.dist-info/LICENSE,sha256=sNWiimYlodZBOrcB_0RiM_qSFNf4EEBF6UEtl7S9gZs,1068
+py3streams-0.1.1.dist-info/METADATA,sha256=oW-M8JiHAhbqaG0oQZUdQIZBMYBeWRwwZigpVmjdC38,5335
+py3streams-0.1.1.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+py3streams-0.1.1.dist-info/top_level.txt,sha256=xVkJFcpByqF27MWnCVht0LgXcl1YybKNa7D2z3hcAlo,11
+py3streams-0.1.1.dist-info/RECORD,,
