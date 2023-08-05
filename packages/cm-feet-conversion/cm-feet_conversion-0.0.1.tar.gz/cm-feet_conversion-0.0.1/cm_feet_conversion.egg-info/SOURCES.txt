@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+cm-feet_conversion/__init__.py
+cm_feet_conversion.egg-info/PKG-INFO
+cm_feet_conversion.egg-info/SOURCES.txt
+cm_feet_conversion.egg-info/dependency_links.txt
+cm_feet_conversion.egg-info/top_level.txt
