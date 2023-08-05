@@ -1,0 +1,8 @@
+setup.py
+OsEasyControl/OsEasyControl.py
+OsEasyControl/__init__.py
+OsEasyControl.egg-info/PKG-INFO
+OsEasyControl.egg-info/SOURCES.txt
+OsEasyControl.egg-info/dependency_links.txt
+OsEasyControl.egg-info/not-zip-safe
+OsEasyControl.egg-info/top_level.txt

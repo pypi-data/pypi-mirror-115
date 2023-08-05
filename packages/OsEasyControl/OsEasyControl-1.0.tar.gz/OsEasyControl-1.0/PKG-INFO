@@ -1,0 +1,18 @@
+Metadata-Version: 1.2
+Name: OsEasyControl
+Version: 1.0
+Summary: Easy to use cmd in py
+Home-page: https://github.com/sweetpotato0530/OsEasyControl-Python-
+Author: 자색치즈고구마
+Author-email: s.potato0530@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: OsEasyControl
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3
