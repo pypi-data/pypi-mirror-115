@@ -1,0 +1,14 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+package.yml
+setup.py
+src/nr/__init__.py
+src/nr.collections.egg-info/PKG-INFO
+src/nr.collections.egg-info/SOURCES.txt
+src/nr.collections.egg-info/dependency_links.txt
+src/nr.collections.egg-info/top_level.txt
+src/nr.collections.egg-info/zip-safe
+src/nr/collections/__init__.py
+src/nr/collections/chaindict.py
+src/nr/collections/orderedset.py

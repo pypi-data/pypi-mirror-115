@@ -1,0 +1,10 @@
+name: nr.collections
+version: 1.0.0
+description: Useful container datatypes for Python 2 and 3.
+requirements:
+- python ^3.6
+test-requirements:
+- nr.fs ^1.5.0
+- pytest
+test-driver:
+  type: pytest
