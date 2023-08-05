@@ -1,0 +1,3 @@
+pywebview==3.4
+pyp5js
+livereload
