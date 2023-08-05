@@ -1,0 +1,15 @@
+test_poetry99/__init__.py,sha256=iTeq0oa_IKd1bUa9nY9Sr_jZqO6_WhZOjTvuY7o-E3Q,1062
+test_poetry99/auth.py,sha256=CDPwonxTLiOLowX40-H70Xk9QjGdMR-YUJom6Xo7smA,2590
+test_poetry99/blog.py,sha256=8l4kL-JJV1bvUytZTrpuYi0DsdqUwb-VijKtCK45dzM,2543
+test_poetry99/db.py,sha256=8pEJRdT-Sd8L9mcxhvyH-xy85WqXNBXC6Uy9t3cPXwE,922
+test_poetry99/schema.sql,sha256=eLPFmwtLpZPgv4WmcxFnJ4OQyQ5wzFcMWFMop2oc430,417
+test_poetry99/static/style.css,sha256=3uFMH7UCIduHLK1yQvKBJ15cadEeQlxJ4PGeC83Zd4M,1536
+test_poetry99/templates/auth/login.html,sha256=4Ok2ltk8o6nRENsYJ1InDI7qeVhtqAQQpkQeQuk9d9s,423
+test_poetry99/templates/auth/register.html,sha256=lL6fy7Ib8WS_oXoOFnqr91NYi2Y7F9bRrr19s0fzZUo,427
+test_poetry99/templates/base.html,sha256=KYPii_-o1hMjC3uFIz7GTR_GkHm3kDz_1Uhg0dvk9c8,714
+test_poetry99/templates/blog/create.html,sha256=rrt17x0O8h0U7o7Mh6KNmVCjx01LJIkxYwf83Os8SKg,446
+test_poetry99/templates/blog/index.html,sha256=cUuzTgEnKV9unQwndOdK-Ylq3G1aqGAcvE2NbmFEREY,789
+test_poetry99/templates/blog/update.html,sha256=11UMjtvG50PR8tuvbJNRsTaSUdbx_2ovFArbaIVvAbg,695
+test_poetry99-0.1.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+test_poetry99-0.1.0.dist-info/METADATA,sha256=Q3VwnE5ZFtGf19Sgs_Tuh5bSbzKwO41JZmysINCZYwo,422
+test_poetry99-0.1.0.dist-info/RECORD,,
