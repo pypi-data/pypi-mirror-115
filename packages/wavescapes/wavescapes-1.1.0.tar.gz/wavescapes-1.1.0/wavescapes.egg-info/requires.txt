@@ -1,0 +1,5 @@
+numpy
+music21
+pretty_midi
+matplotlib
+madmom
