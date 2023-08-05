@@ -1,0 +1,13 @@
+detect_and_display/__init__.py,sha256=KknlAH4mniLOjuXXcD6C1MPVA6yy_m7oevXSJxj6p3I,255
+detect_and_display/detect_and_display.py,sha256=8B0FmePQ7c2OYdrdrP_Tmd1S4TYvUxAqJGL7Co3ifPI,227
+detect_and_display/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+detect_and_display/utils/detect_and_display_logger.py,sha256=x_L_PTxtxTt-eT1A_o_LCu9D-6AN2YLwN4w_wjynPWQ,673
+detect_and_display/utils/singleton.py,sha256=Ul3G3tK3tJBz87VZGu7_AUbU8GH3fdOFgz9hHS4g144,379
+detect_and_display_cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+detect_and_display_cli/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+detect_and_display_cli/commands/cmd_display.py,sha256=rsk6ULlahzeQ_TrkC6rIRPK8oMBcdyVyp_ax2aHMONs,325
+detect_and_display_cli/detect_and_display_cli.py,sha256=HYGaIzCjxo0najdKT1EV4UOwMe0wk-yCCP4IjpL9MqM,2072
+detect_and_display-0.1.1.dist-info/entry_points.txt,sha256=ZDNSjv7zV3_V14FFtz11lQ_KSQUoJKE9AhhcYPeqGcg,88
+detect_and_display-0.1.1.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+detect_and_display-0.1.1.dist-info/METADATA,sha256=FsSZKMOsZEkmYI1vGAh3oRJ4aDrryLjN8_UFqtMMKEY,346
+detect_and_display-0.1.1.dist-info/RECORD,,

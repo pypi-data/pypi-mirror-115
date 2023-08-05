@@ -1,0 +1,3 @@
+[console_scripts]
+detect-and-display=detect_and_display_cli.detect_and_display_cli:cli
+
