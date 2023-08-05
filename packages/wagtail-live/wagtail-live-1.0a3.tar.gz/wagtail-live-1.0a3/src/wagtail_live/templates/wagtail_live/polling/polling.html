@@ -1,0 +1,10 @@
+{% load static %}
+
+<script src="{% static 'wagtail_live/js/live_posts_tracker.js' %}"></script>
+
+<script>
+    const basePollingURL = `/wagtail_live/get-updates/${channelID}/`;
+    const SHAKING_INTERVAL = 1000;
+    let lastUpdateReceivedAt;
+    let livePostsTracker = new LivePostsTracker();
+</script>
