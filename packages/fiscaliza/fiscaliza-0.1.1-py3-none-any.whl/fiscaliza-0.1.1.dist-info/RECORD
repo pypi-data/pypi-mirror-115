@@ -1,0 +1,15 @@
+fiscaliza/__init__.py,sha256=5xvN_gb61nKeq5TER5dSfcArTP3DVasZGN_MQq5dNpA,23
+fiscaliza/_nbdev.py,sha256=3tqu5U4GLeWfXQ9umS3QzhTMWPUh21fh5P4GBrR7az8,2007
+fiscaliza/constants.py,sha256=dfDcMDYBMBFWdr5FP531CrKGMERNPtFQI3N7dMhpRIU,16464
+fiscaliza/redmine.py,sha256=_dbLVL1EiDItz5KDIdJRxPMos6G2gylEI0wOCSqW31A,29092
+fiscaliza/files/dados.json,sha256=KWhg6Lf7DGxm0GOgL96lLfZ8nKo9WwGsao87AR32Z_A,3903608
+fiscaliza/files/dados_pd.json,sha256=w8Y9IzCFQhZBVc6jsnTQO96ilG1seddVQ-IlYFkfJpU,2749653
+fiscaliza/files/data.json,sha256=Q0qfrSB3A_Ztcs5pdh93H243eT7113X6m30s1Wf1SJE,2208
+fiscaliza/files/data_pd.json,sha256=KnkwAsURVeuGBSIzOzDyxWH11znMFHUm_AfUVjPrb4Y,1474
+fiscaliza/files/municipios.json,sha256=IoLHO9juZc8vZrwstZBDn11vIFX16iKkCRUZaxYnlns,117862
+fiscaliza-0.1.1.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+fiscaliza-0.1.1.dist-info/METADATA,sha256=8XH8HIpApx1fgrF-06XEPJRZRblqHnF2kbysNiFvDO8,87777
+fiscaliza-0.1.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+fiscaliza-0.1.1.dist-info/entry_points.txt,sha256=U1NvDwxlOLuxC-M-ju6lW04lWtmbkr9xYHb_IElGUZ0,155
+fiscaliza-0.1.1.dist-info/top_level.txt,sha256=pw38l6_8zOz0Kv-GhnT_ABSUAmCQfSfkPqqCxO0b04Y,10
+fiscaliza-0.1.1.dist-info/RECORD,,
