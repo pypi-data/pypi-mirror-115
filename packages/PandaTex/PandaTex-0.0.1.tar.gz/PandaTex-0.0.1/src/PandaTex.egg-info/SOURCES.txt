@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+src/PandaTex.egg-info/PKG-INFO
+src/PandaTex.egg-info/SOURCES.txt
+src/PandaTex.egg-info/dependency_links.txt
+src/PandaTex.egg-info/requires.txt
+src/PandaTex.egg-info/top_level.txt
