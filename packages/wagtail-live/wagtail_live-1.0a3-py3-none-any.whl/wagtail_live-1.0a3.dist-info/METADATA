@@ -1,0 +1,118 @@
+Metadata-Version: 2.1
+Name: wagtail-live
+Version: 1.0a3
+Summary: An app for high speed content publishing from a messaging app to a Wagtail site.
+Home-page: https://github.com/wagtail/wagtail-live/
+Author: Tidiane Dia and Wagtail Core Team
+Author-email: hello@wagtail.io
+License: BSD-3-Clause
+Project-URL: Documentation, https://wagtail.github.io/wagtail-live/
+Project-URL: Source, https://github.com/wagtail/wagtail-live/
+Project-URL: Issue tracker, https://github.com/wagtail/wagtail-live/issues/
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Framework :: Django
+Classifier: Framework :: Wagtail
+Classifier: Framework :: Wagtail :: 2
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: wagtail (>=2.12)
+Provides-Extra: build
+Requires-Dist: check-wheel-contents ; extra == 'build'
+Requires-Dist: twine ; extra == 'build'
+Provides-Extra: docs
+Requires-Dist: mkdocs-material (<7.2,>=7.1) ; extra == 'docs'
+Requires-Dist: mkdocs (<1.2,>=1.1) ; extra == 'docs'
+Requires-Dist: mkdocstrings (<0.16,>=0.15.2) ; extra == 'docs'
+Provides-Extra: test
+Requires-Dist: black (==21.5b2) ; extra == 'test'
+Requires-Dist: channels ; extra == 'test'
+Requires-Dist: flake8 (==3.9.2) ; extra == 'test'
+Requires-Dist: isort (==5.8.0) ; extra == 'test'
+Requires-Dist: mock (<5.0.0,>=4.0.3) ; extra == 'test'
+Requires-Dist: pytest-asyncio ; extra == 'test'
+Requires-Dist: pytest-cov (<3,>=2.12) ; extra == 'test'
+Requires-Dist: pytest-django (<5,>=4.3.0) ; extra == 'test'
+Requires-Dist: pytest-factoryboy (<3,>=2.1.0) ; extra == 'test'
+Requires-Dist: pytest-mock (<3.7.0,>=3.6.1) ; extra == 'test'
+Requires-Dist: pytest (<6.3,>=6.2) ; extra == 'test'
+Requires-Dist: wagtail-factories (<3,>=2.0.1) ; extra == 'test'
+
+<p align="center"><img src="https://wagtail.github.io/wagtail-live/images/wagtail-live-logo.svg" width="320px" style="max-width: 100%"></p>
+
+# Wagtail Live
+
+_Wagtail Live_ is a Wagtail CMS package to create live blog pages. 
+
+## About
+
+With Wagtail Live:
+
+- Reporters can _instantly publish to a live blog_ by submitting messages via mobile apps.
+- Audience can read the posts right away as the live blog page instantly updates. 
+- Content editors can edit messages via the Wagtail Admin. The internal format is a normal Wagtail page with streamfield and blocks.
+- Create, update, delete operations. 
+- Rich text, images, emojis, URLs are converted to embeds.
+
+Slack and a Live blog page:
+
+![Wagtail Live: Slack and live blog page](https://wagtail.github.io/wagtail-live/images/slack-and-live-blog-page.jpg)
+
+Content is also editable via the Wagtail admin:
+
+![Wagtail Live: Page edit view](https://wagtail.github.io/wagtail-live/images/wagtail-admin.jpg)
+
+## Install
+
+    python -m pip install wagtail-live
+
+Add to installed apps:
+
+    INSTALLED_APPS = [
+        "wagtail_live",
+    ]
+
+Your LiveBlogPage needs to have the LivePageMixin: 
+
+    from wagtail.core.models import Page
+
+    from wagtail_live.models import LivePageMixin
+
+    class LiveBlogPage(LivePageMixin, Page):
+        content_panels = Page.content_panels + LivePageMixin.panels
+
+You also need to configure a receiver (messaging app) and publisher (frontend updating technique).
+
+Receivers:
+
+- [Slack](https://wagtail.github.io/wagtail-live/getting_started/setup_telegram/)
+- Telegram
+- Webapp
+- ...
+
+Publishers:
+
+- Interval polling
+- [Long polling](https://wagtail.github.io/wagtail-live/getting_started/setup_long_polling/)
+- ...
+
+## Documentation
+
+[https://wagtail.github.io/wagtail-live/](https://wagtail.github.io/wagtail-live/)
+
+## Google Summer of Code
+
+This project is part of Google Summer of Code 2021 by Tidiane Dia.
+
+
