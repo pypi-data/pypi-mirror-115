@@ -1,0 +1,16 @@
+galcheat/__init__.py,sha256=BIzs18P80ZQZnK7awTMR8CrJntse_kl6XGGAwTmIsbQ,1455
+galcheat/__main__.py,sha256=yQXWAfOHAMH9-E7wbU92GgPCib4f-xNqFYsOy8qUiug,312
+galcheat/filter.py,sha256=-tUP2yDvDpsQpas0y48upDujFwinydGRHEizGDdItXw,1731
+galcheat/survey.py,sha256=ChHYak_WGIjjZdj2uH5-X7J6h5lSfCT543XEtgxHtxA,2295
+galcheat/data/CFHT.yaml,sha256=jbCw4Fj2nccmuCha-Qa-qtS00j0ttYXF0--B73QmoCM,716
+galcheat/data/DES.yaml,sha256=eHZh9uRlbjRY49deCZ3VUkBV5bk-RPcclxSLJIjQ5wA,963
+galcheat/data/Euclid.yaml,sha256=Djkx30zfVDO-0ivAhPYSGn5sophx65EL4Rpt0bGGw88,480
+galcheat/data/HSC.yaml,sha256=lzHOvemzXkVVeRTusjhmG37AntU0BXZiI0uLb61f3Bo,972
+galcheat/data/HST.yaml,sha256=S8RyfMwLNsLm7ohbCFW6Xz9uKh3HmH_m3LsvPu5TQAM,711
+galcheat/data/Rubin.yaml,sha256=6DNgxwtEmqEUBbvsqICCqnuj6SZY1wQ1flgYjUwt3is,1027
+galcheat-0.0.4.dist-info/LICENSE,sha256=QNl4s8pFtjZy_S6HwuUrpXPYIO3QW6lMHQf1P0tyO78,1083
+galcheat-0.0.4.dist-info/METADATA,sha256=di7xnxtN1cMH9Sk4pjGJ9DGMxpRDdsECCVtXYzIg38w,3124
+galcheat-0.0.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+galcheat-0.0.4.dist-info/entry_points.txt,sha256=e-NKBQR0EFpP1cRROWuAewMHCj9pBi5TmdsZ3Zv1G38,53
+galcheat-0.0.4.dist-info/top_level.txt,sha256=qHnkrb12azOR4_79LGTN4pwhK5-akZJGCa83Avi5fyw,9
+galcheat-0.0.4.dist-info/RECORD,,
