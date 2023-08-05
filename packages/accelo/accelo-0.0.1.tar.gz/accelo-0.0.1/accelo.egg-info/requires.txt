@@ -1,0 +1,10 @@
+pandas
+numpy
+requests
+dataclasses
+sqlalchemy
+joblib
+psycopg2-binary
+boto3>=1.17
+pyarrow>=3.0.0
+fsspec>=0.8.7
