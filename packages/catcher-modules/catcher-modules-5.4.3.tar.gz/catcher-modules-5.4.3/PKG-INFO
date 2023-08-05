@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: catcher-modules
+Version: 5.4.3
+Summary: Additional modules for catcher.
+Home-page: https://github.com/comtihon/catcher_modules
+Author: Valerii Tikhonov, Ekaterina Belova
+Author-email: valerii.tikhonov@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Testing
+Provides-Extra: kafka
+Provides-Extra: couchbase
+Provides-Extra: postgres
+Provides-Extra: mssql
+Provides-Extra: mysql
+Provides-Extra: oracle
+Provides-Extra: sqlite
+Provides-Extra: redis
+Provides-Extra: mongodb
+Provides-Extra: docker
+Provides-Extra: elastic
+Provides-Extra: s3
+Provides-Extra: rabbit
+Provides-Extra: email
+Provides-Extra: marketo
+Provides-Extra: airflow
+Provides-Extra: selenium
+Provides-Extra: salesforce
+Provides-Extra: all
+Provides-Extra: travis
+License-File: LICENSE
+
+UNKNOWN
+
