@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: globalwarmingpotentials
+Version: 0.2.8
+Summary: Global warming potentials of greenhouse gases from various IPCC reports
+Home-page: https://github.com/openclimatedata/globalwarmingpotentials
+Author: Robert Gieseke
+Author-email: rob.g@web.de
+License: CC0
+Keywords: climate research,greenhouse gases,global warming potentials,climate change
+Platform: any
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+
+# Global Warming Potentials
+
+Global warming potentials of greenhouse gases.
+
+IPCC reports:
+
+- Second assessment Report (SAR)
+- Fourth Assessment Report (AR4)
+- Fifth Assessment Report (AR5)
+
+## Sources
+
+https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf
+
+`AR5CCFGWP100` are AR5 100 year GWPs with climate carbon cycle feedbacks:
+https://www.ipcc.ch/site/assets/uploads/2018/07/WGI_AR5.Chap_.8_SM.pdf, Table 8.SM.16 and https://www.ipcc.ch/site/assets/uploads/2018/02/WG1AR5_Chapter08_FINAL.pdf , Table 8.7 (page 714).
+
+
+
+
