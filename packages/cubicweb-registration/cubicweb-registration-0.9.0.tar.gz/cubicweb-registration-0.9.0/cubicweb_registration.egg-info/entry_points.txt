@@ -1,0 +1,3 @@
+[cubicweb.cubes]
+registration = cubicweb_registration
+
