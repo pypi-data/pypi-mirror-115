@@ -1,0 +1,4 @@
+Pillow
+onnxruntime
+numpy
+requests
