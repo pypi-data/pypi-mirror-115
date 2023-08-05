@@ -1,0 +1,8 @@
+README.md
+setup.py
+ethcodes/__init__.py
+ethcodes/ethcodes.py
+ethcodes.egg-info/PKG-INFO
+ethcodes.egg-info/SOURCES.txt
+ethcodes.egg-info/dependency_links.txt
+ethcodes.egg-info/top_level.txt

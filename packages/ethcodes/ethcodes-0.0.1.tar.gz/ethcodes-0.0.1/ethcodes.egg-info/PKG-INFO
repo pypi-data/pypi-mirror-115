@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: ethcodes
+Version: 0.0.1
+Summary: A light weight ethereum private key and address generator
+Home-page: https://github.com/notcod/ethereum-brute-force-python3
+Author: notcod
+Author-email: nostupar@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/notcod/ethereum-brute-force-python3/issues
+Description: # ethereum-brute-force-python3
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
