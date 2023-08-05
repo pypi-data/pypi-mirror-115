@@ -1,0 +1,6 @@
+bech32
+bip32
+ecdsa
+mnemonic
+grpcio
+protobuf
