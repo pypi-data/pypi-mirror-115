@@ -1,0 +1,142 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Contest usage event{% endblock %}
+{% block extrahead %}
+	<script type="text/javascript" src="{% static "datetimepicker/bootstrap-datetimepicker.js" %}"></script>
+	<link rel="stylesheet" type="text/css" href="{% static "datetimepicker/bootstrap-datetimepicker.css" %}"/>
+{% endblock %}
+{% block content %}
+	<h1>Contest Usage Event</h1>
+
+	<p>You have selected the Usage Event detailed below to contest. Please select a general reason this item should be contested and
+		enter a description of the specifics. If your contest has more than one reason listed, please submit individual contests for
+		each of your reasons. Once this form is submitted, the Usage Event will be placed in <span class="warning-highlight">contested status</span> until an
+		administrator can review the record and address it as needed.</p>
+
+	<form id="contest_form" class="form-horizontal needs-validation">
+		{% csrf_token %}
+		<div class="form-group">
+			<label for="operator" class="col-md-2 control-label"><b>Operator</b></label>
+			<div class="col-md-10">
+				<select id="operator" name="operator_id" class="form-control" onchange="enableSubmission()" disabled>
+					{% for u in user_list %}
+					<option {% if transaction.operator.id == u.id %}selected {% endif %} value="{{ u.id }}">{{ u }}</option>
+					{% endfor %}
+				</select>
+			</div>
+		</div>
+		<div class="form-group">
+			<label for="customer" class="col-md-2 control-label"><b>Customer</b></label>
+			<div class="col-md-10">
+				<select id="customer" name="customer_id" class="form-control" onchange="enableSubmission()">
+					{% for u in user_list %}
+					<option {% if transaction.user.id == u.id %}selected {% endif %} value="{{ u.id }}">{{ u }}</option>
+					{% endfor %}
+				</select>
+			</div>
+		</div>
+		<div class="form-group">
+			<label for="project" class="col-md-2 control-label"><b>Project</b></label>
+			<div class="col-md-10">
+				<select id="project" name="project_id" class="form-control" onchange="enableSubmission()">
+					{% for p in project_list %}
+					<option {% if transaction.project.id == p.id %}selected {% endif %} value="{{ p.id }}">{{ p }}</option>
+					{% endfor %}
+				</select>
+			</div>
+		</div>
+		<div class="form-group">
+			<label for="start" class="col-md-2 control-label"><b>Start</b></label>
+			<div class="col-md-4">
+				<input type="text" id="start" name="start" class="form-control text-left" value="{{ start|date:'l, F d, Y' }} @ {{ start|time:'g:i A' }}">
+			</div>
+		</div>
+		<div class="form-group">
+			<label for="end" class="col-md-2 control-label"><b>End</b></label>
+			<div class="col-md-4">
+				<input type="text" id="end" name="end" class="form-control text-left" value="{{ end|date:'l, F d, Y' }} @ {{ end|time:'g:i A' }}">
+			</div>
+		</div>
+		<div class="form-group">
+			<label for="tool" class="col-md-2 control-label"><b>Tool</b></label>
+			<div class="col-md-10">
+				<select id="tool" name="tool_id" class="form-control" onchange="enableSubmission()">
+					{% for t in tool_list %}
+					<option {% if transaction.tool.id == t.id %}selected {% endif %} value="{{ t.id }}">{{ t }}</option>
+					{% endfor %}
+				</select>
+			</div>
+		</div>
+		<div style="border-top: 1px solid #ddd"><br></div>
+		<div class="form-group">
+			<label for="contest_reason" class="col-md-2 control-label"><b>Contest Reason</b></label>
+			<div class="col-md-10">
+				<select id="contest_reason" name="contest_reason" class="form-control" required>
+					<option selected disabled value="">Please select a contest reason</option>
+					<!--option value="operator">Incorrect operator selection</option-->
+					<option value="customer">Incorrect customer selection</option>
+					<option value="project">Incorrect project selection</option>
+					<option value="datetime">Incorrect date/time selection</option>
+					<option value="tool">Incorrect tool selection</option>
+				</select>
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="col-md-2 control-label"><b>Contest Description</b></label>
+			<div class="col-md-10">
+				<textarea id="contest_description" name="contest_description" class="form-control" rows="3" required></textarea>
+			</div>
+		</div>
+		<div class="form-group">
+			<div class="col-md-2"></div>
+			<div class="col-md-10">
+				<button type="button" id="submit_contest_start_another" class="btn btn-default btn-md" onclick="submitContest('{% url 'contest_usage_event' transaction.id %}')" disabled>Submit Contest and Start Another</button>
+				<button type="button" id="submit_contest" class="btn btn-default btn-md" onclick="submitContest('{% url 'transaction_validation' %}')" disabled>Submit Contest</button>
+			</div>
+		</div>
+	</form>
+
+	<script>
+		function submitContest(url) {
+			let form = $( '#contest_form' )[0];
+
+			if( form.checkValidity() )
+			{
+				let failure_dialog = ajax_failure_callback("Unable to submit contest");
+				ajax_post("{% url 'submit_ue_contest' transaction.id %}", serialize('#contest_form'), function() { window.location.assign(url) }, failure_dialog);
+			}
+			else
+			{
+				form.reportValidity();
+			}
+		}
+
+		function enableSubmission() {
+			$( "button[id^='submit_contest']" ).prop( 'disabled', false );
+		}
+
+		let start_date_jq = $('#start');
+		let end_date_jq = $('#end');
+		start_date_jq.datetimepicker({
+			format: 'dddd, MMMM DD, YYYY @ h:mm A',
+			defaultDate: start_date_jq.val(),
+			maxDate: 'now'
+		}).on('dp.change', function(e) {
+			enableSubmission()
+		});
+		end_date_jq.datetimepicker({
+			format: 'dddd, MMMM DD, YYYY @ h:mm A',
+			defaultDate: end_date_jq.val(),
+			maxDate: 'now'
+		}).on('dp.change', function(e) {
+			enableSubmission()
+		});
+
+		// Toggle datetimepickers to fix the bug that disables unnecessary time selections
+		start_date_jq.data("DateTimePicker").toggle();
+		start_date_jq.data("DateTimePicker").toggle();
+		end_date_jq.data("DateTimePicker").toggle();
+		end_date_jq.data("DateTimePicker").toggle();
+	</script>
+
+{% endblock %}
