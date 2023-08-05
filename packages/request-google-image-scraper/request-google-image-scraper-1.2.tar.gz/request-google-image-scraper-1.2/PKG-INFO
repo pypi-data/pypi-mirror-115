@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: request-google-image-scraper
+Version: 1.2
+Summary: Scrape results from Google Images fastly via Requests, without using any Google API.
+Home-page: https://github.com/AlvinIsCrack/request-google-image-scraper
+Author: Lucas Enríquez
+Author-email: Animations468@gmail.com
+License: MIT
+Download-URL: https://github.com/AlvinIsCrack/request-google-image-scraper/archive/refs/tags/v1.2.tar.gz
+Description: UNKNOWN
+Keywords: SCRAPER,SCRAPE,IMAGE,SEARCH,DOWNLOAD,GOOGLE,RESULTS,SCRAPE,REQUEST
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
