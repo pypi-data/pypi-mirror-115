@@ -1,0 +1,5 @@
+setup.py
+gabiscal.egg-info/PKG-INFO
+gabiscal.egg-info/SOURCES.txt
+gabiscal.egg-info/dependency_links.txt
+gabiscal.egg-info/top_level.txt
