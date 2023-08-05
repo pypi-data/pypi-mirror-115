@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: fw-gear-utils
+Version: 0.1.1
+Summary: Flywheel common gear utilities
+Home-page: https://gitlab.com/flywheel-io/public/gear-utils
+License: MIT
+Author: Flywheel
+Author-email: support@flywheel.io
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: dotty-dict (>=1.3.0,<2.0.0)
+Requires-Dist: flywheel-gears (>=0.2.1,<0.3.0)
+Requires-Dist: jsonschema (>=3.2.0,<4.0.0)
+Project-URL: Documentation, https://gitlab.com/flywheel-io/public/gear-utils
+Project-URL: Repository, https://gitlab.com/flywheel-io/public/gear-utils
+Description-Content-Type: text/markdown
+
+# Flywheel Gear Utils
+
+This repository contains Flywheel gear utils with minimal dependencies,
+i.e. no dependency on Flywheel site version, or SDK version.
+
+Currently the repo contains:
+
+* [`Manifest`](#Manifest): A class to interact with a gear Manifest
+* [`Config`](#Config): A class to interact with a gear Config
+
+## Manifest
+
+The `Manifest` class provides utilities for
+parsing and generating a manifest for a gear. Including functionality to:
+
+* Load a manifest from a file
+* Check if the manifest is valid
+* Create default config schema from manifest
+* Access properties for docker image, version, inputs, license, etc.
+
+Ex.:
+
+```python
+
+    >>> from flywheel_gear_toolkit.utils.manifest import Manifest
+    >>> manifest = Manifest(<manifest_file>)
+    >>> manifest.is_valid()
+    []  # No errors
+    True
+```
+
+## Config
+
+The `Config` class provides utilities for
+parsing and generating a manifest for a gear. Including functionality to:
+
+* Generate default config from manifest
+* Access config properties
+* Utilities for building a `config.json` file.
+
+Ex.:
+
+```python
+
+    >>> from flywheel_gear_toolkit.utils import config, manifest
+    >>> m = manifest.Manifest(<manifest_file>)
+    >>> c = config.Config.default_config_from_manifest(m)
+    >>> c.add_input('dicom','~/input_dicom.dcm.zip')
+    >>> c.to_json('~/gear/config.json')
+
+```
+
