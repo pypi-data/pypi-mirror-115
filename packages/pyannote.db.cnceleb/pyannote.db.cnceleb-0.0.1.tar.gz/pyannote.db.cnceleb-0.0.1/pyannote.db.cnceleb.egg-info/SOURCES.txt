@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+versioneer.py
+CNCeleb/__init__.py
+CNCeleb/_version.py
+CNCeleb/data/cnceleb2_duration.txt.gz
+pyannote.db.cnceleb.egg-info/PKG-INFO
+pyannote.db.cnceleb.egg-info/SOURCES.txt
+pyannote.db.cnceleb.egg-info/dependency_links.txt
+pyannote.db.cnceleb.egg-info/entry_points.txt
+pyannote.db.cnceleb.egg-info/requires.txt
+pyannote.db.cnceleb.egg-info/top_level.txt
