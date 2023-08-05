@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: pymewc
+Version: 0.0.5
+Summary: Microcontroller and python interface
+Home-page: UNKNOWN
+Author: Rithic Hariharan (Rithic C H)
+Author-email: <gr8rithic@gmail.com>
+License: UNKNOWN
+Description: A package that allows to build a Microcontroller and python interface to stream data from the serial monitor 
+Keywords: python,IoT,microcontroller,Arduino,Text-to-speech
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
