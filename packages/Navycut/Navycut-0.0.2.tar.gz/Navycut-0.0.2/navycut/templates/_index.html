@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Freckle+Face&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id=main__body>
+            <div id=intro>
+                <p style="font-family: 'Freckle Face', cursive;" class="text-center text-blue-900 uppercase text-6xl subpixel-antialiased font-bold py-4">Welcome to Navycut</p>
+                <p id="intro__desc" class="text-center text-green-900 text-opacity-50 font-sans text-xl subpixel-antialiased font-semibold py-4"></p>
+            </div>
+            <div>
+              <center><img src="/static/admin/images/icons/navycut-logo.png" width="300px" height="300px"></center>
+            </div>
+            <div id=statistics>
+                <section class="text-gray-600 body-font">
+                    <div class="container px-5 py-4 mx-auto">
+                      <div class="flex flex-col text-center w-full ">
+                      </div>
+                      <div class="flex flex-wrap -m-4 text-center">
+                        <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+                          <div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
+                              <img src="/static/admin/images/icons/github.png"/>
+                            </svg>
+                            <h2 class="title-font font-medium text-3xl text-gray-900" id="github__watch">1</h2>
+                            <p class="leading-relaxed">Github Watch</p>
+                          </div>
+                        </div>
+                        <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+                          <div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
+                            <img src="/static/admin/images/icons/pull-request.png"/>
+                            <h2 class="title-font font-medium text-3xl text-gray-900" id="github__contributors">1</h2>
+                            <p class="leading-relaxed">Github Contributors</p>
+                          </div>
+                        </div>
+                        <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+                          <div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
+                            
+                            <img src="/static/admin/images/icons/star--v1.png"/>
+                            <h2 id="github__star" class="title-font font-medium text-3xl text-gray-900">1</h2>
+                            <p class="leading-relaxed">Github Stars</p>
+                          </div>
+                        </div>
+                        <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+                          <div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
+                            <img src="https://img.icons8.com/ios-filled/100/4a90e2/fork.png"/>
+                            <h2 id="github__forks" class="title-font font-medium text-3xl text-gray-900">1</h2>
+                            <p class="leading-relaxed">Github Forkes</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+            </div>
+        </div> 
+
+        <script type="text/javascript" src="/static/javascript/gh_api_fetch.js"></script>
+    </body>
+</html>

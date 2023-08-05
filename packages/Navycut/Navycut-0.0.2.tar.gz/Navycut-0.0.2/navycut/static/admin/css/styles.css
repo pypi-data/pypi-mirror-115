@@ -1,0 +1,56 @@
+.login_page_main {
+    text-align: center;
+}
+.admin_login_flash{
+    color: red;
+    font-size: large;
+    font-weight: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+#usernameField {
+    background-color: #EDE2F4;
+    width: 50%;
+}
+
+#passwordField {
+    background-color: #EDE2F4;
+    width: 50%;
+}
+
+.login-button {
+    width: 165px;
+    margin-top: 14px;
+}
+
+.danger {
+    color: red;
+}
+
+.success {
+    color: green;
+}
+
+.warning {
+    color: blue;
+}
+
+.admin_index_base{
+    text-align: center;
+    padding: 50px;
+}
+
+.admin-index-p {
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.admin-navbar-logo {
+    height: 46px;
+    width: 80px;
+}
+
+#main_content {
+    padding: 17px;
+  }
