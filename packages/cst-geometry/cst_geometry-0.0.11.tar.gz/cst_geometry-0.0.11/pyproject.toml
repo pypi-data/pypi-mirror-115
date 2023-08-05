@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "cst_geometry"
+version = "0.0.11"
+description = "Package for modeling in CST Microwave studio using python"
+authors = ["konstantgr <konstantin.grotov@metalab.ifmo.ru>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
