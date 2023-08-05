@@ -1,0 +1,8 @@
+LICENSE
+README.md
+osutil.py
+setup.py
+osutil.egg-info/PKG-INFO
+osutil.egg-info/SOURCES.txt
+osutil.egg-info/dependency_links.txt
+osutil.egg-info/top_level.txt
