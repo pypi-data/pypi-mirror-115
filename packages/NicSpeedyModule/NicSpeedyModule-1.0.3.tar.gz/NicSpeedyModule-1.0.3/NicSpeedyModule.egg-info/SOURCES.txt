@@ -1,0 +1,9 @@
+LICENSE
+README.md
+nic_speedy_module.c
+pyproject.toml
+setup.py
+NicSpeedyModule.egg-info/PKG-INFO
+NicSpeedyModule.egg-info/SOURCES.txt
+NicSpeedyModule.egg-info/dependency_links.txt
+NicSpeedyModule.egg-info/top_level.txt
