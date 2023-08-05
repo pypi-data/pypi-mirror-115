@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: selenium-utilities
+Version: 1.0.1
+Summary: Useful utilities for comfortable using selenium.
+Home-page: https://github.com/DedInc/selenium_utilities
+Author: Maehdakvan
+Author-email: visitanimation@google.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/DedInc/selenium_utilities/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+<h1 align="center">selenium-utils - Useful utilities for comfortable using selenium.</h1>
+
+<br>
+
+<h1 align="center"> -How to use?- </h1>
+
+```python
+import selenium_utils as su
+
+#Install and get driver paths:
+chrome_driver = su.getChromeDriver()
+opera_driver = su.getOperaDriver()
+yandex_driver = su.getYandexDriver()
+firefox_driver = su.getFirefoxDriver()
+edge_driver = su.getEdgeDriver()
+
+#If you want to update the driver, then use True inside the function for example: su.getChromeDriver(True)
+```
+
