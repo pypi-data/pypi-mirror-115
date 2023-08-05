@@ -1,0 +1,12 @@
+jetbot_scratch/__init__.py,sha256=2TT01DGFRX_yfHDudJYKyjuZ_KBG5XEPrmQgzbOvqKs,23
+jetbot_scratch/aruco.py,sha256=d4zX9mVaiZ8k2ip1iV_y-aO-73zu3qDKNj93Ek4EE-4,1101
+jetbot_scratch/color.py,sha256=luq0YnZ813fAujdtMKzM4JgOdrH3lD6rADORK-87SZ8,3508
+jetbot_scratch/digits.py,sha256=eJFfa4IlSrU5ua8lBuMYdyuipXLKoCbPEIoaAx19fJc,4461
+jetbot_scratch/mnist_trt_b9.pth,sha256=pL8TdhkI4oTnPwBGfoctX_m8p_pgCcyBVnvhTqcJe5k,1310639
+jetbot_scratch/object_detect.py,sha256=zD6mX32-y_TYC2YRYb8pUwXYUjVqI4PNSZS83aWkczM,864
+jetbot_scratch/utils.py,sha256=yVAiRVUa4ihIM20dpaXLCxsgjxv4C5RqhhTys1d9IaY,243
+jetbot_scratch-0.4.0.dist-info/LICENSE,sha256=pkZLbr4Z_ArXvlPhGE2BKeuxBHkw0yE2res1Qiwsvuc,1069
+jetbot_scratch-0.4.0.dist-info/METADATA,sha256=8VtJBad5O2af5OH0v_CdkzBbArQSKXk72l_v3eWBkNo,470
+jetbot_scratch-0.4.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+jetbot_scratch-0.4.0.dist-info/top_level.txt,sha256=fF1r4YffT5YVhILZwOO0zCp_UIO1CYfhnl3k-rsgFZE,15
+jetbot_scratch-0.4.0.dist-info/RECORD,,
