@@ -1,0 +1,13 @@
+jnbv/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jnbv/__main__.py,sha256=UVZsl8iYxEgaQW16e6HB72IGaufB_eQC4IUeJEetK7w,11296
+jnbv/compare.py,sha256=XqXbYtX3OYY_3Vm0xZlnXi0-QgAv-_6U-vKZOP-QLDg,19625
+jnbv/execute.py,sha256=xsYWZJ6ObsAojXTX2UFvgeOpYR0pY6bgITeXiZSMHck,1681
+jnbv/read.py,sha256=jYyHBB0MIGwmi2Ky1vUdydiTLIYJGNNWLWgOQHzv_98,3880
+jnbv/test.py,sha256=D68dDRKzddamsWL0_DXC9oKDK5Nj2I98bYVoWHcc30Y,1518
+jnbv/utils.py,sha256=IY1oTCdwnoM75Rby9e3Vitr3HpEYN-JkMAqQSZcNfXg,4038
+jnbv-2021.8.4.0.dist-info/LICENSE,sha256=zBtogTaPG6Z0jZCmHJmtoCcp1ylcCTSsB-CDMd4QXl8,1313
+jnbv-2021.8.4.0.dist-info/METADATA,sha256=XkvTyurFYmHWVU__jpjc202LgVJVtKaTVvZHoode_H8,22408
+jnbv-2021.8.4.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+jnbv-2021.8.4.0.dist-info/entry_points.txt,sha256=zIGA2JBc8e4peUL_YPgbRnh2nobtGQLzS6iO39UxxnA,45
+jnbv-2021.8.4.0.dist-info/top_level.txt,sha256=XV7Q0iQgIfkBzIgBAdBZ_jLf2tj8wt_x_CKa74xbq7c,5
+jnbv-2021.8.4.0.dist-info/RECORD,,
