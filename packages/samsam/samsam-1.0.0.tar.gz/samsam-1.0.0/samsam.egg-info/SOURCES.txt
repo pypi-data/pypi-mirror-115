@@ -1,0 +1,13 @@
+MANIFEST.in
+README.rst
+setup.py
+samsam/__info__.py
+samsam/__init__.py
+samsam/acf.py
+samsam/logprior.py
+samsam.egg-info/PKG-INFO
+samsam.egg-info/SOURCES.txt
+samsam.egg-info/dependency_links.txt
+samsam.egg-info/requires.txt
+samsam.egg-info/top_level.txt
+test/test_samsam.py
