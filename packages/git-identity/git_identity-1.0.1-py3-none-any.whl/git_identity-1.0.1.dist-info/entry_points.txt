@@ -1,0 +1,3 @@
+[console_scripts]
+git-identity=git_identity:main
+
