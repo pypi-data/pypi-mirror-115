@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: logdecomp
+Version: 0.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Vlad Niculae
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: torch (>=1.8.1)
+Requires-Dist: numpy
+
+UNKNOWN
+
