@@ -1,0 +1,11 @@
+mrks/__init__.py,sha256=k2F5PHHktdfbgmenTJjjC-7TXEYFfaG0AV0AjbGsygE,72
+mrks/cli.py,sha256=bh7glALEa9Dwi3Rz5hwP407FXP1e3RckxzsEJkKbwnA,860
+mrks/scraper.py,sha256=0ATp332qLUvlarA5vQavQMP6OqFaM1tYPtjjXbDcZVI,5106
+mrks/wsgi.py,sha256=rLVB_5z6-_lN4IDS0JUL9zskiyyYHjoAeS1dmuXsRt4,564
+mrks/templates/entry.html,sha256=dJt0sx-igz-r5uig0s1l7NQFkGB-RwlCQZYwGgRVE_w,522
+mrkoll_scraper-0.3.4.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+mrkoll_scraper-0.3.4.dist-info/METADATA,sha256=lBS37XkS4uNRqtSyKV5J418p8jAD2bd9FHEnMCkVBsQ,2311
+mrkoll_scraper-0.3.4.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+mrkoll_scraper-0.3.4.dist-info/entry_points.txt,sha256=14ddGzDiRrDkayUy89tib2Qn59muJNnHwTq2X_Go7VM,40
+mrkoll_scraper-0.3.4.dist-info/top_level.txt,sha256=T1WsUpxHMU_Zt0SkPaTEEj1EUZJ3l-A60ULmEzqYXr4,5
+mrkoll_scraper-0.3.4.dist-info/RECORD,,
