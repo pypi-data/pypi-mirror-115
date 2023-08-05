@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: c8y-device-proxy
+Version: 1.0.0
+Summary: Cumulocity Device Proxy
+Home-page: UNKNOWN
+Author: Stefan Witschel
+Author-email: UNKNOWN
+License: Apache v2
+Platform: UNKNOWN
+Requires-Dist: certifi (>=2021.5.30websocket_client>=1.1.0)
+
+UNKNOWN
+
+
