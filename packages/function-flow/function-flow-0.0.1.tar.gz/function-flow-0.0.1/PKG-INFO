@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: function-flow
+Version: 0.0.1
+Summary: Function Flow - workflow management on Google Cloud Functions
+Home-page: UNKNOWN
+Author: Chi Zhang
+Author-email: chii@google.com
+License: Apache
+Platform: UNKNOWN
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+
+# Function Flow
+
+Function Flow is a workflow framework on top of Google Cloud Functions.
+
+## Usage
+
+Refer to example for an example workflow based on Function Flow.
+
+
