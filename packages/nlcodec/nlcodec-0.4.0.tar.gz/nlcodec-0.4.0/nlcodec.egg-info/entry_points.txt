@@ -1,0 +1,6 @@
+[console_scripts]
+nlcodec = nlcodec.__main__:main
+nlcodec-db = nlcodec.bitextdb:main
+nlcodec-freq = nlcodec.term_freq:main
+nlcodec-learn = nlcodec.learn:main
+
