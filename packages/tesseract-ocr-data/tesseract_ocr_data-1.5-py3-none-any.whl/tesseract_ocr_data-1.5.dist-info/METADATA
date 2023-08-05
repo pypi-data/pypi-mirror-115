@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: tesseract-ocr-data
+Version: 1.5
+Summary: tesseract-ocr data for projects using it without having to install it.
+Home-page: https://github.com/MOBSkuchen/tesseract-ocr-data
+Author: Suprime
+Author-email: suprime.sendings@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: license
+
+# tesseract-ocr-data
+## basically tesseract
+## https://tesseract-ocr.github.io/
+## Note that tesseract is licensed with the regular 
+## tesseract-ocr license
+
+## Used like:
+````python
+from tesseract_pack import data_here
+tesseract_loc = data_here
+````
+
