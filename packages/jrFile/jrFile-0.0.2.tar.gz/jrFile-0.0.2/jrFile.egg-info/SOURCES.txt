@@ -1,0 +1,7 @@
+setup.py
+jrFile/__init__.py
+jrFile/file.py
+jrFile.egg-info/PKG-INFO
+jrFile.egg-info/SOURCES.txt
+jrFile.egg-info/dependency_links.txt
+jrFile.egg-info/top_level.txt
