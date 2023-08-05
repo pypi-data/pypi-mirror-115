@@ -1,0 +1,3 @@
+[console_scripts]
+api-keychain=src.console:cli
+

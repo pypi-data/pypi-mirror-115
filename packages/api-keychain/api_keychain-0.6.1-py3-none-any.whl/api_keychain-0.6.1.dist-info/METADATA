@@ -1,0 +1,110 @@
+Metadata-Version: 2.1
+Name: api-keychain
+Version: 0.6.1
+Summary: A tool to manage API keys in a secure keychain
+Home-page: https://github.com/nothead31/api-keychain
+License: GPL-3.0-only
+Keywords: api,keychain,security,development,password-manager
+Author: Chris Trenthem
+Author-email: trenthemc@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development
+Requires-Dist: click (>=8.0.1,<9.0.0)
+Requires-Dist: cryptography (>=3.4.7,<4.0.0)
+Requires-Dist: passlib (>=1.7.4,<2.0.0)
+Requires-Dist: pathlib (>=1.0.1,<2.0.0)
+Requires-Dist: stdiomask (>=0.0.6,<0.0.7)
+Requires-Dist: tinydb (>=4.5.1,<5.0.0)
+Project-URL: Repository, https://github.com/nothead31/api-keychain
+Description-Content-Type: text/markdown
+
+# API Keychain
+
+[![Documentation Status](https://readthedocs.org/projects/api-keychain/badge/?version=latest)](https://api-keychain.readthedocs.io/en/latest/?badge=latest)
+
+## Purpose
+
+The API Keychain is designed to be a single management tool for developers to easily create, maintain, and use their various API keys. Many developers work on a variety of projects, many of which require an API key to one service or another. After dealing with even just a few of these keys, it can get frustrating or even overwhelming to manage them, hence this tool.
+
+## Usage
+
+### Console Commands
+
+#### api-keychain init
+
+```shell
+    $ api-keychain init <filename>
+```
+
+The init command creates a new database with the given filename. If a file already exists, it will stop the program and alert you, to avoid overwriting existing keys.
+
+`versionadded: 0.4.0`
+
+#### api-keychain store
+
+```shell
+    $ api-keychain store <filename> <application> <key> [expiration] [userdata]
+```
+
+Use `api-keychain store` to save a given key to the database. The database name, application name, and key are required, however an expiration date or custom data are optional. Custom data must be provided in a `{key: item}` dictionary format.
+
+`versionadded: 0.2.0`
+
+#### api-keychain retrieve
+
+```shell
+    $ api-keychain retrieve <filename> <application>
+```
+
+Retrieve a key from the keychain and output it in plaintext. Useful for recovering a key to view/verify.
+
+`versionadded: 0.2.0`
+
+### Accessing the keychain programamtically
+
+The API Keychain is primarily designed for easy access to your keys within other software.
+
+#### api-keychain.api-retrieve
+
+The most common use for programmatic access will be to automatically retrieve your key from the keychain using a single command.
+
+1. Import api-retrieve using:
+
+```python
+   from api-keychain import api-retrieve as your-own-name-here
+```
+
+2. Call the command in your module
+
+```python
+   key = api-retrieve(application, password, filename)
+   # application: name of the application the key is stored under
+   # password: the keychain password which will be verified
+   # filename: name of the keychain file
+```
+
+3. The keychain will return your key in plaintext, for use as you see fit.
+
+'versionadded: 0.1.0'
+
+## Reference
+
+api-keychain keeps a detailed [changelog](https://api-keychain.readthedocs.io/en/stable/changelog.html), as well as an in-depth [API Reference](https://api-keychain.readthedocs.io/en/stable/api_reference.html) for reference.
+
+## License
+
+This software is licensed under the [GNU GPL 3.0 license](https://api-keychain.readthedocs.io/en/stable/license.html)
+
+## Contributions
+
+Contributions are welcome for the project, whether it be code contributions, corrections, or bug/issue/suggestion reports. See [our contribution guidelines!](https://api-keychain.readthedocs.io/en/stable/contributing.html)
