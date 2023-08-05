@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+qualkit.egg-info/PKG-INFO
+qualkit.egg-info/SOURCES.txt
+qualkit.egg-info/dependency_links.txt
+qualkit.egg-info/requires.txt
+qualkit.egg-info/top_level.txt
+test/test_clean.py
