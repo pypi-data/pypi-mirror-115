@@ -1,0 +1,13 @@
+sc_batch_run_retail/__init__.py,sha256=w72I-O9iapR-4rgkJfQCkgUwzKM_iEHPdW71byQi1DY,1137
+sc_batch_run_retail/main.py,sha256=VoKQXxjxOqdQBHUtlg42HPQnERttlaApZMoV7MaO_cM,3089
+sc_batch_run_retail/utils.py,sha256=HXHofXp5KBlmQCIhWBDlRHchrnSxY-h7VcHiJMzSUCs,2107
+sc_batch_run_retail/configs/__init__.py,sha256=rg-0D5uJamNQhAE7bZod5fptToqSlX-d16SAwuiBhKA,1114
+sc_batch_run_retail/configs/default.py,sha256=ULDcYcxLj90ZinHIgSmIEtzrTHX6aD-mlV5EbReW918,1241
+sc_batch_run_retail/tests/__init__.py,sha256=rg-0D5uJamNQhAE7bZod5fptToqSlX-d16SAwuiBhKA,1114
+sc_batch_run_retail/tests/sample_config/default.yml,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sc_batch_run_retail_analysis-0.0.2.dist-info/LICENSE,sha256=qE1ONTqO-JURigwx0cciswGHX9-E7RkwoDtJCqnqBT4,1076
+sc_batch_run_retail_analysis-0.0.2.dist-info/METADATA,sha256=q1TFcgjZmYK1Sgo8vlPDVUaDQc4MXYG81tQTxZ2dAX8,2132
+sc_batch_run_retail_analysis-0.0.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+sc_batch_run_retail_analysis-0.0.2.dist-info/entry_points.txt,sha256=oPt-eexu7Eh8Q9Dj-xQJpVul8t88to8Y6lSlwvMPf_g,80
+sc_batch_run_retail_analysis-0.0.2.dist-info/top_level.txt,sha256=JCVb3Mzlbchec6yxerZmWz1s5WjktH8NSc1qBmcflFg,20
+sc_batch_run_retail_analysis-0.0.2.dist-info/RECORD,,

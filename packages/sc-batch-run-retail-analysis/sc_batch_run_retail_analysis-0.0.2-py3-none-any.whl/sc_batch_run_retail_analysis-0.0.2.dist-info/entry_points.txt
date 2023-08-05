@@ -1,0 +1,3 @@
+[console_scripts]
+sc-batch-run-retail-analysis = sc_batch_run_retail.main:main
+
