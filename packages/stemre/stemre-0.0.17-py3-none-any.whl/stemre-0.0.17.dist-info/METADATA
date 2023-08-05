@@ -1,0 +1,114 @@
+Metadata-Version: 2.1
+Name: stemre
+Version: 0.0.17
+Summary: Numerical analysis, simulation and data fitting in STEM
+Home-page: https://github.com/StemResearch/stemre
+Author: Stem Research
+Author-email: stemresearchs@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+## stemre
+
+A Python library for numerical analysis, simulation and data fitting in Science, Technology, Engineering and Mathematics (STEM).
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the Stemre library.
+
+```bash
+pip install stemre
+```
+
+## Usage
+
+The library is imported into a Python session by running the following import statement.
+
+```python
+import stemre as stm
+```
+
+## Examples
+
+We will give a few examples that will demonstrate the use of the Stemre library. Before that, the following libraries need to be installed.
+
+```python
+import numpy as np
+import sympy as sym
+import pandas as pd
+import matplotlib.pyplot as plt
+```
+
+### Differentiation of parametric equations
+
+```
+t = sym.symbols('t')
+x = t ** 3 - 3 * t ** 2
+y = t ** 4 - 8 * t ** 2
+result = stm.par_diff(f = x, g = y, 
+                      dependent_variable = t, n = 3)
+stm.disp(x = x, y = y, dfdx = result)
+```
+
+### Richardson extrapolation
+
+```
+pd.set_option('display.precision', 14)
+f = lambda x: x ** 2 * np.exp(x)
+x, n, h = 2.5, 5, 0.001
+_, df, dx = stm.richardson(f, x, n, h)
+stm.disp(Table = df, Result = dx)
+```
+
+### Gauss-Legendre quadrature integration
+
+```
+f = lambda x: 13 * (x - x ** 2) * np.exp(-3 * x/2)
+a, b, n = 0, 4, 15
+result = stm.gauss_legendre(f, a, b, n)
+stm.disp(Result = result)
+```
+
+### Initial value problems
+
+```
+ode_function = 'y - t^2 + 1'
+exact_solution = '(t+1)^2 - 1/2 * exp(t)'
+table, figure = stm.ivps(ode_equations = [ode_function, exact_solution],
+                         time_span = [0, 3],
+                         initial_y = 0.5,
+                         steps_stepsize = ['h', 0.12],
+                         ivp_method = 'rk4', 
+                         show_iterations = None, 
+                         decimal_points = 12)
+display(table, figure)
+```
+
+## Support
+
+For any support on any of the functions in this library, send us an email at: stemresearchs@gmail.com. We are willing to offer the necessary support where we possibly can.
+
+## Roadmap
+
+Future releases aim to make Stemre a full-featured numerical analysis, simulation and data fitting library for learning in STEM (Science, Technology, Engineering and Mathematics).
+
+## Contributing
+
+To make Stemre a successful library while keeping the code easy. We welcome any valuable contributions towards the development and improvement of this library. 
+
+For major changes to the library, please open an issue with us first to discuss what you would like to change and we will be more than willing to make the changes.
+
+## Authors and acknowledgement
+
+We are grateful to the incredible support from our developers at Stem Research.
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
+
