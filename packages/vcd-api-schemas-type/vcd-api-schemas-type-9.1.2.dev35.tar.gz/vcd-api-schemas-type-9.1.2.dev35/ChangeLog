@@ -1,0 +1,69 @@
+CHANGES
+=======
+
+* Pushing code to cayman schemas repo
+* Pushing code to cayman schemas repo
+* Pushing code to cayman schemas repo
+* Pushing code to cayman schemas repo
+* Pushing code to cayman schemas repo
+* Updated headers for java files and xml files under new test directory
+* Updated headersfor java files under new test directory
+* Pushing code to cayman schemas repo
+* Added test directory to openapi-schema/src from cloud codebase
+* Added pom.xml changes for openapi-schemas/src/test directory introduced in cloud commit 340b0e85efabcf2dfea87906162eeb6b2eae1da8
+* Pushing code to cayman schemas repo
+* Pushing code to cayman schemas repo
+* Pushing code to cayman schemas repo
+* Pushing code to cayman schemas repo
+* Pushing code to cayman schemas repo
+* Pushing code to cayman schemas repo
+* Pushing code to cayman schemas repo
+* Pushing code to cayman schemas repo
+* Pushing code to cayman schemas repo
+* Pushing code to cayman schemas repo
+* Pushing code to cayman schemas repo
+* Sync cloud till b4b5fca967173c79067730fcc216edb555bbebdc
+* Remove header from pom.xml
+* Header changes
+* Bringing this branch to sync with cloud commit 9881a12d9c3b056e73df7f8ecd92906cd9963d7e
+* Fixed build issues and brought this branch to sync with cloud commit 2e7b7b7ba7ee65f0aef85bcaa75534a1847cb177
+* removal of private headers
+* Bringing this branch to sync with cloud commit 94329b83ad1e472c6d57d9ac0bf3e311b66ea1c4 on Mon Apr 26 05:37:05 2021 -0700, Header automation changes pending
+* correcting pom.xml indentation
+* python bindings session API fix using sed in bindings pom.xml
+* Jar release changed to 10.3 with everything building
+* Builds Success with all changes
+* Update schemas to vCD 10.0
+* Added files to push the end-delieverable for python to PyPi
+* Added support for python
+
+v9.1.1
+------
+
+* Consume new version of bindings libraries. (#9)
+
+v9.1.0
+------
+
+* Update package.json
+* Update .travis.yml
+* Update .travis.yml
+* Update .travis.yml
+* Publish the @vcd/bindings npm package
+* Fix npm use in Maven release profile. (#8)
+* Update README.md
+* Add support for publishing to NPM (#7)
+* Fix deploy issues to Sonatype staging repository. (#6)
+* Add GPG artifact signing to TravisCI deploy process. (#3)
+* Enable proper file header checking in CI builds. (#2)
+* Add DCO text
+* Add DCO information
+* Update README.md
+* Enable Travis CI on repository. (#1)
+* Update README.md
+* Update README.md
+* Create LICENSE
+* Add vCD 9.1 schemas and bindings
+* Adding .gitignore template
+* Add CONTRIBUTING template
+* Add README template
