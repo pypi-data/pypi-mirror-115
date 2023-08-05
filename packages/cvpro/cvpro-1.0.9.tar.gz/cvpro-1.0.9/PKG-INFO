@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: cvpro
+Version: 1.0.9
+Summary: Computer Vision Helping Library
+Home-page: https://github.com/Mohak-CODING-HEAVEN/cvpro.git
+Author: Coding Heaven
+Author-email: bmohak87@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: ComputerVision,HandTracking,FaceTracking,PoseEstimation
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
