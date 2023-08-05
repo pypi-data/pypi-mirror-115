@@ -1,0 +1,2 @@
+watchlogs
+beartype>=0.7.1
