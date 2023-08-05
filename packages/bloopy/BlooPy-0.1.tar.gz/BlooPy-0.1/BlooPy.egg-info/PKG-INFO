@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: BlooPy
+Version: 0.1
+Summary: BlooPy: Black-box optimization Python for bitstring, categorical, and numerical discrete problems with local, and population-based algorithms.
+Home-page: https://github.com/schoonhovenrichard/BlooPy
+Author: Richard Schoonhoven
+Author-email: r.a.schoonhoven@hotmail.com
+License: UNKNOWN
+Download-URL: https://github.com/schoonhovenrichard/BlooPy/archive/refs/tags/0.1.tar.gz
+Keywords: auto-tuning,optimization,gradient-free,black-box,computing,algorithms,discrete,minimization,maximization,evolutionary,fitness
+Platform: UNKNOWN
+
+UNKNOWN
+
