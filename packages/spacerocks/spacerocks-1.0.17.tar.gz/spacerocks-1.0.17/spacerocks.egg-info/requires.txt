@@ -1,0 +1,7 @@
+healpy
+numpy
+skyfield
+astropy
+pandas
+rebound
+reboundx
