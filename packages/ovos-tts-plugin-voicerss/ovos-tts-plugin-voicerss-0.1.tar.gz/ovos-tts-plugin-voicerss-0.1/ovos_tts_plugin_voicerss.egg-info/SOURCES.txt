@@ -1,0 +1,9 @@
+setup.py
+ovos_tts_plugin_voicerss/__init__.py
+ovos_tts_plugin_voicerss.egg-info/PKG-INFO
+ovos_tts_plugin_voicerss.egg-info/SOURCES.txt
+ovos_tts_plugin_voicerss.egg-info/dependency_links.txt
+ovos_tts_plugin_voicerss.egg-info/entry_points.txt
+ovos_tts_plugin_voicerss.egg-info/requires.txt
+ovos_tts_plugin_voicerss.egg-info/top_level.txt
+ovos_tts_plugin_voicerss.egg-info/zip-safe
