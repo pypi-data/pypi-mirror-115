@@ -1,0 +1,6 @@
+
+[tests]
+pytest==6.2.4
+codecov==2.1.11
+ipython==7.26.0
+pre-commit

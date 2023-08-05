@@ -1,0 +1,5 @@
+[tool.towncrier]
+directory = "changelog"
+package = "zentinel"
+package_dir = "zentinel"
+filename = "NEWS.rst"
