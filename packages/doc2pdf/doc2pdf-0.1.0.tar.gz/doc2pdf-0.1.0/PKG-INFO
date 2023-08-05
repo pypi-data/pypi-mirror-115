@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: doc2pdf
+Version: 0.1.0
+Summary: A package to convert Doc files to PDF.
+Author: Silas Vasconcelos
+Author-email: silasvasconcelos@hotmail.com.br
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
