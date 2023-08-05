@@ -1,0 +1,3 @@
+[console_scripts]
+coaclient = coaclient.main:main
+
