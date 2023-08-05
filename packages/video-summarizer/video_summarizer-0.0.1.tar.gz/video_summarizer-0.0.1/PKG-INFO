@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: video_summarizer
+Version: 0.0.1
+Summary: A time saver tool that transform long footage in a short video keeping the meaningful parts. Useful to compress video surveillance footage.
+Home-page: https://github.com/lanzani/video_summarizer
+Author: Federico Lanzani
+Author-email: federico.finder@gmail.com
+License: MIT
+Download-URL: https://github.com/lanzani/video_summarizer/archive/refs/tags/v0.0.1.tar.gz
+Description: # Video Summarizer
+        
+        ---
+        
+        A time saver tool that transform long footage in a short video, keeping the meaningful parts. 
+        Useful to compress video surveillance footage.
+        
+        > Note: This project started recently, so it is in initial form. Your suggestions are welcome and feel free to 
+        contribute!
+        
+        ## Installation
+        
+        ---
+        Use `pip install video_summarizer`.
+        
+        
+        ## Features / Usage
+        
+        ---
+        
+        Tested video formats:
+        
+        - .mp4
+        - .mpg
+        
+        ### Video Summarization
+        
+        #### Motion summarization
+        **Usage:**
+        ```python
+        import video_summarizer as vidsum
+        
+        input_video_path = "input_videos/original.mp4"
+        output_video_path = "output_videos/processed.mp4"
+        
+        vidsum.summarize(input_video_path, output_video_path, mode="motion")
+        ```
+        
+        ### Movement Detector
+        ... Work in progress ...
+        
+        ### Heatmap
+        ... Work in progress ...
+Keywords: video analysis,video summarization,surveillance
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
