@@ -1,0 +1,12 @@
+skim_unicode_table-0.1.9.data/scripts/skim-unicode-table,sha256=r-V0wuKlLimRt6MCNvgJaH0w9Zmk7cEVJKAP_FE1acw,213
+skim_unicode_table-0.1.9.data/scripts/skim-unicode-table-xsel,sha256=0WnZhUpfOceMZsIJr98dINSqQJY5y-u7DMlszd891Q0,218
+skim_unicode_table-0.1.9.dist-info/top_level.txt,sha256=fBEZG_u1W0ACbws8bOr6K7dGtKScNR5qEqQvIEvKzck,19
+skim_unicode_table-0.1.9.dist-info/WHEEL,sha256=HzpLFutx6LWeZ-oFSMk1IgmVzC64JeU3AtMeUG0exDA,112
+skim_unicode_table-0.1.9.dist-info/METADATA,sha256=grAJU2cVQzR6d3kGwuk9leZoUctGSQEYMNI7nG93Auk,483
+skim_unicode_table-0.1.9.dist-info/RECORD,,
+skim_unicode_table/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+skim_unicode_table/print-unicode-table,sha256=Q3JxltiU9jSvHznK-FmQAUnMmd45YG86eIkD-urXVMI,10153072
+skim_unicode_table/sk,sha256=JQpnld2Kfh20DZgtwV45pYMPEjE6l0CPh8i3xRr9Ceo,5140192
+skim_unicode_table/run-xsel.sh,sha256=Uexz0QfBpBoDs_Jha5rF3T6gZZywqt-Q-4oRFlTn260,233
+skim_unicode_table/run.sh,sha256=p5lHmHgmOasYMqxNAc9FtAgN-2xp-peTcPlHLS4sDVI,427
+skim_unicode_table/render-glyph,sha256=0diQEVmU6jL6peN7xctr-8QIgrOtpyOEch9joH8YN2w,1772

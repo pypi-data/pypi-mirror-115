@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: skim-unicode-table
+Version: 0.1.9
+Summary: Interactive unicode table using lotabout's skim
+Home-page: UNKNOWN
+Author: Shahriar Heidrich
+Author-email: smheidrich@weltenfunktion.de
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.6
+Requires-Dist: cairocffi
+Requires-Dist: pangocairocffi
+
+UNKNOWN
+
