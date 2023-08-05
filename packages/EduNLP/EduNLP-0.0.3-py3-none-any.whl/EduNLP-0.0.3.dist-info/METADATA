@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: EduNLP
+Version: 0.0.3
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: networkx
+Requires-Dist: numpy (>=1.17.0)
+Requires-Dist: jieba
+Requires-Dist: js2py
+Requires-Dist: torch
+Requires-Dist: EduData (>=0.0.16)
+Provides-Extra: dev
+Requires-Dist: requests ; extra == 'dev'
+Provides-Extra: pretrain
+Requires-Dist: gensim ; extra == 'pretrain'
+Provides-Extra: test
+Requires-Dist: pytest (>=4) ; extra == 'test'
+Requires-Dist: pytest-cov (>=2.6.0) ; extra == 'test'
+Requires-Dist: pytest-flake8 ; extra == 'test'
+Requires-Dist: pillow ; extra == 'test'
+Requires-Dist: gensim ; extra == 'test'
+Provides-Extra: tutor
+Requires-Dist: pillow ; extra == 'tutor'
+Requires-Dist: tqdm ; extra == 'tutor'
+
+UNKNOWN
+
+
