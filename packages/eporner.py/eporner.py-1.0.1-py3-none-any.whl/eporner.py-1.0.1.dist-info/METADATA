@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: eporner.py
+Version: 1.0.1
+Summary: A simple asynchronous Eporner API wrapper.
+Home-page: https://github.com/boobfuck/eporner.py
+Author: boobfuck
+License: MIT
+Project-URL: Documentation, https://epornerpy.readthedocs.io/en/latest
+Project-URL: Issue tracker, https://github.com/boobfuck/eporner.py/issues
+Platform: UNKNOWN
+Requires-Python: >=3.7.0
+Description-Content-Type: text/markdown
+Requires-Dist: aiohttp
+
+# eporner.py
+A simple asynchronous API wrapper for the Eporner API.
+
+## Installation
+Install eporner.py via `pip`:
+
+```shell
+$ pip install eporner.py
+```
+Requires Python 3.7+
+
+## Documentation
+Can be found [here](https://epornerpy.readthedocs.io/en/latest).
+
+
