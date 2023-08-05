@@ -1,0 +1,8 @@
+pytest
+pytest-runner
+pytest-xdist
+Click
+pandas
+pynastran
+femap-neutral-parser
+junit2html
