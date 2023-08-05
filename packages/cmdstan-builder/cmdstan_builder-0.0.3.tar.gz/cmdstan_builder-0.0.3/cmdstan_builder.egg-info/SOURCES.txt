@@ -1,0 +1,16 @@
+.gitignore
+LICENSE
+MANIFEST.in
+README.md
+release.md
+requirements.txt
+setup.py
+.github/auto_assign.yml
+.github/conda_config.py
+.github/workflows/upload-to-pypi.yml
+cmdstan_builder/__init__.py
+cmdstan_builder.egg-info/PKG-INFO
+cmdstan_builder.egg-info/SOURCES.txt
+cmdstan_builder.egg-info/dependency_links.txt
+cmdstan_builder.egg-info/requires.txt
+cmdstan_builder.egg-info/top_level.txt
