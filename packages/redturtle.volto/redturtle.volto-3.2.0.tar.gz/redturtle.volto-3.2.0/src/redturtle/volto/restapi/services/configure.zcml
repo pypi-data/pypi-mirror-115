@@ -1,0 +1,16 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:zcml="http://namespaces.zope.org/zcml">
+
+  <include package=".navigation" />
+  <include package=".search" />
+  <include package=".site_search" />
+  <include package=".sitemap" />
+  <include package=".querystringsearch" />
+  <!--
+    REMOVE WORKFLOW WHEN https://github.com/plone/plone.restapi/pull/1184 
+    AND https://github.com/plone/plone.restapi/pull/1190 ARE MERGED AND RELEASED
+  -->
+  <include package=".workflow" />
+
+</configure>
