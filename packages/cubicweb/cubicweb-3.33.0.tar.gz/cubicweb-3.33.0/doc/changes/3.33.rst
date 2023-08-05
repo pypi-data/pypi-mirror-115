@@ -1,0 +1,33 @@
+3.33.0 (2021-08-03)
+===================
+🎉 New features
+--------------
+
+- BREAKING security: introduce allowed-http-host-header against host attack see https://cubicweb.readthedocs.io/en/latest/book/security/allowed-http-host-headers/
+- add postgresql extra requires
+- config: add 'debug' option in "[main]" of all-in-one.conf that does the same thing than "-D" in "cubicweb-ctl pyramid"
+- rich: use rich.traceback to have nicer tracebacks
+
+👷 Bug fixes
+-----------
+
+- add default value form params in pyramid webtest (#350)
+- csrf: give CSRF token when using /ajax route
+- empty identification cookie on webapp.reset()
+- pin rdflib < 6.0.0 to avoid compatibility issues
+- rdf: graph.serialize needs to encode its content in utf-8
+- security: change configuration [WEB]interface default value to 127.0.0.1
+- views: Fix reledit errors when trying modify relation with multi subjects
+
+🤖 Continuous integration
+------------------------
+
+- use image from heptapod registry since r.intra was shut down
+
+🤷 Various changes
+-----------------
+
+- use open-source/gitlab-ci-templates in cube skeleton
+- drop mention of MySQL and SQLServer support
+- update cube installation procedure documentation
+- remove *.spec from skeleton
