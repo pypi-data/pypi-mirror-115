@@ -1,0 +1,15 @@
+vogen/__init__.py,sha256=oSaJloQrQEqnb9J4H8DVI8zrNwP5MENZcbEyvD8pPgc,9976
+vogen/__main__.py,sha256=KLfFoOlhCSV-EBjvQoVhQFbvVngOiRxW6uhYl7JrREI,432
+vogen/pm.py,sha256=IQFpu3qATkLudluoeSZqXoVZLE7WyoRBdO5thXejhcc,2220
+vogen/synth/__init__.py,sha256=SKWoGO6h--9EBZ4wlkPGmNfRPNBLJhmQ12v1Hs9ibRg,3677
+vogen/synth/acoustics.py,sha256=9A07fuN63qIpqVStmPTpFV7m7RG7PJwCkHUHIvhHm50,1133
+vogen/synth/f0.py,sha256=YMcK1UwHjX-F0pJG0kaStEJ0AGz1rluvoQ5P79LYU_8,2614
+vogen/synth/g2p.py,sha256=3B4Itjihwyu6y8UtG_uLUT0Hkmmxqq-pMn2V_2kbpXM,2350
+vogen/synth/prosody.py,sha256=hbk5JdkUG9b6F91pirCAov4DhvTKk2s4Mi19JzyEc9U,2950
+vogen/synth/timetable.py,sha256=IgJw0L0VNkPQGmkF52STxxKi37OS4xVTfqzZJxCPHBY,1512
+vogen/synth/utils.py,sha256=3qHoFu6cK06o-KAP9UQ9zH1CcCMT0PdO1zzCnQDBIzQ,659
+vogen-0.0.1.dist-info/LICENSE,sha256=Bu1DSx7E1-lqMobzBzMMJBe4UrUV-z0TVSUUsjUIX2A,1071
+vogen-0.0.1.dist-info/METADATA,sha256=dBdPELV976FPLrLieDVkwdAzv_FGzXfUHdg5j-1GYCU,2319
+vogen-0.0.1.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+vogen-0.0.1.dist-info/top_level.txt,sha256=RWuCsMAUf-8UfG1DEn3HXxSMcYedo86WidX5oYoUKzw,6
+vogen-0.0.1.dist-info/RECORD,,
