@@ -1,0 +1,8 @@
+README.md
+setup.py
+foliant/preprocessors/bpmn.py
+foliantcontrib.bpmn.egg-info/PKG-INFO
+foliantcontrib.bpmn.egg-info/SOURCES.txt
+foliantcontrib.bpmn.egg-info/dependency_links.txt
+foliantcontrib.bpmn.egg-info/requires.txt
+foliantcontrib.bpmn.egg-info/top_level.txt
