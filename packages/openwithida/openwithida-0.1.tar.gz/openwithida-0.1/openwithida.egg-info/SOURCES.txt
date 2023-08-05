@@ -1,0 +1,11 @@
+README.md
+setup.py
+openwithida/__init__.py
+openwithida/config.py
+openwithida/installer.py
+openwithida/openwithida.py
+openwithida.egg-info/PKG-INFO
+openwithida.egg-info/SOURCES.txt
+openwithida.egg-info/dependency_links.txt
+openwithida.egg-info/requires.txt
+openwithida.egg-info/top_level.txt
