@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: tracardi-day-night-split
+Version: 0.1.4
+Summary: The purpose of this plugin is to split the workflow depending on whether it is day or night of its execution.
+Home-page: UNKNOWN
+Author: Risto Kowaczewski
+Author-email: risto.kowaczewski@gmail.com
+License: UNKNOWN
+Description: # Tracardi plugin - Day/Night split
+        
+        The purpose of this plugin is to split the workflow 
+        depending on day or night of its execution.
+Keywords: tracardi,plugin
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown

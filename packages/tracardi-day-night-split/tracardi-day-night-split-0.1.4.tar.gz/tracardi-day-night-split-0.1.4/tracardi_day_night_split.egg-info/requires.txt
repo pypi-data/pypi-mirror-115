@@ -1,0 +1,2 @@
+pytz==2021.1
+tracardi_plugin_sdk
