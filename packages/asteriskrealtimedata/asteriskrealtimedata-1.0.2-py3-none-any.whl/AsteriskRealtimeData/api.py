@@ -1,0 +1,18 @@
+from AsteriskRealtimeData.infrastructure.api.pause_reason_controller import (
+    PauseReasonController,
+)
+
+
+class Api:
+    class PauseReason:
+        def create(self, pause_reason_dict: dict):
+            return PauseReasonController().create(pause_reason_dict)
+
+        def list(self):
+            return PauseReasonController().list()
+
+        def get_by_id(self, pause_code: str):
+            return PauseReasonController().get_by_id(pause_code)
+
+        def delete_by_id(self, pause_code: str):
+            return PauseReasonController().delete_by_id("2222")
