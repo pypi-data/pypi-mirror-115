@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: pymsys
+Version: 0.0.3
+Summary: MSYS Library for Python.
+Home-page: https://github.com/willi-z/pymsys
+Author: WILLI Zschiebsch
+License: BSD-3-Clause
+Project-URL: Source Code, https://github.com/willi-z/pymsys
+Project-URL: Issue Tracker, https://github.com/willi-z/pymsys/issues/
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: setuptools (~=56.0)
+Requires-Dist: fastapi (~=0.65)
+Requires-Dist: uvicorn (~=0.13)
+Requires-Dist: click (~=7.0)
+
+[![pip](https://img.shields.io/pypi/v/pymsys.svg)](https://pypi.org/project/pymsys/)
+[![workflow](https://github.com/Modular-Design/pymsys/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/Modular-Design/pymsys/actions)
+[![codecov](https://codecov.io/gh/Modular-Design/pymsys/branch/main/graph/badge.svg?token=CG4DIOZZ6C)](https://codecov.io/gh/Modular-Design/pymsys)
+
+````shell
+uvicorn src.pymsys.scripts:app --reload
+````
+
