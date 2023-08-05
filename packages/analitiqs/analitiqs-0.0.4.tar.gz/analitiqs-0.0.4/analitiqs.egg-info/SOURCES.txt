@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.cfg
+analitiqs/__init__.py
+analitiqs/etl.py
+analitiqs.egg-info/PKG-INFO
+analitiqs.egg-info/SOURCES.txt
+analitiqs.egg-info/dependency_links.txt
+analitiqs.egg-info/requires.txt
+analitiqs.egg-info/top_level.txt
