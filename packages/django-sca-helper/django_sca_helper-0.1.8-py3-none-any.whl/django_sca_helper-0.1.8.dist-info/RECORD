@@ -1,0 +1,16 @@
+conf/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+conf/asgi.py,sha256=x0CdfbjMlonIKx9W5rZ25LftT3_v6Qy2hVvdy8KS0ZQ,385
+conf/settings.py,sha256=a5EmjbjooBP7w-EJ7cUx4xG7OGaD3CrB4IcBEehz8FQ,3233
+conf/urls.py,sha256=E_ex7rq8uq5Z7HxRoKp2mWBObUkH_KjgoyNG-_rogBs,896
+conf/wsgi.py,sha256=RcYhFjy6iUok2vaYToTj8p0JoajVWm3OspezMB_Eotg,385
+django_helper/__init__.py,sha256=f_k_QIAtnUlhbxo9zXpNhNlmwrp6yNnv1xfZyFJiZ_Y,100
+django_helper/code.py,sha256=PUmY0jDZgYQFXt9dckZuOpqDVUl8rnDFqag6vuEBd20,569
+django_helper/test.py,sha256=OJM_t53WpW9DfQbH_SbskUzl32OUCFsP4224GXPDtvM,3518
+django_helper/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_helper/tests/test_assert.py,sha256=UzHtK8-lj31PnkC1PgnPqR05ByZ_VX2ZCdcwE1xP9ck,2668
+django_helper/tests/test_code.py,sha256=wf_0lFJqZMuR5HNKkEs4eksMxGv11mhiLNxSaJuVt3c,546
+django_sca_helper-0.1.8.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+django_sca_helper-0.1.8.dist-info/METADATA,sha256=WC1G3DrZ1chWO6EgnWeUScIn7gF4Fxb_sH2J7r86z9Y,904
+django_sca_helper-0.1.8.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+django_sca_helper-0.1.8.dist-info/top_level.txt,sha256=51KapNibYNq-dJOPQZaOVWkLEp1gweWv-DyRB0IGFUg,19
+django_sca_helper-0.1.8.dist-info/RECORD,,
