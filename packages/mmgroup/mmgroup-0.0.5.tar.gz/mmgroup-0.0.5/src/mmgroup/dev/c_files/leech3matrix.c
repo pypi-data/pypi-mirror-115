@@ -1,0 +1,456 @@
+/////////////////////////////////////////////////////////////////////////////
+// This C file has been created automatically. Do not edit!!!
+/////////////////////////////////////////////////////////////////////////////
+
+/** @file leech3matrix.c
+  File ``leech3matrix.c`` contains  functions for computing with
+  symmetric matrices on the Leech lattice mod 3. 
+*/
+
+/*************************************************************************
+** External references 
+*************************************************************************/
+
+/// @cond DO_NOT_DOCUMENT 
+#include <string.h>
+#include "mat24_functions.h"
+#define MMGROUP_GENERATORS_INTERN
+#include "mmgroup_generators.h"
+#define CLIFFORD12_INTERN
+#include "clifford12.h"
+/// @endcond  
+
+
+// %%EXPORT_KWD CLIFFORD12_API
+
+// %%GEN h
+// %%GEN ch
+#ifdef __cplusplus
+extern "C" {
+#endif
+// %%GEN c
+
+
+/*************************************************************************
+*** Basic definitions
+*************************************************************************/
+
+/// @cond DO_NOT_DOCUMENT 
+
+
+#define NEG_MASK_MOD3 0x3333333333333333ULL
+
+
+#define REDUCE_MOD3(a) \
+ (a) = (((a) + (((a) >> 2) & 0x1111111111111111ULL)) & NEG_MASK_MOD3)
+
+
+#define REDUCE_FINAL_MOD3(a, tmp) \
+ tmp = (a) & ((a) >> 1) & 0x5555555555555555ULL; \
+ (a) ^=  tmp ^ (tmp << 1)
+
+
+#define EXPAND_3_15(a) \
+    (a) = ((a) & 0xffffULL) \
+        +  (((a) & 0xffff0000ULL) << 16); \
+    (a) = ((a) & 0xff000000ffULL) \
+        +  (((a) & 0xff000000ff00ULL) << 8); \
+    (a) = ((a) & 0xf000f000f000fULL) \
+        +  (((a) & 0xf000f000f000f0ULL) << 4); \
+    (a) = ((a) & 0x303030303030303ULL) \
+        +  (((a) & 0xc0c0c0c0c0c0c0cULL) << 2)
+
+
+#define COMPRESS_15_3(a) \
+    (a) = ((a) & 0x303030303030303ULL) \
+        +  (((a) >> 2) & 0xc0c0c0c0c0c0c0cULL); \
+    (a) = ((a) & 0xf000f000f000fULL) \
+        +  (((a) >> 4) & 0xf000f000f000f0ULL); \
+    (a) = ((a) & 0xff000000ffULL) \
+        +  (((a) >> 8) & 0xff000000ff00ULL); \
+    (a) = ((a) & 0xffffULL) \
+        +  (((a) >> 16) & 0xffff0000ULL)
+
+
+/// @endcond 
+
+/*************************************************************************
+*** Deal with 24 times 24 times matrices mod 3
+*************************************************************************/
+
+// %%WITH N_COL = 3
+
+
+
+static
+int32_t leech3matrix_load_3(uint64_t *v, uint64_t *a)
+{
+    uint_fast32_t i, j = 0;
+    for (i = 0; i < 24; ++i) {
+        a[j] = v[i] & 0xffffffff;
+        a[j+1] = (v[i] >> 32) & 0xffff;
+        EXPAND_3_15(a[j]);
+        EXPAND_3_15(a[j+1]);
+        a[j + 2] = 0;
+        j +=  3;
+    } 
+    return 0;
+}
+
+
+static
+int32_t leech3matrix_load_15(uint64_t *v, uint64_t *a)
+{
+    uint_fast32_t i, j = 0;
+    for (i = 0; i < 48; i += 2) {
+        a[j] = v[i];
+        a[j + 1] = v[i + 1] & 0xffffffffULL;
+        a[j] = (a[j] & 0x3333333333333333ULL)
+             + ((a[j] >> 2) & 0x3333333333333333ULL);
+        a[j+1] = (a[j+1] & 0x3333333333333333ULL)
+             + ((a[j+1] >> 2) & 0x3333333333333333ULL);
+        REDUCE_MOD3(a[j]);
+        REDUCE_MOD3(a[j + 1]);
+        a[j + 2] = 0;
+        j +=  3;
+    } 
+    return 0;
+}
+
+// %%EXPORT px
+CLIFFORD12_API
+int32_t leech3matrix_load(uint32_t p, uint64_t *v, uint64_t *a)
+{
+    if (p == 3) return leech3matrix_load_3(v, a);
+    if (p == 15) return leech3matrix_load_15(v, a);
+    return ERR_QSTATE12_PARAM;
+}
+
+
+
+static inline uint32_t pivot3(uint64_t *p_a, uint64_t *p_end, uint32_t column)
+{
+     
+    uint64_t sign_pivot, sign, tmp;
+    uint64_t  *p_pivot, *p_row;
+    uint_fast32_t col_ofs = column >> 4, col_sh = (column & 15) << 2;
+
+    for (p_pivot = p_a; p_pivot < p_end; p_pivot += 3) {
+        sign_pivot = (p_pivot[col_ofs] >> col_sh) + 1;
+        if (sign_pivot & 2) goto pivot_found;
+    }
+    return 0;
+
+pivot_found:
+    ++sign_pivot;
+    for (p_row = p_pivot + 3; p_row < p_end; p_row += 3) {
+        sign =  (p_row[col_ofs] >> col_sh) + 1;
+        if (sign & 2) {
+            sign = (0 - ((sign + sign_pivot) & ONE)) & NEG_MASK_MOD3;
+            p_row[0] += (p_pivot[0] ^ sign);
+            REDUCE_MOD3(p_row[0]);
+            p_row[1] += (p_pivot[1] ^ sign);
+            REDUCE_MOD3(p_row[1]);
+            p_row[2] += (p_pivot[2] ^ sign);
+            REDUCE_MOD3(p_row[2]);
+        }
+    }
+
+    tmp = p_a[0]; p_a[0] = p_pivot[0]; p_pivot[0] = tmp;
+    tmp = p_a[1]; p_a[1] = p_pivot[1]; p_pivot[1] = tmp;
+    tmp = p_a[2]; p_a[2] = p_pivot[2]; p_pivot[2] = tmp;
+    return 3;
+}
+
+
+// %%EXPORT px
+CLIFFORD12_API
+void leech3matrix_echelon(uint64_t *a)
+{
+    uint64_t *p_a = a, *p_end = a +  72;
+    uint_fast32_t col;
+    for (col = 0; col < 24; ++col) {
+        p_a += pivot3(p_a, p_end, col);
+    }
+}
+
+// %%EXPORT px
+CLIFFORD12_API
+void leech3matrix_compress(uint64_t *a, uint64_t *v)
+{
+    uint64_t v0, v1, tmp;
+    uint_fast32_t i, j = 0;
+
+    for (i = 0; i < 48; i += 2) {
+        v0 = a[j]; tmp = a[j+1]; v1 = a[j+2];
+        COMPRESS_15_3(v0);
+        COMPRESS_15_3(tmp);
+        COMPRESS_15_3(v1);
+        v0 += (tmp & 0xffff) << 32;
+        v1 = (v1 << 16) + (tmp >> 16);
+        REDUCE_FINAL_MOD3(v0, tmp);
+        REDUCE_FINAL_MOD3(v1, tmp);
+        v[i] = v0; v[i+1] = v1;
+        j += 3;
+    }
+}
+
+
+// %%EXPORT px
+CLIFFORD12_API
+void leech3matrix_sub_diag(uint64_t *a, uint64_t diag, uint32_t offset)
+{
+    uint_fast32_t col_ofs, col_sh;
+    uint64_t *p_a, *p_end = a + 24 * 3;
+    diag %= 3;
+    if (diag == 0) return;
+    diag = 3ULL - diag;
+    for (p_a = a; p_a < p_end; p_a += 3) {
+        col_ofs = offset >> 4, col_sh = (offset & 15) << 2;
+        p_a[col_ofs] += diag << col_sh;
+        REDUCE_MOD3(p_a[col_ofs]);
+        ++offset;
+    }
+}
+
+// %%EXPORT px
+CLIFFORD12_API
+uint64_t leech3matrix_kernel_vector(uint32_t p, uint64_t *v, uint32_t diag)
+{
+    uint64_t a[24 *  3];
+    if (leech3matrix_load(p, v, a) < 0) return 0;
+    leech3matrix_sub_diag(a, diag, 0);
+    leech3matrix_sub_diag(a, 2, 24);
+    leech3matrix_echelon(a);
+    leech3matrix_compress(a, a);
+    if ((a[2*22] == 0) || (a[2*23] != 0)) return 0;
+    return xsp2co1_from_vect_mod3(a[2*23 + 1]);
+}
+
+
+
+static inline void insertsort(uint32_t *a, int32_t n)
+// Sort the array ``a`` of length ``n``.
+{
+    int_fast32_t i, j;
+    for (i = 1; i < n; i += 1) {
+        uint32_t temp = a[i];
+        for (j = i; j >= 1 && a[j - 1] > temp; --j) a[j] = a[j - 1];
+        a[j] = temp;
+    }
+}
+
+// %%EXPORT px
+CLIFFORD12_API
+int32_t leech3matrix_watermark(uint32_t p, uint64_t *v, uint32_t *w)
+{
+    uint_fast32_t i, j, k, m, d[8];
+    uint64_t x, y;
+
+    if (p == 15) {
+        d[0] = 0; d[1] = 0x20;
+        for (i = 2; i < 8; ++i) d[i] = 13 * d[i-1];
+        for (i = 0; i < 24; ++i) {
+            m = 0;
+            for (j = 0; j < 2; ++j) {
+                x = v[2*i + j];
+                y = x & 0x8888888888888888ULL;
+                y = (y << 1) - (y >> 3);
+                x ^= y;
+                for (k = 0; k < 64 - (j << 5); k += 4) {
+                    m += d[(x >> k) & 7];
+                }                
+            }
+            w[i] = (m & 0xffffffe0ULL) + i;
+        }
+        insertsort(w, 24);
+        for (i = 0; i < 23; ++i) {
+            if (((w[i] ^ w[i+1]) & 0xffffffe0) == 0) 
+               return ERR_QSTATE12_INTERN_PAR;
+        }
+        return 0;
+    }
+    else {
+        for (i = 0; i < 24; ++i) w[i] = 24;
+        return ERR_QSTATE12_INTERN_PAR;
+    }
+}
+
+
+
+// %%EXPORT px
+CLIFFORD12_API
+int32_t leech3matrix_watermark_perm_num(uint32_t p, uint32_t *w, uint64_t *v)
+{
+    uint32_t w1[24];
+    uint8_t perm[32];
+    uint_fast32_t i;
+    
+    if (leech3matrix_watermark(p, v, w1) < 0) 
+        return ERR_QSTATE12_INTERN_PAR;
+    for (i = 0; i < 24; ++i) perm[i] = 24;
+    for (i = 0; i < 24; ++i) {
+        if ((w[i] ^ w1[i]) & 0xffffffe0) 
+            return ERR_QSTATE12_INTERN_PAR;
+        perm[w[i] & 0x1f] = w1[i] & 0x1f;
+    }
+    if (mat24_perm_check(perm)) 
+        return ERR_QSTATE12_INTERN_PAR;
+    return mat24_perm_to_m24num(perm);
+}
+
+
+// %%END WITH   # N_COL = 3
+
+
+
+/*************************************************************************
+*** Functions for bit matrices
+*************************************************************************/
+
+
+
+
+
+
+
+/**
+ @brief Add an equation to a system of linear bit equations
+ 
+ The idea behind this function is that an external process generates
+ rows of a bit matrix with ``ncols`` columns, with ``0 < ncols <= 32``.
+ This function checks such a row ``a`` and accepts it, if it linearly
+ independent of all previously accepted rows. Thus at most ``ncols``
+ rows can be accepted. The ``nrows`` already accepted rows are  stored
+ in the array ``m``. The function returns  ``1`` if row ``a`` is
+ accepted and ``0``  otherwise. A negative return value indicates
+ an error. The size of the array ``m`` should be at least ``ncols``.
+ 
+ Let ``A`` be the ``ncols`` times ``ncols`` matrix of all accepted
+ rows ``a[i]``, ``0 <= i < ncols``; and let  ``I`` be the ``ncols``
+ time ``ncols`` unit matrix. We left multiply ``A`` with a matrix 
+ ``T`` such that ``T * A = I``. Thus ``T = A**(-1)``. Technically, we
+ perform row operations on the matrix ``A[:nrows]`` containing the
+ first ``nrows`` lines already accepted, such that ``T * A[:rnows]``
+ is in **reduced echelon form**. We also perform the same row
+ operations on the unit matrix to obtain ``T``.  We store
+ ``T[:rnows]`` in columns ``0,...,ncols-1`` of matrix ``M`` and
+ ``T*A[:rnows]`` in columns ``ncols,...,2*ncols-1`` of matrix ``M``
+ 
+ One may use function ``leech2matrix_solve_eqn`` for solving a
+ system of linear equations obtained in that way.
+*/
+// %%EXPORT px
+CLIFFORD12_API
+int32_t leech2matrix_add_eqn(uint64_t *m, uint32_t nrows, uint32_t ncols, uint64_t a)
+{
+    // Our general strategy is to keep the matrix ``TA``in the upper
+    // columns of ``m`` in reduced echelon form after the insertion  
+    // of a vector ``a``. Therefore we apply row operations to ``TA``. 
+    // When entring the i-th row, we also enter the i-th row of the
+    // unit matrix ``I`` into the matrix stored in the lower ``ncols``
+    // columns of ``m``. Then subsequent row operations apply to both,
+    // the upper and the lower columns of matrix ``m``.
+
+    uint_fast32_t row, col;       // Counters for rows and columns of ``TA``
+    uint_fast32_t a_row = nrows;  // Row where to insert the (pivoted) ``a``
+    uint64_t mask = ONE << ncols; // Mask for column ```col`` of ``TA``
+    uint64_t a_mask = 0 - ONE;    // Mask for lowest bit of (pivoted) ``a``,
+                                  // (-1) means 'no such bit found'
+    // Check buffer overflow
+    if (ncols > 32 || nrows > ncols) return ERR_QSTATE12_BUFFER_OVFL;
+ 
+    // Shift vector ``a`` into the position for entering it into ``TA``.
+    // Store row ``nrows`` of the unit matrix in the lower columns of ``a``.
+    a = ((a & ((ONE << ncols) - 1)) << ncols) | (ONE << nrows);
+ 
+    // Run through the columns of ``TA``. If a row of ``TA`` has a 
+    // lowest bit in that column then pivot ``a`` with that row.
+    // If ``a`` has a lowest bit set in that column (after pivoting)
+    // then set ``a_mask`` appropriately to indicate that column.
+    for (col = row = 0; col < ncols && row < nrows; ++col) {
+        if (m[row] & mask) {
+            a ^= (a & mask) ? m[row] : 0; 
+            ++row;
+        } 
+        else if (a & mask & a_mask) {
+            a_row = row; a_mask = mask;
+        }            
+        mask <<= 1;        
+    }
+    // All rows of ``TA`` done. Proceed with remaining columns as above.
+    for ( ; col < ncols && a_mask == (0 - ONE); ++col) {
+        if (a & mask) a_mask = mask; 
+        mask <<= 1;        
+    }
+    
+    // Return 0 if no bit is set in the (pivoted) ``a``.
+    if (a_mask == (0 - ONE)) return 0;
+    
+    // Insert the pivoted ``a`` into the correct row of ``TA``
+    for (row = nrows; row > a_row; --row)  m[row] = m[row-1];
+    m[a_row] = a;
+    
+    // Pivot the lower rows of ``TA`` with ``a``.
+    for (row = 0; row < a_row; ++row) {
+        m[row] ^=  (m[row] & a_mask) ? a : 0;
+    }    
+    return 1;     
+}
+
+
+
+/**
+ @brief Solve a system of linear bit equations
+ 
+ Let ``A`` be a nonsingular  ``ncols`` times ``ncols`` bit matrix
+ stored in the array ``m`` in the special form as described in 
+ function ``leech2matrix_add_eqn``.
+ 
+ The function returns the solution ``w`` of the equation
+ ``w * A = v``.
+
+ Caution:
+
+ Here ``m`` is of of type ``uint32_t *``, but the corresponding
+ parameter in function ``leech2matrix_add_eqn`` is of type
+ ``uint64_t *``. This simplifies the use of this function in
+ most pplications. 
+  
+*/
+// %%EXPORT px
+CLIFFORD12_API
+uint32_t leech2matrix_solve_eqn(uint32_t *m, uint32_t ncols, uint64_t v)
+{
+    uint_fast32_t row = 0;
+    uint64_t mask = ONE, w = 0;
+    
+    for (row = 0; row < ncols; ++row) {
+        w ^=  (v & mask) ? m[row] : 0; 
+        mask <<= 1;
+    }
+    return  (uint32_t)(w & (mask - 1));     
+}
+
+
+
+
+
+/*************************************************************************
+*** End of of C code
+*************************************************************************/
+
+
+//  %%GEN h
+//  %%GEN c
+
+
+
+// %%GEN ch
+#ifdef __cplusplus
+}
+#endif
+
+
+
+
