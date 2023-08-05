@@ -1,0 +1,24 @@
+Metadata-Version: 1.1
+Name: Password-Guesser-2-mode
+Version: 0.0.1
+Summary: A very basic Password Guesser
+Home-page: UNKNOWN
+Author: Bennett Mewes
+Author-email: bennettmewes@yahoo.com
+License: MIT
+Description: it makes lot of passwords
+        true = 4 digit
+        false = 6 digit
+        
+        Change Log
+        ==========
+        
+        0.0.1 (8/2/2021)
+        -First Release
+Keywords: Password
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8

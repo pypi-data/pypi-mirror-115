@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+__init__.py
+setup.py
+Password_Guesser_2_mode.egg-info/PKG-INFO
+Password_Guesser_2_mode.egg-info/SOURCES.txt
+Password_Guesser_2_mode.egg-info/dependency_links.txt
+Password_Guesser_2_mode.egg-info/top_level.txt
