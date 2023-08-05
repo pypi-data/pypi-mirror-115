@@ -1,0 +1,15 @@
+cmgp/__init__.py,sha256=k34T-6iNtVxwwgxvfn2_5D_LDd24Hc6P-hfqymEr5wY,131
+cmgp/cmgp.py,sha256=NN4c-dAujGBkci5fGQlnUeO9jUCfy_LUX2QXqhXnsIA,8518
+cmgp/logger.py,sha256=x1PP59LW7-_7ijm8TukDtOi535AaZIz4nUu_erMe3p0,2767
+cmgp/version.py,sha256=YvuYzWnKtqBb-IqG8HAu-nhIYAsgj9Vmc_b9o7vO-js,22
+cmgp/datasets/__init__.py,sha256=Q2zDEEKPTGI7YyE_GIzJWM4qH9LiPy8nG6bRAR5lwb0,774
+cmgp/datasets/dataset_ihdp.py,sha256=TMUD0b08_BcEJygODAuWpUm3JfPfR4qE8EqBV96Y4Lw,6452
+cmgp/datasets/dataset_twins.py,sha256=9cVjWZxgoTy1je0dbc-Ooat3AFy667F_-1-HLjnxLZc,6468
+cmgp/datasets/network.py,sha256=spPC5YMewQwsDQlRPSYSBgtcbk56vH12vdVoRF_XjDU,3159
+cmgp/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cmgp/utils/metrics.py,sha256=vkJY8-7-r-e6czM1r6QvnTJmBHAydH1YkMnsb1XAXUM,3010
+cmgp/utils/random.py,sha256=zQDbdiLkSz1q33s_Wivb-2R5wVOSxA1JQTxnRjWmIxI,181
+cmgp-0.1.2.dist-info/METADATA,sha256=htLqana-8TFbJfBNqtREXQufd4JR5_snuuFXmQ8Uh5s,3973
+cmgp-0.1.2.dist-info/WHEEL,sha256=O8qZVFQYT_zV8Unb5PUv0tuOGsjBpZnIxo7wdm1xzII,108
+cmgp-0.1.2.dist-info/top_level.txt,sha256=azMrdoPM6bxBx9ny2fOTau1HGZAz6BZKjb5PL_Rgrfc,5
+cmgp-0.1.2.dist-info/RECORD,,
