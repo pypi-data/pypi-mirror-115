@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: PyAutoWebAPI
+Version: 0.0.1
+Summary: A simple way to call APIs from Python
+Home-page: https://github.com/NathanDai5287/PyAutoWebAPI
+Author: Nathan Dai
+Author-email: nathandai2000@gmail.com
+License: MIT
+Download-URL: https://pypi.org/project/pyautowebapi/
+Keywords: API,PyAutoWebAPI,web API
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+# PyAutoWebAPI
+a simple tool for accessing web APIs
+
+## Usage
+
+```python
+from pyautowebapi.api import Api
+
+api = Api('http://example.com/api/v1')
+
+api['key'] = 'abcdefghijklmnopqrstuvwxyz'
+
+api['parameter1'] = 'value1'
+api['parameter2'] = 'value2'
+
+print(api)
+
+data = api.call()
+
+print(data)
+```
+
+
