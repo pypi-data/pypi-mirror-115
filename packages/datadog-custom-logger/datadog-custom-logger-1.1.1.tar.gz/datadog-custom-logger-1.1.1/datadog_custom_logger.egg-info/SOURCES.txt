@@ -1,0 +1,10 @@
+README.md
+setup.py
+datadog_custom_logger/__init__.py
+datadog_custom_logger/handler.py
+datadog_custom_logger.egg-info/PKG-INFO
+datadog_custom_logger.egg-info/SOURCES.txt
+datadog_custom_logger.egg-info/dependency_links.txt
+datadog_custom_logger.egg-info/requires.txt
+datadog_custom_logger.egg-info/top_level.txt
+datadog_custom_logger.egg-info/zip-safe
