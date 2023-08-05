@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/AndroidKeepAwake/__init__.py
+src/AndroidKeepAwake.egg-info/PKG-INFO
+src/AndroidKeepAwake.egg-info/SOURCES.txt
+src/AndroidKeepAwake.egg-info/dependency_links.txt
+src/AndroidKeepAwake.egg-info/top_level.txt

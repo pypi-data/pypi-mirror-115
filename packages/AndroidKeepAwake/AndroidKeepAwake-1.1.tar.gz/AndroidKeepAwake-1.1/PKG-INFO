@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: AndroidKeepAwake
+Version: 1.1
+Summary: Keep you Android device awake when your application is running.
+Home-page: https://github.com/ziyaad30/AndroidKeepAwake
+Author: ziyaad30
+Author-email: xavier.baatjes@outlook.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/ziyaad30/AndroidKeepAwake/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# AndroidKeepAwake
+
+Keep your Android device awake when running Kivy Apps
+
+## Example usage
+
+```
+class Screen1(Screen):
+    def __init__(self, **kw):
+        super().__init__(**kw)
+
+        self.myApp = AndroidKeepAwake()
+        
+    def on_enter(self):
+        # Turn on AndroidKeepAwake on Enter
+        self.myApp.android_setflag()
+
+    def on_leave(self, *args):
+        # Turn off AndroidKeepAwake on Leave
+        self.myApp.android_clearflag()
+```
+
