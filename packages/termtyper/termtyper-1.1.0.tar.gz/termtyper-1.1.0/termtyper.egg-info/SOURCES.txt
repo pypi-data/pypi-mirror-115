@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+termtyper/config.json
+termtyper/term_typer.py
+termtyper.egg-info/PKG-INFO
+termtyper.egg-info/SOURCES.txt
+termtyper.egg-info/dependency_links.txt
+termtyper.egg-info/entry_points.txt
+termtyper.egg-info/top_level.txt
+termtyper/data/words.json

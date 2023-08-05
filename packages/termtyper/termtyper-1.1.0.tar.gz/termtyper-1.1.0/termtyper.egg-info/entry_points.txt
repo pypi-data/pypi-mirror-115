@@ -1,0 +1,3 @@
+[console_scripts]
+termtyper = termtyper.term_typer:run
+
