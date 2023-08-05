@@ -1,0 +1,6 @@
+env/
+hello_world/
+new_app/
+dist/
+*.pyc
+config.ini

@@ -1,0 +1,8 @@
+#!/usr/bin/env python3
+
+from avss.server import HttpServer
+
+
+if __name__ == '__main__':
+    server = HttpServer()
+    server.start()
