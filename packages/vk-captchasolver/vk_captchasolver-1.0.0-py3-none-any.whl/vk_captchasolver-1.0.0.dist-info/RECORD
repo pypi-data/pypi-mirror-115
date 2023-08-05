@@ -1,0 +1,11 @@
+vk_captchasolver/__init__.py,sha256=TgRqUOnHe1jv0inUwWjYuiobpZrUElTn8NL96stsH0Q,55
+vk_captchasolver/captcha_model.onnx,sha256=8aPMM1pFqqx37GIkOzCuLzIwyZfgTeamP3DbfQPBoXo,1082940
+vk_captchasolver/ctc_model.onnx,sha256=kep3dGIw7ue-E8C9TA78XgjHvNXgPpK-rsIKs793_PM,1556
+vk_captchasolver/vk_captchasolver.py,sha256=9ar9rd26lkwKkh1xqQ9AtD6edlZEHYY-LNpomVusnzE,1285
+vk_captchasolver-1.0.0.data/data/vk_captchasolver/captcha_model.onnx,sha256=8aPMM1pFqqx37GIkOzCuLzIwyZfgTeamP3DbfQPBoXo,1082940
+vk_captchasolver-1.0.0.data/data/vk_captchasolver/ctc_model.onnx,sha256=kep3dGIw7ue-E8C9TA78XgjHvNXgPpK-rsIKs793_PM,1556
+vk_captchasolver-1.0.0.dist-info/LICENSE,sha256=x8yqZIQxPDX8bguNmQm20pzq3SN3Kjgnse-v6nq9Ejc,1080
+vk_captchasolver-1.0.0.dist-info/METADATA,sha256=ZewOjeHtIncx4pjr7uVNr3-Hb4vOr3Ye_zMNBTqNL0s,1254
+vk_captchasolver-1.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+vk_captchasolver-1.0.0.dist-info/top_level.txt,sha256=XSrcgS7G6-I2iun8sEx1wa_ipG9AA8JTH1oYUUMxicc,17
+vk_captchasolver-1.0.0.dist-info/RECORD,,
