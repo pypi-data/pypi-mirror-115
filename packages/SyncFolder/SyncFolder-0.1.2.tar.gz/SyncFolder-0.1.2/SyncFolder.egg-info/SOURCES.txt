@@ -1,0 +1,11 @@
+LICENSE
+README.rst
+setup.py
+SyncFolder/__init__.py
+SyncFolder/processor.py
+SyncFolder.egg-info/PKG-INFO
+SyncFolder.egg-info/SOURCES.txt
+SyncFolder.egg-info/dependency_links.txt
+SyncFolder.egg-info/entry_points.txt
+SyncFolder.egg-info/not-zip-safe
+SyncFolder.egg-info/top_level.txt
