@@ -1,0 +1,17 @@
+README.md
+setup.py
+scdiffeq/__init__.py
+scdiffeq.egg-info/PKG-INFO
+scdiffeq.egg-info/SOURCES.txt
+scdiffeq.egg-info/dependency_links.txt
+scdiffeq.egg-info/requires.txt
+scdiffeq.egg-info/top_level.txt
+scdiffeq/data/__init__.py
+scdiffeq/data/_data_loader_utils.py
+scdiffeq/data/generate_initial_conditions.py
+scdiffeq/data/load_EMT_simulation.py
+scdiffeq/data/load_LARRY.py
+scdiffeq/data/simulate_trajectories.py
+scdiffeq/plotting/__init__.py
+scdiffeq/tools/__init__.py
+scdiffeq/utilities/__init__.py
