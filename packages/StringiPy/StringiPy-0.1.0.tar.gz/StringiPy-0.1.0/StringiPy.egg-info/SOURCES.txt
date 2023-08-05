@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+StringiPy/FluentString.py
+StringiPy/FluentStringList.py
+StringiPy/__init__.py
+StringiPy.egg-info/PKG-INFO
+StringiPy.egg-info/SOURCES.txt
+StringiPy.egg-info/dependency_links.txt
+StringiPy.egg-info/top_level.txt
+stringipy/FluentString.py
+stringipy/FluentStringList.py
+stringipy/__init__.py
