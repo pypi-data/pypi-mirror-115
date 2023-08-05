@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        mpl_pymanage=mpl_pymanage.mpl_pymanage:cli
+    
