@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+./ezpypi/__init__.py
+./ezpypi/core.py
+ezpypi/__init__.py
+ezpypi/core.py
+ezpypi.egg-info/PKG-INFO
+ezpypi.egg-info/SOURCES.txt
+ezpypi.egg-info/dependency_links.txt
+ezpypi.egg-info/not-zip-safe
+ezpypi.egg-info/requires.txt
+ezpypi.egg-info/top_level.txt
