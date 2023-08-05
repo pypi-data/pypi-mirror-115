@@ -1,0 +1,3 @@
+[console_scripts]
+ngus = ngus.__main__:main
+
