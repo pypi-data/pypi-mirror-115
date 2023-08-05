@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: mfranceschi-minesweeper
+Version: 0.1
+Summary: A cool minesweeper
+Home-page: https://github.com/mfranceschi/Minesweeper
+Author: mfranceschi
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: pytest (==6.2.4)
+Requires-Dist: overrides (==6.1.0)
+
+# Mfranceschi Minesweeper
+
+[![My_CI](https://github.com/mfranceschi/Mfran-Minesweeper/actions/workflows/My_CI.yaml/badge.svg)](https://github.com/mfranceschi/Mfran-Minesweeper/actions/workflows/My_CI.yaml)
+[![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org)
+
+Sandbox repo for myself: write the best possible Minesweeper code!
+
+## Context
+I am doing this side-project as a hobby. It is relatively easy to write a working minesweeper but it's harder to code nicely. My intention here is to write and enhance my code as I learn new coding guidelines. I am currently learning from the following sources:
+- book "Clean Code" by Robert C. Martin (2002)
+- book "The Pragmatic Programmer" by Andy Hunt and Dave Thomas (2019 Remaster)
+- YouTuber ArjanCodes
+
+
