@@ -1,0 +1,14 @@
+fsLogger/__init__.py,sha256=qdXGse-2hZ8-bw69xT8t3NEllFX1AiI8yVOB7cGJWX4,1719
+fsLogger/abcs.py,sha256=gl7mMZb1KNrw70kvR1r19kP6dLr4uyKy80Z43srJju8,2627
+fsLogger/filters.py,sha256=s6Oa5xDxgTBfJnkL73ZOKSjciXM7dsJR1c0MXdg60NU,3042
+fsLogger/globHandler.py,sha256=GQsl0KE3Jv9exhRcLk-Q31qsIRUi8HQLf9eeuUKcctA,1895
+fsLogger/levels.py,sha256=uBv-xF-v3Xki_wnRHYNNE1ocUR2zwpbf_Xmgqnm7s34,2001
+fsLogger/logger.py,sha256=CYfL4B10uhISzLh9ch19GouccbpeWYDC3hErSDPJE7Y,3136
+fsLogger/loggerManager.py,sha256=WD7_HOjXn-5qqdKsyKT2IIMEWx3CtZv5N_voRj6V-SA,5298
+fsLogger/modules.py,sha256=Zfhkds_G2BxV1MF7fffR-kNZJ4OmY6XEMOUZTrMWll4,5683
+fsLogger/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+python_fslogger-0.1.0.dist-info/LICENSE.md,sha256=iIU6MftWbN7eXWzsnecjd2JIllANlJ1W8pxvkv0jL-s,712
+python_fslogger-0.1.0.dist-info/METADATA,sha256=XvvxxFH30arhS6Al-U3BhyfhoGwPavKXJFMcDWALX90,2487
+python_fslogger-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+python_fslogger-0.1.0.dist-info/top_level.txt,sha256=-SVZ_Q0Yn6_zdEokO9muW0CZxfG_VA_DjKnojPSdlFM,9
+python_fslogger-0.1.0.dist-info/RECORD,,
