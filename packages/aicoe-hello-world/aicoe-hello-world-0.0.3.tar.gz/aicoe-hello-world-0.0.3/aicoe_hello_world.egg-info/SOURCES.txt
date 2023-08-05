@@ -1,0 +1,10 @@
+README.rst
+setup.py
+aicoe/hello_world/__init__.py
+aicoe/hello_world/cli.py
+aicoe_hello_world.egg-info/PKG-INFO
+aicoe_hello_world.egg-info/SOURCES.txt
+aicoe_hello_world.egg-info/dependency_links.txt
+aicoe_hello_world.egg-info/not-zip-safe
+aicoe_hello_world.egg-info/requires.txt
+aicoe_hello_world.egg-info/top_level.txt
