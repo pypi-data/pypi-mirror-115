@@ -1,0 +1,13 @@
+gpcsd/__init__.py,sha256=ps_cxKSW5uRAn_7pUx_RfWCyk0LWywnMuGog33CLtuA,128
+gpcsd/covariances.py,sha256=D7uPncooU3jgPUwmrXHXSViDPRCxDbFyNraJEHhnD7k,13138
+gpcsd/forward_models.py,sha256=Ff-g8Zo63oKe9sJwPWeG_LLSs5ffVYjijfVi0yCQ91c,3155
+gpcsd/gpcsd1d.py,sha256=_fSSSHeGwnOQevCRS-p9YOqECxmXyuDCsonsH3MjjEk,14777
+gpcsd/gpcsd2d.py,sha256=AkRs8B1mjH-yaA_IZKdATzQLU2cXMp1aryPcn0TUwwg,18257
+gpcsd/predict_csd.py,sha256=eYzYG6c2oYdUrzIwp8_uiNJ9jGHnY41l9PPp6RvL5D0,1053
+gpcsd/priors.py,sha256=auiZ2lW8yfFQNyl5gpAAMxF20YMyLPKOiN99W5IuUF4,1252
+gpcsd/utility_functions.py,sha256=t4A03z1ez5cUmfpwTg1_mozntLhHqwv4sm6nHwkPQmo,1798
+gpcsd-1.0.0.dist-info/LICENSE,sha256=IuGZknZvMcw7-Y9Aoyeh782tjEK6nMKgZ34UkcdYSoQ,1070
+gpcsd-1.0.0.dist-info/METADATA,sha256=zU1tr9E0lLy-Z7kvwjIlxqT9L-w0F1LxkftzSMVFb4k,3544
+gpcsd-1.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+gpcsd-1.0.0.dist-info/top_level.txt,sha256=IKCnOS4-k9Nz_y2uQbBlrIAIhlI8hKhlWin7W91fUQ4,6
+gpcsd-1.0.0.dist-info/RECORD,,
