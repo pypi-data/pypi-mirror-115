@@ -1,0 +1,14 @@
+README.md
+setup.py
+rmnest/.version
+rmnest/__init__.py
+rmnest/fit_RM.py
+rmnest/likelihood.py
+rmnest/model.py
+rmnest/utils.py
+rmnest.egg-info/PKG-INFO
+rmnest.egg-info/SOURCES.txt
+rmnest.egg-info/dependency_links.txt
+rmnest.egg-info/entry_points.txt
+rmnest.egg-info/requires.txt
+rmnest.egg-info/top_level.txt

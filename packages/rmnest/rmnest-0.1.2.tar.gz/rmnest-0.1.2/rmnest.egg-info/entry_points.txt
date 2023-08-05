@@ -1,0 +1,3 @@
+[console_scripts]
+rmnest = rmnest.fit_RM:main
+
