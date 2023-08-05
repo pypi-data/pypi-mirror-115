@@ -1,0 +1,17 @@
+CONTRIBUTING.md
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+nbverbose/__init__.py
+nbverbose/_nbdev.py
+nbverbose/cli.py
+nbverbose/showdoc.py
+nbverbose.egg-info/PKG-INFO
+nbverbose.egg-info/SOURCES.txt
+nbverbose.egg-info/dependency_links.txt
+nbverbose.egg-info/entry_points.txt
+nbverbose.egg-info/not-zip-safe
+nbverbose.egg-info/requires.txt
+nbverbose.egg-info/top_level.txt

@@ -1,0 +1,5 @@
+pip
+packaging
+nbdev<2.0.0
+
+[dev]
