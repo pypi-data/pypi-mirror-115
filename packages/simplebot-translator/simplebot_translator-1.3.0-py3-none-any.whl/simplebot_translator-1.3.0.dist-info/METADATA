@@ -1,0 +1,84 @@
+Metadata-Version: 2.1
+Name: simplebot-translator
+Version: 1.3.0
+Summary: 🌎 Translator plugin for SimpleBot
+Home-page: https://github.com/simplebot-org/simplebot_translator
+Author: The SimpleBot Contributors
+Author-email: adbenitez@nauta.cu
+License: MPL
+Keywords: simplebot plugin deltachat
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Plugins
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Utilities
+Description-Content-Type: text/x-rst
+Requires-Dist: simplebot (>=1.1.1)
+Requires-Dist: translators (>=4.9.1)
+Provides-Extra: dev
+Requires-Dist: simplebot (>=1.1.1) ; extra == 'dev'
+Requires-Dist: translators (>=4.9.1) ; extra == 'dev'
+Requires-Dist: pytest (>=6.2.4) ; extra == 'dev'
+Requires-Dist: black (>=21.7b0) ; extra == 'dev'
+Requires-Dist: mypy (>=0.910) ; extra == 'dev'
+Requires-Dist: isort (>=5.9.3) ; extra == 'dev'
+Requires-Dist: pylint (>=2.9.6) ; extra == 'dev'
+Requires-Dist: pylama (>=7.7.1) ; extra == 'dev'
+Requires-Dist: types-pkg-resources (>=0.1.3) ; extra == 'dev'
+Provides-Extra: test
+Requires-Dist: pytest (>=6.2.4) ; extra == 'test'
+
+Translator
+==========
+
+.. image:: https://img.shields.io/pypi/v/simplebot_translator.svg
+   :target: https://pypi.org/project/simplebot_translator
+
+.. image:: https://img.shields.io/pypi/pyversions/simplebot_translator.svg
+   :target: https://pypi.org/project/simplebot_translator
+
+.. image:: https://pepy.tech/badge/simplebot_translator
+   :target: https://pepy.tech/project/simplebot_translator
+
+.. image:: https://img.shields.io/pypi/l/simplebot_translator.svg
+   :target: https://pypi.org/project/simplebot_translator
+
+.. image:: https://github.com/simplebot-org/simplebot_translator/actions/workflows/python-ci.yml/badge.svg
+   :target: https://github.com/simplebot-org/simplebot_translator/actions/workflows/python-ci.yml
+
+.. image:: https://img.shields.io/badge/code%20style-black-000000.svg
+   :target: https://github.com/psf/black
+
+🌎 Translator plugin for `SimpleBot`_.
+
+This plugin registers the ``/tr`` command that end-users can use to
+translate text. Example: ``/tr en es hello world``.
+
+Install
+-------
+
+To install run::
+
+  pip install simplebot-translator
+
+To configure the engine use::
+
+  simplebot db -s simplebot_translator/engine deepl
+
+Available engines:
+
+- google
+- yandex
+- bing
+- sogou
+- baidu
+- tencent
+- youdao
+- alibaba
+- deepl
+
+.. _SimpleBot: https://github.com/simplebot-org/simplebot
+
+
