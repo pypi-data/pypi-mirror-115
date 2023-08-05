@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: MUFS
+Version: 0.1.1
+Summary: Multi Feature Selection
+Home-page: https://github.com/Doctorado-ML/mufs#mufs
+Author: Ricardo Montañana Gómez
+Author-email: Ricardo.Montanana@alu.uclm.es
+License: MIT License
+Project-URL: Code, https://github.com/Doctorado-ML/mufs
+Description: ![CI](https://github.com/Doctorado-ML/mufs/workflows/CI/badge.svg)
+        [![Codacy Badge](https://app.codacy.com/project/badge/Grade/66ad727eb13e4c7a8816db1e44d994a7)](https://www.codacy.com/gh/Doctorado-ML/mufs/dashboard?utm_source=github.com&utm_medium=referral&utm_content=Doctorado-ML/mufs&utm_campaign=Badge_Grade)
+        [![Language grade: Python](https://img.shields.io/lgtm/grade/python/g/Doctorado-ML/mufs.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/Doctorado-ML/mufs/context:python)
+        
+        # MUFS
+        
+        ## Multi Feature Selection
+        
+        ### Fast Correlation-Based Filter
+        
+        Feature Selection for High-Dimensional Data : A Fast Correlation-Based Filter Solution. / Yu, Lei; Liu, Huan.
+        
+        Proceedings, Twentieth International Conference on Machine Learning. ed. / T. Fawcett; N. Mishra. 2003. p. 856-863 (Proceedings, Twentieth International Conference on Machine Learning; Vol. 2).
+        
+        ### Correlation-based Feature Selection
+        
+        Hall, M. A. (1999), 'Correlation-based Feature Selection for Machine Learning'.
+        
+Keywords: feature-selection
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Natural Language :: English
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Intended Audience :: Science/Research
+Description-Content-Type: text/markdown
