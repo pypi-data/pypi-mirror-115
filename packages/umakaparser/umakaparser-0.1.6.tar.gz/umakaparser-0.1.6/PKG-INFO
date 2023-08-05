@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: umakaparser
+Version: 0.1.6
+Summary: 
+Home-page: http://umaka-viewer.dbcls.jp/
+License: MIT
+Keywords: dbcls,rdf
+Author: DBCLS
+Requires-Python: >=3.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: click (>=7.0,<8.0)
+Requires-Dist: isodate (>=0.6.0,<0.7.0)
+Requires-Dist: pyparsing (>=2.4,<3.0)
+Requires-Dist: python-i18n (>=0.3.9,<0.4.0)
+Requires-Dist: rdflib (>=6.0.0,<7.0.0)
+Requires-Dist: tqdm (>=4.52.0,<5.0.0)
+Project-URL: Repository, https://github.com/dbcls/umakaparser
