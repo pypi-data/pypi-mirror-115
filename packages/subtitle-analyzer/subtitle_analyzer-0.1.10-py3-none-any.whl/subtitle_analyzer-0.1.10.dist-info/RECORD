@@ -1,0 +1,12 @@
+subtitle_analyzer/__init__.py,sha256=CMekthWoNz5kpm--clxhM776K9tHFPKkhdGuRaDNfrM,2874
+subtitle_analyzer/entry.py,sha256=wPnOHX0_z0uTFPpCj2loLMmO4dP7Tjfe3p479ZUH45o,2448
+subtitle_analyzer/lib.py,sha256=AnYuhPFN1zJE3t0Rc43sVpn5Jmx1S8bZzElLkyEwLTg,1439
+subtitle_analyzer/phrase_analyzer.py,sha256=wdooBGreJOGUZcNLQVF5WgMuj4mjkR44wuSa_DPP21M,3416
+subtitle_analyzer/phrase_ass_writer.py,sha256=G6lg-oqEqqdlqAJxtONSo7t-GKwcu7lDswW_7QczyQ4,4652
+subtitle_analyzer/tbr.py,sha256=4hLCBbJnVZei19lfVIdeoDghg_S-PdH_KWmjbdkGhcw,4174
+subtitle_analyzer/vocab_analyzer.py,sha256=lBiOKux604qt_Q80r_-69THzf3OgbuXNXKH-zqRVWGs,1530
+subtitle_analyzer/vocab_ass_writer.py,sha256=XWmW3Wk6IJXkYURhgZ26l26sbkHDQCPLOIZtQO_YKX4,2203
+subtitle_analyzer-0.1.10.dist-info/entry_points.txt,sha256=eDrmGIahBLwxgD9BWCw1XGRPuvlhLnh62LbUNaNOzd0,225
+subtitle_analyzer-0.1.10.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+subtitle_analyzer-0.1.10.dist-info/METADATA,sha256=L18mK4J6fYc4Xi2wxWUAtAHXOcFb2hh9VlVIOeGz7_c,4285
+subtitle_analyzer-0.1.10.dist-info/RECORD,,
