@@ -1,0 +1,94 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:metal="http://xml.zope.org/namespaces/metal"
+      xmlns:tal="http://xml.zope.org/namespaces/tal"
+      xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+      i18n:domain="plone.z3cform"
+      metal:use-macro="context/main_template/macros/master">
+
+<div metal:fill-slot="main">
+    <tal:main-macro metal:define-macro="main">
+
+      <h1 class="documentFirstHeading">Export content using plone.restapi</h1>
+
+      <p class="documentDescription">Export all instances of one content types as one json file.</p>
+
+        <form action="@@export_content" tal:attributes="action request/URL" method="post" enctype="multipart/form-data">
+            <div class="field mb-3">
+              <label for="portal_type">
+                <span i18n:translate="">Content Type to export</span>
+              </label>
+              <select id="portal_type"
+                      name="portal_type">
+                <option selected="" value="" title="" i18n:translate="">Choose one</option>
+                <option tal:repeat="ptype view/portal_types"
+                        tal:content="string:${ptype/title} - ${ptype/value} (${ptype/number})"
+                        tal:attributes="value ptype/value; title ptype/title;">
+                </option>
+              </select>
+            </div>
+
+            <div class="field mb-3">
+              <label>
+                <input
+                    type="checkbox"
+                    class="form-check-input"
+                    name="include_blobs:boolean"
+                    id="include_blobs"
+                    value="1"
+                    checked
+                    />
+                Include data from image- and file-fields as base-64 encoded strings?
+              </label>
+            </div>
+
+            <div class="field mb-3">
+              <label>
+                <input
+                    type="checkbox"
+                    class="form-check-input"
+                    name="migration:boolean"
+                    id="migration"
+                    value="1"
+                    checked
+                    />
+                Modify exported data for migrations.
+                <span class="formHelp">
+                  Use this if you want to import the data in a newer version of Plone or migrate from Archetypes to Dexterity. Read the documentation to learn which changes are made by this option.
+                </span>
+              </label>
+            </div>
+
+            <div class="field mb-3">
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="download_to_server:int" value="0" id="download_local" checked="checked">
+                <label for="download_local" class="form-check-label"  i18n:translate="">
+                  Download to local machine
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="download_to_server:int" value="1" id="download_server">
+                <label for="download_server" class="form-check-label" i18n:translate="">
+                  Save to file on server
+                </label>
+              </div>
+            </div>
+
+            <div class="formControls" class="form-group">
+                <input type="hidden" name="form.submitted" value="1"/>
+
+                <button class="btn btn-primary submit-widget button-field context"
+                        type="submit" name="submit" value="export">Export selected type
+                </button>
+
+            </div>
+
+        </form>
+
+        <div metal:use-macro="context/@@exportimport_links/links">
+          Links to all exports and imports
+        </div>
+
+    </tal:main-macro>
+</div>
+
+</html>

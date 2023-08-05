@@ -1,0 +1,13 @@
+setuptools
+plone.api>=1.8.4
+hurry.filesize
+ijson
+six
+plone.restapi
+
+[:python_version < "3"]
+plone.restapi<8.0.0
+
+[test]
+plone.app.testing
+plone.app.robotframework
