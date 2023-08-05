@@ -1,0 +1,9 @@
+pygofile/__init__.py,sha256=vhswR1HxktA-2ckK2SBq4IRYnYE4EJiuAwMzd8lpG2E,464
+pygofile/gofile.py,sha256=7O0KtDWQ0B4udD5IpatB8hUFFhyVahyQypq6n_4iJzE,10351
+tests/__init__.py,sha256=9384xEXPcyijSouDH_SdjFD0XINV_UlKQg-6sEAYKd8,219
+tests/test_all.py,sha256=0F-gnObxa3xmrrq8N-PVTtBf0Ewv-7ZR8cYrfxmgJZw,56
+pygofile-1.0.2.dist-info/LICENSE,sha256=V-R44k_Je7dfmHWe4V1l6xuE-GJVQ4S47E3zVoNg85o,1089
+pygofile-1.0.2.dist-info/METADATA,sha256=q53IWcfDymREBK9qWNLWRl9GfqlY_9t-5Lh-QKMQsxA,2393
+pygofile-1.0.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pygofile-1.0.2.dist-info/top_level.txt,sha256=BnZAm4BX8aVcB5qCmtqfMz5czBKg1SKkYJXwyhCTIzQ,15
+pygofile-1.0.2.dist-info/RECORD,,
