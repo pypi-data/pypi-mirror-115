@@ -1,0 +1,6 @@
+build/*
+dist/*
+*.egg-info/*
+DElauncher4Kodi/__version__.py
+DElauncher4Kodi/__pycache__/*
+DElauncher4Kodi.egg-info/*

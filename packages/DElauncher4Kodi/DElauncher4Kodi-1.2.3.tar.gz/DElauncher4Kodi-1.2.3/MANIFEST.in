@@ -1,0 +1,3 @@
+include LICENSE
+include data/org.DElauncher4Kodi.desktop
+include data/99-DElauncher4Kodi-uinput-group-access.rules
