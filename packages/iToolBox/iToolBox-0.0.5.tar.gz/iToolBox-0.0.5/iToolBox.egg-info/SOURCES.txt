@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+iToolBox/__init__.py
+iToolBox/tools.py
+iToolBox.egg-info/PKG-INFO
+iToolBox.egg-info/SOURCES.txt
+iToolBox.egg-info/dependency_links.txt
+iToolBox.egg-info/top_level.txt
