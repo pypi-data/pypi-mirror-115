@@ -1,0 +1,37 @@
+[tool.poetry]
+name = "tact"
+version = "0.4.1"
+description = "Taxonomic addition for complete trees: Adds tips to a backbone phylogeny using taxonomy simulated with birth-death models"
+authors = ["Jonathan Chang <me@jonathanchang.org>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/jonchang/tact"
+homepage = "https://github.com/jonchang/tact"
+include = ["examples"]
+
+[tool.poetry.dependencies]
+python = ">= 3.7, < 3.10"
+scipy = "^1.7"
+numpy = "^1.20"
+click = ">=7,<9"
+DendroPy = "^4.5"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2"
+pytest-cov = "^2.12"
+pytest-benchmark = "^3.4"
+pytest-console-scripts = "^1.2"
+hypothesis = "^6.14"
+
+[tool.poetry.scripts]
+tact_build_taxonomic_tree = "tact.cli_taxonomy:main"
+tact_add_taxa = "tact.cli_add_taxa:main"
+tact_check_results = "tact.cli_check_trees:main"
+
+[tool.autopep8]
+max_line_length = 118
+ignore = "E501"
+
+[build-system]
+requires = ["poetry_core"]
+build-backend = "poetry.core.masonry.api"
