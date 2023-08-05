@@ -1,0 +1,3 @@
+[console_scripts]
+pysam_collate = telomerecat.pysam_collate:thin_wrap
+
