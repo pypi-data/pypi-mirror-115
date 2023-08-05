@@ -1,0 +1,12 @@
+README.md
+setup.py
+dgutils/__init__.py
+dgutils/colors.py
+dgutils/pypov.py
+dgutils/savehtml.py
+dgutils/wikiupload.py
+dgutils.egg-info/PKG-INFO
+dgutils.egg-info/SOURCES.txt
+dgutils.egg-info/dependency_links.txt
+dgutils.egg-info/requires.txt
+dgutils.egg-info/top_level.txt
