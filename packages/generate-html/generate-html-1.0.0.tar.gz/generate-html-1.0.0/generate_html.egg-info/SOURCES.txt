@@ -1,0 +1,16 @@
+LICENSE-APACHE
+LICENSE-MIT
+MANIFEST.in
+README.rst
+pyproject.toml
+setup.py
+generate_html/__init__.py
+generate_html/components.py
+generate_html/context.py
+generate_html/html.py
+generate_html/interface.py
+generate_html/nodes.py
+generate_html.egg-info/PKG-INFO
+generate_html.egg-info/SOURCES.txt
+generate_html.egg-info/dependency_links.txt
+generate_html.egg-info/top_level.txt
