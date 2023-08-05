@@ -1,0 +1,7 @@
+torchvis/__init__.py,sha256=h9ZJxvXPxyNam2FTo40-IzRwpcjtFCvBOkSKepne1Oc,62935
+torchvis/selfish.py,sha256=Hk_ZcwCUAcyQrU9ctOO3PtmimaZI-2e0CYU4KTMw3HA,4141
+torchvis/selflib/util.py,sha256=YOA9q1j3PUCkn-DlYvbWUdqrVDKfVuVoz9CDRLXXwgs,8158
+torchvis/stftlib.py,sha256=WX6WfQECpKpMdg5zy0ArUXr5GFXa6u-dVtNyTDnXlBc,4080
+torchvis-0.2.1.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+torchvis-0.2.1.dist-info/METADATA,sha256=QjwOn0b2mThXRowlKOFFFEMV3WXq5ODrh16eWWWmNHI,593
+torchvis-0.2.1.dist-info/RECORD,,
