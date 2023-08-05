@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: metagraph-katana
+Version: 0.1.2
+Summary: katana plugins for Metagraph
+Home-page: UNKNOWN
+Author: Anaconda, Inc.
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE.txt
+Requires-Dist: metagraph
+Requires-Dist: katana
+
+UNKNOWN
+

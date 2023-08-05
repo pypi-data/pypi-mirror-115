@@ -1,0 +1,17 @@
+metagraph_katana/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+metagraph_katana/plugins/__init__.py,sha256=zeHbHsslntWnZE-YnNwJTbWB81itwM8ktlgRHomJkBA,495
+metagraph_katana/plugins/metagraph_katana/__init__.py,sha256=hlHzxaPaPxBFi7J19TBWgaPKykZaH5SvVrnnZ7IaeUY,45
+metagraph_katana/plugins/metagraph_katana/algorithms.py,sha256=m84Clyagyx7QiSjdeNmLcmT__VKjBVROtoJc0BDSd5M,2917
+metagraph_katana/plugins/metagraph_katana/translators.py,sha256=JQjrChgdhu8a3M1w1JYtenG2SDnO26nvMv6VCQE3hbc,2430
+metagraph_katana/plugins/metagraph_katana/types.py,sha256=Npw5OMNBlqDtPlYo2NtYAw5-sqo2c1aHrhK3hgU7bso,2656
+metagraph_katana/tests/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+metagraph_katana/tests/conftest.py,sha256=detpEfQ9FzeMhMf4wSVziBy8gLsiBI9Aaa3cx0KaiTw,1670
+metagraph_katana/tests/test_algorithms.py,sha256=jEw6fpx5t259gmmhlGuvDbFIaAMunRwgrbJMTYro2ek,5944
+metagraph_katana/tests/test_translators.py,sha256=aaAWFmsAJzH5JtV8B7f3S935CEjFKWAoQcl7VjAULjI,3752
+metagraph_katana/tests/test_types.py,sha256=Ite9n2GH0URkYeCEPWI_m8sH9W_FabJsKJoXWVeqD4o,4039
+metagraph_katana-0.1.2.dist-info/LICENSE.txt,sha256=guvt9TNNds0aKJsalqVtKtmK0k0dtqODursigM5rEtc,1489
+metagraph_katana-0.1.2.dist-info/METADATA,sha256=jFYJ_AFmTaxeVatVQJpp5QVuXhmITUTNJsR9DwFMGJo,258
+metagraph_katana-0.1.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+metagraph_katana-0.1.2.dist-info/entry_points.txt,sha256=jRmk2UnQYX6_o2EFbPHtJ6cSRz72dvWqfUJ0Gnhmiwc,67
+metagraph_katana-0.1.2.dist-info/top_level.txt,sha256=Qlletb7SVZcqHv6AgqvOAIi5Awt1ZgmAxtPrxB3xywg,17
+metagraph_katana-0.1.2.dist-info/RECORD,,
