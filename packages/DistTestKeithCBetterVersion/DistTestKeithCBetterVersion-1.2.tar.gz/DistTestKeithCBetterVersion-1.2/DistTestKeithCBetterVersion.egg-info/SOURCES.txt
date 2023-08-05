@@ -1,0 +1,10 @@
+MANIFEST.in
+README.txt
+setup.py
+DistTestKeithCBetterVersion.egg-info/PKG-INFO
+DistTestKeithCBetterVersion.egg-info/SOURCES.txt
+DistTestKeithCBetterVersion.egg-info/dependency_links.txt
+DistTestKeithCBetterVersion.egg-info/entry_points.txt
+DistTestKeithCBetterVersion.egg-info/top_level.txt
+MainFolder/__init__.py
+MainFolder/doStuff.py
