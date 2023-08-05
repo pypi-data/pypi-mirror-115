@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: scrcpy-client
+Version: 0.1.0
+Summary: A client for scrcpy
+Home-page: https://github.com/leng-yue/py-scrcpy-client
+License: MIT
+Author: lengyue
+Author-email: lengyue@lengyue.me
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: av (>=8.0.3,<9.0.0)
+Requires-Dist: opencv-python (>=4.5.3,<5.0.0)
+Project-URL: Repository, https://github.com/leng-yue/py-scrcpy-client
+Description-Content-Type: text/markdown
+
+# Python Scrcpy Client
+
+This package allows you to view and control android device in realtime. 
+
+Document is not finished, you can check `demo.py` for detail.
+
+## Reference
+- [py-android-viewer](https://github.com/razumeiko/py-android-viewer)
+- [scrcpy](https://github.com/Genymobile/scrcpy)
+
+## Add ability
+Please check scrcpy 1.12.1 document: [Link](https://github.com/Genymobile/scrcpy/blob/v1.12.1/server/src/main/java/com/genymobile/scrcpy/ControlMessageReader.java)
+
