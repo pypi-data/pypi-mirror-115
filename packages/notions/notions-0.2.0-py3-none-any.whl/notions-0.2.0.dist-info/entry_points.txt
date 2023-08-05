@@ -1,0 +1,3 @@
+[console_scripts]
+notions=notions.cli.main:app
+
