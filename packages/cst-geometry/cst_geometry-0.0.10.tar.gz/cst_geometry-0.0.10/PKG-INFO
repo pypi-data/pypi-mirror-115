@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: cst-geometry
+Version: 0.0.10
+Summary: Package for modelling in CST Microwave studio using python
+License: MIT
+Author: konstantgr
+Author-email: 60608301+konstantgr@users.noreply.github.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
