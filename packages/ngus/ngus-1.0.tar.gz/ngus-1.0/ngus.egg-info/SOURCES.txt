@@ -1,0 +1,13 @@
+.gitignore
+COPYING
+LICENSE
+Makefile
+README.md
+setup.py
+ngus/__init__.py
+ngus/__main__.py
+ngus.egg-info/PKG-INFO
+ngus.egg-info/SOURCES.txt
+ngus.egg-info/dependency_links.txt
+ngus.egg-info/entry_points.txt
+ngus.egg-info/top_level.txt
