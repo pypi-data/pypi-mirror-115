@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: model-compression-777
+Version: 0.1.0
+Summary: Pre-pruned pytorch model compression toolkit
+License: Proprietary
+Author: Richard Yan
+Author-email: yrh@berkeley.edu
+Requires-Python: >=3.7,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: numpy (>=1.21.1,<2.0.0)
+Requires-Dist: pytorch (>=1.0.2,<2.0.0)
