@@ -1,0 +1,6 @@
+README.md
+setup.py
+pdfmaster_drgk.egg-info/PKG-INFO
+pdfmaster_drgk.egg-info/SOURCES.txt
+pdfmaster_drgk.egg-info/dependency_links.txt
+pdfmaster_drgk.egg-info/top_level.txt
