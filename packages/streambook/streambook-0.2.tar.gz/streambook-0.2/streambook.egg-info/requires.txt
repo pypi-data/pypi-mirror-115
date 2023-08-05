@@ -1,0 +1,6 @@
+streamlit
+jupytext
+watchdog
+in_place
+mistune
+typer

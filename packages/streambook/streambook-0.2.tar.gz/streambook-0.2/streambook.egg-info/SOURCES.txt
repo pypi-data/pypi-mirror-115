@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+streambook/__init__.py
+streambook/__main__.py
+streambook/cli.py
+streambook/gen.py
+streambook/lib.py
+streambook.egg-info/PKG-INFO
+streambook.egg-info/SOURCES.txt
+streambook.egg-info/dependency_links.txt
+streambook.egg-info/entry_points.txt
+streambook.egg-info/requires.txt
+streambook.egg-info/top_level.txt
