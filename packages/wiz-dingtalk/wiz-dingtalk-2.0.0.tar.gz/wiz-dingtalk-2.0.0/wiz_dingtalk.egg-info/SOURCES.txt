@@ -1,0 +1,9 @@
+README.md
+setup.py
+src/wiz_dingtalk/__init__.py
+src/wiz_dingtalk/ding_talk_bot.py
+wiz_dingtalk.egg-info/PKG-INFO
+wiz_dingtalk.egg-info/SOURCES.txt
+wiz_dingtalk.egg-info/dependency_links.txt
+wiz_dingtalk.egg-info/requires.txt
+wiz_dingtalk.egg-info/top_level.txt
