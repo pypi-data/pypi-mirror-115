@@ -1,0 +1,17 @@
+HISTORY.rst
+LICENSE
+MANIFEST.in
+README.rst
+dev-requirements.txt
+requirements.txt
+setup.cfg
+setup.py
+edam_ontology/EDAM.tsv
+edam_ontology/__init__.py
+edam_ontology/streams.py
+edam_ontology.py.egg-info/PKG-INFO
+edam_ontology.py.egg-info/SOURCES.txt
+edam_ontology.py.egg-info/dependency_links.txt
+edam_ontology.py.egg-info/entry_points.txt
+edam_ontology.py.egg-info/not-zip-safe
+edam_ontology.py.egg-info/top_level.txt
