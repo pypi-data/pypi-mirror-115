@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: aicoe-hello-world
+Version: 0.0.1
+Summary: Hello World module of AICoE
+Home-page: UNKNOWN
+Author: Harshad Reddy Nalla
+Author-email: hnalla@redhat.com
+License: GPLv3+
+Description: # aicoe-hello-world
+        
+        A small example demonstrating Python package releases uploaded using AICoE-CI to Operate First Pulp instance
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
