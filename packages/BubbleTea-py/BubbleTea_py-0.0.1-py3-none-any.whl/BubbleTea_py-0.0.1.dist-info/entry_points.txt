@@ -1,0 +1,3 @@
+[console_scripts]
+bubbletea = bubbletea.cli:run
+
