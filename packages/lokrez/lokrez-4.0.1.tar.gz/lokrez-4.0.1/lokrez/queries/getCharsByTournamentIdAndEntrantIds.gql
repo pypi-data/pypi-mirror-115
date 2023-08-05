@@ -1,0 +1,45 @@
+query getCharsByTournamentIdAndEntrantIds($tournamentId:ID, $entrantIds:[ID])
+{
+    tournament(id:$tournamentId)
+    {
+        events
+        {
+            name
+            slug
+            numEntrants
+            sets
+            (
+                perPage:50
+                page:1
+                filters:
+                {
+                    entrantIds: $entrantIds
+                }
+            )
+            {
+                pageInfo
+                {
+                    total
+                }
+
+                nodes
+                {
+                    games
+                    {
+                        winnerId
+                        selections
+                        {
+                            selectionType
+                            selectionValue
+                            entrant
+                            {
+                                id
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
