@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: sh-powerpeak-predict
+Version: 1.0.0.1
+Summary: Sunghan Power Peak Prediction
+Home-page: https://github.com/choids001/python
+Author: SungHan
+License: SH
+Platform: UNKNOWN
+Requires-Python: >=3
+Requires-Dist: shsqlcheck
+Requires-Dist: pymssql
+Requires-Dist: statsmodels
+
+UNKNOWN
+
+

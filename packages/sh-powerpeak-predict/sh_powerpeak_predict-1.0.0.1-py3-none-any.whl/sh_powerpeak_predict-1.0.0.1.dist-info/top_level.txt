@@ -1,0 +1,3 @@
+shpower_predict_peak
+shpowerpeakpredict
+shsqlpeak
