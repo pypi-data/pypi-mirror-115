@@ -1,0 +1,7 @@
+MANIFEST.in
+README.txt
+setup.py
+DistTestKeithCBadVersion.egg-info/PKG-INFO
+DistTestKeithCBadVersion.egg-info/SOURCES.txt
+DistTestKeithCBadVersion.egg-info/dependency_links.txt
+DistTestKeithCBadVersion.egg-info/top_level.txt
