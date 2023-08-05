@@ -1,0 +1,9 @@
+indico_topmenu_extender/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+indico_topmenu_extender/plugin.py,sha256=WWF_VrOElCDu5Fywrleggu5eAFDAYYsNBdF1EchPCAE,1591
+indico_topmenu_extender/version.py,sha256=vhCHcBaNDG6wWEr-49wLSwNib3b5bcOgkofEE4toTy0,155
+indico_plugin_topmenuextender-3.0.1.dev0.dist-info/LICENSE,sha256=XgBPNFqlYxjJJIN2VsXqMLLTkCU-TfbNZx1TV2lXOr0,1072
+indico_plugin_topmenuextender-3.0.1.dev0.dist-info/METADATA,sha256=TeAL0_LQ7srAkjZCxQ3OQ3CXGwo1mF3BRKeT_ZKwbO8,450
+indico_plugin_topmenuextender-3.0.1.dev0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+indico_plugin_topmenuextender-3.0.1.dev0.dist-info/entry_points.txt,sha256=PBsBtE3GYWryY4y23tBRVCOKSdRI1sCaQp3mXrLwq8g,90
+indico_plugin_topmenuextender-3.0.1.dev0.dist-info/top_level.txt,sha256=zpuTPyyla1KUqdZL23nrD3M3kcMmDxfyKJUMyIhwrXM,24
+indico_plugin_topmenuextender-3.0.1.dev0.dist-info/RECORD,,
