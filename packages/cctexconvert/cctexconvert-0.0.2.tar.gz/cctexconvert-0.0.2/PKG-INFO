@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: cctexconvert
+Version: 0.0.2
+Summary: Converts Minecraft texture packs into ClassiCube texture packs
+Home-page: https://github.com/Fam0r/CCTexConvert
+Author: Fam0r
+Author-email: fam0r@mailbox.org
+License: wtfpl
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: License :: Public Domain
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# CCTexConvert
+
+Convert Minecraft 1.12.2 texture packs into ClassiCube texture packs
+
+# Installation
+
+Install [Python 3](https://www.python.org/downloads/)
+
+Run
+
+```
+pip install cctexconvert
+```
+
+or compile from source by running
+
+```
+git clone https://github.com/Fam0r/CCTexConvert
+cd CCTexConvert
+python setup.py
+```
+
+## Progress:
+
+- [x] Partial 1.12.2 support
+- [ ] Support classic's wool colours
+- [ ] Animation support
+- [ ] Extended blocksets (venk's, redux etc.)
+- [ ] Support more versions
+

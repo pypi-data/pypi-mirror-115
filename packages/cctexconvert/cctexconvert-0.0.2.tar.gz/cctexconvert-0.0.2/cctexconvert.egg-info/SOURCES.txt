@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+cctexconvert/__init__.py
+cctexconvert/cli.py
+cctexconvert/converter.py
+cctexconvert/texturemap.py
+cctexconvert.egg-info/PKG-INFO
+cctexconvert.egg-info/SOURCES.txt
+cctexconvert.egg-info/dependency_links.txt
+cctexconvert.egg-info/entry_points.txt
+cctexconvert.egg-info/requires.txt
+cctexconvert.egg-info/top_level.txt
