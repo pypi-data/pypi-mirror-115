@@ -1,0 +1,11 @@
+gleipnir/__init__.py,sha256=kmfHpHo2YhSrigutlRQs8qXIR8nEm-D-c8lScQQN64M,22
+gleipnir/cli.py,sha256=2SKKZAWHCL0tC-VV9Ny5kLBcIKJIIvQPQEOep3nLn30,1710
+gleipnir/commands/__init__.py,sha256=Y3BmQe85hO4nlwnOC33wlF8MIqohGbwgAsc6im0nUWY,23
+gleipnir/commands/base.py,sha256=Ort-53kh9q1ITH8XczepnejciVJhSrADlIJyR35vU1s,311
+gleipnir/commands/connect.py,sha256=BP1syo9dcjxYdRgQleN78h7z5BoUH-v1FHYN6dZth0o,8111
+gleipnir-1.2.1.dist-info/LICENSE.txt,sha256=ESK1UQXaUuGM07sDjw5tEAOgpGhRrIOf1XkCL2429zA,1048
+gleipnir-1.2.1.dist-info/METADATA,sha256=nSm0hxpqW3nU48BKzX8QxurecytuVmBLWL14FTp9kzI,1860
+gleipnir-1.2.1.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+gleipnir-1.2.1.dist-info/entry_points.txt,sha256=Ef_comyo2G5GWdalImkNcqZCOUJg9U0On7dUxN6DTuA,48
+gleipnir-1.2.1.dist-info/top_level.txt,sha256=S7iAPwHToW11UXdeDBjhWe3Vh9NR92kdRNpbyKqmrF8,9
+gleipnir-1.2.1.dist-info/RECORD,,
