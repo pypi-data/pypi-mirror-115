@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+uds_lib_test/__init__.py
+uds_lib_test/classess.py
+uds_lib_test/errors_list.py
+uds_lib_test.egg-info/PKG-INFO
+uds_lib_test.egg-info/SOURCES.txt
+uds_lib_test.egg-info/dependency_links.txt
+uds_lib_test.egg-info/not-zip-safe
+uds_lib_test.egg-info/top_level.txt
