@@ -1,0 +1,9 @@
+mopidy_asyncio_client/__init__.py,sha256=9UIZ48A1uVN2zKsSf0Dn0P0laDtOaoyxpNZTlzb-KKA,1228
+mopidy_asyncio_client/client.py,sha256=gy9s6elz-X-CXB1GB79JGOPsH1nxrR8_tJ0_hbBG0mo,14543
+mopidy_asyncio_client/messages.py,sha256=m1UkG7mY9XuTb_j7kph32GTQmgp1KLgvsca5GI3yJCQ,5691
+mopidy_asyncio_client/mopidy_api.py,sha256=oqZ8SZBMngxG5wsHovorX_dM0BPSEccuBnZcLxAQpDE,39525
+mopidy_asyncio_client-3.1.0.dist-info/LICENSE,sha256=gXf5dRMhNSbfLPYYTY_5hsZ1r7UU1OaKQEAQUhuIBkM,18092
+mopidy_asyncio_client-3.1.0.dist-info/METADATA,sha256=5eq31A119y3FNcSH6RHNu8453WQ6MuCUgun0Pj_yZG8,10019
+mopidy_asyncio_client-3.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+mopidy_asyncio_client-3.1.0.dist-info/top_level.txt,sha256=874YWQBcZ15UJUL2D_UKYku89XeAPxp-eZeV4oRkwS0,22
+mopidy_asyncio_client-3.1.0.dist-info/RECORD,,
