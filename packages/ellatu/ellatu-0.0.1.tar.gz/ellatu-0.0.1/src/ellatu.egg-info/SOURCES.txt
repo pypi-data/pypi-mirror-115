@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+setup.cfg
+src/ellatu.egg-info/PKG-INFO
+src/ellatu.egg-info/SOURCES.txt
+src/ellatu.egg-info/dependency_links.txt
+src/ellatu.egg-info/top_level.txt

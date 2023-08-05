@@ -1,0 +1,16 @@
+[tool.pyright]
+include = ["scr"]
+executionEnvironments = [
+  { root = "src" }
+]
+
+[build-system]
+requires = [
+    "setuptools>=42",
+    "discord", 
+    "Pillow", 
+    "tatsu",
+    "numpy", 
+    "wheel" 
+]
+build-backend = "setuptools.build_meta"
