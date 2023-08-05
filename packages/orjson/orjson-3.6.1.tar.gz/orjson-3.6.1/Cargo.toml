@@ -1,0 +1,88 @@
+[dependencies.ahash]
+default_features = false
+version = "0.7"
+
+[dependencies.associative-cache]
+version = "1"
+
+[dependencies.bytecount]
+default_features = false
+features = ["generic-simd", "runtime-dispatch-simd"]
+version = "^0.6.2"
+
+[dependencies.chrono]
+default_features = false
+version = "0.4"
+
+[dependencies.encoding_rs]
+default_features = false
+version = "0.8"
+
+[dependencies.inlinable_string]
+version = "0.1"
+
+[dependencies.itoa]
+default_features = false
+version = "0.4"
+
+[dependencies.once_cell]
+default_features = false
+version = "1"
+
+[dependencies.pyo3]
+default_features = false
+features = ["extension-module"]
+version = "^0.13.2"
+
+[dependencies.ryu]
+default_features = false
+version = "1"
+
+[dependencies.serde]
+default_features = false
+version = "1"
+
+[dependencies.serde_json]
+default_features = false
+features = ["std"]
+path = "local_dependencies/serde_json"
+
+[dependencies.smallvec]
+default_features = false
+features = ["union", "write"]
+version = "^1.6"
+
+[lib]
+crate-type = ["cdylib"]
+name = "orjson"
+
+[package]
+authors = ["ijl <ijl@mailbox.org>"]
+description = "Fast, correct Python JSON library supporting dataclasses, datetimes, and numpy"
+edition = "2018"
+homepage = "https://github.com/ijl/orjson"
+include = ["build.rs", "Cargo.toml", "CHANGELOG.md", "data/*", "LICENSE-APACHE", "LICENSE-MIT", "pyproject.toml", "README.md", "src/*", "test/*.py", "test/requirements.txt"]
+keywords = ["fast", "json", "dataclass", "dataclasses", "datetime", "rfc", "8259", "3339"]
+license = "Apache-2.0 OR MIT"
+name = "orjson"
+readme = "README.md"
+repository = "https://github.com/ijl/orjson"
+resolver = "2"
+version = "3.6.1"
+[package.metadata.maturin]
+classifiers = ["Development Status :: 5 - Production/Stable", "Intended Audience :: Developers", "License :: OSI Approved :: Apache Software License", "License :: OSI Approved :: MIT License", "Operating System :: MacOS", "Operating System :: Microsoft :: Windows", "Operating System :: POSIX :: Linux", "Programming Language :: Python :: 3", "Programming Language :: Python :: 3.10", "Programming Language :: Python :: 3.6", "Programming Language :: Python :: 3.7", "Programming Language :: Python :: 3.8", "Programming Language :: Python :: 3.9", "Programming Language :: Python :: Implementation :: CPython", "Programming Language :: Python", "Programming Language :: Rust", "Typing :: Typed"]
+requires-python = ">=3.6"
+[profile.release]
+codegen-units = 1
+debug = false
+incremental = false
+lto = "thin"
+opt-level = 3
+panic = "abort"
+
+[profile.release.build-override]
+opt-level = 0
+[target."cfg(any(target_arch = \"x86_64\", target_arch = \"aarch64\", target_arch = \"i686\", target_arch = \"armv7\"))".dependencies.encoding_rs]
+default_features = false
+features = ["simd-accel"]
+version = "0.8"
