@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: Site_Seo_Scanner
+Version: 0.1.0
+Summary: The site seo scanner. 
+Home-page: https://github.com/onuratakan/Site_Seo_Scanner
+Author: Onur Atakan ULUSOY
+Author-email: atadogan06@gmail.com
+License: MIT
+Description: 
+        # Site Seo Scanner | ![Made_with_python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) ![Licence](https://img.shields.io/github/license/onuratakan/Site_Seo_Scanner.svg)
+        # Installing
+        ```console
+        pip install Site-Seo-Scanner
+        ```
+        # Import
+        ```python
+        from ssc import SSC
+        ```
+        
+Platform: UNKNOWN
+Requires-Python: >=3
+Description-Content-Type: text/markdown

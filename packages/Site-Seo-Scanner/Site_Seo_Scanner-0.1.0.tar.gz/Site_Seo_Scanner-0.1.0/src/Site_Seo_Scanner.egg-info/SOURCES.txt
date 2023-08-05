@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+src/Site_Seo_Scanner.egg-info/PKG-INFO
+src/Site_Seo_Scanner.egg-info/SOURCES.txt
+src/Site_Seo_Scanner.egg-info/dependency_links.txt
+src/Site_Seo_Scanner.egg-info/not-zip-safe
+src/Site_Seo_Scanner.egg-info/requires.txt
+src/Site_Seo_Scanner.egg-info/top_level.txt
+src/ssc/__init__.py
+src/ssc/ssc.py
