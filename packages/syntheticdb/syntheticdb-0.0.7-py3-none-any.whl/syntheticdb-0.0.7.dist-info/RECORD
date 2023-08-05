@@ -1,0 +1,7 @@
+syntheticdb/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+syntheticdb/db_core.py,sha256=fiVEuS8hD3f49oQNk9Zm6VzTC2jxDOUEU7rWxpqu_Zg,4554
+syntheticdb/distributions.py,sha256=sN1-4SW4W8lZS97icQQ4WSGInG6QcQFlAyUPOdWU7Go,739
+syntheticdb/main.py,sha256=sLQhfel9ke28-Ao6ybu-y2LLrP0CbDUV9IRcJk1wJ3w,895
+syntheticdb-0.0.7.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+syntheticdb-0.0.7.dist-info/METADATA,sha256=I_2ov8Zuev9EVKuIEqjgRMsltpgVbvofqtJKm7gQAWQ,416
+syntheticdb-0.0.7.dist-info/RECORD,,
