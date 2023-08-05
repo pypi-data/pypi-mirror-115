@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: ArnorLib
+Version: 1.0.2
+Summary: Random things
+Home-page: https://ALib.readthedocs.io/
+Author: Arnór Friðriksson
+Author-email: arnor0903@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+Bara random stuff sem ég nota
+
+
