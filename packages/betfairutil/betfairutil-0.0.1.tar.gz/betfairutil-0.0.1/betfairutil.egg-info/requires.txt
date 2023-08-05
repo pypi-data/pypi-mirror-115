@@ -1,0 +1,5 @@
+betfairlightweight
+pandas
+
+[files]
+smart_open
