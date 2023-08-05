@@ -1,0 +1,9 @@
+morse_code_translator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+morse_code_translator/dictionary.py,sha256=ot6DI7wfcYWKpPIc65WbgQDiy3mumFCmRrrYIsUN9zY,622
+morse_code_translator/enums.py,sha256=3egMVRuCAt1RTcxGO4XF7pUg1sGU36T_C3wthzfhRtU,375
+morse_code_translator/translator.py,sha256=aCDZw-iDlLmKYiEjYKRiRUDZdj-0774T8uTcQ4v_Ihw,1436
+morse_code_translator2-0.0.3.dist-info/LICENSE,sha256=fpbX8VPe215lMm2VJlXJgIvGqwgbAC1X8SR7QhRlEkk,1072
+morse_code_translator2-0.0.3.dist-info/METADATA,sha256=yGPlOTpa598l3gr0LEH7W6aCh7D2UJ5kHhhh4VpwWlY,1927
+morse_code_translator2-0.0.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+morse_code_translator2-0.0.3.dist-info/top_level.txt,sha256=1PU_yycp9TLwukl9TDv5uegOzOLRsYJMYZtpaDe1Hfk,22
+morse_code_translator2-0.0.3.dist-info/RECORD,,
