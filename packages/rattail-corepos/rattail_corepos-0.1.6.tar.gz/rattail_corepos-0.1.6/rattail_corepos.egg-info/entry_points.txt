@@ -1,0 +1,25 @@
+[console_scripts]
+core-office = rattail_corepos.corepos.office.commands:main
+crepes = rattail_corepos.corepos.commands:main
+
+[core_office.commands]
+export-lane-op = rattail_corepos.corepos.office.commands:ExportLaneOp
+
+[crepes.commands]
+export-core = rattail_corepos.corepos.commands:ExportCore
+export-csv = rattail_corepos.corepos.commands:ExportCSV
+import-core = rattail_corepos.corepos.commands:ImportCore
+import-csv = rattail_corepos.corepos.commands:ImportCSV
+
+[rattail.commands]
+corepos-import-square = rattail_corepos.commands:CoreImportSquare
+export-corepos = rattail_corepos.commands:ExportCore
+import-corepos-api = rattail_corepos.commands:ImportCOREPOSAPI
+import-corepos-db = rattail_corepos.commands:ImportCOREPOSDB
+
+[rattail.config.extensions]
+rattail-corepos = rattail_corepos.config:RattailCOREPOSExtension
+
+[trainwreck.commands]
+import-corepos = rattail_corepos.trainwreck.commands:ImportCore
+
