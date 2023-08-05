@@ -1,0 +1,8 @@
+LICENSE
+README.rst
+setup.py
+sabi-hello-world/__init__.py
+sabi_hello_world.egg-info/PKG-INFO
+sabi_hello_world.egg-info/SOURCES.txt
+sabi_hello_world.egg-info/dependency_links.txt
+sabi_hello_world.egg-info/top_level.txt
