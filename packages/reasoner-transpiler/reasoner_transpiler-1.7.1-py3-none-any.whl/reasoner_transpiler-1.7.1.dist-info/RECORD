@@ -1,0 +1,10 @@
+reasoner_transpiler/attribute_types.json,sha256=Cnirm2OlqKvCuJdHBs1gFt5LbVm_boWcExT0EYuWb50,41
+reasoner_transpiler/cypher.py,sha256=3C-b-iH5HrSAwIaeuTXR5Vm7IYYT2guC5CT2BYGYZlw,6141
+reasoner_transpiler/cypher_expression.py,sha256=Sovd26ET1upL5tKwZEnMEAr6OJg1H16w_Axr79m5t_Q,979
+reasoner_transpiler/matching.py,sha256=f8ea5VoExeU_nuyxXG_nP5wXEI8QHqk4Gzi41KXOhoQ,9828
+reasoner_transpiler/nesting.py,sha256=U4e1Hov3f8b0byrH7xrsm_a-NRKTlseY3OH0x7F0MFE,8780
+reasoner_transpiler/util.py,sha256=URFro8-OxeszF9Dk8_QNKZTy-uE-SssnXgKzLXwfrSk,2440
+reasoner_transpiler-1.7.1.dist-info/METADATA,sha256=AmLVCrpkI2F-s2EJwBPZwUKlO1QLvY_MIcoQ4qqCOeU,282
+reasoner_transpiler-1.7.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+reasoner_transpiler-1.7.1.dist-info/top_level.txt,sha256=fWqaK6YuyrW5IyAp3zA1R-2dmlmD0gRpaAreQy0Qm7w,20
+reasoner_transpiler-1.7.1.dist-info/RECORD,,
