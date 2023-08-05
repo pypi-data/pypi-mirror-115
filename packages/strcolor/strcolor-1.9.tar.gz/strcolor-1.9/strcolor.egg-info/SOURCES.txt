@@ -1,0 +1,7 @@
+setup.py
+strcolor/__init__.py
+strcolor/strcolor.py
+strcolor.egg-info/PKG-INFO
+strcolor.egg-info/SOURCES.txt
+strcolor.egg-info/dependency_links.txt
+strcolor.egg-info/top_level.txt
