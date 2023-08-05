@@ -1,0 +1,12 @@
+HISTORY.md
+LICENSE
+README.md
+knipse.py
+setup.cfg
+setup.py
+knipse.egg-info/PKG-INFO
+knipse.egg-info/SOURCES.txt
+knipse.egg-info/dependency_links.txt
+knipse.egg-info/entry_points.txt
+knipse.egg-info/top_level.txt
+knipse.egg-info/zip-safe
