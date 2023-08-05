@@ -1,0 +1,152 @@
+Metadata-Version: 2.1
+Name: xsdata-attrs
+Version: 21.8
+Summary: xsdata attrs plugin
+Home-page: https://github.com/tefra/xsdata-attrs
+Author: Christodoulos Tsoulloftas
+Author-email: "chris@komposta.net",
+License: MIT
+Project-URL: Source, https://github.com/tefra/xsdata-attrs
+Keywords: xsd,wsdl,schema,binding,xml,json,dataclasses,generator,cli,attrs
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Software Development :: Code Generators
+Classifier: Topic :: Text Processing :: Markup :: XML
+Requires-Python: >=3.6
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: attrs (>=19.2.0)
+Requires-Dist: xsdata (>=21.8)
+Provides-Extra: cli
+Requires-Dist: xsdata[cli] (>=21.8) ; extra == 'cli'
+Provides-Extra: docs
+Requires-Dist: furo ; extra == 'docs'
+Requires-Dist: sphinx ; extra == 'docs'
+Requires-Dist: sphinx-autobuild ; extra == 'docs'
+Provides-Extra: lxml
+Requires-Dist: lxml (>=4.4.1) ; extra == 'lxml'
+Provides-Extra: soap
+Requires-Dist: requests ; extra == 'soap'
+Provides-Extra: test
+Requires-Dist: codecov ; extra == 'test'
+Requires-Dist: lxml ; extra == 'test'
+Requires-Dist: pre-commit ; extra == 'test'
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: pytest-cov ; extra == 'test'
+Requires-Dist: tox ; extra == 'test'
+
+.. image:: https://raw.githubusercontent.com/tefra/xsdata-attrs/master/docs/_static/logo.svg
+    :target: https://xsdata-attrs.readthedocs.io/
+
+xsdata powered by attrs!
+========================
+
+.. image:: https://github.com/tefra/xsdata/workflows/tests/badge.svg
+    :target: https://github.com/tefra/xsdata-attrs/actions
+
+.. image:: https://readthedocs.org/projects/xsdata-attrs/badge
+    :target: https://xsdata-attrs.readthedocs.io/
+
+.. image:: https://codecov.io/gh/tefra/xsdata-attrs/branch/master/graph/badge.svg
+    :target: https://codecov.io/gh/tefra/xsdata-attrs
+
+.. image:: https://img.shields.io/github/languages/top/tefra/xsdata-attrs.svg
+    :target: https://xsdata-attrs.readthedocs.io/
+
+.. image:: https://www.codefactor.io/repository/github/tefra/xsdata-attrs/badge
+   :target: https://www.codefactor.io/repository/github/tefra/xsdata-attrs
+
+.. image:: https://img.shields.io/pypi/pyversions/xsdata-attrs.svg
+    :target: https://pypi.org/pypi/xsdata-attrs/
+
+.. image:: https://img.shields.io/pypi/v/xsdata-attrs.svg
+    :target: https://pypi.org/pypi/xsdata-attrs/
+
+--------
+
+xsData is a complete data binding library for python allowing developers to access and
+use XML and JSON documents as simple objects rather than using DOM.
+
+Now powered by attrs!
+
+
+Install
+=======
+
+.. code:: console
+
+    $ # Install with cli support
+    $ pip install xsdata-attrs[cli]
+
+
+Generate Models
+===============
+
+.. code:: console
+
+    $ # Generate models
+    $ xsdata http://rss.cnn.com/rss/edition.rss --output attrs
+    Parsing document edition.rss
+    Analyzer input: 9 main and 0 inner classes
+    Analyzer output: 9 main and 0 inner classes
+    Generating package: init
+    Generating package: generated.rss
+
+.. code-block:: python
+
+    ...
+
+    @attr.s
+    class Rss:
+        class Meta:
+            name = "rss"
+
+        version: Optional[float] = attr.ib(
+            default=None,
+            metadata={
+                "type": "Attribute",
+            }
+        )
+        channel: Optional[Channel] = attr.ib(
+            default=None,
+            metadata={
+                "type": "Element",
+            }
+        )
+
+    ...
+
+
+XML Parsing
+===========
+
+.. code:: python
+
+    >>> from xsdata_attrs.bindings import XmlParser
+    >>> from urllib.request import urlopen
+    >>> from generated.rss import Rss
+    >>>
+    >>> parser = XmlParser()
+    >>> with urlopen("http://rss.cnn.com/rss/edition.rss") as rq:
+    ...     result = parser.parse(rq, Rss)
+    ...
+    >>> result.channel.item[2].title
+    'Vatican indicts 10 people, including a Cardinal, over an international financial scandal'
+    >>> result.channel.item[2].pub_date
+    'Sat, 03 Jul 2021 16:37:14 GMT'
+    >>> result.channel.item[2].link
+    'https://www.cnn.com/2021/07/03/europe/vatican-financial-scandal-intl/index.html'
+
+

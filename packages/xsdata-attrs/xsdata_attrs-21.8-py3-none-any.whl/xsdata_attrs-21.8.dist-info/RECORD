@@ -1,0 +1,14 @@
+xsdata_attrs/__init__.py,sha256=OhZXMIc-3yTzcoR_1p69dNQef3b4yojVan5LSVeR2UY,21
+xsdata_attrs/bindings.py,sha256=Eg3bUproqTI0k_k78KxGsEmez78MX9ZWvR6SILLGEUg,1185
+xsdata_attrs/compat.py,sha256=3yoCTNVA7qfGnkfrZyJUGi__wTvssqfOkitXS1vbEZk,2876
+xsdata_attrs/generator.py,sha256=3PgBHQryVqyAhZZauzsBwh6BDTMt5xTFfJK33AWhAqw,1345
+xsdata_attrs/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xsdata_attrs/hooks/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xsdata_attrs/hooks/class_type.py,sha256=fL6-FP__fSMoAbpZ6Av9DY34TOC05DAD6DChJOLDkZg,135
+xsdata_attrs/hooks/cli.py,sha256=BFMhg9VM6YbW0rmcykiMtNJqY0AjhuFqH3B-D2hT6hk,152
+xsdata_attrs-21.8.dist-info/LICENSE,sha256=_o9EMrFjZutmLFnc-WmdCAccRxR2AMUwGeDpIL2dK8Q,1082
+xsdata_attrs-21.8.dist-info/METADATA,sha256=gKkCwGTQB07rgs6zS4aNU62wdcsxffB-t8_9rqD7Sfo,4733
+xsdata_attrs-21.8.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+xsdata_attrs-21.8.dist-info/entry_points.txt,sha256=KnJDsyYQklxzqRo36gfncZAHD7WMMJbylMlLswXihyg,135
+xsdata_attrs-21.8.dist-info/top_level.txt,sha256=-TjIsiXk-cUiP01oNzBYGzF9tZQAswnrNAz6UizjQvc,13
+xsdata_attrs-21.8.dist-info/RECORD,,
