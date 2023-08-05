@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/flowframe/__init__.py
+src/flowframe/flowframe.py
+src/flowframe.egg-info/PKG-INFO
+src/flowframe.egg-info/SOURCES.txt
+src/flowframe.egg-info/dependency_links.txt
+src/flowframe.egg-info/top_level.txt
