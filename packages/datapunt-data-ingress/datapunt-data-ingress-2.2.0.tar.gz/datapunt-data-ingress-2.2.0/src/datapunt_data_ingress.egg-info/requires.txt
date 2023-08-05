@@ -1,0 +1,8 @@
+django
+djangorestframework
+
+[dev]
+pytest
+pytest-cov
+twine
+bump2version
