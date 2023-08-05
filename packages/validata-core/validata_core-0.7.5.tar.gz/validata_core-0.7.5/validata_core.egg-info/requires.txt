@@ -1,0 +1,9 @@
+ezodf
+frictionless[excel]==4.10.6
+importlib_resources
+openpyxl
+lxml
+requests
+tablib[pandas]
+toolz
+python-stdnum
