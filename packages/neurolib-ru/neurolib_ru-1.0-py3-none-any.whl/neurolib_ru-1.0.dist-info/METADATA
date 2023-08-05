@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: neurolib-ru
+Version: 1.0
+Summary: Library for creating neural networks
+Home-page: https://example.com/
+Author: UNKNOWN
+Author-email: vasya.pupkin@example.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires: numpy
+Requires: random
+Requires: math
+Requires: abc
+
+UNKNOWN
+
+
