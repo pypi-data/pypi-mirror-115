@@ -1,0 +1,9 @@
+zentinel/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+zentinel/_api.py,sha256=Ghkrr3-dSEOMlfxCaJ9ItNm2Gv94ui_DnMfwLGKZGEc,141
+zentinel/_argparse.py,sha256=DGke7NIJ31PIPcNFJugAZ1wkoiKisC1TZyEmr7_fKDo,232
+zentinel-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+zentinel-0.0.1.dist-info/METADATA,sha256=i7hQMNxE2_u1295ayYr-QhNFrvTVAg_3giG4z2ilunA,1163
+zentinel-0.0.1.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+zentinel-0.0.1.dist-info/entry_points.txt,sha256=5zQ2C-BKr_dONOgi0r5I3FpdVKHQTru_Mm0nXHCmQb8,49
+zentinel-0.0.1.dist-info/top_level.txt,sha256=GNdFuZ-A_v8siEZaBSFkNBeLIv2STTlncIXIA35UZPE,9
+zentinel-0.0.1.dist-info/RECORD,,

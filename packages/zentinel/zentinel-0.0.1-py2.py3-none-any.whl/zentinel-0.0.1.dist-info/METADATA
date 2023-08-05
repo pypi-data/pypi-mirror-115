@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: zentinel
+Version: 0.0.1
+Summary: Asynchronous port scanning with python
+Home-page: UNKNOWN
+Author: Simon Kerr
+Author-email: jackofspaces@gmail.com
+License: Apache License 2.0
+Project-URL: Documentation, https://zentinel.readthedocs.io/
+Project-URL: Changelog, https://zentinel.readthedocs.io/en/latest/changelog.html
+Project-URL: Tracker, https://github.com/symonk/zentinel/issues
+Keywords: testing,network,socket,port scanning
+Platform: unix
+Platform: linux
+Platform: osx
+Platform: cygwin
+Platform: win32
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Utilities
+Requires-Python: >=3.8
+Provides-Extra: tests
+Requires-Dist: pytest (==6.2.4) ; extra == 'tests'
+Requires-Dist: codecov (==2.1.11) ; extra == 'tests'
+Requires-Dist: ipython (==7.26.0) ; extra == 'tests'
+Requires-Dist: pre-commit ; extra == 'tests'
+
+UNKNOWN
+
+
