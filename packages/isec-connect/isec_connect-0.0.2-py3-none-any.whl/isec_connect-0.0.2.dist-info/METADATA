@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: isec-connect
+Version: 0.0.2
+Summary: Testing isec ws sdk
+Home-page: https://github.com/pypa/sampleproject
+Author: Aayush Shah
+Author-email: author@example.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: python-socketio[client]
+Requires-Dist: requests
+
+## ISecConnect SDK
+This is a sample package to integrate and start receiving streaming stocks for subscribed users.
+
+
