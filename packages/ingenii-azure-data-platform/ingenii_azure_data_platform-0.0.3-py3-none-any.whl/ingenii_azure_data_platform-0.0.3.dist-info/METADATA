@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: ingenii-azure-data-platform
+Version: 0.0.3
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: pulumi (==3.9.0)
+Requires-Dist: pulumi-azure-native (==1.19.0)
+Requires-Dist: pulumi-azuread (==4.3.0)
+Requires-Dist: pulumi-databricks (==0.0.2)
+Requires-Dist: HiYaPyCo (==0.4.16)
+Requires-Dist: dynaconf (==3.1.4)
+Requires-Dist: yamale (==3.0.7)
+Requires-Dist: autopep8
+
+UNKNOWN
+
+
