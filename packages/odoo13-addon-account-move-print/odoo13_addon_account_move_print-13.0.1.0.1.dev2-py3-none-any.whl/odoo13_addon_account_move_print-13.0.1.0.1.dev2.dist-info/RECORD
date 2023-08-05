@@ -1,0 +1,14 @@
+odoo/addons/account_move_print/README.rst,sha256=47qc0xoyMt1QLB2BY_B_sRTAr1ZqDaXhwbmRm3VuQTQ,3403
+odoo/addons/account_move_print/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+odoo/addons/account_move_print/__manifest__.py,sha256=7KO9GSzRYD4YxfZ6bn6XVobDUEwHMAafBF53DJ7y2X0,591
+odoo/addons/account_move_print/i18n/account_move_print.pot,sha256=40T3eDOZij1qJQ-0rbHLyXpkq-VJ3Vifd1m2aPu7BFk,2535
+odoo/addons/account_move_print/readme/CONTRIBUTORS.rst,sha256=lipQNo76IEOZVc0hkqiNx8Um5_LiDKodEYwlGEgEvtg,145
+odoo/addons/account_move_print/readme/DESCRIPTION.rst,sha256=84d736HiZdZpcj68QEF47thDggUOVNVOk3EabJUeGYA,54
+odoo/addons/account_move_print/readme/USAGE.rst,sha256=UDw_S-t6sSlZ1Qk3fjjMbNhiUgO2t8lYRI9FZDsdeh0,275
+odoo/addons/account_move_print/report/journal_report.xml,sha256=W-TM8nHyZhuO32mq9UEeP_6StlZhB3FSoqJbDe9nSO8,11036
+odoo/addons/account_move_print/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/account_move_print/static/description/index.html,sha256=-jOsmc4mJWWhr06ZZWEYAXvqxdAk-RT46EYLK0TgZGE,12974
+odoo13_addon_account_move_print-13.0.1.0.1.dev2.dist-info/METADATA,sha256=a5jOXSDooHmj_ifpS7rahkrra3DXII3jvrApGp6VVfg,3946
+odoo13_addon_account_move_print-13.0.1.0.1.dev2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+odoo13_addon_account_move_print-13.0.1.0.1.dev2.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo13_addon_account_move_print-13.0.1.0.1.dev2.dist-info/RECORD,,
