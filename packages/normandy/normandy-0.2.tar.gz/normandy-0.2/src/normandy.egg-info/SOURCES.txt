@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/normandy/__init__.py
+src/normandy/normandy.py
+src/normandy.egg-info/PKG-INFO
+src/normandy.egg-info/SOURCES.txt
+src/normandy.egg-info/dependency_links.txt
+src/normandy.egg-info/entry_points.txt
+src/normandy.egg-info/top_level.txt
