@@ -1,0 +1,16 @@
+flexible_forms/__init__.py,sha256=3lRaDz4rIIBoQYchwj92ceSb7ZGnhZO4uCoLbbHVLL4,481
+flexible_forms/admin.py,sha256=pwbgvSBMlV6z4WU36pjpXMTdmURiZwizRzjTYe2CFhY,19521
+flexible_forms/apps.py,sha256=kKifzSjpuZGcKaRvY_EMNcFMr8k0Rx88lv2YZqVA4ng,390
+flexible_forms/cache.py,sha256=TJAZzeA4GGKki0cCGtWjq7L0D2sArT25bw5q9DTmlMI,227
+flexible_forms/fields.py,sha256=CR1atXBbqljprjBUl8nqUfDvEMSB9MEHtN5YK9LymZ0,51922
+flexible_forms/forms.py,sha256=7JXo4mdsBvoIC6Mo5bTMz8AfZEm8fvwPmA3xgaUJwUY,10482
+flexible_forms/models.py,sha256=uJo6kXX9GyrUu57PM-3KctvLQqDpILLHDJpqhZeEoIw,61724
+flexible_forms/signals.py,sha256=rlW_ws9BaOZkRjzPqYQOt6GEaqLtTJBGllYAqLfr7lE,705
+flexible_forms/static/flexible_forms/admin/code-editor-admin-widget.css,sha256=EhBeuEZCJv1NXWpspeyimrC2BhIdnSp-C5UqHXHCCks,250
+flexible_forms/urls.py,sha256=AUaY_ltBR24zxfvO6RNe_39kDPsFvKWvJ1dFdGV5fC4,267
+flexible_forms/utils.py,sha256=rjqR1uuywIaxPJgeCeZX93PGmHzWvZxVrzZm-OMRx68,12909
+flexible_forms/views.py,sha256=Ln4nsUg2HNPJiHr6dl5t0XtwmooTgR0XcwEsymbqcNE,2133
+flexible_forms/widgets.py,sha256=DkGh7o60dsH_Cdy4ctEazGwZ5n-ApqLB00Vr4NhqkEg,7812
+django_flexible_forms-0.16.7.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+django_flexible_forms-0.16.7.dist-info/METADATA,sha256=zeX8-AiMQ26B5RG8jRlfpJoYmxD4zbq38n6EWn9HpIY,707
+django_flexible_forms-0.16.7.dist-info/RECORD,,
