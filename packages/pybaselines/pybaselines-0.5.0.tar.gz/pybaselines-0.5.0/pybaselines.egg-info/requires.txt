@@ -1,0 +1,6 @@
+numpy>=1.14
+scipy>=0.11
+
+[full]
+pentapy>=1.0
+numba>=0.45
