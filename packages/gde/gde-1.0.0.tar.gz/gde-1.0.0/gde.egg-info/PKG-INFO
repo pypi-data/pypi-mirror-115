@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: gde
+Version: 1.0.0
+Summary: Graph Data Exctractor (GDE)
+Home-page: UNKNOWN
+Author: Michael Clerx
+Author-email: michael@myokit.org
+License: BSD 3-clause license
+Description: # Graph Data Extractor (GDE)
+        
+        GDE is a simple tool that lets you overlay axes on a raster image (e.g. a jpeg from a figure), click on some data points, and then extract them as CSV.
+        More sophisticated alternative tools are available!
+        
+        GDE was originally part of [Myokit](https://github.com/MichaelClerx/myokit), but is now maintained as a separate project.
+        
+        ## Install
+        
+        TODO
+        
+        
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
