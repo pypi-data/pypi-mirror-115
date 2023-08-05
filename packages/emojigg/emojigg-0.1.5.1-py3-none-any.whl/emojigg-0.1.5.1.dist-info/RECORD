@@ -1,0 +1,13 @@
+emojigg/__init__.py,sha256=0TnlkO4EyWEfUmzm1AbZxkam40bRAQfbdgXwi1cZlrc,109
+emojigg/client.py,sha256=7rSee6UX2sk-iuTIdbfNYJZ_I6q2n5cY2hgRVFIUtiE,2844
+emojigg/emoji.py,sha256=xkQK_LYZ7nDbhoh6_uyh39VrygdmBNcfHe46CGqkqoo,1770
+emojigg/errors.py,sha256=qEKEY6UiSdzv9hcGurEAamA6we6UmI1z7eLUrZk2w-E,234
+emojigg/http.py,sha256=6fGIeP6O1iCo0awONEFN5fRtzh964xf0f7va8sdY_Kg,2146
+emojigg/pack.py,sha256=aqXN91qxiLZ56y3lQmSCuT0Hy9MBW9whXv3bxGdH3rA,1853
+emojigg/utils.py,sha256=1f-p7ADoScqStT3726vMXX-xrptl6dN1M4ZhNdY2qDw,1504
+emojigg-0.1.5.1.dist-info/LICENSE,sha256=tdKpacoQJRtp0FDLuaD9uhpLw-nlpeZ73MeQAnOlD_M,1065
+emojigg-0.1.5.1.dist-info/METADATA,sha256=57lxLtxc0s7qETcO4HQs5JilpVYn2nfdb2yZ-56Xaos,1341
+emojigg-0.1.5.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+emojigg-0.1.5.1.dist-info/entry_points.txt,sha256=_BIk7gC-aA092OFWrxM-C5bOrhZQe4eCggAGwVctUxs,49
+emojigg-0.1.5.1.dist-info/top_level.txt,sha256=LzwHWhl1wTDp48fvUOsWbS1EG7qTBs2jNUh_kgDK2VI,8
+emojigg-0.1.5.1.dist-info/RECORD,,
