@@ -1,0 +1,14 @@
+svmon_python_client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+svmon_python_client/chain_TERENA_SSL_CA_3.pem,sha256=vSbxY_NFmpgjF9G8-6lP5kJaPCDAqpo4h5T9oJY43mw,3707
+svmon_python_client/config.json,sha256=6l99EY5vebf6w-ru55QIXHrxXDo7N9hy8TYYmd9Ktk0,127
+svmon_python_client/json_operations.py,sha256=3ToG2XYaKzVCm6QOBCO_rhFHWBkOk_a1hlEBoiJUrB0,831
+svmon_python_client/operating_system_parser.py,sha256=2kAiUqCsd7D9EGjWQzQiy_vUuw-k4tISRTLcjCJe0mk,2986
+svmon_python_client/remoteConfig.py,sha256=CL8tc9Erj15XtaRhJdp-wQYwGuCnMbSB346tpcP2Zqw,3140
+svmon_python_client/report.py,sha256=_DBkXd60pEZbdZ7Kwadbe5vVp_tmI1L8mMsnMWlz1z4,15240
+svmon_python_client/services.py,sha256=0gtBFHd4IB53aeJmfnQ7uXFl-_e_6p3u05-sX1Fp2Ik,6720
+svmon_python_client-2.1.7.data/scripts/svmon,sha256=i-wFJxT-qOo_lvyBlu1ChVV9wfY_QU-NknSdd0w8xvU,7008
+svmon_python_client-2.1.7.dist-info/LICENSE,sha256=jBBqIkvvpe7AVBZCJ-qBwemqd3QFBUUSDObE7P48GhA,1094
+svmon_python_client-2.1.7.dist-info/METADATA,sha256=mk37TfJcYzsQAUeaFPwBc48tRjGXe1G2y4M64R7frNg,2961
+svmon_python_client-2.1.7.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+svmon_python_client-2.1.7.dist-info/top_level.txt,sha256=s2BuQ8fqWWpZXqdeQ79DdXKvppm8R-skTSi-kUYPUac,20
+svmon_python_client-2.1.7.dist-info/RECORD,,
