@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/clientMessServer.egg-info/PKG-INFO
+src/clientMessServer.egg-info/SOURCES.txt
+src/clientMessServer.egg-info/dependency_links.txt
+src/clientMessServer.egg-info/top_level.txt
+src/example_package/__init__.py
+src/example_package/example.py
+src/example_package/log_config.py
+src/example_package/ui_hw_v2.py
+src/example_package/log/__init__.py
