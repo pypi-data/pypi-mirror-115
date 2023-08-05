@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: uds-lib-test
+Version: 0.1.1
+Summary: Lib for UDS API
+Home-page: UNKNOWN
+Author-email: s@uds.app
+License: UNKNOWN
+Platform: UNKNOWN
+
+This library for API calls to UDS App
+
+All information about UDS App API: https://docs.uds.app/
+
+Data Types
+
+There are special notices regarding data types used by Partner API. Please consider these notices as requirements since not following them may result in lack of functionality, errors or unpredictable behavior.
+
+Numbers and Rounding
+
+All numbers given to API must be rounded off to two decimal places by the round half up method. All responses from the server shall also follow this rule; so every field which is calculated on the server side will have not more than two decimal digits and the number will be rounded off by the "half up" method.
+
+UUID
+
+Partner API uses UUID 4 (or similar) to distinguish each request sent by the application. Clients should set headers X-Origin-Request-Id in requests and log (if possible) X-Request-Id set by the server in order to simplify debugging and to get proper support in case of errors. It should be guaranteed that there will be no duplication in these identifiers at least during a reasonable time period. At least this identifier shall not be reused for further requests.
+
+Standard integration scenario
+
+1. Customer downloads the UDS app at promo.uds.app.
+2. Customer shows a promo code (6 digits) from the app to a cashier.
+3. Cashier registers this code and information on the customer is displayed (first name, last name, the balance of points).
+4. Cashier enters the number of points to be deducted, 1 point = 1 ruble.
+5. Total bill amount is reduced by the number of deducted points. For example, the amount payable is 100, 30 points to be deducted and 70 rubles are to be paid in total.
+6. When the payment is completed, information on this transaction would be sent to UDS.
+
+A detailed description of called methods.
+
+Requirements
+API key (token) and company id used for integration with POS system shall not be hardcoded. I.e., when setting up the integration module, it should be possible to register API key and id in some configuration file (config), because they are different for each company.
+
+Warning!
+If error 401 unauthorized is returned when sending requests, API key or company id are incorrect.
+
+The integration module shall be accompanied by documentation on how to configure this module so that any cash processing specialist can do this.
+
