@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+raindrops/__init__.py
+raindrops/cli.py
+raindrops.egg-info/PKG-INFO
+raindrops.egg-info/SOURCES.txt
+raindrops.egg-info/dependency_links.txt
+raindrops.egg-info/entry_points.txt
+raindrops.egg-info/top_level.txt
