@@ -1,0 +1,7 @@
+MANIFEST.in
+README.txt
+setup.py
+DistTest.egg-info/PKG-INFO
+DistTest.egg-info/SOURCES.txt
+DistTest.egg-info/dependency_links.txt
+DistTest.egg-info/top_level.txt
