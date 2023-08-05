@@ -1,0 +1,3 @@
+[console_scripts]
+dkube = dkube_cli.cli:main
+
