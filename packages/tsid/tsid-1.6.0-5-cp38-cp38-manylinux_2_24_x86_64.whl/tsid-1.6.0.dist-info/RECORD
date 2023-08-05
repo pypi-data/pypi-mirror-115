@@ -1,0 +1,8 @@
+openrobots.libs/libeiquadprog.so,sha256=cnBmwpXnJILApGz2HsioEg3WvomnBwi5Odw-1aQ_Ge0,140576
+openrobots.libs/libtsid.so,sha256=GHFTmfdwlS8L-K_pk1GgaH5oZcMyyfUSJo-t-sGVpbQ,1329216
+tsid/__init__.py,sha256=82H_hqhMDQS0_x6vj5v5Zcg61tX9gbxvgKLhvenepjI,30
+tsid/libtsid_pywrap.so,sha256=x5MPRxu-w6QUAMNPXLZEAwMougxt1_I0LqNdyyj0eiE,2711024
+tsid-1.6.0.dist-info/METADATA,sha256=HNg3P5KRYrNLY5HoMPiD9mgySLFhdPQzLKig93b_4p4,4778
+tsid-1.6.0.dist-info/WHEEL,sha256=cUGy1vIcrlLH1g34_wUAn23TKVCrCsc7ALv9JV-HJdw,236
+tsid-1.6.0.dist-info/top_level.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+tsid-1.6.0.dist-info/RECORD,,
