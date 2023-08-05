@@ -1,0 +1,6 @@
+BTC_FULL_VERSION = "v1.006-14-prod"
+BTC_SHORT_VERSION = "latest"
+BTC_STAGE = "prod"
+BTC_PEP = "1.006.14"
+BTC_SRV_FULL_TAG = "brainome/btc_srv:v1.006-14-prod"
+BTC_SRV_SHORT_TAG = "brainome/btc_srv:latest"

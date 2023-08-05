@@ -1,0 +1,14 @@
+LICENSE
+README.txt
+btc
+setup.py
+./btc.so
+./btc_version.py
+./version.py
+./lib/libomp.dylib
+./lib/libxgboost.dylib
+brainome_mac_python3.8.egg-info/PKG-INFO
+brainome_mac_python3.8.egg-info/SOURCES.txt
+brainome_mac_python3.8.egg-info/dependency_links.txt
+brainome_mac_python3.8.egg-info/requires.txt
+brainome_mac_python3.8.egg-info/top_level.txt
