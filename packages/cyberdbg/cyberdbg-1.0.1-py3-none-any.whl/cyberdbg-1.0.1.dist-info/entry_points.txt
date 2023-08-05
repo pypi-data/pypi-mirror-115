@@ -1,0 +1,3 @@
+[console_scripts]
+gfg = cyberdbg.gfg:main
+
