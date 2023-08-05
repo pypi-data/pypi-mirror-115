@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.rst
+pyproject.toml
+requirements.txt
+setup.cfg
+setup.py
+src/configparserext/__init__.py
+src/configparserext/configparserext.py
+src/configparserext.egg-info/PKG-INFO
+src/configparserext.egg-info/SOURCES.txt
+src/configparserext.egg-info/dependency_links.txt
+src/configparserext.egg-info/requires.txt
+src/configparserext.egg-info/top_level.txt
