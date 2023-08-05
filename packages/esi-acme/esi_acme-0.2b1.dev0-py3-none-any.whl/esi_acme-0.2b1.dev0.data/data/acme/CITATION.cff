@@ -1,0 +1,28 @@
+cff-version: 1.1.0
+title: 'ACME: Asynchronous Computing Made Easy'
+message: If you use this software, please cite it based on metadata found in this
+  file. ACME is based on the parallelization engine used in SyNCoPy and is itself
+  part of the SyNCoPy package.
+authors:
+- affiliation: Ernst Strüngmann Institute for Neuroscience in Cooperation with Max
+    Planck Society
+  family-names: Fuertinger
+  given-names: Stefan
+  orcid: https://orcid.org/0000-0002-8118-036X
+- affiliation: Ernst Strüngmann Institute for Neuroscience in Cooperation with Max
+    Planck Society
+  family-names: Shapcott
+  given-names: Katharine
+  orcid: https://orcid.org/0000-0001-8618-5779
+- affiliation: Ernst Strüngmann Institute for Neuroscience in Cooperation with Max
+    Planck Society
+  family-names: Schmiedt
+  given-names: Joscha
+  orcid: https://orcid.org/0000-0001-6233-1866
+license: BSD-3-Clause
+keywords:
+- high-performance computing
+- parallel computing
+repository-code: https://github.com/esi-neuroscience/syncopy
+version: 0.2b0
+date-released: '2021-08-04'
