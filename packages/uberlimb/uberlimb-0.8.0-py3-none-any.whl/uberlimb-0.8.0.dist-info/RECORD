@@ -1,0 +1,15 @@
+uberlimb/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+uberlimb/flat_idea.png,sha256=VG20puRH3dag9cWuZ9E18_3i-h79r4_8FpH6JFq4Vp0,212585
+uberlimb/frame.py,sha256=p_dVXPSa4zXoeGVACAfFFyAQYzYSfbi8EdVNokLc3Tw,3260
+uberlimb/input_space.py,sha256=pHuPl71iYuYyJ-NiziQiw2IN69Ll0y5wj38kgg2cNrA,6446
+uberlimb/model/model.py,sha256=nL0ip88Umy6XsviBZ_W_OT3IXnLsq9r-RnzOT7jwl8M,2459
+uberlimb/model/models_impl.py,sha256=0qqi-85WVTWA93C44flJntCC_dz741enQ51lnq-IHBA,5268
+uberlimb/parameters.py,sha256=ccPjXkGqN_tMXSc3FyNesc7blLbkHCKFAE-Z1awpSdg,4186
+uberlimb/post_fx/brand_palette.py,sha256=AlKC9p-undYTVq0jTPYvWV8ZrL6wZ3RZjSadssZzivw,3787
+uberlimb/renderer.py,sha256=9ohL25hSp5qEDbGiT2QCFmGMFYWPi7bA6ERZNIAEDI0,3544
+uberlimb/scratch.py,sha256=9i_scPiVn_di8i75HpucCSZBkJkh2G2ZWcTP5Dn8aFA,1394
+uberlimb/video/animation.py,sha256=Od2gszLhvlmh4t_WcLaM3bo8Y0HCU_F7VEmIwjP9UXU,1044
+uberlimb/video/video_recorder.py,sha256=s7n_sZKw-lOuApasR6rUA5ch6Bsdu71zH41vlkwcsLc,2480
+uberlimb-0.8.0.dist-info/WHEEL,sha256=MyIjaRglnKvxtgGXLbj0ZYwRIpKJzMIEcf1_g2pW9II,85
+uberlimb-0.8.0.dist-info/METADATA,sha256=PLTGvYN6oAAZy2xE65ALGPPiR8Ouk6aEwKiuIt07TZ8,1545
+uberlimb-0.8.0.dist-info/RECORD,,
