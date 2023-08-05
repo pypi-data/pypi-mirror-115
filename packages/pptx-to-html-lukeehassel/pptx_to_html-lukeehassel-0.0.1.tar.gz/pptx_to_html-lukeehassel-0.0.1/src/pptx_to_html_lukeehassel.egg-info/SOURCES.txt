@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+src/pptx_to_html/__init__.py
+src/pptx_to_html/example.py
+src/pptx_to_html_lukeehassel.egg-info/PKG-INFO
+src/pptx_to_html_lukeehassel.egg-info/SOURCES.txt
+src/pptx_to_html_lukeehassel.egg-info/dependency_links.txt
+src/pptx_to_html_lukeehassel.egg-info/top_level.txt
