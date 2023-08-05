@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.py
+src/atomd/__init__.py
+src/atomd.egg-info/PKG-INFO
+src/atomd.egg-info/SOURCES.txt
+src/atomd.egg-info/dependency_links.txt
+src/atomd.egg-info/top_level.txt
+src/atomd/lexer/__init__.py
+src/atomd/parsers/__init__.py
+src/atomd/parsers/html.py
