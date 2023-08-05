@@ -1,0 +1,12 @@
+matchbot/__init__.py,sha256=FaT6cxPcw6quoAoVOYK6Vcfv8RZPfjJmlNRhqAMUlMc,1978
+matchbot/demo.py,sha256=be9hKdCygA1on0xj3a9Mn52g0PTs6hLCETWlEDK3SBs,908
+matchbot/databasemanager/__init__.py,sha256=JFN3WE3xPFrOLADZQWG6mGdGOf5VSw4Weh5tC-4r_kQ,12698
+matchbot/discordbot/__init__.py,sha256=Yhcw6TPNXVA10UUGJ1iI3v_1pljwaHjoqUc8PSJtUEc,1163
+matchbot/discordbot/usercog.py,sha256=R7lsrQWqpXrbltKs8OIsPl9DlwkGWxAeOrDtYkfJz-8,336
+matchbot/gameservermanager/__init__.py,sha256=2OhNv67BIY9fo925wtjNVGNJJJTLtdJWTONoNZ-_lZg,2058
+matchbot/gameservermanager/gameserver.py,sha256=bJ0-4R4fU4T5j-M037fpeOVn7BRFV9zjzMNPjl20F_w,2755
+matchbot_dev-0.0.2.dist-info/LICENSE.txt,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+matchbot_dev-0.0.2.dist-info/METADATA,sha256=4t-N_YO6zIV3sU4GNMJxzZxobmhfOqrbunsqAM4jbag,547
+matchbot_dev-0.0.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+matchbot_dev-0.0.2.dist-info/top_level.txt,sha256=m1KLjlv8GEOKknRenQcgff7qUNr3EnRj0chuj7mg7F4,9
+matchbot_dev-0.0.2.dist-info/RECORD,,
