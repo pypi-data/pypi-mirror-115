@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: pydeno_core
+Version: 0.1.0
+Summary: Python bindings for deno_core.
+Author: Tyler Kennedy <tk@tkte.ch>
+Author-email: Tyler Kennedy <tk@tkte.ch>
