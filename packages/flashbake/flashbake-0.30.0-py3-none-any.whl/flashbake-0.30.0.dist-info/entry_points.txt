@@ -1,0 +1,4 @@
+[console_scripts]
+flashbake = flashbake.console:main
+flashbakeall = flashbake.console:multiple_projects
+
