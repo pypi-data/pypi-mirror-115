@@ -1,0 +1,4 @@
+[console_scripts]
+mineer = mineer.pipeline:run
+mineer-test-files = mineer.download_test_files:download
+
