@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: gym-recsys
+Version: 0.0.1
+Summary: Customizable RecSys Simulator for OpenAI Gym
+Home-page: https://github.com/zuoxingdong/gym-recsys
+Author: Xingdong Zuo
+License: UNKNOWN
+Keywords: recsys,rl,reinforcement-learning,openai-gym,gym,python
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+License-File: LICENSE
+Requires-Dist: gym (>=0.17.3)
+Requires-Dist: numpy (>=1.19.0)
+Requires-Dist: scipy (>=1.6.0)
+Requires-Dist: pandas (>=1.2.0)
+Requires-Dist: scikit-learn (>=0.24.0)
+Requires-Dist: seaborn (>=0.11.1)
+Requires-Dist: matplotlib (>=3.4.0)
+Requires-Dist: Pillow (>=8.1.0)
+
+UNKNOWN
+

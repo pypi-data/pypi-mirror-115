@@ -1,0 +1,8 @@
+gym_recsys/__init__.py,sha256=SbCHLgBjVez6JrNA8Hbzx16aJn8R3-yGebZUALaSnDA,286
+gym_recsys/envs/__init__.py,sha256=YFuzY_XQaMJUaVFsX5pMUCd2nsXsstAlrTdEFkE1Qh8,79
+gym_recsys/envs/env.py,sha256=dQkLo1fUXziRo6lmlyL0Kgen6K6YCfZmm6UsQXZ9bAM,15164
+gym_recsys-0.0.1.dist-info/LICENSE,sha256=MAOACdDyFIssgP0sefMVm7oY1hZZxuWfRcIG5B0tGUM,1069
+gym_recsys-0.0.1.dist-info/METADATA,sha256=MxzgZp4D3ULrOHj8ZGeF5Cl77Cv7-znt-muWTis5zpo,931
+gym_recsys-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+gym_recsys-0.0.1.dist-info/top_level.txt,sha256=9uxAxY8jLnGfrK1Kho39LnXPchOwLuuNqCJqyzxr_u4,11
+gym_recsys-0.0.1.dist-info/RECORD,,
