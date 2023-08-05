@@ -1,0 +1,13 @@
+#!/usr/bin/env python3
+
+import sys
+import re
+
+
+if __name__ == '__main__':
+    for v in re.split('[.\s:,-/]', ' '.join(sys.argv[1:])):
+        try:
+            print('{:02X}'.format(int(v)), end=' ')
+        except ValueError:
+            print(v, end=' ')
+    print()

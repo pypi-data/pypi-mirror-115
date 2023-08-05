@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+bin/pihex
+pihex.egg-info/PKG-INFO
+pihex.egg-info/SOURCES.txt
+pihex.egg-info/dependency_links.txt
+pihex.egg-info/top_level.txt

@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pihex
+Version: 0.0.1
+Summary: int/ip to hex
+Home-page: https://github.com/formatcom/pihex
+Author: Vinicio Valbuena
+Author-email: vinicio.valbuena89@gmail.com
+Maintainer: Vinicio Valbuena
+Maintainer-email: vinicio.valbuena89@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/formatcom/pihex/issues
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
