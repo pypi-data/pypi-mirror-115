@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: b-elasticsearch-layer
+Version: 0.0.6
+Summary: AWS CDK based lambda layer including Elasticsearch client.
+Home-page: https://github.com/biomapas/B.ElasticsearchLayer.git
+Author: Laimonas Sutkus
+Author-email: laimonas.sutkus@biomapas.com
+License: Apache License 2.0
+Keywords: AWS CDK Lambda Layer Elasticsearch
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: aws-cdk.core (<2.0.0,>=1.75.0)
+Requires-Dist: aws-cdk.aws-lambda (<2.0.0,>=1.75.0)
+
+# TODO
+
+
+# Release history
+
+### 0.0.6
+
+* Set ElasticSearch version which currently supports AWS ElasticSearch implementation.
+
+### 0.0.5
+
+* Ensure consistent asset builds.
+* Add ability to install boto3 dependency.
+
+### 0.0.4
+
+* Update Docker bundling commands. Use bash to move files between directories instead of installing with `-t` flag. Related
+  issue: https://github.com/pypa/pip/issues/103
+
+### 0.0.1
+
+* Initial build.
+* Elasticsearch-python 7.9.1.
+* Docker image for asset building: python:3.9.
+
