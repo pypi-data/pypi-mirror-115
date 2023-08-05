@@ -1,0 +1,1 @@
+This is the homepage for my project, BlazePy. This is an extension that addds more commands to python and makes it easier to do things, like make a window. Just do the MakeWindow(x, y) commaand and watch as you window comes to life! THIS IS AN OPENSOURCE PROJECT.

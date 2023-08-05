@@ -1,0 +1,8 @@
+LICENCE
+README.md
+pyproject.toml
+setup.py
+BlazePy.egg-info/PKG-INFO
+BlazePy.egg-info/SOURCES.txt
+BlazePy.egg-info/dependency_links.txt
+BlazePy.egg-info/top_level.txt
