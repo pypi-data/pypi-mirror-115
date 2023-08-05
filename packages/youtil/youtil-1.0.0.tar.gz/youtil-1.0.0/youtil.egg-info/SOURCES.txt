@@ -1,0 +1,7 @@
+setup.py
+youtil/yt.py
+youtil.egg-info/PKG-INFO
+youtil.egg-info/SOURCES.txt
+youtil.egg-info/dependency_links.txt
+youtil.egg-info/requires.txt
+youtil.egg-info/top_level.txt
