@@ -1,0 +1,10 @@
+README.md
+README.rst
+setup.py
+json_verify/__init__.py
+json_verify/json_verify.py
+verify_json.egg-info/PKG-INFO
+verify_json.egg-info/SOURCES.txt
+verify_json.egg-info/dependency_links.txt
+verify_json.egg-info/not-zip-safe
+verify_json.egg-info/top_level.txt
