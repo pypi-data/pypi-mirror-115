@@ -1,0 +1,15 @@
+semantics/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+semantics/server.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+semeval/__init__.py,sha256=kRdwgcvNVfrkMWpwDb7j9Ejm5yf_7_UDhCxzZL7nqmA,119
+semeval/common.py,sha256=rEqJO64K-gPztV1gI6iOhg6-mXU2nDdSUm6--avP1Cc,168
+semeval/download.py,sha256=_eJgKLSuFdUdVjG-QJewZgWQlOumD6JJRAM0P16P628,2354
+semeval/embeddings.py,sha256=YnlYmMHYem9Nlmq2u8bMVDU_vQvk0eqS8JRsqtF9Kww,2146
+semeval/relatedness.py,sha256=ElvSmQx5751mZfCBvf3lgZTGFqUt-zi4vt6oOlKFzo0,6213
+semeval/server.py,sha256=kdZKIEXcWYdMwlftvIwh1r76i-55PvEeusy7gjDAgBU,773
+semeval/serviecs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+semeval/serviecs/embeddings.py,sha256=Ts5ya8TEsl3YbXhjq3iA12T5wVinjMhVhUGyzM9Su8U,9356
+semeval-1.0.3.dist-info/LICENSE,sha256=bJxCrC_8mn210lHSMxJ3s9kpF9KitTpg6aEXiriP2no,11370
+semeval-1.0.3.dist-info/METADATA,sha256=yImBYq6-ZOmzpAY7NCm0vYYb1qNkbrNCbXwAngHJEVM,5975
+semeval-1.0.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+semeval-1.0.3.dist-info/top_level.txt,sha256=vamCjhAN7JiJNzPt8H42i8DosOdYL_prmdNZFxJFbbg,18
+semeval-1.0.3.dist-info/RECORD,,
