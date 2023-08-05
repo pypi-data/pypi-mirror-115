@@ -1,0 +1,6 @@
+setup.cfg
+setup.py
+checkprime.egg-info/PKG-INFO
+checkprime.egg-info/SOURCES.txt
+checkprime.egg-info/dependency_links.txt
+checkprime.egg-info/top_level.txt
