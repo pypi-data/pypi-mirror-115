@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: nonebot-plugin-heweather
+Version: 0.0.1
+Summary: Get Heweather information and convert to pictures
+Home-page: https://github.com/kexue-z/nonebot-plugins-heweather
+Author: kexue
+Author-email: xana278@qq.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/kexue-z/nonebot-plugins-heweather/issues
+Description: # nonebot-plugins-heweather
+        
+        获取和风天气信息并转换为图片
+        
+        # 配置
+        
+        ## apikey
+        
+        注意保留 `&key=`
+        
+        ```
+        QWEATHER_APIKEY = &key=xxx
+        ```
+        
+        ## 字体文件
+        
+        ```
+        QWEATHER_FONT = "./data/msyh.ttf'
+        ```
+        
+        - 使用 truetype 字体
+        - 建议使用微软雅黑
+        
+        ## 图标文件
+        
+        ```
+        QWEATHER_ICON_DIR = "./data/icon'
+        ```
+        
+        - [下载地址](https://dev.qweather.com/docs/start/icons/)
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
