@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: evm-warp
+Version: 0.1.0
+Summary: Transpile EVM-Compatible Languages To Cairo
+Home-page: https://github.com/NethermindEth/warp
+Author: Nethermind
+Author-email: vardygreg23@gmail.com
+License: Apache 2.0
+Description: # Warp
+        
+        Warp brings Ethereum Virtual Machine to StarkNet, making it possible to run Ethereum [Smart Contracts](https://ethereum.org/en/developers/docs/smart-contracts/) as StarkNet contracts.
+        
+        
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
