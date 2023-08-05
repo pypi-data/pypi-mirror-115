@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: musicplayergui
+Version: 2.1
+Summary: Random Music Player In form of GUI (So terrible GUI.)
+Home-page: https://github.com/I-make-python-module-and-bots-stuff/Music-player
+Author: Rukchad Wongprayoon
+Author-email: contact@biomooping.tk
+License: MIT
+Description: # musicplayergui
+        Welcome to nonsense module
+        # How do I use?
+        Just execute
+        ```py
+        import musicplayergui as m
+        m.launch()
+        ```
+        Or on command line
+        ```bash
+        musicplayergui
+        ```
+        or
+        ```bash
+        python -m musicplayergui
+        ```
+        # What I just update?
+        Change volume through slider
+        
+        # uwu
+        
+        
+Keywords: Tools
+Platform: UNKNOWN
+Description-Content-Type: text/markdown

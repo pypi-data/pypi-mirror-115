@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+music.py
+setup.cfg
+setup.py
+musicplayergui/__init__.py
+musicplayergui.egg-info/PKG-INFO
+musicplayergui.egg-info/SOURCES.txt
+musicplayergui.egg-info/dependency_links.txt
+musicplayergui.egg-info/entry_points.txt
+musicplayergui.egg-info/requires.txt
+musicplayergui.egg-info/top_level.txt
