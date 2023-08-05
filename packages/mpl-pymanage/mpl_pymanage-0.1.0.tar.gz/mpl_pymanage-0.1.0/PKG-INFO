@@ -1,0 +1,204 @@
+Metadata-Version: 2.1
+Name: mpl_pymanage
+Version: 0.1.0
+Summary: A CLI for managing Python projects.
+Home-page: https://github.com/MPL-IT/mpl_pymanage
+Author: Matthias Baer
+Author-email: matthias.baer@mpl.mpg.de
+License: GPL v3
+Keywords: CLI,cli,Python project management
+Platform: ALL
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Developers
+Classifier: Environment :: Console
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+# mpl_pymanage
+
+A command line interface (CLI) for managing Python projects.
+
+[![PyPI version](https://badge.fury.io/py/mpl_pymanage.svg)](https://badge.fury.io/py/mpl_pymanage)
+![Build status](https://img.shields.io/github/workflow/status/MPL-IT/mpl_pymanage/Checks)
+![Coverage](https://img.shields.io/codecov/c/github/MPL-IT/mpl_pymanage/main.svg)
+[![Doc Status](https://readthedocs.org/projects/mpl_pymanage/badge/?version=latest)](https://mpl_pymanage.readthedocs.io/en/latest/index.html)
+[![Downloads](https://pepy.tech/badge/mpl_pymanage/week)](https://pepy.tech/project/mpl_pymanage)
+
+**Create** new Python projects with ready-to-go recommended project structure. 
+
+**Add** important files to existing projects
+like `setup.py`, `.gitignore`, Sphinx documentation, choose a license and more.
+
+**Run** test suites, analyze test coverage and **deploy** to PyPi.
+
+Even *mpl_pymanage* is managed using *mpl_pymanage*... so meta.
+
+## Installation
+
+```
+pip install --upgrade mpl_pymanage
+```
+
+## Documentation
+
+The full documentation can be found [here](https://mpl_pymanage.readthedocs.io/en/latest/).
+
+
+## Usage
+
+### Creating a new project
+
+```
+mpl_pymanage create -n myproject
+```
+
+creates a complete Python project structure inside the current working directory:
+
+```
+myproject
+├── docs
+│   ├── Makefile
+│   ├── conf.py
+│   ├── index.rst
+│   ├── make.bat
+│   └── requirements.txt
+├── myproject
+│   ├── __init__.py
+│   └── main.py
+├── LICENSE
+├── README.md
+├── setup.py
+├── .gitignore
+└── tests
+    └── test_main.py
+```
+
+including sample source,
+tests, documentation, `setup.py`, local `git` repository and a
+suitable `.gitignore` file.
+
+After creation, the project is already installed in development (editable) mode, so you can start coding right away.
+
+
+### Adding stuff to an existing project
+
+Sometimes you have an existing project, but initially you did not choose a license,
+or your `.gitignore` is missing. You can add those special files with the `mpl_pymanage add` command.
+
+#### Add a project documentation folder
+
+```
+mpl_pymanage add docs
+```
+
+makes a `./docs` folder and sets up a *Sphinx*-based documentation in `Read-The-Docs`-style:
+
+![generated docs](docs/images/docs-small.png)
+
+Call `mpl_pymanage add --help` for more information.
+
+#### Add a license
+
+```
+mpl_pymanage add license
+```
+
+where you have the choice between standard license texts like MIT, GPLv3, Apache, ... 
+
+#### Add a `.gitignore` file
+
+```
+mpl_pymanage add gitignore
+```
+
+The created `.gitignore` contains all usual patterns that should typically be ignored
+by git in Python projects.
+
+#### Add a `setup.py` file
+
+```
+mpl_pymanage add setup.py 
+```
+
+#### Add github actions
+
+Add a standard github action which automatically runs build and tests
+on the github CI/CD systems whenever you push a commit:
+
+```
+mpl_pymanage add github-action
+```  
+
+### Run stuff
+
+#### Run tests
+
+```
+mpl_pymanage run tests
+```
+
+#### Analyze test coverage
+
+```
+mpl_pymanage run coverage
+```
+
+#### Re-Build docs and show it browser
+
+```
+mpl_pymanage run docs
+``` 
+
+#### Run PEP8 style analyzer
+
+```
+mpl_pymanage run flake8
+```
+
+### Deploy your project
+
+
+#### To PyPi
+
+```
+mpl_pymanage deploy pypi
+```
+
+After that anyone in the world can install your package using *pip*.
+
+As a prerequisite for deployment, you need an account at *PyPi*.
+
+#### To Github, Gitlab, etc.
+
+Create an empty repository at the platform of your choice, like github, and 
+deploy your local project repository there, e.g.:
+
+```
+mpl_pymanage deploy repo
+```
+
+After that your local repo is in sync the remote one.
+
+## A note for Windows users
+
+Depending on your environment settings, you may have to use *mpl_pymanage* by prepending `python -m` or `py -m` like in
+
+```
+python -m mpl_pymanage create
+```
+
+## Contributing
+
+*mpl_pymanage* is open source and every one is welcome to contribute! Please
+read the [contribution guide](https://mpl_pymanage.readthedocs.io/en/latest/contributing.html) 
+if you are interested.
+
+## Requirements
+
+*mpl_pymanage* requires Python 3.
+All Python dependencies are installed automatically. However, **you need to have `git` installed**.
+
+
