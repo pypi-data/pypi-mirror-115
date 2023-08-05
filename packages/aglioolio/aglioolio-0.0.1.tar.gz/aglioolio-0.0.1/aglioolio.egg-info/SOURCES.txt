@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+agliooglio/__init__.py
+agliooglio/errors.py
+agliooglio/octarin.py
+agliooglio/params.py
+agliooglio/utils.py
+agliooglio/utils_hash.py
+agliooglio/datasets/__init__.py
+agliooglio/datasets/base_dataset.py
+agliooglio/datasets/datasets.py
+agliooglio/datasets/utils.py
+aglioolio.egg-info/PKG-INFO
+aglioolio.egg-info/SOURCES.txt
+aglioolio.egg-info/dependency_links.txt
+aglioolio.egg-info/top_level.txt
