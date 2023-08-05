@@ -1,0 +1,9 @@
+amazon_textract_helper-0.0.22.data/scripts/amazon-textract,sha256=dYl3tRfSHIzfOcnbFsz3GJrbcOFVFG4XpPjHLv_smfk,10422
+textracthelper/__init__.py,sha256=I0XX9ODePfhoC70fG_fN77fvNJ5gxceyP4v1r4zBi4E,137
+textracthelper/_version.py,sha256=WFDz_2fuYueL3s63leYazqR2V41gvDoT88neDQLbI1w,23
+textracthelper/examples/employmentapp.png,sha256=hc1fm_r7ThAJHCdYOEp5As3-ZiBpK-PEFUDDUtS3ouI,295219
+amazon_textract_helper-0.0.22.dist-info/LICENSE,sha256=CeipvOyAZxBGUsFoaFqwkx54aPnIKEtm9a5u2uXxEws,10142
+amazon_textract_helper-0.0.22.dist-info/METADATA,sha256=hUrDIK8E0JHFeogtmxaVOe7KbgD6Q2CSMB_9gxC3Ge0,8733
+amazon_textract_helper-0.0.22.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+amazon_textract_helper-0.0.22.dist-info/top_level.txt,sha256=BLd83_MX_BPU1wh83zhLzPPrtKoKj_3dKZLGmbGZ1hs,15
+amazon_textract_helper-0.0.22.dist-info/RECORD,,
