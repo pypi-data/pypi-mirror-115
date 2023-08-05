@@ -1,0 +1,9 @@
+django_db_comments/__init__.py,sha256=03q7ZNzlziypb8t5aNNsvQKnVW84x9kbzsovJpn03e8,93
+django_db_comments/apps.py,sha256=C92YLsQZqObAD56kxnRaqBIO0SJJIFJQHd9RvqHPk_E,314
+django_db_comments/db_comments.py,sha256=EZ9LW_B-NF7b7t1fkPXFK4r2Bxz1qtT3NeH4waei9eU,3827
+django_db_comments-0.3.0.dist-info/AUTHORS.rst,sha256=UYG7qya-kJji-Inm3h3nrqgt-vz229sxZkM3G3aavwE,241
+django_db_comments-0.3.0.dist-info/LICENSE,sha256=jCPaN_5HC1v1GuSU55BM_MJxmb83FrRB5RMewF_X4YA,1075
+django_db_comments-0.3.0.dist-info/METADATA,sha256=RK0fF_y8R0rGlzVTUKuxfnd0egEExGxqlSbxT1j_hQ0,2933
+django_db_comments-0.3.0.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+django_db_comments-0.3.0.dist-info/top_level.txt,sha256=uAGTzkPdOPqxiG1irCT7pvIlQ_e00JxuLo9ROtDvDQs,19
+django_db_comments-0.3.0.dist-info/RECORD,,
