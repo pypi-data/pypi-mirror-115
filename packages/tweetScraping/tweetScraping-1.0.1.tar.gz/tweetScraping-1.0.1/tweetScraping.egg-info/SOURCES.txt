@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+tweetScraping/__init__.py
+tweetScraping/tweetScraping.py
+tweetScraping.egg-info/PKG-INFO
+tweetScraping.egg-info/SOURCES.txt
+tweetScraping.egg-info/dependency_links.txt
+tweetScraping.egg-info/requires.txt
+tweetScraping.egg-info/top_level.txt
