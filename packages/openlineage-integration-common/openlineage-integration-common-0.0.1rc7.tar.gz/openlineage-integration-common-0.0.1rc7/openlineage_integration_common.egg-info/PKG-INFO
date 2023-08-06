@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: openlineage-integration-common
+Version: 0.0.1rc7
+Summary: OpenLineage common python library for integrations
+Home-page: UNKNOWN
+Author: OpenLineage authors
+License: UNKNOWN
+Keywords: OpenLineage
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: bigquery
+Provides-Extra: dbt
+Provides-Extra: tests
+Provides-Extra: dev
+
+Common modules for OpenLineage integrations.
+
+
