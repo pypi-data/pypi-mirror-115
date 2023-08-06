@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: evaldet
+Version: 0.1.0
+Summary: Evaluation for Detection and Tracking
+Home-page: https://github.com/traffic-ai/evaldet
+Author: Tadej Svetina
+License: Apache-2.0 License
+Keywords: evaluation,tracking,object detection,computer vision
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Scientific/Engineering :: Image Recognition
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: tests
+Provides-Extra: docs
+License-File: LICENSE
+
+# EvalDeT
+Evaluation for Detection and Tracking
+
+# Changelog
+
+All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
+
+
+## [0.1.0] - 2021-08-07
+
+### Added
+
+* `Tracks` class, which represents the tracking data (detections), and provides loading functions to read from common MOT data formats
+* `compute_mot_metrics` function, which can calculate MOT metrics (for now CLEARMOT and ID metrics, HOTA coming soon, ALTA in the pipeline)
+* API documentation hosted on readthedocs
+* Pypi package
+
+
