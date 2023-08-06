@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: redex
+Version: 0.0.1
+Summary: A combinator library for designing algorithms
+Home-page: https://github.com/manifest/redex
+Author: Andrei Nesterov
+Author-email: ae.nesterov@gmail.com
+License: UNKNOWN
+Project-URL: Documentation, https://redex.readthedocs.io
+Project-URL: Source Code, https://github.com/manifest/redex
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering
+Classifier: Typing :: Typed
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Provides-Extra: docs
+Provides-Extra: development
+License-File: LICENSE
+
+# Redex
+
+[![readthedocs](https://readthedocs.org/projects/redex/badge/?version=latest&style=flat)](https://redex.readthedocs.io)
+[![codecov](https://codecov.io/gh/manifest/redex/branch/main/graph/badge.svg?token=QYJ9LU8634)](https://codecov.io/gh/manifest/redex)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black#readme)
+
+A combinator library for designing algorithms.
+
+

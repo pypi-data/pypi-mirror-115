@@ -1,0 +1,10 @@
+
+[development]
+hypothesis
+pylint
+
+[docs]
+sphinx
+furo
+nbsphinx
+ipykernel
