@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: cdk-prowler
+Version: 1.117.1
+Summary: cdk-prowler
+Home-page: https://github.com/mmuller88/cdk-prowler
+Author: Martin Mueller<damadden88@googlemail.com>
+License: Apache-2.0
+Project-URL: Source, https://github.com/mmuller88/cdk-prowler
+Description: [![NPM version](https://badge.fury.io/js/cdk-prowler.svg)](https://badge.fury.io/js/cdk-prowler)
+        [![PyPI version](https://badge.fury.io/py/cdk-prowler.svg)](https://badge.fury.io/py/cdk-prowler)
+        [![.NET version](https://img.shields.io/nuget/v/com.github.mmuller88.awsCdkBuildBadge.svg?style=flat-square)](https://www.nuget.org/packages/com.github.mmuller88.cdkProwler/)
+        ![Release](https://github.com/mmuller88/cdk-prowler/workflows/Release/badge.svg)
+        
+        # cdk-prowler
+        
+        An AWS CDK custom construct for deploying Prowler to you AWS Account. The following description about Prowler is taken from https://github.com/toniblyx/prowler:
+        
+        Prowler is a security tool to perform AWS security best practices assessments, audits, incident response, continuous monitoring, hardening and forensics readiness. It contains all CIS controls listed here https://d0.awsstatic.com/whitepapers/compliance/AWS_CIS_Foundations_Benchmark.pdf and more than 100 additional checks that help on GDPR, HIPAA…
+        
+        # Example
+        
+        ...
+        
+        # Misc
+        
+        yes | yarn destroy && yarn deploy --require-approval never
+        
+        # Thanks To
+        
+        * My friend and fellaw ex colleague Tony de la Fuente (https://github.com/toniblyx https://twitter.com/ToniBlyx) for developing such a cool security tool as [Prowler](https://github.com/toniblyx/prowler)
+        * As always to the amazing CDK / Projen Community. Join us on [Slack](https://cdk-dev.slack.com)!
+        * [Projen](https://github.com/projen/projen) project and the community around it
+        
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: JavaScript
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Typing :: Typed
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
