@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pip-package-poster
+Version: 0.0.1
+Summary: Upload Packages to PiPy easier and faster than ever before
+Home-page: UNKNOWN
+Author: JartC0ding (Moritz Schittenhelm)
+Author-email: moritz5911@gmail.com
+License: UNKNOWN
+Keywords: python,pip,PiPy,post,easy
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Requires-Dist: twine
+
+A Package that allows you to upload to pip via 'python3 -m PPP -f (filename_to_upload)'
+
