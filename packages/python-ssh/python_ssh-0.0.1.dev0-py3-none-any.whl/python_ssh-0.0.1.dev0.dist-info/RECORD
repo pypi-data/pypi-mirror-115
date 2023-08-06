@@ -1,0 +1,10 @@
+ssh2/__init__.py,sha256=gxUeEbD8apnJuJL3K5PwOX8Cn7z18_rI_y2nVn72FGw,144
+ssh2/client.py,sha256=_dn8TEJCh5SKz7WObnxOK2bjiCh4QrOKjfN9Y73KakI,15182
+ssh2/core.py,sha256=pj6mgM50_PS1bKT9XsLJ7DJOzB4BaG7P0tGnOc0XHmo,637
+ssh2/errors.py,sha256=Semsewf07v6_4UEGZ26iRJ8SmT5NEfnfTD9Lq1dKLak,662
+ssh2/version.py,sha256=SW_KIWMicq0RJIobhwIVH4LdTLGsRR1WLsW6ZV3ZypA,22
+python_ssh-0.0.1.dev0.dist-info/LICENSE,sha256=0V6y88w_DTIHjqMxPrEUfEv9w_X_KFeL7Ae8Ei8J_Sg,1069
+python_ssh-0.0.1.dev0.dist-info/METADATA,sha256=aVQukNNyWwRLUSIXHI7F0WqbsEUTv5O1Qc4Ez8ltWD0,747
+python_ssh-0.0.1.dev0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+python_ssh-0.0.1.dev0.dist-info/top_level.txt,sha256=bQMSUypGQoJUle0QlKoZHz0kkqW5OsYA4EKXHgoZtPc,5
+python_ssh-0.0.1.dev0.dist-info/RECORD,,
