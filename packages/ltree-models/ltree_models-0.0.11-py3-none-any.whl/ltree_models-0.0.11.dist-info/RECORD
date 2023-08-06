@@ -1,0 +1,8 @@
+ltree_models/__init__.py,sha256=xFXAfd5AO0Vv3gu2KqhB-1KOvIs_fUA5mwFAVV_RRkg,70
+ltree_models/database.py,sha256=8nx3pU4XSgigoEQ5ImXni_dW-Xke2zuvVr_CMXopiXc,13272
+ltree_models/models.py,sha256=xn-1Akeu9H4eNXmrkWrMlTsjxtJJzkgorKEE9gSlH48,6726
+ltree_models/populate.py,sha256=SBph8WG5YICGSmEpcR_eyC8GtTJpuoDscPqlYWGxy54,3128
+ltree_models-0.0.11.dist-info/METADATA,sha256=g9OsGHbFgm3ODG5kMMrebCPx7S13YmZy3aoJMPRVGcI,1344
+ltree_models-0.0.11.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+ltree_models-0.0.11.dist-info/top_level.txt,sha256=HoVwDOJnABdVo4zNViOGdhxb0xtr2_1UHqm37gW7umQ,13
+ltree_models-0.0.11.dist-info/RECORD,,
