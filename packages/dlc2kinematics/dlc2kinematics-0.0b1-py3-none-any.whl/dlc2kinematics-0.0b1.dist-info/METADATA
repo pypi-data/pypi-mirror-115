@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: dlc2kinematics
+Version: 0.0b1
+Summary: a post-DeepLabCut module for kinematic analysis
+Home-page: https://github.com/AdaptiveMotorControlLab/DLC2Kinematics/
+Author: Mackenzie Mathis & Lab
+Author-email: mackenzie@post.harvard.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: h5py (>=2.7)
+Requires-Dist: imageio (>=2.3.0)
+Requires-Dist: intel-openmp
+Requires-Dist: ipython (~=6.0.0)
+Requires-Dist: ipython-genutils (==0.2.0)
+Requires-Dist: matplotlib
+Requires-Dist: moviepy
+Requires-Dist: numpy
+Requires-Dist: opencv-python
+Requires-Dist: pandas
+Requires-Dist: patsy
+Requires-Dist: python-dateutil
+Requires-Dist: pyyaml (>=5.1)
+Requires-Dist: requests
+Requires-Dist: ruamel.yaml (>=0.15)
+Requires-Dist: setuptools
+Requires-Dist: scikit-image
+Requires-Dist: scikit-learn
+Requires-Dist: scikit-kinematics
+Requires-Dist: scipy
+Requires-Dist: six
+Requires-Dist: statsmodels
+Requires-Dist: tables
+Requires-Dist: tqdm (>4)
+Requires-Dist: wheel
+
+<img src="https://images.squarespace-cdn.com/content/v1/57f6d51c9f74566f55ecf271/1628452157953-RBVUGI7M3ABF9AOSUMMS/DLC2k.jpg?format=2500w" width="350" title="camera control" alt="cam cntrl" align="center" vspace = "80">
+
+
+#### A post-deeplabcut module for kinematic analysis
+
+### under construction ...
+
+Currently this is not yet publicly available, but feel free to "watch" or "star" to be notified of updates.
+
+## Quick start
+
+`pip install dlc2kinematics`
+
+## License
+
+DLC2Kinematics is freely available for non-commercial use, and may be redistributed under these conditions. Please, see the license for further details.
+
+## Contact
+
+Mackenzie Mathis - mackenzie.mathis@epfl.ch
+
+
