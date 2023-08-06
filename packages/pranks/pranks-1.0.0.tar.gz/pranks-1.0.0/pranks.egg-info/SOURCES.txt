@@ -1,0 +1,5 @@
+setup.py
+pranks.egg-info/PKG-INFO
+pranks.egg-info/SOURCES.txt
+pranks.egg-info/dependency_links.txt
+pranks.egg-info/top_level.txt
