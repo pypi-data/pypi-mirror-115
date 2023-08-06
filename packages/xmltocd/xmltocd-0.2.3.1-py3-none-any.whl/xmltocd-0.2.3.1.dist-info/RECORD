@@ -1,0 +1,15 @@
+xmltocd/__init__.py,sha256=Zqqq_ZSjpkELA-gkz6f_wHGa_ern9-IrF6WTtTrDtu0,260
+xmltocd/_collections.py,sha256=tyC_rkhI4FfzkKjOdNyzay9buEHRbUzX9F5fZtK3BkA,716
+xmltocd/_decorator.py,sha256=9IDAQGaYLz6ARqdAM34m4Z3zvui5KEf4NlYNRQIPDYM,515
+xmltocd/_exception.py,sha256=lmrplj5-6cE83eg_eUkTR5eC3ArZebb5pAzpbvYiAiE,302
+xmltocd/_ntype.py,sha256=y4y2wtyeKVo_xdQupknhELx4W76ShF9v8K2pL262iyA,73
+xmltocd/_parse.py,sha256=jOZH7-PHh3QpFibsw9S66SC6Dgbz-HXQj28hFuITANo,952
+xmltocd/_rely.py,sha256=nlPbCwX-TrWfKvqS3a_yVuLG2dU6RPLi6DC13OshnWY,289
+xmltocd/_tools.py,sha256=BT0j8ZMMVdCcwZQnMXdqgnN9mnQsO3-cW9t6V08H1NI,367
+xmltocd/manager.py,sha256=qb4QFlLKeBhnS5rF0jdojrITCaFB89_pOkCIuCfsZoI,16064
+xmltocd/struct.py,sha256=SO5CIMO9x5WA2A_amI5Jsrg1qHb4aaBa07x3MSuF_F8,18418
+xmltocd-0.2.3.1.dist-info/LICENSE,sha256=YLvfxA00dB-Caje31c2b2ilMDf1hCM0Lf0-JCTF4viw,1087
+xmltocd-0.2.3.1.dist-info/METADATA,sha256=ZAs-6vsUF1FacnUjRxOuixpQxezc_6JeJRp6as6qK9I,886
+xmltocd-0.2.3.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+xmltocd-0.2.3.1.dist-info/top_level.txt,sha256=N3QxijyEok57pVSZPN1iL62ffI6TrwM4Mly4LkXAPCY,8
+xmltocd-0.2.3.1.dist-info/RECORD,,
