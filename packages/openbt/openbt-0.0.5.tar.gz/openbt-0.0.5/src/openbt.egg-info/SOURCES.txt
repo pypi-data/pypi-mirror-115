@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/openbt/__init__.py
+src/openbt/openbt.py
+src/openbt.egg-info/PKG-INFO
+src/openbt.egg-info/SOURCES.txt
+src/openbt.egg-info/dependency_links.txt
+src/openbt.egg-info/requires.txt
+src/openbt.egg-info/top_level.txt
