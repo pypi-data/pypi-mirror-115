@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+ferrischat.py.egg-info/PKG-INFO
+ferrischat.py.egg-info/SOURCES.txt
+ferrischat.py.egg-info/dependency_links.txt
+ferrischat.py.egg-info/requires.txt
+ferrischat.py.egg-info/top_level.txt

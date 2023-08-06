@@ -1,0 +1,1 @@
+# This is a mirror package of [ferrispy](https://pypi.org/project/ferrispy) please install that package instead.
