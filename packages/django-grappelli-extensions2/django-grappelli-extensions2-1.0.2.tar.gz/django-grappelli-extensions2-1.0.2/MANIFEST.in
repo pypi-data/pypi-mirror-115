@@ -1,0 +1,1 @@
+recursive-include grappelli_extensions *.html *.js *.css *.py *.po *.mo *.json

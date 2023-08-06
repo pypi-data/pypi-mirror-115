@@ -1,0 +1,22 @@
+{% spaceless %}
+    <li class="grp-collapse grp-closed">
+        <a href="javascript://" class=" grp-collapse-handler" style="color: gainsboro;">
+            ↘︎
+        </a>
+        <ul class="">
+            {% if request.session.original_user %}
+                <li><a href="{% url 'grp_switch_user' request.session.original_user.id %}?redirect={{ request.path }}"
+                       class="grp-switch-user-is-original">{{ request.session.original_user.username }}</a></li>
+            {% else %}
+
+            {% for user in object_list %}
+                <li class="">
+                    <a href="{% url 'grp_switch_user' user.id %}?redirect={{ request.path }}">
+                        {% firstof user.get_short_name user.get_username %}
+                    </a>
+                </li>
+            {% endfor %}
+            {% endif %}
+        </ul>
+    </li>
+{% endspaceless %}
