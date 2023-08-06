@@ -1,0 +1,9 @@
+LICENSE
+README.rst
+setup.py
+just_a_test_002/__init__.py
+just_a_test_002/test.py
+just_a_test_002.egg-info/PKG-INFO
+just_a_test_002.egg-info/SOURCES.txt
+just_a_test_002.egg-info/dependency_links.txt
+just_a_test_002.egg-info/top_level.txt
