@@ -1,0 +1,3 @@
+[console_scripts]
+gdtree = gdtree.app:start [colorama]
+
