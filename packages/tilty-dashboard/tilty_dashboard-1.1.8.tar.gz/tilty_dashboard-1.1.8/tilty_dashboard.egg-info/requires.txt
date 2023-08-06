@@ -1,0 +1,14 @@
+Flask
+Flask-Bootstrap
+Flask-Cors
+flask-session
+Flask-SQLAlchemy
+Flask-SocketIO
+Flask-Script
+Jinja2>=2.11.3
+backoff
+configobj
+gunicorn
+Werkzeug==0.15.3
+eventlet
+urllib3==1.26.5
