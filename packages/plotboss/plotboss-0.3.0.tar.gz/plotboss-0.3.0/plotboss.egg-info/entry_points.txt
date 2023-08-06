@@ -1,0 +1,3 @@
+[console_scripts]
+plotboss = plotboss.plotboss:main
+

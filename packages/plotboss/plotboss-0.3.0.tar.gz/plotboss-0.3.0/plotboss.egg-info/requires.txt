@@ -1,0 +1,8 @@
+basepy>=0.3.5
+psutil
+pendulum
+asciimatics
+loguru
+
+[test]
+pytest>=3
