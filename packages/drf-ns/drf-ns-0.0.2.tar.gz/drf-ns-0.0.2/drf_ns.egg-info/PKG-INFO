@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: drf-ns
+Version: 0.0.2
+Summary: A Django Rest Framework addon for Nested Serializers.
+Home-page: https://github.com/hercip/drf-ns
+Author: Ciprian Herman
+Author-email: hercip@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 3.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Requires-Python: >=3.6
+License-File: LICENSE
+
+=================
+Nested Serializer
+=================
+
+
+This is a Django Rest Framework addon to rezolve folowing problems
+  - infinit level of nested serializer
+  - different level of nested objects
+  - writable nested objects
+
+Detailed documentation is in the "docs" directory.
+
+Quick start
+-----------
+
+1. Add "drf-ns-hercip" to your INSTALLED_APPS setting like this::
+
+    INSTALLED_APPS = [
+        ...
+        'drf-ns-hercip',
+    ]
+
+2. This also includes ModelTracker as Base model class for your app
+
+3. Run ``python manage.py migrate`` to create the models.
+
+

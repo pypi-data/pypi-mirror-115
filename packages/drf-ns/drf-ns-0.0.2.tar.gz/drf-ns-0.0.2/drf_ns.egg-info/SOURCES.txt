@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+addons/__init__.py
+addons/models.py
+addons/pagination.py
+addons/serializers.py
+addons/tests.py
+addons/viewsets.py
+addons/migrations/__init__.py
+drf_ns.egg-info/PKG-INFO
+drf_ns.egg-info/SOURCES.txt
+drf_ns.egg-info/dependency_links.txt
+drf_ns.egg-info/requires.txt
+drf_ns.egg-info/top_level.txt
