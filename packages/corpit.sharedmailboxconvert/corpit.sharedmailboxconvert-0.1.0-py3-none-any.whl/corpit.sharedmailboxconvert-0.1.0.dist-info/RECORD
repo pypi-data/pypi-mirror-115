@@ -1,0 +1,9 @@
+python/query-agent-UPN.py,sha256=DehleTAO0fOfEGg724BHBR4leavlGv7VERYEe5MDWx0,2031
+shared_mailbox_converter/clean_up.py,sha256=a0jWW1qPugZ-O-J2jLTJDTRyIah4lpG4hCZwYCOWgIw,360
+shared_mailbox_converter/create_csv.py,sha256=3oGg7v099pUE12UMp1xEwgJeN78BGGZxXBlvxbyf-wA,3187
+shared_mailbox_converter/setup.py,sha256=2kOFAi0D4x4IvFD6nrqPKJaykJOUdbg0_nnK8WfvYHk,1097
+shared_mailbox_converter/python/query-agent-UPN.py,sha256=DehleTAO0fOfEGg724BHBR4leavlGv7VERYEe5MDWx0,2031
+corpit.sharedmailboxconvert-0.1.0.dist-info/METADATA,sha256=iXl2j3Aj-_0JoszNfs3V-8jopboT4GHd4D03jCjZzec,334
+corpit.sharedmailboxconvert-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+corpit.sharedmailboxconvert-0.1.0.dist-info/top_level.txt,sha256=_UwqXvPcQircWcLr-hWrJAgOaj3JLInuIDtPCvZZaqM,25
+corpit.sharedmailboxconvert-0.1.0.dist-info/RECORD,,
