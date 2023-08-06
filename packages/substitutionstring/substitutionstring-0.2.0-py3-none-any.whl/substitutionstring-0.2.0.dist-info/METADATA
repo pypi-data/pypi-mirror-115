@@ -1,0 +1,160 @@
+Metadata-Version: 2.1
+Name: substitutionstring
+Version: 0.2.0
+Summary: Manipulate substitution of string, as for instance deletion and insertion, without loss of information, and allow some algebra of the underneath Substitution object. Can be usefull for any manipulation of string, as version control system, natural language processing, or string comparison in a general sense. The simplest way of using this package is throw the SubstitutionString object, which handles the machinery of the Substitution applied to a given string.
+Home-page: https://framagit.org/nlp/substitutionstring
+Author: François Konschelle, Unité IAM, CHU-Bordeaux, France
+Author-email: via.issue@only.please
+License: GNU GENERAL PUBLIC LICENSE v.3
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Text Processing
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Science/Research
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+# SubstitutionString
+
+Tools to manipulate a string in a reversible (without loss of information) and versatile way. Allows to insert, delete, substitute any portion of a main string into a new string, while keeping the modification in memory, in an efficient memory saving process.
+
+Such procedures are usefull for 
+ - cleaning (also called normalizing) a text for Natural Language Processing (NLP)
+ - de-noising (also called filtering) signal for digital signal treatment (or NLP, since a digital signal is a signal having value in an alphabet)
+ - comparing texts, for Version Control System (though comparison algorithms are not efficient yet)
+ - compressing datas for Delta Compression storage (though compression of list of Substitution objects are not efficient yet)
+ 
+This package aims at staying at an atomic level: the elaborated filters / normalizers / cleaners will be developped in further packages.
+
+## Description and example
+
+`substitutionstring` package aims at cleaning / modifying / normalizing / filtering some strings without loss of information, using its `SusbtitutionString` object. To achieve that, the `Substitution` object is proposed as a generalization of both insertion and deletion procedures. In fact, to insert a sub-string at a given position and to delete a part of a string are often thought as the basic modifications a string can undergo. In practice, defining a `Substitution` with the three parameters `start`, `end` and `string`, and defining its application onto a string `s` as substitutiing `Substitution.string` from `s[start:end]` permits to generalize insert (having `start==end` attributes) and delete (having empty `string` attribute of the `Substitution` object) into a single object. In addition, the `Substitution` object that revert the modified string is easy to construct, and is still a `Substitution`. So a unique object is sufficient to transform any string into an other one.
+
+The construction of the `Substitution` object is described in details in the documentation. For a basic example and usage of the reversible string normalizer, one can just use the machinery implemented into the `SubstitutionString` class. 
+
+Let us suppose that one has a noisy channel (containing letters inside a sequence of numbers for easiness) `0123nnnn45nn90123`. One can clean this string using the `sub` method of the REGEX package `re` in Python. Then one would got the clean string `0123459123` in our case. Now, what would happen if we would like to recover the initial message that has been transformed into the sequence `34` ? The filtering process we applied destroyed the information. This basic problem was at the root of this project, leading to the `SubstitutionString` object. The detail of the construction can be found in the documentation. For the moment, let us see how `SubstitutionString` can be used.
+
+```python3
+from substitutionstring import SubstitutionString
+
+string = '0123nnnn45nn90123'
+substring = SubstitutionString(string=string)
+
+substring.sub(r'\D','') # substitute all non-digits by an empty space. Any REGEX is accepted.
+# # returns '01234590123'
+
+restored_sequence = substring.restore(3,5) # revert to the intial string
+restored_sequence
+# # returns the tuple ('0123nnnn45nn90123', 3, 9)
+
+string[restored_sequence[1]:restored_sequence[2]]
+# # returns '3nnnn4'
+```
+
+We recovered the initial sequence that corresponds to the interesting one once cleaning procedure has been applied, simply using the `restore` method. Note that the initial string is in fact reconstructed from the sequence of substitution (`sub` method) that we have applied. 
+
+Such a construction is of particular importance in the field of information retrieval. For instance, suppose we have a medical text (or any string a human has produced by hand) containing non-normalized information. Suppose also we can normalize this information using fancy methods of substitution inside the text (indeed, any transformation of a text consists in applying several `Substitution` in a raw). Now we have the structured information, but we are usually unable to tell the clinical staff what was their intentions publishing this information. With the `restore` method, one can easilly tell what was the state of the message priori to any normalization, that finally came out structured from the normalization procedure.
+
+Note that `sub` method accepts any REGEX, using the `re` module of Python, see https://docs.python.org/3/library/re.html for more details.
+
+There are more fancy methods that can be used with the `SubstitutionString` class.
+
+```python3
+from substitutionstring import SubstitutionString
+
+string = 'test of a string'
+substring = SubstitutionString(string=string)
+
+substring.insert(5,'new insert ') 
+# insert string 'new insert ' at position 5 of the previous one
+# # 'test new insert of a string'
+
+substring.substitute(9,15,'substitution') 
+# delete the previous string in the range [9:15] and 
+# substitute the string 'substitution'
+# # 'test new substitution of a string'
+
+substring.delete(9,21) # delete the previous string from range [9:21]
+# # 'test new  of a string'
+
+substring.sub(r'\s{2,}',' ') 
+# substitute all spaces larger than 2 by a single one. Any REGEX is accepted.
+# # 'test new of a string'
+
+substring.sequence 
+# list of Substitution objects that are collected into a SubstitutionSequence
+# # SubstitutionSequence(4 Substitutions)
+# one can think of a SubstitutionSequence as a list of Substitution
+for substitution in substring.sequence:
+    print(substitution)
+# # returns
+# Substitution(start=5, end=16, string=``)
+# Substitution(start=9, end=21, string=`insert`)
+# Substitution(start=9, end=9, string=`substitution`)
+# Substitution(start=8, end=9, string=`  `)
+
+# what is recorded is the inverse Substitution at each step. 
+# For instance, to revert the insertion of 'new_insert ' (or length 11) from
+# position 5 (the first invert applied), one has to delete the string from
+# position 5 to 16 in the new modified string.
+
+substring.revert() # revert the previous step
+# # 'test new  of a string'
+
+len(substring) # length of the pipeline list
+# # 3
+
+substring.revert(len(substring)) # revert to the intial string
+# # 'test of a string'
+```
+
+One sees that the `Substitution` are applied one at a time, and that the `start` and `end` positions are related to the state of the string at this time.
+
+*Note :* one should not apply several transformations in a raw (as e.g. `cleaner.insert(...).delete(...)`), since the `substitute`, `insert`, `delete` and `sub` transformations all return a string.
+ 
+## Dependency of the package
+
+`substitutionstring` only requires packages from the standard Python library : `re` and `difflib` (for comparison with the algorithm of longest common substring, that is still in exploratory mode at the moment).
+
+## Installation
+
+The simplest way to install this package into your local Pyton library is by calling the Python Package Installer (pip) from the official depository : 
+
+```bash
+pip install substitutionstring
+```
+
+An alternative way to install this package is to clone it from its original Git depository: 
+
+```bash
+git clone https://framagit.org/nlp/substitutionstring
+```
+
+and then install the repository on top of your local Python library, using e.g. PythonPackageInstaler (pip)
+
+```bash
+pip install .
+```
+
+(eventually change for the correct version name). Then call the different packages as (adapt eventually the names of the classes you want to use)
+
+```python
+from substitutionstring import Substitution, SubstitutionString, SubstitutionSequence
+```
+
+in your favorite Python console, and follow subsequent documentations, present in the `documentation` folder of the depository, or online at https://nlp.frama.io/substitutionstring/.
+
+## About us
+ 
+Package developped for Natural Language Processing at IAM : Unité d'Informatique et d'Archivistique Médicale, Service d'Informatique Médicale, Pôle de Santé Publique, Centre Hospitalo-Universitaire (CHU) de Bordeaux, France.
+
+You are kindly encouraged to raise issues and submit merge requests in order to discuss with the authors of this package, and to suggest any kind of modifications.
+
+Last version : August, 5 2021
+
+
