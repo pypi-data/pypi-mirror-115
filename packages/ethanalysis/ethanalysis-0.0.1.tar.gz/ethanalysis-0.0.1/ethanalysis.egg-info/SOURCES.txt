@@ -1,0 +1,5 @@
+setup.py
+ethanalysis.egg-info/PKG-INFO
+ethanalysis.egg-info/SOURCES.txt
+ethanalysis.egg-info/dependency_links.txt
+ethanalysis.egg-info/top_level.txt
