@@ -1,0 +1,5 @@
+#!python
+
+from wallger import run
+
+run()
