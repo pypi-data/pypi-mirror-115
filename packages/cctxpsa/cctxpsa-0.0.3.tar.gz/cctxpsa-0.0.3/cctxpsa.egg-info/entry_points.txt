@@ -1,0 +1,3 @@
+[console_scripts]
+cctxpsa = cctxpsa.cctxpsa:main
+
