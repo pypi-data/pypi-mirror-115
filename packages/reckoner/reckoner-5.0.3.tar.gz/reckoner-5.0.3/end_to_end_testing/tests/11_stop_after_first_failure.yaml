@@ -1,0 +1,29 @@
+version: "2"
+name: Stop After First Failure
+vars:
+  course: ../course_files/11_test_after_first_failure.yml
+  namespace: 11-test
+testcases:
+- name: 11 - test stop after first failure
+  steps:
+  - script: |
+      reckoner plot -a {{.course}}
+    assertions:
+    - result.code ShouldEqual 1
+  - script: |
+      helm -n {{.namespace}} get all good-chart
+    assertions:
+    - result.code ShouldEqual 0
+  - script: |
+      helm -n {{.namespace}} get all bad-chart
+    assertions:
+    - result.code ShouldEqual 1
+  - script: |
+      helm -n {{.namespace}} get all expected-skipped-chart
+    assertions:
+    - result.code ShouldEqual 1
+- name: 11 - cleanup
+  steps:
+    - script: |
+        helm -n {{.namespace}} delete good-chart
+        kubectl delete ns {{.namespace}}
