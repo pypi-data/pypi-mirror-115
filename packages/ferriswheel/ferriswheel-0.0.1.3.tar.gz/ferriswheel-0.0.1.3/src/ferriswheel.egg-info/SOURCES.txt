@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/ferriswheel/__init__.py
+src/ferriswheel/guild.py
+src/ferriswheel.egg-info/PKG-INFO
+src/ferriswheel.egg-info/SOURCES.txt
+src/ferriswheel.egg-info/dependency_links.txt
+src/ferriswheel.egg-info/requires.txt
+src/ferriswheel.egg-info/top_level.txt
