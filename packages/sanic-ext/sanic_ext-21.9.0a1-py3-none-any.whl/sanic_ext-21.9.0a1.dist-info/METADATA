@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: sanic-ext
+Version: 21.9.0a1
+Summary: Extend your Sanic installation with some core functionality.
+Home-page: http://github.com/sanic-org/sanic-ext/
+Author: Sanic Community
+License: MIT
+Platform: any
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Web Environment
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+Requires-Dist: pyyaml (>=3.0.0)
+Provides-Extra: dev
+Requires-Dist: black (==19.3b0) ; extra == 'dev'
+Requires-Dist: flake8 (==3.7.7) ; extra == 'dev'
+Requires-Dist: isort (==4.3.19) ; extra == 'dev'
+Requires-Dist: sanic-testing (==0.7.0b2) ; extra == 'dev'
+Requires-Dist: coverage ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: tox ; extra == 'dev'
+Provides-Extra: test
+Requires-Dist: sanic-testing (==0.7.0b2) ; extra == 'test'
+Requires-Dist: coverage ; extra == 'test'
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: pytest-cov ; extra == 'test'
+Requires-Dist: tox ; extra == 'test'
+
+# Sanic Extension
+
+_Future home to `sanic-ext`. An add-on package for [Sanic](https://github.com/sanic-org/sanic)._ 
+
+First alpha release aiming to coincide with Sanic v21.9
+
+[More info](https://community.sanicframework.org/t/openapi-next-generation-with-built-in-validation/843)
+
+
