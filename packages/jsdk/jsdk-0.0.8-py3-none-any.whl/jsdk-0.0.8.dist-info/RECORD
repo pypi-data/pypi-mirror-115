@@ -1,0 +1,9 @@
+jsdk/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jsdk/exceptions.py,sha256=hEytDceICwTmYm1X9DnZ360KFwFoWMMzOQssqypL6VI,103
+jsdk/manager.py,sha256=3NfV0cAqA07OHWMPz_SVpdViZJ9ZutkcFeZZfHn8NAo,29141
+jsdk/models.py,sha256=syaVhU5BoSR6RTaKTBJ1hc_c475hPRq8sJk9fC5ptA8,8051
+jsdk-0.0.8.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+jsdk-0.0.8.dist-info/METADATA,sha256=iawIaFkW6GAkfYOgpT3JKuRRwJO4hJaPVhW3IdlG7P0,695
+jsdk-0.0.8.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+jsdk-0.0.8.dist-info/top_level.txt,sha256=o6OHTAEu4DviQ_HjQcXDLf7PQAo7Ds6ripsYnFHi3vs,5
+jsdk-0.0.8.dist-info/RECORD,,
