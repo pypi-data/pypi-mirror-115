@@ -1,0 +1,11 @@
+README.md
+setup.py
+firebase_auth/__init__.py
+firebase_auth/firebase_auth.py
+firebase_auth.egg-info/PKG-INFO
+firebase_auth.egg-info/SOURCES.txt
+firebase_auth.egg-info/dependency_links.txt
+firebase_auth.egg-info/requires.txt
+firebase_auth.egg-info/top_level.txt
+sseclient/__init__.py
+sseclient/sseclient.py
