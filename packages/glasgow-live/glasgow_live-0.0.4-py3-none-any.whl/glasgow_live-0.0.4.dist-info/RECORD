@@ -1,0 +1,11 @@
+glasgow_live/__init__.py,sha256=cmg382HM60ZhYFN2wR7zN3q-aVaniXqUVmKCccV7db4,87
+glasgow_live/adapters.py,sha256=62fbGwtqxYhz_4YE-lMHobnqEcJje8TAw9esR8gQLZU,9073
+glasgow_live/feed.py,sha256=BQxtTMr983SbbaMzTtxzsJ3snd8Zwt0zklro2bcgCL8,899
+glasgow_live/models.py,sha256=rrZD21WxkCZDM-zpzmhhzlqddCr4A1sMCcFeT6uizhw,5525
+glasgow_live/rss_links.py,sha256=KVMaI90EAksGyAFIfgPgh0_yMxGRsIZjX1fj6gLZ7NA,1904
+glasgow_live/social_medias.py,sha256=ZYGnfc7O3xukY2EdP3uSyFklKOZW27nSlNfY4N7WABo,62
+glasgow_live-0.0.4.dist-info/LICENSE.txt,sha256=OB7jI0o5KdrBF0twY7CiltSPPYip20src6qARol07Vg,1085
+glasgow_live-0.0.4.dist-info/METADATA,sha256=webxMPiuokU2hpxjrz99qQ0xVnbm-K9Gy8BJ7TQlwNM,706
+glasgow_live-0.0.4.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+glasgow_live-0.0.4.dist-info/top_level.txt,sha256=C7gi3KM5w-10lIgA0BSJS55JK_ZgP9obaYLTK5tfGj8,13
+glasgow_live-0.0.4.dist-info/RECORD,,
