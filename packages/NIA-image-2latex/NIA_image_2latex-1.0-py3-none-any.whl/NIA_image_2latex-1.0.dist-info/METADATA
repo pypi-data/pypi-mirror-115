@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: NIA-image-2latex
+Version: 1.0
+Summary: Extract equations from images
+Home-page: UNKNOWN
+Author: Hyeon Jun Choi
+Author-email: guswns2936@hanmail.net
+License: UNKNOWN
+Keywords: latex,mathml,ocr
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3
+Requires-Dist: numpy
+Requires-Dist: torch (==1.8.1)
+Requires-Dist: torchvision (==0.9.1)
+Requires-Dist: natsort
+Requires-Dist: transformers
+
+UNKNOWN
+
+
