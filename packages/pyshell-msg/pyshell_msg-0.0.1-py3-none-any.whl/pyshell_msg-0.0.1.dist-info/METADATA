@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: pyshell-msg
+Version: 0.0.1
+Summary: Log/print your status and messages on terminal
+Home-page: UNKNOWN
+Author: Ellipsion (Ashish Kumawat)
+Author-email: <ellipsion@gmail.com>
+License: UNKNOWN
+Keywords: python,pyshell_msg,status,shell,messages,application,logs,status,print,format
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+A package that allows to log/print your status and messages for a python application on terminal in a standard yet customizable format.
+
+
