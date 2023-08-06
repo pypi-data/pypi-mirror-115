@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: bio-image-unet
+Version: 0.1.1
+Summary: Implementations of U-Net and Siam U-Net for biological image segmentation
+Author: Yuxi Long
+Author-email: longyuxi@live.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: albumentations (>=0.5.2,<0.6.0)
+Requires-Dist: barbar (>=0.2.1,<0.3.0)
+Requires-Dist: matplotlib (>=3.4.2,<4.0.0)
+Requires-Dist: numpy (>=1.19.5,<2.0.0)
+Requires-Dist: opencv-python (>=4.5.2,<5.0.0)
+Requires-Dist: scikit-image (>=0.18.2,<0.19.0)
+Requires-Dist: scikit_image (>=0.18.2,<0.19.0)
+Requires-Dist: tifffile
+Requires-Dist: torch (>=1.7.0,<2.0.0)
+Requires-Dist: tqdm (>=4.61.2,<5.0.0)
+Requires-Dist: wandb (>=0.10.33,<0.11.0)
