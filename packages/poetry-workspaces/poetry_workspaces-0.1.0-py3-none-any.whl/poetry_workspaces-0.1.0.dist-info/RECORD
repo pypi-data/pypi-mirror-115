@@ -1,0 +1,17 @@
+poetry_workspace_plugin/__init__.py,sha256=YxOGjjmCLivjeaRtqPbcd62J-2vUsAFLg1e884XGL9U,113
+poetry_workspace_plugin/console/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+poetry_workspace_plugin/console/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+poetry_workspace_plugin/console/commands/add.py,sha256=05QqM-4wZxyCZrHZDfvqQFNIegfpRNEcYDLahhpfi5c,1872
+poetry_workspace_plugin/console/commands/dependees.py,sha256=-937Wfu29JTqohxtmx1b_YxXH-mZmvkqVi3JQ-L46uY,3145
+poetry_workspace_plugin/console/commands/list.py,sha256=LJeovEcu1oLpvUHHR_mA6n-dGIOb008VLiqxTlrvZQ0,627
+poetry_workspace_plugin/console/commands/new.py,sha256=nBfHlqW9TwAlCF8xwk8CBBZFUqxU3LIkrqSTnYVKY7Q,830
+poetry_workspace_plugin/console/commands/remove.py,sha256=m-8TY5vgX9M3uXTkaRNg12kaHWvYhWduaHsy11rHxLw,1090
+poetry_workspace_plugin/console/commands/run.py,sha256=JMlF4T524EGPC_JEf4cyZupe905R2mTSTAFmZPA7x64,1734
+poetry_workspace_plugin/helpers.py,sha256=tpGLAkjTHWYJYw_PmfRDfy2WqZlqlPdrn5b1gQgUKE0,742
+poetry_workspace_plugin/plugin.py,sha256=MjnIFzLDM0I8Kc4Cqv01JKHkoHXLkzcz11uzj7oVp7o,1188
+poetry_workspace_plugin/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+poetry_workspaces-0.1.0.dist-info/entry_points.txt,sha256=hXnkqlmrDjjwhdTCEnNpiCAFfyuYXs-3s0plICIkUmU,93
+poetry_workspaces-0.1.0.dist-info/LICENSE.txt,sha256=0u8chyWRVux0Vjmyu57zFn9AHqqGbz8nnpryVzf496Y,1063
+poetry_workspaces-0.1.0.dist-info/WHEEL,sha256=FMw6u7Kp3jrdDDtJRZ3hkPV-9adLQT8pbM4iifKUGfw,85
+poetry_workspaces-0.1.0.dist-info/METADATA,sha256=KkHUW1FVXErbr14ptWV2iNNjwjyvIYWO7ZcWQ6RaSIY,2947
+poetry_workspaces-0.1.0.dist-info/RECORD,,
