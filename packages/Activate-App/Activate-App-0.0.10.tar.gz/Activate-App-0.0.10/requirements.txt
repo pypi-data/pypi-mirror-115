@@ -1,0 +1,10 @@
+PyQt5
+PyQtChart
+PyQtWebEngine
+pyqtlet
+Markdown
+fitparse
+requests
+flask
+dtw-python
+beautfulsoup4

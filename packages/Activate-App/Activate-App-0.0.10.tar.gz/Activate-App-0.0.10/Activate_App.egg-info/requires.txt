@@ -1,0 +1,14 @@
+dtw-python
+
+[app]
+PyQt5
+PyQtChart
+PyQtWebEngine
+pyqtlet
+Markdown
+fitparse
+requests
+beautifulsoup4
+
+[server]
+flask

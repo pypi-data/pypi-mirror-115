@@ -1,0 +1,7 @@
+__pycache__/
+.mypy_cache/
+activate/app/ui/*.py
+!activate/app/ui/__init__.py
+build/
+dist/
+*.egg-info
