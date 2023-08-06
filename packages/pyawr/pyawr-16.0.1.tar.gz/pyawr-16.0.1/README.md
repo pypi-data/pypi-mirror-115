@@ -1,0 +1,25 @@
+## pyawr: Module for interfacing Python with the AWR Design Environment 
+
+AWR Design Enviroment Python interface module that supports code-completion using external IDEs. 
+
+# Installation
+    pip install pyawr
+
+# Upgrade
+
+    pip install --upgrade pyawr
+
+# Requirements
+* Python >= 3.7
+* pywin32 >= 220
+
+# Usage
+
+    import pyawr.mwoffice as mwoffice
+	awrde = mwo.CMWOffice()
+	
+# History
+
+# 16.0.1
+* Resolved variable names with double underscores that Python crashes
+
