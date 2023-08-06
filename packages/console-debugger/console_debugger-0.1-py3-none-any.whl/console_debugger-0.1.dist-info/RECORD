@@ -1,0 +1,14 @@
+console_debugger/__init__.py,sha256=KKDC3FxhnQnuVEioPyVD1jVUbOHrfHlF4azFJpCEmSM,22
+console_debugger/coloring_text.py,sha256=Que9qQqi_fBznU4y9_bFAFAa6CndcNFO9hwqftFQK3k,5062
+console_debugger/debugger.py,sha256=avivrB9VQqhLmMGBIyRo1xZ01HBrvQbe85Bei4_9Cm8,11723
+console_debugger/pyproject.toml,sha256=F7PFYQ4LGD3hUdsWMIy1ATy29jzUEu1CGKNY3RnCcrI,607
+console_debugger/README.md,sha256=H6w1rIVJWUDVBSieIJlYTbxqWYXy-nYsmXEj-zEsuAw,7133
+console_debugger/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+console_debugger/test/test_deb.py,sha256=IbDTLaEL6-xFmxZRK_1uYgAfxTgAnUpl_BZxDg4qoYc,6303
+console_debugger/tk_gui/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+console_debugger/tk_gui/config.txt,sha256=EkNnas2i8jQ8Cm59PHVQzejBgaQGRc3_jiNehYQtMNk,17
+console_debugger/tk_gui/icons.ico,sha256=wDJ5bV--bnEOmyApNrvOj2Kc9-BBkgPTA9Pt1nM3DfQ,16958
+console_debugger/tk_gui/view_terminal.py,sha256=0KwyruaAJb27vHN1Bi3VNzJQEFkptDttQ4yYSYyKYgE,4681
+console_debugger-0.1.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+console_debugger-0.1.dist-info/METADATA,sha256=VEcE3K8t4BRCaIVvSTP10A5g5pL6xGZYBy-_uZIjz3g,7785
+console_debugger-0.1.dist-info/RECORD,,
