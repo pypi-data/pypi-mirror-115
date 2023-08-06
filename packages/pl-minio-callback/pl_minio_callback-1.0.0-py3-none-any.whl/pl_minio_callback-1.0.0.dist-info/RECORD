@@ -1,0 +1,8 @@
+pl_minio_callback/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pl_minio_callback/minio_callback.py,sha256=K8UKhwsxi7_716BGjQeEJ2o4rMMpHkjrLs893D_VIDg,2808
+pl_minio_callback/minio_util.py,sha256=SGVOPkiriVQAKoeLEaxkkqQEJIAbBMm70xBdoWp0cXM,931
+pl_minio_callback-1.0.0.dist-info/LICENSE,sha256=Q8usUh8l_djBaGMBLHlqqG6SSHROsMsfw3cjcuFSiNo,1076
+pl_minio_callback-1.0.0.dist-info/METADATA,sha256=JTlOXCSAeLBqCLLKr9I7-gDxh67JJ2YZKN19bphyuSY,3408
+pl_minio_callback-1.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pl_minio_callback-1.0.0.dist-info/top_level.txt,sha256=aD8jwA6gKzMXFzNJGC7Gb1irCYF7c5_I2sahyHLrS9Q,18
+pl_minio_callback-1.0.0.dist-info/RECORD,,
