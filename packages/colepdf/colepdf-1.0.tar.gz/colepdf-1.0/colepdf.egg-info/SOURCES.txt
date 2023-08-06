@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+colepdf/__init__.py
+colepdf/pdf2image.py
+colepdf/pdf2text.py
+colepdf.egg-info/PKG-INFO
+colepdf.egg-info/SOURCES.txt
+colepdf.egg-info/dependency_links.txt
+colepdf.egg-info/top_level.txt
