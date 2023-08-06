@@ -1,0 +1,3 @@
+marisa-trie
+SQLAlchemy
+jaconv
