@@ -1,0 +1,9 @@
+roman_discovery/__init__.py,sha256=3eFUId_6FYeLAGkRFMmK9nHjcAUDWqGvfsimJpYWGJ0,303
+roman_discovery/contrib.py,sha256=JMy3XnGfVnfFiihPIA0WSzmyaEFu13E6Y2b9l5wi0XM,1575
+roman_discovery/discovery.py,sha256=EkSsQ7yTNThIaLyVbpohVbD1dIF7h2nboheCgtwixQs,1753
+roman_discovery/flask.py,sha256=YzsvoN1mv55D3L-stj-ViSYTcSfL2GWOuyDdOyck3A0,3674
+roman_discovery/matchers.py,sha256=AguNyhOTW8TpFlofLIRvuj6vykG5SiKBpa9zkF_DTlQ,899
+roman_discovery-0.3.1.dist-info/LICENSE,sha256=dN1bKHQZpy-mFyNYAZgq4OyK3S92u9xVAEM4TVF9rbg,1074
+roman_discovery-0.3.1.dist-info/WHEEL,sha256=VN2eEg4PHbTOniXb-cCYQPc6zUTS4dAcATjlgU3q-Lo,83
+roman_discovery-0.3.1.dist-info/METADATA,sha256=0uDA9NZQGF6eRcKqqVkU_NRpiTJvmm4jh7LiC8uBFHE,4908
+roman_discovery-0.3.1.dist-info/RECORD,,
