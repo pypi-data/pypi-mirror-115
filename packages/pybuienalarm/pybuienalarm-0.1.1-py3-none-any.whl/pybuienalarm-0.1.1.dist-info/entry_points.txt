@@ -1,0 +1,3 @@
+[console_scripts]
+buienalarm = buienalarm.cli:main
+
