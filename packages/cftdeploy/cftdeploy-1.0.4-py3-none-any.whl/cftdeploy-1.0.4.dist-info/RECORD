@@ -1,0 +1,13 @@
+cftdeploy/__init__.py,sha256=UaxOCjbj9JmhN2byTYVj-84fBaY5xHzs_lkrRfG-m-U,302
+cftdeploy/_version.py,sha256=oLn_j7IJGkEj4RFyxpHSf1EkMysTjs5MZu19AxXOykc,137
+cftdeploy/entry_points.py,sha256=C7ehI3oWb2e73B_PKBAbRrcb_ZqAHvagwLqQpUfh8wQ,19023
+cftdeploy/manifest.py,sha256=P9dpQ0bxS96PQM0BAasurMpum41TbTMSvZkNkjq86Ns,10417
+cftdeploy/skeleton.py,sha256=qUu0_lE50WtcMKR5FtIutJvnS-iJuYb_zLgnVT3brvs,2068
+cftdeploy/stack.py,sha256=nXZrPwXNa5TxPL2e3qy5ktjyIrJ_Mg_IF-cV-Xn9JqU,12426
+cftdeploy/template.py,sha256=jR1MHJmYroSRS9ODW4ys1memNZApg7oteh4pixjFF7Y,7496
+cftdeploy-1.0.4.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+cftdeploy-1.0.4.dist-info/METADATA,sha256=WymnKLdl6xS_XYsOA1Lqp4b1b2BLWq5aIh3TMCuN8Qo,9062
+cftdeploy-1.0.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+cftdeploy-1.0.4.dist-info/entry_points.txt,sha256=VCuGveNO0jC7J0IRw7LIUbkD6a9V23qqtmrhNwmuaCI,431
+cftdeploy-1.0.4.dist-info/top_level.txt,sha256=pXGHmmXXueQJwDEzdBGFzqZBG3kdaLnjRscmIVvkH3w,10
+cftdeploy-1.0.4.dist-info/RECORD,,
