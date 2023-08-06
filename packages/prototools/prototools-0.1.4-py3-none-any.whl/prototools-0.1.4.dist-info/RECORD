@@ -1,0 +1,15 @@
+prototools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+prototools/color.py,sha256=Kg9DEPK8WtbI1neWC-tk4clUYbwz1YTT6VeuebGgpv8,2195
+prototools/componentes.py,sha256=vMZdByiiahI6Y1l1E4DVE52YXOdNJH6s3OasfDpcpLc,28839
+prototools/config.py,sha256=oJZGULVEsYwwWPAj-uO6v5PgBv2EvzrdB7K6zEU2oDw,2648
+prototools/constantes.py,sha256=AOQlUL5wQE2KU_vUb439TAI3Mx-nb3y7SeA1CcagXxg,1625
+prototools/entradas.py,sha256=hHnZnlWGB2un_CDtjOyuSlmmWy3dMwvXP2R1SqaPnlI,10647
+prototools/experimental.py,sha256=sOdpm2nmSWQcRMzvFh0HPO2Z6ZUsbDXLV1MY3RDph3k,2575
+prototools/menu.py,sha256=q2ko_-uPiIxxX0q4QEefpvJnzvrGHUqlax_xAAgQYOg,12731
+prototools/utils.py,sha256=aLylBVazzZlq5tqnRdBcMu-eFkppT_dsSD-nXNHG1xE,17778
+prototools/validaciones.py,sha256=7LTaFQzQ4M6lwIj-yU08dl2OFy8xIWSB2rYo8QtxZ8Q,15785
+prototools-0.1.4.dist-info/LICENSE,sha256=dEl04mGdzp_NSZjpc5p3HzhR-QoKBcpSKfjLf-NfSMs,1094
+prototools-0.1.4.dist-info/METADATA,sha256=VfoKeCNoiPXthy9Gg4GWq9cR_iZJI_VR5rUOaXCdhz0,1982
+prototools-0.1.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+prototools-0.1.4.dist-info/top_level.txt,sha256=E08RtT9yNs0OW90PSDGRJeoKGLCMn8qJ-YM_w6jWwmQ,11
+prototools-0.1.4.dist-info/RECORD,,
