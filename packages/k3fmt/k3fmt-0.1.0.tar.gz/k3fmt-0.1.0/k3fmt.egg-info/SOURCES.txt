@@ -1,0 +1,10 @@
+setup.py
+k3fmt/__init__.py
+k3fmt/setup.py
+k3fmt/strutil.py
+k3fmt/synopsis.py
+k3fmt.egg-info/PKG-INFO
+k3fmt.egg-info/SOURCES.txt
+k3fmt.egg-info/dependency_links.txt
+k3fmt.egg-info/requires.txt
+k3fmt.egg-info/top_level.txt
