@@ -1,0 +1,10 @@
+setup.py
+MideDistribution/Binomialdistribution.py
+MideDistribution/Gaussiandistribution.py
+MideDistribution/Generaldistribution.py
+MideDistribution/__init__.py
+MideDistribution.egg-info/PKG-INFO
+MideDistribution.egg-info/SOURCES.txt
+MideDistribution.egg-info/dependency_links.txt
+MideDistribution.egg-info/not-zip-safe
+MideDistribution.egg-info/top_level.txt
