@@ -1,0 +1,9 @@
+new_tools/__init__.py,sha256=3t_OTraCg0vs077Goyjyl-QJinFqG3z2_x8XeO08RQM,157
+new_tools/media/__init__.py,sha256=P53Q8Q7ngZyNQYFgS3QjVUucB4dVjO-kH99qWpPSsac,82
+new_tools/media/image.py,sha256=Qmia7RCPxzifUbbwVaC-DxqgEaNJh90qLmRB53GwjQU,1869
+new_tools/media/video.py,sha256=FFeZh6o0O18cL-Cdix8yh2e5JE1frP7CsGGRCtxYkK8,577
+new_tools-0.0.4.dist-info/LICENSE,sha256=MOS4G78CdEK-gxHsbBKCh5ZObvQXDHJMKk_33MaSqow,1087
+new_tools-0.0.4.dist-info/METADATA,sha256=cWNvej9y4OykLQ3BJV3pnViHJdL8vU4g9Bi-YsI5TC0,448
+new_tools-0.0.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+new_tools-0.0.4.dist-info/top_level.txt,sha256=ZhtkhEql3wtISRYh95EHHNK2ZkuH5J17PNnBvnVX60A,10
+new_tools-0.0.4.dist-info/RECORD,,
