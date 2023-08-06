@@ -1,0 +1,3 @@
+[console_scripts]
+dewr = PyWatchRestart_cli:main
+
