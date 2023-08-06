@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+htmlwebshot/__init__.py
+htmlwebshot/config.py
+htmlwebshot/shotter.py
+htmlwebshot/webshot.py
+htmlwebshot.egg-info/PKG-INFO
+htmlwebshot.egg-info/SOURCES.txt
+htmlwebshot.egg-info/dependency_links.txt
+htmlwebshot.egg-info/requires.txt
+htmlwebshot.egg-info/top_level.txt
