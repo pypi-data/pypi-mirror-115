@@ -1,0 +1,16 @@
+javscraper/__init__.py,sha256=_ZQP5XZQgN-09AoUCIvP_asUs3T9EaRSSNyku5K_CTg,255
+javscraper/base.py,sha256=j9jN_ZOmqclO1W7ltAQ-tz4NTijlzfIUsENFBU-RCNQ,4805
+javscraper/caribbeancom.py,sha256=n6WNjdlNbUvezovUBDOxO2PWGiPcNUoMijcVh13NSos,2616
+javscraper/ideapocket.py,sha256=g9Hj8MrCZDBwgZzmq5awNkVRHy5SGJEuu7L_LjRMep4,2019
+javscraper/javlibrary.py,sha256=IyGh3J4WsRpwZ-vaDxfEU40QDHAM1tIi4KQRNHVhbvE,1669
+javscraper/mgstage.py,sha256=AkAvp9D50AfMpOrCpF8DfFcIetu5irsDnzIQZ8JhLIU,2444
+javscraper/r18.py,sha256=jW2SLecP3Fm-FAzXhDtCXVzPHf4x6e3txRYHxrICaH4,4615
+javscraper/s1.py,sha256=1NIjbGotyHDRSFGtlmnHPrta1PSdr2zASekxttgvy3Y,1911
+javscraper/sod.py,sha256=vqLto-mpOo3dIPVJgAGDyaXKMfyP6uvlSO5AiN1zePk,2337
+javscraper/tenmusume.py,sha256=cbUlXQIr75Hob5VOTuLkKuBYmx5BwPVDKkShL69vpxA,2181
+javscraper/utils.py,sha256=Y_ba_a0loXvmIwoAHOoJX56oRGjiH_Hs2ajBOJv1Dhc,1842
+javscraper-1.1.0.dist-info/COPYING,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+javscraper-1.1.0.dist-info/METADATA,sha256=dNTvtM1PxXtyPQ90se_7teMQ8dWiNrh60hqDDfIqwpA,617
+javscraper-1.1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+javscraper-1.1.0.dist-info/top_level.txt,sha256=STWAELWUAuvm5FNkSowSmjsBrAj-CTxqWz4OscUINMI,11
+javscraper-1.1.0.dist-info/RECORD,,
