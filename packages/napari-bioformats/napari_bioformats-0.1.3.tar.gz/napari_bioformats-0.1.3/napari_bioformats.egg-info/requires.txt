@@ -1,0 +1,10 @@
+jpype1
+napari-plugin-engine>=0.1.4
+numpy
+ome_types
+pims
+requests
+
+[testing]
+pytest
+pytest-cov
