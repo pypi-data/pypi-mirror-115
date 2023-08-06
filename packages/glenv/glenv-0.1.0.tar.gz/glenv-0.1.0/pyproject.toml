@@ -1,0 +1,36 @@
+[tool.poetry]
+name = "glenv"
+version = "0.1.0"
+description = "Easily manage your Gitlab CI variables using .env files"
+authors = ["Tiko JG <vjgarcera@gmail.com>"]
+maintainers = ["Tiko JG <vjgarcera@gmail.com>"]
+license = "TODO"
+readme = "README.md"
+homepage = "https://vjgarcera.github.io/glenv"
+repository = "https://github.com/vjgarcera/glenv"
+keywords = [
+    "Python",
+    "Gitlab",
+    "CI",
+    "Environment",
+    "DotEnv"
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+python-gitlab = "^2.9.0"
+fire = "^0.4.0"
+pytest = "^6.2.4"
+
+[tool.poetry.dev-dependencies]
+black = "^21.6b0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+glenv = "glenv.__main__:cli"
+
+[tool.poetry.urls]
+issues = "https://github.com/vjgarcera/glenv/issues"
