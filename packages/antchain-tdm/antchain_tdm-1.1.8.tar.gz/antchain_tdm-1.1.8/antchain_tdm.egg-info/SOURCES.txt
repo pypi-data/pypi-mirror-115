@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README-CN.md
+README.md
+setup.cfg
+setup.py
+antchain_sdk_tdm/__init__.py
+antchain_sdk_tdm/client.py
+antchain_sdk_tdm/models.py
+antchain_tdm.egg-info/PKG-INFO
+antchain_tdm.egg-info/SOURCES.txt
+antchain_tdm.egg-info/dependency_links.txt
+antchain_tdm.egg-info/requires.txt
+antchain_tdm.egg-info/top_level.txt
