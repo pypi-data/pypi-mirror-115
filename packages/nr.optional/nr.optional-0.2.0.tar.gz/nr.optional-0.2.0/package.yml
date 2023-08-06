@@ -1,0 +1,7 @@
+name: nr.optional
+version: 0.2.0
+author: Niklas Rosenstein <rosensteinniklas@gmail.com>
+description: Optional type in Python, allow mapping and flat-mapping if you also have nr.stream installed.
+requirements:
+- python ^3.5
+typed: true
