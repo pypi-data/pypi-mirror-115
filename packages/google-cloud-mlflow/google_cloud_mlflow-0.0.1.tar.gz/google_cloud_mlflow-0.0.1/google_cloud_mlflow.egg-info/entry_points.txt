@@ -1,0 +1,3 @@
+[mlflow.deployments]
+google_cloud=google_cloud_mlflow
+
