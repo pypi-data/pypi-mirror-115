@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/kp_fraydit/__init__.py
+src/kp_fraydit/admin.py
+src/kp_fraydit/custom_errors.py
+src/kp_fraydit/custom_types.py
+src/kp_fraydit/datetime_functions.py
+src/kp_fraydit/metaclasses.py
+src/kp_fraydit/schema_client.py
+src/kp_fraydit.egg-info/PKG-INFO
+src/kp_fraydit.egg-info/SOURCES.txt
+src/kp_fraydit.egg-info/dependency_links.txt
+src/kp_fraydit.egg-info/top_level.txt
