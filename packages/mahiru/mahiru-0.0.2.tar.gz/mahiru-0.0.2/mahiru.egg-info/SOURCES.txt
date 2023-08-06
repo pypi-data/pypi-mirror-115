@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+mahiru/__main__.py
+mahiru.egg-info/PKG-INFO
+mahiru.egg-info/SOURCES.txt
+mahiru.egg-info/dependency_links.txt
+mahiru.egg-info/requires.txt
+mahiru.egg-info/top_level.txt
