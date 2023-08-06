@@ -1,0 +1,12 @@
+jtalkbot/__init__.py,sha256=0VlcEmabUAgNaMePF_JM2cPd5i137a60706PGqpuZuU,190
+jtalkbot/__main__.py,sha256=ArOVs9GknLbucjt0B9MaKX09_F1s2rA7AgEn5l8bfWs,1293
+jtalkbot/autoreader.py,sha256=MzEnFRLw_tLt6yEWmARJBLQNNJ_DsGZg0ku--62rvPg,5226
+jtalkbot/environ.py,sha256=oRqTzM4BPh5tvRZFq9_YLFwPS-pHXvpc8zt31RhfrU8,5755
+jtalkbot/openjtalk.py,sha256=dQMitRtFNvQjkyTGxXycmC-1Ui09_HOkBc_Q-hc2Rvk,13822
+jtalkbot/pyjtalk.py,sha256=HoQ4sVmybXlzHMmaDNZQ7tnHkfZox_I1MgB1N8RmUc8,1509
+jtalkbot-0.6.1.2.dist-info/LICENSE,sha256=NLeRHMSv6scCIM16p0-ErYkFOQU5jrgIBJBcRt70OUY,1066
+jtalkbot-0.6.1.2.dist-info/METADATA,sha256=LnIeP5lWlQT_dBtFKd2FjX0jNsE8kMy4axR4D8W52KI,5217
+jtalkbot-0.6.1.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+jtalkbot-0.6.1.2.dist-info/entry_points.txt,sha256=80iuzrTMqFuVvFL8oG1vymK2l8bn2lk0iAwxUBVkU5g,85
+jtalkbot-0.6.1.2.dist-info/top_level.txt,sha256=h6xnxPJ_wHkhtp8t71XjQ6b05N5f9ilFPwg89Wnsxv0,9
+jtalkbot-0.6.1.2.dist-info/RECORD,,
