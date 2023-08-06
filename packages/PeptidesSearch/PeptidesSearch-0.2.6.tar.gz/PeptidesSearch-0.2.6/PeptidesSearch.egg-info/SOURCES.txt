@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+PeptideSearch/PeptideSearch.py
+PeptideSearch/__init__.py
+PeptidesSearch.egg-info/PKG-INFO
+PeptidesSearch.egg-info/SOURCES.txt
+PeptidesSearch.egg-info/dependency_links.txt
+PeptidesSearch.egg-info/requires.txt
+PeptidesSearch.egg-info/top_level.txt
