@@ -1,0 +1,8 @@
+automation/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+automation/tests.py,sha256=oSnPgukBo_h69Z3PAVN-Fg2HY0pogf5KtcGTvRsT7xM,1819
+automation/utils.py,sha256=-pWF46v1K3dlRq2M1lz0cI8Ztka7gAC1esxcdkENvJ0,4288
+flask_automation-1.2.dist-info/LICENSE,sha256=JGRtfz5Z_7yB5EZZwnyXlhS6aVEy5N_H3Von4DhO_8M,1150
+flask_automation-1.2.dist-info/METADATA,sha256=wXNbVIBK3qTu78Jrw_82WEMlTeuihbWhV3AjYcQkmos,890
+flask_automation-1.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+flask_automation-1.2.dist-info/top_level.txt,sha256=6FPw8tX4RykuC6Wq7ti_JjKbNFsg6OSMwQB35ne8Ug0,11
+flask_automation-1.2.dist-info/RECORD,,
