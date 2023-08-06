@@ -1,0 +1,2 @@
+_pyOrbfit.cpython-39-darwin.so
+libspacerocks.cpython-39-darwin.so
