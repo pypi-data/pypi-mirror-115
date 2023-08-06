@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+iqtrade/__init__.py
+iqtrade/api.py
+iqtrade.egg-info/PKG-INFO
+iqtrade.egg-info/SOURCES.txt
+iqtrade.egg-info/dependency_links.txt
+iqtrade.egg-info/requires.txt
+iqtrade.egg-info/top_level.txt
