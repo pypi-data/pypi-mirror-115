@@ -1,0 +1,4 @@
+include build.py
+recursive-include sources *
+include image_intensities/VERSION.txt
+include VERSION.txt
