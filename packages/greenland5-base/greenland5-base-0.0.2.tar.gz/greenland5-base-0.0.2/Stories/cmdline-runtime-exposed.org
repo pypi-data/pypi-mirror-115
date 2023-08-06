@@ -1,0 +1,35 @@
+* #                                                                 :ARCHIVE:
+#+STARTUP: oddeven indent nofold
+
+* Expose Runtime for Commandline Tools                               :future:
+:PROPERTIES:
+:ID:            greenland5-base:story:cmdline-runtime-exposed
+:END:
+
+As a developer of commandline tools I want the utilities used by
+greenland5-base available as a greenland package in order to not have
+to re-invent the wheel when writing "command package / subcommand"
+style utilities.
+
+** Details
+
+We're talking her about two areas:
+
+- The subcommand registry that allows to register procedures as
+  subcommands via a decorator.
+
+- The exception handling mechs, special exceptions (like "Panic") and
+  error printing facilities (only partially developed yet)
+
+All of this should exist as extra packages in greenland.base, but we
+won't expect the client to use them directly, instead re-export via an
+interface in greenland.cmdline.
+
+This arrangement allows us, to use these facilities without code
+duplication in every commandline tools from the Greenland5 eco system
+(by the way even without installing greenland5-cmdline) and make them
+available to clients at the logical place.
+
+
+
+

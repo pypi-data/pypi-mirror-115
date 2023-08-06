@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: greenland5-base
+Version: 0.0.2
+Summary: Base package for all greenland5 packages containing a command line interface to run built-in self tests
+Home-page: https://gitlab.com/m-e-leypold/greenland5-base
+Author: M E Leypold
+Author-email: greenland5-sk01mq04ym43pr@m-e-leypold.de
+License: GPLv3
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown; charset=UTF-8
+License-File: LICENSE
+License-File: AUTHORS
+
+# Greenland5 Base Package
+## About
+
+'greenland5-base' provides foundational features that need to be
+available to every Greenland5 package and interfaces (hooks) into
+installed Greenland5 packages. Currently this is mostly a commandline
+interface - 'greenland' - that allows to execute the built-in self
+tests via 'greenland bist'.
+
+## Future Plans
+
+- Factor out runtime for commandline interfaces (mainly the subcommand
+  registry) and make it available via the (future) 'greenland.cmdline'
+  package. See Stories/cmdline-runtime-exposed.org.
+
+
+

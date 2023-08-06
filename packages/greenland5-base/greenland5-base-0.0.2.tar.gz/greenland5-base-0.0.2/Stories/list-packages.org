@@ -1,0 +1,37 @@
+* #                                                                 :ARCHIVE:
+#+STARTUP: oddeven indent nofold
+
+* A 'list-packages' Sub-command to List Packages and Their Version   :future:
+:PROPERTIES:
+:ID:            greenland5-base:story:list-packages
+:END:
+
+As a tester or software admin I want a possibility to list all
+installed Greenland5 packages and their versions in order to know what
+we have installed and been testing or using. I might use this
+information in my reports.
+
+** Details
+
+Details are bit murky yet. Certainly, anybody could use pip here. On
+the other side (for the bist), I need to enumerate the installation
+directories anyway. If I had a way during build to record the version
+(and I seem to remember this is possible somehow), I could provide the
+data -- less in terms of "package names" (as in PyPi) but rather with
+greenland names, like
+
+| Package         | Version     |
+|-----------------+-------------|
+| base            | O.0.3.dev4  |
+| infrastructure  | O.0.1.dev18 |
+| metaprogramming | O.0.1.dev6  |
+| org_babel       | O.0.0       |
+| parsing         | O.0.1.dev21 |
+
+The same information would be useful to report BIST test status.
+
+
+
+
+
+

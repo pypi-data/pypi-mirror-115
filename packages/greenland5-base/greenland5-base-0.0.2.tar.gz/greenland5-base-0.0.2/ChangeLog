@@ -1,0 +1,17 @@
+CHANGES
+=======
+
+0.0.2
+-----
+
+* Removing stray 'X' from package summary
+* Added project header to pyproject.toml
+* Added pyproject.toml + setup dependencies for building with 'python -m build'
+* README handling with pbr. Adapted keys with '-' to keys with '\_' in setup.cfg
+* Fixed: Package classifier formatting
+* Fixed: Adjusted project name and maintainer/author mail
+
+0.0.1
+-----
+
+* First release: 'greenland bist' command

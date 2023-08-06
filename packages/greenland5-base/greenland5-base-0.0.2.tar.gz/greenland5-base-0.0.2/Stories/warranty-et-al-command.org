@@ -1,0 +1,14 @@
+* #                                                                 :ARCHIVE:
+#+STARTUP: oddeven indent nofold
+
+* GPL Interface Commands 'About', 'Warranty' and 'Copyright'         :future:
+:PROPERTIES:
+:ID:            greenland5-base:story:warranty-et-al-command
+:END:
+
+As the copyright holder of Greenland5 I want the sub-commands
+'warranty', 'about', and 'copyright' in the commandline tool
+'greenland' and working as described in the GPL
+(https://www.gnu.org/licenses/gpl-3.0.txt).
+
+

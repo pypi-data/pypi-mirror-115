@@ -1,0 +1,20 @@
+* #                                                                 :ARCHIVE:
+#+STARTUP: oddeven indent nofold
+
+* User Manual                                                        :future:
+:PROPERTIES:
+:ID:            greenland5-base:story:user-docs-base
+:END:
+
+As a user of greenland5-base I'd like to have a manual describing
+purpose of the package and user interfaces (currently 'grrenland
+bist') in order to be able to use this stuff.
+
+As a user of greenland5-base I'd like to have the online help texts of
+'greenland' being complete.
+
+
+
+
+
+
