@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+chibot/__init__.py
+chibot/utils.py
+chibot.egg-info/PKG-INFO
+chibot.egg-info/SOURCES.txt
+chibot.egg-info/dependency_links.txt
+chibot.egg-info/top_level.txt

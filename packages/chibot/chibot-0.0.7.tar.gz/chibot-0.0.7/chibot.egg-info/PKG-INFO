@@ -1,0 +1,24 @@
+Metadata-Version: 1.1
+Name: chibot
+Version: 0.0.7
+Summary: ChiBot is simple chatbot for python.
+Home-page: UNKNOWN
+Author: Tarun Bhardwaj
+Author-email: tarun.bhardwaj.developer@gmail.com
+License: MIT
+Description: ChiBot is simple chatbot for python.
+        
+        Change Log
+        ===========
+        
+        0.0.1 (10/08/2021)
+        -------------------
+        - First Release
+Keywords: chatbot chibot chat bot
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Unix
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
