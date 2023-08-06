@@ -1,0 +1,14 @@
+pqr/__init__.py,sha256=Tioa7Pq5epLwbAvXFjlgl7WSIMceinG0fu2WlQ6SyE8,414
+pqr/benchmarks.py,sha256=RFVnHi34SByQ-lqw9De53uoj9AYKmT5mwBEBqB62f0Q,3861
+pqr/factor_models.py,sha256=hIR1HHdYDCYjwJQVOppmv1_4SvlRU6ytnDp0u7tfO1Y,6945
+pqr/factors.py,sha256=bVVsI0GaXO1IDLeoRsWdsbm6k8BnBNsdvzX38IXoPPc,5775
+pqr/metrics.py,sha256=X4KQL828zBQvi7eCjGHi7fAqfMayf6gZExQeJT2Te8g,33260
+pqr/portfolios.py,sha256=VdfPHnVOteBLa2jzZPArYjOdSRnEAdKdVKoGqBz1DBc,16649
+pqr/preprocessing.py,sha256=_l3GmVw5o1CEjkCAoPpSTQ8QPuLSRL7LHLqTUpgG_FY,2409
+pqr/tests.py,sha256=YUQrl7iRjeG_90Vdd-C88Nppm2at0Jdq91C1bPJi4j8,2282
+pqr/visualization.py,sha256=RCtIjQzp0Dy7pJopnwhD7uNtcLzFgdLlCTbDKoKdvOs,1479
+pqr-0.1.1.dist-info/LICENSE,sha256=Kx6kOpq88TWmOXumz7p5pgKt-pT__T7nHggmfKnv7MU,1074
+pqr-0.1.1.dist-info/METADATA,sha256=Y3RnAdnTJlf2nSGfoTtuc0o3CehIZCVuL-EP6L56ml8,3283
+pqr-0.1.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pqr-0.1.1.dist-info/top_level.txt,sha256=JXc_68HPzRZ6hs0U3sdGjvYFqoHfw7WPT5Zci3-SlW0,4
+pqr-0.1.1.dist-info/RECORD,,
