@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+pretty_logic/__init__.py
+pretty_logic/pretty_logic.py
+pretty_logic.egg-info/PKG-INFO
+pretty_logic.egg-info/SOURCES.txt
+pretty_logic.egg-info/dependency_links.txt
+pretty_logic.egg-info/top_level.txt
