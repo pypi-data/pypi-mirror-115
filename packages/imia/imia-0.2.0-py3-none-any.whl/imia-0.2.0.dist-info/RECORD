@@ -1,0 +1,12 @@
+imia/__init__.py,sha256=h7L6Ukyns4iwfrZUymEJHpSdfq7GrySpZEUoU1vT_WM,243
+imia/authentication.py,sha256=dg35Q-cQ60bJk5KIA9CLFb3O-L84JzaGf_VbImONpME,7492
+imia/exceptions.py,sha256=ZG6Jpj-zfNfENukDoPUx6xY9qUy4HY8tYmo22rZVo8Y,448
+imia/impersonation.py,sha256=PlvHk8dM9AZ6tBtRGAlNaEdAcW3eUWSMviq1YcMfVW0,4866
+imia/login.py,sha256=k0uzHr4c0rNUhF6sZaldxZmFyf5-5Ic5axQlMQZ0jRI,4384
+imia/protocols.py,sha256=QKlZWPI9JqGowNXx0ChzJa9K7kOb19sNhwq1J4b6Vjo,599
+imia/user_providers.py,sha256=WoiuGS3gwVuRneeDIQ0IrsLa-JODEUjc45uPXh9NYjc,1404
+imia/user_token.py,sha256=ZJ6AfyG8JO8rQBDpjD_hFMlZ_ERyipTnTNl6aFauV38,2453
+imia-0.2.0.dist-info/LICENSE,sha256=qK269JF__HiLJnYqkrVDoMKiN9dFgi7CnPa8V9bDTKg,1074
+imia-0.2.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+imia-0.2.0.dist-info/METADATA,sha256=-e0oTRtnSp3A_X4vJK2VoexFTyoWYuC4BXiMIB-xl8I,2755
+imia-0.2.0.dist-info/RECORD,,
