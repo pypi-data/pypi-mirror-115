@@ -1,0 +1,15 @@
+python_kanban/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+python_kanban/app.py,sha256=t7ITkD0Y8pILaeCWCdhfFIDNpl-spUWMY8yl-bJagS4,2306
+python_kanban/models.py,sha256=XtK56HEDx1W1we6_DOoFCoS1VTjdb5N0Mxp8m7bDHmY,2849
+python_kanban/views/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+python_kanban/views/add_task_view.py,sha256=Ss_xD4Rc9vsfvjW4p44DV8lLfs9FRCZ5z2NugCEZ5wM,5384
+python_kanban/views/delete_task_view.py,sha256=GaSQ-zeJjKcRJ1jSPNf0f6qhiUND4iFTK7lW5XeMDwk,1919
+python_kanban/views/edit_tasks_view.py,sha256=OfJr0YvQp3n-7K2ZR5q6L5jv8Tx9mmnJdp9ewdEWcF0,2831
+python_kanban/views/list_tasks_view.py,sha256=J46UWp2RRhSaNOCsaZJEEh6fA8ILr4fQ_DUUq91Y_SY,3948
+python_kanban/views/no_tasks_view.py,sha256=Yw344uv1rzgTuqMKU2r7ARyI5HjYrxHWxGQEUxoobz8,1244
+python_kanban/views/status_container_view.py,sha256=hE1CpKzVq02AikZuLfrZ-Gbv-RVWDWVo1lMiKqI3nKI,3079
+python_kanban-0.2.0.dist-info/entry_points.txt,sha256=3JnKsiBYt4JbV5fVXnBRrJmai0J67FUmx5qpWfpIDWI,59
+python_kanban-0.2.0.dist-info/LICENSE,sha256=tvwmwDCVOe-Z0KZl7QNpBmVwa8J59M90GvLVLBl6tIM,1072
+python_kanban-0.2.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+python_kanban-0.2.0.dist-info/METADATA,sha256=FWbNVjfjjLS4DumPk3cJLnpPNWnxih9CMNBk1tvAI-4,1855
+python_kanban-0.2.0.dist-info/RECORD,,
