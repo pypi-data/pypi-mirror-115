@@ -1,0 +1,13 @@
+lib_dep_pkg_katiezhao/__init__.py,sha256=kPuxeJv1JnuL3TU3CPIim02kOC-F5hWM4bwfxHNv5Js,226
+lib_dep_pkg_katiezhao/file0.py,sha256=14P2-Gsl12EhNfK6USbok4NgZU3RXp1yGKsp1HYDum4,395
+lib_dep_pkg_katiezhao/folder1/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lib_dep_pkg_katiezhao/folder1/file1.py,sha256=mNmShghp5ACrc5KdGrGbrNkQYIFGEEQSJNKHZG8dq4w,395
+lib_dep_pkg_katiezhao/folder1/subfolder1/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lib_dep_pkg_katiezhao/folder1/subfolder1/file3.py,sha256=EI-akrkO8mFYNL_81G4Rt9qrLkzi3arnDwNeu3SXWGg,395
+lib_dep_pkg_katiezhao/folder2/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lib_dep_pkg_katiezhao/folder2/file2.py,sha256=JcxjEQP6jFmU2Z_5UMRNu-s4lKP98L4z-KYRFmx2Hlk,395
+dependency_package_katiezhao-0.0.1.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+dependency_package_katiezhao-0.0.1.dist-info/METADATA,sha256=cz0ZHKISMV3YgBmLNHr42VYJn4aVjCpFfDG1aZyFU8Y,581
+dependency_package_katiezhao-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+dependency_package_katiezhao-0.0.1.dist-info/top_level.txt,sha256=suqEZPgjTAnO8ZG-RTgtIdIeOS0Tgzmwr3Gjsiy200Y,22
+dependency_package_katiezhao-0.0.1.dist-info/RECORD,,
