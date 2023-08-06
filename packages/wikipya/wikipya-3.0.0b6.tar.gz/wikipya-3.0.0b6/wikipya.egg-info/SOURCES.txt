@@ -1,0 +1,13 @@
+README.md
+setup.py
+wikipya/__init__.py
+wikipya/aiowiki.py
+wikipya/drivers.py
+wikipya/exceptions.py
+wikipya/methods.py
+wikipya/types.py
+wikipya.egg-info/PKG-INFO
+wikipya.egg-info/SOURCES.txt
+wikipya.egg-info/dependency_links.txt
+wikipya.egg-info/requires.txt
+wikipya.egg-info/top_level.txt
