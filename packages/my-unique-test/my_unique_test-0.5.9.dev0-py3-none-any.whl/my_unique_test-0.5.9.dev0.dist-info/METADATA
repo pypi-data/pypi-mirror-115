@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: my-unique-test
+Version: 0.5.9.dev0
+Summary: 
+Home-page: https://github.com/lalmei/commit_with_tag_version
+License: Apache-2.0
+Keywords: machine learning,data profiling,data quality,data logging
+Author: Leandro G. Almeida
+Author-email: leandro.g.almeida@gmail.com
+Requires-Python: >=3.6.1,<3.10
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: License :: OSI Approved :: Apple Public Source License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: bump2version (>=1.0.1,<2.0.0)
+Project-URL: Repository, https://github.com/lalmei/commit_with_tag_version
+Description-Content-Type: text/markdown
+
+# commit_with_tag_version
