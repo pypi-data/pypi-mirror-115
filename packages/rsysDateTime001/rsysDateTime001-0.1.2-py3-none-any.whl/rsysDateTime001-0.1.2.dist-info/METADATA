@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: rsysDateTime001
+Version: 0.1.2
+Summary: Date time from string library
+Home-page: UNKNOWN
+Author: Praveen Kumar Srivas
+Author-email: UNKNOWN
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: datefinder
+
+UNKNOWN
+
+
