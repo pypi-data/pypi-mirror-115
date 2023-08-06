@@ -1,0 +1,3 @@
+[console_scripts]
+fast_amass_unpack = llamass.core:fast_amass_unpack
+
