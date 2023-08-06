@@ -1,0 +1,8 @@
+include README.md
+include ctextinctPackage/*
+include docs/*
+include docs/*/*
+include docs/*/*.*
+
+
+

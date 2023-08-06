@@ -1,0 +1,58 @@
+{
+  "intents": [
+    {"tag": "greetings",
+     "patterns": ["Hello", "Hey", "Hi"],
+     "responses": ["What's up?", "How can I help you?", "Hi, I am at your service"]
+     },
+    {"tag": "farewell",
+     "patterns": ["Bye", "See you later", "I do not need any more help"],
+     "responses": ["Great, feel free to have another chat anytime you like!", "Bye Bye"]
+     },
+    {"tag": "hours",
+     "patterns": ["What time do you close", "What days are you open", "What are the business hours?"],
+     "responses": ["The Ardonagh Group is open Monday to Friday from 8am till 6pm, but you can chat to me 24/7"]
+     },
+    {"tag": "name",
+     "patterns": ["What is your name?", "Do you have a name?"],
+     "responses": ["My name is Janine", "I go by the name Janine", "You can call me Janine"]
+     },
+    {"tag": "role",
+     "patterns": ["What is your role?", "What is your purpose?", "What can you do?"],
+     "responses": ["I am an intelligent Chatbot that will answer all your Cyber Security Questions as well as bring you the latest Cyber attack news. I could also submit Security Incidents"]
+     },
+    {"tag": "funny",
+     "patterns": ["Tell me a joke", "Tell me something funny", "Do you know any jokes"],
+     "responses": ["There's a band called 1023MB. Ever heard of them? They haven't had a gig yet.",
+                   "So, the other day I started to whisper and my wife asked why I was whispering? I told her I didn't want Mark Zuckerberg to hear us. I laughed. My wife laughed. Alexa laughed. Siri laughed.", "What do you call a group of math and science geeks at a party? Social engineers!", "99 little bugs in the code, 99 little bugs, Take one down, patch it around, 117 little bugs in the code.", "CAPS LOCK: Preventing Logins Since 1980", "If Bill Gates had a penny for every time I had to reboot my computer... oh wait, he does."]
+     },
+    {"tag": "news",
+     "patterns": ["Breaking News", "What is the latest attack", "download latest Cyber attacks"],
+     "responses": ["Latest Cyber News downloaded."]
+     },
+    {"tag": "incidents",
+     "patterns": ["How can I submit an incident?", "I need to submit an incident",
+                  "There was a security incident that took place"],
+     "responses": ["It is important to provide use with accurate data, please follow the steps below"]
+     },
+    {"tag": "security questions",
+     "patterns": ["I have a question", "can I ask a question?", "Do you answer any questions?"],
+     "responses": ["of course, what would you like to know?"]
+     },
+    {"tag": "password reset",
+     "patterns": ["How do I reset my password", "can I reset my password online", "where do I change my password"],
+     "responses": ["To reset your password, please visit reset.ardonagh.com from any device and login using your old credentials."]
+     },
+    {"tag": "CDP",
+     "patterns": ["What is a clean desk policy", "what is CDP", "Can I place things on my desk", "What can I leave on my desk?"],
+     "responses": ["Desks should be clean and cleared at all times, not just when you leave the office. Post it notes and confidential information on all levels should not be left on the desk. Make sure your desktop pc is locked every time you leave your desk."]
+     },
+      {"tag": "phishing email",
+     "patterns": ["How do I know I have a phishing email", "What does a phishing email look like", "What is a phishing email", "What do I look for to check if an email is spam"],
+     "responses": ["Look at the email address not just the sender. No legitimate company, for example, will send their emails from an @gmail account. Look for misspelt domain names, or typos in the body of the email. Is it poorly written? does it include suspicious attachments or links? Attachments can have malicious links also. does the message create a sense of urgency? If not sure, always ask our Cyber Team!"]
+     },
+    {"tag": "strong password",
+     "patterns": ["How can I make my password strong", "What are the requirements for a strong password", "Is my password strong enough"],
+     "responses": ["The recipe for a strong password that you can remember will be made up of 3 random words. Capital letters as will as Characters and Numbers should be placed within these words. Make sure its not predictable and it is at least more than 11 characters long. Do not reuse that password anywhere else"]
+     }
+  ]
+}
