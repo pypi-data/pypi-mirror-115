@@ -1,0 +1,9 @@
+README.md
+setup.py
+ttbot/TikTok.py
+ttbot/__init__.py
+ttbot.egg-info/PKG-INFO
+ttbot.egg-info/SOURCES.txt
+ttbot.egg-info/dependency_links.txt
+ttbot.egg-info/requires.txt
+ttbot.egg-info/top_level.txt
