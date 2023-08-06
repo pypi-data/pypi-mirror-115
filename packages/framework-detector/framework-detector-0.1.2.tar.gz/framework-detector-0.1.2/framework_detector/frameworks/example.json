@@ -1,0 +1,12 @@
+{
+    "id": "example",
+    "name": "Example",
+    "description": "Example description",
+    "detect":
+    {
+        ".some_config_file": [
+            "An optional substring to look for in the file"
+        ]
+    },
+    "dockerfile": "A dockerfile name"
+}
