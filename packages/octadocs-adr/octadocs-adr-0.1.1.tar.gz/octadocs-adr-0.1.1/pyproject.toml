@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "octadocs-adr"
+version = "0.1.1"
+description = "A blueprint for Architecture Decision Record in Octadocs - the smart documentation environment."
+authors = ["Anatoly Scherbakov <talk@yeti.sh>"]
+
+[tool.poetry.plugins."mkdocs.plugins"]
+octadocs_adr = "octadocs_adr.plugin:ADRPlugin"
+
+[tool.poetry.dependencies]
+python = "^3.8,<3.10"
+dominate = "^2.6.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+wemake-python-styleguide = "^0.15.3"
+flakehell = "^0.9.0"
+flake8 = "3.9.0"
+mkdocs-macros-plugin = "^0.5.12"
+mkdocs-material = "^7.2.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.flakehell]
+# Will replace by my own ignorelist later
+base = "https://raw.githubusercontent.com/Recall-Masters/standards/main/pyproject.toml"
+
+
+[tool.flakehell.exceptions."**/*.py"]
+flake8-darglint = [
+  "-*"
+]
