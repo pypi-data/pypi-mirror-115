@@ -1,0 +1,3 @@
+[console_scripts]
+glimmer=glimmer.main:main
+
