@@ -1,0 +1,3 @@
+[console_scripts]
+agent-master = master.main:cli
+
