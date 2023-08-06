@@ -1,0 +1,13 @@
+numpy
+pandas
+h5py
+tables
+scikit-learn
+scipy
+openpyxl
+xlrd
+instancelib
+more-itertools
+
+[doc2vec]
+gensim
