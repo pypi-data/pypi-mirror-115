@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+dp_tap_postgres.egg-info/PKG-INFO
+dp_tap_postgres.egg-info/SOURCES.txt
+dp_tap_postgres.egg-info/dependency_links.txt
+dp_tap_postgres.egg-info/entry_points.txt
+dp_tap_postgres.egg-info/requires.txt
+dp_tap_postgres.egg-info/top_level.txt
+tap_postgres/__init__.py
+tap_postgres/db.py
+tap_postgres/sync_strategies/__init__.py
+tap_postgres/sync_strategies/common.py
+tap_postgres/sync_strategies/full_table.py
+tap_postgres/sync_strategies/incremental.py
+tap_postgres/sync_strategies/logical_replication.py
