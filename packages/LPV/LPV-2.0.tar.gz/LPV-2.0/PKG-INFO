@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: LPV
+Version: 2.0
+Summary: Fast Parser Library
+Home-page: https://github.com/Xp-op/LPV
+Author: Xp-op
+Author-email: muhammad184276@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/Xp-op/LPV/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# LPV
+## Fast Python Parser Library
+
+### About:
+LPV/LexParserVisit is a Python parser library for parsing or lexing. LPV also has AST for executing node tree.
+
+### Usage:
+examples are [here](https://github.com/Xp-op/LPV/tree/main/example)
+
+### Contributing:
+Any contributions is greatly appreciated.
+
+### Documentation:
+The documentation is still in progress. You can learn it by 
+[example](https://github.com/Xp-op/LPV/tree/main/example) for now.
+
