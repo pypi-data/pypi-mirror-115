@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "kolo"
+version = "1.0.0"
+description = "See everything happening in your running Django app"
+authors = ["Wilhelm Klopp <team@kolo.app>"]
+homepage = "https://kolo.app"
+license = "© Kolo"
+readme = "README.md"
+repository = "https://github.com/kolofordjango/kolo"
+keywords = ["django", "web", "runtime", "debugging", "inspection"]
+
+
+[tool.poetry.dependencies]
+# Black needs at least Python 3.6.2
+python = "^3.6.2"
+appdirs = "^1.4.4"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

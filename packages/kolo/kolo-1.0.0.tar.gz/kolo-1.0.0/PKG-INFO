@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: kolo
+Version: 1.0.0
+Summary: See everything happening in your running Django app
+Home-page: https://kolo.app
+License: © Kolo
+Keywords: django,web,runtime,debugging,inspection
+Author: Wilhelm Klopp
+Author-email: team@kolo.app
+Requires-Python: >=3.6.2,<4.0.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: appdirs (>=1.4.4,<2.0.0)
+Project-URL: Repository, https://github.com/kolofordjango/kolo
+Description-Content-Type: text/markdown
+
+# Kolo
+
+See everything happening in your running Django app
+
+More information: https://kolo.app
+
+Install instructions: https://github.com/kolofordjango/kolo
+
+![Annotated Kolo screenshot](https://user-images.githubusercontent.com/7718702/120298398-f3d17800-c2c1-11eb-9052-9adbbff0b5f5.png)
+
