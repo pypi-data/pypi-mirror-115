@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: ewoksorange
+Version: 0.0.1a1
+Summary: Orange binding for Ewoks
+Home-page: https://gitlab.esrf.fr/workflow/ewoks/ewoksorange
+Author: ESRF
+Author-email: wout.de_nolf@esrf.fr
+License: MIT
+Project-URL: Source, https://gitlab.esrf.fr/workflow/ewoks/ewoksorange
+Project-URL: Documentation, https://workflow.gitlab-pages.esrf.fr/ewoks/ewoksorange
+Project-URL: Tracker, https://gitlab.esrf.fr/workflow/ewoks/ewoksorange/issues
+Description: # EwoksOrange: Orange binding for Ewoks
+        
+        ## Install
+        
+        ```bash
+        python -m pip install ewoksorange[test]
+        ```
+        
+        ## Test
+        
+        ```bash
+        pytest --pyargs ewoksorange.tests
+        ```
+        
+        ## Getting started
+        
+        Launch the Orange canvas with the examples Addon
+        
+        ```bash
+        python -m ewoksorange.canvas --with_example
+        ```
+        
+        or alternatively install the example Addon and launch the Orange canvas normally
+        
+        ```bash
+        python -m pip install ewoksorange/tests/examples/ewoks_example_1_addon
+        python -m pip install ewoksorange/tests/examples/ewoks_example_2_addon
+        
+        python -m Orange.canvas
+        ```
+        
+        ## Documentation
+        
+        https://workflow.gitlab-pages.esrf.fr/ewoks/ewoksorange/
+        
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: test
+Provides-Extra: dev
+Provides-Extra: doc
