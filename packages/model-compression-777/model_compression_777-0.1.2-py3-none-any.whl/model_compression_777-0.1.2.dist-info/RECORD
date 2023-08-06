@@ -1,0 +1,5 @@
+model_compression/__init__.py,sha256=kgD7JVUwP-VUAavBPEK8H3RWbOWIHGmgosWyyN4CK08,36
+model_compression/compress.py,sha256=XdV5zUxkdTd6B0UaHKdPArEfjPx2kc2VF8KBYrvVPJY,5139
+model_compression_777-0.1.2.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+model_compression_777-0.1.2.dist-info/METADATA,sha256=vPbDBf-daWo_AQFbqE_fx82TxOvfrqJ6KPsiMuKxYVY,28963
+model_compression_777-0.1.2.dist-info/RECORD,,
