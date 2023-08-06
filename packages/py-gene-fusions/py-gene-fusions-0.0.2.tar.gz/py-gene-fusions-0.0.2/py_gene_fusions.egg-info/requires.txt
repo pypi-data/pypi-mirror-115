@@ -1,0 +1,2 @@
+pydantic
+gene-normalizer>=0.1.14

@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+fusion/__init__.py
+fusion/model.py
+fusion/version.py
+py_gene_fusions.egg-info/PKG-INFO
+py_gene_fusions.egg-info/SOURCES.txt
+py_gene_fusions.egg-info/dependency_links.txt
+py_gene_fusions.egg-info/not-zip-safe
+py_gene_fusions.egg-info/requires.txt
+py_gene_fusions.egg-info/top_level.txt
