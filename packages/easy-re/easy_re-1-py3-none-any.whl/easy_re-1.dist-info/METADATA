@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: easy-re
+Version: 1
+Summary: Use angr to solve RE problems fast
+Home-page: https://github.com/ChrisTheCoolHut/easy-re
+Author: Christoppher Roberts
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: angr
+Requires-Dist: r2pipe
+
+UNKNOWN
+
+
