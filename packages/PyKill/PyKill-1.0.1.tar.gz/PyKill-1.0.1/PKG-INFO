@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: PyKill
+Version: 1.0.1
+Summary: Python Wireless Library
+Home-page: UNKNOWN
+Author: Kast Stephan
+License: GPLv3
+Keywords: Linux Python nl80211 iw iwconfig ifconfig wireless WLAN WiFi pentest
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Topic :: Security
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Security
+Classifier: Topic :: System :: Networking
+Classifier: Topic :: Utilities
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.0
+Classifier: Programming Language :: Python :: 3.7
+License-File: LICENSE
+
+UNKNOWN
+
