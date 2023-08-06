@@ -1,0 +1,16 @@
+sgtnclient/I18N.py,sha256=ECCZkCRD9SPMKX2dhBPbOkuPiZ9nE9SRV4XjOZSXenA,1893
+sgtnclient/__init__.py,sha256=MEaQYGkDv7NYeT6WLC6xZY8i4pbu2EhJQSpx86owVHA,96
+sgtnclient/sgtn_bykey.py,sha256=BdqqfZmKmTouiL5HfG7ZtQaYy3qUIgFwDX8FFeOV14U,11426
+sgtnclient/sgtn_client.py,sha256=ISega8gtzuxHzjbHrZ-BtyiU9aJiTZWLxPSKCuOoHrw,28871
+sgtnclient/sgtn_debug.py,sha256=w6Y1tBrBEdE266ijgr7QSihP6Vf4sWn3doZ8umH4dpo,668
+sgtnclient/sgtn_locale.py,sha256=WFNd66sqLzYYqTAWErIz8U64ryDY4AsTH003Q8cPLGA,2767
+sgtnclient/sgtn_properties.py,sha256=zTylMhk6OVX9hrFCmZlChdwblKf0h5PCleCtuSyVOLI,6698
+sgtnclient/sgtn_py2_base.py,sha256=fnfO5ec057C9l2ZB4u5LfGII-cnBUdwj5WyIId60ohs,427
+sgtnclient/sgtn_py3_base.py,sha256=BWUFOOLh4so1Cj9LulUkAW_RHgAA1q1P5jF4_yAKfik,395
+sgtnclient/sgtn_py_base.py,sha256=9dEZY6tRcUDMWK_aLdgQwIU1xTuE5ahPCqvOcKBvw74,288
+sgtnclient/sgtn_util.py,sha256=s--bMrLRV2GWqoHCtyFFctGcr1PTNBdnmR3SzWwFqBM,7758
+sgtnclient-0.6.1.dist-info/LICENSE,sha256=ik1FvJcxrtwFqAhNFXit-FJXAZkOue6JQPeLrOMzuL0,70
+sgtnclient-0.6.1.dist-info/METADATA,sha256=2rbXbM_UKh8J3g-aPvLBUkh17j3_98XoGaRJPSmzatA,339
+sgtnclient-0.6.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+sgtnclient-0.6.1.dist-info/top_level.txt,sha256=KPBtAHM8KknValvJPw8wBGyJoR7EolnEle6EJHk9cl4,11
+sgtnclient-0.6.1.dist-info/RECORD,,
