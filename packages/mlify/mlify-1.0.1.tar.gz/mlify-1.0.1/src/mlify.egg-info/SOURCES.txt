@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+src/mlify/__init__.py
+src/mlify.egg-info/PKG-INFO
+src/mlify.egg-info/SOURCES.txt
+src/mlify.egg-info/dependency_links.txt
+src/mlify.egg-info/top_level.txt
+src/mlify/detect/__init__.py
+src/mlify/detect/face.py
