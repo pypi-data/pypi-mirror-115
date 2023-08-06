@@ -1,0 +1,8 @@
+envfileparser/__init__.py,sha256=aHgItgoM676CaetP0uOev6A2VS7GY17V-WioNlN8U9s,38
+envfileparser/env_file_parser.py,sha256=QlOa7pk5dQ-Kzd488GpKCis8egJZSGmclyMfUA6C_qA,1453
+envfileparser/type_checker.py,sha256=D2fOi0kdAq9HUStiDYuB38Pgt3Cbzl17r4GuqlBJ5cg,149
+envfileparser-0.0.4.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+envfileparser-0.0.4.dist-info/METADATA,sha256=WLODtuKGW0cYLqahZGmalLenBuBw2DkQQdbbdR9a-ZA,1022
+envfileparser-0.0.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+envfileparser-0.0.4.dist-info/top_level.txt,sha256=8O8YcEEaauD3hgqY972nqCr8D7_vbytIfR61mmbwyLc,14
+envfileparser-0.0.4.dist-info/RECORD,,
