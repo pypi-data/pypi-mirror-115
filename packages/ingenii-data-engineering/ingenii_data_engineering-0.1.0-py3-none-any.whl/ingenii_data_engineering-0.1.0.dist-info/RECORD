@@ -1,0 +1,12 @@
+ingenii_data_engineering/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ingenii_data_engineering/pre_process.py,sha256=xQhzTkl_Zrz0BKuD7tSE1MK6VRKVSUyQKiXojg6TK_0,1968
+ingenii_data_engineering/schema_utils.py,sha256=3AzuKauiP9QfIqo6kjhAYcjCoMeY8E4GNavbsg3NEPE,1657
+ingenii_data_engineering/schema_yml.py,sha256=dDs3UTjK7cDEPSfrJ6R-TKFgw96RtlJ0ghdBnzpyK08,6045
+ingenii_data_engineering/split_xlsx.py,sha256=eKTHOhajOn_zMSAFEcRQpSQnb02uMcySyFTYwh8ZyJ0,2015
+ingenii_data_engineering/validation.py,sha256=VY3SLvysy4_do79Gca9Ug-IBCjJh7wXEreISk0mM5OQ,6228
+ingenii_data_engineering-0.1.0.dist-info/LICENSE,sha256=qlSEp9RP-JkowBMY7T_WM7n8nDd41t4hheq-p7-Hmw4,15975
+ingenii_data_engineering-0.1.0.dist-info/METADATA,sha256=YLmzRhbPc0WIJM79drfiZTqLTY-Wfg-ocVmrD6ecWMU,3819
+ingenii_data_engineering-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+ingenii_data_engineering-0.1.0.dist-info/dependency_links.txt,sha256=mKJO5QFAsUEDtJ_c97F-IbmVtHYEDymqD7d5X0ULkVs,9
+ingenii_data_engineering-0.1.0.dist-info/top_level.txt,sha256=GlneTcIV_BKr9Z93Bk4lBFGMkhFRJ2RfRQSxw2bek_U,25
+ingenii_data_engineering-0.1.0.dist-info/RECORD,,
