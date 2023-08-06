@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: casadi_horizon
+Version: 0.0.3
+Summary: Library for Trajectory Optimization based on CasADi
+Home-page: https://github.com/FrancescoRuscelli/horizon_gui
+Author: Francesco Ruscelli
+Author-email: francesco.ruscelli@iit.it
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
