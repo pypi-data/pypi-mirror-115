@@ -1,0 +1,4 @@
+moviepy
+requests_html
+bs4
+lxml
