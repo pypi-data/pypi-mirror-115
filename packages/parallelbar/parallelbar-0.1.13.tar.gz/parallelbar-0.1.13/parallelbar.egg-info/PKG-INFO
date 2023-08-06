@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: parallelbar
+Version: 0.1.13
+Summary: Parallel processing with progress bars
+Home-page: https://github.com/dubovikmaster/parallelbar
+Author: Dubovik Pavel
+Author-email: geometryk@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: progress bar,tqdm,parallelbar,parallel tqdm,parallel map,parallel
+Platform: any
