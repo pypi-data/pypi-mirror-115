@@ -1,0 +1,5 @@
+Jinja2>=2.11.3
+robotframework>=2.8.5
+
+[test]
+robotframework-requests
