@@ -1,0 +1,3 @@
+[console_scripts]
+multicode = multicode.__main__:main
+

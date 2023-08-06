@@ -1,0 +1,15 @@
+clldutils>=1.13.10
+csvw
+segments
+
+[dev]
+flake8
+twine
+wheel
+
+[test]
+coverage>=4.2
+mock
+pytest-cov
+pytest-mock
+pytest>=3.6
