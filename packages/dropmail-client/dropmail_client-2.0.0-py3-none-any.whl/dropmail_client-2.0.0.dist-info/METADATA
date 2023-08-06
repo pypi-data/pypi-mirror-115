@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: dropmail-client
+Version: 2.0.0
+Summary: A Python interface to https://dropmail.me
+Home-page: https://gitlab.com/JonstonChan/dropmail-client
+Author: Jonston Chan
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Communications :: Email
+Description-Content-Type: text/markdown
+License-File: COPYING
+License-File: COPYING.LESSER
+Requires-Dist: websocket-client
+
+dropmail-client
+===
+
+`dropmail-client` is a Python module containing an interface to https://dropmail.me, a free service that provides disposable email addresses.
+
+
+Installation
+---
+
+`pip3 install dropmail-client`
+
+
+Examples
+---
+
+Examples can be found in the [`examples` directory](https://gitlab.com/JonstonChan/dropmail-client/tree/stable/examples).
+
