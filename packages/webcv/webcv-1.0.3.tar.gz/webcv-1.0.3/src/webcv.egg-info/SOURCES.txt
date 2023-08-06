@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+src/webcv/__init__.py
+src/webcv/manager.py
+src/webcv/server.py
+src/webcv.egg-info/PKG-INFO
+src/webcv.egg-info/SOURCES.txt
+src/webcv.egg-info/dependency_links.txt
+src/webcv.egg-info/requires.txt
+src/webcv.egg-info/top_level.txt
+src/webcv/templates/index.html
