@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: robust-statistics-simulator
+Version: 0.1.dev2
+Summary: Interactive simulations that demonstrate properties of robust statistics
+Home-page: https://github.com/Alcampopiano/hypothesize
+Author: Allan Campopiano
+Author-email: campopianoa@hcdsb.org
+License: BSD 3-clause
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: streamlit
+Requires-Dist: scipy
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: altair
+
+# Robust Statistics Simulator
+
+An interactive Python package for demonstrating the basic concepts of robust statistics.
+This package relies on Streamlit for interactivity.
+
+From the root of the cloned repository, please run:
+
+```
+cd robust_statistics_simulator
+streamlit run robust_statistics_simulator/simulation.py
+```
+
+This repository is in its early stages.
+
+# Comparing estimators in terms of standard error
+## Click [here](https://share.streamlit.io/alcampopiano/robust_statistics_simulator/robust_statistics_simulator/standard_error.py) to access the hosted Streamlit app
+![im](https://github.com/Alcampopiano/robust_statistics_simulator/blob/master/docs/docs/img/rs_se.gif?raw=true)
+
+## Click [here](https://share.streamlit.io/alcampopiano/robust_statistics_simulator/robust_statistics_simulator/type_I_error.py) to access the hosted Streamlit app
+# Comparing estimators in terms of type-I error
+![im](https://github.com/Alcampopiano/robust_statistics_simulator/blob/master/docs/docs/img/rs_terror.gif?raw=true)
+
+
+
+
