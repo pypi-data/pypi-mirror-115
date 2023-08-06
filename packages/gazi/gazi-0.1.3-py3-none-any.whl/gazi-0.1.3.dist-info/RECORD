@@ -1,0 +1,10 @@
+gazi/__init__.py,sha256=bqx18z_iNj3p29cMRB_okDkLjrHxLUMvB1fo8mTeOTo,210
+gazi/app.py,sha256=f84Zo0Bafqo3mgzktfKCnfeF7TmwFSNMFszfn0j9uc0,3619
+gazi/request.py,sha256=CZmN6I4HjyOZzWihAc2rQWWDb3E48_YfIYoHS7pt4MA,1791
+gazi/response.py,sha256=113K-KMmXlIHd-W_3PM3Pw2mFqlfz0nmzlhn_UoEgfg,1794
+gazi/route.py,sha256=DM7eDbS9mL9L-BD2XrO0QdqKfAMDmicJyP4vnTMqyU8,2976
+gazi-0.1.3.dist-info/LICENSE,sha256=fWaV7rZHG0vWYWAhbyV_ztTFsE3U3tfXwlz4Wy4ZdzM,1066
+gazi-0.1.3.dist-info/METADATA,sha256=88fQWgYoLvh1e2Dc25_Iyusrwj_sb5CtzLm1TXOQ5jo,1755
+gazi-0.1.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+gazi-0.1.3.dist-info/top_level.txt,sha256=0dXPyxmFh0pU4vT60V1xsIMCvk2qVn5pCEn66-u1ONM,5
+gazi-0.1.3.dist-info/RECORD,,
