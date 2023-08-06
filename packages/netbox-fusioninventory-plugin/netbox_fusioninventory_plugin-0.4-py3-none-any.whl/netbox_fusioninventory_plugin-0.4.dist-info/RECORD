@@ -1,0 +1,8 @@
+netbox_fusioninventory_plugin/__init__.py,sha256=sswoyQf4Hor5PPaCPJHMOHmR_4C3SDWy2uZ7VwwWWF4,1626
+netbox_fusioninventory_plugin/urls.py,sha256=wEYJpcGS9fQrDyDe_PXubzWD-ggMSaeo7w--w5SbPQQ,411
+netbox_fusioninventory_plugin/utils.py,sha256=7HDZcJebbpUUA0AvA3dtOMCH1byPTcIGKug-YmCfFCg,3950
+netbox_fusioninventory_plugin/views.py,sha256=1Fbn3aBI8pjRGep91t1klX5rRB7xVua12UK96rzD_TM,958
+netbox_fusioninventory_plugin-0.4.dist-info/METADATA,sha256=PE-lkue607ycuMMYQABHag7cxrSfPPftAQea_xGhEVM,2161
+netbox_fusioninventory_plugin-0.4.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+netbox_fusioninventory_plugin-0.4.dist-info/top_level.txt,sha256=BbZBhZjGugEkR9UNz0Kc3gAjwx5drVj_CU5EsqE-j8U,30
+netbox_fusioninventory_plugin-0.4.dist-info/RECORD,,
