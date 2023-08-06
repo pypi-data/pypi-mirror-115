@@ -1,0 +1,9 @@
+mapioulib/__init__.py,sha256=5bdTghRTnF-7URZPI86imrY9BTN8LJo7B922h0sCvwY,26
+mapioulib/mapiou.py,sha256=nHlRWVAh4rB-KKRmdrgj8PHudRVBwmd86ehz2RLrmFA,2621
+mapioulib/matching.py,sha256=PIFszT6cgi-ZnIxk9gQbIjAtEtA8E27sQCjEF93bbbA,4183
+mapioulib/segment.py,sha256=3Phkksxn8jrUbvmYNZAlOGNecLJj8sMdkZq7e8CDLh8,1090
+mapioulib/video.py,sha256=u6y-XrKefU9ZwPd4HnogsjPdRzWpZT8nLdT60J3MkOs,2365
+mapioulib-0.2.0.dist-info/METADATA,sha256=qXUpw_4OpbZhMnoPHAObRN5rw0_p0X3ASplcVNX3zaE,208
+mapioulib-0.2.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+mapioulib-0.2.0.dist-info/top_level.txt,sha256=eSIsSj8CnrvLH_4cTVww53nRQy2kP9SgFJQ7tTmZU4E,10
+mapioulib-0.2.0.dist-info/RECORD,,

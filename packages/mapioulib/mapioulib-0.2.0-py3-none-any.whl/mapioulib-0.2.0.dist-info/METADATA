@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: mapioulib
+Version: 0.2.0
+Summary: My mAP IoU Library
+Home-page: UNKNOWN
+Author: Shahnawaz Alam
+Author-email: UNKNOWN
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: scipy
+
+UNKNOWN
+
+
