@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: into-cps-dtp
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: https://github.com/INTO-CPS-Association/into-cps-dtp
+Author: INTO-CPS
+License: INTO-CPS
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.9, <4
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Provides-Extra: dev
+Requires-Dist: check-manifest ; extra == 'dev'
+Provides-Extra: tests
+Requires-Dist: coverage ; extra == 'tests'
+
+UNKNOWN
+
