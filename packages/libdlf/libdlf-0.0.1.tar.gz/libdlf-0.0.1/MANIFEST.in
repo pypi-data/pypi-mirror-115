@@ -1,0 +1,2 @@
+include libdlf/lib/filters.json
+include libdlf/lib/*/*.txt
