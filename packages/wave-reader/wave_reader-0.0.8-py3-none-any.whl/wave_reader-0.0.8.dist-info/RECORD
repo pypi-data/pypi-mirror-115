@@ -1,0 +1,10 @@
+wave_reader/__init__.py,sha256=qY0guVi_zgWPP8VbqDUsclVJWz8dyTJCgZgjpl0Xnn8,67
+wave_reader/data.py,sha256=qrbcglcRgw8fu0bEHFmaSaSmmzMx6ax_23sSi-Hztrg,2533
+wave_reader/measure.py,sha256=pwumsqvYE9HMcp5VSG6-4MGbBpfKRkIz1PfwZCvaPQc,4232
+wave_reader/utils.py,sha256=wB9sdysq9C3HHfeRr9p0zPRGjoXqcUH5RbI_cz_gMVg,1058
+wave_reader/wave.py,sha256=x0naUxdrJ5MbMopTJ0dciloHdp1elc1YVR1zeI7ZWDQ,10721
+wave_reader-0.0.8.dist-info/LICENSE.md,sha256=A0rKsSb5KfTPEoWwl7nU0LInulP6G7bsBarcrwC4pG8,1074
+wave_reader-0.0.8.dist-info/METADATA,sha256=p6yW96rxEebb_BX4s9ZTwsDK_26jZnQixjHImvD9dWQ,3310
+wave_reader-0.0.8.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+wave_reader-0.0.8.dist-info/top_level.txt,sha256=82mFj1Dzfj579Lbv6zk8uCHF0H-dlXjWWBdmiumj5eA,12
+wave_reader-0.0.8.dist-info/RECORD,,
