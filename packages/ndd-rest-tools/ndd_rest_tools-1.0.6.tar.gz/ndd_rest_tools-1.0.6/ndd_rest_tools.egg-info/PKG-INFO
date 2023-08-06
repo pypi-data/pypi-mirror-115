@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: ndd-rest-tools
+Version: 1.0.6
+Summary: A group of tools for Restful API
+Home-page: https://github.com/hpduongducnhan/rest_tools
+Author: hpduongducnhan
+Author-email: hpduongducnhan@gmail.com
+Maintainer: hpduongducnhan
+Maintainer-email: hpduongducnhan@gmail.com
+License: MIT
+Download-URL: https://github.com/hpduongducnhan/rest_tools/tarball/master
+Description: # Usage
+          > json_config_file_path = "/path/to/file/json"  
+          > client = ApiClient(json_config_file_path)   
+          > data = client.make_request('example1')   
+          >  
+        
+        # JSON Format
+        ```yaml
+        {  
+          "name": "api endpoints",  
+          "description": "hello",  
+          "config": {    
+            "example1": {  
+              "method": "GET",  
+              "url": "https://gorest.co.in/public/v1/users",  
+              "header": {  
+                "Content-Type": "application/json"  
+              },  
+              "parameters": {  
+                "hello": "world"  
+              },  
+              "save_response": false  
+            }  
+          }  
+        }  
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Requires-Python: <4,>=3.0.*
+Description-Content-Type: text/markdown
