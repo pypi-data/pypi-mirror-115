@@ -1,0 +1,10 @@
+fastapi_csrf_protect/__init__.py,sha256=RO4kKQJeeWE3K-1C8WehZXab5DWDCP60AEiOdJZNjqo,411
+fastapi_csrf_protect/core.py,sha256=Hy3WMOI-Z3vUcHS6oGk8Sl-Dz4TX8wz83oLJWHt9L94,5127
+fastapi_csrf_protect/csrf_config.py,sha256=XVkQoKxQBUfXEVdi20MuMfgi62fkrHMkxlVGiqp9t-8,2315
+fastapi_csrf_protect/exceptions.py,sha256=_Vn80g3PBV936Kv0OXai0hv74la2N5AE6yCNQe7rWmI,765
+fastapi_csrf_protect/load_config.py,sha256=drrUGw-TZZeTfXey3k2JPgLJ9nefYAKC7j-KLHMiilU,1657
+fastapi_csrf_protect-0.1.6.dist-info/LICENSE,sha256=ACwmltkrXIz5VsEQcrqljq-fat6ZXAMepjXGoe40KtE,1069
+fastapi_csrf_protect-0.1.6.dist-info/METADATA,sha256=iVe0XKhprm8DS-Hcfi7RjAtSYRc03lflL_gWveENls8,4763
+fastapi_csrf_protect-0.1.6.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+fastapi_csrf_protect-0.1.6.dist-info/top_level.txt,sha256=uVIM6-N_Ky1iMGZsmpsxSE5QR5sgsMm5yV9LpbUkB3g,21
+fastapi_csrf_protect-0.1.6.dist-info/RECORD,,
