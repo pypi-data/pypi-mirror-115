@@ -1,0 +1,3 @@
+[flake8.extension]
+AH=flake8_action_hero.checker:ActionChecker
+
