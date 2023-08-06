@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: deepnote
+Version: 0.2.2
+Summary: A python package to manipulate MIDI files, representing them and converting them into a proper format for feeding to machine learning models.
+Home-page: https://github.com/s-omranpour/DeepNote
+Author: Soroush Omranpour
+Author-email: soroush.333@gmail.com
+License: MIT license
+Project-URL: Bug Reports, https://github.com/s-omranpour/DeepNote/issues
+Project-URL: Source, https://github.com/s-omranpour/DeepNote
+Description: UNKNOWN
+Keywords: midi,deep learning,music
+Platform: UNKNOWN
+Requires-Python: >=3.7, <4

@@ -1,0 +1,4 @@
+numpy>=1.7.0
+miditoolkit>=0.1.14
+chorder>=0.1.2
+midi2audio>=0.1.1

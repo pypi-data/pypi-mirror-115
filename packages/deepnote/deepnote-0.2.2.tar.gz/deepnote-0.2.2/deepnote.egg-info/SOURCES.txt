@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+deepnote/__init__.py
+deepnote/const.py
+deepnote/metrics.py
+deepnote/modules.py
+deepnote/repr.py
+deepnote/scale.py
+deepnote/utils.py
+deepnote.egg-info/PKG-INFO
+deepnote.egg-info/SOURCES.txt
+deepnote.egg-info/dependency_links.txt
+deepnote.egg-info/requires.txt
+deepnote.egg-info/top_level.txt
