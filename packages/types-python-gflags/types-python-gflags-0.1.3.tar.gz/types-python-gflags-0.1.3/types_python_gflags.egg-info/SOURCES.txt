@@ -1,0 +1,7 @@
+setup.py
+gflags-stubs/METADATA.toml
+gflags-stubs/__init__.pyi
+types_python_gflags.egg-info/PKG-INFO
+types_python_gflags.egg-info/SOURCES.txt
+types_python_gflags.egg-info/dependency_links.txt
+types_python_gflags.egg-info/top_level.txt
