@@ -1,0 +1,4 @@
+[console_scripts]
+navsim_env_kill = navsim_envs.env_kill:main
+navsim_env_test = navsim_envs.env_tst:main
+
