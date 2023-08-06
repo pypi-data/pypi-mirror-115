@@ -1,0 +1,15 @@
+mfyreport/__init__.py,sha256=tpcX5wMjJEA3hm7Nur62Dspn7us0UX7GSIy3wUGJCEg,422
+mfyreport/core/__init__.py,sha256=YvXMOPDGLqvHIeEMzMQnoKBayWOsWw_KA2zG9Cp0tr0,327
+mfyreport/core/dataDriver.py,sha256=bu1ICW7Gv_5oLDwPlKb9fF8pBEo9SUf9_GksNglfSDI,2677
+mfyreport/core/parameterized.py,sha256=9RQrN6BF9RTyxE-cTiBanafqjtMwUk0vVWIveTV6nsk,22352
+mfyreport/core/reRun.py,sha256=_ub5MdEr1GKpPZ9altb63XAIpztRCp6QuBs7FqgsBzc,1199
+mfyreport/core/resultPush.py,sha256=Y-BSv2i2vDy3KZNOs48WVIQtkTU0Jrkgk3s785Hs8xI,5647
+mfyreport/core/sendEmail.py,sha256=lNnQGesGFeowRVM5ITfV4SRXKYPWHPxNW9N18vMTq6Y,2670
+mfyreport/core/testResult.py,sha256=Eg8nfqnwwYgpldu9hvw0_MgP3AL1jPa-P-cXIIJda-k,6478
+mfyreport/core/testRunner.py,sha256=FzTzObQXdmzGzxO-OC6OIoz-ORdR-DDZD8wEoLK5998,11301
+mfyreport/templates/__init__.py,sha256=TM-DWDU7oEdVDEqtOGfxNzI3QCVIdBhiRhlfZWXrSgA,314
+mfyreport-0.0.3.dist-info/LICENSE,sha256=_tUDi_L0J6suyE-FiB8QPA6Ubo1iUrhzH5mrDLV3Kdk,3
+mfyreport-0.0.3.dist-info/METADATA,sha256=RL3102qUH1dRyAmgpjwhB6tCdUc6CmqiTOoYDzQeow0,836
+mfyreport-0.0.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+mfyreport-0.0.3.dist-info/top_level.txt,sha256=MhUm7WvPs_UjHzwD9nSRMGSLXoM2QSfPmTQdSUxgGJQ,10
+mfyreport-0.0.3.dist-info/RECORD,,
