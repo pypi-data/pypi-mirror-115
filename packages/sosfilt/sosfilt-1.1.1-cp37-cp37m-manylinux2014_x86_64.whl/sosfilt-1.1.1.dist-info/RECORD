@@ -1,0 +1,11 @@
+sosfilt/_sosfilt.cpython-37m-x86_64-linux-gnu.so,sha256=7aETk16e1fP6lI9sqd3DFMfzvS2IxJlII23b1L7Q4HM,1598512
+sosfilt/sosfilt.py,sha256=gktJ_QBd1psfnFfWBNGbedEPKdhY4NvbQBnT-bEcqLU,6575
+sosfilt/_zpk_funcs.py,sha256=uJmq2IpX5IcS3xrQgjrPo1QDdGv-cO_hmkQFSKVxJ5c,4923
+sosfilt/filter_design.py,sha256=xeJPrB_yPdyvsQK0XOmBh4LLV7paA3twPCGcd-MvLaQ,3048
+sosfilt/_zpk_funcs.cpython-37m-x86_64-linux-gnu.so,sha256=2vs3FzpPd2NrlqK_3NuF2eTrbQf5k7rVZBBnnBREMcA,150408
+sosfilt/__init__.py,sha256=d_JsY6feVGv8J9lYzuAay5GK4ZhzVb3bopwBax96p-o,57
+sosfilt-1.1.1.dist-info/RECORD,,
+sosfilt-1.1.1.dist-info/top_level.txt,sha256=RcZ07UhRSavXmgyyOEmc0dMZ71jOqy6Sh5M0Gah3Hb0,8
+sosfilt-1.1.1.dist-info/WHEEL,sha256=cCcIocQWsRcjbZ8DFZU6x3YDrwDcwVuuUbwJVUWc_xU,112
+sosfilt-1.1.1.dist-info/LICENSE,sha256=zarCeQEK0Horu-tpzPrBBzGEamzPNPRDrQfwRiN4YMY,1069
+sosfilt-1.1.1.dist-info/METADATA,sha256=oJ4O-LixvZaoRIiHrrjwoRSwd5hnNuV_mcaPkQS4Mb8,1809
