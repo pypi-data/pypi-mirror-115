@@ -1,0 +1,66 @@
+{% if columns %}
+<div class="row allinone">
+  {% for column in columns %}
+  {% if column.products %}
+  <div class="col-sm-6 {{ column.size }}">
+    <h3>{{ column.title }}</h3>
+    <div class="swiper-viewport">
+      <div id="column-carousel-{{ column.count }}-{{ module }}" class="swiper-container">
+        <div class="swiper-wrapper">
+          {% for product in column.products %}
+            <div class="product_cols transition swiper-slide">
+              <div class="image">
+                <a href="{{ product.href }}">
+                  <img src="{{ product.thumb }}" alt="{{ product.name }}" title="{{ product.name }}" class="img-responsive" />
+                  {% if product.additional_image %}
+                  <img class="hover-img img-responsive" src="{{ product.additional_image }}" class="img-responsive">
+                  {% endif %}
+                </a>
+              </div>
+              <div class="caption">
+                <div class="rating">{% for i in 1..5 %}
+                  {% if product.rating < i %} <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i></span> {% else %} <span class="fa fa-stack"><i class="fa fa-star fa-stack-2x"></i><i class="fa fa-star-o fa-stack-2x"></i></span> {% endif %}
+                  {% endfor %}
+                </div>
+                <h4><a href="{{ product.href }}">{{ product.name }}</a></h4>
+                {% if product.price %}
+                <p class="price">
+                  {% if not product.special %}
+                    {{ product.price }}
+                    {% else %} <span class="price-new">{{ product.special }}</span> <span class="price-old">{{ product.price }}</span> {% endif %}
+                    {% if product.tax %} <span class="price-tax">{{ text_tax }} {{ product.tax }}</span>
+                  {% endif %} </p>
+                {% endif %}
+                <div class="button-group">
+                  <button class="btn" type="button" data-toggle="tooltip" title="{{ button_cart }}" onclick="cart.add('{{ product.product_id }}');"><i class="fa fa-shopping-cart"></i></button>
+                  <button class="btn" type="button" data-toggle="tooltip" title="{{ button_wishlist }}" onclick="wishlist.add('{{ product.product_id }}');"><i class="fa fa-heart"></i></button>
+                  <button class="btn" type="button" data-toggle="tooltip" title="{{ button_compare }}" onclick="compare.add('{{ product.product_id }}');"><i class="fa fa-exchange"></i></button>
+                </div>
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+      <div class="swiper-pagination column-carousel-{{ column.count }}-{{ module }}"></div>
+      <div class="swiper-pager">
+        <div class="late-swiper-button-next swiper-next{{ column.count }}-{{ module }} swiper-button-next"></div>
+        <div class="late-swiper-button-prev swiper-prev{{ column.count }}-{{ module }} swiper-button-prev"></div>
+      </div>
+    </div>
+  </div>
+  {% endif %}
+  {% endfor %}
+  </div>
+{% endif %}
+
+{% for column in columns %}
+<script type="text/javascript"><!--
+  $('#column-carousel-{{ column.count }}-{{ module }}').swiper({
+    mode: 'horizontal',
+    slidesPerView: 1,
+    slidesPerColumn: 3,
+    nextButton: '.swiper-next{{ column.count }}-{{ module }}',
+    prevButton: '.swiper-prev{{ column.count }}-{{ module }}'
+  });
+--></script>
+{% endfor %}

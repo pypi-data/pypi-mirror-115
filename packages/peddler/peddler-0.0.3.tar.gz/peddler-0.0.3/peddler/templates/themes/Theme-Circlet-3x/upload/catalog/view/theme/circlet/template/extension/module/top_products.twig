@@ -1,0 +1,162 @@
+<div class="top-products clearfix">
+  <div class="row">
+    {% if product_status and products %}
+    <div class="{{ product_class }} col-sm-12">
+      <div id="top-products{{ module }}" class="swiper-container">
+        <div class="swiper-wrapper">
+          {% for product in products %}
+            <div class="product-layout swiper-slide">
+            <div class="product-thumb transition">
+              <div class="image"><a href="{{ product.href }}"><img src="{{ product.thumb }}" alt="{{ product.name }}" title="{{ product.name }}" class="img-responsive" /></a></div>
+              <div class="caption">
+                <h4><a href="{{ product.href }}">{{ product.name }}</a></h4>
+                {% if product.price %}
+                  <p class="price">
+                    {% if not product.special %}
+                      {{ product.price }}
+                    {% else %}
+                    <span class="price-old">{{ product.price }}</span> <span class="price-new">{{ product.special }}</span>
+                    {% endif %}
+                    {% if product.tax %}
+                    <span class="price-tax">{{ text_tax }} {{ product.tax }}</span>
+                    {% endif %}
+                  </p>
+                {% endif %}
+                <p class="desmatter">{{ product.description }}</p>
+                <div class="rating">
+                  {% for i in 1..5 %}
+                  {% if product.rating < i %}
+                  <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i></span>
+                  {% else %}
+                  <span class="fa fa-stack"><i class="fa fa-star fa-stack-2x"></i><i class="fa fa-star-o fa-stack-2x"></i></span>
+                  {% endif %}
+                  {% endfor %}
+                </div>
+                <div class="top-button-group">
+                  <button class="cart" type="button" onclick="cart.add('{{ product.product_id }}');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">{{ button_cart }}</span></button>
+                  <button type="button" data-toggle="tooltip" title="{{ button_wishlist }}" onclick="wishlist.add('{{ product.product_id }}');"><i class="fa fa-heart"></i></button>
+                  <button type="button" data-toggle="tooltip" title="{{ button_compare }}" onclick="compare.add('{{ product.product_id }}');"><i class="fa fa-exchange"></i></button>
+                </div>
+              </div>
+            </div>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+      <div class="swiper-pager">
+        <div class="swiper-button-prev tp-prv"></div>
+        <div class="swiper-button-next tp-nxt"></div>
+      </div>
+    </div>
+    {% endif %}
+
+    {% if testimonial_status and jade_testimonials %}
+    <div class="{{ testimonial_class }}  col-sm-12">
+      <div id="testimonial-block{{ module }}" class="testimonial-block swiper-container">
+        <div class="swiper-wrapper">
+          {% for jade_testimonial in jade_testimonials %}
+          <div class="testimonial-inner swiper-slide">
+            <div class="client-image">
+              <img src="{{ jade_testimonial.image }}" alt="" title="{{ jade_testimonial.author }}" class="img-responsive" />
+            </div>
+            <div class="clientest">{{ jade_testimonial.description }} <a href="{{ jade_testimonial.j_click }}" class="j_readmore btn btn-prmiary btn-sm">{{ button_readmore }}</a></div>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+      <div class="swiper-pager">
+          <div class="swiper-button-prev tb-prv"></div>
+          <div class="swiper-button-next tb-nxt"></div>
+        </div>
+    </div>
+    {% endif %}
+  </div>
+</div>
+
+{% if product_status and products %}
+<script type="text/javascript"><!--
+$('#top-products{{ module }}').swiper({
+  mode: 'horizontal',
+  slidesPerView: 1,
+  nextButton: '.swiper-button-next.tp-nxt',
+  prevButton: '.swiper-button-prev.tp-prv',
+  spaceBetween: 30,
+  autoplay: false,
+  autoplayDisableOnInteraction: true,
+  loop: true
+});
+--></script>
+{% endif %}
+
+{% if testimonial_status and jade_testimonials %}
+<script type="text/javascript"><!--
+  $('#testimonial-block{{ module }}').swiper({
+    mode: 'horizontal',
+    slidesPerView: 1,
+    nextButton: '.swiper-button-next.tb-nxt',
+    prevButton: '.swiper-button-prev.tb-prv',
+    spaceBetween: 30,
+    autoplay: false,
+    autoplayDisableOnInteraction: true,
+    loop: true
+  });
+--></script>
+<script type="text/javascript">
+  $(document).delegate('.j_readmore', 'click', function(e) {
+  e.preventDefault();
+
+  $('#j__testmodal').remove();
+
+  var element = this;
+
+  $.ajax({
+    url: $(element).attr('href'),
+    type: 'get',
+    dataType: 'json',
+    success: function(json) {
+      html = '<div id="j__testmodal" class="modal fade modal-md text-center j__testimonial" role="dialog">';
+        html += '<div class="modal-dialog">';
+          html += '<div class="modal-content">';
+            html += '<div class="modal-header">';
+              html += '<button type="button" class="close" data-dismiss="modal">&times;</button>';
+            html += '</div>';
+            html += '<div class="modal-body">';
+              if(json['image']) {
+              html += '<div class="jt__image">';
+                html += '<img class="img-circle img-responsive" src="'+ json['image'] +'" alt="" title="" />';
+              html += '</div>';
+              }
+              html += json['description'];
+              html += '<div class="rw__detail">';
+                html += '<div class="jt__name">';
+                  html += json['author'];
+                html += '</div>';
+                html += '<div class="jt__rating">';
+                  var i;
+                  for (i = 1; i <= 5; i++) {
+                    if (json['rating'] < i) {
+                      html += '<span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i></span>';
+                    } else {
+                      html += '<span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>';
+                    }
+                  }
+                html += '</div>';
+                if(json['destination']) {
+                html += '<div class="jt__dest">';
+                  html += json['destination'];
+                html += '</div>';
+                }
+              html += '</div>';
+            html += '</div>';
+          html += '</div>';
+        html += '</div>';
+      html += '</div>';
+
+      $('body').append(html);
+
+      $('#j__testmodal').modal('show');
+    }
+  });
+});
+</script>
+{% endif %}

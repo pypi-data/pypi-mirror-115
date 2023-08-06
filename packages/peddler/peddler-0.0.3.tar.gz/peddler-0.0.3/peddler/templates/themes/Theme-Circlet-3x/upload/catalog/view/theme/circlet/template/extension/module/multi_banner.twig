@@ -1,0 +1,15 @@
+{% if columns %}
+<div id="banners" class="row">
+	{% for column in columns %}
+	<div class="{{ column.size }}">
+		{% for column_value in column.column_value %}
+		{% if column_value.link %}
+		<a href="{{ column_value.link }}"><img class="img-responsive" src="{{ column_value.image }}" alt="{{ column_value.title }}" title="{{ column_value.title }}" /></a>
+		{% else %}
+		<a><img class="img-responsive" src="{{ column_value.image }}" alt="{{ column_value.title }}" title="{{ column_value.title }}" /></a>
+		{% endif %}
+		{% endfor %}
+	</div>
+	{% endfor %}
+</div>
+{% endif %}

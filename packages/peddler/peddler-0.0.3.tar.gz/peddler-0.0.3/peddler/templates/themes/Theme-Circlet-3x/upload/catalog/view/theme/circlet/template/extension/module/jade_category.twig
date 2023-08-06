@@ -1,0 +1,49 @@
+<div class="jade-f-category">
+	<h3>{{ heading_title }}</h3>
+	<div class="swiper-viewport">
+		<div id="cate-carousel{{ module }}" class="swiper-container">
+			<div class="swiper-wrapper">
+				{% for category in categories %}
+					<div class="jcategory-item swiper-slide">
+						<div class="jcategory-item-inner">
+						  <div class="image"><a href="{{ category.href }}"><img src="{{ category.thumb }}" alt="{{ category.name }}" title="{{ category.name }}" class="img-responsive" /></a></div>
+						  <h4><a href="{{ category.href }}">{{ category.name }}</a></h4>
+						</div>
+					</div>
+				{% endfor %}
+			</div>
+		</div>
+		<div class="swiper-pagination cate-carousel{{ module }}"></div>
+	  <div class="swiper-pager">
+	    <div class="cate-swiper-button-next swiper-button-next"></div>
+	    <div class="cate-swiper-button-prev swiper-button-prev"></div>
+	  </div>
+  </div>
+</div>
+<script type="text/javascript"><!--
+$('#cate-carousel{{ module }}').swiper({
+	mode: 'horizontal',
+	nextButton: '.cate-swiper-button-next',
+  	prevButton: '.cate-swiper-button-prev',
+	autoplay: 2500,
+	loop: true,
+	breakpoints: {
+	    640: {
+	      slidesPerView: 2,
+	      spaceBetween: 20,
+	    },
+	    768: {
+	      slidesPerView: 4,
+	      spaceBetween: 20,
+	    },
+	    980: {
+	      slidesPerView: 5,
+	      spaceBetween: 20,
+	    },
+	    1400: {
+	      slidesPerView: 6,
+	      spaceBetween: 20,
+	    },
+	}
+});
+--></script>

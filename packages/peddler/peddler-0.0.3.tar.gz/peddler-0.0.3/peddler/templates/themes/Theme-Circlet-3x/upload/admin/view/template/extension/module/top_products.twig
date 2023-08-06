@@ -1,0 +1,203 @@
+{{ header }}{{ column_left }}
+<div id="content">
+  <div class="page-header">
+    <div class="container-fluid">
+      <div class="pull-right">
+        <button type="submit" form="form-module" data-toggle="tooltip" title="{{ button_save }}" class="btn btn-primary"><i class="fa fa-save"></i></button>
+        <a href="{{ cancel }}" data-toggle="tooltip" title="{{ button_cancel }}" class="btn btn-default"><i class="fa fa-reply"></i></a></div>
+      <h1>{{ heading_title }}</h1>
+      <ul class="breadcrumb">
+        {% for breadcrumb in breadcrumbs %}
+        <li><a href="{{ breadcrumb.href }}">{{ breadcrumb.text }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+  <div class="container-fluid">
+    {% if error_warning %}
+    <div class="alert alert-danger alert-dismissible"><i class="fa fa-exclamation-circle"></i> {{ error_warning }}
+      <button type="button" class="close" data-dismiss="alert">&times;</button>
+    </div>
+    {% endif %}
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title"><i class="fa fa-pencil"></i> {{ text_edit }}</h3>
+      </div>
+      <div class="panel-body">
+        <form action="{{ action }}" method="post" enctype="multipart/form-data" id="form-module" class="form-horizontal">
+          <ul class="nav nav-tabs">
+            <li class="active"><a href="#tab-general" data-toggle="tab">{{ tab_general }}</a></li>
+            <li><a href="#tab-product" data-toggle="tab">{{ tab_product }}</a></li>
+            <li><a href="#tab-testimonial" data-toggle="tab">{{ tab_testimonial }}</a></li>
+          </ul>
+          <div class="tab-content">
+            <div class="tab-pane active" id="tab-general">
+              <div class="form-group">
+                <label class="col-sm-2 control-label" for="input-name">{{ entry_name }}</label>
+                <div class="col-sm-10">
+                  <input type="text" name="name" value="{{ name }}" placeholder="{{ entry_name }}" id="input-name" class="form-control" />
+                  {% if error_name %}
+                  <div class="text-danger">{{ error_name }}</div>
+                  {% endif %}
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label class="col-sm-2 control-label" for="input-status">{{ entry_status }}</label>
+                <div class="col-sm-10">
+                  <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                    <label class="btn btn-default {{ status ? 'active' : '' }}"><input type="radio" name="status" value="1" {{ status ? 'checked="checked"' : '' }}> {{ text_enabled }}</label>
+                    <label class="btn btn-default {{ not status ? 'active' : '' }}"><input type="radio" name="status" value="0"{{ not status ? 'checked="checked"' : '' }}>  {{ text_disabled }}</label>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane" id="tab-product">
+              <div class="form-group">
+                <label class="col-sm-2 control-label" for="input-product"><span data-toggle="tooltip" title="{{ help_product }}">{{ entry_product }}</span></label>
+                <div class="col-sm-10">
+                  <input type="text" name="product_name" value="" placeholder="{{ entry_product }}" id="input-product" class="form-control" />
+                  <div id="top_products-product" class="well well-sm" style="height: 150px; overflow: auto;">
+                    {% for product in products %}
+                    <div id="top_products-product{{ product.product_id }}"><i class="fa fa-minus-circle"></i> {{ product.name }}
+                      <input type="hidden" name="product[]" value="{{ product.product_id }}" />
+                    </div>
+                    {% endfor %}
+                  </div>
+                </div>
+              </div>
+              <div class="form-group required">
+                <label class="col-sm-2 control-label">{{ entry_image_size }}</label>
+                <div class="col-sm-10">
+                  <div class="col-sm-3">
+                    <div class="input-group">
+                      <input type="text" name="width" value="{{ width }}" placeholder="{{ entry_width }}" class="form-control" />
+                      <span class="input-group-btn">
+                        <button type="button" class="btn btn-primary"><i class="fa fa-arrows-h"></i></button>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="col-sm-3">
+                    <div class="input-group">
+                      <input type="text" name="height" value="{{ height }}" placeholder="{{ entry_height }}" class="form-control" />
+                      <span class="input-group-btn">
+                        <button type="button" class="btn btn-primary"><i class="fa fa-arrows-v"></i></button>
+                      </span>
+                    </div>
+                  </div>
+                  {% if error_product_image_size %}
+                   <div class="text-danger">{{ error_product_image_size }}</div>
+                  {% endif %}
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-2 control-label" for="input-limit">{{ entry_limit }}</label>
+                <div class="col-sm-10">
+                  <input type="text" name="limit" value="{{ limit }}" placeholder="{{ entry_limit }}" id="input-limit" class="form-control" />
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-2 control-label">{{ entry_status }}</label>
+                <div class="col-sm-10">
+                  <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                    <label class="btn btn-default {{ product_status ? 'active' : '' }}"><input type="radio" name="product_status" value="1" {{ product_status ? 'checked="checked"' : '' }}> {{ text_enabled }}</label>
+                    <label class="btn btn-default {{ not product_status ? 'active' : '' }}"><input type="radio" name="product_status" value="0"{{ not product_status ? 'checked="checked"' : '' }}>  {{ text_disabled }}</label>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane" id="tab-testimonial">
+              <div class="form-group required">
+                <label class="col-sm-2 control-label">{{ entry_image_size }}</label>
+                <div class="col-sm-10">
+                  <div class="col-sm-3">
+                    <div class="input-group">
+                      <input type="text" name="testimonial_width" value="{{ testimonial_width }}" placeholder="{{ entry_width }}" class="form-control" />
+                      <span class="input-group-btn">
+                        <button type="button" class="btn btn-primary"><i class="fa fa-arrows-h"></i></button>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="col-sm-3">
+                    <div class="input-group">
+                      <input type="text" name="testimonial_height" value="{{ testimonial_height }}" placeholder="{{ entry_height }}" class="form-control" />
+                      <span class="input-group-btn">
+                        <button type="button" class="btn btn-primary"><i class="fa fa-arrows-v"></i></button>
+                      </span>
+                    </div>
+                  </div>
+                  {% if error_testimonial_image_size %}
+                   <div class="text-danger">{{ error_testimonial_image_size }}</div>
+                  {% endif %}
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-2 control-label">{{ entry_description_limit }}</label>
+                <div class="col-sm-10">
+                  <input type="text" name="testimonial_desc_limit" value="{{ testimonial_desc_limit }}" placeholder="{{ entry_limit }}" class="form-control" />
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-2 control-label">{{ entry_limit }}</label>
+                <div class="col-sm-10">
+                  <input type="text" name="testimonial_limit" value="{{ testimonial_limit }}" placeholder="{{ entry_limit }}" class="form-control" />
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-2 control-label">{{ entry_status }}</label>
+                <div class="col-sm-10">
+                  <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                    <label class="btn btn-default {{ testimonial_status ? 'active' : '' }}"><input type="radio" name="testimonial_status" value="1" {{ testimonial_status ? 'checked="checked"' : '' }}> {{ text_enabled }}</label>
+                    <label class="btn btn-default {{ not testimonial_status ? 'active' : '' }}"><input type="radio" name="testimonial_status" value="0"{{ not testimonial_status ? 'checked="checked"' : '' }}>  {{ text_disabled }}</label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript"><!--
+$('input[name=\'product_name\']').autocomplete({
+	source: function(request, response) {
+		$.ajax({
+			url: 'index.php?route=catalog/product/autocomplete&user_token={{ user_token }}&filter_name=' +  encodeURIComponent(request),
+			dataType: 'json',
+			success: function(json) {
+				response($.map(json, function(item) {
+					return {
+						label: item['name'],
+						value: item['product_id']
+					}
+				}));
+			}
+		});
+	},
+	select: function(item) {
+		$('input[name=\'product_name\']').val('');
+
+		$('#top_products-product' + item['value']).remove();
+
+		$('#top_products-product').append('<div id="top_products-product' + item['value'] + '"><i class="fa fa-minus-circle"></i> ' + item['label'] + '<input type="hidden" name="product[]" value="' + item['value'] + '" /></div>');
+	}
+});
+
+$('#top_products-product').delegate('.fa-minus-circle', 'click', function() {
+	$(this).parent().remove();
+});
+//--></script>
+<style type="text/css">
+.btn-group .btn.btn-default:hover {
+    background-color: #dab310;
+    border-color: #dab310;
+    color: #fff;
+}
+.btn-group .btn.btn-default.active {
+    background-color: #dab310;
+    border-color: #dab310;
+    color: #fff;
+}
+</style>
+</div>
+{{ footer }}

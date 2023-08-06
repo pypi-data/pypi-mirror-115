@@ -1,0 +1,78 @@
+					Circlet Theme
+
+For opencart version is 3.x
+	Follow below instructions to configure this theme.
+
+	Please upload all files of this theme from "Theme-Circlet-3x/upload" directory to root directory of your website using FTP or cPanel Filemanager. After upload files follow below instructions to configure this theme.
+
+
+Theme comes with only OCMOD  modification to prevent conflicts.
+
+********************	Instructions for using OCMOD File.	********************
+	* Logged in your admin panel
+	For opencart version is 3.x
+		* Go to "Extensions > Extension Installer" and click Upload button and select "es_circlet_theme.ocmod.zip" from "Theme-Circlet-3x/xml-files/ocmod" directory
+
+	* Go to Extensions > Modifications, you will see "Circlet Theme - ExtensionStudio" in modifications list.
+
+	* Go to Extensions > Modifications, now hit refresh modifications button.
+	  This will re-build all modifications cache again and this theme modifications get apply.
+
+
+********************	PS	********************
+
+	* In case you didn't see "J-Circlet Theme" in admin menu after "catalog" menu,
+	  perform following step.
+
+	* Go to System > Users > User Groups
+		Select "Administrator" User Group and give Access/Modify Permission to all files.
+
+		#Theme Main Settings File
+
+		extension/jcirclet
+
+		#Testimonial Extension File
+		catalog/jade_testimonial
+
+		#Custom Footer Files
+		extension/jade_customfooter
+		extension/jade_customfooter_newsletter
+		extension/jade_footer
+		extension/jade_footer_copyright
+
+		After give access/modify permissons to theme admin files.
+		You will able to see "J-Circlet Theme" in admin menu after "catalog" menu.
+
+	* Circlet Theme Comes with 5 Inbuilt Modules. Here is List in Extensions > Extensions > Modules
+		# Jade Category SideBar
+		# J-Shopping Featured Categories
+		# Multi Size Banners
+		# Multi Modules - (Featured, Bestseller, etc)
+		# Top Products - (In demo showing just after slideshow)
+
+	* Circlet Theme Comes 2 Paid Modules As Free
+		# Testimonial
+		# Custom Footer
+
+	Please check theme demo to understand how to use these modules with theme.
+
+	* Note: If you did not see theme menus in admin, then may be you forgot to upload files from "upload" folder>
+
+	* In case you didn not see "J-Circlet Theme" menu in admin list, contact us at jadeagile1@gmail.com for technical support.
+	  Do not forgot to mention extension purchase order ID or invoice no. to avoid delay in support.
+
+******************** Configure Circlet Theme	********************
+	* You can see "J-Circlet Theme" in admin panel.
+	  Go to Extensions > Extensions > Themes Choose your store and select "circlet" theme to activate it.
+	* Configuration of "Custom Footer" is optional but we recommend to use it.
+	* Configuration of "Testimonail" is optional and can use with "Top Products" module.
+	* If you wish to add banner on all pages of theme. Then you can add banner from "J-Circlet Theme > Banner"
+
+******************** Deactivate Circlet Theme	********************
+	* Go to Extensions > Extensions > Themes Choose your store and select another theme.
+	* Go to Extensions > Modification disable ocmod "Circlet Theme - ExtensionStudio".
+	* Go to Extensions > Modification refresh modification cache.
+
+Hope you will enjoy this Theme
+For support / query / suggestions / improvements Contact Us at
+	Email:	extensionstudio.oc@gmail.com

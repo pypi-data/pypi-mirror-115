@@ -1,0 +1,221 @@
+{{ header }}{{ column_left }}
+<div id="content">
+  <div class="page-header">
+    <div class="container-fluid">
+      <div class="pull-right">
+        <button type="submit" form="form-module" data-toggle="tooltip" title="{{ button_save }}" class="btn btn-primary"><i class="fa fa-save"></i></button>
+        <a href="{{ cancel }}" data-toggle="tooltip" title="{{ button_cancel }}" class="btn btn-default"><i class="fa fa-reply"></i></a></div>
+      <h1>{{ heading_title }}</h1>
+      <ul class="breadcrumb">
+        {% for breadcrumb in breadcrumbs %}
+        <li><a href="{{ breadcrumb.href }}">{{ breadcrumb.text }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+  <div class="container-fluid">
+    {% if error_warning %}
+    <div class="alert alert-danger alert-dismissible"><i class="fa fa-exclamation-circle"></i> {{ error_warning }}
+      <button type="button" class="close" data-dismiss="alert">&times;</button>
+    </div>
+    {% endif %}
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title"><i class="fa fa-pencil"></i> {{ text_edit }}</h3>
+      </div>
+      <div class="panel-body">
+        <form action="{{ action }}" method="post" enctype="multipart/form-data" id="form-module" class="form-horizontal">
+          <ul class="nav nav-tabs">
+            <li class="active"><a href="#tab-general" data-toggle="tab">{{ tab_general }}</a></li>
+            <li><a href="#tab-column" data-toggle="tab">{{ tab_data }}</a></li>
+          </ul>
+          <div class="tab-content">
+            <div class="tab-pane active" id="tab-general">
+              <div class="form-group required">
+                <label class="col-sm-2 control-label" for="input-name">{{ entry_name }}</label>
+                <div class="col-sm-10">
+                  <input type="text" name="name" value="{{ name }}" placeholder="{{ entry_name }}" id="input-name" class="form-control" />
+                  {% if error_name %}
+                  <div class="text-danger">{{ error_name }}</div>
+                  {% endif %}
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-2 control-label" for="input-limit">{{ entry_limit }}</label>
+                <div class="col-sm-10">
+                  <input type="text" name="limit" value="{{ limit }}" placeholder="{{ entry_limit }}" id="input-limit" class="form-control" />
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-2 control-label" for="input-width">{{ entry_width }}</label>
+                <div class="col-sm-10">
+                  <input type="text" name="width" value="{{ width }}" placeholder="{{ entry_width }}" id="input-width" class="form-control" />
+                  {% if error_width %}
+                  <div class="text-danger">{{ error_width }}</div>
+                  {% endif %}
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-2 control-label" for="input-height">{{ entry_height }}</label>
+                <div class="col-sm-10">
+                  <input type="text" name="height" value="{{ height }}" placeholder="{{ entry_height }}" id="input-height" class="form-control" />
+                  {% if error_height %}
+                  <div class="text-danger">{{ error_height }}</div>
+                  {% endif %}
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-2 control-label" for="input-status">{{ entry_status }}</label>
+                <div class="col-sm-10">
+                  <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                    <label class="btn btn-default {{ status ? 'active' : '' }}"><input type="radio" name="status" value="1" {{ status ? 'checked="checked"' : '' }}> {{ text_enabled }}</label>
+                    <label class="btn btn-default {{ not status ? 'checked="checked"' : '' }}"><input type="radio" name="status" value="0"{{ not status ? 'checked="checked"' : '' }}>  {{ text_disabled }}</label>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane" id="tab-column">
+              <div class="row">
+                <div class="col-sm-2">
+                  <ul class="nav nav-pills nav-stacked" id="column">
+                    {% set column_row = 0 %}
+                    {% for column in columns %}
+                    <li><a href="#tab-column{{ column_row }}" data-toggle="tab"><i class="fa fa-minus-circle" onclick="$('a[href=\'#tab-column{{ column_row }}\']').parent().remove(); $('#tab-column{{ column_row }}').remove(); $('#column a:first').tab('show');"></i> {{ column.size }}</a></li>
+                    {% set column_row = column_row + 1 %}
+                    {% endfor %}
+                    <li>
+                      <button type="button" class="btn btn-success btn-block" onclick="addColumn();">{{ button_addcolumn }}</button>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-sm-10">
+                  <div class="tab-content"> {% set column_row = 0 %}
+                    {% for column in columns %}
+                    <div class="tab-pane" id="tab-column{{ column_row }}">
+                    	<fieldset>
+                    		<legend>{{ text_column_size }}</legend>
+                        <div class="form-group required">
+                          <label class="col-sm-2 control-label">{{ entry_title }}</label>
+                          <div class="col-sm-10"> {% for language in languages %}
+                            <div class="input-group"><span class="input-group-addon"><img src="language/{{ language.code }}/{{ language.code }}.png" title="{{ language.name }}" /></span>
+                              <input type="text" name="columns[{{ column_row }}][description][{{ language.language_id }}][title]" value="{{ column.description[language.language_id] ? column.description[language.language_id].title }}" placeholder="{{ entry_title }}" class="form-control" />
+                            </div>
+                            {% if error_title[column_row][language.language_id] %}
+                            <div class="text-danger">{{ error_title[column_row][language.language_id] }}</div>
+                            {% endif %}
+                            {% endfor %}</div>
+                        </div>
+                    		<div class="form-group required">
+                    			<label class="control-label col-sm-2">{{ entry_column_size }}</label>
+                    			<div class="col-sm-10">
+                    				<select name="columns[{{ column_row }}][size]" class="form-control">
+                    					{% for column_size in column_sizes %}
+                    					{% if column_size.size == column.size %}
+															<option value="{{ column_size.size }}" selected="selected">{{ column_size.size }}</option>
+															{% else %}
+															<option value="{{ column_size.size }}">{{ column_size.size }}</option>
+															{% endif %}
+															{% endfor %}
+                    				</select>
+                    			</div>
+                    		</div>
+                        <div class="form-group">
+                          <label class="col-sm-2 control-label">{{ entry_produts }}</label>
+                          <div class="col-sm-10">
+                            <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                              <label class="btn btn-default {{ column.module_type == 'latest_products' ? 'active' : '' }}"><input type="radio" name="columns[{{ column_row }}][module_type]" value="latest_products" {{ column.module_type == 'latest_products' ? 'checked="checked"' : '' }}> {{ text_latest_products }}</label>
+
+                              <label class="btn btn-default {{ column.module_type == 'bestseller_products' ? 'active' : '' }}"><input type="radio" name="columns[{{ column_row }}][module_type]" value="bestseller_products" {{ column.module_type == 'bestseller_products' ? 'checked="checked"' : '' }}>  {{ text_bestseller_products }}</label>
+
+                              <label class="btn btn-default {{ column.module_type == 'special_products' ? 'active' : '' }}"><input type="radio" name="columns[{{ column_row }}][module_type]" value="special_products" {{ column.module_type == 'special_products' ? 'checked="checked"' : '' }}>  {{ text_special_products }}</label>
+                            </div>
+                          </div>
+                        </div>
+                    	</fieldset>
+                    </div>
+                    {% set column_row = column_row + 1 %}
+                    {% endfor %}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<script type="text/javascript">
+var column_row = {{ column_row }};
+
+function addColumn() {
+  html  = '<div class="tab-pane" id="tab-column' + column_row + '">';
+  html += '<fieldset>';
+    html += '<legend>{{ text_column_size }}</legend>';
+    html += '<div class="form-group required">';
+		html += '<label class="control-label col-sm-2">{{ entry_title }}</label>';
+		html += '<div class="col-sm-10">';
+		  {% for language in languages %}
+        html += '    <div class="input-group">';
+        html += '      <span class="input-group-addon"><img src="language/{{ language.code }}/{{ language.code }}.png" title="{{ language.name }}" /></span><input type="text" name="columns[' + column_row + '][description][{{ language.language_id }}][title]" value="" placeholder="{{ entry_title }}" class="form-control" />';
+        html += '    </div>';
+      {% endfor %}
+    	html += '</div>';
+    html += '</div>';
+    html += '<div class="form-group required">';
+    html += '<label class="control-label col-sm-2">{{ entry_column_size }}</label>';
+    html += '<div class="col-sm-10">';
+    html += '<select name="columns['+ column_row +'][size]" class="form-control">';
+      {% for column_size in column_sizes %}
+        {% if column_size.size == 'col-sm-12' %}
+        html += '<option value="{{ column_size.size }}" selected="selected">{{ column_size.size }}</option>';
+        {% else %}
+        html += '<option value="{{ column_size.size }}">{{ column_size.size }}</option>';
+        {% endif %}
+      {% endfor %}
+      html += '</select>';
+      html += '</div>';
+    html += '</div>';
+    html += '<div class="form-group">';
+      html += '<label class="col-sm-2 control-label">{{ entry_produts }}</label>';
+      html += '<div class="col-sm-10">';
+        html += '<div class="btn-group btn-group-toggle" data-toggle="buttons">';
+          html += '<label class="btn btn-default active"><input type="radio" name="columns['+ column_row +'][module_type]" value="latest_products" checked="checked"> {{ text_latest_products }}</label>';
+          html += '<label class="btn btn-default"><input type="radio" name="columns['+ column_row +'][module_type]" value="bestseller_products"> {{ text_bestseller_products }}</label>';
+          html += '<label class="btn btn-default"><input type="radio" name="columns['+ column_row +'][module_type]" value="special_products"> {{ text_special_products }}</label>';
+        html += '</div>';
+      html += '</div>';
+    html += '</div>';
+  html += '</fieldset>';
+  html += '</div>';
+
+  $('#tab-column .tab-content').append(html);
+
+  $('#column > li:last-child').before('<li><a href="#tab-column' + column_row + '" data-toggle="tab"><i class="fa fa-minus-circle" onclick=" $(\'#column a:first\').tab(\'show\');$(\'a[href=\\\'#tab-column' + column_row + '\\\']\').parent().remove(); $(\'#tab-column' + column_row + '\').remove();"></i> {{ text_new_column }}</li>');
+
+    $('#column a[href=\'#tab-column' + column_row + '\']').tab('show');
+
+    $('[data-toggle=\'tooltip\']').tooltip({
+			container: 'body',
+			html: true
+		});
+
+  	column_row++;
+}
+</script>
+<script type="text/javascript">
+$('#column a:first').tab('show');
+</script>
+<style type="text/css">
+.btn-group .btn.btn-default:hover {
+    background-color: #dab310;
+    border-color: #dab310;
+    color: #fff;
+}
+.btn-group .btn.btn-default.active {
+    background-color: #dab310;
+    border-color: #dab310;
+    color: #fff;
+}
+</style>
+{{ footer }}

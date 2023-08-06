@@ -1,0 +1,311 @@
+<div id="jade_footer">
+  <div class="jade_innerwrap">
+    <div class="container">
+      {% if footer_logo %}
+      <div class="jade_extra_footer_widget_row">
+        <div class="logo">
+          <a href="{{ home_link }}"><img src="{{ footer_logo }}" alt="" title="" /></a>
+        </div>
+      </div>
+      {% endif %}
+      <div class="jade_extra_footer_widget_row j-flex">
+        {% for jade_customfooter in jade_customfooters %}
+        {% if jade_customfooter.type_code == 'contact_detail' %}
+        <div class="{{ jade_customfooter.size_class }} jad_contact_us">
+          <h3>{{ jade_customfooter.title }}</h3>
+          <div class="jad-help">
+            {% if jade_customfooter.contactdetail_table %}
+            <ul class="j-list-unstyled">
+              {% for contactdetail_table in jade_customfooter.contactdetail_table %}
+              <li>
+                <i class="fa {{ contactdetail_table.icon_class }}" aria-hidden="true"></i>
+                <span>{{ contactdetail_table.contactdetail_description[language_id].title }}</span>
+              </li>
+              {% endfor %}
+            </ul>
+            {% endif %}
+          </div>
+        </div>
+        {% endif %}
+        {% if jade_customfooter.type_code == 'newsletter' %}
+        <div class="{{ jade_customfooter.size_class }} jad_hot_line">
+          <h3>{{ jade_customfooter.title }}</h3>
+          <div class="j-newsletter">
+            <div class="j-input-group">
+              <input type="text" name="newsletter_email" class="j-form-control" placeholder="{{ jade_customfooter.newsletter_table.placeholder }}" />
+              <button type="button" class="submit-jadeletter"><span class="hidden-sm hidden-xs">{{ jade_customfooter.newsletter_table.button_text }}</span> <i class="fa visible-sm visible-xs fa-paper-plane-o" aria-hidden="true"></i></button>
+            </div>
+          </div>
+          {% if jade_customfooter.newsletter_table.hotline_title %}
+          <h3>{{ jade_customfooter.newsletter_table.hotline_title }}</h3>
+          {% endif %}
+
+          {% if jade_customfooter.newsletter_table.hotline_description %}
+            {{ jade_customfooter.newsletter_table.hotline_description }}
+          {% endif %}
+        </div>
+        {% endif %}
+        {% if jade_customfooter.type_code == 'account_links' %}
+        <div class="{{ jade_customfooter.size_class }} j-other-links">
+          <h3>{{ jade_customfooter.title }}</h3>
+          {% if jade_customfooter.accountlinks_table %}
+          <ul class="j-list-unstyled">
+            {% for accountlinks_table in jade_customfooter.accountlinks_table %}
+            <li><a href="{{ accountlinks_table.url }}">{{ accountlinks_table.accountlinks_description[language_id].title }}</a></li>
+            {% endfor %}
+          </ul>
+          {% endif %}
+        </div>
+        {% endif %}
+        {% if jade_customfooter.type_code == 'information_links' %}
+        <div class="{{ jade_customfooter.size_class }} j-other-links">
+          <h3>{{ jade_customfooter.title }}</h3>
+          {% if jade_customfooter.informationlinks_table %}
+          <ul class="j-list-unstyled">
+            {% for informationlinks_table in jade_customfooter.informationlinks_table %}
+            <li><a href="{{ informationlinks_table.url }}">{{ informationlinks_table.informationlinks_description[language_id].title }}</a></li>
+            {% endfor %}
+          </ul>
+          {% endif %}
+        </div>
+        {% endif %}
+
+        {% if jade_customfooter.type_code == 'social_icons' %}
+        <div class="{{ jade_customfooter.size_class }} jade_social_icons">
+          <h3>{{ jade_customfooter.title }}</h3>
+          {% if jade_customfooter.sociallinks_table %}
+          <div class="jad_social_media">
+            <ul class="j-list-inline">
+              {% for sociallinks_table in jade_customfooter.sociallinks_table %}
+              <li><a href="{{ sociallinks_table.url }}" title="{{ sociallinks_table.sociallinks_description[language_id].title }}"><i class="fa {{ sociallinks_table.icon_class }}" aria-hidden="true"></i></a></li>
+              {% endfor %}
+            </ul>
+          </div>
+          {% endif %}
+        </div>
+        {% endif %}
+        {% if jade_customfooter.type_code == 'payments_icons' %}
+        <div class="{{ jade_customfooter.size_class }} jade_payments_icons">
+          <h3>{{ jade_customfooter.title }}</h3>
+          {% if jade_customfooter.payments_table %}
+          <div class="jad_payments">
+            <ul class="j-list-inline">
+              {% for payments_table in jade_customfooter.payments_table %}
+              <li><a><img src="{{ payments_table.image }}" alt="" title="{{ payments_table.payments_description[language_id].title }}" /></a></li>
+              {% endfor %}
+            </ul>
+          </div>
+          {% endif %}
+        </div>
+        {% endif %}
+        {% if jade_customfooter.type_code == 'app_icons' %}
+        <div class="{{ jade_customfooter.size_class }} jade_app_icons">
+          <h3>{{ jade_customfooter.title }}</h3>
+          <div class="jad_app">
+            {% if jade_customfooter.appicons_table %}
+            <ul class="j-list-inline">
+              {% for appicons_table in jade_customfooter.appicons_table %}
+              <li><a><img src="{{ appicons_table.image }}" title="{{ appicons_table.appicons_description[language_id].title }}" /></a></li>
+              {% endfor %}
+            </ul>
+            {% endif %}
+          </div>
+        </div>
+        {% endif %}
+
+        {% if jade_customfooter.type_code == 'editor' %}
+        <div class="{{ jade_customfooter.size_class }} jade_editor">
+          <h3>{{ jade_customfooter.title }}</h3>
+          {{ jade_customfooter.editor_description }}
+        </div>
+        {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+
+  {% if copyright_status %}
+  {% if copyright_description_strip_tags or informationlinks %}
+  <div class="jade_copyright">
+    <div class="container">
+      <div class="jade_extra_footer_widget_row">
+        {% if copyright_description_strip_tags %}
+        <div class="{{ description_sizeclass }}">{{ copyright_description }}</div>
+        {% endif %}
+
+        {% if informationlinks %}
+        <div class="{{ link_sizeclass }}">
+          <ul class="j-list-inline">
+            {% set count = 1 %}
+            {% for informationlink in informationlinks %}
+            <li>
+              <a href="{{ informationlink.url }}">{{ informationlink.title }}</a>
+              {% if informationlinks|length != count %}
+              |
+              {% endif %}
+            </li>
+            {% set count = count + 1 %}
+            {% endfor %}
+          </ul>
+        </div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+  {% endif %}
+  {% endif %}
+</div>
+<script type="text/javascript">
+$('.submit-jadeletter').click(function() {
+  $.ajax({
+    url: 'index.php?route=common/jade_footer/submitnewsletter',
+    type: 'post',
+    data: 'newsletter_email=' + $('input[name=\'newsletter_email\']').val(),
+    dataType: 'json',
+    beforeSend: function() {
+      $('.submit-jadeletter').button('loading');
+    },
+    complete: function() {
+      $('.submit-jadeletter').button('reset');
+    },
+    success: function(json) {
+      $('.j-newsletter .alert').remove();
+
+      if(json['warning']) {
+        $('.submit-jadeletter').parent().after('<div class="alert alert-danger warning"><i class="fa fa-exclamation-circle"></i> '+ json['warning'] +'<button type="button" class="close" data-dismiss="alert">&times;</button></div>');
+      }
+
+      if(json['success']) {
+        $('.submit-jadeletter').parent().after('<div class="alert alert-success success"><i class="fa fa-check-circle"></i> '+ json['success'] +'<button type="button" class="close" data-dismiss="alert">&times;</button></div>');
+      }
+    },
+    error: function(xhr, ajaxOptions, thrownError) {
+      alert(thrownError + "\r\n" + xhr.statusText + "\r\n" + xhr.responseText);
+    }
+  });
+});
+</script>
+<style type="text/css">
+{% if custom_links_textalgin %}
+  #jade_footer .jade_copyright ul {
+    text-align: {{ custom_links_textalgin }};
+  }
+{% endif %}
+
+{% if footer_bgcolor %}
+  #jade_footer .jade_innerwrap{
+    background: {{ footer_bgcolor }};
+  }
+{% endif %}
+
+{% if footer_heading_color %}
+  #jade_footer, #jade_footer h3{
+    color: {{ footer_heading_color }};
+  }
+{% endif %}
+
+{% if footer_icon_color %}
+  #jade_footer .jad_contact_us .jad-help i {
+    color: {{ footer_icon_color }};
+  }
+{% endif %}
+
+{% if footer_text_color %}
+  #jade_footer .jad_contact_us .jad-help span, #jade_footer ul li a, #jade_footer .j-list-inline li{
+    color: {{ footer_text_color }};
+  }
+{% endif %}
+
+{% if footer_link_hover_color %}
+  #jade_footer a:hover {
+    color: {{ footer_link_hover_color }};
+  }
+{% endif %}
+
+{% if footer_social_media_color or footer_social_media_bgcolor %}
+  #jade_footer .jad_social_media i {
+    {% if footer_social_media_color %}
+    color: {{ footer_social_media_color }};
+    {% endif %}
+
+    {% if footer_social_media_bgcolor %}
+    background: {{ footer_social_media_bgcolor }};
+    {% endif %}
+  }
+{% endif %}
+
+{% if footer_social_media_hover_bgcolor or footer_social_media_hover_color %}
+  #jade_footer .jad_social_media i:hover {
+    {% if footer_social_media_hover_bgcolor %}
+    background: {{ footer_social_media_hover_bgcolor }};
+    {% endif %}
+
+    {% if footer_social_media_hover_color %}
+    color: {{ footer_social_media_hover_color }};
+    {% endif %}
+  }
+{% endif %}
+
+{% if footer_newsletter_btn_bg or footer_newsletter_btn_color %}
+  #jade_footer .j-input-group button {
+    {% if footer_newsletter_btn_bg %}
+    background: {{ footer_newsletter_btn_bg }};
+    {% endif %}
+
+    {% if footer_newsletter_btn_color %}
+    color: {{ footer_newsletter_btn_color }};
+    {% endif %}
+  }
+{% endif %}
+
+{% if footer_newsletter_input_border_color %}
+  #jade_footer .j-input-group .j-form-control{
+    border-color: {{ footer_newsletter_input_border_color }};
+  }
+{% endif %}
+
+{% if footer_hot_line_color %}
+  #jade_footer .jad_hot_line ul li .freenb{
+    color: {{ footer_hot_line_color }};
+  }
+{% endif %}
+
+{% if footer_copyright_bg %}
+  #jade_footer .jade_copyright{
+    background: {{ footer_copyright_bg }};
+  }
+{% endif %}
+
+{% if footer_copyright_color %}
+  #jade_footer .jade_copyright p{
+    color: {{ footer_copyright_color }};
+  }
+{% endif %}
+
+{% if footer_copyright_links_color %}
+  #jade_footer .jade_copyright ul li a{
+    color: {{ footer_copyright_links_color }};
+  }
+{% endif %}
+
+{% if footer_copyright_links_hover_color %}
+  #jade_footer .jade_copyright ul li a:hover{
+    color: {{ footer_copyright_links_hover_color }};
+  }
+{% endif %}
+</style>
+<script>
+  window.onscroll = function() {myFunction()};
+
+  var header = document.getElementById("myHeader");
+  var sticky = header.offsetTop;
+
+  function myFunction() {
+    if (window.pageYOffset > 300) {
+      header.classList.add("sticky");
+    } else {
+      header.classList.remove("sticky");
+    }
+  }
+</script>
+</body></html>

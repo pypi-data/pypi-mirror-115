@@ -1,0 +1,22 @@
+<div class="jcategory-list" id="accordion">
+  <h3>Categories</h3>
+  <ul class="list-unstyled">
+    {% for key,category in categories %}
+      <li>
+        <div>
+          <a href="{{ category.href }}" >{{ category.name }}</a> 
+          {% if category.children %}
+            <i class="collapsed" data-toggle="collapse" data-target="#collapse{{ key }}" aria-expanded="true" aria-controls="collapse{{ category.name }}"></i>
+          {% endif %}
+        </div>
+        {% if category.children %}
+          <ul class="jsub-category list-unstyled collapse" id="collapse{{ key }}" data-parent="#accordion">
+            {% for child in category.children %}
+              <li><div><a href="{{ child.href }}"> > {{ child.name }}</a></div></li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+</div>
