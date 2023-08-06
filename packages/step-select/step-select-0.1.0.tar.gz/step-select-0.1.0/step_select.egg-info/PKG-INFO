@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: step-select
+Version: 0.1.0
+Summary: A SciKit-Learn style feature selector using best subsets and stepwise regression.
+Home-page: https://github.com/chris-santiago/steps
+Author: Chris Santiago
+License: MIT License
+Project-URL: Documentation, https://chris-santiago.github.io/steps/
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: docs
+Provides-Extra: tests
+Provides-Extra: qa
+Provides-Extra: build
+License-File: LICENSE.txt
+
+# step-select
+![build](https://travis-ci.com/chris-santiago/steps.svg?branch=master)
+[![codecov](https://codecov.io/gh/chris-santiago/steps/branch/master/graph/badge.svg?token=RIB2YFGWFX)](https://codecov.io/gh/chris-santiago/steps)
+
+A SciKit-Learn style feature selector using best subsets and stepwise regression.
+
+## Install
+
+```bash
+pip install step-select
+```
+
+## Documentation 
+
+Documentation hosted on Github Pages: [https://chris-santiago.github.io/steps/](https://chris-santiago.github.io/steps/)
+
