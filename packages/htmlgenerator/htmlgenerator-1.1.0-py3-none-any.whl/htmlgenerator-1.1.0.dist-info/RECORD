@@ -1,0 +1,11 @@
+htmlgenerator/__init__.py,sha256=xiLDlMil4-7cZ0RBNAMnhYP2qPhqxldJd2x4hHE0uNc,383
+htmlgenerator/base.py,sha256=9A6pgiIBoOOp0Sc7fvqrj6UrYTG_VO-SzcNK3xguV-s,14115
+htmlgenerator/htmltags.py,sha256=filnJojndz5_LqvOxQ5dTxN_Kh3wxHvPOwE52SE2H3E,12143
+htmlgenerator/lazy.py,sha256=o6cnHcVb1u1iffBO9yJP99hIofa8rdpUmnEuxqSDDrY,3541
+htmlgenerator/safestring.py,sha256=ELPHp-lD4uB39L7x_dKvxJCF55l3Nq7jAmJBoTTDofA,1126
+htmlgenerator-1.1.0.dist-info/LICENSE,sha256=Cdi3W1mLaaT3wORSOmsRphtcBknZntl2Q3pu9wsmDOs,1482
+htmlgenerator-1.1.0.dist-info/METADATA,sha256=dC37-kkvhoNFNn_NkMRbeSCuDZeMNWinve7uKF-8-eY,10668
+htmlgenerator-1.1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+htmlgenerator-1.1.0.dist-info/entry_points.txt,sha256=oxtskL3joELuJt1VOSL7b3ovc0WqwGwI2CAunyRU7E4,80
+htmlgenerator-1.1.0.dist-info/top_level.txt,sha256=edmssZg_aXWiD3KvT6l9_2w1bi7xsxi9oTkm6YwneyM,14
+htmlgenerator-1.1.0.dist-info/RECORD,,
