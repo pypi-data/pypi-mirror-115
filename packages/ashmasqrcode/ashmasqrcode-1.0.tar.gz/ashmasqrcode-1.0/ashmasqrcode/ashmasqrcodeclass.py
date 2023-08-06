@@ -1,0 +1,2 @@
+def genqr():
+    print('ashmasqrcode!')

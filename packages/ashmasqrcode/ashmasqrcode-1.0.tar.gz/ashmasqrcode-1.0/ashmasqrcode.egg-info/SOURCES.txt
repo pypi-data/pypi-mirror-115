@@ -1,0 +1,8 @@
+README.md
+setup.py
+ashmasqrcode/__init__.py
+ashmasqrcode/ashmasqrcodeclass.py
+ashmasqrcode.egg-info/PKG-INFO
+ashmasqrcode.egg-info/SOURCES.txt
+ashmasqrcode.egg-info/dependency_links.txt
+ashmasqrcode.egg-info/top_level.txt
