@@ -1,0 +1,4 @@
+[console_scripts]
+galileo-cli = galileo_sdk.galileo_cli.cli:main
+galileo-notify = galileo_sdk.galileo_sdk:notify
+
