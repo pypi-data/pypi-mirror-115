@@ -1,0 +1,6 @@
+Qiskit
+numpy
+pymongo
+pymongo[srv]
+datetime
+dnspython
