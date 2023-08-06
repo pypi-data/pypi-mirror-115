@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: work-time-log
+Version: 0.97.3
+Summary: Manual time tracking via a CLI that works similarly to git.
+Author: Valentin
+Author-email: noemail@example.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
