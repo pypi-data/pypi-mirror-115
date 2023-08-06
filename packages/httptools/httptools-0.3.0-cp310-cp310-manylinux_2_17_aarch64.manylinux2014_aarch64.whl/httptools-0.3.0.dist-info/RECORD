@@ -1,0 +1,13 @@
+httptools-0.3.0.dist-info/top_level.txt,sha256=APjJKTbZcj0OQ4fdgf2eTCk82nK1n2BFXOD7ky41MPY,10
+httptools-0.3.0.dist-info/WHEEL,sha256=JxgD1DpESr9HwrPDMaADzatUTZqMw1qRWick6jjdAxo,154
+httptools-0.3.0.dist-info/LICENSE,sha256=9Fc-fLdnZ0X7W402-lSKqT45HPtoct2s1lEwxF6mqS0,1093
+httptools-0.3.0.dist-info/METADATA,sha256=dpBDixuRjdq-QLwIgV5XqxUcLzZeMgM6g7GCpdjZDSg,3597
+httptools-0.3.0.dist-info/RECORD,,
+httptools/__init__.py,sha256=plt3MIbueJdco9Dy7zoH3ksLNeyirqWagat5rwRmAjo,147
+httptools/_version.py,sha256=b8pdihIYuOWdO3Rpi5ZLDFTAiW4v4IwK95V14jBWrzw,575
+httptools/parser/parser.c,sha256=sOf8O4LriNFKGVV7MVpG1SxZnkYv26m0FF2_-eA1N90,395843
+httptools/parser/__init__.py,sha256=fWyconPEHZlJojzRwmBKSn4C85OGXmKEwiEcdjHqXO8,166
+httptools/parser/parser.cpython-310-aarch64-linux-gnu.so,sha256=k9AMDXFe05e4RVXwC8kSvxXcO8emrRWrxTCUyniElXQ,774928
+httptools/parser/url_parser.cpython-310-aarch64-linux-gnu.so,sha256=RT9VwZf7xcgJQ_HkvPSeXcRCHou0-XDsxCq9KH3UWD0,324856
+httptools/parser/errors.py,sha256=ZVrtN1smPIb_opQ2Ud3uCbGlNLMlECYM2-6S7r5LnHs,566
+httptools/parser/url_parser.c,sha256=uc2NXERtFfcV7Vfd7TGEpXHxybAc-dHjqST64RapaBY,232551
