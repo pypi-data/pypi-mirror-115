@@ -1,0 +1,10 @@
+GTransPY/__init__.py,sha256=sFGcs9PN7zosEVjnf7asKJbvw1gz_TOClatcVQnIjuI,159
+GTransPY/detection.py,sha256=_95an87gkPA2OxxnmA3nQEw-RMOnER4T6Q91PnNiwb0,1217
+GTransPY/helpers.py,sha256=3TN-CMeKMpiM6EEHk9M0O4uWMAruF-entwpgrzjPev0,17056
+GTransPY/trLang/__init__.py,sha256=8vXAN9XO1N5e0FFZMOuurVtSsoqUCBw7WC5VUGXES9M,5606
+GTransPY/trLang/helpers.py,sha256=5HWjMBFhDDTeCXIsL69nVc1iAghs521NmL8LCyZWfTk,878
+GTransPY/types.py,sha256=ZquwFsnvPY2Vce2ksyEyea_UucY_jDFXArwIvMeboqk,5662
+gtranspy-0.0.12.dist-info/LICENSE,sha256=awOCsWJ58m_2kBQwBUGWejVqZm6wuRtCL2hi9rfa0X4,1211
+gtranspy-0.0.12.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+gtranspy-0.0.12.dist-info/METADATA,sha256=bTeCCEaivHKZN98HwyXSLd6LLYdTFrJkFt39afFxD74,29453
+gtranspy-0.0.12.dist-info/RECORD,,
