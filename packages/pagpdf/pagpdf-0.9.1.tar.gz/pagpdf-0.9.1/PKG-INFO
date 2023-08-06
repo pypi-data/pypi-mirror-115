@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: pagpdf
+Version: 0.9.1
+Summary: Print number of PAGes in PDF files.
+Home-page: https://pypi.org/project/pagpdf
+Author: Carlo Alessandro Verre
+Author-email: carlo.alessandro.verre@gmail.com
