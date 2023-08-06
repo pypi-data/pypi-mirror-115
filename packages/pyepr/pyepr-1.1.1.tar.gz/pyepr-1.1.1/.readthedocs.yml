@@ -1,0 +1,15 @@
+version: 2
+
+build:
+  image: latest
+
+submodules:
+  include: all
+
+python:
+  install:
+    - requirements: requirements-dev.txt
+    - method: pip
+      path: .
+
+formats: []
