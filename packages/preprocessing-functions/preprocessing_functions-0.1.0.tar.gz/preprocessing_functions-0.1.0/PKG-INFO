@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: preprocessing-functions
+Version: 0.1.0
+Summary: Common preprocessing functions for image deep learning applications packaged independently in order to avoid installing hefty packages such as tensorflow or pytorch in production.
+Author: Panagiotis Galopoulos
+Author-email: gl.panagiotis@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Pillow (>=8.3.1,<9.0.0)
+Requires-Dist: numpy (>=1.19,<2.0)
