@@ -1,0 +1,10 @@
+andreani_lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+andreani_lib/order_request.py,sha256=OfUgVVNVwLevMmUpLJdsFSDCX6l54DbOdXw1cmqSCWc,2533
+andreani_lib/order_response.py,sha256=hSwwTXz2uSPVtqcXzjpz3uVMaun4AC9OMXo338bBi8Y,1258
+andreani_lib/rate_request.py,sha256=GSVHaYISiU7lNhXAj5xh_yYtmgAT2Wwcgu6l10EfsVU,675
+andreani_lib/rate_response.py,sha256=JK0wghfJemydbfW9_KW7eMj4bKs0GPR1A4A5LfNBRCE,422
+andreani_lib/shipping.py,sha256=zQXQzImFIpDf3FnW9f2ErVEnlSuJ6AZ-yh2scESO7iA,1870
+andreani_lib/tracking.py,sha256=RhiJyAwXIyrcPBwrpyA3FWrHHJIcx0iPHM0gqTn8XqM,571
+carrier.andreani-2021.2.1.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+carrier.andreani-2021.2.1.dist-info/METADATA,sha256=kOOUfqE9KBb6tSl3NCR1cvsC2d8I9gN1So-GbxaNbok,1202
+carrier.andreani-2021.2.1.dist-info/RECORD,,
