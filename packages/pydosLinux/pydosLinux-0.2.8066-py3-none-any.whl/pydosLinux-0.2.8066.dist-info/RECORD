@@ -1,0 +1,17 @@
+pydosLinux/ASCII.py,sha256=F3ofuFGEs5_zR9BgSfoQIaCdZEbkP448LqWqENWoFJc,369
+pydosLinux/BootLoader.py,sha256=9brvdczbD3WlprR0w8CLKF7_iDnbHvYySWGPuG1NJ6g,341
+pydosLinux/Calcutator.py,sha256=EkFVefz6M67mLlkDPsVfIJvroJBGEYwx8ZRZl0mY9Ds,8114
+pydosLinux/Help.py,sha256=1J2JFL9r-3sO2mHJYcl3GUqTSTZ2fdo-UCFrhTRacvE,2204
+pydosLinux/MusicDownload.py,sha256=ZzB4U3L-ChCokSFNalrTqH1scIIzz8Vl1N6p0RC0w1k,5084
+pydosLinux/Notepad.py,sha256=A6dgUFqGiG-8Uau1HbTgSKvH9HxvYa35jI54XkvtzPs,4643
+pydosLinux/PPkg.py,sha256=kmCRu-iSurB5z3jLv2JQQeRyhdwGWVOUGDbue5ox-Oo,1515
+pydosLinux/PyMusic.py,sha256=h6NryUQvfWjQnlK7fLTS55dZ2OqzJmyTGGEFDsbus5w,5630
+pydosLinux/PyRename.py,sha256=ICylBB9ThflwnglTwmUrykCLJfxaBRrngC1Ysa37rRg,229
+pydosLinux/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pydosLinux/kernel.py,sha256=Jwmp9Gv6JhixTFV-dM6HZv5E-1hkD5-xWih32q0yV-U,345
+pydosLinux/sysver.py,sha256=sWg_IPiDiduuDp88sMbQ71nz_ZKPOc5id9lQKVxb9MI,1163
+pydosLinux-0.2.8066.dist-info/LICENSE,sha256=jAA5KaMCVmdI6VOAHGKAsXa3zl6c8HSAYb_4HJfuPE4,1086
+pydosLinux-0.2.8066.dist-info/METADATA,sha256=SE0t7kH5XpL07-capKuNb3dVQidQodjHhai9xCyUZdE,1734
+pydosLinux-0.2.8066.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pydosLinux-0.2.8066.dist-info/top_level.txt,sha256=7XxbjEBWlVzdfaY2-0K9c1qzDRwDUi1DZSoLL47w7oo,11
+pydosLinux-0.2.8066.dist-info/RECORD,,
