@@ -1,0 +1,9 @@
+settings.py
+setup.cfg
+setup.py
+webserver_config.py
+rappiflow_dag_operators.egg-info/PKG-INFO
+rappiflow_dag_operators.egg-info/SOURCES.txt
+rappiflow_dag_operators.egg-info/dependency_links.txt
+rappiflow_dag_operators.egg-info/requires.txt
+rappiflow_dag_operators.egg-info/top_level.txt
