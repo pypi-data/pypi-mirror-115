@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+osrs/Runelite.py
+osrs/__init__.py
+osrs.egg-info/PKG-INFO
+osrs.egg-info/SOURCES.txt
+osrs.egg-info/dependency_links.txt
+osrs.egg-info/requires.txt
+osrs.egg-info/top_level.txt
