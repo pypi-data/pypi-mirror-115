@@ -1,0 +1,75 @@
+Metadata-Version: 2.1
+Name: accession2taxid
+Version: 1.0.4
+Summary: Python library for NCBI assession2tax file querying.
+Home-page: https://github.com/dafangs/accession2taxid
+Author: dafangs
+Author-email: dafangs@hotmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+Requires-Dist: click
+Requires-Dist: redis
+Requires-Dist: sqlalchemy
+
+
+# accession2taxid: saving NCBI accession2taxid file to database for querying
+
+## installation
+
+```
+pip install accession2taxid
+```
+
+## usage
+
+### SQLite
+
+#### saving
+
+```
+accession2taxid sqlite -i prot.accession2taxid
+```
+
+#### querying
+
+```python
+from accession2taxid import get_sqlite_scoped_session, Accession2Taxid
+
+with get_sqlite_scoped_session() as session:
+    session.query(Accession2Taxid).filter_by(
+        accession='A0A0A0MTA4'
+    )
+    session.query(Accession2Taxid).filter_by(
+        accession_version='A0A0A0MTA4.2'
+    )
+    session.query(Accession2Taxid).filter_by(
+        gi='1679377559'
+    )
+```
+
+### Redis
+
+#### saving
+
+```
+accession2taxid redis -i prot.accession2taxid
+```
+
+#### querying
+
+```python
+from accession2taxid import REDIS_KEY, get_redis_conn
+
+
+with get_redis_conn() as conn:
+    conn.hget(REDIS_KEY, 'xxx')
+```
+
