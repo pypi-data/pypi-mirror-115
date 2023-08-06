@@ -1,0 +1,12 @@
+LICENSE.txt
+README.rst
+setup.py
+PlotLinearAlgebra/__init__.py
+PlotLinearAlgebra/plot2d.py
+PlotLinearAlgebra/plot3d.py
+PlotLinearAlgebra/plotvectors.py
+PlotLinearAlgebra.egg-info/PKG-INFO
+PlotLinearAlgebra.egg-info/SOURCES.txt
+PlotLinearAlgebra.egg-info/dependency_links.txt
+PlotLinearAlgebra.egg-info/requires.txt
+PlotLinearAlgebra.egg-info/top_level.txt
