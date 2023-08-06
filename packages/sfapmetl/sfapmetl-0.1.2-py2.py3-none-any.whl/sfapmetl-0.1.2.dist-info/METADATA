@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: sfapmetl
+Version: 0.1.2
+Summary: This script takes component urls as input and pushes data to snappyflow under plugin etl
+Home-page: https://github.com/Veeresh-dot-Pattar/sf-apm-etl
+Author: Veeresh Pattar
+Author-email: veeresh.pattar@maplelabs.com
+License: BSD
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Unix
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+Requires-Dist: click
+Requires-Dist: elasticsearch
+Requires-Dist: schedule
+Requires-Dist: requests
+Requires-Dist: pycrypto
+Requires-Dist: PyYAML
+Requires-Dist: urllib3
+
+#### Python sfapmetl feature
+#### Installation
+
+    $ pip install sfapmetl
+
+#### Usage
+
+    $ sf-apm-etl <config file path>
+
+* Please provide config as mentioned below:
+
+```
+key: <profilekey>
+tags:
+  Name: <name>
+  appName: <appName>
+  projectName: <projectName>
+metrics:
+  plugins:
+    - name: etl #Plugin name is etl
+      enabled: true
+      document_type: <documentType>
+      url:
+        job: <job_url> #component url of job table
+        stage: <stage_url> #component url of stage table
+        task: <task_url> #component url of task table
+        authkey: <authentication_key_for_the_urls>
+      buffer_path: <path for bufferfile.json>     #provide path for bufferfile which keeps record of unfinished job,stage and tasks.
+```
+* After this setup, add cronjob into /etc/crontab( Applicable for Linux AWS instance, else run this script as a cron job)
+        ex: To run script every 5 minutes
+         -  */5 * * * * root sf-apm-etl <config file path>
+
+ * please refer this link for cronjob
+        https://www.digitalocean.com/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804
+
+
+
