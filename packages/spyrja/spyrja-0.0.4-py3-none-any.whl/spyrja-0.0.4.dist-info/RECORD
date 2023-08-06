@@ -1,0 +1,12 @@
+spyrja/__init__.py,sha256=OHGvJT1-7urNYQBccF0yjT7BOeiU392sG3bUCmoRXa4,199
+spyrja/common.py,sha256=nfg5fHLoIBX2cB2B7ViGRRGBUzgLvxjK7zZ4zXohv_w,722
+spyrja/dict.py,sha256=7V26NH0uVF7SEaGv6USMt9iC5KGXAP6UqtRtAtueH1I,576
+spyrja/errors.py,sha256=Pu0LrelFzYH7mNWDZ_vCqy0TmP60wlRENlFLb18_Uwo,312
+spyrja/external.py,sha256=AbzmCDZ6tYH3TdBCmyKTmDvifX0siSRaz0f7e8pR6hs,1545
+spyrja/idlist.py,sha256=b36Vxq8MjxFy_EIQBPxfGg-5hkWk4PiMXfXeZRkWxAg,746
+spyrja/list.py,sha256=cafHPxH5IeO77uokgDmxo6ncmGg2u4TNfdMesfWrWuc,611
+spyrja/set.py,sha256=gtYWPz5a_IuA9-jyUHhpPqgKX-rV1mmymZIlxwEnmQY,594
+spyrja-0.0.4.dist-info/METADATA,sha256=qq9uweKSecygwk_Nw07vIRWMV0zgPVbZFF-DBToj3XE,778
+spyrja-0.0.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+spyrja-0.0.4.dist-info/top_level.txt,sha256=zEg3nrk4wOck0caT17xfacyH2f2I0sfg_wYfGIvLgiQ,7
+spyrja-0.0.4.dist-info/RECORD,,
