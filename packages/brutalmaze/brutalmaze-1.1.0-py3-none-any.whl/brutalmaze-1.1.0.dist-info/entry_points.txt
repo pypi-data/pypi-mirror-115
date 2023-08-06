@@ -1,0 +1,3 @@
+[console_scripts]
+brutalmaze=brutalmaze.__main__:main
+
