@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/ndbviewer.egg-info/PKG-INFO
+src/ndbviewer.egg-info/SOURCES.txt
+src/ndbviewer.egg-info/dependency_links.txt
+src/ndbviewer.egg-info/top_level.txt
