@@ -1,0 +1,12 @@
+COPYING
+COPYING.LESSER
+README.md
+setup.py
+dropmail/__init__.py
+dropmail/_version.py
+dropmail/dropmail.py
+dropmail_client.egg-info/PKG-INFO
+dropmail_client.egg-info/SOURCES.txt
+dropmail_client.egg-info/dependency_links.txt
+dropmail_client.egg-info/requires.txt
+dropmail_client.egg-info/top_level.txt
