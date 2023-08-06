@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+src/WhatIsMyIP.egg-info/PKG-INFO
+src/WhatIsMyIP.egg-info/SOURCES.txt
+src/WhatIsMyIP.egg-info/dependency_links.txt
+src/WhatIsMyIP.egg-info/requires.txt
+src/WhatIsMyIP.egg-info/top_level.txt
+src/whatismyip/__init__.py
+src/whatismyip/__main__.py

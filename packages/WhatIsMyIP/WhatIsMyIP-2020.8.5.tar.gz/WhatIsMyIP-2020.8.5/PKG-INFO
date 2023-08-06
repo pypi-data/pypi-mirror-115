@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: WhatIsMyIP
+Version: 2020.8.5
+Summary: Fetch your public IP address from external sources with Python.
+Home-page: https://github.com/asweigart/whatismyip
+Author: Al Sweigart
+Author-email: al@inventwithpython.com
+License: MIT
+Description: # whatismyip
+        Fetch your public IP address from external sources with Python.
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
