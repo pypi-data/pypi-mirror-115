@@ -1,0 +1,15 @@
+AUTHORS.rst
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+bertdotwebadapter/__init__.py
+bertdotwebadapter/logger.py
+bertdotwebadapter.egg-info/PKG-INFO
+bertdotwebadapter.egg-info/SOURCES.txt
+bertdotwebadapter.egg-info/dependency_links.txt
+bertdotwebadapter.egg-info/not-zip-safe
+bertdotwebadapter.egg-info/requires.txt
+bertdotwebadapter.egg-info/top_level.txt
