@@ -1,0 +1,13 @@
+peewee_migrate/__init__.py,sha256=1UeJOwILtTz3Wj6WW5QVYaPYfFBIKPanbMvhSRB3O1U,746
+peewee_migrate/__main__.py,sha256=QU_R-xINUz57FT8jRLw9AAEm2iE5qfxv_kb3LfOS8UY,51
+peewee_migrate/auto.py,sha256=yQJx3-QUHyYIBUgFPDAoSUCDXJd_34iMifjcunT-7G0,9531
+peewee_migrate/cli.py,sha256=L1lpgcpDiWwQC_bo8cEeuiBpRgk7XIJatjXZNxWU59g,6174
+peewee_migrate/migrator.py,sha256=1ut6WXIBcKOD9FY73K9Qae7TVksVQCARJsMcfrdvOTk,12948
+peewee_migrate/router.py,sha256=dvmTJpbdb6r52bSoBDt3Dv6qXWZIA0b2DKBi5JKO5k8,11915
+peewee_migrate/template.txt,sha256=4ZZ6f2J4IP4TBeuPDKku0BLf_CUKYOEWOzpP_YekfRE,1461
+peewee_migrate-1.4.6.dist-info/LICENSE,sha256=Iy0A5NdYcJhbtb6XJTFXo6lWGQP33gmHiZwPQOv5NtQ,1484
+peewee_migrate-1.4.6.dist-info/METADATA,sha256=mfoD2fWDhOxCGB_sMwOyi8wAucZpa0xAw_b57yomLDM,6032
+peewee_migrate-1.4.6.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+peewee_migrate-1.4.6.dist-info/entry_points.txt,sha256=cfx3wXzh9YJofg6cYb71HDBwNv4_x1Lm6NrTWvYwgIQ,55
+peewee_migrate-1.4.6.dist-info/top_level.txt,sha256=UbA-B0RoOYXUsMhVIV1sa9P0V5HnGdPfwCtg0HcIszU,15
+peewee_migrate-1.4.6.dist-info/RECORD,,
