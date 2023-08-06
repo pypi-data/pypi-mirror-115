@@ -1,0 +1,10 @@
+LICENSE,sha256=HyVuytGSiAUQ6ErWBHTqt1iSGHhLmlC8fO7jTCuR8dU,16725
+MANIFEST.in,sha256=9JooaUInOBOrSzhUYMjWriR4RooFXMA1OPtvqD1NcIM,262
+compose_x_common/__init__.py,sha256=4XkMpbWDr--xdTMx-Xy3QhNNi32wFqwHsiOrB_8-LVI,252
+compose_x_common/aws/__init__.py,sha256=0pjW6-KNaxImHcnU9L1iHfn4ofT7mR1ZUvhJwiFyidk,1678
+compose_x_common/aws/ecr.py,sha256=FoZa8rCAfzGUQ2Mm1NZt5H69LADACR4I3oEJhEHPDsg,2967
+compose_x_common/compose_x_common.py,sha256=_YXnhat8_A8nKoibJpFSFkPtLLWeAbvFxIjbxizSv_c,938
+compose_x_common-0.0.2.dist-info/LICENSE,sha256=HyVuytGSiAUQ6ErWBHTqt1iSGHhLmlC8fO7jTCuR8dU,16725
+compose_x_common-0.0.2.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+compose_x_common-0.0.2.dist-info/METADATA,sha256=XjId7Cp7-VTGebB1BKvEaUYcF__FtSXV76DjCeCpbfs,1419
+compose_x_common-0.0.2.dist-info/RECORD,,
