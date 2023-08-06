@@ -1,0 +1,4 @@
+[console_scripts]
+archive = barrins_codex:archive
+codex = barrins_codex:main
+
