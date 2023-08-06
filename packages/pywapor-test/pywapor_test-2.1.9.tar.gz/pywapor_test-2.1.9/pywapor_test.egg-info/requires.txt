@@ -1,0 +1,15 @@
+gdal<=3.1.4
+watertools
+numpy
+pandas
+requests
+matplotlib
+netcdf4
+pyproj
+scipy
+fiona
+pycurl
+pyshp
+joblib
+bs4
+paramiko
