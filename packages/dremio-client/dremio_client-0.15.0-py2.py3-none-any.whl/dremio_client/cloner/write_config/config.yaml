@@ -1,0 +1,10 @@
+auth:
+    username: "rymurr"
+    password: "dremio123"
+hostname: localhost
+port: 9047
+ssl: false
+verify: true
+cloner:
+    mode: write
+    output-file: "dremio_org.json"

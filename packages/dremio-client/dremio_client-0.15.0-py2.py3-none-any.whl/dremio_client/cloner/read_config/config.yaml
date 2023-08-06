@@ -1,0 +1,10 @@
+auth:
+    username: "rymurr@dremio.com"
+    password: "ZKs0rGk1Ql2smva/yuBJJg1+4ERF+mRoqJjCEJzVt7sLxqJJBGz+lNA4a3I4Aw=="
+hostname: dremio.org
+port: 443
+ssl: true
+verify: false
+cloner:
+    mode: read
+    output-file: "dremio_org.json"
