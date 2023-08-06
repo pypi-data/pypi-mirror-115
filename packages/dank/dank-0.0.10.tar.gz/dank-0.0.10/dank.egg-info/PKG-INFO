@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: dank
+Version: 0.0.10
+Summary: the dank encoder
+Home-page: https://github.com/cramppet/dank
+Author: Peter Crampton
+Author-email: cramppet@protonmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+
+the dank encoder
+
