@@ -1,0 +1,16 @@
+master/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+master/main.py,sha256=eEFVgACqeqjXwIP8MksHdjZ1wNTUVXYVu6y4ciRVrKY,1022
+master/utils.py,sha256=auvlXb-CUBtJEXL-o-VtuskXWaoBR3jGWIPhr2MJet4,1631
+master/cmd/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+master/cmd/serve.py,sha256=U6vu3Y5qrBgS1QW1NdU5_gRpUxz0dx7CwMSRAmAcriA,125
+master/cmd/setup.py,sha256=XfzBIQrGCUF9TnYtgiWBtbXdRSvzSEa7DAi0dYQUBJw,1105
+master/server/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+master/server/join.py,sha256=8eUMTEFmQApS6fgCVYjRw6ecUW-5e6WsWCU5k_6N6W0,538
+master/server/server.py,sha256=wcp4t_t70lZ-lgoTBOTQwqgjE7MR-dFHhLYQBiVvhCo,701
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/install_test.py,sha256=O0KH4N4CwyU56yL9ODO7YZXKGVpSDF_JFPF8ank1KGo,144
+Ocean_Agent_Master-0.0.4.dist-info/METADATA,sha256=hb7JDvUuFLmzDjbTM2TISU3RxtCgs4gTunrFzH-W9Mc,333
+Ocean_Agent_Master-0.0.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+Ocean_Agent_Master-0.0.4.dist-info/entry_points.txt,sha256=-tfPxmP3yZFw7mzGSHnG0BnyeJzMKsQDCWIjKLvG_Bc,50
+Ocean_Agent_Master-0.0.4.dist-info/top_level.txt,sha256=fTbi_Z5M1wtZWg3PyhJDYGHaObf6deGj_OsOmdwwz8E,13
+Ocean_Agent_Master-0.0.4.dist-info/RECORD,,
