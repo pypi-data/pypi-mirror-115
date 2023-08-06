@@ -1,0 +1,8 @@
+firebase_auth/__init__.py,sha256=1yUvlb42wRL9YT2DpLQ5L2syfiOYmQbaBfbI0Wrd6CE,41
+firebase_auth/firebase_auth.py,sha256=YpVUfQvEub84GQU88QlWFEx1VnG9FfX8JxD1qJdAxxA,22268
+sseclient/__init__.py,sha256=lMXobaGzwuHLQOKtfvSpUWhItdTE39JgbIFRuf1D5Zg,32
+sseclient/sseclient.py,sha256=eZbsA-YFt0J8hdjmj3bRcSlwZfpOo-Src4xzPbOt5ec,5563
+firebase_auth-3.0.27.dist-info/METADATA,sha256=sgD6aQaPAjSY0OSSnJF4XM_p8lhQb4UyGaDxidhq-Vc,620
+firebase_auth-3.0.27.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+firebase_auth-3.0.27.dist-info/top_level.txt,sha256=g3Nk98itWvP4OsoGr6XcSyTkQWGDso6AsyUmYidQqsE,24
+firebase_auth-3.0.27.dist-info/RECORD,,
