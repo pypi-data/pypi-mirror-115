@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+bin/scsit
+scsit/__init__.py
+scsit/cfunction.so
+scsit.egg-info/PKG-INFO
+scsit.egg-info/SOURCES.txt
+scsit.egg-info/dependency_links.txt
+scsit.egg-info/top_level.txt
