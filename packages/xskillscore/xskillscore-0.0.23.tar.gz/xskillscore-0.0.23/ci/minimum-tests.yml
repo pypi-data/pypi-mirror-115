@@ -1,0 +1,24 @@
+name: xskillscore-minimum-tests
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - bottleneck
+  - cftime
+  - dask
+  - matplotlib-base
+  - numba>=0.52
+  - numpy
+  - properscoring
+  - scikit-learn
+  - scipy
+  - xarray>=0.16.1
+  - xhistogram>=0.3.0
+  - coveralls
+  - pytest
+  - pytest-cov
+  - pytest-lazy-fixture
+  - pytest-xdist
+  - pip
+  - pip:
+      - -e ..
