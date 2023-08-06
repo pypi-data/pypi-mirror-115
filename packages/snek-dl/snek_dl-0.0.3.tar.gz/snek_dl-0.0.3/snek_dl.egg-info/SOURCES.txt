@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+snek_dl/Snek.py
+snek_dl/__init__.py
+snek_dl/util.py
+snek_dl.egg-info/PKG-INFO
+snek_dl.egg-info/SOURCES.txt
+snek_dl.egg-info/dependency_links.txt
+snek_dl.egg-info/requires.txt
+snek_dl.egg-info/top_level.txt
