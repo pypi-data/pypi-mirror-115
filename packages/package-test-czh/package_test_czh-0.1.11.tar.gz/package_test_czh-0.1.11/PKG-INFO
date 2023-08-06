@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: package_test_czh
+Version: 0.1.11
+Summary: A demo for python packaging.
+Home-page: UNKNOWN
+Author: chenzhihao2
+Author-email: 1040791159@qq.com
+License: MIT
+Description: ===========
+        
+        This project provides a demo for packaging and distributing python application.
+Keywords: demo
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
