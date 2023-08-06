@@ -1,0 +1,16 @@
+pyimzml/ImzMLParser.py,sha256=lIeyS9gQSuiT4dMo5nQhFdg3FHaYgtYpSrdiFPT85eM,25661
+pyimzml/ImzMLWriter.py,sha256=O-Q-dqJwgvGIlwGJTM076mF1KJERXyyndSgSc24vrGM,20514
+pyimzml/__init__.py,sha256=cXu5Qklt-TkM22YbYOO8jfr6COB8p2hFc2AtZc9K1Ns,22
+pyimzml/compression.py,sha256=kWOTplhP4dypWDBJTMrhsw8tYLW1VknmpI5oijYIVm8,937
+pyimzml/metadata.py,sha256=DVCxQ_a6ZnSKjZ1fiwPccKC68SUpcge6e3G3WDJ58RI,11625
+pyimzml/ontology/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyimzml/ontology/dump_obo_files.py,sha256=csa5rsGgTBgGEYJq6_eAMWbHl5z1hOJt8CXkpGBmVHg,1779
+pyimzml/ontology/ims.py,sha256=A0rzmwe4pXCcdm6J_uiHXxeCtmmVm-qgsWNkTc9CZVY,9880
+pyimzml/ontology/ms.py,sha256=NfyqX7fMouOP8UJLB6NHZXL-A61nP7jjSFY8O_JIvDs,166588
+pyimzml/ontology/ontology.py,sha256=CiDPw_uIkxGV_XaGwey3KYI5jlz03jwwFdzM7e_dYro,3458
+pyimzml/ontology/uo.py,sha256=pV6jDVth6iKANMzV7wyhw2oAYWeIqrxKi-LFL8sp9Kw,16619
+pyimzML-1.5.1.dist-info/LICENSE,sha256=y16Ofl9KOYjhBjwULGDcLfdWBfTEZRXnduOspt-XbhQ,11325
+pyimzML-1.5.1.dist-info/METADATA,sha256=HcW2Og9Rxa5JUnlqgXSHaLGtiVV1BU7kqU5Txjjne_0,1245
+pyimzML-1.5.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pyimzML-1.5.1.dist-info/top_level.txt,sha256=dlh3Fb4apoMLobo8JV6MKl5RfceXMPB-9EAd1ymqLI0,8
+pyimzML-1.5.1.dist-info/RECORD,,
