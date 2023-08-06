@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: creasepattern
+Version: 0.0.3
+Summary: Origami Crease Pattern tools
+Home-page: https://github.com/qurben/creasepattern
+Author: Gerben Oolbekkink
+Author-email: g.j.w.oolbekkink@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/qurben/creasepattern/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# creasepattern
+
+Basic topls to work with Origami Crease Patterns.
+
+## Usage
+
+### cp2png
+
+Convert `.cp` files to `.png`
+
+Size of the output image is based on the sizes given in the `.cp` file.
+
+```python
+from creasepattern import cp2png
+
+cp2png('file.cp', 'file.png')
+```
+
+### cp2svg
+
+Convert `.cp` files to `.svg`
+
+```python
+from creasepattern import cp2svg
+
+cp2png('file.cp', 'file.svg')
+```
+
+## Roadmap
+
+* (Must) Make size of output configurable
+* (Must) Make edge types configurable
+* (Could) Support more filetypes
+
