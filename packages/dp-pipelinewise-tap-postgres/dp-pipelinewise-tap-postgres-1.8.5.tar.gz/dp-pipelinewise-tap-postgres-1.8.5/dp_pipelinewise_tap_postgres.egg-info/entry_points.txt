@@ -1,0 +1,4 @@
+
+          [console_scripts]
+          dp-tap-postgres=tap_postgres:main
+      
