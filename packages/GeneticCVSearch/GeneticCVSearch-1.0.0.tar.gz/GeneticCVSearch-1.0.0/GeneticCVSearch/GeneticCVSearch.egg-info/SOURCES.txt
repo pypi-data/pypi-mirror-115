@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+GeneticCVSearch/GeneticCVSearch/__init__.py
+GeneticCVSearch/GeneticCVSearch.egg-info/PKG-INFO
+GeneticCVSearch/GeneticCVSearch.egg-info/SOURCES.txt
+GeneticCVSearch/GeneticCVSearch.egg-info/dependency_links.txt
+GeneticCVSearch/GeneticCVSearch.egg-info/top_level.txt
