@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+dependency_miner/__init__.py
+dependency_miner/ltminer.py
+dependency_miner/settings.py
+dependency_miner_pm4py.egg-info/PKG-INFO
+dependency_miner_pm4py.egg-info/SOURCES.txt
+dependency_miner_pm4py.egg-info/dependency_links.txt
+dependency_miner_pm4py.egg-info/requires.txt
+dependency_miner_pm4py.egg-info/top_level.txt
