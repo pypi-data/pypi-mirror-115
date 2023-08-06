@@ -1,0 +1,11 @@
+LICENSE
+setup.cfg
+setup.py
+journalwriter/__init__.py
+journalwriter/__main__.py
+journalwriter.egg-info/PKG-INFO
+journalwriter.egg-info/SOURCES.txt
+journalwriter.egg-info/dependency_links.txt
+journalwriter.egg-info/entry_points.txt
+journalwriter.egg-info/requires.txt
+journalwriter.egg-info/top_level.txt

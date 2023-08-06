@@ -1,0 +1,1 @@
+from journawriter.__main__ import main

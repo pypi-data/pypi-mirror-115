@@ -1,0 +1,3 @@
+[console_scripts]
+journalwriter = journalwriter.__main__:main
+
