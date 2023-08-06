@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: hpm
+Version: 0.1.0
+Summary: HEPIA Project Manager
+Home-page: https://gitedu.hesge.ch/tanguy.cavagna/hpm
+Author: Tanguy Cavagna
+Author-email: tanguy.cvgn@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://gitedu.hesge.ch/tanguy.cavagna/hpm/-/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: rich
+
+# Welcome to **hpm** 👋
+
+> hpm - an HEPIA project manager
+
+![banner](https://i.imgur.com/GAMyEle.png)
+
+# Merge Requests
+
+> Make sure to follow [those emojis](https://gitmoji.dev/) to clarify your title !
+
+
+
