@@ -1,0 +1,13 @@
+asfpy/__init__.py,sha256=mgeh3Coxx1xihkHHB7lLMWu0pXdmnuExZaBGQF-hV08,66
+asfpy/daemon.py,sha256=s7EfLGR-EeTxwVd-vP4mOfOWR1kZQWE3fDG82TqXRas,4553
+asfpy/justone.py,sha256=09aFjyf-dqPjqnA_ntuataS-nUUT5F3JU1QcFO_jHrw,4067
+asfpy/ldap.py,sha256=_ARzbET7np2vyidB8V54niZ0FXHdLzYWzM0nWZOab6Y,16824
+asfpy/messaging.py,sha256=bAWxNzgSc_tbQjgDRAPs5b_pSiY8FHqBJgMztXKFRVc,3390
+asfpy/pubsub.py,sha256=XFiJgCsb0Tu8sx6kykpxhdmFBOD11vA29MEKqf6sLLQ,4512
+asfpy/sqlite.py,sha256=UYrn2NWT9a9egYbF9DWXFqvEZw_Niv8_XYKun0rrHsU,10819
+asfpy/syslog.py,sha256=V1TZRlz2_2Y1ClUpQOuLSFoRqAx1HH8ke1uzRL5Zdcg,1682
+asfpy/whoami.py,sha256=KSfPlrgReXsZhL6OAn0HFehbAqb_341xFYqolArRay8,1832
+asfpy-0.28.dist-info/METADATA,sha256=Pw1-Xj5yg5oG6bk9HoDM2u8LX_Oejk-HKyMPvYoSnWk,530
+asfpy-0.28.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+asfpy-0.28.dist-info/top_level.txt,sha256=emjGuElM7oQiF-91UhQBKo3p6y-C6-Vh_BGh_vLoP-8,6
+asfpy-0.28.dist-info/RECORD,,
