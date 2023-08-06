@@ -1,0 +1,13 @@
+pandas>=1.0.0
+
+[dev]
+cram
+flake8>=3.7.0
+isort>=5.0
+mypy>=0.730
+pep517
+python-language-server
+twine
+
+[test]
+pytest
