@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+taranis.py
+taranis.egg-info/PKG-INFO
+taranis.egg-info/SOURCES.txt
+taranis.egg-info/dependency_links.txt
+taranis.egg-info/requires.txt
+taranis.egg-info/top_level.txt
