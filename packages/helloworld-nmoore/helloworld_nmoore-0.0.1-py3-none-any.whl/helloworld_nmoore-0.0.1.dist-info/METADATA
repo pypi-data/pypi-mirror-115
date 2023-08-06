@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: helloworld-nmoore
+Version: 0.0.1
+Summary: Print out the genereric hellow world statmet,     or add a name to it!
+Home-page: https://github.com/xxxxx
+Author: Nathan Moore
+Author-email: nathanmichaelmoore@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: blessings (~=1.7)
+Provides-Extra: dev
+Requires-Dist: pytest (>=3.7) ; extra == 'dev'
+
+# hellow world
+
+Example project
+
+## insalation
+
+pip install helloworld
+
+## Usage
+
+
+from helloworld import say_hello
+
+# Generate hello world
+
+say_hello()
+
+
+## Develop Hello World
+
+To install helloworld, along with the tools you need to develop and run test, run the following in you virtualenv:
+
+'''bash
+$ pip install -e .[dev]
+'''
+
+
+
