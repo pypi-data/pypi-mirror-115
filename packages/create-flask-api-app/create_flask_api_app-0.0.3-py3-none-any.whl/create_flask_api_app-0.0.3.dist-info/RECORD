@@ -1,0 +1,9 @@
+create_flask_api_app/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+create_flask_api_app/__main__.py,sha256=WHC6veQFJ-W9gmFtY-BaEVYkx9r5vMpOwB7TSAA4zQA,363
+create_flask_api_app/create.py,sha256=xwBAOaUg7dVuci2l0K4HP2YeigD9blnoW6nzvzahZZk,374
+create_flask_api_app-0.0.3.dist-info/LICENSE,sha256=CDKnM3tjqSkDK__BAWRshUsCHSPhcqaq0zaEymqI8F8,1058
+create_flask_api_app-0.0.3.dist-info/METADATA,sha256=1wrHRCWAFxCG6-yN3NdLMfNrYmamBAF1d_yPJgxMksU,1019
+create_flask_api_app-0.0.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+create_flask_api_app-0.0.3.dist-info/entry_points.txt,sha256=As2_Wivtwk1SaLq5MauNnpjpIMGUWy-K_6nMdaJ84Zg,73
+create_flask_api_app-0.0.3.dist-info/top_level.txt,sha256=2bforsHIHarU2KMPVN-ILOg7_rtBEgYF6NNaU4q_pqg,21
+create_flask_api_app-0.0.3.dist-info/RECORD,,
