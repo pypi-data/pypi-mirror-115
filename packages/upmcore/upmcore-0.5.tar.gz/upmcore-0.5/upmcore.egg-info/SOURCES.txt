@@ -1,0 +1,14 @@
+setup.py
+upmcore/__init__.py
+upmcore.egg-info/PKG-INFO
+upmcore.egg-info/SOURCES.txt
+upmcore.egg-info/dependency_links.txt
+upmcore.egg-info/not-zip-safe
+upmcore.egg-info/top_level.txt
+upmcore/core/__init__.py
+upmcore/core/njs/__init__.py
+upmcore/core/python/__init__.py
+upmcore/guess/__init__.py
+upmcore/index/__init__.py
+upmcore/index/njs/__init__.py
+upmcore/index/python/__init__.py
