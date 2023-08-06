@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+lingueeParser/linguee.py
+lingueeParser.egg-info/PKG-INFO
+lingueeParser.egg-info/SOURCES.txt
+lingueeParser.egg-info/dependency_links.txt
+lingueeParser.egg-info/requires.txt
+lingueeParser.egg-info/top_level.txt
+test/test.py
