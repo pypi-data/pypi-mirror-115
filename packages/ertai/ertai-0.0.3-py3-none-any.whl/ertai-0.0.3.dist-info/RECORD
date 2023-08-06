@@ -1,0 +1,8 @@
+ertai/__init__.py,sha256=cW2ff4nFJyb2Iw2sp85EJdOv7ibPbRKnQdG-09t3zdI,328
+ertai/card.py,sha256=_gNSHg0Qe6c6UsNUs6eykj_TDes7B10sCm61NeXCM4c,1220
+ertai/creature.py,sha256=ye-aAvMlIh1TiUrn_AgXHQLikskmhXBtCkg3gk8sOoM,1827
+ertai/mana.py,sha256=4WMcXq7dpPZyyrp_X-XHe-e22oeUpNA_jwj1GZvub3M,1960
+ertai-0.0.3.dist-info/LICENSE,sha256=wwsLdcUJA9xCTnp__OT-VsrctrIiHnrZURFAvaw67yI,1081
+ertai-0.0.3.dist-info/WHEEL,sha256=VUbF57hf4yRZWWrOOjp25Fr4BQX9EtnVSbnP2vNxHDM,81
+ertai-0.0.3.dist-info/METADATA,sha256=9O4VpH8gyv2tWx9mviyJ0pDIDnLneA00giP4ewh7Suw,11321
+ertai-0.0.3.dist-info/RECORD,,
