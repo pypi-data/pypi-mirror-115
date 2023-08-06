@@ -1,0 +1,9 @@
+ingaia_luigi_slack/__init__.py,sha256=2B8tnfft3zmuuC1zIV-PWk80cOZ07fT5F5-OICF0mcc,157
+ingaia_luigi_slack/api.py,sha256=SaRMyxzcKOo_wa0DvUY1wcBrOa0FuGKDROIkywScOmM,6048
+ingaia_luigi_slack/events.py,sha256=bKoCXJ15jYGZAOfAlUziwdtVwCDA3FgIy9U3EKiovow,272
+ingaia_luigi_slack/slack_api.py,sha256=rlZdOEVk18J8HTBjLpk43NLUQuRvZQKvfsjHpL1nQoU,3057
+ingaia_luigi_slack-0.1.9.dist-info/LICENSE,sha256=JhILsQJXVP5S7yxMAG8fncn_3Y7Ug3UG-B4M6Kcl-Is,1104
+ingaia_luigi_slack-0.1.9.dist-info/METADATA,sha256=SoR0IuPmXMIoy5TGFK5Y3FN2eTvOmHuhNznR5s6zU6U,733
+ingaia_luigi_slack-0.1.9.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+ingaia_luigi_slack-0.1.9.dist-info/top_level.txt,sha256=lW9z7zq1NVHpRwE1ifEAy8D9XoUkAD6bxcKiyMnDWc0,19
+ingaia_luigi_slack-0.1.9.dist-info/RECORD,,
