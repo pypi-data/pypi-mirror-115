@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+catboys/__init__.py
+catboys/catboys.py
+catboys/dict.py
+catboys/errors.py
+catboys/http.py
+catboys.py.egg-info/PKG-INFO
+catboys.py.egg-info/SOURCES.txt
+catboys.py.egg-info/dependency_links.txt
+catboys.py.egg-info/requires.txt
+catboys.py.egg-info/top_level.txt
