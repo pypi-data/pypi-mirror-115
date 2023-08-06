@@ -1,0 +1,331 @@
+# Shoonya Trading APIs
+
+Unofficial Python Trading APIs for Finvasia Shoonya Platform.
+
+To support this project consider opening account with [finvasia.com](https://prism.finvasia.com/register/?franchiseLead=MzYzMDE=) with [this referral link](https://prism.finvasia.com/register/?franchiseLead=MzYzMDE=).
+
+[Finvasia](https://prism.finvasia.com/register/?franchiseLead=MzYzMDE=) offers Zero Brokerage trading and is doing good recently with it's new Shoonya platform.  
+Please check [shoonya](https://prism.finvasia.com/register/?franchiseLead=MzYzMDE=) web platform.  
+Support this work by opening account with [Finvasia](https://prism.finvasia.com/register/?franchiseLead=MzYzMDE=)
+
+**WORK IS STILL IN PROGRESS**
+
+**USE AT YOUR OWN RISK, DO NOT EXPECT 100% PERFECT DATA**
+
+**USE ONLY DURING LIVE MARKET**
+
+**THIS API DOES NOT WORK ON SATURDAY SUNDAY**
+
+**DataApi MAY WORK ON WEEKENDS WITH FEW EXCEPTIONS**
+
+**Documentation is incomplete expect bugs and send pull requests**
+
+## Installation
+
+- Python version `>3.9` is needed for this module to work
+- Git is required for below command to work
+- `pip install git+https://gitlab.com/algo2t/shoonyapy.git`
+
+## How to setup a good environment
+
+- Install latest Python version 3.9.x, download it from [here](https://www.python.org/downloads/)
+- Linux comes with python upgrade it to latest version 3.9.x
+- Use [scoop.sh](https://scoop.sh) for Windows as package manager.
+- Use your favorite editor like [VSCodium](https://vscodium.com/) or [VSCode](https://code.visualstudio.com/) download it from [here](https://code.visualstudio.com/Download)
+- VScode is available for Windows, Linux and Mac
+- Python extension for vscode is [here](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
+- MagicPython is also good extension
+- Wonderful documentation for working with python and vscode is [here](https://code.visualstudio.com/docs/languages/python)
+- Use virtualenv to create a virtual python env so that your system is not affected
+- Steps for virtualenv creation - `python -m pip install virtualenv` and then virtualenv venv
+- Activate the `venv` => `.\venv\Scripts\activate` (this is an example for Windows OS)
+- Install and upgrade modules `(venv) PS D:\trading\algo2trade\shoonya> python -m pip install -U pip wheel setuptools pylint rope autopep8`
+
+## Usage
+
+### Creating a `config.py` example
+
+```python
+
+username='FA12345'
+password='FinvAsia@P123'
+# Date of Birth format is dd-MM-yyyy e.g 29-06-1984
+pan_or_dob='ABCDE1234Z'
+
+
+```
+
+### Login or Using DataApi and ShoonyaApi
+
+```python
+
+from shoonyapy import ShoonyaApi, DataApi
+import logging
+
+import config
+
+from datetime import datetime as dt
+from time import sleep
+import pandas as pd
+
+
+logging.basicConfig(level=logging.DEBUG)
+
+
+begin = dt.now()
+print(begin)
+
+data = DataApi()
+
+shoonya = ShoonyaApi(config.username, config.password,
+                     config.pan_or_dob, debug=True)
+
+sbin = data.get_instrument_by_exchange_symbol('NSE', 'SBIN')
+
+order_no = shoonya.place_order(sbin, 1, order_type=shoonya.ORDER_TYPE_LIMIT, price=472,
+                               product=shoonya.PRODUCT_INTRADAY, txn_type=shoonya.TRANSACTION_TYPE_SELL, is_amo=True)
+
+df = shoonya.orders()
+df = df.loc[df['status'].str.contains('Pending'), [
+    'order_no', 'status', 'segment', 'product']]
+print(df)
+
+
+end = dt.now()
+
+duration = end - begin
+print(end)
+print(f"milliseconds taken :: {duration.microseconds/1000}")
+
+```
+
+## API Short Documentation
+
+### Modify Orders API is still underdevelopment so do not use it.
+
+#### List Orders or Order Book
+
+`shoonya.orders()`
+
+#### Order History or Order Details
+
+`shoonya.order_history(order_no, segment)`
+
+#### List Trades or Trade Book
+
+`shoonya.trades()`
+
+#### Trade History or Trade Details
+
+`shoonya.trade_history()`
+
+#### Holdings
+
+`shoonya.holdings()`
+
+#### Net Position or Positions
+
+`shoonya.positions()`
+
+#### Fund Limit or Funds - NOT WORKING
+
+`shoonya.funds()`
+
+### Order Management APIs
+
+### Place Bracket Order
+
+```python
+
+inst = data.get_instrument_by_exchange_symbol('MCX', 'GOLDPETAL21AUGFUT')
+print(data.ltp(inst).ltp)
+
+order_no = shoonya.place_bracket_order(inst, shoonya.TRANSACTION_TYPE_BUY, \
+    shoonya.ORDER_TYPE_MARKET, 1, 0, 0, 2, 1)
+
+inst = data.get_instrument_by_exchange_symbol('NSE', 'SBIN')
+order_no = shoonya.place_bracket_order(inst, shoonya.TRANSACTION_TYPE_BUY, \
+    shoonya.ORDER_TYPE_LIMIT, quantity=1, price=450, profit=2, stoploss=10)
+
+print(order_no)
+
+```
+
+### Exit Bracket Order
+
+```python
+
+bo_exit = shoonya.exit_bracket_order(order_no, shoonya.SEGMENT_COMMODITY)
+print(bo_exit)
+
+```
+
+### Square Off All Positions
+
+`shoonya.square_off_all()`
+
+### Square Off Symbol Positions
+
+```python
+inst = data.get_instrument_by_exchange_symbol('NSE', 'SBIN')
+shoonya.square_off_symbol(instrument.symbol)
+
+```
+
+### Exit Pending Orders
+
+`shoonya.exit_pending_orders()`
+
+### Place Order
+
+```python
+
+data = DataApi()
+inst = data.get_instrument_by_exchange_symbol(exchange, symbol)
+print(inst)
+order_no = shoonya.place_order(inst, quantity, price, is_amo=True)
+print(order_no)
+```
+
+### Cancel Order
+
+`shoonya.cancel_order(order_no, shoonya.SEGMENT_COMMODITY)`
+
+### Market Status
+
+```python
+
+shoonya = ShoonyaApi(config.username, config.password,
+                     config.pan_or_dob, debug=True)
+
+shoonya.market_status(exchange='MCX')
+shoonya.market_status(mkt_type=shoonya.MARKET_TYPE_OL)
+shoonya.market_status(mkt_type='')
+shoonya.market_status(exchange=shoonya.EXCHANGE_NSE, segment=shoonya.SEGMENT_DERIVATIVE, mkt_type=shoonya.MARKET_TYPE_NL)
+
+```
+
+## DataApi example for Indices Nifty Bank and Nifty 50 no login is required
+
+```python
+
+from shoonyapy import DataApi
+
+from datetime import datetime as dt
+from datetime import timedelta as td
+
+from collections import namedtuple
+
+data = DataApi()
+
+
+Instrument = namedtuple('Instrument', ['exchange', 'segment', 'token', 'symbol',
+                                       'name', 'expiry', 'lot_size'])
+
+inst = Instrument('NSE_INDICES','E','26009','Nifty Bank', 'Nifty Bank','0001-01-01T00:00:00', 0)
+df = data.history(inst, start_time=dt.today() - td(days=5))
+print(df)
+inst = Instrument('NSE_INDICES','E','26000','Nifty 50', 'Nifty Bank','0001-01-01T00:00:00', 0)
+
+# Default end_time is today
+df = data.history(inst, start_time=dt.today() - td(days=5))
+print(df)
+
+df = data.history(inst, start_time=dt.today() - td(days=5), end_time=dt.today() - td(days=3), interval=15)
+print(df)
+
+
+```
+
+### Types of Exchanges
+
+```python
+
+
+shoonya.EXCHANGE_NSE
+shoonya.EXCHANGE_BSE
+shoonya.EXCHANGE_MCX
+
+```
+
+### Types of Segments
+
+```python
+
+
+shoonya.SEGMENT_EQUITY
+shoonya.SEGMENT_DERIVATIVE
+shoonya.SEGMENT_CURRENCY
+shoonya.SEGMENT_COMMODITY
+
+```
+
+### Types of Transactions
+
+```python
+
+shoonya.TRANSACTION_TYPE_BUY
+shoonya.TRANSACTION_TYPE_SELL
+
+
+```
+
+### Types of Products
+
+```python
+
+
+shoonya.PRODUCT_NORMAL
+shoonya.PRODUCT_INTRADAY
+shoonya.PRODUCT_MARGIN
+shoonya.PRODUCT_BO
+shoonya.PRODUCT_CO
+shoonya.PRODUCT_CNC
+shoonya.PRODUCT_MTF
+
+
+```
+
+### Types of Markets
+
+```python
+
+shoonya.MARKET_TYPE_NL
+shoonya.MARKET_TYPE_OL
+shoonya.MARKET_TYPE_AU
+shoonya.MARKET_TYPE_SP
+shoonya.MARKET_TYPE_A1
+shoonya.MARKET_TYPE_A2
+
+
+```
+
+## Contributing
+
+You can contribute to the project by submitting issues, merge requests, etc.
+Documentation updates or WiKi Updates can be suggested by users.
+
+## Donations
+
+For any donations, please connect with the author.
+
+## Authors and acknowledgment
+
+Thanks to people who motivated to create this project.  
+Thanks Finvasia / Shoonya Team for providing API Documentation
+
+### Dependencies
+
+- Python [requests](https://docs.python-requests.org/en/master/)
+- Python [pandas](https://pandas.pydata.org/docs/index.html)
+- Python [getmac](https://getmac.readthedocs.io/en/latest/)
+
+## License
+
+This project is licensed under the GNU GENERAL PUBLIC LICENSE Version 3.
+Free distribution is allowed.
+
+## Project status
+
+This project is a hobby project and must not be considered as legally bonded with Finvasia.
+In case, you want to support this project consider opening account with [finvasia.com](https://prism.finvasia.com/register/?franchiseLead=MzYzMDE=) with [this referral link](https://prism.finvasia.com/register/?franchiseLead=MzYzMDE=).

@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "shoonyapy"
+version = "0.1.0"
+description = "Unofficial Python wrapper for Trading REST APIs for Finvasia Shoonya platform"
+authors = ["Algo 2 Trade <help@algo2.trade>"]
+license = "GPLv3"
+readme = "README.md"
+homepage = "https://gitlab.com/algo2t/shoonyapy"
+repository = "https://gitlab.com/algo2t/shoonyapy.git"
+include = [
+    "LICENSE",
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.26.0"
+pandas = "^1.3.1"
+getmac = "^0.8.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
