@@ -1,0 +1,11 @@
+README.md
+setup.py
+src/__init__.py
+src/update_hostgrp_poc.py
+update_hostgrp_poc.egg-info/PKG-INFO
+update_hostgrp_poc.egg-info/SOURCES.txt
+update_hostgrp_poc.egg-info/dependency_links.txt
+update_hostgrp_poc.egg-info/entry_points.txt
+update_hostgrp_poc.egg-info/requires.txt
+update_hostgrp_poc.egg-info/top_level.txt
+update_hostgrp_poc.egg-info/zip-safe

@@ -1,0 +1,3 @@
+[console_scripts]
+update-hostgrp-poc = src.update_hostgrp_poc:main
+
