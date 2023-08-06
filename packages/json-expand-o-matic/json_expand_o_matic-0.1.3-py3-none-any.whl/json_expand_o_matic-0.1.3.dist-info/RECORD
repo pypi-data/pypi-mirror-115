@@ -1,0 +1,13 @@
+json_expand_o_matic/__init__.py,sha256=LueQ9tyrMSMS9Nd2BBqPkYuoS0yq3DirGJG8SNoOESk,867
+json_expand_o_matic/cli.py,sha256=Ju5g-of0dwS-EVOfBa12xEK4awInLiCKOX2J_XkhY8Q,2666
+json_expand_o_matic/contractor.py,sha256=ln1rkGZW8vJwSpDhKRyd5OfD4IagSg2BtEV-OByCgJ8,1148
+json_expand_o_matic/expand_o_matic.py,sha256=J1ZhvOfzTlPwmTSq5gaxsVUNfBEpyEKz2AC9EycPwRU,2645
+json_expand_o_matic/expander.py,sha256=HKRIDtma5n7N6I3tP1oHvsiwDxETgQEixHqPPI2m1xM,7360
+json_expand_o_matic/jsonrefkeeper.py,sha256=TytPrettAYzJaiu8B-aItPvIMk79t3_bsf9cO49e-4o,3177
+json_expand_o_matic/leaf_node.py,sha256=mybReQWi4chAfIgu3V8zl4bgXXF581wWe0sAi7qOav0,3849
+json_expand_o_matic-0.1.3.dist-info/LICENSE.txt,sha256=ceC9ZJOV9H6CtQDcYmHOS46NA3dHJ_WD4J9blH513pc,1081
+json_expand_o_matic-0.1.3.dist-info/METADATA,sha256=QXKElU2uGQ3vNMREV4GyN8GHIo4K_ioAOlLacJr2M7o,2838
+json_expand_o_matic-0.1.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+json_expand_o_matic-0.1.3.dist-info/entry_points.txt,sha256=4NJny-gGGShLMwR9B1BMVtRJavBI-Xdb_BXH3FMWcoc,67
+json_expand_o_matic-0.1.3.dist-info/top_level.txt,sha256=tqRDQqcZT6mFgYiMSln_AGVvsdyHCOe7QwHyGqyGQcM,20
+json_expand_o_matic-0.1.3.dist-info/RECORD,,
