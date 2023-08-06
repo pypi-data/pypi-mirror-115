@@ -1,0 +1,5 @@
+include versioneer.py
+include gosu/_version.py
+include gosu/.coveragerc_python
+include gosu/.coveragerc_django
+include gosu/.flake8
