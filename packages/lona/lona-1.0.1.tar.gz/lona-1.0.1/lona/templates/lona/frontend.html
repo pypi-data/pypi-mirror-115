@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    {{ Lona.load_stylesheets() }}
+  </head>
+  <body>
+    <div id="lona"></div>
+    {{ Lona.load_scripts() }}
+    <script>
+      var lona_context = new Lona.LonaContext({
+        target: '#lona',
+        title: 'Lona',
+        update_address_bar: true,
+        update_title: true,
+        follow_redirects: true,
+        follow_http_redirects: true,
+      });
+
+      lona_context.add_disconnect_hook(function(lona_context, event) {
+        document.querySelector('#lona').innerHTML = 'Server disconnected';
+      });
+
+      lona_context.setup();
+    </script>
+  </body>
+</html>
