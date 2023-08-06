@@ -1,0 +1,6 @@
+paths:
+  env_dir: '../envs'
+  base_subpath: 'base'
+  lock_subpath: 'lock'
+  create_if_not_exists: True
+  template: '{name}_{platform}.{kind}'

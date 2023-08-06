@@ -1,0 +1,25 @@
+stages:
+  - pytest
+
+pytest:
+  interruptible: true
+  stage: pytest
+  image: igwn/base:conda
+  needs: [ ]
+  before_script:
+    - echo "Initializing Bash"
+    - conda create -n conda-qualify-dev-env --file dev-linux-64.lock --force
+    - source activate conda-qualify-dev-env
+    - echo "Adding conda_flow repo to PYTHONPATH"
+    - export PYTHONPATH="$PYTHONPATH:."
+  script:
+    - pytest -c pytest.ini --junitxml=report.xml
+  only:
+    - schedules
+    - pushes
+  allow_failure: true
+  artifacts:
+    when: always
+    reports:
+      junit: report.xml
+
