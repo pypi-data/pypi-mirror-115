@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>sslcommerz_client.dataclasses &#8212; SSLCommerz Client 0.0.0 documentation</title>
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pydoctheme.css" type="text/css" />
+    
+    <script id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    
+    <script src="../../_static/sidebar.js"></script>
+    
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <link rel="shortcut icon" type="image/png" href="../../_static/favicon.png" />
+    <meta name="viewport" content="width=device-width,initial-scale=0.8">
+    
+    
+
+  </head><body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="responsive-menu"><a href="#sidebar-anchor" title="Navigation">&#9776;</a></li>
+        <li><a href="../../index.html">SSLCommerz Client-0.0.0</a> &#187;</li>
+          <li><a href="../index.html" accesskey="U">Module code</a> &#187;</li> 
+      </ul>
+    </div>
+    
+        <div class="badge">
+            <a href="https://gitlab.com/codesigntheory/python-sslcommerz-client/">Fork me on GitHub</a>
+            <img src="../../_static/right-red@2x.png">
+        </div>
+    
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <h1>Source code for sslcommerz_client.dataclasses</h1><div class="highlight"><pre>
+<span></span><span class="kn">from</span> <span class="nn">pydantic</span> <span class="kn">import</span> <span class="n">BaseModel</span><span class="p">,</span> <span class="n">ValidationError</span><span class="p">,</span> <span class="n">validator</span><span class="p">,</span> <span class="n">AnyHttpUrl</span>
+<span class="kn">from</span> <span class="nn">decimal</span> <span class="kn">import</span> <span class="n">Decimal</span>
+<span class="kn">from</span> <span class="nn">typing</span> <span class="kn">import</span> <span class="n">List</span><span class="p">,</span> <span class="n">Optional</span><span class="p">,</span> <span class="n">Any</span><span class="p">,</span> <span class="n">Union</span>
+<span class="kn">from</span> <span class="nn">enum</span> <span class="kn">import</span> <span class="n">Enum</span>
+<span class="kn">from</span> <span class="nn">datetime</span> <span class="kn">import</span> <span class="n">datetime</span>
+<span class="kn">from</span> <span class="nn">hashlib</span> <span class="kn">import</span> <span class="n">md5</span>
+
+
+<div class="viewcode-block" id="MultiCardNamesEnum"><a class="viewcode-back" href="../../reference/sslcommerz_client.html#sslcommerz_client.dataclasses.MultiCardNamesEnum">[docs]</a><span class="k">class</span> <span class="nc">MultiCardNamesEnum</span><span class="p">(</span><span class="nb">str</span><span class="p">,</span> <span class="n">Enum</span><span class="p">):</span>
+    <span class="n">BRAC_VISA</span> <span class="o">=</span> <span class="s2">&quot;brac_visa&quot;</span>
+    <span class="n">DBBL_VISA</span> <span class="o">=</span> <span class="s2">&quot;dbbl_visa&quot;</span>
+    <span class="n">CITY_VISA</span> <span class="o">=</span> <span class="s2">&quot;city_visa&quot;</span>
+    <span class="n">EBL_VISA</span> <span class="o">=</span> <span class="s2">&quot;ebl_visa&quot;</span>
+    <span class="n">SBL_VISA</span> <span class="o">=</span> <span class="s2">&quot;sbl_visa&quot;</span>
+    <span class="n">BRAC_MASTER</span> <span class="o">=</span> <span class="s2">&quot;brac_master&quot;</span>
+    <span class="n">DBBL_MASTER</span> <span class="o">=</span> <span class="s2">&quot;dbbl_master&quot;</span>
+    <span class="n">CITY_MASTER</span> <span class="o">=</span> <span class="s2">&quot;city_master&quot;</span>
+    <span class="n">EBL_MASTER</span> <span class="o">=</span> <span class="s2">&quot;ebl_master&quot;</span>
+    <span class="n">SBL_MASTER</span> <span class="o">=</span> <span class="s2">&quot;sbl_master&quot;</span>
+    <span class="n">CITY_AMEX</span> <span class="o">=</span> <span class="s2">&quot;city_amex&quot;</span>
+    <span class="n">QCASH</span> <span class="o">=</span> <span class="s2">&quot;qcash&quot;</span>
+    <span class="n">DBBL_NEXUS</span> <span class="o">=</span> <span class="s2">&quot;dbbl_nexus&quot;</span>
+    <span class="n">BANK_ASIA</span> <span class="o">=</span> <span class="s2">&quot;bankasia&quot;</span>
+    <span class="n">ABBANK</span> <span class="o">=</span> <span class="s2">&quot;abbank&quot;</span>
+    <span class="n">IBBL</span> <span class="o">=</span> <span class="s2">&quot;ibbl&quot;</span>
+    <span class="n">MTBL</span> <span class="o">=</span> <span class="s2">&quot;mtbl&quot;</span>
+    <span class="n">BKASH</span> <span class="o">=</span> <span class="p">(</span><span class="s2">&quot;bkash&quot;</span><span class="p">,)</span>
+    <span class="n">DBBL_MOBILE_BANKING</span> <span class="o">=</span> <span class="s2">&quot;dbblmobilebanking&quot;</span>
+    <span class="n">CITY</span> <span class="o">=</span> <span class="s2">&quot;city&quot;</span>
+    <span class="n">UPAY</span> <span class="o">=</span> <span class="s2">&quot;upay&quot;</span>
+    <span class="n">TAPNPAY</span> <span class="o">=</span> <span class="s2">&quot;tapnpay&quot;</span>
+    <span class="n">INTERNET_BANK</span> <span class="o">=</span> <span class="s2">&quot;internetbank&quot;</span>
+    <span class="n">MOBILE_BANK</span> <span class="o">=</span> <span class="s2">&quot;mobilebank&quot;</span>
+    <span class="n">OTHER_CARD</span> <span class="o">=</span> <span class="s2">&quot;othercard&quot;</span>
+    <span class="n">VISA_CARD</span> <span class="o">=</span> <span class="s2">&quot;visacard&quot;</span>
+    <span class="n">MASTER_CARD</span> <span class="o">=</span> <span class="s2">&quot;mastercard&quot;</span>
+    <span class="n">AMEX_CARD</span> <span class="o">=</span> <span class="s2">&quot;amexcard&quot;</span></div>
+
+
+<div class="viewcode-block" id="EMIOptionsEnum"><a class="viewcode-back" href="../../reference/sslcommerz_client.html#sslcommerz_client.dataclasses.EMIOptionsEnum">[docs]</a><span class="k">class</span> <span class="nc">EMIOptionsEnum</span><span class="p">(</span><span class="nb">int</span><span class="p">,</span> <span class="n">Enum</span><span class="p">):</span>
+    <span class="n">THREE_MONTHS</span> <span class="o">=</span> <span class="mi">3</span>
+    <span class="n">SIX_MONTHS</span> <span class="o">=</span> <span class="mi">6</span>
+    <span class="n">NINE_MONTHS</span> <span class="o">=</span> <span class="mi">9</span></div>
+
+
+<div class="viewcode-block" id="ShippingMethodEnum"><a class="viewcode-back" href="../../reference/sslcommerz_client.html#sslcommerz_client.dataclasses.ShippingMethodEnum">[docs]</a><span class="k">class</span> <span class="nc">ShippingMethodEnum</span><span class="p">(</span><span class="nb">str</span><span class="p">,</span> <span class="n">Enum</span><span class="p">):</span>
+    <span class="n">YES</span> <span class="o">=</span> <span class="s2">&quot;YES&quot;</span>
+    <span class="n">NO</span> <span class="o">=</span> <span class="s2">&quot;NO&quot;</span>
+    <span class="n">COURIER</span> <span class="o">=</span> <span class="s2">&quot;COURIER&quot;</span></div>
+
+
+<div class="viewcode-block" id="BooleanIntEnum"><a class="viewcode-back" href="../../reference/sslcommerz_client.html#sslcommerz_client.dataclasses.BooleanIntEnum">[docs]</a><span class="k">class</span> <span class="nc">BooleanIntEnum</span><span class="p">(</span><span class="nb">int</span><span class="p">,</span> <span class="n">Enum</span><span class="p">):</span>
+    <span class="n">TRUE</span> <span class="o">=</span> <span class="mi">1</span>
+    <span class="n">FALSE</span> <span class="o">=</span> <span class="mi">0</span></div>
+
+
+<div class="viewcode-block" id="ProductProfileEnum"><a class="viewcode-back" href="../../reference/sslcommerz_client.html#sslcommerz_client.dataclasses.ProductProfileEnum">[docs]</a><span class="k">class</span> <span class="nc">ProductProfileEnum</span><span class="p">(</span><span class="nb">str</span><span class="p">,</span> <span class="n">Enum</span><span class="p">):</span>
+    <span class="n">GENERAL</span> <span class="o">=</span> <span class="s2">&quot;general&quot;</span>
+    <span class="n">PHYSICAL_GOODS</span> <span class="o">=</span> <span class="s2">&quot;physical-goods&quot;</span>
+    <span class="n">NON_PHYSICAL_GOODS</span> <span class="o">=</span> <span class="s2">&quot;non-physical-goods&quot;</span>
+    <span class="n">AIRLINE_TICKETS</span> <span class="o">=</span> <span class="s2">&quot;airline-tickets&quot;</span>
+    <span class="n">TRAVEL_VERTICAL</span> <span class="o">=</span> <span class="s2">&quot;travel-vertical&quot;</span>
+    <span class="n">TELECOM_VERTICAL</span> <span class="o">=</span> <span class="s2">&quot;telecom-vertical&quot;</span></div>
+
+
+<div class="viewcode-block" id="Credential"><a class="viewcode-back" href="../../reference/sslcommerz_client.html#sslcommerz_client.dataclasses.Credential">[docs]</a><span class="k">class</span> <span class="nc">Credential</span><span class="p">(</span><span class="n">BaseModel</span><span class="p">):</span>
+    <span class="n">store_id</span><span class="p">:</span> <span class="nb">str</span>
+    <span class="n">store_passwd</span><span class="p">:</span> <span class="nb">str</span></div>
+
+
+<div class="viewcode-block" id="CartItem"><a class="viewcode-back" href="../../reference/sslcommerz_client.html#sslcommerz_client.dataclasses.CartItem">[docs]</a><span class="k">class</span> <span class="nc">CartItem</span><span class="p">(</span><span class="n">BaseModel</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Dataclass for cart items in PaymentInitPostData.&quot;&quot;&quot;</span>
+
+    <span class="n">product</span><span class="p">:</span> <span class="nb">str</span>
+    <span class="n">quantity</span><span class="p">:</span> <span class="nb">int</span>
+    <span class="n">amount</span><span class="p">:</span> <span class="n">Decimal</span>
+
+<div class="viewcode-block" id="CartItem.not_more_than_255"><a class="viewcode-back" href="../../reference/sslcommerz_client.html#sslcommerz_client.dataclasses.CartItem.not_more_than_255">[docs]</a>    <span class="nd">@validator</span><span class="p">(</span><span class="s2">&quot;product&quot;</span><span class="p">)</span>
+    <span class="k">def</span> <span class="nf">not_more_than_255</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">v</span><span class="p">,</span> <span class="n">field</span><span class="p">):</span>
+        <span class="k">if</span> <span class="n">v</span> <span class="ow">and</span> <span class="nb">len</span><span class="p">(</span><span class="n">v</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">255</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">field</span><span class="si">}</span><span class="s2"> can&#39;t be more than 255 characters&quot;</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">v</span></div>
+
+<div class="viewcode-block" id="CartItem.valid_decimal"><a class="viewcode-back" href="../../reference/sslcommerz_client.html#sslcommerz_client.dataclasses.CartItem.valid_decimal">[docs]</a>    <span class="nd">@validator</span><span class="p">(</span><span class="s2">&quot;amount&quot;</span><span class="p">)</span>
+    <span class="k">def</span> <span class="nf">valid_decimal</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">v</span><span class="p">,</span> <span class="n">field</span><span class="p">):</span>
+        <span class="n">val</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="nb">float</span><span class="p">(</span><span class="n">v</span><span class="p">))</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;.&quot;</span><span class="p">)</span>
+        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">val</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span> <span class="o">&gt;</span> <span class="mi">12</span> <span class="ow">or</span> <span class="nb">len</span><span class="p">(</span><span class="n">val</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span> <span class="o">&gt;</span> <span class="mi">2</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">field</span><span class="si">}</span><span class="s2"> must have a decimal maximum of (12,2).&quot;</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">v</span></div></div>
+
+
+<div class="viewcode-block" id="PaymentInitPostData"><a class="viewcode-back" href="../../reference/sslcommerz_client.html#sslcommerz_client.dataclasses.PaymentInitPostData">[docs]</a><span class="k">class</span> <span class="nc">PaymentInitPostData</span><span class="p">(</span><span class="n">BaseModel</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Dataclass for session initiation post data.&quot;&quot;&quot;</span>
+
+    <span class="c1"># Basic Fields</span>
+    <span class="n">total_amount</span><span class="p">:</span> <span class="n">Decimal</span>
+    <span class="n">currency</span><span class="p">:</span> <span class="nb">str</span>
+    <span class="n">tran_id</span><span class="p">:</span> <span class="nb">str</span>
+    <span class="n">product_category</span><span class="p">:</span> <span class="nb">str</span>
+    <span class="n">success_url</span><span class="p">:</span> <span class="n">AnyHttpUrl</span>
+    <span class="n">fail_url</span><span class="p">:</span> <span class="n">AnyHttpUrl</span>
+    <span class="n">cancel_url</span><span class="p">:</span> <span class="n">AnyHttpUrl</span>
+
+    <span class="c1"># EMI Fields</span>
+    <span class="n">emi_option</span><span class="p">:</span> <span class="n">BooleanIntEnum</span> <span class="o">=</span> <span class="n">BooleanIntEnum</span><span class="o">.</span><span class="n">FALSE</span>
+
+    <span class="c1"># Customer Information</span>
+    <span class="n">cus_name</span><span class="p">:</span> <span class="nb">str</span>
+    <span class="n">cus_email</span><span class="p">:</span> <span class="nb">str</span>
+    <span class="n">cus_add1</span><span class="p">:</span> <span class="nb">str</span>
+    <span class="n">cus_city</span><span class="p">:</span> <span class="nb">str</span>
+    <span class="n">cus_country</span><span class="p">:</span> <span class="nb">str</span>
+    <span class="n">cus_phone</span><span class="p">:</span> <span class="nb">str</span>
+
+    <span class="c1"># Shipping Method</span>
+    <span class="n">shipping_method</span><span class="p">:</span> <span class="n">ShippingMethodEnum</span> <span class="o">=</span> <span class="n">ShippingMethodEnum</span><span class="o">.</span><span class="n">YES</span>
+    <span class="n">num_of_item</span><span class="p">:</span> <span class="nb">int</span>
+
+    <span class="c1"># Product Information</span>
+    <span class="n">product_name</span><span class="p">:</span> <span class="nb">str</span>
+    <span class="n">product_category</span><span class="p">:</span> <span class="nb">str</span>
+    <span class="n">product_profile</span><span class="p">:</span> <span class="n">ProductProfileEnum</span>
+
+    <span class="c1"># Basic Fields Optional</span>
+    <span class="n">ipn_url</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span>
+    <span class="n">multi_card_name</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="n">MultiCardNamesEnum</span><span class="p">]</span>
+    <span class="n">allowed_bin</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span>
+
+    <span class="c1"># EMI Optional</span>
+    <span class="n">emi_max_inst_option</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="n">EMIOptionsEnum</span><span class="p">]</span>
+    <span class="n">emi_selected_inst</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="n">EMIOptionsEnum</span><span class="p">]</span>
+    <span class="n">emi_allow_only</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">int</span><span class="p">]</span>
+
+    <span class="c1"># Customer Optional</span>
+    <span class="n">cus_add2</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span>
+    <span class="n">cus_postcode</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span>
+    <span class="n">cus_state</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span>
+    <span class="n">cus_fax</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span>
+
+    <span class="c1"># Shipping Method Optional</span>
+    <span class="n">ship_name</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span>
+    <span class="n">ship_add1</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span>
+    <span class="n">ship_add2</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span>
+    <span class="n">ship_city</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span>
+    <span class="n">ship_postcode</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span>
+    <span class="n">ship_country</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span>
+    <span class="n">ship_phone</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span>
+    <span class="n">ship_state</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span>
+
+    <span class="c1"># Product Information Optional</span>
+    <span class="n">hours_till_departure</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span>
+    <span class="n">flight_type</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span>
+    <span class="n">pnr</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span>
+    <span class="n">journey_from_to</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span>
+    <span class="n">third_party_booking</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span>
+    <span class="n">hotel_name</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span>
+    <span class="n">length_of_stay</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span>
+    <span class="n">check_in_time</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span>
+    <span class="n">hotel_city</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span>
+    <span class="n">product_type</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span>
+    <span class="n">topup_number</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span>
+    <span class="n">country_topup</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span>
+    <span class="n">cart</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="n">List</span><span class="p">[</span><span class="n">CartItem</span><span class="p">]]</span>
+    <span class="n">product_amount</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="n">Decimal</span><span class="p">]</span>
+    <span class="n">vat</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="n">Decimal</span><span class="p">]</span>
+    <span class="n">discount_amount</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="n">Decimal</span><span class="p">]</span>
+    <span class="n">convenience_fee</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="n">Decimal</span><span class="p">]</span>
+
+    <span class="c1"># Additional Optional</span>
+    <span class="n">value_a</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span>
+    <span class="n">value_b</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span>
+    <span class="n">value_c</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span>
+    <span class="n">value_d</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span>
+
+<div class="viewcode-block" id="PaymentInitPostData.Config"><a class="viewcode-back" href="../../reference/sslcommerz_client.html#sslcommerz_client.dataclasses.PaymentInitPostData.Config">[docs]</a>    <span class="k">class</span> <span class="nc">Config</span><span class="p">:</span>
+        <span class="n">arbitrary_types_allowed</span> <span class="o">=</span> <span class="kc">True</span></div>
+
+<div class="viewcode-block" id="PaymentInitPostData.validate_based_on_shipping_method"><a class="viewcode-back" href="../../reference/sslcommerz_client.html#sslcommerz_client.dataclasses.PaymentInitPostData.validate_based_on_shipping_method">[docs]</a>    <span class="nd">@validator</span><span class="p">(</span>
+        <span class="s2">&quot;ship_name&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;ship_add1&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;ship_city&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;ship_postcode&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;ship_country&quot;</span><span class="p">,</span>
+        <span class="n">always</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span>
+    <span class="p">)</span>
+    <span class="k">def</span> <span class="nf">validate_based_on_shipping_method</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">v</span><span class="p">,</span> <span class="n">field</span><span class="p">,</span> <span class="n">values</span><span class="p">):</span>
+        <span class="n">shipping</span> <span class="o">=</span> <span class="n">values</span><span class="p">[</span><span class="s2">&quot;shipping_method&quot;</span><span class="p">]</span> <span class="o">==</span> <span class="n">ShippingMethodEnum</span><span class="o">.</span><span class="n">YES</span>
+        <span class="k">if</span> <span class="n">shipping</span><span class="p">:</span>
+            <span class="k">if</span> <span class="ow">not</span> <span class="n">v</span><span class="p">:</span>
+                <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span>
+                    <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">field</span><span class="si">}</span><span class="s2"> should be provided if shipping_method set to &#39;YES&#39;&quot;</span>
+                <span class="p">)</span>
+            <span class="k">elif</span> <span class="nb">len</span><span class="p">(</span><span class="n">v</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">50</span><span class="p">:</span>
+                <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">field</span><span class="si">}</span><span class="s2"> can&#39;t be more than 50 characters&quot;</span><span class="p">)</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">shipping</span> <span class="ow">and</span> <span class="n">v</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span>
+                <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">field</span><span class="si">}</span><span class="s2"> should be omitted if shipping_method not set to &#39;YES&#39;&quot;</span>
+            <span class="p">)</span>
+        <span class="k">return</span> <span class="n">v</span></div>
+
+<div class="viewcode-block" id="PaymentInitPostData.not_more_than_three"><a class="viewcode-back" href="../../reference/sslcommerz_client.html#sslcommerz_client.dataclasses.PaymentInitPostData.not_more_than_three">[docs]</a>    <span class="nd">@validator</span><span class="p">(</span>
+        <span class="s2">&quot;currency&quot;</span><span class="p">,</span>
+    <span class="p">)</span>
+    <span class="k">def</span> <span class="nf">not_more_than_three</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">v</span><span class="p">,</span> <span class="n">field</span><span class="p">):</span>
+        <span class="k">if</span> <span class="n">v</span> <span class="ow">and</span> <span class="nb">len</span><span class="p">(</span><span class="n">v</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">3</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">field</span><span class="si">}</span><span class="s2"> can&#39;t be more than 3 characters&quot;</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">v</span></div>
+
+<div class="viewcode-block" id="PaymentInitPostData.not_more_than_thirty"><a class="viewcode-back" href="../../reference/sslcommerz_client.html#sslcommerz_client.dataclasses.PaymentInitPostData.not_more_than_thirty">[docs]</a>    <span class="nd">@validator</span><span class="p">(</span>
+        <span class="s2">&quot;tran_id&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;cus_postcode&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;hours_till_departure&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;length_of_stay&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;check_in_time&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;product_type&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;country_topup&quot;</span><span class="p">,</span>
+    <span class="p">)</span>
+    <span class="k">def</span> <span class="nf">not_more_than_thirty</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">v</span><span class="p">,</span> <span class="n">field</span><span class="p">):</span>
+        <span class="k">if</span> <span class="n">v</span> <span class="ow">and</span> <span class="nb">len</span><span class="p">(</span><span class="n">v</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">30</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">field</span><span class="si">}</span><span class="s2"> can&#39;t be more than 30 characters&quot;</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">v</span></div>
+
+<div class="viewcode-block" id="PaymentInitPostData.not_more_than_fifty"><a class="viewcode-back" href="../../reference/sslcommerz_client.html#sslcommerz_client.dataclasses.PaymentInitPostData.not_more_than_fifty">[docs]</a>    <span class="nd">@validator</span><span class="p">(</span>
+        <span class="s2">&quot;product_category&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;cus_name&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;cus_email&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;cus_add1&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;cus_add2&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;cus_city&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;cus_state&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;cus_country&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;ship_add2&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;ship_state&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;pnr&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;hotel_city&quot;</span><span class="p">,</span>
+    <span class="p">)</span>
+    <span class="k">def</span> <span class="nf">not_more_than_fifty</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">v</span><span class="p">,</span> <span class="n">field</span><span class="p">):</span>
+        <span class="k">if</span> <span class="n">v</span> <span class="ow">and</span> <span class="nb">len</span><span class="p">(</span><span class="n">v</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">50</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">field</span><span class="si">}</span><span class="s2"> can&#39;t be more than 50 characters&quot;</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">v</span></div>
+
+<div class="viewcode-block" id="PaymentInitPostData.not_more_than_hundred"><a class="viewcode-back" href="../../reference/sslcommerz_client.html#sslcommerz_client.dataclasses.PaymentInitPostData.not_more_than_hundred">[docs]</a>    <span class="nd">@validator</span><span class="p">(</span><span class="s2">&quot;product_profile&quot;</span><span class="p">,</span> <span class="s2">&quot;product_category&quot;</span><span class="p">)</span>
+    <span class="k">def</span> <span class="nf">not_more_than_hundred</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">v</span><span class="p">,</span> <span class="n">field</span><span class="p">):</span>
+        <span class="k">if</span> <span class="n">v</span> <span class="ow">and</span> <span class="nb">len</span><span class="p">(</span><span class="n">v</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">100</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">field</span><span class="si">}</span><span class="s2"> can&#39;t be more than 100 characters&quot;</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">v</span></div>
+
+<div class="viewcode-block" id="PaymentInitPostData.not_more_than_hundred_fifty"><a class="viewcode-back" href="../../reference/sslcommerz_client.html#sslcommerz_client.dataclasses.PaymentInitPostData.not_more_than_hundred_fifty">[docs]</a>    <span class="nd">@validator</span><span class="p">(</span><span class="s2">&quot;topup_number&quot;</span><span class="p">)</span>
+    <span class="k">def</span> <span class="nf">not_more_than_hundred_fifty</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">v</span><span class="p">,</span> <span class="n">field</span><span class="p">):</span>
+        <span class="k">if</span> <span class="n">v</span> <span class="ow">and</span> <span class="nb">len</span><span class="p">(</span><span class="n">v</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">150</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">field</span><span class="si">}</span><span class="s2"> can&#39;t be more than 150 characters&quot;</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">v</span></div>
+
+<div class="viewcode-block" id="PaymentInitPostData.not_more_than_255"><a class="viewcode-back" href="../../reference/sslcommerz_client.html#sslcommerz_client.dataclasses.PaymentInitPostData.not_more_than_255">[docs]</a>    <span class="nd">@validator</span><span class="p">(</span>
+        <span class="s2">&quot;success_url&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;fail_url&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;cancel_url&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;ipn_url&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;allowed_bin&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;product_name&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;journey_from_to&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;hotel_name&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;value_a&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;value_b&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;value_c&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;value_d&quot;</span><span class="p">,</span>
+    <span class="p">)</span>
+    <span class="k">def</span> <span class="nf">not_more_than_255</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">v</span><span class="p">,</span> <span class="n">field</span><span class="p">):</span>
+        <span class="k">if</span> <span class="n">v</span> <span class="ow">and</span> <span class="nb">len</span><span class="p">(</span><span class="n">v</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">255</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">field</span><span class="si">}</span><span class="s2"> can&#39;t be more than 255 characters&quot;</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">v</span></div>
+
+<div class="viewcode-block" id="PaymentInitPostData.valid_decimal"><a class="viewcode-back" href="../../reference/sslcommerz_client.html#sslcommerz_client.dataclasses.PaymentInitPostData.valid_decimal">[docs]</a>    <span class="nd">@validator</span><span class="p">(</span>
+        <span class="s2">&quot;total_amount&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;product_amount&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;vat&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;discount_amount&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;convenience_fee&quot;</span><span class="p">,</span>
+    <span class="p">)</span>
+    <span class="k">def</span> <span class="nf">valid_decimal</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">v</span><span class="p">,</span> <span class="n">field</span><span class="p">):</span>
+        <span class="n">val</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="nb">float</span><span class="p">(</span><span class="n">v</span><span class="p">))</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;.&quot;</span><span class="p">)</span>
+        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">val</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span> <span class="o">&gt;</span> <span class="mi">10</span> <span class="ow">or</span> <span class="nb">len</span><span class="p">(</span><span class="n">val</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span> <span class="o">&gt;</span> <span class="mi">2</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">field</span><span class="si">}</span><span class="s2"> must have a decimal maximum of (10,2).&quot;</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">v</span></div>
+
+<div class="viewcode-block" id="PaymentInitPostData.valid_emi_allow_only"><a class="viewcode-back" href="../../reference/sslcommerz_client.html#sslcommerz_client.dataclasses.PaymentInitPostData.valid_emi_allow_only">[docs]</a>    <span class="nd">@validator</span><span class="p">(</span><span class="s2">&quot;emi_allow_only&quot;</span><span class="p">,</span> <span class="n">always</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+    <span class="k">def</span> <span class="nf">valid_emi_allow_only</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">v</span><span class="p">,</span> <span class="n">values</span><span class="p">,</span> <span class="n">field</span><span class="p">):</span>
+        <span class="n">emi</span> <span class="o">=</span> <span class="kc">False</span>
+        <span class="k">if</span> <span class="s2">&quot;emi_option&quot;</span> <span class="ow">in</span> <span class="n">values</span> <span class="ow">and</span> <span class="n">values</span><span class="p">[</span><span class="s2">&quot;emi_option&quot;</span><span class="p">]</span> <span class="o">==</span> <span class="n">BooleanIntEnum</span><span class="o">.</span><span class="n">TRUE</span><span class="p">:</span>
+            <span class="n">emi</span> <span class="o">=</span> <span class="kc">True</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">emi</span> <span class="ow">and</span> <span class="n">v</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="n">ValidationError</span><span class="p">(</span><span class="s2">&quot;emi_option should be enabled to use this field&quot;</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">v</span></div>
+
+<div class="viewcode-block" id="PaymentInitPostData.validate_num_of_item"><a class="viewcode-back" href="../../reference/sslcommerz_client.html#sslcommerz_client.dataclasses.PaymentInitPostData.validate_num_of_item">[docs]</a>    <span class="nd">@validator</span><span class="p">(</span><span class="s2">&quot;num_of_item&quot;</span><span class="p">)</span>
+    <span class="k">def</span> <span class="nf">validate_num_of_item</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">v</span><span class="p">):</span>
+        <span class="k">if</span> <span class="n">v</span> <span class="o">&gt;</span> <span class="mi">99</span> <span class="ow">or</span> <span class="n">v</span> <span class="o">&lt;</span> <span class="mi">0</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span>
+                <span class="s2">&quot;num_of_item should be of maximum two digits and a positive integer.&quot;</span>
+            <span class="p">)</span>
+        <span class="k">return</span> <span class="n">v</span></div>
+
+<div class="viewcode-block" id="PaymentInitPostData.mandatory_if_airline_tickets"><a class="viewcode-back" href="../../reference/sslcommerz_client.html#sslcommerz_client.dataclasses.PaymentInitPostData.mandatory_if_airline_tickets">[docs]</a>    <span class="nd">@validator</span><span class="p">(</span>
+        <span class="s2">&quot;hours_till_departure&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;flight_type&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;pnr&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;journey_from_to&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;third_party_booking&quot;</span><span class="p">,</span>
+    <span class="p">)</span>
+    <span class="k">def</span> <span class="nf">mandatory_if_airline_tickets</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">v</span><span class="p">,</span> <span class="n">field</span><span class="p">,</span> <span class="n">values</span><span class="p">):</span>
+        <span class="k">if</span> <span class="n">values</span><span class="p">[</span><span class="s2">&quot;product_profile&quot;</span><span class="p">]</span> <span class="o">==</span> <span class="n">ProductProfileEnum</span><span class="o">.</span><span class="n">AIRLINE_TICKETS</span> <span class="ow">and</span> <span class="ow">not</span> <span class="n">v</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span>
+                <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">field</span><span class="si">}</span><span class="s2"> is required if product_profile is </span><span class="si">{</span><span class="n">ProductProfileEnum</span><span class="o">.</span><span class="n">AIRLINE_TICKETS</span><span class="si">}</span><span class="s2">&quot;</span>
+            <span class="p">)</span>
+        <span class="k">if</span> <span class="n">values</span><span class="p">[</span><span class="s2">&quot;product_profile&quot;</span><span class="p">]</span> <span class="o">!=</span> <span class="n">ProductProfileEnum</span><span class="o">.</span><span class="n">AIRLINE_TICKETS</span> <span class="ow">and</span> <span class="n">v</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span>
+                <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">field</span><span class="si">}</span><span class="s2"> should be omitted if product_profile is </span><span class="si">{</span><span class="n">ProductProfileEnum</span><span class="o">.</span><span class="n">AIRLINE_TICKETS</span><span class="si">}</span><span class="s2">&quot;</span>
+            <span class="p">)</span>
+        <span class="k">return</span> <span class="n">v</span></div>
+
+<div class="viewcode-block" id="PaymentInitPostData.mandatory_if_travel_vertical"><a class="viewcode-back" href="../../reference/sslcommerz_client.html#sslcommerz_client.dataclasses.PaymentInitPostData.mandatory_if_travel_vertical">[docs]</a>    <span class="nd">@validator</span><span class="p">(</span>
+        <span class="s2">&quot;hotel_name&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;length_of_stay&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;check_in_time&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;hotel_city&quot;</span><span class="p">,</span>
+    <span class="p">)</span>
+    <span class="k">def</span> <span class="nf">mandatory_if_travel_vertical</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">v</span><span class="p">,</span> <span class="n">field</span><span class="p">,</span> <span class="n">values</span><span class="p">):</span>
+        <span class="k">if</span> <span class="n">values</span><span class="p">[</span><span class="s2">&quot;product_profile&quot;</span><span class="p">]</span> <span class="o">==</span> <span class="n">ProductProfileEnum</span><span class="o">.</span><span class="n">TRAVEL_VERTICAL</span> <span class="ow">and</span> <span class="ow">not</span> <span class="n">v</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span>
+                <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">field</span><span class="si">}</span><span class="s2"> is required if product_profile is </span><span class="si">{</span><span class="n">ProductProfileEnum</span><span class="o">.</span><span class="n">TRAVEL_VERTICAL</span><span class="si">}</span><span class="s2">&quot;</span>
+            <span class="p">)</span>
+        <span class="k">if</span> <span class="n">values</span><span class="p">[</span><span class="s2">&quot;product_profile&quot;</span><span class="p">]</span> <span class="o">!=</span> <span class="n">ProductProfileEnum</span><span class="o">.</span><span class="n">TRAVEL_VERTICAL</span> <span class="ow">and</span> <span class="n">v</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span>
+                <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">field</span><span class="si">}</span><span class="s2"> should be omitted if product_profile is </span><span class="si">{</span><span class="n">ProductProfileEnum</span><span class="o">.</span><span class="n">TRAVEL_VERTICAL</span><span class="si">}</span><span class="s2">&quot;</span>
+            <span class="p">)</span>
+        <span class="k">return</span> <span class="n">v</span></div>
+
+<div class="viewcode-block" id="PaymentInitPostData.mandatory_if_telecom_vertical"><a class="viewcode-back" href="../../reference/sslcommerz_client.html#sslcommerz_client.dataclasses.PaymentInitPostData.mandatory_if_telecom_vertical">[docs]</a>    <span class="nd">@validator</span><span class="p">(</span>
+        <span class="s2">&quot;product_type&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;topup_number&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;country_topup&quot;</span><span class="p">,</span>
+    <span class="p">)</span>
+    <span class="k">def</span> <span class="nf">mandatory_if_telecom_vertical</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">v</span><span class="p">,</span> <span class="n">field</span><span class="p">,</span> <span class="n">values</span><span class="p">):</span>
+        <span class="k">if</span> <span class="n">values</span><span class="p">[</span><span class="s2">&quot;product_profile&quot;</span><span class="p">]</span> <span class="o">==</span> <span class="n">ProductProfileEnum</span><span class="o">.</span><span class="n">TELECOM_VERTICAL</span> <span class="ow">and</span> <span class="ow">not</span> <span class="n">v</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span>
+                <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">field</span><span class="si">}</span><span class="s2"> is required if product_profile is </span><span class="si">{</span><span class="n">ProductProfileEnum</span><span class="o">.</span><span class="n">TELECOM_VERTICAL</span><span class="si">}</span><span class="s2">&quot;</span>
+            <span class="p">)</span>
+        <span class="k">if</span> <span class="n">values</span><span class="p">[</span><span class="s2">&quot;product_profile&quot;</span><span class="p">]</span> <span class="o">!=</span> <span class="n">ProductProfileEnum</span><span class="o">.</span><span class="n">TRAVEL_VERTICAL</span> <span class="ow">and</span> <span class="n">v</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span>
+                <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">field</span><span class="si">}</span><span class="s2"> should be omitted if product_profile is </span><span class="si">{</span><span class="n">ProductProfileEnum</span><span class="o">.</span><span class="n">TELECOM_VERTICAL</span><span class="si">}</span><span class="s2">&quot;</span>
+            <span class="p">)</span>
+        <span class="k">return</span> <span class="n">v</span></div>
+
+<div class="viewcode-block" id="PaymentInitPostData.check_cart_items"><a class="viewcode-back" href="../../reference/sslcommerz_client.html#sslcommerz_client.dataclasses.PaymentInitPostData.check_cart_items">[docs]</a>    <span class="nd">@validator</span><span class="p">(</span><span class="s2">&quot;cart&quot;</span><span class="p">)</span>
+    <span class="k">def</span> <span class="nf">check_cart_items</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">v</span><span class="p">):</span>
+        <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">v</span><span class="p">:</span>
+            <span class="n">v</span><span class="o">.</span><span class="n">validate</span><span class="p">()</span>
+        <span class="k">return</span> <span class="n">v</span></div></div>
+
+
+<div class="viewcode-block" id="ResponseStatusEnum"><a class="viewcode-back" href="../../reference/sslcommerz_client.html#sslcommerz_client.dataclasses.ResponseStatusEnum">[docs]</a><span class="k">class</span> <span class="nc">ResponseStatusEnum</span><span class="p">(</span><span class="nb">str</span><span class="p">,</span> <span class="n">Enum</span><span class="p">):</span>
+    <span class="n">SUCCESS</span> <span class="o">=</span> <span class="s2">&quot;SUCCESS&quot;</span>
+    <span class="n">FAILED</span> <span class="o">=</span> <span class="s2">&quot;FAILED&quot;</span></div>
+
+
+<div class="viewcode-block" id="Gateway"><a class="viewcode-back" href="../../reference/sslcommerz_client.html#sslcommerz_client.dataclasses.Gateway">[docs]</a><span class="k">class</span> <span class="nc">Gateway</span><span class="p">(</span><span class="n">BaseModel</span><span class="p">):</span>
+    <span class="n">name</span><span class="p">:</span> <span class="nb">str</span>
+    <span class="nb">type</span><span class="p">:</span> <span class="nb">str</span>
+    <span class="n">logo</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span>
+    <span class="n">gw</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span>
+    <span class="n">r_flag</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span>
+    <span class="n">redirectGatewayURL</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span></div>
+
+
+<div class="viewcode-block" id="PaymentInitResponse"><a class="viewcode-back" href="../../reference/sslcommerz_client.html#sslcommerz_client.dataclasses.PaymentInitResponse">[docs]</a><span class="k">class</span> <span class="nc">PaymentInitResponse</span><span class="p">(</span><span class="n">BaseModel</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Payment initiation response as a dataclass.&quot;&quot;&quot;</span>
+
+    <span class="n">status</span><span class="p">:</span> <span class="n">ResponseStatusEnum</span>
+    <span class="n">failedreason</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span>
+    <span class="n">sessionkey</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span>
+    <span class="n">gw</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="n">Any</span><span class="p">]</span>
+    <span class="n">redirectGatewayURL</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span>
+    <span class="n">directPaymentURLBank</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span>
+    <span class="n">directPaymentURLCard</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span>
+    <span class="n">directPaymentURL</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span>
+    <span class="n">redirectGatewayURLFailed</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span>
+    <span class="n">GatewayPageURL</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span>
+    <span class="n">storeBanner</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span>
+    <span class="n">storeLogo</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span>
+    <span class="n">desc</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="n">List</span><span class="p">[</span><span class="n">Gateway</span><span class="p">]]</span>
+
+<div class="viewcode-block" id="PaymentInitResponse.Config"><a class="viewcode-back" href="../../reference/sslcommerz_client.html#sslcommerz_client.dataclasses.PaymentInitResponse.Config">[docs]</a>    <span class="k">class</span> <span class="nc">Config</span><span class="p">:</span>
+        <span class="n">arbitrary_types_allowed</span> <span class="o">=</span> <span class="kc">True</span></div></div>
+
+
+<div class="viewcode-block" id="IPNOrderStatusEnum"><a class="viewcode-back" href="../../reference/sslcommerz_client.html#sslcommerz_client.dataclasses.IPNOrderStatusEnum">[docs]</a><span class="k">class</span> <span class="nc">IPNOrderStatusEnum</span><span class="p">(</span><span class="nb">str</span><span class="p">,</span> <span class="n">Enum</span><span class="p">):</span>
+    <span class="n">VALID</span> <span class="o">=</span> <span class="s2">&quot;VALID&quot;</span>
+    <span class="n">FAILED</span> <span class="o">=</span> <span class="s2">&quot;FAILED&quot;</span>
+    <span class="n">CANCELLED</span> <span class="o">=</span> <span class="s2">&quot;CANCELLED&quot;</span>
+    <span class="n">UNATTEMPTED</span> <span class="o">=</span> <span class="s2">&quot;UNATTEMPTED&quot;</span>
+    <span class="n">EXPIRED</span> <span class="o">=</span> <span class="s2">&quot;EXPIRED&quot;</span></div>
+
+
+<div class="viewcode-block" id="OrderStatusEnum"><a class="viewcode-back" href="../../reference/sslcommerz_client.html#sslcommerz_client.dataclasses.OrderStatusEnum">[docs]</a><span class="k">class</span> <span class="nc">OrderStatusEnum</span><span class="p">(</span><span class="nb">str</span><span class="p">,</span> <span class="n">Enum</span><span class="p">):</span>
+    <span class="n">VALID</span> <span class="o">=</span> <span class="s2">&quot;VALID&quot;</span>
+    <span class="n">VALIDATED</span> <span class="o">=</span> <span class="s2">&quot;VALIDATED&quot;</span>
+    <span class="n">INVALID_TRANSACTION</span> <span class="o">=</span> <span class="s2">&quot;INVALID_TRANSACTION&quot;</span></div>
+
+
+<div class="viewcode-block" id="CardBrandEnum"><a class="viewcode-back" href="../../reference/sslcommerz_client.html#sslcommerz_client.dataclasses.CardBrandEnum">[docs]</a><span class="k">class</span> <span class="nc">CardBrandEnum</span><span class="p">(</span><span class="nb">str</span><span class="p">,</span> <span class="n">Enum</span><span class="p">):</span>
+    <span class="n">VISA</span> <span class="o">=</span> <span class="s2">&quot;VISA&quot;</span>
+    <span class="n">MASTER</span> <span class="o">=</span> <span class="s2">&quot;MASTER&quot;</span>
+    <span class="n">AMEX</span> <span class="o">=</span> <span class="s2">&quot;AMEX&quot;</span>
+    <span class="n">IB</span> <span class="o">=</span> <span class="s2">&quot;IB&quot;</span>
+    <span class="n">MOBILE_BANKING</span> <span class="o">=</span> <span class="s2">&quot;MOBILE BANKING&quot;</span></div>
+
+
+<div class="viewcode-block" id="RiskLevelEnum"><a class="viewcode-back" href="../../reference/sslcommerz_client.html#sslcommerz_client.dataclasses.RiskLevelEnum">[docs]</a><span class="k">class</span> <span class="nc">RiskLevelEnum</span><span class="p">(</span><span class="nb">int</span><span class="p">,</span> <span class="n">Enum</span><span class="p">):</span>
+    <span class="n">HIGH</span> <span class="o">=</span> <span class="mi">1</span>
+    <span class="n">LOW</span> <span class="o">=</span> <span class="mi">0</span></div>
+
+
+<div class="viewcode-block" id="BaseOrderResponse"><a class="viewcode-back" href="../../reference/sslcommerz_client.html#sslcommerz_client.dataclasses.BaseOrderResponse">[docs]</a><span class="k">class</span> <span class="nc">BaseOrderResponse</span><span class="p">(</span><span class="n">BaseModel</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Base dataclass for Order and IPN.&quot;&quot;&quot;</span>
+
+    <span class="n">tran_date</span><span class="p">:</span> <span class="n">datetime</span>
+    <span class="n">tran_id</span><span class="p">:</span> <span class="nb">str</span>
+    <span class="n">val_id</span><span class="p">:</span> <span class="nb">str</span>
+    <span class="n">amount</span><span class="p">:</span> <span class="n">Decimal</span>
+    <span class="n">store_amount</span><span class="p">:</span> <span class="n">Decimal</span>
+    <span class="n">card_type</span><span class="p">:</span> <span class="nb">str</span>
+    <span class="n">card_no</span><span class="p">:</span> <span class="nb">str</span>
+    <span class="n">currency</span><span class="p">:</span> <span class="nb">str</span>
+    <span class="n">bank_tran_id</span><span class="p">:</span> <span class="nb">str</span>
+    <span class="n">card_issuer</span><span class="p">:</span> <span class="nb">str</span>
+    <span class="n">card_brand</span><span class="p">:</span> <span class="n">CardBrandEnum</span>
+    <span class="n">card_issuer_country</span><span class="p">:</span> <span class="nb">str</span>
+    <span class="n">card_issuer_country_code</span><span class="p">:</span> <span class="nb">str</span>
+    <span class="n">currency_type</span><span class="p">:</span> <span class="nb">str</span>
+    <span class="n">currency_amount</span><span class="p">:</span> <span class="n">Decimal</span>
+    <span class="n">risk_level</span><span class="p">:</span> <span class="n">RiskLevelEnum</span>
+    <span class="n">risk_title</span><span class="p">:</span> <span class="nb">str</span>
+
+    <span class="n">value_a</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span>
+    <span class="n">value_b</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span>
+    <span class="n">value_c</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span>
+    <span class="n">value_d</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span></div>
+
+
+<div class="viewcode-block" id="IPNResponse"><a class="viewcode-back" href="../../reference/sslcommerz_client.html#sslcommerz_client.dataclasses.IPNResponse">[docs]</a><span class="k">class</span> <span class="nc">IPNResponse</span><span class="p">(</span><span class="n">BaseOrderResponse</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;IPN response dataclass with validation&quot;&quot;&quot;</span>
+
+    <span class="n">status</span><span class="p">:</span> <span class="n">IPNOrderStatusEnum</span>
+    <span class="n">verify_sign</span><span class="p">:</span> <span class="nb">str</span>
+    <span class="n">verify_key</span><span class="p">:</span> <span class="nb">str</span>
+
+<div class="viewcode-block" id="IPNResponse.validate_against_credential"><a class="viewcode-back" href="../../reference/sslcommerz_client.html#sslcommerz_client.dataclasses.IPNResponse.validate_against_credential">[docs]</a>    <span class="k">def</span> <span class="nf">validate_against_credential</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">credential</span><span class="p">:</span> <span class="n">Union</span><span class="p">[</span><span class="n">Credential</span><span class="p">,</span> <span class="nb">dict</span><span class="p">]):</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">credential</span><span class="p">,</span> <span class="n">Credential</span><span class="p">):</span>
+            <span class="n">credential</span> <span class="o">=</span> <span class="n">Credential</span><span class="p">(</span><span class="o">**</span><span class="n">credential</span><span class="p">)</span>
+        <span class="n">keys</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">verify_key</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;,&quot;</span><span class="p">)</span>
+        <span class="n">keys</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s2">&quot;store_passwd&quot;</span><span class="p">)</span>
+        <span class="n">keys</span> <span class="o">=</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">keys</span><span class="p">)</span>
+        <span class="n">data</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="k">for</span> <span class="n">key</span> <span class="ow">in</span> <span class="n">keys</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">key</span> <span class="o">==</span> <span class="s2">&quot;store_passwd&quot;</span><span class="p">:</span>
+                <span class="n">data</span><span class="o">.</span><span class="n">append</span><span class="p">((</span><span class="n">key</span><span class="p">,</span> <span class="n">md5</span><span class="p">(</span><span class="n">credential</span><span class="o">.</span><span class="n">store_passwd</span><span class="p">)</span><span class="o">.</span><span class="n">hexdigest</span><span class="p">))</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="n">data</span><span class="o">.</span><span class="n">append</span><span class="p">((</span><span class="n">key</span><span class="p">,</span> <span class="nb">getattr</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">key</span><span class="p">)))</span>
+        <span class="n">hash_string</span> <span class="o">=</span> <span class="s2">&quot;&amp;&quot;</span><span class="o">.</span><span class="n">join</span><span class="p">([</span><span class="n">v</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="s2">&quot;=&quot;</span><span class="p">)</span> <span class="k">for</span> <span class="n">v</span> <span class="ow">in</span> <span class="n">data</span><span class="p">])</span>
+        <span class="n">hash_string</span> <span class="o">=</span> <span class="n">md5</span><span class="p">(</span><span class="n">hash_string</span><span class="o">.</span><span class="n">encode</span><span class="p">())</span><span class="o">.</span><span class="n">hexdigest</span><span class="p">()</span>
+        <span class="k">return</span> <span class="n">hash_string</span> <span class="o">==</span> <span class="bp">self</span><span class="o">.</span><span class="n">verify_sign</span></div></div>
+
+
+<div class="viewcode-block" id="IPNValidationStatus"><a class="viewcode-back" href="../../reference/sslcommerz_client.html#sslcommerz_client.dataclasses.IPNValidationStatus">[docs]</a><span class="k">class</span> <span class="nc">IPNValidationStatus</span><span class="p">(</span><span class="n">BaseModel</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;IPN validation result&#39;s dataclass.&quot;&quot;&quot;</span>
+
+    <span class="n">status</span><span class="p">:</span> <span class="nb">bool</span>
+    <span class="n">response</span><span class="p">:</span> <span class="n">IPNResponse</span>
+
+<div class="viewcode-block" id="IPNValidationStatus.Config"><a class="viewcode-back" href="../../reference/sslcommerz_client.html#sslcommerz_client.dataclasses.IPNValidationStatus.Config">[docs]</a>    <span class="k">class</span> <span class="nc">Config</span><span class="p">:</span>
+        <span class="n">arbitrary_types_allowed</span> <span class="o">=</span> <span class="kc">True</span></div></div>
+
+
+<div class="viewcode-block" id="OrderValidationPostData"><a class="viewcode-back" href="../../reference/sslcommerz_client.html#sslcommerz_client.dataclasses.OrderValidationPostData">[docs]</a><span class="k">class</span> <span class="nc">OrderValidationPostData</span><span class="p">(</span><span class="n">BaseModel</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Dataclass for Order validation API post data.&quot;&quot;&quot;</span>
+
+    <span class="n">val_id</span><span class="p">:</span> <span class="nb">str</span>
+    <span class="n">v</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">int</span><span class="p">]</span>
+
+<div class="viewcode-block" id="OrderValidationPostData.not_more_than_fifty"><a class="viewcode-back" href="../../reference/sslcommerz_client.html#sslcommerz_client.dataclasses.OrderValidationPostData.not_more_than_fifty">[docs]</a>    <span class="nd">@validator</span><span class="p">(</span><span class="s2">&quot;val_id&quot;</span><span class="p">)</span>
+    <span class="k">def</span> <span class="nf">not_more_than_fifty</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">v</span><span class="p">,</span> <span class="n">field</span><span class="p">):</span>
+        <span class="k">if</span> <span class="n">v</span> <span class="ow">and</span> <span class="nb">len</span><span class="p">(</span><span class="n">v</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">50</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">field</span><span class="si">}</span><span class="s2"> can&#39;t be more than 50 characters&quot;</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">v</span></div>
+
+<div class="viewcode-block" id="OrderValidationPostData.validate_v"><a class="viewcode-back" href="../../reference/sslcommerz_client.html#sslcommerz_client.dataclasses.OrderValidationPostData.validate_v">[docs]</a>    <span class="nd">@validator</span><span class="p">(</span><span class="s2">&quot;v&quot;</span><span class="p">)</span>
+    <span class="k">def</span> <span class="nf">validate_v</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">v</span><span class="p">):</span>
+        <span class="k">if</span> <span class="n">v</span> <span class="o">&lt;</span> <span class="mi">0</span> <span class="ow">or</span> <span class="n">v</span> <span class="o">&gt;</span> <span class="mi">9</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s2">&quot;v must be an one digit positive integer&quot;</span><span class="p">)</span></div></div>
+
+
+<div class="viewcode-block" id="OrderValidationResponse"><a class="viewcode-back" href="../../reference/sslcommerz_client.html#sslcommerz_client.dataclasses.OrderValidationResponse">[docs]</a><span class="k">class</span> <span class="nc">OrderValidationResponse</span><span class="p">(</span><span class="n">BaseOrderResponse</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Order validation response.&quot;&quot;&quot;</span>
+
+    <span class="n">status</span><span class="p">:</span> <span class="n">OrderStatusEnum</span>
+    <span class="n">emi_instalment</span><span class="p">:</span> <span class="n">EMIOptionsEnum</span>
+    <span class="n">emi_amount</span><span class="p">:</span> <span class="n">Decimal</span>
+    <span class="n">discount_amount</span><span class="p">:</span> <span class="n">Decimal</span>
+    <span class="n">discount_percentage</span><span class="p">:</span> <span class="n">Decimal</span>
+    <span class="n">discount_remarks</span><span class="p">:</span> <span class="nb">str</span></div>
+
+
+<div class="viewcode-block" id="RefundRequestPostData"><a class="viewcode-back" href="../../reference/sslcommerz_client.html#sslcommerz_client.dataclasses.RefundRequestPostData">[docs]</a><span class="k">class</span> <span class="nc">RefundRequestPostData</span><span class="p">(</span><span class="n">BaseModel</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Dataclass for Refund API post data.&quot;&quot;&quot;</span>
+
+    <span class="n">bank_tran_id</span><span class="p">:</span> <span class="nb">str</span>
+    <span class="n">refund_amount</span><span class="p">:</span> <span class="nb">str</span>
+    <span class="n">refund_remarks</span><span class="p">:</span> <span class="nb">str</span>
+
+    <span class="n">refe_id</span><span class="p">:</span> <span class="nb">str</span>
+
+<div class="viewcode-block" id="RefundRequestPostData.not_more_than_fifty"><a class="viewcode-back" href="../../reference/sslcommerz_client.html#sslcommerz_client.dataclasses.RefundRequestPostData.not_more_than_fifty">[docs]</a>    <span class="nd">@validator</span><span class="p">(</span>
+        <span class="s2">&quot;refe_id&quot;</span><span class="p">,</span>
+    <span class="p">)</span>
+    <span class="k">def</span> <span class="nf">not_more_than_fifty</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">v</span><span class="p">,</span> <span class="n">field</span><span class="p">):</span>
+        <span class="k">if</span> <span class="n">v</span> <span class="ow">and</span> <span class="nb">len</span><span class="p">(</span><span class="n">v</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">50</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">field</span><span class="si">}</span><span class="s2"> can&#39;t be more than 50 characters&quot;</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">v</span></div>
+
+<div class="viewcode-block" id="RefundRequestPostData.not_more_than_eighty"><a class="viewcode-back" href="../../reference/sslcommerz_client.html#sslcommerz_client.dataclasses.RefundRequestPostData.not_more_than_eighty">[docs]</a>    <span class="nd">@validator</span><span class="p">(</span><span class="s2">&quot;bank_tran_id&quot;</span><span class="p">)</span>
+    <span class="k">def</span> <span class="nf">not_more_than_eighty</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">v</span><span class="p">,</span> <span class="n">field</span><span class="p">):</span>
+        <span class="k">if</span> <span class="n">v</span> <span class="ow">and</span> <span class="nb">len</span><span class="p">(</span><span class="n">v</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">80</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">field</span><span class="si">}</span><span class="s2"> can&#39;t be more than 80 characters&quot;</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">v</span></div>
+
+<div class="viewcode-block" id="RefundRequestPostData.not_more_than_255"><a class="viewcode-back" href="../../reference/sslcommerz_client.html#sslcommerz_client.dataclasses.RefundRequestPostData.not_more_than_255">[docs]</a>    <span class="nd">@validator</span><span class="p">(</span><span class="s2">&quot;refund_remarks&quot;</span><span class="p">)</span>
+    <span class="k">def</span> <span class="nf">not_more_than_255</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">v</span><span class="p">,</span> <span class="n">field</span><span class="p">):</span>
+        <span class="k">if</span> <span class="n">v</span> <span class="ow">and</span> <span class="nb">len</span><span class="p">(</span><span class="n">v</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">255</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">field</span><span class="si">}</span><span class="s2"> can&#39;t be more than 255 characters&quot;</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">v</span></div>
+
+<div class="viewcode-block" id="RefundRequestPostData.valid_decimal"><a class="viewcode-back" href="../../reference/sslcommerz_client.html#sslcommerz_client.dataclasses.RefundRequestPostData.valid_decimal">[docs]</a>    <span class="nd">@validator</span><span class="p">(</span><span class="s2">&quot;refund_amount&quot;</span><span class="p">)</span>
+    <span class="k">def</span> <span class="nf">valid_decimal</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">v</span><span class="p">,</span> <span class="n">field</span><span class="p">):</span>
+        <span class="n">val</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="nb">float</span><span class="p">(</span><span class="n">v</span><span class="p">))</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;.&quot;</span><span class="p">)</span>
+        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">val</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span> <span class="o">&gt;</span> <span class="mi">10</span> <span class="ow">or</span> <span class="nb">len</span><span class="p">(</span><span class="n">val</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span> <span class="o">&gt;</span> <span class="mi">2</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">field</span><span class="si">}</span><span class="s2"> must have a decimal maximum of (10,2).&quot;</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">v</span></div></div>
+
+
+<div class="viewcode-block" id="APIConnectEnum"><a class="viewcode-back" href="../../reference/sslcommerz_client.html#sslcommerz_client.dataclasses.APIConnectEnum">[docs]</a><span class="k">class</span> <span class="nc">APIConnectEnum</span><span class="p">(</span><span class="nb">str</span><span class="p">,</span> <span class="n">Enum</span><span class="p">):</span>
+    <span class="n">INVALID_REQUEST</span> <span class="o">=</span> <span class="s2">&quot;INVALID_REQUEST&quot;</span>
+    <span class="n">FAILED</span> <span class="o">=</span> <span class="s2">&quot;FAILED&quot;</span>
+    <span class="n">INACTIVE</span> <span class="o">=</span> <span class="s2">&quot;INACTIVE&quot;</span>
+    <span class="n">DONE</span> <span class="o">=</span> <span class="s2">&quot;DONE&quot;</span></div>
+
+
+<div class="viewcode-block" id="RefundStatusEnum"><a class="viewcode-back" href="../../reference/sslcommerz_client.html#sslcommerz_client.dataclasses.RefundStatusEnum">[docs]</a><span class="k">class</span> <span class="nc">RefundStatusEnum</span><span class="p">(</span><span class="nb">str</span><span class="p">,</span> <span class="n">Enum</span><span class="p">):</span>
+    <span class="n">SUCCESS</span> <span class="o">=</span> <span class="s2">&quot;success&quot;</span>
+    <span class="n">FAILED</span> <span class="o">=</span> <span class="s2">&quot;failed&quot;</span>
+    <span class="n">PROCESSING</span> <span class="o">=</span> <span class="s2">&quot;processing&quot;</span></div>
+
+
+<div class="viewcode-block" id="RefundInitiateResponse"><a class="viewcode-back" href="../../reference/sslcommerz_client.html#sslcommerz_client.dataclasses.RefundInitiateResponse">[docs]</a><span class="k">class</span> <span class="nc">RefundInitiateResponse</span><span class="p">(</span><span class="n">BaseModel</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Refund initiation response.&quot;&quot;&quot;</span>
+
+    <span class="n">APIConnect</span><span class="p">:</span> <span class="n">APIConnectEnum</span>
+    <span class="n">bank_tran_id</span><span class="p">:</span> <span class="nb">str</span>
+    <span class="n">trans_id</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span>
+    <span class="n">refund_ref_id</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span>
+    <span class="n">status</span><span class="p">:</span> <span class="n">RefundStatusEnum</span>
+    <span class="n">errorReason</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span></div>
+
+
+<div class="viewcode-block" id="RefundResponse"><a class="viewcode-back" href="../../reference/sslcommerz_client.html#sslcommerz_client.dataclasses.RefundResponse">[docs]</a><span class="k">class</span> <span class="nc">RefundResponse</span><span class="p">(</span><span class="n">RefundInitiateResponse</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Refund response.&quot;&quot;&quot;</span>
+
+    <span class="n">initiated_on</span><span class="p">:</span> <span class="n">datetime</span>
+    <span class="n">refunded_on</span><span class="p">:</span> <span class="n">datetime</span></div>
+
+
+<div class="viewcode-block" id="Session"><a class="viewcode-back" href="../../reference/sslcommerz_client.html#sslcommerz_client.dataclasses.Session">[docs]</a><span class="k">class</span> <span class="nc">Session</span><span class="p">(</span><span class="n">BaseModel</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Dataclass for transaction session.&quot;&quot;&quot;</span>
+
+    <span class="n">status</span><span class="p">:</span> <span class="nb">str</span>
+    <span class="n">sessionkey</span><span class="p">:</span> <span class="nb">str</span>
+    <span class="n">tran_date</span><span class="p">:</span> <span class="n">datetime</span>
+    <span class="n">tran_id</span><span class="p">:</span> <span class="nb">str</span>
+    <span class="n">val_id</span><span class="p">:</span> <span class="nb">str</span>
+    <span class="n">amount</span><span class="p">:</span> <span class="n">Decimal</span>
+    <span class="n">store_amount</span><span class="p">:</span> <span class="n">Decimal</span>
+    <span class="n">card_type</span><span class="p">:</span> <span class="nb">str</span>
+    <span class="n">card_no</span><span class="p">:</span> <span class="nb">str</span>
+    <span class="n">currency</span><span class="p">:</span> <span class="nb">str</span>
+    <span class="n">bank_tran_id</span><span class="p">:</span> <span class="nb">str</span>
+    <span class="n">card_issuer</span><span class="p">:</span> <span class="nb">str</span>
+    <span class="n">card_brand</span><span class="p">:</span> <span class="n">CardBrandEnum</span>
+    <span class="n">card_issuer_country</span><span class="p">:</span> <span class="nb">str</span>
+    <span class="n">card_issuer_country_code</span><span class="p">:</span> <span class="nb">str</span>
+    <span class="n">currency_type</span><span class="p">:</span> <span class="nb">str</span>
+    <span class="n">currency_amount</span><span class="p">:</span> <span class="n">Decimal</span>
+    <span class="n">emi_instalment</span><span class="p">:</span> <span class="nb">int</span>
+    <span class="n">emi_amount</span><span class="p">:</span> <span class="n">Decimal</span>
+    <span class="n">discount_percentage</span><span class="p">:</span> <span class="n">Decimal</span>
+    <span class="n">discount_remarks</span><span class="p">:</span> <span class="nb">str</span>
+    <span class="n">value_a</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span>
+    <span class="n">value_b</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span>
+    <span class="n">value_c</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span>
+    <span class="n">value_d</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span>
+    <span class="n">risk_level</span><span class="p">:</span> <span class="n">RiskLevelEnum</span>
+    <span class="n">risk_title</span><span class="p">:</span> <span class="nb">str</span></div>
+
+
+<div class="viewcode-block" id="TransactionBySessionResponse"><a class="viewcode-back" href="../../reference/sslcommerz_client.html#sslcommerz_client.dataclasses.TransactionBySessionResponse">[docs]</a><span class="k">class</span> <span class="nc">TransactionBySessionResponse</span><span class="p">(</span><span class="n">Session</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Dataclass for transaction by session query.&quot;&quot;&quot;</span>
+
+    <span class="n">APIConnect</span><span class="p">:</span> <span class="n">APIConnectEnum</span></div>
+
+
+<div class="viewcode-block" id="TransactionsByIDResponse"><a class="viewcode-back" href="../../reference/sslcommerz_client.html#sslcommerz_client.dataclasses.TransactionsByIDResponse">[docs]</a><span class="k">class</span> <span class="nc">TransactionsByIDResponse</span><span class="p">(</span><span class="n">BaseModel</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Dataclass for transactions by ID query.&quot;&quot;&quot;</span>
+
+    <span class="n">APIConnect</span><span class="p">:</span> <span class="n">APIConnectEnum</span>
+    <span class="n">no_of_trans_found</span><span class="p">:</span> <span class="nb">int</span>
+    <span class="n">element</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="n">Session</span><span class="p">]</span></div>
+
+
+<div class="viewcode-block" id="APIResponse"><a class="viewcode-back" href="../../reference/sslcommerz_client.html#sslcommerz_client.dataclasses.APIResponse">[docs]</a><span class="k">class</span> <span class="nc">APIResponse</span><span class="p">(</span><span class="n">BaseModel</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;dataclass for api response complete with raw response data, status_code and one of response objects for easy introspection.&quot;&quot;&quot;</span>
+
+    <span class="n">raw_data</span><span class="p">:</span> <span class="n">Any</span>
+    <span class="n">status_code</span><span class="p">:</span> <span class="nb">int</span>
+    <span class="n">response</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span>
+        <span class="n">Union</span><span class="p">[</span>
+            <span class="n">OrderValidationResponse</span><span class="p">,</span>
+            <span class="n">IPNResponse</span><span class="p">,</span>
+            <span class="n">PaymentInitResponse</span><span class="p">,</span>
+            <span class="n">RefundResponse</span><span class="p">,</span>
+            <span class="n">RefundInitiateResponse</span><span class="p">,</span>
+            <span class="n">TransactionBySessionResponse</span><span class="p">,</span>
+            <span class="n">TransactionsByIDResponse</span><span class="p">,</span>
+        <span class="p">]</span>
+    <span class="p">]</span>
+
+<div class="viewcode-block" id="APIResponse.Config"><a class="viewcode-back" href="../../reference/sslcommerz_client.html#sslcommerz_client.dataclasses.APIResponse.Config">[docs]</a>    <span class="k">class</span> <span class="nc">Config</span><span class="p">:</span>
+        <span class="n">arbitrary_types_allowed</span> <span class="o">=</span> <span class="kc">True</span></div></div>
+</pre></div>
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+    <a id="sidebar-anchor"></a>
+    
+
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script><h3><a href="../../index.html">Table Of Contents</a></h3>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../readme.html">Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../reference/index.html">Reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../contributing.html">Contributing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../authors.html">Authors</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../changelog.html">Changelog</a></li>
+</ul>
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+      </ul>
+    </div>
+
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2021, Utsob Roy.
+      Last updated on Apr 18, 2021.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 3.5.4.
+    </div>
+  </body>
+</html>

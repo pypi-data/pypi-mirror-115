@@ -1,0 +1,339 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Installation and Usage &mdash; SSLCommerz Client 0.3.2 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Reference" href="reference/index.html" />
+    <link rel="prev" title="Overview" href="readme.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> SSLCommerz Client
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.3.2
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="readme.html">Overview</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Installation and Usage</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#installation">Installation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#usage">Usage</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#initiate-client">Initiate Client</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#initiate-a-session">Initiate a Session</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#validate-ipn">Validate IPN</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#getting-order-validation-data">Getting Order Validation Data</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#initiate-refund">Initiate Refund</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#get-refund-data">Get Refund Data</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#get-transaction-by-session">Get Transaction by Session</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#get-transactions-by-id">Get Transactions by ID</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="reference/index.html">Reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="contributing.html">Contributing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="authors.html">Authors</a></li>
+<li class="toctree-l1"><a class="reference internal" href="changelog.html">Changelog</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">SSLCommerz Client</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Installation and Usage</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/usage.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="installation-and-usage">
+<h1>Installation and Usage<a class="headerlink" href="#installation-and-usage" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="installation">
+<h2>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h2>
+<p>At the command line:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pip</span> <span class="n">install</span> <span class="n">sslcommerz</span><span class="o">-</span><span class="n">client</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="usage">
+<h2>Usage<a class="headerlink" href="#usage" title="Permalink to this headline">¶</a></h2>
+<p>To use SSLCommerz Client in a project:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">sslcommerz_client</span> <span class="kn">import</span> <span class="n">SSLCommerzClient</span>
+</pre></div>
+</div>
+<div class="section" id="initiate-client">
+<h3>Initiate Client<a class="headerlink" href="#initiate-client" title="Permalink to this headline">¶</a></h3>
+<p>To initiate a client:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">sslcommerz_client</span> <span class="kn">import</span> <span class="n">SSLCommerzClient</span>
+
+<span class="n">client</span> <span class="o">=</span> <span class="n">SSLCommerzClient</span><span class="p">(</span>
+    <span class="n">store_id</span><span class="o">=</span><span class="s2">&quot;YOUR_STORE_ID&quot;</span><span class="p">,</span>
+    <span class="n">store_passwd</span><span class="o">=</span><span class="s2">&quot;YOUR_STORE_PASSWORD&quot;</span><span class="p">,</span>
+    <span class="n">sandbox</span><span class="o">=</span><span class="kc">True</span> <span class="o">//</span> <span class="n">default</span> <span class="n">false</span>
+<span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="initiate-a-session">
+<h3>Initiate a Session<a class="headerlink" href="#initiate-a-session" title="Permalink to this headline">¶</a></h3>
+<p>To Initiate a Session:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">post_data</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s2">&quot;total_amount&quot;</span><span class="p">:</span> <span class="mi">100</span><span class="p">,</span>
+    <span class="s2">&quot;currency&quot;</span><span class="p">:</span> <span class="s2">&quot;BDT&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;tran_id&quot;</span><span class="p">:</span> <span class="s2">&quot;221122&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;product_category&quot;</span><span class="p">:</span> <span class="s2">&quot;fashion&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;success_url&quot;</span><span class="p">:</span> <span class="s2">&quot;https://example.com&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;fail_url&quot;</span><span class="p">:</span> <span class="s2">&quot;https://example.com&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;cancel_url&quot;</span><span class="p">:</span> <span class="s2">&quot;https://example.com&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;cus_name&quot;</span><span class="p">:</span> <span class="s2">&quot;Jon Osterman&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;cus_email&quot;</span><span class="p">:</span> <span class="s2">&quot;jon@osterman.com&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;shipping_method&quot;</span><span class="p">:</span> <span class="s2">&quot;NO&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;num_of_item&quot;</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span>
+    <span class="s2">&quot;product_name&quot;</span><span class="p">:</span> <span class="s2">&quot;Fancy Pants&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;product_category&quot;</span><span class="p">:</span> <span class="s2">&quot;Cloth&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;product_profile&quot;</span><span class="p">:</span> <span class="s2">&quot;physical-goods&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;cus_add1&quot;</span><span class="p">:</span> <span class="s2">&quot;Some Address&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;cus_city&quot;</span><span class="p">:</span> <span class="s2">&quot;Dhaka&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;cus_country&quot;</span><span class="p">:</span> <span class="s2">&quot;Bangladesh&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;cus_phone&quot;</span><span class="p">:</span> <span class="s2">&quot;01558221870&quot;</span><span class="p">,</span>
+<span class="p">}</span>
+
+<span class="n">response</span> <span class="o">=</span> <span class="n">client</span><span class="o">.</span><span class="n">initiateSession</span><span class="p">(</span><span class="n">post_data</span><span class="p">)</span>
+</pre></div>
+</div>
+<p><code class="code docutils literal notranslate"><span class="pre">response</span></code> will be an <code class="xref py py-class docutils literal notranslate"><span class="pre">APIResponse</span></code> object with <code class="code docutils literal notranslate"><span class="pre">raw_data</span></code> - the actual response, <code class="code docutils literal notranslate"><span class="pre">status_code</span></code> for convenience, and an <code class="code docutils literal notranslate"><span class="pre">response</span></code> - a <code class="xref py py-class docutils literal notranslate"><span class="pre">PaymentInitResponse</span></code>. One can use <code class="xref py py-class docutils literal notranslate"><span class="pre">PaymentInitResponse</span></code> as is or create a dict or json from it. For more, consult <code class="code docutils literal notranslate"><span class="pre">pydantic</span></code> documentation.</p>
+</div>
+<div class="section" id="validate-ipn">
+<h3>Validate IPN<a class="headerlink" href="#validate-ipn" title="Permalink to this headline">¶</a></h3>
+<p>To validate an IPN response:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">validation</span> <span class="o">=</span> <span class="n">client</span><span class="o">.</span><span class="n">validateIPN</span><span class="p">(</span><span class="n">data</span><span class="p">)</span> <span class="o">//</span> <span class="n">data</span><span class="p">:</span> <span class="n">response</span> <span class="n">data</span> <span class="k">as</span> <span class="n">a</span> <span class="nb">dict</span><span class="o">.</span>
+</pre></div>
+</div>
+<p><code class="code docutils literal notranslate"><span class="pre">validation</span></code> will be an <code class="xref py py-class docutils literal notranslate"><span class="pre">IPNValidationStatus</span></code> with validation status as <code class="code docutils literal notranslate"><span class="pre">status</span></code> and the response as <code class="xref py py-class docutils literal notranslate"><span class="pre">IPNResponse</span></code>.</p>
+</div>
+<div class="section" id="getting-order-validation-data">
+<h3>Getting Order Validation Data<a class="headerlink" href="#getting-order-validation-data" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">data</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;val_id&quot;</span><span class="p">:</span> <span class="s2">&quot;some_val_id&quot;</span><span class="p">}</span>
+<span class="n">validation_response</span> <span class="o">=</span> <span class="n">client</span><span class="o">.</span><span class="n">getOrderValidationData</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
+</pre></div>
+</div>
+<p><code class="code docutils literal notranslate"><span class="pre">validation_response</span></code> will be an <code class="xref py py-class docutils literal notranslate"><span class="pre">APIResponse</span></code> object with <code class="code docutils literal notranslate"><span class="pre">raw_data</span></code> - the actual response, <code class="code docutils literal notranslate"><span class="pre">status_code</span></code> for convenience, and an <code class="code docutils literal notranslate"><span class="pre">response</span></code> - a <code class="xref py py-class docutils literal notranslate"><span class="pre">OrderValidationResponse</span></code>.</p>
+</div>
+<div class="section" id="initiate-refund">
+<h3>Initiate Refund<a class="headerlink" href="#initiate-refund" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">data</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s2">&quot;bank_tran_id&quot;</span><span class="p">:</span> <span class="s2">&quot;some_tran_id&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;refund_amount&quot;</span><span class="p">:</span> <span class="s2">&quot;100.00&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;refund_remarks&quot;</span><span class="p">:</span> <span class="s2">&quot;faulty product&quot;</span>
+<span class="p">}</span>
+<span class="n">refund_response</span> <span class="o">=</span> <span class="n">client</span><span class="o">.</span><span class="n">initiateRefund</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
+</pre></div>
+</div>
+<p><code class="code docutils literal notranslate"><span class="pre">refund_response</span></code> will be an <code class="xref py py-class docutils literal notranslate"><span class="pre">APIResponse</span></code> object with <code class="code docutils literal notranslate"><span class="pre">raw_data</span></code> - the actual response, <code class="code docutils literal notranslate"><span class="pre">status_code</span></code> for convenience, and an <code class="code docutils literal notranslate"><span class="pre">response</span></code> - a <code class="xref py py-class docutils literal notranslate"><span class="pre">RefundInitiateResponse</span></code>.</p>
+</div>
+<div class="section" id="get-refund-data">
+<h3>Get Refund Data<a class="headerlink" href="#get-refund-data" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">refund_response</span> <span class="o">=</span> <span class="n">client</span><span class="o">.</span><span class="n">getRefundData</span><span class="p">(</span><span class="s2">&quot;refund_ref_id&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p><code class="code docutils literal notranslate"><span class="pre">refund_response</span></code> will be an <code class="xref py py-class docutils literal notranslate"><span class="pre">APIResponse</span></code> object with <code class="code docutils literal notranslate"><span class="pre">raw_data</span></code> - the actual response, <code class="code docutils literal notranslate"><span class="pre">status_code</span></code> for convenience, and an <code class="code docutils literal notranslate"><span class="pre">response</span></code> - a <code class="xref py py-class docutils literal notranslate"><span class="pre">RefundResponse</span></code>.</p>
+</div>
+<div class="section" id="get-transaction-by-session">
+<h3>Get Transaction by Session<a class="headerlink" href="#get-transaction-by-session" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">transaction_response</span> <span class="o">=</span> <span class="n">client</span><span class="o">.</span><span class="n">getTransactionBySession</span><span class="p">(</span><span class="s2">&quot;sessionkey&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p><code class="code docutils literal notranslate"><span class="pre">transaction_response</span></code> will be an <code class="xref py py-class docutils literal notranslate"><span class="pre">APIResponse</span></code> object with <code class="code docutils literal notranslate"><span class="pre">raw_data</span></code> - the actual response, <code class="code docutils literal notranslate"><span class="pre">status_code</span></code> for convenience, and an <code class="code docutils literal notranslate"><span class="pre">response</span></code> - a <code class="xref py py-class docutils literal notranslate"><span class="pre">TransactionBySessionResponse</span></code>.</p>
+</div>
+<div class="section" id="get-transactions-by-id">
+<h3>Get Transactions by ID<a class="headerlink" href="#get-transactions-by-id" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">transaction_response</span> <span class="o">=</span> <span class="n">client</span><span class="o">.</span><span class="n">getTransactionsByID</span><span class="p">(</span><span class="s2">&quot;tran_id&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p><code class="code docutils literal notranslate"><span class="pre">transaction_response</span></code> will be an <code class="xref py py-class docutils literal notranslate"><span class="pre">APIResponse</span></code> object with <code class="code docutils literal notranslate"><span class="pre">raw_data</span></code> - the actual response, <code class="code docutils literal notranslate"><span class="pre">status_code</span></code> for convenience, and an <code class="code docutils literal notranslate"><span class="pre">response</span></code> - a <code class="xref py py-class docutils literal notranslate"><span class="pre">TransactionsByIDResponse</span></code>.</p>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="reference/index.html" class="btn btn-neutral float-right" title="Reference" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="readme.html" class="btn btn-neutral float-left" title="Overview" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2021, Utsob Roy.
+      <span class="lastupdated">
+        Last updated on Apr 19, 2021.
+      </span>
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
