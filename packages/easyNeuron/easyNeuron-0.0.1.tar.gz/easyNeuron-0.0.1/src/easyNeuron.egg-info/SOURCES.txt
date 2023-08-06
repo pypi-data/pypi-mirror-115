@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/easyNeuron/__init__.py
+src/easyNeuron.egg-info/PKG-INFO
+src/easyNeuron.egg-info/SOURCES.txt
+src/easyNeuron.egg-info/dependency_links.txt
+src/easyNeuron.egg-info/top_level.txt

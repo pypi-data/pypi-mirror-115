@@ -1,0 +1,41 @@
+[easyneuron]
+name = "easyneuron"
+version = "1.2.0"
+description = "easyNeuron is a lightweight neural network framework written in raw Python."
+authors = [
+    "Password-Classified"
+]
+license = "LICENSE"
+readme = "README.md"
+python = "^3.6"
+homepage = "https://github.com/Password-Classified/easyNeuron"
+repository = "https://github.com/Password-Classified/easyNeuron"
+documentation = "https://github.com/Password-Classified/easyNeuron"
+
+keywords = ["packaging", "dependency", "infer", "pyproject.toml"]
+
+classifiers = [
+    "TOPIC :: SCIENTIFIC/ENGINEERING :: ARTIFICIAL INTELLIGENCE",
+    "TOPIC :: SCIENTIFIC/ENGINEERING :: MATHEMATICS"
+]
+
+# Requirements
+[dependencies]
+Click = "^7.0"
+
+[build-system]
+requires = [
+    "setuptools >= 35.0.2",
+    "wheel",
+    "copy",
+    "csv",
+    "math",
+    "os",
+    "pickle",
+    "random",
+    "sys",
+    "decimal",
+    "pprint",
+    "timeit"
+]
+build-backend = "setuptools.build_meta"
