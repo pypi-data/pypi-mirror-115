@@ -1,0 +1,239 @@
+"""red, mil, blue 3가지 분야에서 자료를 계산하여 리턴하는 함수 모음
+"""
+from .db import CorpsEval
+from db_hj3415 import mongo
+from util_hj3415 import utils
+
+import logging
+
+logger = logging.getLogger(__name__)
+formatter = logging.Formatter('%(levelname)s: [%(name)s] %(message)s')
+ch = logging.StreamHandler()
+ch.setFormatter(formatter)
+logger.addHandler(ch)
+logger.setLevel(logging.WARNING)
+
+# 주식을 통한 기대수익률 - 금리가 3%일 경우 두배인 6% 정도로 잡는다.
+EXPECT_EARN = 0.04
+
+corps_eval = CorpsEval(code='005930')
+c103 = mongo.C103(code='005930')
+c104 = mongo.C104(code='005930')
+c106 = mongo.C106(code='005930')
+
+
+def red(code: str) -> dict:
+    if utils.is_6digit(code):
+        corps_eval.chg_code(code)
+        c103.chg_code(code)
+    else:
+        raise ValueError(f'Invalid code: {code}')
+
+    d1, 지배주주당기순이익 = corps_eval.calc당기순이익(nan_to_zero=True)
+    d2, 유동자산 = corps_eval.calc유동자산(nan_to_zero=True)
+    d3, 유동부채 = corps_eval.calc유동부채(nan_to_zero=True)
+    d4, 부채평가 = corps_eval.calc비유동부채(nan_to_zero=True)
+
+    c103.chg_page('c103재무상태표q')
+    d5, 투자자산 = c103.latest_value('투자자산', nan_to_zero=True)
+    d6, 투자부동산 = c103.latest_value('투자부동산', nan_to_zero=True)
+
+    # 사업가치 계산 - 지배주주지분 당기순이익 / 기대수익률
+    사업가치 = round(지배주주당기순이익 / EXPECT_EARN, 2)
+
+    # 재산가치 계산 - 유동자산 - (유동부채*1.2) + 고정자산중 투자자산
+    재산가치 = round(유동자산 - (유동부채 * 1.2) + 투자자산 + 투자부동산, 2)
+
+    발행주식수 = c103.latest_value('발행주식수', nan_to_zero=True)[1] * 1000
+
+    try:
+        red_price = round(((사업가치 + 재산가치 - 부채평가) * 100000000) / 발행주식수)
+    except ZeroDivisionError:
+        logger.error(f'ZeroDivisionError : {code} 발행주식수 {발행주식수}')
+        red_price = float('nan')
+
+    logger.debug(f'Red Price : {red_price}원')
+    return {
+        'red_price': red_price,
+        '사업가치': 사업가치,
+        '재산가치': 재산가치,
+        '부채평가': 부채평가,
+        '발행주식수': 발행주식수,
+        'date': [i for i in {d1, d2, d3, d4, d5, d6} if i != ''],  # ''값을 제거하고 리스트로 바꾼다.
+    }
+
+
+def mil(code: str) -> dict:
+    if utils.is_6digit(code):
+        corps_eval.chg_code(code)
+        c103.chg_code(code)
+        c104.chg_code(code)
+    else:
+        raise ValueError(f'Invalid code: {code}')
+
+    marketcap = corps_eval.marketcap
+    logger.info(f'{code} market cap: {marketcap}')
+    fcf_dict = corps_eval.findFCF()
+    pfcf_dict = corps_eval.findPFCF()
+    d1, 지배주주당기순이익 = corps_eval.calc당기순이익(nan_to_zero=True)
+
+    c103.chg_page('c103현금흐름표q')
+    d2, 재무활동현금흐름 = c103.sum_recent_4q(title='재무활동으로인한현금흐름', nan_to_zero=True)
+    d3, 영업활동현금흐름 = c103.sum_recent_4q(title='영업활동으로인한현금흐름', nan_to_zero=True)
+
+    c104.chg_page('c104q')
+    d4, roic = c104.sum_recent_4q('ROIC')
+    d5, roe = c104.latest_value('ROE')
+    pcr_dict = c104.find('PCR')
+
+    주주수익률 = float('nan') if marketcap == 0 else round((재무활동현금흐름 / marketcap * -100), 2)
+    이익지표 = float('nan') if marketcap == 0 else round((지배주주당기순이익 - 영업활동현금흐름) / marketcap, 5)
+
+    logger.info(f'{code} fcf_dict : {fcf_dict}')
+    logger.info(f"{code} market_cap : {marketcap}")
+    logger.info(f'{code} pfcf_dict : {pfcf_dict}')
+    logger.info(f'{code} pcr_dict : {pcr_dict}')
+
+    return {
+        '주주수익률': 주주수익률,
+        '이익지표': 이익지표,
+        '투자수익률': {'ROIC': roic, 'ROE': roe},
+        '가치지표': {'FCF': fcf_dict, 'PFCF': pfcf_dict, 'PCR': pcr_dict},
+        'date': [i for i in {d1, d2, d3, d4, d5} if i != ''],  # ''값을 제거하고 리스트로 바꾼다.
+    }
+
+
+def blue(code: str) -> dict:
+    """
+    <유동비율>
+    100미만이면 주의하나 현금흐름창출력이 좋으면 괜찮을수 있다.
+    만약 100%이하면 유동자산에 추정영업현금흐름을 더해서 다시계산해보아 기회를 준다.
+    <이자보상배율>
+    이자보상배율 영업이익/이자비용으로 1이면 자금사정빡빡 5이상이면 양호
+    <순운전자금회전율>
+    순운전자금 => 기업활동을 하기 위해 필요한 자금 (매출채권 + 재고자산 - 매입채무)
+    순운전자본회전율은 매출액/순운전자본으로 일정비율이 유지되는것이 좋으며 너무 작아지면 순운전자본이 많아졌다는 의미로 재고나 외상이 쌓인다는 뜻
+    <재고자산회전율>
+    재고자산회전율은 매출액/재고자산으로 회전율이 낮을수록 재고가 많다는 이야기이므로 불리 전년도등과 비교해서 큰차이 발생하면 알람.
+    재고자산회전율이 작아지면 재고가 쌓인다는뜻
+    <순부채비율>
+    부채비율은 업종마다 달라 일괄비교 어려우나 순부채 비율이 20%이하인것이 좋고 꾸준히 늘어나지 않는것이 좋다.
+    순부채 비율이 30%이상이면 좋치 않다.
+    <매출액>
+    매출액은 어떤경우에도 성장하는 기업이 좋다.매출이 20%씩 늘어나는 종목은 유망한 종목
+    <영업이익률>
+    영업이익률은 기업의 경쟁력척도로 경쟁사에 비해 높으면 경제적해자를 갖춘셈
+    """
+    if utils.is_6digit(code):
+        corps_eval.chg_code(code)
+        c103.chg_code(code)
+        c104.chg_code(code)
+    else:
+        raise ValueError(f'Invalid code: {code}')
+
+    ###############################################################
+
+    d1, 유동비율 = corps_eval.calc유동비율(nan_to_zero=False)
+    logger.info(f'유동비율 {유동비율}/{d1}')
+
+    ###############################################################
+
+    c104.chg_page('c104y')
+    dict이자보상배율 = c104.find('이자보상배율')
+    dict순운전자본회전율 = c104.find('순운전자본회전율')
+    dict재고자산회전율 = c104.find('재고자산회전율')
+    dict순부채비율 = c104.find('순부채비율')
+
+    c104.chg_page('c104q')
+    d2, 이자보상배율 = c104.latest_value('이자보상배율')
+    d3, 순운전자본회전율 = c104.latest_value('순운전자본회전율')
+    d4, 재고자산회전율 = c104.latest_value('재고자산회전율')
+    d5, 순부채비율 = c104.latest_value('순부채비율')
+
+    logger.info(f'이자보상배율 : {이자보상배율} {dict이자보상배율}')
+    logger.info(f'순운전자본회전율 : {순운전자본회전율} {dict순운전자본회전율}')
+    logger.info(f'재고자산회전율 : {재고자산회전율} {dict재고자산회전율}')
+    logger.info(f'순부채비율 : {순부채비율} {dict순부채비율}')
+
+    ################################################################
+
+    return {
+        '유동비율': 유동비율,
+        '이자보상배율': (이자보상배율, dict이자보상배율),
+        '순운전자본회전율': (순운전자본회전율, dict순운전자본회전율),
+        '재고자산회전율': (재고자산회전율, dict재고자산회전율),
+        '순부채비율': (순부채비율, dict순부채비율),
+        'date': [i for i in {d1, d2, d3, d4, d5} if i != ''],  # ''값을 제거하고 리스트로 바꾼다.
+    }
+
+
+def growth(code: str) -> dict:
+    """
+    <매출액>
+    매출액은 어떤경우에도 성장하는 기업이 좋다.매출이 20%씩 늘어나는 종목은 유망한 종목
+    <영업이익률>
+    영업이익률은 기업의 경쟁력척도로 경쟁사에 비해 높으면 경제적해자를 갖춘셈
+    """
+    if utils.is_6digit(code):
+        c104.chg_code(code)
+        c106.chg_code(code)
+    else:
+        raise ValueError(f'Invalid code: {code}')
+
+    c104.chg_page('c104y')
+    dict매출액증가율 = c104.find('매출액증가율')
+
+    c104.chg_page('c104q')
+    d1, 매출액증가율 = c104.latest_value('매출액증가율')
+
+    logger.info(f'매출액증가율 : {매출액증가율} {dict매출액증가율}')
+
+    ################################################################
+
+    # c106 에서 타 기업과 영업이익률 비교
+    c106.chg_page('c106y')
+    try:
+        dict영업이익률 = c106.find('영업이익률')
+    except KeyError:
+        dict영업이익률 = {'Unnamed': float('nan')}
+    logger.info(f'{code} 영업이익률 {dict영업이익률}')
+
+    return {
+        '매출액증가율': (매출액증가율, dict매출액증가율),
+        '영업이익률': dict영업이익률,
+        'date': [d1, ]}
+
+
+"""
+- 각분기의 합이 연이 아닌 타이틀(즉 sum_4q를 사용하면 안됨)
+'*(지배)당기순이익'
+'*(비지배)당기순이익'
+'장기차입금'
+'현금및예치금'
+'매도가능금융자산'
+'매도파생결합증권'
+'만기보유금융자산'
+'당기손익-공정가치측정금융부채'
+'당기손익인식(지정)금융부채'
+'단기매매금융자산'
+'단기매매금융부채'
+'예수부채'
+'차입부채'
+'기타부채'
+'보험계약부채(책임준비금)'
+'*CAPEX'
+'ROE'
+"""
+
+"""
+- sum_4q를 사용해도 되는 타이틀
+'자산총계'
+'당기순이익'
+'유동자산'
+'유동부채'
+'비유동부채'
+
+'영업활동으로인한현금흐름'
+'재무활동으로인한현금흐름'
+'ROIC'
+"""
