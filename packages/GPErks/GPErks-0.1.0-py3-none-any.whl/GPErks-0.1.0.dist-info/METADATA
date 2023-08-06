@@ -1,0 +1,217 @@
+Metadata-Version: 2.1
+Name: GPErks
+Version: 0.1.0
+Summary: A Python library to (bene)fit Gaussian Process Emulators.
+Home-page: https://github.com/stelong/GPErks
+Author: Stefano Longobardi, Gianvito Taneburgo
+Author-email: stefano.longobardi.8@gmail.com, taneburgo+shadowtemplate@gmail.com
+License: MIT
+Project-URL: Bug Tracker, https://github.com/stelong/GPErks/issues
+Project-URL: Source Code, https://github.com/stelong/GPErks
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: cycler (==0.10.0)
+Requires-Dist: dill (==0.3.4)
+Requires-Dist: gpytorch (==1.5.0)
+Requires-Dist: joblib (==1.0.1)
+Requires-Dist: kiwisolver (==1.3.1)
+Requires-Dist: matplotlib (==3.4.2)
+Requires-Dist: multiprocess (==0.70.12.2)
+Requires-Dist: networkx (==2.6.2)
+Requires-Dist: numpy (==1.21.1)
+Requires-Dist: packaging (==21.0)
+Requires-Dist: pandas (==1.3.1)
+Requires-Dist: pathos (==0.2.8)
+Requires-Dist: pillow (==8.3.1)
+Requires-Dist: pox (==0.3.0)
+Requires-Dist: ppft (==1.6.6.4)
+Requires-Dist: pyparsing (==2.4.7)
+Requires-Dist: python-dateutil (==2.8.2)
+Requires-Dist: pytz (==2021.1)
+Requires-Dist: salib (==1.4.0.2)
+Requires-Dist: scikit-learn (==0.24.2)
+Requires-Dist: scipy (==1.7.1)
+Requires-Dist: seaborn (==0.11.1)
+Requires-Dist: six (==1.16.0)
+Requires-Dist: threadpoolctl (==2.2.0)
+Requires-Dist: torch (==1.9.0)
+Requires-Dist: torchmetrics (==0.5.0)
+Requires-Dist: torchvision (==0.10.0)
+Requires-Dist: typing-extensions (==3.10.0.0)
+Requires-Dist: wheel (==0.37.0)
+Provides-Extra: dev
+Requires-Dist: appdirs (==1.4.4) ; extra == 'dev'
+Requires-Dist: argon2-cffi (==20.1.0) ; extra == 'dev'
+Requires-Dist: async-generator (==1.10) ; extra == 'dev'
+Requires-Dist: attrs (==21.2.0) ; extra == 'dev'
+Requires-Dist: backcall (==0.2.0) ; extra == 'dev'
+Requires-Dist: backports.entry-points-selectable (==1.1.0) ; extra == 'dev'
+Requires-Dist: black (==21.7b0) ; extra == 'dev'
+Requires-Dist: bleach (==4.0.0) ; extra == 'dev'
+Requires-Dist: certifi (==2021.5.30) ; extra == 'dev'
+Requires-Dist: cffi (==1.14.6) ; extra == 'dev'
+Requires-Dist: charset-normalizer (==2.0.4) ; extra == 'dev'
+Requires-Dist: click (==8.0.1) ; extra == 'dev'
+Requires-Dist: colorama (==0.4.4) ; extra == 'dev'
+Requires-Dist: cryptography (==3.4.7) ; extra == 'dev'
+Requires-Dist: debugpy (==1.4.1) ; extra == 'dev'
+Requires-Dist: decorator (==5.0.9) ; extra == 'dev'
+Requires-Dist: defusedxml (==0.7.1) ; extra == 'dev'
+Requires-Dist: distlib (==0.3.2) ; extra == 'dev'
+Requires-Dist: docutils (==0.17.1) ; extra == 'dev'
+Requires-Dist: entrypoints (==0.3) ; extra == 'dev'
+Requires-Dist: filelock (==3.0.12) ; extra == 'dev'
+Requires-Dist: flake8 (==3.9.2) ; extra == 'dev'
+Requires-Dist: idna (==3.2) ; extra == 'dev'
+Requires-Dist: importlib-metadata (==3.10.1) ; extra == 'dev'
+Requires-Dist: ipykernel (==6.0.3) ; extra == 'dev'
+Requires-Dist: ipython (==7.26.0) ; extra == 'dev'
+Requires-Dist: ipython-genutils (==0.2.0) ; extra == 'dev'
+Requires-Dist: ipywidgets (==7.6.3) ; extra == 'dev'
+Requires-Dist: isort (==5.9.3) ; extra == 'dev'
+Requires-Dist: jedi (==0.18.0) ; extra == 'dev'
+Requires-Dist: jeepney (==0.7.1) ; extra == 'dev'
+Requires-Dist: jinja2 (==3.0.1) ; extra == 'dev'
+Requires-Dist: jsonschema (==3.2.0) ; extra == 'dev'
+Requires-Dist: jupyter (==1.0.0) ; extra == 'dev'
+Requires-Dist: jupyter-client (==6.1.12) ; extra == 'dev'
+Requires-Dist: jupyter-console (==6.4.0) ; extra == 'dev'
+Requires-Dist: jupyter-core (==4.7.1) ; extra == 'dev'
+Requires-Dist: jupyterlab-pygments (==0.1.2) ; extra == 'dev'
+Requires-Dist: jupyterlab-widgets (==1.0.0) ; extra == 'dev'
+Requires-Dist: keyring (==23.0.1) ; extra == 'dev'
+Requires-Dist: markupsafe (==2.0.1) ; extra == 'dev'
+Requires-Dist: matplotlib-inline (==0.1.2) ; extra == 'dev'
+Requires-Dist: mccabe (==0.6.1) ; extra == 'dev'
+Requires-Dist: mistune (==0.8.4) ; extra == 'dev'
+Requires-Dist: mypy (==0.910) ; extra == 'dev'
+Requires-Dist: mypy-extensions (==0.4.3) ; extra == 'dev'
+Requires-Dist: nbclient (==0.5.3) ; extra == 'dev'
+Requires-Dist: nbconvert (==6.1.0) ; extra == 'dev'
+Requires-Dist: nbformat (==5.1.3) ; extra == 'dev'
+Requires-Dist: nest-asyncio (==1.5.1) ; extra == 'dev'
+Requires-Dist: notebook (==6.4.2) ; extra == 'dev'
+Requires-Dist: pandocfilters (==1.4.3) ; extra == 'dev'
+Requires-Dist: parso (==0.8.2) ; extra == 'dev'
+Requires-Dist: pathspec (==0.9.0) ; extra == 'dev'
+Requires-Dist: pep517 (==0.11.0) ; extra == 'dev'
+Requires-Dist: pexpect (==4.8.0) ; extra == 'dev'
+Requires-Dist: pickleshare (==0.7.5) ; extra == 'dev'
+Requires-Dist: pip-compile-multi (==2.4.1) ; extra == 'dev'
+Requires-Dist: pip-tools (==6.2.0) ; extra == 'dev'
+Requires-Dist: pkginfo (==1.7.1) ; extra == 'dev'
+Requires-Dist: platformdirs (==2.2.0) ; extra == 'dev'
+Requires-Dist: pluggy (==0.13.1) ; extra == 'dev'
+Requires-Dist: prometheus-client (==0.11.0) ; extra == 'dev'
+Requires-Dist: prompt-toolkit (==3.0.19) ; extra == 'dev'
+Requires-Dist: ptyprocess (==0.7.0) ; extra == 'dev'
+Requires-Dist: py (==1.10.0) ; extra == 'dev'
+Requires-Dist: pycodestyle (==2.7.0) ; extra == 'dev'
+Requires-Dist: pycparser (==2.20) ; extra == 'dev'
+Requires-Dist: pyflakes (==2.3.1) ; extra == 'dev'
+Requires-Dist: pygments (==2.9.0) ; extra == 'dev'
+Requires-Dist: pyrsistent (==0.18.0) ; extra == 'dev'
+Requires-Dist: pyzmq (==22.2.1) ; extra == 'dev'
+Requires-Dist: qtconsole (==5.1.1) ; extra == 'dev'
+Requires-Dist: qtpy (==1.9.0) ; extra == 'dev'
+Requires-Dist: readme-renderer (==29.0) ; extra == 'dev'
+Requires-Dist: regex (==2021.8.3) ; extra == 'dev'
+Requires-Dist: requests (==2.26.0) ; extra == 'dev'
+Requires-Dist: requests-toolbelt (==0.9.1) ; extra == 'dev'
+Requires-Dist: rfc3986 (==1.5.0) ; extra == 'dev'
+Requires-Dist: secretstorage (==3.3.1) ; extra == 'dev'
+Requires-Dist: send2trash (==1.8.0) ; extra == 'dev'
+Requires-Dist: terminado (==0.10.1) ; extra == 'dev'
+Requires-Dist: testpath (==0.5.0) ; extra == 'dev'
+Requires-Dist: toml (==0.10.2) ; extra == 'dev'
+Requires-Dist: tomli (==1.2.1) ; extra == 'dev'
+Requires-Dist: toposort (==1.6) ; extra == 'dev'
+Requires-Dist: tornado (==6.1) ; extra == 'dev'
+Requires-Dist: tox (==3.24.1) ; extra == 'dev'
+Requires-Dist: tqdm (==4.62.0) ; extra == 'dev'
+Requires-Dist: traitlets (==5.0.5) ; extra == 'dev'
+Requires-Dist: twine (==3.4.2) ; extra == 'dev'
+Requires-Dist: typed-ast (==1.4.3) ; extra == 'dev'
+Requires-Dist: urllib3 (==1.26.6) ; extra == 'dev'
+Requires-Dist: virtualenv (==20.7.1) ; extra == 'dev'
+Requires-Dist: wcwidth (==0.2.5) ; extra == 'dev'
+Requires-Dist: webencodings (==0.5.1) ; extra == 'dev'
+Requires-Dist: widgetsnbextension (==3.5.1) ; extra == 'dev'
+Requires-Dist: zipp (==3.5.0) ; extra == 'dev'
+
+# GPErks
+
+A Python library to (bene)fit Gaussian Process Emulators.
+
+---
+## Information
+
+**Status**: `Actively developed`
+
+**Type**: `Personal project`
+
+**Development years**: `2020-2021`
+
+**Authors**: [stelong](https://github.com/stelong), [ShadowTemplate](https://github.com/ShadowTemplate)
+
+---
+## Getting Started
+
+### Prerequisites
+
+* [Python3](https://www.python.org/) (>=3.8)
+* [virtualenv](https://pypi.org/project/virtualenv/) (optional)
+
+### Installing
+
+Create a Python3 virtual environment (optional)
+```
+python3 -m venv venv
+source venv/bin/activate
+pip install --upgrade pip setuptools wheel
+```
+Install using pip:
+```
+pip install GPErks
+```
+or, install from the project repository:
+```
+git clone https://github.com/stelong/GPErks.git
+cd GPErks/
+pip install .
+```
+
+### Usage
+
+Full documentation under construction. For the moment, please refer to the example notebooks.
+
+---
+## Contributing
+
+[stelong](https://github.com/stelong) and [ShadowTemplate](https://github.com/ShadowTemplate) are the only maintainers. Any contribution is welcome!
+
+---
+## License
+
+This project is licensed under the MIT license.
+Please refer to the [LICENSE.md](LICENSE.md) file for details.
+
+---
+*This README.md complies with [this project template](
+https://github.com/ShadowTemplate/project-template). Feel free to adopt it
+and reuse it.*
+
