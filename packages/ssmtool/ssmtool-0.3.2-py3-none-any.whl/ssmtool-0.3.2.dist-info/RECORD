@@ -1,0 +1,17 @@
+ssmtool/__init__.py,sha256=0L20_nlnN2Rqpo7e9TrFHPT_8CtIEnI0qKEidrwCo_I,77
+ssmtool/__main__.py,sha256=lIOBiJmi8X-EWXVIx_OoxSgUZ0FYKlZI8hXVnLUYTJQ,61
+ssmtool/api.py,sha256=aRm-6G3E4TlRF1k05crvbtbDMDyFe-_pD251ESZxhKs,2051
+ssmtool/config.py,sha256=mYf1nZEYZvHOZdhqUnPvBRjtkVcc1D8Wc1riPZVLU9k,14118
+ssmtool/db.py,sha256=S0j_kQyUcIdmdm1j3wvNgpK3UXrsMdLu8EJxPrmdJqs,5845
+ssmtool/dictionary.py,sha256=y0ioSTWiQaVrUudD3m2KYF5X0628uerGUEIYfaWSo1I,6268
+ssmtool/dictmanager.py,sha256=6I9ay__VpcLdIxW0g5ltxR5DztKGRQ40ib6cgK1m2IY,6207
+ssmtool/main.py,sha256=vLysP1W3Lu7kSfpTRfUJtaQhQ2rBzsWfU2mEUDTF1Og,15365
+ssmtool/tools.py,sha256=AMvWLMUzP9J-7xe-b2BF4chBa2F8KaKfbjiEC_raQtE,3751
+ssmtool-0.3.2.data/data/data/icon.png,sha256=2sKoLDUYB1MqwR_zGu2NojOti8CxRXx0iRElqD-zhio,26235
+ssmtool-0.3.2.data/data/data/ssmtool.desktop,sha256=d_D_sfamLlzxrq_Id0FXZ9iCQ0nrPXL3eh5e2Wq9jsU,241
+ssmtool-0.3.2.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+ssmtool-0.3.2.dist-info/METADATA,sha256=Rl-TNbIzKjTwDCj7QtztX8h9SIysflOgznTjm5DjFK4,3497
+ssmtool-0.3.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+ssmtool-0.3.2.dist-info/entry_points.txt,sha256=tY_F6hFSOBCDhO-fs-YLFI5yUdjMqzZhK8gBMDj8Ly8,51
+ssmtool-0.3.2.dist-info/top_level.txt,sha256=ZblaSJKXFYeNw9MEONqufBwQfCrQZBCH0gXaaffK0W8,8
+ssmtool-0.3.2.dist-info/RECORD,,
