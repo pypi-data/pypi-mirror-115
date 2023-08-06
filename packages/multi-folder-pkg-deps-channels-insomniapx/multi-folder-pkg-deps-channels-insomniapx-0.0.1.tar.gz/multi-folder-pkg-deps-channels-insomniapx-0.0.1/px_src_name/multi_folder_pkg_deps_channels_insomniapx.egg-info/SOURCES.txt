@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+px_src_name/lib_px_pkg_deps_channels/__init__.py
+px_src_name/lib_px_pkg_deps_channels/file0.py
+px_src_name/lib_px_pkg_deps_channels/folder1/__init__.py
+px_src_name/lib_px_pkg_deps_channels/folder1/file1.py
+px_src_name/lib_px_pkg_deps_channels/folder1/subfolder1/__init__.py
+px_src_name/lib_px_pkg_deps_channels/folder1/subfolder1/file3.py
+px_src_name/lib_px_pkg_deps_channels/folder2/__init__.py
+px_src_name/lib_px_pkg_deps_channels/folder2/file2.py
+px_src_name/multi_folder_pkg_deps_channels_insomniapx.egg-info/PKG-INFO
+px_src_name/multi_folder_pkg_deps_channels_insomniapx.egg-info/SOURCES.txt
+px_src_name/multi_folder_pkg_deps_channels_insomniapx.egg-info/dependency_links.txt
+px_src_name/multi_folder_pkg_deps_channels_insomniapx.egg-info/requires.txt
+px_src_name/multi_folder_pkg_deps_channels_insomniapx.egg-info/top_level.txt
