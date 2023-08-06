@@ -1,0 +1,3 @@
+[console_scripts]
+extxyz = extxyz.cli:main
+
