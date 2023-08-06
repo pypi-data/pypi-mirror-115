@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: mahiru
+Version: 0.0.1
+Summary: Main Mahiru package
+Home-page: https://gitlab.com/henny022/mahiru/main
+Author: Henny022
+Author-email: hen.geheim22@gmail.com
+License: Unlicense
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: The Unlicense (Unlicense)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: mahiru-heart
+Provides-Extra: twitch
+Requires-Dist: mahiru-twitch ; extra == 'twitch'
+
+# main
+
+
+
