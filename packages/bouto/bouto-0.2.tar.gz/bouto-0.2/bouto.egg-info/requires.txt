@@ -1,0 +1,2 @@
+markdown
+wget>=3.2

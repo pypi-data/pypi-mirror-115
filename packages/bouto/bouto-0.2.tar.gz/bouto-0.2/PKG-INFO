@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: bouto
+Version: 0.2
+Summary: Project creation based on templates.
+Home-page: http://github.com/Bournix/bouto
+Author: Bournix, Malivix, mmz2000
+Author-email: admin@ghaf.cloud
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# bouto
+
+## Check List
+- [ ] actix
+- [ ] aleph js
+- [ ] django
+- [ ] nest js
+- [ ] next js
+- [ ] nuxt js
+- [ ] react js
+- [ ] vue js
+- [ ] yew
+- [ ] Generator command
+
+
