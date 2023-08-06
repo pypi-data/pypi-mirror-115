@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+bouto/__init__.py
+bouto/command_line.py
+bouto/utils.py
+bouto.egg-info/PKG-INFO
+bouto.egg-info/SOURCES.txt
+bouto.egg-info/dependency_links.txt
+bouto.egg-info/entry_points.txt
+bouto.egg-info/not-zip-safe
+bouto.egg-info/requires.txt
+bouto.egg-info/top_level.txt

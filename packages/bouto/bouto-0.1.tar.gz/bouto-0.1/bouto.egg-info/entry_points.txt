@@ -1,0 +1,3 @@
+[console_scripts]
+bouto = bouto.command_line:main
+
