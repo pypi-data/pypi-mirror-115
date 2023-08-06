@@ -1,0 +1,8 @@
+parent_aware/__init__.py,sha256=Kb30ldVQE3A1mKHyhdIApD73SWEpjFtEYbnmkSkwzho,63
+parent_aware/parent_aware.py,sha256=b37AF8Dky9hjcPyTfAQhXcXVXS5pVmUJYpS2u0VPziI,2857
+parent_aware/test_parent_aware.py,sha256=kwQo3W0_BCV_EhxBJ78DLPZDtCRtDsNqlPh3l_U_3oA,2444
+parent_aware-0.0.1.dist-info/LICENSE,sha256=ePtlVLKxiYfHD8UTQD4fb_Gkb2vtuvSDLVUtevdZoAc,1073
+parent_aware-0.0.1.dist-info/METADATA,sha256=WEl5RQzVljaoc7Ps54a5ifhAUWs_ti-PkHHgP0nWGRg,1212
+parent_aware-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+parent_aware-0.0.1.dist-info/top_level.txt,sha256=xnwI9756_DQc5uZT4rTdhINeQu6hA8PPnSDAxR4ATog,13
+parent_aware-0.0.1.dist-info/RECORD,,
