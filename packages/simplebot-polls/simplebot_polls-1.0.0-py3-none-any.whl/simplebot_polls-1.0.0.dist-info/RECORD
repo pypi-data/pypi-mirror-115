@@ -1,0 +1,10 @@
+simplebot_polls/__init__.py,sha256=ILchZBTpuN2O__d5YG9xLyoBv5IYpvXVMIM0LUmzBGk,7631
+simplebot_polls/orm.py,sha256=rO6iyjR2dusDTj2cwwiTzDAnwp9aM9jLhv3Om84b2H0,1742
+simplebot_polls/templates/__init__.py,sha256=Tfh0Bj7mS1IUN0L6ynRepYwMU_d3yGRCuoAAt58Lufk,274
+simplebot_polls/templates/poll.j2,sha256=e865gaGP-f_0FC9x3jg96MbjWT63W4KNxRzcy5yVlso,1889
+simplebot_polls-1.0.0.dist-info/LICENSE,sha256=-rPda9qyJvHAhjCx3ZF-Efy07F4eAg4sFvg6ChOGPoU,16726
+simplebot_polls-1.0.0.dist-info/METADATA,sha256=F0l3TscbY9yyu6j0mmsqBK2Rw_Lk3DZZ8usixmqm7Og,2510
+simplebot_polls-1.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+simplebot_polls-1.0.0.dist-info/entry_points.txt,sha256=y4NCbmiw5kREFzWmLdyKko1eXK4z5iu_MI6B6laRAOE,55
+simplebot_polls-1.0.0.dist-info/top_level.txt,sha256=6L41Sp1H62901USzMpYN9TJCTfKzeDnGkxNpMSLTu60,16
+simplebot_polls-1.0.0.dist-info/RECORD,,
