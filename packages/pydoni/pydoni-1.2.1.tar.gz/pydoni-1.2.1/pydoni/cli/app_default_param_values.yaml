@@ -1,0 +1,53 @@
+# Overwrite any default app command options here.
+#
+# Format:
+#   major minor:
+#     param1: value1
+#     param2: value2
+#     ...
+#
+# NOTE: The order that parameters are entered here is respected in presenting those
+#       parameters to the user when the app is run.
+
+data add-events-log:
+  events-log-file: ~/Documents/Events Log.txt
+
+data-backup:
+  verbose: True
+
+data pg-dump:
+  backup-dir: ~/GDrive/Code/git-doni/pg-database/pg-dump
+  pgdump: True
+  csvdump: False
+  max-dir-size: 5
+  verbose: True
+
+movie refresh-imdb-table:
+  schema: movie
+  table: imdb
+  omdbapikey: 209e906d
+  verbose: True
+
+notes book-table-to-md:
+  output-dir: ~/Desktop/Markdown
+  verbose: True
+
+photo rename-mediafile:
+  initials: AKS
+  tz-adjust: 0
+  notify: True
+  verbose: True
+
+photo website-extract-image-titles:
+  website-export-dir: ~/Pictures/Collection Publisher Lightroom Export/andonisooklaris.com
+  outfile: auto
+  verbose: True
+
+imessage workflow-elt:
+  verbose: True
+
+notes ph-refresh:
+  ph_folder: ~/Library/Mobile Documents/com~apple~CloudDocs/AndoniCloud/PH
+  insert_new_records: True
+  write_output_file: True
+  verbose: True
