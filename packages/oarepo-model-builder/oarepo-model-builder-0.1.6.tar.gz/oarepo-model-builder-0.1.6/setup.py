@@ -1,0 +1,52 @@
+# -*- coding: utf-8 -*-
+from setuptools import setup
+
+packages = \
+['oarepo_model_builder',
+ 'oarepo_model_builder.builders',
+ 'oarepo_model_builder.config',
+ 'oarepo_model_builder.outputs']
+
+package_data = \
+{'': ['*']}
+
+install_requires = \
+['click>=7.1',
+ 'deepmerge>=0.3.0,<0.4.0',
+ 'json5>=0.9.6,<0.10.0',
+ 'libcst>=0.3.19,<0.4.0',
+ 'munch>=2.4.0,<3.0.0',
+ 'tomlkit>=0.7.2,<0.8.0']
+
+entry_points = \
+{'console_scripts': ['models = oarepo_model_builder.cli:model'],
+ 'oarepo_model_builder.elements': ['jsonschema = '
+                                   'oarepo_model_builder.builders:JSONSchemaBuilder',
+                                   'mapping = '
+                                   'oarepo_model_builder.builders:MappingBuilder'],
+ 'oarepo_model_builder.jsonschema': ['jsonschema = '
+                                     'oarepo_model_builder.outputs:JsonSchemaOutput'],
+ 'oarepo_model_builder.mapping': ['mapping = '
+                                  'oarepo_model_builder.outputs:MappingOutput'],
+ 'oarepo_model_builder.source': ['datamodel = '
+                                 'oarepo_model_builder.builders:DataModelBuilder']}
+
+setup_kwargs = {
+    'name': 'oarepo-model-builder',
+    'version': '0.1.6',
+    'description': 'An utility library that generates OARepo required data model files from a JSON specification file',
+    'long_description': '# OARepo model builder\n\nAn utility library that generates OARepo required data model files from a JSON specification file.\n\n## Installation\n\n```shell\npoetry install oarepo-model-builder\n```\n\n## Data model specification file\n\nData model specification should be a JSON5 formatted file based on JSON Schema with the following OArepo specific\nextension keywords:\n\n### oarepo:type\n\n- Defines a reference to a type of the given property/object.\n- Can be used anywhere in the specification file.\n- This directive will be replaced by a referred datamodel type contents.\n- Only new properties will be added to current property/object.\n- All referenced types must be registered under *datamodel* entrypoints (see **Entrypoints**)\n\n#### Syntax\n\n```json\n"oarepo:type": List[string] | string   // list of datamodel type references or single string reference \n```\n\n#### Example Usage:\n\nThe following source specification:\n\n```json5\n// datamodel.json5\n{\n  "title": "Test record v1.0.0",\n  "type": "object",\n  "additionalProperties": false,\n  "oarepo:type": [\n    "include1"\n  ],\n  "properties": {\n    "field0": {\n      "oarepo:type": "include2"\n    }\n  }\n}\n```\n\n```json5\n// datamodels/include1.json5\n{\n  "title": "Included properties v1.0.0",\n  "type": "object",\n  "additionalProperties": true,\n  "properties": {\n    "includedField1": {\n      "type": "string",\n    }\n  }\n}\n```\n\n```json5\n// datamodels/include2.json5\n{\n  "type": "number"\n}\n```\n\n```python\n# setup.py\nentry_points = {\n    \'oarepo_model_builder.datamodels\': [\n        \'includes = mypkg.datamodels\'\n    ],\n    ...\n}\n```\n\nWill be compiled into resulting JSON Schema:\n\n```json\n{\n  "title": "Test record v1.0.0",\n  "type": "object",\n  "additionalProperties": false,\n  "properties": {\n    "field0": {\n      "type": "number"\n    },\n    "includedField1": {\n      "type": "string"\n    }\n  }\n}\n```\n\n### oarepo:search\n\n- Specifies how the current field/object should be indexed and handled for search, filtering and aggregations\n- Used by the ElasticSearch Mapping generator to generate property mappings.\n- If not present on a property, a default mapping type of **keyword** or **object** (for object-type properties) is assumed in resulting mapping output\n- Value can be either string or object.\n- This directive is omitted from the JSON Schema builder output\n\n#### Syntax\n\n```json5\n\nmapping_config: string  // string value represents an ES mapping type of property\n// or\nmapping_config: object  // you can also pass object for more complex property mapping configurations\n// or\nmapping_config: false  // parent field should be omitted from the generated ES mapping output\n\n"oarepo:search": {\n  "mapping": mapping_config  // "oarepo:search" block will be substituted by mapping_object configuration ES mapping output\n}\n// or\n"oarepo:search": string | false  // "string" represents an ES mapping type of the parent property\n```\n\n#### Example usage\n\nThe following source specification:\n\n```json5\n{\n  "properties": {\n    "testNoMapping": {\n      "type": "string",\n      "oarepo:search": false\n    },\n    "testDefault": {\n      "type": "string"\n    },\n    "testExplicit": {\n      "type": "string",\n      "oarepo:search": {\n        "mapping": "text"\n      }\n    },\n    "testShorthand": {\n      "type": "string",\n      "oarepo:search": "date"\n    },\n    "testObject": {\n      "type": "string",\n      "oarepo:search": {\n        "mapping": {\n          "type": "text",\n          "index": "false"\n        }\n      }\n    },\n    "testArray": {\n      "type": "array",\n      "items": {\n        "type": "string",\n        "oarepo:search": "date"\n      }\n    }\n  }\n}\n```\n\nWill result in the following files:\n\n```json5\n// mappings/v7/mymodel-v1.0.0.json\n{\n  "mappings": {\n    "properties": {\n      "testDefault": {"type": "keyword"},\n      "testExplicit": {"type": "text"},\n      "testShorthand": {"type": "date"},\n      "testObject": {\n        "type": "text",\n        "index": "false"\n      },\n      "testArray": {"type": "date"}\n    }\n  }\n}\n```\n\n```json5\n// jsonschemas/.../mymodel-v1.0.0.json\n{\n  "properties": {\n    "testNoMapping": {"type": "string"},\n    "testDefault": {"type": "string"},\n    "testExplicit": {"type": "string"},\n    "testShorthand": {"type": "string"},\n    "testObject": {"type": "string"},\n    "testArray": {\n      "type": "array",\n      "items": {\n        "type": "string"\n      }\n    }\n  }\n}\n```\n\n### oarepo:ui\n\n- Directive used to specify a field metadata to be used by UI representations of the data model\n\n#### Syntax\n\n```json5\nmultilingual_string: {lang_code: value, ...}\n\n"oarepo:ui": {\n  "title": multilingual_string,   // Property or object title\n  "label": multilingual_string,   // Label to be displayed on property input fields\n  "hint": multilingual_string     // Additional hint to be displayed on property input fields \n}\n```\n\n### Example usage\n\nThe following source specification:\n```json5\n\n{\n  "title": "Test record v1.0.0",\n  "type": "object",\n  "oarepo:ui":  {\n    "title": {\n      "cs": "Testovaci zaznam",\n      "en": "Test record"\n    },\n  },\n  "properties": {\n    "field1": {\n      "type": "string",\n      "oarepo:ui": {\n        "label": {\n          "en": "Test field 1"\n        },\n        "hint": {\n          "cs": "Vyplnte testovaci field",\n          "en": "Please provide test field input"\n        }\n      }\n    }\n  }\n}\n```\n\nWill result in the following files:\n\n##### TODO(@mesemus):\n\n## Customization\n\n### Build configuration\n\nYou can override some build process defaults using a custom JSON configuration file, starting with configuration\nfrom `./config/defauts.json`.\n```json5\n// build-config.json\n{\n  "jsonschema": {\n    "type": "object",\n    "additionalProperties": false\n  },\n  "search": {\n    "default_mapping_type": "keyword",\n    "mapping": {\n      "settings": {\n        "analysis": {\n          "char_filter": {\n            "configured_html_strip": {\n              "type": "html_strip",\n              "escaped_tags": []\n            }\n          },\n          "normalizer": {\n            "wsnormalizer": {\n              "type": "custom",\n              "filter": [\n                "trim"\n              ]\n            }\n          },\n          "filter": {\n            "czech_stop": {\n              "type": "stop",\n              "stopwords": "_czech_"\n            },\n            "czech_stemmer": {\n              "type": "stemmer",\n              "language": "czech"\n            }\n          },\n          "analyzer": {\n            "default": {\n              "tokenizer": "standard",\n              "filter": [\n                "lowercase",\n                "czech_stop",\n                "czech_stemmer"\n              ]\n            }\n          }\n        }\n      },\n      "mappings": {\n        "dynamic": false,\n        "date_detection": false,\n        "numeric_detection": false,\n        "properties": {}\n      }\n    }\n  }\n}\n```\n\n### Entrypoints\n\nThis package uses the following entrypoints in the build process to determine, which builders and data models\nshould be considered:\n\n#### oarepo_model_builder.source\nClasses responsible for parsing the whole source data model specification file.\n\nDefault:\n```python\ndatamodel = "oarepo_model_builder.handlers:DataModelBuilder"\n```\n\n#### oarepo_model_builder.elements\nClasses for building the output files from elements in a source data model specification file.\n\nDefault:\n```python\njsonschema = "oarepo_model_builder.builders.jsonschema_builder:JSONSchemaBuilder"\nmapping = "oarepo_model_builder.builders.mapping:MappingBuilder"\n```\n\n#### oarepo_model_builder.{output_type}\n\nClasses responsible for generating output files of certain type\n\nDefault:\n```toml\n[tool.poetry.plugins."oarepo_model_builder.jsonschema"]\njsonschema = "oarepo_model_builder.outputs:JsonSchemaOutput"\n\n[tool.poetry.plugins."oarepo_model_builder.mapping"]\nmapping = "oarepo_model_builder.outputs:MappingOutput"\n```\n\n\n#### oarepo_model_builder.datamodels\nPython modules containing data model specification files\n\n## Usage\n\nTo build a data model files from a specification file, this package provides the `models` script:\n\n```shell\n$ models build --help\nUsage: models build [OPTIONS] SOURCE\n\n  Build data model files from JSON5 source specification.\n\nOptions:\n  --package TEXT            Package name of the model (example: \'test-package\')\n  --config PATH             Path to custom build config file (example: \'./build-config.json\')\n  --datamodel-version TEXT  Version string of the built model: (example: \'1.0.0\')\n  --help\n```\n\n',
+    'author': 'Miroslav Bauer',
+    'author_email': 'bauer@cesnet.cz',
+    'maintainer': None,
+    'maintainer_email': None,
+    'url': None,
+    'packages': packages,
+    'package_data': package_data,
+    'install_requires': install_requires,
+    'entry_points': entry_points,
+    'python_requires': '>=3.8,<4.0',
+}
+
+
+setup(**setup_kwargs)
