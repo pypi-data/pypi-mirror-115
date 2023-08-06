@@ -1,0 +1,3 @@
+[console_scripts]
+ResumeExtraction = ResumeExtraction.command_line:main
+

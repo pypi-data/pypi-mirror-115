@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: ResumeExtraction
+Version: 0.1.0
+Summary: An ML based resume parser used for extracting information from resumes
+Home-page: UNKNOWN
+Author: Octonava Private Limited
+Author-email: info@octonava.com
+License: GPL-3.0
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: attrs (>=21.2.0)
+Requires-Dist: blis (>=0.2.4)
+Requires-Dist: certifi (>=2021.5.30)
+Requires-Dist: chardet (>=3.0.4)
+Requires-Dist: cymem (>=2.0.5)
+Requires-Dist: docx2txt (>=0.7)
+Requires-Dist: idna (>=3.2)
+Requires-Dist: jsonschema (>=3.0.2)
+Requires-Dist: nltk (>=3.5)
+Requires-Dist: numpy (>=1.21.1)
+Requires-Dist: pandas (>=1.2.2)
+Requires-Dist: pdfminer.six (>=20181108)
+Requires-Dist: preshed (>=2.0.1)
+Requires-Dist: pycryptodome (>=3.4.3)
+Requires-Dist: pyrsistent (>=0.18.0)
+Requires-Dist: python-dateutil (>=2.8.2)
+Requires-Dist: pytz (>=2021.1)
+Requires-Dist: requests (>=2.22.0)
+Requires-Dist: six (>=1.16.0)
+Requires-Dist: sortedcontainers (>=2.4.0)
+Requires-Dist: spacy (>=2.1.4)
+Requires-Dist: srsly (>=1.0.5)
+Requires-Dist: thinc (>=7.0.8)
+Requires-Dist: tqdm (>=4.51.0)
+Requires-Dist: urllib3 (>=1.26.6)
+Requires-Dist: wasabi (>=0.8.2)
+
+UNKNOWN
+
