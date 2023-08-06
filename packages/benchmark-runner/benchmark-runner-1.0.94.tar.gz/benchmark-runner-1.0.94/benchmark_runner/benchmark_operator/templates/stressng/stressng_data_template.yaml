@@ -1,0 +1,37 @@
+shared_data:
+  namespace: {{ namespace }}
+  pin_node: {{ pin_node1 }}
+  es_url: {{ elasticsearch_url }}
+  pin: {{ pin }}
+  runtype: parallel
+  timeout: 30
+  instances: 1
+  # cpu stressor options
+  cpu_stressors: 1
+  cpu_percentage: 100
+  # vm stressor option
+  vm_stressors: 1
+  vm_bytes: 128M
+  # mem stressor options
+  mem_stressors: 1
+  # enable/disable system metrics
+  system_metrics: {{ system_metrics }}
+  prom_url: https://prometheus-k8s.openshift-monitoring.svc.cluster.local:9091
+  prom_token: {{ prom_token }}
+  sm_index_name: system-metrics
+  #metrics_profile: node-metrics.yml
+  metrics_profile: https://raw.githubusercontent.com/cloud-bulldozer/benchmark-operator/master/roles/kube-burner/files/metrics.yaml
+pod:
+  index_name_pod: stressng-pod
+  es_kind: pod
+  resources: true
+  limits_cpu: 4
+  limits_memory_GB: 16
+  requests_cpu: 4
+  requests_memory: 16
+vm:
+  index_name_vm: stressng-vm
+  es_kind: vm
+  cores: 4
+  limits_memory_GB: 16
+  requests_memory_GB: 16
