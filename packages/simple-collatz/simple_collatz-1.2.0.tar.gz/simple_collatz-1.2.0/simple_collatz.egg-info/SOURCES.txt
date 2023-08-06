@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+simple_collatz/__init__.py
+simple_collatz/__main__.py
+simple_collatz/__version__.py
+simple_collatz.egg-info/PKG-INFO
+simple_collatz.egg-info/SOURCES.txt
+simple_collatz.egg-info/dependency_links.txt
+simple_collatz.egg-info/entry_points.txt
+simple_collatz.egg-info/not-zip-safe
+simple_collatz.egg-info/requires.txt
+simple_collatz.egg-info/top_level.txt
+simple_collatz/math_utils/__init__.py
