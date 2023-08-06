@@ -1,0 +1,15 @@
+mmcif_pdbx>=1.1.2
+numpy
+propka>=3.2
+requests
+
+[dev]
+check-manifest
+
+[test]
+black
+coverage
+flake8
+pandas>=1.0
+pytest
+testfixtures
