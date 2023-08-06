@@ -1,0 +1,3 @@
+[console_scripts]
+fscli = fscli.__main__:main
+
