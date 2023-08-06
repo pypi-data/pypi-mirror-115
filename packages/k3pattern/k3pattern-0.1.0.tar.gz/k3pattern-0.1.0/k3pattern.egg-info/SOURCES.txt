@@ -1,0 +1,10 @@
+setup.py
+k3pattern/__init__.py
+k3pattern/setup.py
+k3pattern/strutil.py
+k3pattern/synopsis.py
+k3pattern.egg-info/PKG-INFO
+k3pattern.egg-info/SOURCES.txt
+k3pattern.egg-info/dependency_links.txt
+k3pattern.egg-info/requires.txt
+k3pattern.egg-info/top_level.txt
