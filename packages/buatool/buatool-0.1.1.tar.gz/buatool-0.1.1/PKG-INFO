@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: buatool
+Version: 0.1.1
+Summary: Tool to analyse backups
+Home-page: UNKNOWN
+Author: Tyler Ward
+Author-email: python@scorpia.co.uk
+License: UNKNOWN
+Description: # BackUp Analysis Tool (BUATool)
+        
+        This is a tool for analising backups to assisit in clearing out files already avaliable elsewhere.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
