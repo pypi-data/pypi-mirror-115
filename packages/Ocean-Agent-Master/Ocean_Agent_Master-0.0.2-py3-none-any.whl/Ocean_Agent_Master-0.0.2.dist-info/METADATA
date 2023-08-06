@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: Ocean-Agent-Master
+Version: 0.0.2
+Summary: Ocean-Agent for Master nodes
+Home-page: UNKNOWN
+Author: kairos03
+Author-email: kairos9603@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: websockets
+Requires-Dist: netifaces
+Requires-Dist: requests
+Requires-Dist: click
+Requires-Dist: flask
+
+UNKNOWN
+
+
