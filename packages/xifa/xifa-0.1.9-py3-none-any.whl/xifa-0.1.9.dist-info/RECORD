@@ -1,0 +1,11 @@
+xifa/__init__.py,sha256=pONMRy44YE6FxteRtBGMPxZcLhbijJgIyhue0QowwtY,82
+xifa/base.py,sha256=elVG1SX9nCOMnewPCdT7FF2o_tr8QPHTzM2v4efd1Vo,16326
+xifa/gpcm.py,sha256=QR1TsmRUtIGRtAKzWtn7NRnOnqnpIXZdXjhrTDl0W2k,14754
+xifa/grm.py,sha256=joj8xLdam46OsEp_AgPvRPDZgw90z0xizoUE6QyYhQc,14732
+xifa/mhrm.py,sha256=WQtE4vomoo_gDTJwFOebCoFTrVXDMUTV2HQyMU9jtP0,13488
+xifa/utils.py,sha256=hr8TrFANyCc6pXqG_gAtUgAHtGffhk5vMxTfEQZOK40,750
+xifa-0.1.9.dist-info/LICENSE,sha256=8mvu50nyLvImQsZ2qnU7ZbaOUtApMN5P2uG3fI-aY44,1057
+xifa-0.1.9.dist-info/METADATA,sha256=IrdHxoIObRza8iXMKPuzVUHsxW5PpMliRjPjiFGDrms,2357
+xifa-0.1.9.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+xifa-0.1.9.dist-info/top_level.txt,sha256=uP2EColhoQ_5h65SXe2FRYzm6Rpmq0uKnIapF69y7pc,5
+xifa-0.1.9.dist-info/RECORD,,
