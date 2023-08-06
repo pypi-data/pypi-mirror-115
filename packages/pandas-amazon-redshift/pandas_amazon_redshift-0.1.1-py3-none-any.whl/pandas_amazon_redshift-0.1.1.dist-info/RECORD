@@ -1,0 +1,15 @@
+pandas_amazon_redshift/__init__.py,sha256=-fezfAw2lvDBJ3LUUf-qX4vMyPuYNtWg3NHoNYJig-o,746
+pandas_amazon_redshift/_version.py,sha256=8j7z9_nhR1fETAB7qhSliMaw5CS4e06u_SPdgcueeXE,497
+pandas_amazon_redshift/core.py,sha256=dKalCyEZBkCJD1TvF180fM4UZ3OOKSa4CXTz1sGVTHI,17113
+pandas_amazon_redshift/errors.py,sha256=lqtgt4vs9kiK0rHR4ndJLYHv0Ss_1kCtnKRvXJqs2uQ,813
+pandas_amazon_redshift/types.py,sha256=2U5BQDlVmbmheCagzul-VU4X-kHkPQ3_g7fQvfPLFj4,31716
+pandas_amazon_redshift/utils.py,sha256=IoSrWad5Mgo3wZrO5o8sPmmixw1JVlxlNfp8zCTldpg,220
+samples/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+samples/read_redshift_simple.py,sha256=ycYazg92HkGiMB4ZOCP-CKHWOaPvBcfK5FcMnR2OeQ0,1293
+samples/to_redshift_simple.py,sha256=fsO_TnCGGXsMzhtYt78tQUrnnebkU_xezRX16MGrgPw,1908
+pandas_amazon_redshift-0.1.1.dist-info/AUTHORS.md,sha256=B6hRXJQx5gCI5Wj8u4dqYoSMgpOG0OfQfg5Tgknqt7A,1006
+pandas_amazon_redshift-0.1.1.dist-info/LICENSE,sha256=IsGnsSzt4dHha1XCKU0Y-R9_x4FQNH-FVwI0kiRDH94,1519
+pandas_amazon_redshift-0.1.1.dist-info/METADATA,sha256=f_gJzgAfrMRoDlDTEY-5loP-uYISKXFWqgN3wESawBQ,2227
+pandas_amazon_redshift-0.1.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pandas_amazon_redshift-0.1.1.dist-info/top_level.txt,sha256=3S53PDOoJ4PdzUw-TFp0z6zJDWJf7s0MSuLFmNLGMEk,31
+pandas_amazon_redshift-0.1.1.dist-info/RECORD,,
