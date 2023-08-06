@@ -1,0 +1,12 @@
+gpsd-py3
+loguru
+btpy
+spidev
+Pillow
+dataset
+pyrunnable
+pyclsload
+scapy
+folium
+flask
+onboot
