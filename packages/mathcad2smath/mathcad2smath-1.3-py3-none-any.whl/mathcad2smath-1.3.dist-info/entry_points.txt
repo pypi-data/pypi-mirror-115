@@ -1,0 +1,3 @@
+[console_scripts]
+mathcad2smath = mathcad2smath.mathcad2smath:main
+
