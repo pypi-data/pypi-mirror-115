@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: PandaTex
+Version: 0.0.3
+Summary: Say hello!
+Home-page: https://github.com/Marcelo-Kenji-Noda/
+Author: Marcelo Kenji Noda
+Author-email: nodamarcelokenjinoda@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE
+
+# Pacote teste Pip
+
+para instalar
+
+```
+pip install -e .[dev]
+```
+
