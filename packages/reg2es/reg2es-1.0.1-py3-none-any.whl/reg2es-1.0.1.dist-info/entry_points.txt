@@ -1,0 +1,4 @@
+[console_scripts]
+reg2es=reg2es.views.Reg2esView:entry_point
+reg2json=reg2es.views.Reg2jsonView:entry_point
+
