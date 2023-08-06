@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: mplatform
+Version: 0.9.9
+Summary: Quick code support
+Home-page: UNKNOWN
+Author: Minh Phuong BUI
+Author-email: phuong.buiminh00@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+Goi nay bao gom:
+    lam tron so phuc vu cho ky thuat
+    tao giao dien nguoi dung don gian bang tk
+    lam viec voi he thong don gian
+
+Cach su dung:
+
+From mplatform import *
+From mplatform.tkui import *
+From mplatform.roundtech import *
+From mplatform.handle import *
+
