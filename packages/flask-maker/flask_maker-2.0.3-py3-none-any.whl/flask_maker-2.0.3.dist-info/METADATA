@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: flask-maker
+Version: 2.0.3
+Summary: A tool to create flask projects faster with a scalable setup.
+Home-page: https://github.com/shahriyardx/flask-maker
+Author: Md Shahriyar Alam
+Author-email: contact@shahriyar.dev
+License: UNKNOWN
+Project-URL: Bug Reports, https://github.com/shahriyardx/flask-maker/issues
+Project-URL: Source, https://github.com/shahriyardx/flask-maker/
+Keywords: flask,flask-maker
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.7, <4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: flask
+Requires-Dist: click
+Requires-Dist: python-slugify
+
+# Flask maker
+A tool to create flask projects faster with a scalable setup
+
+# Usage
+Creating peoject
+```sh
+flask-maker startproject --name "project name"
+```
+
+Creating app(inside project)
+```sh
+flask-maker startapp --name "app name"
+```
+
+Run the app locally
+```sh
+python app.py start
+```
+
