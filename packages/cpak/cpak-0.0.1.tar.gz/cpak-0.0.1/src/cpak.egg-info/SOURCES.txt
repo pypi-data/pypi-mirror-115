@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/cpak/__init__.py
+src/cpak.egg-info/PKG-INFO
+src/cpak.egg-info/SOURCES.txt
+src/cpak.egg-info/dependency_links.txt
+src/cpak.egg-info/top_level.txt
