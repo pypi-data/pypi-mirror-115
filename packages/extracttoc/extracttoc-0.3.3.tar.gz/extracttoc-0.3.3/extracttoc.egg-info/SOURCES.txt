@@ -1,0 +1,10 @@
+README.md
+setup.py
+extracttoc/__init__.py
+extracttoc/extracttoc.py
+extracttoc.egg-info/PKG-INFO
+extracttoc.egg-info/SOURCES.txt
+extracttoc.egg-info/dependency_links.txt
+extracttoc.egg-info/entry_points.txt
+extracttoc.egg-info/requires.txt
+extracttoc.egg-info/top_level.txt

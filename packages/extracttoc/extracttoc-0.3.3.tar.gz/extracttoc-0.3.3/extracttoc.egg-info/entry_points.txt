@@ -1,0 +1,3 @@
+[console_scripts]
+extracttoc = extracttoc.extracttoc:main
+
