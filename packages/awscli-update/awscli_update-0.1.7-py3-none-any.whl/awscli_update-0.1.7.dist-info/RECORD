@@ -1,0 +1,9 @@
+awscli_update/__init__.py,sha256=UtGaJiB6xtPHhji6LSYv5svkTsfkIdJdcZB1Maxl26o,116
+awscli_update/_version.py,sha256=HVoTSBANQBk6sVj2UBxF1nA6gDXjWvGF12_Vj08LHm0,22387
+awscli_update/update.py,sha256=ofMtBHlOsvO-PSpll7AkHJ3Nnqb1jumq9AHXsu7LjUc,6706
+awscli_update-0.1.7.data/scripts/awscli-update,sha256=bYEXOqSd81yMzz6ejmI-97w8sE44cj2QkyIWgaBges8,120
+awscli_update-0.1.7.dist-info/LICENSE,sha256=8h9NchS7flSoGbAGZV4ONqEJhxPiCDHCJbZzjT_FijQ,1069
+awscli_update-0.1.7.dist-info/METADATA,sha256=fhLGbfWKi7yI3_Q0KG4bQeA26kPuGUVSV-4LM47SoXw,2496
+awscli_update-0.1.7.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+awscli_update-0.1.7.dist-info/top_level.txt,sha256=7OcI47MTeWMuJAHsB9SKI-arHvXoHghkwY0Imsegy9M,14
+awscli_update-0.1.7.dist-info/RECORD,,
