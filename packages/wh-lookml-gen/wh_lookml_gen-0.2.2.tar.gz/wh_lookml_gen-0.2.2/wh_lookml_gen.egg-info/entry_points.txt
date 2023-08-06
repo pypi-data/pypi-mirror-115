@@ -1,0 +1,5 @@
+[console_scripts]
+wh_init_gen = wh_lookml_gen.wh_init_cli:init
+wh_lookml_gen = wh_lookml_gen.cli:lookml
+wh_schema_gen = wh_lookml_gen.schema_cli:schema
+
