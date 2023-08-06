@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: gcamreader
+Version: 1.2.3
+Summary: Tools for importing GCAM output data
+Home-page: https://github.com/JGCRI/gcam_reader
+Author: Robert Link
+Author-email: robert.link@pnnl.gov
+License: BSD 2-Clause
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
