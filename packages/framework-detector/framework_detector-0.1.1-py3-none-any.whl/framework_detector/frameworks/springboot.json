@@ -1,0 +1,12 @@
+{
+    "id": "springboot",
+    "name": "Spring Boot",
+    "description": "Spring makes Java simple.modern.productive.reactive.cloud-ready",
+    "detect":
+    {
+        "build.gradle": [
+            "org.springframework.boot"
+        ]
+    },
+    "dockerfile": "springboot.Dockerfile"
+}
