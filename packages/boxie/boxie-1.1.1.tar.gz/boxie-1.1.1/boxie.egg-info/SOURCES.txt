@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+./bin/boxie
+boxie/__init__.py
+boxie/__main__.py
+boxie/core.py
+boxie.egg-info/PKG-INFO
+boxie.egg-info/SOURCES.txt
+boxie.egg-info/dependency_links.txt
+boxie.egg-info/top_level.txt
