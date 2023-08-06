@@ -1,0 +1,17 @@
+fps/__init__.py,sha256=2O4d0XooVEKUhv8s-OETAlbad8hdbCz4RJbTqsav6sw,45
+fps/_version.py,sha256=MtoxFqEP1goW4bfhAe8Ae8Y8kM0tnUTi2R6Q0j_PI2Q,72
+fps/api.py,sha256=ZshebKCPtAFiQcRsTGvHA2U7Zz8-0_ZNpeoIVoC7TMw,302
+fps/cli.py,sha256=L63ePGBsI7i-F82TZPsDc_zXwSdkZEwTl-xdZQ7Fo3c,3288
+fps/config.py,sha256=aqDYxK66kavDxuDTy3Y6NzORDnoQRHJIAzrWchCKL2A,5259
+fps/errors.py,sha256=LMFEvxvCRpg8cQn5JlAroOPkvoxTEz_sy4K24OosKvU,76
+fps/hooks.py,sha256=GOjX4MfQ0QwZeF--0RQGR1KKhJe3TqUaeFk9v57MGsM,1113
+fps/logging.py,sha256=f0HEiFigQx9ytv27rW1bjydLZqJ4nT3A2Cvxht9wQwY,7222
+fps/main.py,sha256=lP5eA81Qa5B4L3WflkVxUF2jBU7ySXwkYghyyAY3U4c,460
+fps/plugins.py,sha256=EAtBm54BrOXZG-N5kPt270vYrHLGCTnmT3zpdtZwx5I,4638
+fps/utils.py,sha256=dn-TRHgrSuEuaQwW6aFUXySGplSdaBwGSVNeU4az27E,1136
+fps-0.0.5.dist-info/LICENSE,sha256=Pq_RKgBCIf768nCDHks1Uva57tVp_blxPrsG-DTjeYQ,1486
+fps-0.0.5.dist-info/METADATA,sha256=w3A7G5G3Z1inKbYgBiop1dyPxGgo3uaFKTif7WE9AG8,3932
+fps-0.0.5.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+fps-0.0.5.dist-info/entry_points.txt,sha256=_7OmnZ5JAb2NL9__D0HyCKYZZrirx49wTAVWuV_Vl7E,37
+fps-0.0.5.dist-info/top_level.txt,sha256=LWQWr3oC_3qQUL1bobs1WG4BL1MOQ4bP7yqPGGLKFbM,4
+fps-0.0.5.dist-info/RECORD,,
