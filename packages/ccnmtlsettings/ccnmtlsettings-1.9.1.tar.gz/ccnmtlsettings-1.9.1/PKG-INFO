@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: ccnmtlsettings
+Version: 1.9.1
+Summary: CCNMTL common Django base settings
+Home-page: https://github.com/ccnmtl/ccnmtlsettings
+Author: Anders Pearson
+Author-email: ctl-dev@columbia.edu
+License: BSD
+Platform: any
+
+common settings we use across all our projects
+

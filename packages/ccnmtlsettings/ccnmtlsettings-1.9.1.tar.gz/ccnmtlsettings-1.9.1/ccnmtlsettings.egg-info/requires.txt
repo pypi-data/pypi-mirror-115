@@ -1,0 +1,15 @@
+django_compressor
+django-debug-toolbar
+django-waffle
+coverage
+django-smoketest
+django-extensions
+django-statsd-mozilla
+sentry-sdk
+django-markwhat
+django-storages
+boto3
+statsd
+gunicorn
+djangowind
+django-impersonate
