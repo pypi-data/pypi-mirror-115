@@ -1,0 +1,16 @@
+[console_scripts]
+models=oarepo_model_builder.cli:model
+
+[oarepo_model_builder.elements]
+jsonschema=oarepo_model_builder.builders:JSONSchemaBuilder
+mapping=oarepo_model_builder.builders:MappingBuilder
+
+[oarepo_model_builder.jsonschema]
+jsonschema=oarepo_model_builder.outputs:JsonSchemaOutput
+
+[oarepo_model_builder.mapping]
+mapping=oarepo_model_builder.outputs:MappingOutput
+
+[oarepo_model_builder.source]
+datamodel=oarepo_model_builder.builders:DataModelBuilder
+
