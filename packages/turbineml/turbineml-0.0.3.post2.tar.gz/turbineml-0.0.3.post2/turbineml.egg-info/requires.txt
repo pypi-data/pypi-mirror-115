@@ -1,0 +1,5 @@
+requests>=2.22.0
+rich>=10.0.0
+PyYAML>=5.4.0
+stringcase>=1.2.0
+gql[requests]>=3.0.0a6
