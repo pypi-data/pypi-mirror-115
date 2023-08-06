@@ -1,0 +1,3 @@
+typeguard
+appsync-tools
+setuptools
