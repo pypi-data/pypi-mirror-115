@@ -1,0 +1,14 @@
+rfc3986
+
+[dev]
+pytest
+coverage
+hypothesis
+pytest-benchmark
+
+[doc]
+sphinx
+sphinx-rtd-theme
+
+[test]
+tox
