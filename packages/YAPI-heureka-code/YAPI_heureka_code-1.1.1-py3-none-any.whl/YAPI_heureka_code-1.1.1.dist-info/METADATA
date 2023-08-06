@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: YAPI-heureka-code
+Version: 1.1.1
+Summary: Moeglichkeit eine kleine API mit Lexer zu erstellen
+Home-page: https://github.com/heureka-code/YAPI-heureka-code
+Author: heureka-code
+License: MIT
+Download-URL: https://github.com/heureka-code/YAPI-heureka-code/archive/refs/tags/1.1.1.tar.gz
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# YAPI-heureka-code
+
+## Tokens angeben
+
+Beispiel MuNa
+
+```python
+group = YAPIGroup(
+    keywords=[
+        Token("SET"),
+        Token("TO"),
+        Token("COUNTER"),
+        Token("ITERATOR")
+    ],
+    operators=[
+        Token("SLASH", "/"),
+        Token("PIPE", "|"),
+        Token("DOPPELPUNKT", ":"),
+        Token("KLEINER", "<"),
+        Token("GROESSER", ">")
+    ],
+    other=[
+        TokenGroup("CharsetDefinition", [
+            Token("DIGITS"),
+            Token("LETTERS"),
+            Token("UPPER"),
+            Token("LOWER")
+        ])
+    ]
+)
+```
+
+Hierdurch werden die Keywords, die Operatoren und andere Tokens der Sprache festgelegt. 
+Hier muss dann allerdings auf Groß- und Kleinschreibung geachtet werden.
+Hier wird alles großgeschrieben.
+
+## YAPI definieren
+
+```python
+yapi = YAPI(group)
+print(yapi.execute("SET <?DIGITS|2|gross?> TO <?gross?>"))
+```
+
+Über das Instanziieren der Klasse YAPI können Statements ausgeführt werden.
+
+
