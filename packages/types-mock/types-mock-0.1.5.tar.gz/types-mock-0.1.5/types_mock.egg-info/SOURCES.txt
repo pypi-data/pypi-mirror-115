@@ -1,0 +1,7 @@
+setup.py
+mock-stubs/METADATA.toml
+mock-stubs/__init__.pyi
+types_mock.egg-info/PKG-INFO
+types_mock.egg-info/SOURCES.txt
+types_mock.egg-info/dependency_links.txt
+types_mock.egg-info/top_level.txt
