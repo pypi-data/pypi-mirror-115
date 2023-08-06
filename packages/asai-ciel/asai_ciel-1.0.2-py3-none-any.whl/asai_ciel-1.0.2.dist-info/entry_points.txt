@@ -1,0 +1,3 @@
+[console_scripts]
+analyze_video=scripts.analyze_video:main
+
