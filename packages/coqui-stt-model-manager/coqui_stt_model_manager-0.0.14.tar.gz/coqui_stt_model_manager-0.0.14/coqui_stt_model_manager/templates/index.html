@@ -1,0 +1,109 @@
+{% extends 'base.html' %}
+
+{% block title %}Coqui STT Model Manager{% endblock %}
+
+{% block head_extra %}
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+    const models_being_installed = {{ models_being_installed|tojson }};
+    console.log(`Models being installed: ${models_being_installed}`);
+    let shouldRefresh = false;
+    for (const install of models_being_installed) {
+        if (install.total_progress < 100) {
+            shouldRefresh = true;
+        }
+    }
+    if (models_being_installed.length > 0) {
+        function refresh() {
+            fetch("/installs_progress")
+            .then(response => response.json())
+            .then(progressUpdate => {
+                console.log(`Got progress update: ${progressUpdate}`);
+                let shouldStop = true;
+                for (const install of progressUpdate) {
+                    console.log(install);
+                    const span = document.querySelector(`.install-progress[data-install-id="${install.install_id}"]`);
+                    if (span) {
+                        span.textContent = install.total_progress + "%";
+                    }
+                    if (install.total_progress < 100) {
+                        shouldStop = false;
+                    }
+                }
+                if (shouldStop) {
+                    console.log("Stopping");
+                    if (shouldRefresh) {
+                        console.log("Refreshing");
+                        setTimeout(() => {
+                            window.location.replace("/");
+                        }, 500);
+                    }
+                } else {
+                    setTimeout(refresh, 1000);
+                }
+            });
+        }
+        console.log("Listening for installation progress...");
+        refresh();
+    }
+});
+</script>
+{% endblock %}
+
+{% macro footer() -%}
+<tfoot>
+<tr><th colspan="6"><a href="{{ model_zoo_url }}">
+{% if installed_models|length > 0 or models_being_installed|length > 0 %}
+Install a new model from the Coqui STT Model Zoo.
+{% else %}
+Install a model from the Coqui STT Model zoo to get started.
+{% endif %}
+</a></th></tr>
+</tfoot>
+</table>
+{%- endmacro %}
+
+{% block content %}
+<p class="intro">A unified interface to connect your microphone to a Coqui Speech-to-Text model, manage your installed models and install new ones from the Coqui Model Zoo. The Coqui Model Zoo is the central hub for finding STT models created by our community as well as official Coqui models.</p>
+<table class="models-table table">
+<thead>
+<tr><th colspan="6">Installed STT models</th></tr>
+<tr><th>Name</th><th>Language</th><th>Version</th><th>Creator</th><th>Run model</th><th>Show files</th></tr>
+</thead>
+<tbody>
+{% for card in installed_models %}
+<tr>
+    <td>{{ card.name }}</td>
+    <td>{{ card.language }}</td>
+    <td>{{ card.version }}</td>
+    <td>{{ card.creator }}</td>
+    <td><a href="{{ url_for('transcribe_with_model', model_name=card.name) }}"><i class="table-btn bi bi-play-btn"></i></a></td>
+    <td><a href="{{ url_for('show_model_files', model_name=card.name) }}"><i class="table-btn bi bi-folder-symlink"></i></a></td>
+</tr>
+{% endfor %}
+</tbody>
+
+{% if not models_being_installed %}
+{{ footer() }}
+{% else %}
+</table>
+{% endif %}
+
+{% if models_being_installed %}
+<table class="models-table table">
+<thead>
+<tr><th colspan="2">Models being installed</th></tr>
+</thead>
+<tbody>
+{% for install in models_being_installed %}
+    <tr>
+        <td>{{ install['model_card']['name'] }}</td>
+        <td><span class="install-progress" data-install-id="{{ install['install_id'] }}">{{ install['total_progress'] }}%...</span></td>
+    </tr>
+{% endfor %}
+</tbody>
+{{ footer() }}
+</table>
+{% endif %}
+
+{% endblock %}
