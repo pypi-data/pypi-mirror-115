@@ -1,0 +1,8 @@
+pycountry
+
+[build]
+oarepo-model-builder
+
+[tests]
+oarepo-mapping-includes
+oarepo[tests]
