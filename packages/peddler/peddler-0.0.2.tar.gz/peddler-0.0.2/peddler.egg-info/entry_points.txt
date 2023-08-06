@@ -1,0 +1,3 @@
+[console_scripts]
+peddler = peddler.commands.cli:main
+
