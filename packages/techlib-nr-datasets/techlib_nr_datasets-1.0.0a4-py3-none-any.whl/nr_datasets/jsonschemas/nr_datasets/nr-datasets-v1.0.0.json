@@ -1,0 +1,16 @@
+{
+  "allOf": [
+    {
+      "$ref": "../nr_datasets_metadata-v1.0.0.json#/definitions/DataSet"
+    },
+    {
+      "$ref": "../communities-v1.0.0.json#/definitions/Communities"
+    },
+    {
+      "$ref": "../fsm-record-v1.0.0.json#/definitions/FSMRecord"
+    },
+    {
+      "id": "https://narodni-repozitar.cz/schemas/nr_datasets/nr-datasets-v1.0.0.json"
+    }
+  ]
+}

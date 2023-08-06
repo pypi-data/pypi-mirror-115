@@ -1,0 +1,10 @@
+{
+  "title": "NR DataSet record v1.0.0",
+  "type": "object",
+  "additionalProperties": false,
+  "oarepo:use": [
+    "nr-datasets-metadata-v1.0.0",
+    "communities-v1.0.0",
+    "fsm-record-v1.0.0"
+  ]
+}
