@@ -1,0 +1,3 @@
+[console_scripts]
+fbdl = fbdl.main:main
+

@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+fbdl.egg-info/PKG-INFO
+fbdl.egg-info/SOURCES.txt
+fbdl.egg-info/dependency_links.txt
+fbdl.egg-info/entry_points.txt
+fbdl.egg-info/top_level.txt
