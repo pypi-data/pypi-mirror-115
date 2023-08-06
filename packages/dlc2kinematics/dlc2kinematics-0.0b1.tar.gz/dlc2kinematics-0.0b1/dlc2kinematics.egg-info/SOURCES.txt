@@ -1,0 +1,9 @@
+README.md
+setup.py
+dlc2kinematics/__init__.py
+dlc2kinematics/version.py
+dlc2kinematics.egg-info/PKG-INFO
+dlc2kinematics.egg-info/SOURCES.txt
+dlc2kinematics.egg-info/dependency_links.txt
+dlc2kinematics.egg-info/requires.txt
+dlc2kinematics.egg-info/top_level.txt
