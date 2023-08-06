@@ -1,0 +1,6 @@
+from typing import Any, Dict, Optional
+
+class Plugins:
+    jenkins: Any
+    def __init__(self, jenkins) -> None: ...
+    async def get_all(self, depth: Optional[int] = ...) -> Dict[str, dict]: ...
