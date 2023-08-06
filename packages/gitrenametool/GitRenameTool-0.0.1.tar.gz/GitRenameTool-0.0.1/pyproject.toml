@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "GitRenameTool"
+version = "0.0.1"
+description = "rename git`s files dirs "
+authors = ["ArthurWang <yahui9119@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+click = "^8.0.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+[tool.poetry.scripts]
+gitrename = "gitrenametool.cli:cli"
