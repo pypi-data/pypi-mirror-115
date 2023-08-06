@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pycatan
+Version: 1.0.1
+Summary: A library for running games of The Settlers of Catan
+Home-page: https://github.com/josefwaller/PyCatan2
+License: MIT
+Author: Josef Waller
+Author-email: josef@siriusapplications.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: colored (>=1.4.2,<2.0.0)
+Project-URL: Repository, https://github.com/josefwaller/PyCatan2
