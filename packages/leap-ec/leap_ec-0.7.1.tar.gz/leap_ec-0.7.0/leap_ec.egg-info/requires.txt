@@ -1,0 +1,8 @@
+dask[complete]
+distributed
+matplotlib
+networkx
+numpy
+pandas
+scipy
+toolz
