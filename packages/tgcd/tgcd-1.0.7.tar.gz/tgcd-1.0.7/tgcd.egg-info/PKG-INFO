@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: tgcd
+Version: 1.0.7
+Summary: a private fork of slam-mirrorbot.
+Home-page: UNKNOWN
+Author: reaitten
+Author-email: wsy0xf2u8@relay.firefox.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Development Status :: 5 - Production/Stable
+Requires-Python: >=3.8.2
+License-File: LICENSE
+
+UNKNOWN
+
