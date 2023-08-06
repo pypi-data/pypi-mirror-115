@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+mahiru/twitch/__init__.py
+mahiru/twitch/eventsub.py
+mahiru/twitch/module.py
+mahiru_twitch.egg-info/PKG-INFO
+mahiru_twitch.egg-info/SOURCES.txt
+mahiru_twitch.egg-info/dependency_links.txt
+mahiru_twitch.egg-info/top_level.txt
