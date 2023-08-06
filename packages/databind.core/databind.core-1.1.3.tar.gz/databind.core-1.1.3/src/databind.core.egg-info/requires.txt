@@ -1,0 +1,9 @@
+Deprecated<2.0.0,>=1.2.12
+nr.optional<1.0.0,>=0.1.1
+nr.parsing.date<2.0.0,>=1.0.1
+nr.preconditions<1.0.0,>=0.0.4
+nr.stream<1.0.0,>=0.1.1
+typing_extensions<4.0.0,>=3.10.0
+
+[test]
+pytest
