@@ -1,0 +1,107 @@
+Metadata-Version: 1.2
+Name: collective.googlecloudlogging
+Version: 1.0
+Summary: Google Cloud Logging Integration
+Home-page: https://github.com/collective/collective.googlecloudlogging
+Author: Peter Holzer
+Author-email: peter.holzer@agitator.com
+License: GPL version 2
+Project-URL: PyPI, https://pypi.python.org/pypi/collective.googlecloudlogging
+Project-URL: Source, https://github.com/collective/collective.googlecloudlogging
+Project-URL: Tracker, https://github.com/collective/collective.googlecloudlogging/issues
+Description: =============================
+        collective.googlecloudlogging
+        =============================
+        
+        This library connects to Python's standard logging module and will log to Googles Cloud Logging via API. More information at https://cloud.google.com/logging/docs/setup/python#connecting_the_library_to_python_logging
+        
+        Configuration
+        -------------
+        
+        - Within Google Cloud no extra configuration should be needed.
+        - If you want to use the Cloud Logging outside of Google Cloud, you have to supply your Google Cloud project ID and appropriate service account credentials.
+        
+        Note
+        ----
+        
+        As soon as it's loaded, and only then, it will remove the StreamHandler from root logger and no longer write to stdout.
+        If you want no instance logging to stdout at all in your Google Cloud Logs, you have to disable it in your ``wsgi.ini``::
+        
+        
+            [logger_root]
+            level = INFO
+            handlers = console, eventlog
+        
+        
+        Requirements
+        ------------
+        
+        * Plone 5.2
+        * Python 3.7
+        
+        
+        Installation
+        ------------
+        
+        Install collective.googlecloudlogging by adding it to your buildout::
+        
+            [buildout]
+        
+            ...
+        
+            eggs =
+                collective.googlecloudlogging
+        
+        
+        and then running ``bin/buildout``
+        
+        
+        Maintainers
+        -----------
+        
+        - Peter Holzer
+        
+        Contact: `dev@bluedynamics.com <mailto:dev@bluedynamics.com>`_
+        
+        
+        Contribute
+        ----------
+        
+        - Issue Tracker: https://github.com/collective/collective.googlecloudlogging/issues
+        - Source Code: https://github.com/collective/collective.googlecloudlogging
+        
+        
+        License
+        -------
+        
+        The project is licensed under the GPLv2.
+        
+        
+        Contributors
+        ============
+        
+        - Peter Holzer
+        - Erico Andrei
+        
+        Changelog
+        =========
+        
+        
+        1.0 (2021-08-05)
+        ----------------
+        
+        - Initial release.
+          [agitator]
+        
+Keywords: Python Plone CMS
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Plone
+Classifier: Framework :: Plone :: Addon
+Classifier: Framework :: Plone :: 5.2
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Requires-Python: >=3.7

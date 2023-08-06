@@ -1,0 +1,5 @@
+=============================
+collective.googlecloudlogging
+=============================
+
+User documentation
