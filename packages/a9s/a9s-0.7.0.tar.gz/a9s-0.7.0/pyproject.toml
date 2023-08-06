@@ -1,0 +1,40 @@
+[tool.poetry]
+name = "a9s"
+version = "0.7.0"  # this means version is development
+description = "Cli tool for navigation in Amazon AWS services. Highly inspired from k9s"
+readme = "README.md"
+authors = ["Elran Shefer <elran777@gmail.com>"]
+classifiers = [
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Utilities",
+    "Environment :: Console :: Curses",
+]
+packages = [
+    { include = "a9s" },
+]
+homepage = "https://github.com/IamShobe/a9s"
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+blessed = "^1.18.0"
+colored = "^1.4.2"
+pyperclip = "^1.8.2"
+cached-property = "^1.5.2"
+boto3 = "^1.17.87"
+attrdict = "^2.0.1"
+pydash = "^5.0.2"
+
+[tool.poetry.dev-dependencies]
+ipdb = "^0.13.8"
+pyinstaller = "^4.3"
+moto = {extras = ["server"], version = "^2.0.10"}
+python-jose = "^3.3.0"
+Faker = "^8.9.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+a9s = 'a9s.main:main'
