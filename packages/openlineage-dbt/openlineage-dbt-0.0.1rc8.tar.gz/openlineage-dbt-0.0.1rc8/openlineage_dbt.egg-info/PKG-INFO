@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: openlineage-dbt
+Version: 0.0.1rc8
+Summary: OpenLineage integration with dbt
+Home-page: UNKNOWN
+Author: OpenLineage
+License: UNKNOWN
+Keywords: openlineage
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Provides-Extra: tests
+Provides-Extra: dev
+
+UNKNOWN
+

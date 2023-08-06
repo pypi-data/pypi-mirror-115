@@ -1,0 +1,14 @@
+sqlparse<0.4,>=0.2.3
+openlineage-integration-common[dbt]==0.0.1rc8
+
+[dev]
+mock
+pytest
+flake8
+pytest-cov
+
+[tests]
+pytest
+pytest-cov
+mock
+flake8
