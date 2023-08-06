@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: skforecast
+Version: 0.1.9
+Summary: Forecasting time series with scikitlearn regressors
+Home-page: https://github.com/JoaquinAmatRodrigo/skforecast
+Author: Joaquin Amat Rodrigo
+Author-email: j.amatrodrigo@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
