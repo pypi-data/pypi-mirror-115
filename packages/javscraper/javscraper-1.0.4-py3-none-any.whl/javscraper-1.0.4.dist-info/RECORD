@@ -1,0 +1,14 @@
+javscraper/__init__.py,sha256=02rx_cZPOr9t8O4crWrMu6pSyLtmbQTjjpcNmxA8Ye0,216
+javscraper/ideapocket.py,sha256=1QiiKU_bg_Px6gC47Ub1t2EfsgsrWY30UXgFgcS-JqE,3098
+javscraper/javlibrary.py,sha256=6BeDBYIgDtFAtvfEOpqCE7taxlB4Xie6IyzbDng2TmY,3734
+javscraper/mgstage.py,sha256=ux5DE3hrd3aA6u1-9LPFOUIrpC8dG-p9b1Bv-0ioonA,3990
+javscraper/r18.py,sha256=x1pXszyOrieORoZNTHjWQpoEmmvO4uLjpKvZ3GUJzyk,7509
+javscraper/s1.py,sha256=m6XpbvoZu-Ho3gz7_AB0wMDtayaTJZ1r11kTZtExMI0,2428
+javscraper/sod.py,sha256=V3CBO94fhy8KUkgO89e11w_Ao-q_EQIk0rMBmuAj3RM,3579
+javscraper/tenmusume.py,sha256=bQV7BePX9xmbyZhSW37mwWg7N3HRd8EmekShJrtf9rk,4011
+javscraper/utils.py,sha256=Y_ba_a0loXvmIwoAHOoJX56oRGjiH_Hs2ajBOJv1Dhc,1842
+javscraper-1.0.4.dist-info/COPYING,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+javscraper-1.0.4.dist-info/METADATA,sha256=hNJK27QGQphGCP65yahSeKr-5pJT6cT8HKDLNAxcgpw,693
+javscraper-1.0.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+javscraper-1.0.4.dist-info/top_level.txt,sha256=STWAELWUAuvm5FNkSowSmjsBrAj-CTxqWz4OscUINMI,11
+javscraper-1.0.4.dist-info/RECORD,,
