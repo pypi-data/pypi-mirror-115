@@ -1,0 +1,10 @@
+README.md
+setup.py
+framework/__init__.py
+framework/invoke.py
+framework/locate.py
+http_containerize.egg-info/PKG-INFO
+http_containerize.egg-info/SOURCES.txt
+http_containerize.egg-info/dependency_links.txt
+http_containerize.egg-info/requires.txt
+http_containerize.egg-info/top_level.txt
