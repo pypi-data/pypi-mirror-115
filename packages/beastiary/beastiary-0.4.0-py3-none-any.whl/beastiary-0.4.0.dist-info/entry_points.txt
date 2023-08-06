@@ -1,0 +1,3 @@
+[console_scripts]
+beastiary=backend.beastiary.main:app
+
