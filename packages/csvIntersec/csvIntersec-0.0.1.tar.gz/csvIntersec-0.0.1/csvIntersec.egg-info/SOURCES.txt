@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+csvIntersec/__init__.py
+csvIntersec.egg-info/PKG-INFO
+csvIntersec.egg-info/SOURCES.txt
+csvIntersec.egg-info/dependency_links.txt
+csvIntersec.egg-info/top_level.txt

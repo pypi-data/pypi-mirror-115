@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: csvIntersec
+Version: 0.0.1
+Summary: An Advance CSV Writer and Intersector for @TFM_Hitesh's Warehouse Management
+Home-page: UNKNOWN
+Author: Xeouz
+Author-email: agencyxhq@gmail.com
+License: MIT
+Description: Custom Library for CSV's in a certain scenario - for TFM_Hitesh
+        
+        Change Log
+        ==============
+        
+        0.0.1 [8/9/2021]
+        ---------------------
+        - First Release 
+Keywords: csv
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
