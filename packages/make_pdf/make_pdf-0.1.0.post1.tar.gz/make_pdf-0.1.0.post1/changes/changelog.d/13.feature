@@ -1,0 +1,1 @@
+Added base CLI-structure with the sub-commands and their parameters (#13)

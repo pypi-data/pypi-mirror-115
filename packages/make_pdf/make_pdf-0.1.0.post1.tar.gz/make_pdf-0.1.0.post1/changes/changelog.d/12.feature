@@ -1,0 +1,1 @@
+Added formatting via [black](https://black.readthedocs.io/en/stable/) (#12)

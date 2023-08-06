@@ -1,0 +1,1 @@
+Added CI support (#28)

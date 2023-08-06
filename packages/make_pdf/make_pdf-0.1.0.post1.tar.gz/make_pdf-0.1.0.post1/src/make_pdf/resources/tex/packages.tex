@@ -1,0 +1,47 @@
+% File containing all packages included in the make_pdf-framework
+
+% Setup encoding
+\usepackage[utf8]{inputenc}
+
+% Allow if/then/else with extended commands
+\usepackage{ifthen}
+
+% Allow setting fonts
+\usepackage{fontspec}
+
+% Allow usage of colored boxes
+\usepackage{tcolorbox}
+\tcbuselibrary{breakable}
+\tcbuselibrary{skins}
+
+% Allow checking if page is in draft mode
+\usepackage{ifdraft}
+
+% Allow using pictures 
+\usepackage{graphicx}
+\usepackage[export]{adjustbox}
+
+% Allow configuring header
+\usepackage{fancyhdr}
+
+% Allow extra mark commands 
+\usepackage{extramarks}
+
+% Get page-number of last page
+\usepackage{pageslts}
+\AtBeginDocument{\pagenumbering{arabic}}
+
+% Allow advanced string modifications
+\usepackage{xstring}
+
+% Use localized quotes
+\usepackage{csquotes}
+
+% Use changes package
+\usepackage[commandnameprefix=always, commentmarkup=uwave]{changes}
+
+% Configure toc
+\usepackage{tocloft}
+
+% Allows inclusion of pages from another pdf as a PDF
+\usepackage{pdfpages}
