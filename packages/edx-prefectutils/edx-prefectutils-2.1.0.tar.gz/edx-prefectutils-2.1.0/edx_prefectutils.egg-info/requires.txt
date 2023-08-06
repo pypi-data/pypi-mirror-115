@@ -1,0 +1,10 @@
+prefect[aws,google,snowflake,viz]==0.15.1
+hvac
+ciso8601
+importlib-metadata<2
+mysql-connector-python
+edx-opaque-keys
+botocore
+backoff
+boto3
+paramiko
