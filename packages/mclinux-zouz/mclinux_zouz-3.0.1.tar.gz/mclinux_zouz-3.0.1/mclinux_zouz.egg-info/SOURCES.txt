@@ -1,0 +1,11 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+MCMC/__init__.py
+MCMC/maxmumclique.so
+mclinux_zouz.egg-info/PKG-INFO
+mclinux_zouz.egg-info/SOURCES.txt
+mclinux_zouz.egg-info/dependency_links.txt
+mclinux_zouz.egg-info/top_level.txt
