@@ -1,0 +1,3 @@
+[nbconvert.exporters]
+avocado = avocado:AvocadoExporter
+
