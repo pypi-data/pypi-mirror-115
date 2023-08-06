@@ -1,0 +1,3 @@
+[console_scripts]
+scanimate = scanimate.scanimate:main
+
