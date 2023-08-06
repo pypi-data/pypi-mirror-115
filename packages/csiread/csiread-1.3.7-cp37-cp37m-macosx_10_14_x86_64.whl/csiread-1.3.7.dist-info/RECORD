@@ -1,0 +1,9 @@
+csiread/__init__.py,sha256=0PgN6jB6XiSiJV0UlXu01FcWl4Oq0X2FtEX6hn8DjnA,152
+csiread/_csiread.cpython-37m-darwin.so,sha256=M_30F88OVUrG3xGS0YJKuBfSZQnG6OGqzMHuAGc_79w,579728
+csiread/core.py,sha256=VXgao3qh47JpuLg4UykzsSoLaGh0tKPyI7PWpFul5sM,33687
+csiread/utils.py,sha256=mZr1Uj9tcFAHPqyzzVQlvmp9Be41rez2ge1qGjIv6ss,6819
+csiread-1.3.7.dist-info/LICENSE.md,sha256=F9FqYYwOngTz4dge8b0Gv7aBl08e8rFdZNPz_tA5m-k,1078
+csiread-1.3.7.dist-info/METADATA,sha256=QeiH01Ci4Ah1p636rMcKwhwFAi5HBgW6KcYA81OPli0,1089
+csiread-1.3.7.dist-info/WHEEL,sha256=SPFsdN-g7Osut7El6pRHojcroYU7REc1DdD4VXzi4B4,111
+csiread-1.3.7.dist-info/top_level.txt,sha256=C7n5tV6sqYRsgKCUjvDCYoGgQtPRu--PglhrkbaHQpk,8
+csiread-1.3.7.dist-info/RECORD,,
