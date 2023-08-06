@@ -1,0 +1,17 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+XObject_GlobalData.egg-info/PKG-INFO
+XObject_GlobalData.egg-info/SOURCES.txt
+XObject_GlobalData.egg-info/dependency_links.txt
+XObject_GlobalData.egg-info/requires.txt
+XObject_GlobalData.egg-info/top_level.txt
+xo/__init__.py
+xo/fileWatch.py
+xo/gd.py
+xo/osCommands.py
+xo/sync.py
+xo/xo.py
+xo/xoHelper.py
