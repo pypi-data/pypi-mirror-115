@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: jokeapi
+Version: 1.0.0
+Summary: Python API Wrapper for Sv443's JokeAPI (https://v2.jokeapi.dev)
+License: GPL v3.0
+Author: thenamesweretakenalready
+Author-email: 43702423+thenamesweretakenalready@users.noreply.github.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: aiohttp (>=3.7.4,<4.0.0)
+Requires-Dist: simplejson (>=3.17.2,<4.0.0)
+Requires-Dist: urllib3 (>=1.26.2,<2.0.0)
