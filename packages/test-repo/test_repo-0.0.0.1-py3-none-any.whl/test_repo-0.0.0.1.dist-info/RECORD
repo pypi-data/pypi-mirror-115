@@ -1,0 +1,5 @@
+batchkit/client.py,sha256=seWMYTDIJq5NuwLA30ZjDDqNR2J22oWKKcqh9R-NVYg,85
+test_repo-0.0.0.1.dist-info/METADATA,sha256=MxZgWQP2zPPej2PmsYwyh25tcxHifyShbPy0jV444F0,476
+test_repo-0.0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+test_repo-0.0.0.1.dist-info/top_level.txt,sha256=TASbbzKNpmxBJ-u7X8HWsRAM7a-Vhos7zMgzX6IYBuQ,9
+test_repo-0.0.0.1.dist-info/RECORD,,
