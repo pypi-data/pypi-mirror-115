@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: wriggle
+Version: 0.0.2
+Summary: Using GPs to fit GRB spectra
+Home-page: https://github.com/grburgess/wriggle
+Author: J. Michael Burgess
+Author-email: jburgess@mpe.mpg.de
+License: GPL-2+
+Project-URL: Bug Tracker, https://github.com/grburgess/wriggle/issues
+Project-URL: Source Code, https://github.com/grburgess/wriggle
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v2 or later (GPLv2+)
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Scientific/Engineering :: Physics
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Wriggle
+![CI](https://github.com/grburgess/wriggle/workflows/CI/badge.svg?branch=master)
+[![codecov](https://codecov.io/gh/grburgess/wriggle/branch/master/graph/badge.svg)](https://codecov.io/gh/grburgess/wriggle)
+[![Documentation Status](https://readthedocs.org/projects/wriggle/badge/?version=latest)](https://wriggle.readthedocs.io/en/latest/?badge=latest)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3372456.svg)](https://doi.org/10.5281/zenodo.3372456)
+![PyPI](https://img.shields.io/pypi/v/wriggle)
+![PyPI - Downloads](https://img.shields.io/pypi/dm/wriggle)
+
+![alt text](https://raw.githubusercontent.com/grburgess/wriggle/master/docs/media/logo.png)
+
+
+Using GPs to fit GRB spectra
+
+
+* Free software: GNU General Public License v3
+* Documentation: https://wriggle.readthedocs.io.
+
+
+## Features
+
+
+* TODO
+
+## Credits
+
+
+
