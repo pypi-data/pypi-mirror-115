@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: krozark-current-platform
+Version: 0.1.0
+Summary: The aim of this project is to get the current running platform
+Home-page: https://github.com/Krozark/platform
+Author: Maxime Barbier
+Author-email: maxime.barbier1991+platform@gmail.com
+License: BSD2
+Description: # platform
+        simple python function to get the current running platform
+        
+Keywords: current platform
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

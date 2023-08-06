@@ -1,0 +1,7 @@
+README.md
+setup.py
+currentplatform/__init__.py
+krozark_current_platform.egg-info/PKG-INFO
+krozark_current_platform.egg-info/SOURCES.txt
+krozark_current_platform.egg-info/dependency_links.txt
+krozark_current_platform.egg-info/top_level.txt
