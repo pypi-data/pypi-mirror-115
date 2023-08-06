@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "pytorch-light"
+version = "0.1.2"
+description = "Light."
+authors = ["Yevgnen Koh <wherejoystarts@gmail.com>"]
+packages = [ { include = "torchlight" } ]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+torch = "^1.9.0"
+pytorch-ignite = "^0.4.5"
+pycarton = "^0.3.0"
+transformers = "^4.8.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
