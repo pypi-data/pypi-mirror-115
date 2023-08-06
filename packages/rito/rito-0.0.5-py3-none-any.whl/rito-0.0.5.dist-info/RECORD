@@ -1,0 +1,15 @@
+rito/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rito/cli.py,sha256=_UIGFEOC3BBerYjZNTFxCUGTIfdmBUScX3nC6bQqaTw,1298
+rito/senders/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rito/senders/att.py,sha256=hGmj2jRmuTqkuWcEM-DVPvAhUoZ7pqKUxJNduPRVeVA,148
+rito/senders/migadu.py,sha256=yAo5YBGNEqFrza2ZQPsymVEsXmEysr_obWWZcPFAz7s,2985
+rito/senders/slack.py,sha256=yI40MiDNLomORPbXNzXXNFdaFVt08xyO6M4kWrMXZuA,1023
+rito/senders/slack_file.py,sha256=ucYeh7l8DI4jDJHx2zAeH7sSxFnw8ALsru7up7kNgBY,1109
+rito/senders/slack_image.py,sha256=-GDaZ17n4IRrQUQhseosfFaApo7nz9FtKnowwO-LqAY,2560
+rito/senders/zulip.py,sha256=VTl93btVdRpa1vIIBiAecf-GlXtFW_cbyESB1qEzYhc,640
+rito-0.0.5.dist-info/LICENSE,sha256=d2bigjPdXqE-bBSb4XoDekM6TSDGRi840UkO30x1RbI,1095
+rito-0.0.5.dist-info/METADATA,sha256=NxCvAfTQ8iCgA5VBAdN54zILhSHwkv97PdM3IxTPOPc,696
+rito-0.0.5.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+rito-0.0.5.dist-info/entry_points.txt,sha256=3SBQHs4YrcJyW13rWUnXCoKZ6IiwgAcdaPW3WDc9o18,57
+rito-0.0.5.dist-info/top_level.txt,sha256=52fiPebfAOLCHn6EZvgDxRcun_-D433hssq2-dnOy-E,5
+rito-0.0.5.dist-info/RECORD,,
