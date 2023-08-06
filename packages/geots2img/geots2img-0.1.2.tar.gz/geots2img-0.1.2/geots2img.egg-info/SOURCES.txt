@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+geots2img/__init__.py
+geots2img/geots2img.py
+geots2img.egg-info/PKG-INFO
+geots2img.egg-info/SOURCES.txt
+geots2img.egg-info/dependency_links.txt
+geots2img.egg-info/not-zip-safe
+geots2img.egg-info/requires.txt
+geots2img.egg-info/top_level.txt

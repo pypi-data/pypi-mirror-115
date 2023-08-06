@@ -1,0 +1,7 @@
+pandas
+setuptools
+numpy
+matplotlib
+scipy
+Pillow
+pytz
