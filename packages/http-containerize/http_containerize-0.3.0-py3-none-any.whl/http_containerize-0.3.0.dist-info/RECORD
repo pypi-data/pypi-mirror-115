@@ -1,0 +1,8 @@
+framework/__init__.py,sha256=0_aGAOce_KvbW2JcQD8y64bid9XPnP5RZjlNGKRoArA,28
+framework/invoke.py,sha256=UJuO9b_F6kYWhR_ptEbYeenF_K6Mi-BJj9RNOtFb_ew,1636
+framework/locate.py,sha256=ViTCF7AcywJexMUquhtsz7boGizoozGq6vM_RJbQURM,3144
+http_containerize-0.3.0.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+http_containerize-0.3.0.dist-info/METADATA,sha256=FAhLSHEbLxzEnJVUPXWAaks8UOV-j0MtmhstSDiP_MI,2625
+http_containerize-0.3.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+http_containerize-0.3.0.dist-info/top_level.txt,sha256=hzpv2xEeSkKTVweFn8I8XnG5zJJOIOTB38-_zgJJSUw,10
+http_containerize-0.3.0.dist-info/RECORD,,
