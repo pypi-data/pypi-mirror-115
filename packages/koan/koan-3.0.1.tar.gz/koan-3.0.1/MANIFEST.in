@@ -1,0 +1,2 @@
+include COPYING AUTHORS README.md
+include koan.spec

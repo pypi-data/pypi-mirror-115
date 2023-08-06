@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: koan
+Version: 3.0.1
+Summary: Kickstart over a Network Client for Cobbler
+Home-page: https://www.github.com/cobbler/koan
+Author: Team Cobbler
+Author-email: cobbler.project@gmail.com
+License: GPLv2
+Platform: UNKNOWN
+Provides-Extra: docs
+Provides-Extra: lint
+Provides-Extra: test
+License-File: COPYING
+License-File: AUTHORS
+License-File: AUTHORS.in
+
+This client can initiate and prepare a reinstallation of your operation system with the help ofcobbler.
+

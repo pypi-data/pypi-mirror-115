@@ -1,0 +1,17 @@
+distro
+libvirt-python
+netifaces
+
+[docs]
+Sphinx
+sphinx-rtd-theme
+
+[lint]
+pycodestyle
+pyflakes
+
+[test]
+nose
+pytest
+pytest-cov
+pytest-mock
