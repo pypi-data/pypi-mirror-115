@@ -1,0 +1,20 @@
+from pynecone import Handler
+
+from flask import Blueprint, jsonify
+
+blueprint = Blueprint('{{ name }}', __name__)
+
+@blueprint.route('/hello', methods=['POST'])
+def handle():
+    output = {"msg": "I'm the test endpoint from thing blueprint."}
+    return jsonify(output)
+
+
+class {{ class_name }}(Handler):
+
+        def __init__(self):
+            super().__init__('{{ name }}')
+
+        def get_blueprint(self):
+            print('**** get blueprint from thing ***')
+            return blueprint
