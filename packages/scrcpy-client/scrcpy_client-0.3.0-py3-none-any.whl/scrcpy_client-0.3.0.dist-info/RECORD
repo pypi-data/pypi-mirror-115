@@ -1,0 +1,14 @@
+scrcpy/__init__.py,sha256=TxsClp3Ibp-6B3ZPAATfSkYu5OsaQYivqV6KycIGI40,46
+scrcpy/const.py,sha256=Wbg67Hb9VJKJvyyKMcLRyI0KVIBCg8Y0jr-90B0W3NM,7384
+scrcpy/control.py,sha256=CoVyLgd4aYuw8CjoP8KXWz9gGMMYJfKgES0thenR-fw,6653
+scrcpy/core.py,sha256=_XBKmMNYAEwTyCPE9Q0NXFQSXST_cPY7svOlaB4wjt0,7021
+scrcpy/scrcpy-server.jar,sha256=ZBxca-2pOZ365y0Rb1_0O17RBZ2HHJ68P0dhD9M8UaM,37330
+scrcpy_ui/__init__.py,sha256=9EVxmFiWsAoqWJ6br1bc3BxlA71JyOQP28fUHhX2k7E,43
+scrcpy_ui/main.py,sha256=_8bEIv9BfmOjLeE-skWtDNux-qia0x62rcijhH40enc,5221
+scrcpy_ui/main.ui,sha256=KTlFnKB2hb-_utZt-ZgeMT5am8kri-SSRbplvLPF4uU,4393
+scrcpy_ui/ui_main.py,sha256=izgMSioUkwikLe9xNAFgQkau5OLyE9yq58Hmg7vT0ZA,4834
+scrcpy_client-0.3.0.dist-info/entry_points.txt,sha256=s62Vrdc-MjNqBPRrGPIlW-lukvFAkUKZqiXgsgok9P8,44
+scrcpy_client-0.3.0.dist-info/LICENSE.txt,sha256=stWlJ4PtXsk61duCwHW2OiaduN78rugo1H-XNM7o9tY,1067
+scrcpy_client-0.3.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+scrcpy_client-0.3.0.dist-info/METADATA,sha256=pSqYOmnAgp12c3yEfubOrKLohuOos92zlDZynSP9C98,2554
+scrcpy_client-0.3.0.dist-info/RECORD,,
