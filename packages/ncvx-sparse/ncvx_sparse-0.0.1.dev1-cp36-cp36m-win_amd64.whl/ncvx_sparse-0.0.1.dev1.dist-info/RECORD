@@ -1,0 +1,12 @@
+ncvxsp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ncvxsp/_version.py,sha256=q7NmeEt_OaglWvJyrW1SEGDzzgx4WItzEyHUgHh48Rc,26
+ncvxsp/linear_model/__init__.py,sha256=mNPcuDWA8f602YLBCdMMwUJl6nXcUo8b1X8W8UCQ-Fc,82
+ncvxsp/linear_model/scad_cd_fast.cp36-win_amd64.pyd,sha256=dFgnyHgZWMnIG-k-PJ1KGBmUr9y4acxl410mCWEbezE,277504
+ncvxsp/linear_model/scad_coordinate_descent.py,sha256=g8ZqIrHaF7V2SjkMLb6adzyTiIwhPiiXko-NUtj1cQA,29827
+ncvxsp/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ncvxsp/tests/test_scad.py,sha256=hkwhMAd_z1nDQJd8fpUa_06wAVJorqvV0xMzL3n1Lwg,1062
+ncvx_sparse-0.0.1.dev1.dist-info/LICENSE,sha256=dPBjbNMZL9Wd-iEGB1I_C6Lvv-BgQnuxJwZ_A8kO7e4,1533
+ncvx_sparse-0.0.1.dev1.dist-info/METADATA,sha256=i27SjBfAq4WSEPm2EKTzOiLvWDf2LJUA6g2XUim5mPg,1939
+ncvx_sparse-0.0.1.dev1.dist-info/WHEEL,sha256=epucrC2yyYTysDCMzXuz8eGMTMKryzRfNOvMGdslbjc,101
+ncvx_sparse-0.0.1.dev1.dist-info/top_level.txt,sha256=sXJOuG0T173SikzBKvOBUA7vw6XVx04u7qaTKbrp5V0,7
+ncvx_sparse-0.0.1.dev1.dist-info/RECORD,,
