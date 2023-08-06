@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: MonsterLab
+Version: 0.0.2
+Summary: Monster Generator
+Home-page: https://github.com/BrokenShell/MonsterLab
+Author: Robert Sharp
+Author-email: webmaster@sharpdesigndigital.com
+License: Free for non-commercial use
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: Fortuna
+
+# MonsterLab
+by Robert Sharp
+
+
+
