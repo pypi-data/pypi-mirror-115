@@ -1,0 +1,78 @@
+Metadata-Version: 2.1
+Name: pysalad
+Version: 0.0.9
+Summary: just python salad
+Home-page: https://github.com/hehu80/pysalad
+Author: Henning Voss
+Author-email: henning@huhehu.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/hehu80/pysalad/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pysalad🥗🐍     
+
+Ein kleines Tool um über die Kommandozeile auf Salat zuzugreifen
+
+
+
+# How-to
+
+## Install
+````bash
+pip install pysalad
+````
+
+### Salatbuchungen von Heute anzeigen
+````bash
+pysalad --url <URL> --user <Mitarbeiterkürzel> show day
+````
+
+### Salatbuchungen von dieser Woche anzeigen
+````bash
+pysalad --url <URL> --user <Mitarbeiterkürzel> show week
+````
+
+### Salatbuchungen von diesem Monat anzeigen
+````bash
+pysalad --url <URL> --user <Mitarbeiterkürzel> show month
+````
+
+### Eigenen Vertrag in Salat anzeigen
+````bash
+pysalad --url <URL> --user <Mitarbeiterkürzel> show contract
+````
+
+### Eigenen Daten anzeigen
+````bash
+pysalad --url <URL> --user <Mitarbeiterkürzel> show employee
+````
+
+### Aufträge auf die man buchen kann
+````bash
+pysalad --url <URL> --user <Mitarbeiterkürzel> show orders
+````
+
+### Neue Buchung erstellen
+````bash
+pysalad --url <URL> --user <Mitarbeiterkürzel> report <Kommentar> <Dauer> <Auftrag> <Datum>
+````
+
+### Einstellungen speichern
+````bash
+pysalad --url <URL> config save # URL speichern
+pysalad --user <Mitarbeiterkürzel> config save # eigenes Mitarbeiterkürzel speichern
+pysalad --password <Passwort> config save # eigenes Passwort speichern
+pysalad --defaultorder <Text> config save # mein am häufigsten genutzten Unterauftrag speichern
+````
+
+Wenn die Einstellungen gespeichert sind, kann man zum Beispiel auf seinen häufigsten Unterauftrag buchen mit:
+````bash
+pysalad report "verschiedene Dinge" 4.5
+````
+
