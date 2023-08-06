@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: aiocertstream
+Version: 0.1.1
+Summary: An async client for certstream.
+Home-page: https://github.com/vcokltfre/aiocertstream
+Keywords: certstream,asyncio
+Author: vcokltfre
+Author-email: vcokltfre@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: aiohttp (>=3.7.4,<4.0.0)
+Project-URL: Repository, https://github.com/vcokltfre/aiocertstream
+Description-Content-Type: text/markdown
+
+# aiocertstream
+
+An async client to connect to certstream in Python.
+
+## Installation
+
+- Windows: `pip install aiocertstream` or `py -3 -m pip install aiocertstream`
+- *Nix: `pip3 install aiocertstream`
+
+## Example usage
+
+For this example we'll just print out the cert index:
+
+```py
+from aiocertstream import Client
+
+
+client = Client()
+
+@client.listen
+async def my_handler(event: dict) -> None:
+    print(event["data"]["cert_index"])
+
+client.run()
+```
+
