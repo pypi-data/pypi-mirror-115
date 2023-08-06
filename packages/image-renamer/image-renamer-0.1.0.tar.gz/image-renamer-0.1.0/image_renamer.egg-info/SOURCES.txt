@@ -1,0 +1,7 @@
+README.md
+setup.py
+image_renamer.egg-info/PKG-INFO
+image_renamer.egg-info/SOURCES.txt
+image_renamer.egg-info/dependency_links.txt
+image_renamer.egg-info/requires.txt
+image_renamer.egg-info/top_level.txt
