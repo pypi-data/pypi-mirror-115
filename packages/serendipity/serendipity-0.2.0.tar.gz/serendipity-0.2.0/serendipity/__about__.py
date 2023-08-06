@@ -1,0 +1,9 @@
+__title__ = 'serendipity'
+__package_name__ = 'serendipity'
+__version__ = '0.2.0'
+__description__ = "A multiprocessing module based on starting tmux sessions"
+__email__ = "george@cerebralab.com"
+__author__ = 'George Hosu'
+__github__ = 'https://github.com/George3d6/serendipity'
+__pypi__ = 'https://pypi.org/project/serendipity'
+__license__ = 'MIT'

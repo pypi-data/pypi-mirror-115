@@ -1,0 +1,1 @@
+from serendipity.interface import fire_and_forget
