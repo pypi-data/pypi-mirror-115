@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: py-path-signature
+Version: 210809.3
+Summary: 
+Author: TBD
+Author-email: tbd@example.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
