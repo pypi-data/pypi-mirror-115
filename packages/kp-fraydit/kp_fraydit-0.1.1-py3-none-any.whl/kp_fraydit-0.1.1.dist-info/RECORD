@@ -1,0 +1,12 @@
+kp_fraydit/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kp_fraydit/admin.py,sha256=24LqYUL7yGCgA0gzpJgAujGcgunbZPmT300YrKc5e80,1055
+kp_fraydit/custom_errors.py,sha256=JFZRfa0sxN5UtPl_HEc6Fas9eZHDmapTr-NtFxXc7bE,2050
+kp_fraydit/custom_types.py,sha256=gNcEmux00ue17U-WKJVpZma0SRm58J9XgIRsc-Duvws,701
+kp_fraydit/datetime_functions.py,sha256=pVPx7dLwIgfOvvCsEicstY0-aFYXvu0NYWC1KsTjoQQ,557
+kp_fraydit/metaclasses.py,sha256=UPzrIMf0DZd0MkA9t-XNlmIvCy7ZBsyWsat_aIQNj9Q,340
+kp_fraydit/schema_client.py,sha256=kOzH0Hk8TyG6A9l-ZkT0COtW1maCzMiqIyBbTp96BIc,14187
+kp_fraydit-0.1.1.dist-info/LICENSE,sha256=F3qPQbHa6LVTCxoFG64ZWlu053CWVubNODTdSO9zB_M,1070
+kp_fraydit-0.1.1.dist-info/METADATA,sha256=VUEnKXCt8-Wzbx2M9lSH573T9NMLekBqO99_S-Fd4o4,2264
+kp_fraydit-0.1.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+kp_fraydit-0.1.1.dist-info/top_level.txt,sha256=07FekeN_58kycswEll2Yj2o_n6I6bqDsdIGvCbeqtYs,11
+kp_fraydit-0.1.1.dist-info/RECORD,,
