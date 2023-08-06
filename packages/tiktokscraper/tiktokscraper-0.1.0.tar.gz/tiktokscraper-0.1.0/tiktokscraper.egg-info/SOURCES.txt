@@ -1,0 +1,7 @@
+setup.py
+tiktokscraper/__init__.py
+tiktokscraper/scraper.py
+tiktokscraper.egg-info/PKG-INFO
+tiktokscraper.egg-info/SOURCES.txt
+tiktokscraper.egg-info/dependency_links.txt
+tiktokscraper.egg-info/top_level.txt
