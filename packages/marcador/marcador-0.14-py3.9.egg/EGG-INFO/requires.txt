@@ -1,0 +1,8 @@
+clipboard
+python-rofi
+click
+jinja2
+beautifulsoup4
+requests
+bottle
+selenium

@@ -1,0 +1,17 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+marcador/__init__.py
+marcador/__main__.py
+marcador/bookmarkimporter.py
+marcador/marcador_lib.py
+marcador/marcador_test.py
+marcador/rofi.py
+marcador/rofi_marcador.py
+marcador.egg-info/PKG-INFO
+marcador.egg-info/SOURCES.txt
+marcador.egg-info/dependency_links.txt
+marcador.egg-info/entry_points.txt
+marcador.egg-info/requires.txt
+marcador.egg-info/top_level.txt
