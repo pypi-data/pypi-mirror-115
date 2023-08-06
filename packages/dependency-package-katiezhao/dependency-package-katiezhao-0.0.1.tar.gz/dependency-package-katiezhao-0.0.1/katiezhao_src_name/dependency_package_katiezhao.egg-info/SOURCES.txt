@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+katiezhao_src_name/dependency_package_katiezhao.egg-info/PKG-INFO
+katiezhao_src_name/dependency_package_katiezhao.egg-info/SOURCES.txt
+katiezhao_src_name/dependency_package_katiezhao.egg-info/dependency_links.txt
+katiezhao_src_name/dependency_package_katiezhao.egg-info/requires.txt
+katiezhao_src_name/dependency_package_katiezhao.egg-info/top_level.txt
+katiezhao_src_name/lib_dep_pkg_katiezhao/__init__.py
+katiezhao_src_name/lib_dep_pkg_katiezhao/file0.py
+katiezhao_src_name/lib_dep_pkg_katiezhao/folder1/__init__.py
+katiezhao_src_name/lib_dep_pkg_katiezhao/folder1/file1.py
+katiezhao_src_name/lib_dep_pkg_katiezhao/folder1/subfolder1/__init__.py
+katiezhao_src_name/lib_dep_pkg_katiezhao/folder1/subfolder1/file3.py
+katiezhao_src_name/lib_dep_pkg_katiezhao/folder2/__init__.py
+katiezhao_src_name/lib_dep_pkg_katiezhao/folder2/file2.py

@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: dependency-package-katiezhao
+Version: 0.0.1
+Summary: A package used for dependency for katiezhao
+Home-page: https://github.com/insomniapx-python-projects/py_package.git
+Author: katiezhao
+Author-email: katieyangzhao@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Dependency package of other packages
+
+structured in the hierarchical multi-folder format
+
+uploaded to conda account of katiezhao
+
+
+
+
+
+
+
+
+
+
+
+
