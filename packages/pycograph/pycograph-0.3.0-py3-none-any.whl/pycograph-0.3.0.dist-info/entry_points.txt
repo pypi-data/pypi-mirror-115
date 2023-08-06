@@ -1,0 +1,3 @@
+[console_scripts]
+pycograph=pycograph.cli:app
+
