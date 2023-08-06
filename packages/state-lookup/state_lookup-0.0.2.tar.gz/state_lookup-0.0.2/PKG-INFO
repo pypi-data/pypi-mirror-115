@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: state_lookup
+Version: 0.0.2
+Summary: Find the state in which the city is
+Home-page: UNKNOWN
+Author: Deepak Sharma
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+####
+
+A library that allows you to find the state to which the city belongs. If the same city name belongs to multiple states, then it returns back the city name as it is.
+
