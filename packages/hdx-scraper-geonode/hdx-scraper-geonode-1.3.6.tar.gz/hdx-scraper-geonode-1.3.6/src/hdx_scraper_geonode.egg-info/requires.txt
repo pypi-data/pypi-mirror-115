@@ -1,0 +1,2 @@
+python-slugify
+hdx-python-api>=5.2.3
