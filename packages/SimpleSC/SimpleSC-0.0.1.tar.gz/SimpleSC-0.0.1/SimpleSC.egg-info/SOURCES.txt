@@ -1,0 +1,7 @@
+setup.py
+SimpleSC.egg-info/PKG-INFO
+SimpleSC.egg-info/SOURCES.txt
+SimpleSC.egg-info/dependency_links.txt
+SimpleSC.egg-info/top_level.txt
+lib/SimpleSC.py
+lib/__init__.py
