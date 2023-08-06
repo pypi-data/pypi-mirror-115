@@ -1,0 +1,18 @@
+cftime>=1.5.0
+numpy>=1.15
+
+[documentation]
+sphinx<=4,>=2
+sphinx-copybutton
+sphinx-toggleprompt
+sphinxcontrib-spelling
+
+[pre-commit hooks]
+pre-commit
+black
+docformatter
+flake8
+pydocstyle
+
+[required C libraries]
+udunits2==2.2.20
