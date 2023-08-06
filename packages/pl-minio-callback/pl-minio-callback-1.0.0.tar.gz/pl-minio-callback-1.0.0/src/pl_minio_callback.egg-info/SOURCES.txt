@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/pl_minio_callback/__init__.py
+src/pl_minio_callback/minio_callback.py
+src/pl_minio_callback/minio_util.py
+src/pl_minio_callback.egg-info/PKG-INFO
+src/pl_minio_callback.egg-info/SOURCES.txt
+src/pl_minio_callback.egg-info/dependency_links.txt
+src/pl_minio_callback.egg-info/top_level.txt
