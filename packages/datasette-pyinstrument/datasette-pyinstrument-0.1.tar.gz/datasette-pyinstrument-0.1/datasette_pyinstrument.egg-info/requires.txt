@@ -1,0 +1,6 @@
+datasette
+pyinstrument
+
+[test]
+pytest
+pytest-asyncio

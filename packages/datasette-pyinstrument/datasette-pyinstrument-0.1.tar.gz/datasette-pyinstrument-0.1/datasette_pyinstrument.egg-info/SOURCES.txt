@@ -1,0 +1,9 @@
+README.md
+setup.py
+datasette_pyinstrument/__init__.py
+datasette_pyinstrument.egg-info/PKG-INFO
+datasette_pyinstrument.egg-info/SOURCES.txt
+datasette_pyinstrument.egg-info/dependency_links.txt
+datasette_pyinstrument.egg-info/entry_points.txt
+datasette_pyinstrument.egg-info/requires.txt
+datasette_pyinstrument.egg-info/top_level.txt
