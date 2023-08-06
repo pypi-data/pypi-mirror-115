@@ -1,0 +1,10 @@
+numpy
+
+[build]
+numpy
+Cython
+
+[test]
+pytest
+pytest-benchmark
+imageio
