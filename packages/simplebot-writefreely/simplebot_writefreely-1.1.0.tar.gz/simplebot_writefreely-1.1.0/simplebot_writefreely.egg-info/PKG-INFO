@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: simplebot-writefreely
+Version: 1.1.0
+Summary: DeltaChat/WriteFreely bridge (SimpleBot plugin)
+Home-page: https://github.com/simplebot-org/simplebot_writefreely
+Author: The SimpleBot Contributors
+Author-email: adbenitez@nauta.cu
+License: MPL
+Description: DeltaChat/WriteFreely Bridge
+        ============================
+        
+        .. image:: https://img.shields.io/pypi/v/simplebot_writefreely.svg
+           :target: https://pypi.org/project/simplebot_writefreely
+        
+        .. image:: https://img.shields.io/pypi/pyversions/simplebot_writefreely.svg
+           :target: https://pypi.org/project/simplebot_writefreely
+        
+        .. image:: https://pepy.tech/badge/simplebot_writefreely
+           :target: https://pepy.tech/project/simplebot_writefreely
+        
+        .. image:: https://img.shields.io/pypi/l/simplebot_writefreely.svg
+           :target: https://pypi.org/project/simplebot_writefreely
+        
+        .. image:: https://github.com/simplebot-org/simplebot_writefreely/actions/workflows/python-ci.yml/badge.svg
+           :target: https://github.com/simplebot-org/simplebot_writefreely/actions/workflows/python-ci.yml
+        
+        .. image:: https://img.shields.io/badge/code%20style-black-000000.svg
+           :target: https://github.com/psf/black
+        
+        `SimpleBot`_ plugin that allows Delta Chat users to publish in WriteFreely instances.
+        
+        If this plugin has collisions with commands from other plugins in your bot, you can set a command prefix like ``/wf_`` for all commands::
+        
+          simplebot -a bot@example.com db simplebot_writefreely/command_prefix wf_
+        
+        Install
+        -------
+        
+        To install run::
+        
+          pip install simplebot-writefreely
+        
+        
+        .. _SimpleBot: https://github.com/simplebot-org/simplebot
+        
+Keywords: simplebot plugin deltachat writefreely bridge
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Plugins
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Utilities
+Description-Content-Type: text/x-rst
+Provides-Extra: test
+Provides-Extra: dev
