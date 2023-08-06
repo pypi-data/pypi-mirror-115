@@ -1,0 +1,11 @@
+README.md
+setup.py
+b3api/__init__.py
+b3api/__main__.py
+b3api/assets.py
+b3api.egg-info/PKG-INFO
+b3api.egg-info/SOURCES.txt
+b3api.egg-info/dependency_links.txt
+b3api.egg-info/not-zip-safe
+b3api.egg-info/requires.txt
+b3api.egg-info/top_level.txt
