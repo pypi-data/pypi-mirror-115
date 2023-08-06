@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: glasgow-live
+Version: 0.0.6
+Summary: A python module for news feeds from https://www.glasgowlive.co.uk/
+Home-page: https://github.com/adamriaz/glasgow-live
+Author: Adam Riaz
+Author-email: riaz_adam@hotmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# Glasgow Live
+
+A python module for news feeds from https://www.glasgowlive.co.uk/
+
+## Installation
+
+```bazaar
+pip install glasgow-live
+```
+
+
