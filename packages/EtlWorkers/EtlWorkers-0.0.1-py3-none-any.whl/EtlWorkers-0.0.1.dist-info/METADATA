@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: EtlWorkers
+Version: 0.0.1
+Summary: Package for performing data operations within python
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: uuid
+
+UNKNOWN
+
+
