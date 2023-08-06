@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+__init__.py
+latlon.py
+setup.py
+latlon3.egg-info/PKG-INFO
+latlon3.egg-info/SOURCES.txt
+latlon3.egg-info/dependency_links.txt
+latlon3.egg-info/requires.txt
+latlon3.egg-info/top_level.txt
