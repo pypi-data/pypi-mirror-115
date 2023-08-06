@@ -1,0 +1,12 @@
+LICENSE.md
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+scripts/sshepherd
+src/sshepherd/__init__.py
+src/sshepherd/ssh.py
+src/sshepherd.egg-info/PKG-INFO
+src/sshepherd.egg-info/SOURCES.txt
+src/sshepherd.egg-info/dependency_links.txt
+src/sshepherd.egg-info/top_level.txt

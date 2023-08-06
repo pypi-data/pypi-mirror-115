@@ -1,0 +1,90 @@
+#!/usr/bin/python3
+"""
+sshepherd - part of sshepherd
+
+:author: George <drpresq@gmail.com>
+:description:  sshepherd consists of the run script that executes the sshepherd module
+:license: GPL3
+:donation:
+    BTC - 15wRP3NGm2zQwsC36gYAMf8ZaBNuDP6BiR
+    LTC - LQANeFg6qhEUCftCGpXTdgCKnPkBMR5Ems
+"""
+
+import argparse
+import logging
+from sshepherd.ssh import *
+
+
+def parse_command(command: Union[str, list]) -> str:
+    ret: list = []
+    head: int = 0
+    tail: int = 0
+    if not isinstance(command, list):
+        command = list(command)
+    while tail < len(command):
+        if len(command) == 1:
+            ret.append(command)
+            tail = len(command)
+        elif command[head][:-1] == ';':
+            head += 1
+            tail += 1
+        else:
+            while tail < len(command):
+                tail += 1
+                if command[tail][-1] == ';' or tail == len(command)-1:
+                    tail += 1
+                    ret.append(' '.join(command[head:tail]))
+                    head = tail
+                    break
+    return ''.join(ret)
+
+
+def parse_keys(key_path: str) -> dict:
+    return {str(key).split('/')[-1].split('.')[0].split('_')[0]: str(key) for key in Path(key_path).glob('*.pub') if key.is_file()}
+
+
+if __name__ == '__main__':
+    log_level = logging.DEBUG
+    logging.basicConfig(level=log_level)
+
+    parser = argparse.ArgumentParser(description='SSHepherd - herd your flock of ssh hosts', prog='sshepherd',
+                                     formatter_class=argparse.RawTextHelpFormatter, epilog='''
+    Common Usage:
+    \tsshepherd -a list-users -t 192.168.1.1 192.168.1.2\t\t\t\t\t\t\tReturns a list of users by IP
+    \tsshepherd -a add-users -t 192.168.1.1 -p /home/user/pub-keys\t\t\t\t\tAdd users to each target based on key name
+    \tsshepherd -a run-command -t 192.168.1.1 -c sudo whoami; cat /etc/passwd\t\tRuns the two commands on each target
+                                     ''')
+
+    arguments: list = [('-a', '--action', '\nAction to be carried out on targets\n\n',
+                        dict(choices=['list-users', 'add-users', 'run-command'])),
+                       ('-t', '--targets', '\nList of ip addresses/hostnames to perform action upon\n\n',
+                        dict(nargs='+')),
+                       ('-p', '--path', '\nPath to New User SSH Public Keys. SSH Key names must conform to the following formats:\n\t\t\t<username>.pub or <username>_somethingelse.pub\n\n',
+                        dict(type=str)),
+                       ('-c', '--command', '\nCommands to be run on host separated by semicolons\n\n',
+                        dict(nargs='+'))]
+
+    for arg1, arg2, description, options in arguments:
+        parser.add_argument(arg1, arg2, help=description, **options)
+
+    args = parser.parse_args()
+
+    communicator = Communicator()
+
+    if args.action == 'list-users':
+        for system, users in communicator.get_users_by_system(args.targets).items():
+            print(f'\n{system}:')
+            for user in users:
+                print(f'\t{user}')
+
+    elif args.action == 'add-users':
+        if not Path(args.path).exists:
+            raise FileExistsError
+        print(communicator.add_users(args.targets, parse_keys(args.path)))
+
+    elif args.action == 'run-command':
+        print(parse_command(args.command))
+
+    else:
+        print("Missing Required Argument: Action (-a/--action)\n")
+        parser.print_help()
