@@ -1,0 +1,25 @@
+Metadata-Version: 1.1
+Name: sunilpm692calsi
+Version: 0.0.2
+Summary: A very basic calculator
+Home-page: UNKNOWN
+Author: Sunil PM
+Author-email: pm.sunil6@gmail.com
+License: MIT
+Description: Simple calculator that takes two numbers and perform any folowwing operations add, subtract, multiply or divide.
+        
+        
+          
+        Change Log
+        ==========
+        
+        0.0.2 (11/08/2021)
+        -------------------
+        - First Release
+Keywords: calculator
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
