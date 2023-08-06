@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: wavepl
+Version: 0.0.4
+Summary: Library for processing WAV files.
+Home-page: https://github.com/Krishna-Sivakumar/wapl
+Author: Krishna Sivakumar
+Author-email: krishnasivaprogrammer@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+
+# wapl
+WAV Audio Processing Library
+
+
