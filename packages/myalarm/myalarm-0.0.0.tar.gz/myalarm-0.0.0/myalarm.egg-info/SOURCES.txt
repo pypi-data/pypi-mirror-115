@@ -1,0 +1,7 @@
+LICENSE
+setup.py
+myalarm.egg-info/PKG-INFO
+myalarm.egg-info/SOURCES.txt
+myalarm.egg-info/dependency_links.txt
+myalarm.egg-info/requires.txt
+myalarm.egg-info/top_level.txt
