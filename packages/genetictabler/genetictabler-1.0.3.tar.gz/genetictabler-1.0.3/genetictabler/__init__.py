@@ -1,0 +1,1 @@
+from genetictabler.genetic import generate_timetable
