@@ -1,0 +1,15 @@
+pdb_attach/VERSION.txt,sha256=f70hDr7BH2WpcZDvkAeVxLjaOAWvP1objR0nJVaykso,5
+pdb_attach/__init__.py,sha256=x1cYwnNt2bRlvLn5h0kfdQ-FQd45IwJzl8k-Bm1qHec,603
+pdb_attach/__main__.py,sha256=6ak5plIwTD6S6tfjRtdeZDK2aWBpWu3pmBamJABVNPY,596
+pdb_attach/_prompt.py,sha256=HO7wl5AGMddmMaaMGXFM5hPq-FvpoXakxNFazlJvnFs,340
+pdb_attach/_prompt.pyi,sha256=JvL88Sj4-5nRaqY-5safg17OCFyHwSidqcsnOMVQMOw,12
+pdb_attach/client.py,sha256=iAdPG4ywaFojAFqmDBfnPsMot2Rr-_Uz1IPqDlzTYR4,3252
+pdb_attach/client.pyi,sha256=uBwhhtTiqfWLibkpkpcyq5AeEWqrsvQQoiy-PPfYgfU,457
+pdb_attach/pdb_detach.py,sha256=g1Hp4rbxiqoBfKV3bDHdNrukHUR5r-I2OoI2NrBxHFM,3675
+pdb_attach/pdb_detach.pyi,sha256=ctxDz0ubnwGU1xEkTCGkIrjmB4iYsmgIqaAamc6U_HI,838
+pdb_attach/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pdb_attach-1.1.0.dist-info/LICENSE,sha256=xkwUuItxSjz8BSp5zZxfcPUHmS8a7uapj1OC4FgKIxM,1524
+pdb_attach-1.1.0.dist-info/METADATA,sha256=Xi8AQ7B9mNH4wCt-cx-UaIyfuCvM7HqAX8PDGXY8okg,5028
+pdb_attach-1.1.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+pdb_attach-1.1.0.dist-info/top_level.txt,sha256=fB48Lj1YraIFHWxSXxN5GTTzjCrpu9LaBsHKEaH7Kqo,11
+pdb_attach-1.1.0.dist-info/RECORD,,
