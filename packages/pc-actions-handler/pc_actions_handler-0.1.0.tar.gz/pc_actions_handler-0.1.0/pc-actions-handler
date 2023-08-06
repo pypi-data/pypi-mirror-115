@@ -1,0 +1,3 @@
+#!/usr/bin/python
+from pc_actions_handler import run_server
+run_server()
