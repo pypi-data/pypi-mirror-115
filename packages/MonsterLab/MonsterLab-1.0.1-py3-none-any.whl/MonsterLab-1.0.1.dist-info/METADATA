@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: MonsterLab
+Version: 1.0.1
+Summary: Monster Generator
+Home-page: https://github.com/BrokenShell
+Author: Robert Sharp
+Author-email: webmaster@sharpdesigndigital.com
+License: Free for non-commercial use
+Keywords: MonsterLab,Fortuna
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: Fortuna
+
+# MonsterLab
+by Robert Sharp
+
+## Monster Class
+### Optional Inputs
+- Name
+- Type
+- Level
+- Rarity
+
+### Derived Fields
+- Damage
+- Health
+- Energy
+- Sanity
+- Time Stamp
+
+
