@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+tasker.py
+tasker.egg-info/PKG-INFO
+tasker.egg-info/SOURCES.txt
+tasker.egg-info/dependency_links.txt
+tasker.egg-info/top_level.txt
