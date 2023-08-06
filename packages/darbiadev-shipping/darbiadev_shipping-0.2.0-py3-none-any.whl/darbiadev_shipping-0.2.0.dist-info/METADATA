@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: darbiadev-shipping
+Version: 0.2.0
+Summary: darbiadev-shipping
+Home-page: https://github.com/darbiadev/darbiadev-shipping
+License: MIT
+Author: Bradley Reynolds
+Author-email: bradley.reynolds@darbia.dev
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Provides-Extra: docs
+Provides-Extra: fedex
+Provides-Extra: tests
+Provides-Extra: ups
+Provides-Extra: usps
+Requires-Dist: darbiadev-fedex (>=0.3.0,<0.4.0); extra == "fedex"
+Requires-Dist: darbiadev-ups (>=0.4.0,<0.5.0); extra == "ups"
+Requires-Dist: darbiadev-usps (>=0.5.0,<0.6.0); extra == "usps"
+Requires-Dist: pytest (>=6.2.4,<7.0.0); extra == "tests"
+Requires-Dist: python-benedict (>=0.24.1,<0.25.0)
+Requires-Dist: sphinx (>=4.1.1,<5.0.0); extra == "docs"
+Requires-Dist: sphinx-autodoc-annotation (>=1.0-1,<2.0); extra == "docs"
+Requires-Dist: sphinx-rtd-theme (>=0.5.2,<0.6.0); extra == "docs"
+Requires-Dist: sphinxcontrib-apidoc (>=0.3.0,<0.4.0); extra == "docs"
+Requires-Dist: sphinxcontrib-autoprogram (>=0.1.7,<0.2.0); extra == "docs"
+Requires-Dist: sphinxcontrib-napoleon (>=0.7,<0.8); extra == "docs"
+Requires-Dist: sphinxcontrib-packages (>=1.0.1,<2.0.0); extra == "docs"
+Requires-Dist: toml (>=0.10.2,<0.11.0); extra == "docs"
+Requires-Dist: tox (>=3.24.0,<4.0.0); extra == "tests"
+Project-URL: Documentation, https://darbiadev.github.io/darbiadev-shipping/
+Project-URL: Repository, https://github.com/darbiadev/darbiadev-shipping
+Description-Content-Type: text/markdown
+
+# darbiadev-shipping
+
+A class wrapping multiple shipping carrier API wrapping packages, providing a higher level multi carrier package.
+
+Documentation is hosted [here](https://darbiadev.github.io/darbiadev-shipping/)
+
