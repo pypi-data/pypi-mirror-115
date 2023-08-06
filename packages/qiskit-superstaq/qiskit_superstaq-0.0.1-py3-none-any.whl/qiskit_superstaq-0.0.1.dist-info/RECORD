@@ -1,0 +1,15 @@
+qiskit_superstaq/__init__.py,sha256=bviC2K-qloSYAMhOGjAlFAC_25K0E3AdfCasSuO0978,312
+qiskit_superstaq/_init_vars.py,sha256=_3etC892afxFLm9gwsGwEZpQdYej_1Cad4es_nmpwQ4,62
+qiskit_superstaq/_version.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+qiskit_superstaq/py.typed,sha256=2DnKRKK8fmvD_m6TmNUqVJZBNb2xKGaCjcHkkVpRsMc,68
+qiskit_superstaq/superstaq_backend.py,sha256=kPWs62mHBPlKTB7dEgKDJ0jux9cbx1k-X0wPT78GENA,4776
+qiskit_superstaq/superstaq_backend_test.py,sha256=eACUgEABB0WFyxNyFkQ8uza4ucgkmYhl-5D28IhF_ss,7034
+qiskit_superstaq/superstaq_job.py,sha256=FKfE1Uiml2br0qCA7WuhSk-nni4veFH_QI5gHB6xmRY,4976
+qiskit_superstaq/superstaq_job_test.py,sha256=VaPYZiMytgP4_Hf2BFzWPAqpYwj30QqEES1P1OjcQ2I,3578
+qiskit_superstaq/superstaq_provider.py,sha256=fTHcQVcalSMJAV0nu95NDh8WCnB7G4aL2RYQVL2bsDg,2476
+qiskit_superstaq/superstaq_provider_test.py,sha256=yVfLJ7oCwpQtHzj02tA9Py6GJym1Nng6TYrHIle6xfs,1057
+qiskit_superstaq-0.0.1.dist-info/LICENSE.txt,sha256=-P8Wao0KqlfGI_5nyy8snm7pAKy21CFWtPdAZ69FsDk,11416
+qiskit_superstaq-0.0.1.dist-info/METADATA,sha256=zMjMIWg9wX_9tlHFpV1fsF2os3G49DRBFPGhVSGPdR4,479
+qiskit_superstaq-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+qiskit_superstaq-0.0.1.dist-info/top_level.txt,sha256=xis4x-IZ03YaIz8-_Edz-OR01jcFLGtdoLqKCub2u8k,17
+qiskit_superstaq-0.0.1.dist-info/RECORD,,
