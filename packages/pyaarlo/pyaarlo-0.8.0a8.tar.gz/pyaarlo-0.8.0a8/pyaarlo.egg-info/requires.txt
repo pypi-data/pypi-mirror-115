@@ -1,0 +1,5 @@
+requests
+click
+pycryptodome
+unidecode
+cloudscraper>=1.2.58
