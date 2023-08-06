@@ -1,0 +1,3 @@
+[console_scripts]
+image-renamer = image_renamer.image_renamer:main
+
