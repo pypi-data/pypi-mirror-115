@@ -1,0 +1,6 @@
+setup.py
+example_pkg/__init__.py
+example_pkg_cole_mei.egg-info/PKG-INFO
+example_pkg_cole_mei.egg-info/SOURCES.txt
+example_pkg_cole_mei.egg-info/dependency_links.txt
+example_pkg_cole_mei.egg-info/top_level.txt
