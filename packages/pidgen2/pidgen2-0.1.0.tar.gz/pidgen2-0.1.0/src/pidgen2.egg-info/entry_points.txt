@@ -1,0 +1,4 @@
+[console_scripts]
+pidgen2.resample = pidgen2.resample:main
+pidgen2.validate = pidgen2.validate:main
+
