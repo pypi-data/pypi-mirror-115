@@ -1,0 +1,15 @@
+numpy
+pandas
+h5py
+tables
+scikit-learn
+scipy
+openpyxl
+xlrd
+instancelib
+imblearn
+lightgbm
+more-itertools
+
+[doc2vec]
+gensim
