@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/dbxscd/__init__.py
+src/dbxscd/example.py
+src/dbxscd.egg-info/PKG-INFO
+src/dbxscd.egg-info/SOURCES.txt
+src/dbxscd.egg-info/dependency_links.txt
+src/dbxscd.egg-info/top_level.txt
