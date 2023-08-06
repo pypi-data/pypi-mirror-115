@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+src/locality_splitting/__init__.py
+src/locality_splitting/fips_lookup.py
+src/locality_splitting/metrics.py
+src/locality_splitting.egg-info/PKG-INFO
+src/locality_splitting.egg-info/SOURCES.txt
+src/locality_splitting.egg-info/dependency_links.txt
+src/locality_splitting.egg-info/top_level.txt
