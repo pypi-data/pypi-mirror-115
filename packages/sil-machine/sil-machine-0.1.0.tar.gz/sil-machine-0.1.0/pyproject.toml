@@ -1,0 +1,58 @@
+[tool.black]
+line-length = 120
+target-version = ['py37']
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.eggs
+  | \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | _build
+  | buck-out
+  | build
+  | dist
+)/
+'''
+
+[tool.isort]
+# make it compatible with black
+profile = "black" 
+
+[tool.poetry]
+name = "sil-machine"
+version = "0.1.0"
+description = ""
+license = "MIT"
+authors = ["SIL International"]
+maintainers = ["Damien Daspit <damien_daspit@sil.org>"]
+readme = "README.md"
+repository = "https://github.com/sillsdev/machine.py"
+keywords = ["machine", "translation", "natural", "language", "processing"]
+classifiers = [
+  "Topic :: Scientific/Engineering",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+  "Topic :: Scientific/Engineering :: Mathematics",
+  "Topic :: Software Development",
+  "Topic :: Software Development :: Libraries",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+  "Topic :: Text Processing",
+  "Topic :: Text Processing :: Linguistic"
+]
+packages = [
+  { include = "machine" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+regex = "^2021.7.6"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+black = "^21.7b0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
