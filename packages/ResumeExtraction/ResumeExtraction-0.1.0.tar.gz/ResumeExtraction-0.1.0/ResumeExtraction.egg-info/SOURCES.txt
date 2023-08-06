@@ -1,0 +1,9 @@
+README.md
+setup.py
+ResumeExtraction.egg-info/PKG-INFO
+ResumeExtraction.egg-info/SOURCES.txt
+ResumeExtraction.egg-info/dependency_links.txt
+ResumeExtraction.egg-info/entry_points.txt
+ResumeExtraction.egg-info/not-zip-safe
+ResumeExtraction.egg-info/requires.txt
+ResumeExtraction.egg-info/top_level.txt
