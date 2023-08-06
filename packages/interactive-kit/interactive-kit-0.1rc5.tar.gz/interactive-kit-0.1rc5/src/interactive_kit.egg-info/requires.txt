@@ -1,0 +1,7 @@
+numpy
+matplotlib
+jupyter
+jupyterlab
+ipympl
+ipywidgets
+opencv-python
