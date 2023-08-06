@@ -1,0 +1,12 @@
+deftlariat/__init__.py,sha256=wdHT5KXKLSbo9yWugKOo2x9vCV_I3PLA6Y0VFdskQRo,188
+deftlariat/core.py,sha256=js0BqWSSvpMOI3gI_sAB3O63rTXr-Vb2CEZmVbmOBMM,12392
+deftlariat/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+deftlariat/entrypoints/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+deftlariat/entrypoints/cli.py,sha256=OdAohFMg5BI10cChM_iREhIahyudASyqKqDCJ02dsyc,288
+PyDeftLariats-1.1.5.dist-info/AUTHORS.rst,sha256=jLnWYEhDpdCbbfcb8f6K-DIXRk7AEa6u1Xn0xGwvztw,157
+PyDeftLariats-1.1.5.dist-info/LICENSE,sha256=2eNWc7GDjnnoy5VNLTs3yHiqTFTZuYdtZS41yFQUKZE,1572
+PyDeftLariats-1.1.5.dist-info/METADATA,sha256=9eDswsaqupaOLXQ6LCx2FDGgfYPAO-NUOQ3QVM7b1u0,2731
+PyDeftLariats-1.1.5.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+PyDeftLariats-1.1.5.dist-info/entry_points.txt,sha256=9hQkZiY_sVDqmsJaye3wjvw1QVKGWMAqm3m_Nysu0e8,58
+PyDeftLariats-1.1.5.dist-info/top_level.txt,sha256=Dn35kIBttg5qEXF7L4DY9Aq1Q_Q3gWweIa9z1juJUsE,11
+PyDeftLariats-1.1.5.dist-info/RECORD,,
