@@ -1,0 +1,3 @@
+[console_scripts]
+xcp_esgar = xcp_esgar.cli:main
+
