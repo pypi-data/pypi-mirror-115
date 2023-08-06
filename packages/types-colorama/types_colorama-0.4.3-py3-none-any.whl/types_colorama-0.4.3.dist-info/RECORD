@@ -1,0 +1,11 @@
+colorama-stubs/METADATA.toml,sha256=Ei4bl14pO2rpa__wZGyUxb2uaAGcvhRtvJ3m6-2Vt4k,30
+colorama-stubs/__init__.pyi,sha256=LYzqe_1BZgHVXlV90Hj9-Fom_g3VSnx1aWlTkhCWP0s,236
+colorama-stubs/ansi.pyi,sha256=Ixz1Bh0YFzHYPKn2JuC77n9IXnmSTVwEBJoJiRmizVE,1729
+colorama-stubs/ansitowin32.pyi,sha256=Cp9DOaArQo7dGX9-c3QnqCchQURZoYPV3n1Q4bsYs0o,1843
+colorama-stubs/initialise.pyi,sha256=fXxEtFkVtT_MUI8x2wimbULLB6lKo05ZLsettxThxRg,651
+colorama-stubs/win32.pyi,sha256=R7VoEuzKcZd2Ga2kJmi8H7y_knULmOifnH7IZjgaD_k,1234
+colorama-stubs/winterm.pyi,sha256=bReQzjwV8IxiRYdUf0xvXghq_A96s36FHUKIVX0qRAE,1472
+types_colorama-0.4.3.dist-info/METADATA,sha256=8Q_hA0KkjIXvhrrrdugkY9sYllflsFt5RxT2Y4ZdN7g,860
+types_colorama-0.4.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+types_colorama-0.4.3.dist-info/top_level.txt,sha256=sqsDwAjgopxpOFq98qGyyyMIDOcYi_w2c5isQrSEPbk,15
+types_colorama-0.4.3.dist-info/RECORD,,
