@@ -1,0 +1,6 @@
+requests>=2.26.0
+
+[doc]
+
+[test]
+mock==2.0.0
