@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "simple_html"
+version = "0.4.2"
+readme = "README.md"
+description = "Template-less html rendering in Python"
+authors = ["Keith Philpott <fakekeith@example.org>"]
+license = "MIT"
+homepage = "https://github.com/keithasaurus/simple_html"
+keywords = ["html"]
+
+
+[tool.poetry.dependencies]
+python = "^3.7"
+typed-ast = { version = "1.4.3", python = "~3.7" }
+
+[tool.poetry.dev-dependencies]
+flake8 = "3.9.2"
+mypy = "0.910"
+pytest = "6.2.4"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
