@@ -1,0 +1,3 @@
+[console_scripts]
+nnff = nnff.test:main
+
