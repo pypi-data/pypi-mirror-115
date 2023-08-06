@@ -1,0 +1,4 @@
+[console_scripts]
+localpip = lpip.__main__:main
+lpip = lpip.__main__:main
+
