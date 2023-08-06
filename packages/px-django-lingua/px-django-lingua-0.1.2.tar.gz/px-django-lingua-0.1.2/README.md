@@ -1,0 +1,111 @@
+# Lingua
+
+Simple translations implementation for django models.
+
+## Installation
+
+```sh
+pip install px-django-lingua
+```
+
+In `settings.py`:
+
+```python
+PXD_LINGUA = {
+  # By default uses django's LANGUAGE_CODE.
+  'DEFAULT_LANGUAGE': 'en',
+  # By default uses django's LANGUAGES to get list of available languages.
+  'LANGUAGES': ('en', 'fr', 'de', 'ru'),
+  # For each registered language code could be a default language fallbacks:
+  'FALLBACK_LANGUAGES': {
+    'en': ('fr',),
+    'ru': ('en',),
+    'de': ('en', 'fr',),
+    # There could be any number of languages.
+    # The order in which they are specified - is the order in which they
+    # will be resolved if there's no translation with previous language found.
+    'fr': ('en', 'ru', 'de',)
+  },
+}
+```
+
+## Usage
+
+### Translation generation
+
+```python
+from django.db import models
+
+from pxd_lingua import create_translated_model
+
+
+class Content(models.Model):
+  title = models.CharField(max_length=40)
+  content = models.TextField()
+
+
+# Factory will generate new model with identical fields.
+# New model can be fully customized:
+ContentAlternateTranslation = create_translated_model(
+  Content,
+  # If empty or None - all model's fields will be translated.
+  fields=('title', 'content'),
+  # Model name postfix.
+  postfix='AlternateTranslation',
+  # By default is uses default language from PXD_LINGUA settings.
+  default_language='en',
+  # Available languages can also be changed for a particular model.
+  # By default - uses languages from settings.
+  languages=(
+    ('en', _('English')),
+  ),
+  # Entity foreign relation name.
+  # Bu default: 'translations', but can be anything.
+  related_name='alternate_translations',
+  # Model's verbose name.
+  verbose_name=None,
+  # Model's plural verbose name.
+  verbose_name_plural=None,
+  # Boolean, to whether create abstract or "true" model. False by default.
+  abstract=False
+)
+```
+
+### Querying
+
+Simple querying:
+
+```python
+from .models import Content, ContentAlternateTranslation
+
+
+# Getting translations for a list of items:
+translations = (
+  ContentAlternateTranslation.objects
+  .filter(entity_id__in=(1, 2, 3, 4, 5))
+  # This method will get only translations that are either in English or
+  # in French if there is no english version available.
+  # There could be any number of languages passed here.
+  # At most one translation instance per entity will be returned, because
+  # there could be no entity translations for some entity at all.
+  .by_language_order('en', 'fr')
+)
+
+# To "enable" internal fallback mechanics use `by_language`:
+translations = (
+  ContentAlternateTranslation.objects
+  .filter(entity_id__in=(1, 2, 3, 4, 5))
+  # For a more simple usecase when code executes inside a django context
+  .by_language('en')
+  # For a more simple usecase when code executes inside a django context
+  # and you need a translations for current user language `language` parameter
+  # may be omitted:
+  .by_language()
+)
+
+# Content's related manager also do have those methods:
+obj = Content.objects.get(pk=1)
+translation = obj.translations.by_language_order('fr', 'en').first()
+# Or
+translation = obj.translations.by_language('fr').first()
+```
