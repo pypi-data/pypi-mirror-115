@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: socnet
+Version: 1.0.7
+Summary: Social Network Model for COVID-19 infection
+Home-page: https://github.com/diegomcarvalho/socnet
+Author: Diego Carvalho
+Author-email: d.carvalho@ieee.org
+License: UNKNOWN
+Download-URL: https://github.com/diegomcarvalho/socnet/archive/v1.0.7.tar.gz
+Description: # socnet
+        Social Network Models for COVID-19
+        
+Keywords: covid19,social network,complex network,net
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
