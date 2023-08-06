@@ -1,0 +1,40 @@
+[openstack.cli.extension]
+vpn_server = tunnelclient.osc.plugin
+
+[openstack.vpn_server.v2]
+vpnserver_amphora_configure = tunnelclient.osc.v2.amphora:ConfigureAmphora
+vpnserver_amphora_delete = tunnelclient.osc.v2.amphora:DeleteAmphora
+vpnserver_amphora_failover = tunnelclient.osc.v2.amphora:FailoverAmphora
+vpnserver_amphora_list = tunnelclient.osc.v2.amphora:ListAmphora
+vpnserver_amphora_show = tunnelclient.osc.v2.amphora:ShowAmphora
+vpnserver_amphora_stats_show = tunnelclient.osc.v2.amphora:ShowAmphoraStats
+vpnserver_certificate_create = tunnelclient.osc.v2.certificate:CreateCertificate
+vpnserver_certificate_delete = tunnelclient.osc.v2.certificate:DeleteCertificate
+vpnserver_certificate_list = tunnelclient.osc.v2.certificate:ListCertificate
+vpnserver_certificate_show = tunnelclient.osc.v2.certificate:ShowCertificate
+vpnserver_create = tunnelclient.osc.v2.vpn_server:CreateVpnServer
+vpnserver_delete = tunnelclient.osc.v2.vpn_server:DeleteVpnServer
+vpnserver_failover = tunnelclient.osc.v2.vpn_server:FailoverVpnServer
+vpnserver_healthmonitor_create = tunnelclient.osc.v2.health_monitor:CreateHealthMonitor
+vpnserver_healthmonitor_delete = tunnelclient.osc.v2.health_monitor:DeleteHealthMonitor
+vpnserver_healthmonitor_list = tunnelclient.osc.v2.health_monitor:ListHealthMonitor
+vpnserver_healthmonitor_set = tunnelclient.osc.v2.health_monitor:SetHealthMonitor
+vpnserver_healthmonitor_show = tunnelclient.osc.v2.health_monitor:ShowHealthMonitor
+vpnserver_healthmonitor_unset = tunnelclient.osc.v2.health_monitor:UnsetHealthMonitor
+vpnserver_list = tunnelclient.osc.v2.vpn_server:ListVpnServer
+vpnserver_resource_create = tunnelclient.osc.v2.resource:CreateResource
+vpnserver_resource_delete = tunnelclient.osc.v2.resource:DeleteResource
+vpnserver_resource_list = tunnelclient.osc.v2.resource:ListResource
+vpnserver_resource_show = tunnelclient.osc.v2.resource:ShowResource
+vpnserver_secgroup_create = tunnelclient.osc.v2.secgroup:CreateSecgroup
+vpnserver_secgroup_delete = tunnelclient.osc.v2.secgroup:DeleteSecgroup
+vpnserver_secgroup_list = tunnelclient.osc.v2.secgroup:ListSecgroup
+vpnserver_secgroup_show = tunnelclient.osc.v2.secgroup:ShowSecgroup
+vpnserver_set = tunnelclient.osc.v2.vpn_server:SetVpnServer
+vpnserver_show = tunnelclient.osc.v2.vpn_server:ShowVpnServer
+vpnserver_user_create = tunnelclient.osc.v2.user:CreateUser
+vpnserver_user_delete = tunnelclient.osc.v2.user:DeleteUser
+vpnserver_user_list = tunnelclient.osc.v2.user:ListUser
+vpnserver_user_set = tunnelclient.osc.v2.user:SetUser
+vpnserver_user_show = tunnelclient.osc.v2.user:ShowUser
+
