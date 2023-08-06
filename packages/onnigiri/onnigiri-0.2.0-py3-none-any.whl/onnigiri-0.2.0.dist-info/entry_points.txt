@@ -1,0 +1,3 @@
+[console_scripts]
+onnigiri=onnigiri.main:main
+
