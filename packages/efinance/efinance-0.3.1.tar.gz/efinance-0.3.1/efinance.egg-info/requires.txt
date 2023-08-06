@@ -1,0 +1,6 @@
+requests
+jsonpath
+pandas
+tqdm
+retry
+multitasking
