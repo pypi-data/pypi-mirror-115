@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+fastanalysis/__init__.py
+fastanalysis/load.py
+fastanalysis/plot.py
+fastanalysis.egg-info/PKG-INFO
+fastanalysis.egg-info/SOURCES.txt
+fastanalysis.egg-info/dependency_links.txt
+fastanalysis.egg-info/not-zip-safe
+fastanalysis.egg-info/requires.txt
+fastanalysis.egg-info/top_level.txt

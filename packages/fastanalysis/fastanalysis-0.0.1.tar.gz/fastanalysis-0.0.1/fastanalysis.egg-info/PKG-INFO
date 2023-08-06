@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: fastanalysis
+Version: 0.0.1
+Summary: A python library to open the tracking data from FastTrack the tracking software
+Home-page: https://github.com/FastTrackOrg/FastAnalysis
+Author: Benjamin Gallois
+Author-email: benjamin.gallois@fasttrack.sh
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
