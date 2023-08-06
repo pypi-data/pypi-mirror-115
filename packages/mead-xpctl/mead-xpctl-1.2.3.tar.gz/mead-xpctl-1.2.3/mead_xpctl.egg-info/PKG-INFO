@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: mead-xpctl
+Version: 1.2.3
+Summary: Experiment Control and Tracking
+Home-page: https://www.github.com/mead-ml/xpctl
+Author: mead-ml
+Author-email: mead.baseline@gmail.com
+License: Apache 2.0
+Keywords: experiment control,tracking
+Platform: UNKNOWN
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: English
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3.5
+Description-Content-Type: text/markdown
+Provides-Extra: test
+Provides-Extra: mongo
+Provides-Extra: sql
+License-File: ./LICENSE
+License-File: ./NOTICE
+
+## XPCTL
+
+`xpctl` is software to track experimental results and provide access to a global leaderboard. After running an experiment, the results and the logs are committed to a database. Commands are provided to show the best experimental results under various constraints.
+
+`xpctl` was developed as the primary backend for experiment storage for [mead-baseline](https://github.com/dpressel/mead-baseline/).
+
+### Prerequisite
+
+`xpctl` requires a database to be installed locally or an accessible server. We currently support:  [mongodb](https://docs.mongodb.com/) and [postgresql](https://www.postgresql.org/)), but the base classes can be extended to support other databases. Create a database called `reporting_db` in your db instance.
+
+The client API is packaged separately with minimal requirements.
+
+ 
+### Installation
+
+- There are 2 components: `mead-xpctl-client` and `mead-xpctl`
+  - `mead-xpctl-client` provides the HTTP client and the addon required to run logging from inside `mead-baseline`
+  - `mead-xpctl` contains the CLI and the server implementation
+  - Both packages can be installed via pip:
+    - `pip install mead-xpctl-client`
+    - `pip install mead-xpctl` (this depends on the `mead-xpctl-client`)
+-  [Install the server](https://github.com/mead-ml/xpctl/blob/master/orchestration/README.md)
+
+### [Documentation](https://github.com/mead-ml/xpctl/blob/master/docs/main.md)
+
+
