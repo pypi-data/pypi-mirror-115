@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+robust_statistics_simulator/__init__.py
+robust_statistics_simulator/standard_error.py
+robust_statistics_simulator/type_I_error.py
+robust_statistics_simulator.egg-info/PKG-INFO
+robust_statistics_simulator.egg-info/SOURCES.txt
+robust_statistics_simulator.egg-info/dependency_links.txt
+robust_statistics_simulator.egg-info/requires.txt
+robust_statistics_simulator.egg-info/top_level.txt
