@@ -1,0 +1,9 @@
+pandas
+bs4
+json
+requests
+time
+random
+re
+jieba
+pyecharts
