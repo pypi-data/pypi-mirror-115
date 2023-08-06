@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: joshq
+Version: 0.0.1
+Summary: Joshq is a package that checks for f-strings inside log statements
+Home-page: UNKNOWN
+Author: Michael Karotsieri, William Cragg
+License: MIT
+Description: Joshq is a package that checks for f-strings inside log statements
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
