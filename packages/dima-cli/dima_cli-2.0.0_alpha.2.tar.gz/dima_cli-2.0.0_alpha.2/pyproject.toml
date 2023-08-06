@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "dima-cli"
+version = "2.0.0-alpha.2"
+description = "A command-line tool that analyses the diversity and motifs of protein sequences"
+authors = ["Shan <stwm2@student.london.ac.uk>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = ">=3.6,<3.10"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.4"
+maturin = "maturin>=0.11,<0.12"
+
+[build-system]
+requires = ["poetry-core>=1.0.0", "maturin>=0.11,<0.12"]
+build-backend = "maturin"
+
+[project]
+name = "dima-cli"
+
+[project.scripts]
+dima-cli = "dima.bin._dima:main"
