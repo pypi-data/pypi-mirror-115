@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: MarketGym
+Version: 0.1.2
+Summary: Python Reinforcement Environment for Stock Trading
+Home-page: https://github.com/jasonpul/MarketGym
+Author: Jason Pul
+Author-email: UNKNOWN
+License: MIT
+Description: UNKNOWN
+Keywords: reinforcement,stock,postgres,tradier
+Platform: UNKNOWN
