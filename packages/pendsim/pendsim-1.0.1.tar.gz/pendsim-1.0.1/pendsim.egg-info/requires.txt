@@ -1,0 +1,10 @@
+matplotlib
+six
+scipy
+numpy
+pandas
+tqdm
+scikit-learn
+pytest
+filterpy
+jupyter-notebook
