@@ -1,0 +1,9 @@
+LICENSE,sha256=wzQq_nApFrIe1BaCdUbwj48lre4FlZWwPhWyMZsbtsw,1067
+gitlab_errand_boy/__init__.py,sha256=ZTZ0EEANAWu09rAgIIhK6DigmSwnxe4_8869XOJJ2Rw,48
+gitlab_errand_boy/__version__.py,sha256=DcHXm8Nbkt1ReeaM-9qevUDj5nl4pNGBdHZDmVzWZ60,9
+gitlab_errand_boy/compound.py,sha256=7FjzwK0w153mS2xeAcNRiIbBgL_YLaMsQuae-r4_Dmc,6185
+gitlab_errand_boy/sessions.py,sha256=RsuBW42xNlUonbfqk4PSx3s90v4AH3i7fDYU211UZ2w,624
+gitlab_errand_boy-0.1.12.dist-info/LICENSE,sha256=wzQq_nApFrIe1BaCdUbwj48lre4FlZWwPhWyMZsbtsw,1067
+gitlab_errand_boy-0.1.12.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+gitlab_errand_boy-0.1.12.dist-info/METADATA,sha256=i-un3AuG_rHJSppTKVvwSawSNIcHFerRXh-dCepRk10,915
+gitlab_errand_boy-0.1.12.dist-info/RECORD,,
