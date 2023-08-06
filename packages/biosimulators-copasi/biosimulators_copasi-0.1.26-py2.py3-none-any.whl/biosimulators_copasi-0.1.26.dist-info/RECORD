@@ -1,0 +1,12 @@
+biosimulators_copasi/__init__.py,sha256=6-n8_3MLuGHdeWj6AAJ2TtmVgAZ7mJa8Qk7lMz1akYY,138
+biosimulators_copasi/__main__.py,sha256=PM9fg1Uk2JId2BY1paMTCjG-l983gDBiSWPyCqyjXwg,901
+biosimulators_copasi/_version.py,sha256=uEZuLF30cqfWxp2sST31Cb-1Oqu1KIjlPC60SFNStgM,23
+biosimulators_copasi/core.py,sha256=pYmqZi7gLYNZR0ANF67LvxdheNGleXRQ-jKIutpoEsw,14733
+biosimulators_copasi/data_model.py,sha256=JTZ4OY8C8gX81NcNjyeSc93NMvrJWBiwe5G-445gIa4,5089
+biosimulators_copasi/utils.py,sha256=AVzqZ7HqrBi8lQkOFZRunNzaYNuBfXcyoEZ9sWg_oBc,9964
+biosimulators_copasi-0.1.26.dist-info/LICENSE,sha256=22ZUfkQAIFBvtblfZiee36Opc-w-ixP24VgFI-GXMHE,1100
+biosimulators_copasi-0.1.26.dist-info/METADATA,sha256=Zk96dpLvZXF4PhbkuIkxItqmd1qTjHwqNwWvGo16hDA,5000
+biosimulators_copasi-0.1.26.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+biosimulators_copasi-0.1.26.dist-info/entry_points.txt,sha256=rreeGKp8ZOVKq2fbiPb-3u_wgGVJehvfnt_-Evonb0A,63
+biosimulators_copasi-0.1.26.dist-info/top_level.txt,sha256=a8jNxx44vvQojJ3T0l0yADk657YW4Mlo0oyeZJHY_vc,21
+biosimulators_copasi-0.1.26.dist-info/RECORD,,
