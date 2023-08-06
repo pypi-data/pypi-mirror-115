@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: prython
+Version: 0.0.1
+Summary: Runtime microdebugger for Python, inspire by Ruby's pry gem.
+Home-page: https://github.com/otamm/Prython
+Author: Otavio Ehrenberger
+Author-email: ehren.dev.mail@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+
+# Prython
+
+Inspired by [Ruby's pry gem](https://raw.githubusercontent.com/pry/pry) and [this snippet](https://gist.github.com/obfusk/208597ccc64bf9b436ed).
+
+This module is a runtime debugger, made to be very lightweight, very easy to use and completely interoperable amongst both Python 2 & 3. If you want to take a look at Python's official debugger, [this is it](https://docs.python.org/3/library/pdb.html).
+
+## Installation
+
+Install from PyPi with:
+
+```bash
+pip install prython
+```
+
+
