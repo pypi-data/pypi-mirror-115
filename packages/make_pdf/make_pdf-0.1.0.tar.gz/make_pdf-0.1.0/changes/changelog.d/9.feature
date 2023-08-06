@@ -1,0 +1,1 @@
+Added internationalization-support with gettext and babel (#9)

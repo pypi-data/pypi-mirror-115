@@ -1,0 +1,105 @@
+% Set header in a box
+\newcommand{\titleLogo}{\raisebox{-0.2\height}{\renderLogo{1.5cm}}}
+
+\newcommand{\newsletterTitleText}{
+  \ifEmpty{\logopath}{
+    \newsletterDefaultTitle 
+  }{
+    \MyTitle
+  }
+}
+
+\newcommand{\newsletterTitle}{
+  % We can't use \newsletterTitleText, cause it causes problems with xstrings
+  \ifEmpty{\MyTitle}{
+    \ifEmpty{\logopath}{
+      \newsletterDefaultTitle
+    }{
+      \newsletterDefaultTitle \titleLogo
+    }
+  }{
+    \ifEmpty{\logopath}{
+      \MyTitle
+    }{
+      \StrCount{\MyTitle}{ }[\spacesInTitle]
+      \ifodd \spacesInTitle 
+        \let \spacesInTitleOld \spacesInTitle
+        \renewcommand{\spacesInTitle}{\basiceval{\spacesInTitleOld - 1}}
+      \fi
+      \StrCut[\basiceval{(\spacesInTitle+2)/2}]{\MyTitle}{ }\firstPart\secondPart
+      \firstPart \titleLogo \secondPart
+    }
+  }
+}
+
+% Setting the title-header
+\fancypagestyle{newsletterBoxHeader}{
+  \fancyhf{}
+  % Offset the top of the page because of the image
+  \addtolength{\textheight}{\headheight}
+  \setlength\headheight{125pt}
+  \addtolength{\textheight}{-100pt}
+  \fancyhead[C]{
+    \begin{newsletterTitleBox}{}
+      \newsletterTitle
+    \end{newsletterTitleBox}
+  }
+  \renewcommand{\headrulewidth}{0cm}
+  \clearHeaderHook
+  \customfooter
+}
+
+% Let sections be in boxes
+\newboolean{alreadyCalled}
+\setboolean{alreadyCalled}{false}
+
+\addToFinalHook{
+  
+  \renewcommand{\maketitle}{} 
+  \pagestyle{newsletterBoxHeader}
+  
+  \renewcommand{\section}[1]{
+    \addcontentsline{toc}{section}{##1}
+    \ifthenelse{\boolean{alreadyCalled}}{
+      \end{newsletterBox}
+      \begin{newsletterBox}{##1}
+    }{
+      \begin{newsletterBox}{##1}
+    }
+    \setboolean{alreadyCalled}{true}
+  }
+
+  \AtEndDocument{
+    \ifthenelse{\boolean{alreadyCalled}}{
+      \end{newsletterBox}
+    }{}
+  }
+}
+
+\newcommand{\outsideNewsletterBoxParamTmp}{}
+\renewenvironment{outsideNewsletterBox}[1]{
+  \renewcommand{\outsideNewsletterBoxParamTmp}{#1}
+}{}
+\AddToHook{env/outsideNewsletterBox/before}{
+  \ifthenelse{\boolean{alreadyCalled}}{
+    \end{newsletterBox}
+    \setboolean{alreadyCalled}{true}
+  }{}
+}
+\AddToHook{env/outsideNewsletterBox/after}{
+  \ifthenelse{\boolean{alreadyCalled}}{
+    \begin{newsletterBox}{\outsideNewsletterBoxParamTmp}
+  }{
+  }
+}
+
+\renewenvironment{stopNewsletterBox}[1]{}{}
+\AddToHook{env/stopNewsletterBox/before}{
+  \ifthenelse{\boolean{alreadyCalled}}{
+    \end{newsletterBox}
+    \setboolean{alreadyCalled}{false}
+  }{}
+}
+
+% Set bigger gap between columns
+\setlength{\columnsep}{1cm}

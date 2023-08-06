@@ -1,0 +1,140 @@
+% Setup fonts
+\setmainfont{Roboto}
+\setmonofont{Inconsolata}
+
+\ifCommandDefined{themefontName}{}{
+    \newcommand{\themefontName}{Yanone Kaffeesatz}
+  }
+\newfontfamily\themefont[]{\themefontName}
+
+
+% Set styling for quote
+\newtcolorbox{quoteBox}[1]{
+  breakable, 
+  colback=gray!5!white, 
+  colframe=gray!75!black, 
+  leftrule=3mm, 
+  title=#1
+}
+\renewenvironment{quote}{\begin{quoteBox}{}}{\end{quoteBox}}
+
+% Set styling for fences
+\newtcolorbox{dangerBox}[1]{
+  colback=red!5!white, 
+  colframe=red!75!black, 
+  title=#1
+}
+\newtcolorbox{warningBox}[1]{
+  colback=yellow!5!white, 
+  colframe=yellow!75!black, 
+  title=#1
+}
+\newtcolorbox{infoBox}[1]{
+  colback=blue!5!white, 
+  colframe=blue!75!black, 
+  title=#1
+}
+\newtcolorbox{successBox}[1]{
+  colback=green!5!white, 
+  colframe=green!75!black, 
+  title=#1
+}
+
+% Set styling for fancy boxes
+\usetikzlibrary{calc}
+\pgfdeclarelayer{foreground}
+\pgfsetlayers{main,foreground}
+
+\newcommand{\circleSize}{17pt}
+\newcommand{\smallCircleSize}{7pt}
+
+\newtcolorbox{newsletterBox}[1]{
+  enhanced,
+  colback=white,
+  opacityback=0,
+  title=#1,
+  fonttitle=\themefont\huge,
+  attach boxed title to top center,
+  coltitle=black,
+  boxed title style={
+    colback=white, 
+    opacityback=0,
+    frame hidden
+  },
+  bottom=20pt,
+  frame code={
+    \begin{pgfonlayer}{foreground} 
+      \clip (frame.south west) rectangle (frame.north east);
+      \draw[line width = 2pt,color=black] ($(frame.south west)+(\circleSize,0pt)$) arc[start angle=0, end angle=90, radius=\circleSize];
+      \draw[line width = 2pt,color=black] ($(frame.south east)+(-\circleSize,0pt)$) arc[start angle=180, end angle=90, radius=\circleSize];
+      \draw[line width = 4pt,color=black]
+         ($(frame.south west) +(0pt,\circleSize-1)$) -- ($(frame.north west)$); %% western line
+      \draw[line width = 4pt,color=black]
+         ($(frame.north west)$) -- ($(frame.north east)$); %% northern line
+      \draw[line width = 4pt,color=black]
+        ($(frame.north east)$) -- ($(frame.south east)+(0pt,\circleSize)$); %% eastern line
+      \draw[line width = 4pt,color=black]
+        ($(frame.south west) +(\circleSize-1pt,0pt)$) -- ($(frame.south east)+(-\circleSize,0pt)$); %% southern line
+      \draw[line width = 0.5pt,color=black] ($(frame.south west)+(\smallCircleSize+4pt,4pt)$) arc[start angle=0, end angle=90, radius=\smallCircleSize];
+      \draw[line width = 0.5pt,color=black] ($(frame.south east)+(-\smallCircleSize-4pt,4pt)$) arc[start angle=180, end angle=90, radius=\smallCircleSize];
+      \draw[line width = 0.5pt,color=black]
+         ($(frame.south west) +(4pt,\smallCircleSize+4pt)$) -- ($(frame.north west) + (4pt, -4pt)$); %% western line
+      \draw[line width = 0.5pt,color=black]
+         ($(frame.north west) + (4pt, -4pt)$) -- ($(frame.north east) + (-4pt, -4pt)$); %% northern line
+      \draw[line width = 0.5pt,color=black]
+        ($(frame.north east) + (-4pt, -4pt)$) -- ($(frame.south east)+(-4pt,\smallCircleSize+4pt)$); %% eastern line
+      \draw[line width = 0.5pt,color=black]
+        ($(frame.south west) +(\smallCircleSize+4pt,4pt)$) -- ($(frame.south east)+(-\smallCircleSize-4pt,4pt)$); %% southern line
+    \end{pgfonlayer}
+  },
+}
+
+\newtcolorbox{newsletterTitleBox}[1]{
+  enhanced,
+  colback=white,
+  fontupper=\themefont\Huge\center,
+  top=17pt,
+  bottom=20pt,
+  title=\MyDate,
+  fonttitle=\themefont\small,
+  attach boxed title to top right,
+  coltitle=black,
+  opacityback=0,
+  boxed title style={
+    colback=white,
+    opacityback=0,
+    frame hidden
+  },
+  frame code={
+    \begin{pgfonlayer}{foreground}  
+      \clip (frame.south west) rectangle (frame.north east);
+      \draw[line width = 2pt,color=black] ($(frame.north west)+(0pt,-\circleSize)$) arc[start angle=270, end angle=360, radius=\circleSize];
+      \draw[line width = 2pt,color=black] ($(frame.north east)+(0pt,-\circleSize)$) arc[start angle=270, end angle=180, radius=\circleSize];
+      \draw[line width = 2pt,color=black] ($(frame.south west)+(\circleSize,0pt)$) arc[start angle=0, end angle=90, radius=\circleSize];
+      \draw[line width = 2pt,color=black] ($(frame.south east)+(-\circleSize,0pt)$) arc[start angle=180, end angle=90, radius=\circleSize];
+      \draw[line width = 4pt,color=black]
+         ($(frame.south west) + (0pt,\circleSize)$) -- ($(frame.north west)+(0pt,-\circleSize)$)  ; %% west
+      \draw[line width = 4pt,color=black]
+         ($(frame.north west)+(\circleSize,0pt)$) -- ($(frame.north east)+(-\circleSize,0pt)$)  ; %% north
+      \draw[line width = 4pt,color=black]
+        ($(frame.north east)+(0pt,-\circleSize)$) -- ($(frame.south east)+(0pt,\circleSize)$)  ; %% east
+      \draw[line width = 4pt,color=black]
+        ($(frame.south west) +(\circleSize-1pt,0pt)$) -- ($(frame.south east)+(-\circleSize,0pt)$)  ; %% south
+      \draw[line width = 0.5pt,color=black] ($(frame.north west)+(4pt,-\smallCircleSize-4pt)$) arc[start angle=270, end angle=360, radius=\smallCircleSize];
+      \draw[line width = 0.5pt,color=black] ($(frame.north east)+(-4pt,-\smallCircleSize-4pt)$) arc[start angle=270, end angle=180, radius=\smallCircleSize];
+      \draw[line width = 0.5pt,color=black] ($(frame.south west)+(\smallCircleSize+4pt,4pt)$) arc[start angle=0, end angle=90, radius=\smallCircleSize];
+      \draw[line width = 0.5pt,color=black] ($(frame.south east)+(-\smallCircleSize-4pt,4pt)$) arc[start angle=180, end angle=90, radius=\smallCircleSize];
+      \draw[line width = 0.5pt,color=black]
+         ($(frame.south west) +(4pt,\smallCircleSize+4pt)$) -- ($(frame.north west) + (4pt, -\smallCircleSize-4pt)$)  ; %% west
+      \draw[line width = 0.5pt,color=black]
+         ($(frame.north west) + (\smallCircleSize+4pt, -4pt)$) -- ($(frame.north east) + (-\smallCircleSize-4pt, -4pt)$)  ; %% north
+      \draw[line width = 0.5pt,color=black]
+        ($(frame.north east) + (-4pt, -\smallCircleSize-4pt)$) -- ($(frame.south east)+(-4pt,\smallCircleSize+4pt)$)  ; %% east
+      \draw[line width = 0.5pt,color=black]
+        ($(frame.south west) +(\smallCircleSize+4pt,4pt)$) -- ($(frame.south east)+(-\smallCircleSize-4pt,4pt)$)  ; %% south
+    \end{pgfonlayer}
+  }
+}
+
+\newenvironment{outsideNewsletterBox}[1]{}{}
+\newenvironment{stopNewsletterBox}[1]{}{}

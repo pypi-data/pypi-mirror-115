@@ -1,0 +1,83 @@
+kind: pipeline
+type: docker
+name: test-3-6
+
+steps:
+- name: test
+  image: python:3.6
+  commands:
+  - pip install .[test]
+  - pytest
+
+---
+kind: pipeline
+type: docker
+name: test-3-7
+
+steps:
+- name: test
+  image: python:3.7
+  commands:
+  - pip install .[test]
+  - pytest
+
+---
+kind: pipeline
+type: docker
+name: test-3-8
+
+steps:
+- name: test
+  image: python:3.8
+  commands:
+  - pip install .[test]
+  - pytest
+
+---
+kind: pipeline
+type: docker
+name: test-3-9
+
+steps:
+- name: test
+  image: python:3.9
+  commands:
+  - pip install .[test]
+  - pytest
+
+---
+kind: pipeline
+type: docker
+name: publish
+depends_on:
+  - test-3-6
+  - test-3-7
+  - test-3-8
+  - test-3-9
+trigger:
+  event:
+    - tag
+
+steps:
+- name: publish
+  image: python:3.9
+  environment:
+    FLIT_USERNAME:
+      from_secret: flit_username
+    FLIT_PASSWORD:
+      from_secret: flit_password
+  commands:
+  - pip install .[publish]
+  - flit publish
+- name: docs
+  image: python:3.9
+  commands:
+  - pip install .[doc]
+  - sphinx-build -b html docs/source/ docs/build/html
+  - sphinx-build -b html docs/source/ docs/build/html-de -D language='de'
+- name: publish-docs
+  image: docker
+  settings:
+    repo: registry:5000/make_pdf_docs
+    auto_tag: true
+    dockerfile: ./docs/Dockerfile
