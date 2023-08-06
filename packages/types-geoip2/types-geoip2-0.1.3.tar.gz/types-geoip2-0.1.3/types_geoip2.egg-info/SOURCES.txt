@@ -1,0 +1,13 @@
+setup.py
+geoip2-stubs/METADATA.toml
+geoip2-stubs/__init__.pyi
+geoip2-stubs/database.pyi
+geoip2-stubs/errors.pyi
+geoip2-stubs/mixins.pyi
+geoip2-stubs/models.pyi
+geoip2-stubs/records.pyi
+types_geoip2.egg-info/PKG-INFO
+types_geoip2.egg-info/SOURCES.txt
+types_geoip2.egg-info/dependency_links.txt
+types_geoip2.egg-info/requires.txt
+types_geoip2.egg-info/top_level.txt
