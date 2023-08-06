@@ -1,0 +1,6 @@
+README.md
+setup.py
+MonsterLab.egg-info/PKG-INFO
+MonsterLab.egg-info/SOURCES.txt
+MonsterLab.egg-info/dependency_links.txt
+MonsterLab.egg-info/top_level.txt
