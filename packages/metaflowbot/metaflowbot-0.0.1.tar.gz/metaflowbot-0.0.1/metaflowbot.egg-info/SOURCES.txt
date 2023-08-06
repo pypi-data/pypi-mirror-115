@@ -1,0 +1,7 @@
+setup.py
+metaflowbot/__init__.py
+metaflowbot.egg-info/PKG-INFO
+metaflowbot.egg-info/SOURCES.txt
+metaflowbot.egg-info/dependency_links.txt
+metaflowbot.egg-info/not-zip-safe
+metaflowbot.egg-info/top_level.txt
