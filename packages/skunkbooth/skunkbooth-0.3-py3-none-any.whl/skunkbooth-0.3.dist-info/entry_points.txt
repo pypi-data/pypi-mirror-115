@@ -1,0 +1,3 @@
+[console_scripts]
+skunkbooth=skunkbooth.main:main
+
