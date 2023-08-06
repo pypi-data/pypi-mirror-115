@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: sanic-ext
+Version: 21.9.0a1
+Summary: Extend your Sanic installation with some core functionality.
+Home-page: http://github.com/sanic-org/sanic-ext/
+Author: Sanic Community
+License: MIT
+Description: # Sanic Extension
+        
+        _Future home to `sanic-ext`. An add-on package for [Sanic](https://github.com/sanic-org/sanic)._ 
+        
+        First alpha release aiming to coincide with Sanic v21.9
+        
+        [More info](https://community.sanicframework.org/t/openapi-next-generation-with-built-in-validation/843)
+        
+Platform: any
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Web Environment
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Provides-Extra: test
