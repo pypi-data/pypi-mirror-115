@@ -1,0 +1,7 @@
+discord
+pillow
+tatsu
+numpy
+pymongo
+pygraphviz
+python-dotenv
