@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+jd-assistant/__init__.py
+jd-assistant/config.py
+jd-assistant/exception.py
+jd-assistant/jd_assistant.py
+jd-assistant/log.py
+jd-assistant/messenger.py
+jd-assistant/timer.py
+jd-assistant/util.py
+jd-assistant/tests/__init__.py
+jd-assistant/tests/test.py
+jd_assistant.egg-info/PKG-INFO
+jd_assistant.egg-info/SOURCES.txt
+jd_assistant.egg-info/dependency_links.txt
+jd_assistant.egg-info/top_level.txt
