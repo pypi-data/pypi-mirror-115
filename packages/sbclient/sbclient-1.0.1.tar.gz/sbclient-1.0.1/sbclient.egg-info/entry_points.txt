@@ -1,0 +1,3 @@
+[console_scripts]
+sbclient = sbclient:cli
+

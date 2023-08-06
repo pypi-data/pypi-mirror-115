@@ -1,0 +1,9 @@
+README.md
+sbclient.py
+setup.py
+sbclient.egg-info/PKG-INFO
+sbclient.egg-info/SOURCES.txt
+sbclient.egg-info/dependency_links.txt
+sbclient.egg-info/entry_points.txt
+sbclient.egg-info/requires.txt
+sbclient.egg-info/top_level.txt

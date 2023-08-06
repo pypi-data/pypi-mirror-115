@@ -1,0 +1,6 @@
+click
+python-dateutil
+defusedxml
+lxml
+requests
+six>=1.12.0
