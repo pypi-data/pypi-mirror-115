@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: python_spark_reader_library
+Version: 0.1
+Summary: reads json and csv files, performs data quality checks
+Home-page: https://github.com/Suhaada/python_spark_reader_library
+Author: Adam Suhajda
+Author-email: adamsuhajdafx@gmail.com
+License: MIT
+Download-URL: https://github.com/Suhaada/python_spark_reader_library/archive/refs/tags/v_01.tar.gz
+Description: UNKNOWN
+Keywords: SPARK,DATA QUALITY,READ DATA
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
