@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: dqp
+Version: 0.0.2
+Summary: A simple library to process a list of messages from disk
+Home-page: https://github.com/bneijt/dqp
+Author: Bram Neijt
+Author-email: bram@neijt.nl
+Requires-Python: >=3.8,<4.0
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: msgpack (>=1.0.2,<2.0.0)
+Project-URL: Repository, https://github.com/bneijt/dqp
+Description-Content-Type: text/markdown
+
+Disk Queue Processing
+=====================
+
+
+Library to do simple disk based processing of messagepack dictionaries in a file.
+
+
