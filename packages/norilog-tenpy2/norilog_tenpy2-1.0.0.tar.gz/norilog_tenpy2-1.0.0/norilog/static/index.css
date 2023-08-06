@@ -1,0 +1,44 @@
+h1, h2{
+    margin-left:5px;
+} h2 {
+  font-size: 24px;
+  margin-bottom: 5px ;
+}
+
+#memo {
+  width: 195%;
+
+}
+
+.container {
+  display: flex;
+  width: 100%;
+}
+
+.table-list {
+    border: 3px solid black;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+
+
+.table-list > thead tr th {
+    border: 1px solid black;
+    padding: 5px;
+    background-color: darkgray;
+
+
+}
+
+.table-list > tbody tr td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+
+.table-list > tbody tr:nth-child(even) {
+    background-color: lightgray;
+}
+
+

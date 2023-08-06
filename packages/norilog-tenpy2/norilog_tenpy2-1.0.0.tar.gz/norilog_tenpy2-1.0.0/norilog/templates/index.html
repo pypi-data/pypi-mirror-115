@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>乗りログ</title>
+    <link rel="stylesheet" href="../static/index.css", type="text/css">
+
+</head>
+<body>
+
+    <h1>乗りログ</h1>
+    <div class = "container">
+        <form action="/save", method="post">
+            <table>
+                <thead>
+                    <tr>
+                       <th align="left">出発</th>
+                       <th align="left">到着</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <input id="origin" type="text" name="origin">
+                        </td>
+                        <td>
+                            <input id="destination" type="text" name="destination">
+                        </td>
+                        <td>
+                            <button>追加</button>
+                        </td>
+                    </tr>
+                    <thead>
+                        <th align="left">メモ</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <textarea id="memo" cols="20" rows="3" wrap="soft" name="memo"></textarea>
+                            </td>
+                        </tr>
+                    </tbody>
+                </tbody>
+            </table>
+        </form>
+    </div>
+
+    <h2>乗り一覧</h2>
+    <div class="container">
+        <table class="table-list">
+            <thead>
+                <tr>
+                    <th>出発</th>
+                    <th>到着</th>
+                    <th>日時</th>
+                    <th>メモ</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for ride in rides %}
+                <tr class="row">
+                    <td style="text-align: center;">{{ ride.origin }}</td>
+                    <td style="text-align: center;">{{ ride.destination }}</td>
+                    <td style="text-align: right;">{{ ride.created_at }}</td>
+                    <td style="text-align: center;">{{ ride.memo|nl2br }}</td> <!-- ride.memoのテンプレート変数にnl2brフィルターを適用する-->
+                {% endfor %}
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</body>
+</html>
+

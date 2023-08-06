@@ -1,0 +1,14 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+norilog/__init__.py
+norilog/static/index.css
+norilog/templates/index.html
+norilog_tenpy2.egg-info/PKG-INFO
+norilog_tenpy2.egg-info/SOURCES.txt
+norilog_tenpy2.egg-info/dependency_links.txt
+norilog_tenpy2.egg-info/entry_points.txt
+norilog_tenpy2.egg-info/requires.txt
+norilog_tenpy2.egg-info/top_level.txt
