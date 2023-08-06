@@ -1,0 +1,13 @@
+COPYING
+README.md
+setup.py
+pick3letters/__init__.py
+pick3letters/generate.py
+pick3letters/magnet.py
+pick3letters/pick3letters.py
+pick3letters/prefixes.py
+pick3letters.egg-info/PKG-INFO
+pick3letters.egg-info/SOURCES.txt
+pick3letters.egg-info/dependency_links.txt
+pick3letters.egg-info/entry_points.txt
+pick3letters.egg-info/top_level.txt
