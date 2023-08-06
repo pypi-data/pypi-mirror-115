@@ -1,0 +1,8 @@
+compiled_cython/read_field.cp38-win_amd64.pyd,sha256=rhDkzMlHe2Pdk4vcgnO1QWVGEFPiTUfTZTSYJHwDB7E,164352
+compiled_cython/read_phase_space.cp38-win_amd64.pyd,sha256=x27NNj3bCV6ydscFCA3bxlmSx5vqROqRHOzw1oumhhI,151552
+compiled_cython/read_tracking.cp38-win_amd64.pyd,sha256=Il2shVeNWkhJ9_GTIKdHlZ7HmxnnD7nos0gqQIs8llY,152064
+lampy-0.5.0.dist-info/LICENSE.txt,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+lampy-0.5.0.dist-info/METADATA,sha256=jRv-Ow6xJ0qoCjui2jExYKA1P5m3MMmcOCsnu0pwRXc,5789
+lampy-0.5.0.dist-info/WHEEL,sha256=HLtxc_HoM-kGM7FPJVPSnTt0Nv2G3fZEAjT3ICdG8uY,100
+lampy-0.5.0.dist-info/top_level.txt,sha256=uETFo0H_1YDPXnygEaMH5ctr6uR2SMrLVcbk5Ewfrbs,42
+lampy-0.5.0.dist-info/RECORD,,
