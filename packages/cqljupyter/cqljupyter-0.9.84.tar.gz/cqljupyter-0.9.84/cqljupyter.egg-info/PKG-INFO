@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: cqljupyter
+Version: 0.9.84
+Summary: CQL kernel for Jupyter based on Cassandra CQLSH
+Home-page: https://github.com/bschoening/cqljupyter
+Author: Brad Schoening, Steven Lowenthal & Apache Cassandra Developers
+Author-email: UNKNOWN
+License: Apache
+Description: CQL kernel for Jupyter based on Cassandra 3.11.x CQLSH
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
