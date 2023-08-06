@@ -1,0 +1,8 @@
+kaggle_downloader/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kaggle_downloader/kaggle_downloader.py,sha256=MrlnVhthqDesEdLgY4x3KU2JwaIsS9imL63zp23VqbY,1293
+kaggle_downloader/main.py,sha256=4QfFhjHrfv9xtbgz3ops3TcoUndehzCY2eSKYofsAKk,7608
+kaggle_downloader-1.0.1.dist-info/entry_points.txt,sha256=H1HHvcJy0y3WLbWOmUGLXsFobhERz0ag9JT8EL_MBR8,65
+kaggle_downloader-1.0.1.dist-info/LICENSE,sha256=EJfFFvwWeIgChDk_3orUyNmjuIDjc7W1ruCcq0EKqU4,1090
+kaggle_downloader-1.0.1.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+kaggle_downloader-1.0.1.dist-info/METADATA,sha256=_d4lzao2-X0kecG6yVrwFfwiIMfim7eBDIYsN4odPrk,3448
+kaggle_downloader-1.0.1.dist-info/RECORD,,
