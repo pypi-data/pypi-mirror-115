@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "accialcli"
+version = "0.1.3"
+description = "CLI that send to our API 1 Borrower, 1 Application, 1 Loan and 1 Payment"
+authors = ["yud-cumba <yudith.cumba@gmail.com>"]
+packages = [
+    { include = "entry.py" },
+]
+
+[tool.poetry.scripts]
+accialcli = 'entry:main'
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = "^2.26.0"
+click = "^8.0.1"
+
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
