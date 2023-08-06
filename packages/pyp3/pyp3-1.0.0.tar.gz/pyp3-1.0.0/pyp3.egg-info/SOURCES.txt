@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+pyp3/__init__.py
+pyp3/__main__.py
+pyp3.egg-info/PKG-INFO
+pyp3.egg-info/SOURCES.txt
+pyp3.egg-info/dependency_links.txt
+pyp3.egg-info/entry_points.txt
+pyp3.egg-info/top_level.txt

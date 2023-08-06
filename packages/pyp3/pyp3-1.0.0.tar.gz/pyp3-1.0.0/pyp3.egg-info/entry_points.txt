@@ -1,0 +1,3 @@
+[console_scripts]
+pyp3 = pyp3.__main__:main
+
