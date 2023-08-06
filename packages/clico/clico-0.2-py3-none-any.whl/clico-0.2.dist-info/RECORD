@@ -1,0 +1,13 @@
+clico/__init__.py,sha256=FHXS6CcMOOOtZOFgC9-yBdeNCD8GH35owaKVGMiQvi0,66
+clico/clico.py,sha256=9-0bq3-_OC1iZwXZCkt7RbiPAxlVszQHwH-O5wB0duw,2416
+clico/models.py,sha256=5fKxCx0FGISMCycZSOfD76-Ak_Zg1Vsio83erAZ0sXw,2976
+clico/utils.py,sha256=GGLML7qRcxWvdeWPwQmY75y4Q_VJZQA3i3hyT-Rpz9M,256
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_clico.py,sha256=cyHTTcKajMg6dQ95X7w-K5X1Q7vRYLa9plmpTEYDwHs,4762
+tests/test_models.py,sha256=b5i9s7nYmxppMKe02-TYAUfnMlZHA_c-gfKI76Qh6Y8,3640
+tests/test_utils.py,sha256=7fRYOtDMaZ04CWBtCnb6_Uovq7zfmkUNQuu7WF62EqQ,421
+clico-0.2.dist-info/LICENSE,sha256=QwcOLU5TJoTeUhuIXzhdCEEDDvorGiC6-3YTOl4TecE,11356
+clico-0.2.dist-info/METADATA,sha256=zagdnA-7l36IKmYC8RQ9D2qzFETaup2UQhDCubK2wb8,2342
+clico-0.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+clico-0.2.dist-info/top_level.txt,sha256=wO2f0Q1i63szLH4q-yMxEcUCC8sMBFBImF5U3L32qTE,12
+clico-0.2.dist-info/RECORD,,
