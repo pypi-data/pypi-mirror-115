@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.cfg
+data/python-philosophy
+data/python-philosophy.dat
+data/python-quotes
+data/python-quotes.dat
+fortunes_python.egg-info/PKG-INFO
+fortunes_python.egg-info/SOURCES.txt
+fortunes_python.egg-info/dependency_links.txt
+fortunes_python.egg-info/top_level.txt
