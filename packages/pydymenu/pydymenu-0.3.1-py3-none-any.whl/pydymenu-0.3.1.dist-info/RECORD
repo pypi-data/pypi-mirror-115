@@ -1,0 +1,12 @@
+pydymenu/__init__.py,sha256=yfyRiTg-c1_GLCaQ9n940shNE0qYWeKe67JRFmlbsFY,152
+pydymenu/__main__.py,sha256=9m8mwhjrRFTa7Uu65EbzER3bENMcDFeeH_IvX0RVNWo,1261
+pydymenu/console.py,sha256=8mpAp8UFJxUKaxe8iZsAo-KpndPuXclUo7n9CcJJtyI,222
+pydymenu/demo_data.py,sha256=dIXxcjMxCiwFJsfbGDVKl3GgXOF4jzJSNZXzA8fHdiI,693
+pydymenu/fzf.py,sha256=Mk8X9Cuxwc3EjIa1Y-wKzF4o-othQBm96uaVo83_Tyc,1914
+pydymenu/rofi.py,sha256=Jd7yMvYUzDOIrP2Ttn8Z3O5qFYYDtjEMJemEbw0qjS4,2092
+pydymenu/system.py,sha256=baSf-m4mteWEAfDAaVnrUTFJE1UojapYxf_re4QWGd4,1379
+pydymenu-0.3.1.dist-info/LICENSE.md,sha256=M7wm1EmMGDtwPRdg7kW4d00h1uAXjKOT3HFScYQMeiE,34916
+pydymenu-0.3.1.dist-info/METADATA,sha256=hf13Qb4kHyyHsOp0cFBiSz6Ek9F7_RIDHUMrcWUeESo,2369
+pydymenu-0.3.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pydymenu-0.3.1.dist-info/top_level.txt,sha256=zcX9FFz8mTkZ_1GWKIJj1w4tKaEgAJ3UAeULT9eyIrs,9
+pydymenu-0.3.1.dist-info/RECORD,,
