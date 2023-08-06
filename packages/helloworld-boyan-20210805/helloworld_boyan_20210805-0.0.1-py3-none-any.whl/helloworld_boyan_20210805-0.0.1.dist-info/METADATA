@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: helloworld-boyan-20210805
+Version: 0.0.1
+Summary: Say Hello now
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: dev
+Requires-Dist: pytest (>=3.7) ; extra == 'dev'
+
+UNKNOWN
+
+
