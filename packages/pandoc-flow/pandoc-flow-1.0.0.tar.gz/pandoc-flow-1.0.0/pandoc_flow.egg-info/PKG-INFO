@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: pandoc-flow
+Version: 1.0.0
+Summary: Pandoc Flow - Augments Pandoc with advanced pre-processing, automates routine
+Home-page: https://github.com/corvis/pandoc-flow
+Author: Dmitry Berezovsky
+License: MIT
+Keywords: pandoc pre-process processing pipiline document generator
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Home Automation
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >3.6
+
+
+Pandoc Flow
+===========
+
+
+.. image:: https://raw.githubusercontent.com/corvis/pandoc-flow/master/docs/assets/cover-picture.png
+   :target: https://raw.githubusercontent.com/corvis/pandoc-flow/master/docs/assets/cover-picture.png
+   :alt: Pandoc Flow Picture
+
+
+Credits
+=======
+
+
+* Dmitry Berezovsky, author
+* `Strome <https://github.com/corvis/strome>`_
+* `CLI Rack <https://github.com/corvis/cli-rack>`_
+
+Disclaimer
+==========
+
+This module is licensed under MIT. This means you are free to use it in commercial projects.
+
+The MIT license clearly explains that there is no warranty for this free software. Please see the included LICENSE file
+for details.
+
+
