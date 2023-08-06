@@ -1,0 +1,5 @@
+setup.py
+nimblebox.egg-info/PKG-INFO
+nimblebox.egg-info/SOURCES.txt
+nimblebox.egg-info/dependency_links.txt
+nimblebox.egg-info/top_level.txt
