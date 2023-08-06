@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: WarzoneTracker
+Version: 0.0.1
+Summary: Basic package to grab and parse useful warzone stats from tracker.gg. Optionally caches recent tracker.gg requests with Firebase
+Home-page: UNKNOWN
+Author: valtov
+Author-email: <vladialtv@gmail.com>
+License: UNKNOWN
+Description: 
+        # WarzoneTracker
+        
+        Under construction! Not ready for use yet!
+        
+        ## Example of How To Use in WarzoneTracker/controller.py
+Keywords: python,warzone,tracker,tracker.gg,sbmm,kd
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
