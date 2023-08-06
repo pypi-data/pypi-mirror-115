@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: rfsdk
+Version: 0.2.0
+Summary: No description.
+Home-page: UNKNOWN
+Author: loufu
+Author-email: loufu.2004@163.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: protobuf
+
+===========
+
+This project provides a demo for packaging and distributing python application.
+
