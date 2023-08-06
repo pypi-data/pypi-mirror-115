@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: pyunifiprotect
+Version: 0.31.9
+Summary: Python Wrapper for Unifi Protect API
+Home-page: UNKNOWN
+Author: Bjarne Riis
+Author-email: bjarne@briis.com
+License: MIT
+Keywords: UnifiProtect,Surveilance,Unifi,Home Assistant,Python
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Provides-Extra: dev
+License-File: LICENSE
+
+# Python Wrapper for Unifi Protect API
+
+This module communicates with Unifi Protect Surveilance software installed on either a Ubiquiti CloudKey+ or Unifi Dream Machine Pro.
+
+The API is not documented by Ubiquiti, so there might be misses and/or frequent changes in this module, as Ubiquiti evolves the software.
+
+The module is written for the sole purpose as being used in Home Assistant for the Custom Integration called *unifiprotect* but might be used for other purposes also.
+
+
