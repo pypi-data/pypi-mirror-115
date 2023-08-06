@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: helloworld-clippersys
+Version: 0.0.2
+Summary: Hello World!
+Home-page: http://clippersys.eu
+Author: Chris
+Author-email: info@clippersys.eu
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: blessings (~=1.7)
+Provides-Extra: dev
+Requires-Dist: pytest (>=3.7) ; extra == 'dev'
+Requires-Dist: twine (>=3.4) ; extra == 'dev'
+
+# Hello World
+
+An example project which demonstrates how to publish a python module to PyPI.
+
+## Installation
+
+Run the following to install
+
+```python
+pip install helloworld_clippersys
+```
+
+## Usage
+
+```python
+from helloworld_clippersys import helloworld
+# print "Hello World!"
+helloworld()
+```
+## Developing Hello World
+
+```bash
+pip install -e .[dev]
+```
+
+
