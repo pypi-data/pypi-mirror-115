@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: litecoder
+Version: 0.3.2
+Summary: US city + state geocoding.
+Home-page: https://github.com/social-machines/litecoder
+Author: Lab for Social Machines, MIT Media Lab
+Author-email: wesc@media.mit.edu
+License: MIT
+Download-URL: https://github.com/social-machines/litecoder/archive/v0.3.2.tar.gz
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
