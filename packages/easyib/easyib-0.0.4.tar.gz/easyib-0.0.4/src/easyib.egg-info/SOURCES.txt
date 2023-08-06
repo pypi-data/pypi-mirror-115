@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/easyib/__init__.py
+src/easyib/easyib.py
+src/easyib.egg-info/PKG-INFO
+src/easyib.egg-info/SOURCES.txt
+src/easyib.egg-info/dependency_links.txt
+src/easyib.egg-info/requires.txt
+src/easyib.egg-info/top_level.txt
