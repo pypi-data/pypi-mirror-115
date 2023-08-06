@@ -1,0 +1,9 @@
+README.md
+setup.py
+pyquickcopy/__init__.py
+pyquickcopy/core.py
+pyquickcopy.egg-info/PKG-INFO
+pyquickcopy.egg-info/SOURCES.txt
+pyquickcopy.egg-info/dependency_links.txt
+pyquickcopy.egg-info/requires.txt
+pyquickcopy.egg-info/top_level.txt
