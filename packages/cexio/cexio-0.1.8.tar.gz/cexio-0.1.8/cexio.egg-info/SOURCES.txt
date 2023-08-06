@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+cexio/__init__.py
+cexio.egg-info/PKG-INFO
+cexio.egg-info/SOURCES.txt
+cexio.egg-info/dependency_links.txt
+cexio.egg-info/top_level.txt
