@@ -1,0 +1,9 @@
+itsh5py/.DS_Store,sha256=SgzqAlIrW-YG7qcc2O7P4MA5i9mdTZmnLyrR5ub8bYQ,6148
+itsh5py/__init__.py,sha256=mqVkIGAf139sqZ3A4xgUDUySehIS0zLKkOJWNQ95oJ0,379
+itsh5py/config.py,sha256=nfR3uXP6sYLc2DrM7iQnBibx-2s53eZ09al_uU5axd4,1410
+itsh5py/hdf_support.py,sha256=W6zDLztszRx2hi269bAf4XyxYtPHyTiZwE77YE8zNhg,26993
+itsh5py/queue_handler.py,sha256=JHu8L_2I10QqppqbVJHr3ONLUdZIBt0Ku44Vpe4VS38,2355
+itsh5py-0.7.0.dist-info/LICENSE.txt,sha256=zq-VxfI7bZUQaABrJoWk9SurH4AvVfSOI9lMaOcG5l4,1099
+itsh5py-0.7.0.dist-info/WHEEL,sha256=o-Q2E8s7BKkCJ1EC2uQdaymZVVu2aUt1e8uTTFpzHVs,81
+itsh5py-0.7.0.dist-info/METADATA,sha256=WYd-4RSxkSQKJvF3IDlBkc_nP31ugmbzAGI3qC4_K8A,2801
+itsh5py-0.7.0.dist-info/RECORD,,
