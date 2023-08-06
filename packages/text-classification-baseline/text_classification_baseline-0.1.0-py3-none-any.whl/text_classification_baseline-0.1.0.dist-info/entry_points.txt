@@ -1,0 +1,3 @@
+[console_scripts]
+text-clf = text_clf.__main__:main
+
