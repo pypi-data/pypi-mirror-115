@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "esguard"
+version = "0.1.2"
+description = "esguard provides a Python decorator that waits for processing while monitoring the load of Elasticsearch."
+authors = ["po3rin"]
+repository = "http://github.com/po3rin/esguard"
+homepage = "http://github.com/po3rin/esguard"
+readme = "README.md"
+license = "Apache-2.0"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+elasticsearch = "^7.12.1"
+docker = "^5.0.0"
+six = "^1.16.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
