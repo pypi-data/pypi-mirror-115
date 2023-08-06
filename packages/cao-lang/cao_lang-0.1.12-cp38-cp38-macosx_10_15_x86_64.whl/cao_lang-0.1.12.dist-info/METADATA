@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: cao-lang
+Version: 0.1.12
+Summary: The node based 'language' that governs the actors of the game Cao-Lo
+Home-page: https://github.com/caolo-game/cao-lang
+Author: Daniel Kiss
+Author-email: littlesnorrboy@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/caolo-game/cao-lang/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Rust
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Cao-Lang
+
+<!-- [![Coverage Status](https://coveralls.io/repos/github/caolo-game/cao-lang/badge.svg?branch=master)](https://coveralls.io/github/caolo-game/cao-lang?branch=master) -->
+
+[![Cao-Lang core tests](https://github.com/caolo-game/cao-lang/actions/workflows/cao-lang-tests.yml/badge.svg)](https://github.com/caolo-game/cao-lang/actions/workflows/cao-lang-tests.yml)
+[![C bindings tests](https://github.com/caolo-game/cao-lang/actions/workflows/c.yml/badge.svg)](https://github.com/caolo-game/cao-lang/actions/workflows/c.yml)
+[![Python tests](https://github.com/caolo-game/cao-lang/actions/workflows/python.yml/badge.svg)](https://github.com/caolo-game/cao-lang/actions/workflows/python.yml)
+[![WASM tests](https://github.com/caolo-game/cao-lang/actions/workflows/wasm-tests.yml/badge.svg)](https://github.com/caolo-game/cao-lang/actions/workflows/wasm-tests.yml)
+
+The node based "language" that governs the actors in the game CaoLo
+
+[WASM package documentation](https://caolo-game.github.io/cao-lang/index.html)
+
+
+## Project layout
+
+```
+ |+ cao-lang/           # core library
+ |+ c/                  # C interface
+ |+ py/                 # Python interface
+ |+ wasm/               # WASM interface
+ |  CMakeLists.txt      # Root cmake file
+ |  MANIFEST.in         # Python build dependency
+ |  pyproject.toml      # Python build dependency
+ |  README.md
+ |  setup.py            # Python build dependency
+ |  tox.ini             # Python testing dependency
+
+```
+
+
