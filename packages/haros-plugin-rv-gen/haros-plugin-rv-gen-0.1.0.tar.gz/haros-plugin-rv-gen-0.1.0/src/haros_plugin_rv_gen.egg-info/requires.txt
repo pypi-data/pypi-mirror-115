@@ -1,0 +1,2 @@
+future
+hpl-rv-gen<1.0.0
