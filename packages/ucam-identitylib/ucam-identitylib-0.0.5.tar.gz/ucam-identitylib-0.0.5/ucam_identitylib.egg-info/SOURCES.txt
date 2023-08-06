@@ -1,0 +1,8 @@
+README.md
+setup.py
+identitylib/__init__.py
+identitylib/identifiers.py
+ucam_identitylib.egg-info/PKG-INFO
+ucam_identitylib.egg-info/SOURCES.txt
+ucam_identitylib.egg-info/dependency_links.txt
+ucam_identitylib.egg-info/top_level.txt
