@@ -1,0 +1,81 @@
+
+# These are the default settings for spartan, which are initialized when 
+# spartan is instantiated. The user can change the values; for example, 
+# the user can change the context (notebook, poster, talks, paper). 
+
+
+################################
+## figure ##
+############
+
+figure.dpi: 100
+figure.figsize: 8, 4.9443
+
+
+################################
+## fonts and text ##
+####################
+
+font.sans-serif: Arial
+font.size: 14.0
+mathtext.fontset : cm
+text.hinting_factor : 8
+
+
+################################
+# lines and color #
+###################
+
+lines.linewidth: 2.2
+lines.markersize: 8
+# default will be earth8 -> ???
+axes.prop_cycle: cycler('color', ['5b8c63', '5b848c', '635b8c', '8c5b84', '8c635b', '848c5b']) 
+
+
+################################
+# patches #
+###########
+
+patch.linewidth: 0.3
+patch.facecolor: green
+patch.edgecolor: eeeeee
+patch.antialiased: True
+
+
+################################
+# axes #
+########
+
+axes.spines.right : False
+axes.spines.top : False
+axes.spines.bottom : False
+axes.spines.left : False
+axes.titlesize: 20
+axes.labelsize: 16
+xtick.direction: in
+ytick.direction: in
+xtick.labelsize : 12
+ytick.labelsize : 12
+
+
+################################
+## grids ##
+###########
+
+axes.grid : True
+axes.grid.axis: both
+grid.color: e8e8e8
+grid.linestyle: -
+grid.linewidth: .6
+grid.alpha: 0.7
+
+
+################################
+## legend ##
+############
+
+legend.fancybox: True
+legend.framealpha: 0.6
+legend.fontsize: 10
+
+
