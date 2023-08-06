@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: openlineage-dbt
+Version: 0.0.1rc8
+Summary: OpenLineage integration with dbt
+Home-page: UNKNOWN
+Author: OpenLineage
+License: UNKNOWN
+Keywords: openlineage
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Requires-Dist: sqlparse (<0.4,>=0.2.3)
+Requires-Dist: openlineage-integration-common[dbt] (==0.0.1rc8)
+Provides-Extra: dev
+Requires-Dist: mock ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Provides-Extra: tests
+Requires-Dist: pytest ; extra == 'tests'
+Requires-Dist: pytest-cov ; extra == 'tests'
+Requires-Dist: mock ; extra == 'tests'
+Requires-Dist: flake8 ; extra == 'tests'
+
+UNKNOWN
+
