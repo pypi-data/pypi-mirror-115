@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+iproute/__init__.py
+iproute.egg-info/PKG-INFO
+iproute.egg-info/SOURCES.txt
+iproute.egg-info/dependency_links.txt
+iproute.egg-info/top_level.txt
