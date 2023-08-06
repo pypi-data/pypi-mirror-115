@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: iproute
+Version: 0.0.1
+Summary: Pythonic wrapper for the iproute suite of tools
+Home-page: https://gitlab.com/sdrzewiecki/iproute
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+
+UNKNOWN
+
