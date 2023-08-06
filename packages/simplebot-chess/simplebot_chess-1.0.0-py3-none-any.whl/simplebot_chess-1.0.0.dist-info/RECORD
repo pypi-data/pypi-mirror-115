@@ -1,0 +1,10 @@
+simplebot_chess/__init__.py,sha256=1DZWB49GlQ2QFcqMBoiqo5sax2XyNhbJ3olxL8DKDqc,8317
+simplebot_chess/game.py,sha256=iDZCVohH1cu7ZKNSsnwy_DQfBolbzNk5ERSfQYy5QBs,1667
+simplebot_chess/orm.py,sha256=nIFxxiUKxR9pKW5dEUXBwRoYsYN1VJi7YwXRlNua1Pc,1260
+simplebot_chess/templates/board.html,sha256=9d-ehNZrehN6U2XdmFtKAOVPveajNTGmX-LLH_ffsX0,1265
+simplebot_chess-1.0.0.dist-info/LICENSE,sha256=-rPda9qyJvHAhjCx3ZF-Efy07F4eAg4sFvg6ChOGPoU,16726
+simplebot_chess-1.0.0.dist-info/METADATA,sha256=Rn8hobbQIZDtuF_zA00zbbrQ35-OlJqlGZb5g2slKr0,2806
+simplebot_chess-1.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+simplebot_chess-1.0.0.dist-info/entry_points.txt,sha256=XSdPbJwWBsPdYuwerMKZy8-KpGxGAKyhekg2lOImDws,55
+simplebot_chess-1.0.0.dist-info/top_level.txt,sha256=nj5qDH4GvYQCd7msbcirY2a1AgUpg252aBddDdopbOE,16
+simplebot_chess-1.0.0.dist-info/RECORD,,
