@@ -1,0 +1,4 @@
+numpy
+gym>=0.18.0
+navsim_mlagents_envs==0.27.0
+gym_unity==0.27.0
