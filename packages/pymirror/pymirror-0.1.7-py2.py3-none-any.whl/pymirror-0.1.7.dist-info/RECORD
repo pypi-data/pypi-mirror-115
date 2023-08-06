@@ -1,0 +1,9 @@
+pymirror/__init__.py,sha256=i2u6iI-J4qVqC9kIxRo4ap_foH8BwJi_QCmXX3jjFHE,148
+pymirror/cli.py,sha256=Nu8GZqODocT1yv59_eldVq6BV1--a8Y1sfrmNG9wOLs,2751
+pymirror/pymirror.py,sha256=l7VW8Hbw-ahW7boNlRCY5aDvojVocTxpS0c_GCaGeMc,16971
+pymirror/data/servers_data.json,sha256=FNBPXdbDXudq0xi3UBOH3qiStP52WW9he2bq7375uuo,2205
+pymirror-0.1.7.dist-info/entry_points.txt,sha256=qTp3-X2UNlbJF8JACmXy6-KadeX1xYFmrN0h-UxqYQo,46
+pymirror-0.1.7.dist-info/LICENSE,sha256=7wnHIrZshAe7FAWoRPtFh48tJQkG124E_keUYAbm19A,1065
+pymirror-0.1.7.dist-info/WHEEL,sha256=2adPsdwavOXlr3i4h108dwQdqKgJbVa5zTEEuD11F08,99
+pymirror-0.1.7.dist-info/METADATA,sha256=Rsdo4UVA7_pLkiRIjJNxEq-wpvFnS6-ppnPL4Bv4s8M,295
+pymirror-0.1.7.dist-info/RECORD,,
