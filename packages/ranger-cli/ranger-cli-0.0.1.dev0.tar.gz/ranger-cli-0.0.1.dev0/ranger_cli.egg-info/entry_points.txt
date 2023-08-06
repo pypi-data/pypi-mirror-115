@@ -1,0 +1,3 @@
+[console_scripts]
+ranger-cli = ranger_cli.cli:cli
+

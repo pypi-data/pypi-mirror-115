@@ -1,0 +1,10 @@
+click>=7.1
+six>=1.16
+confuse>=1.4
+PyYAML>=5.4
+requests>=2.25
+urllib3>=1.26
+xmltodict>=0.12
+simplejson>=3.17
+rich>=10.2
+colorama>=0.4
