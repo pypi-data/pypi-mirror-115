@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: stupidcast
+Version: 0.1
+Summary: Stupid tool for chromecasting.
+Home-page: https://github.com/bannsec/stupidcast
+Author: Michael Bann
+Author-email: self@bannsecurity.com
+License: MIT
+Keywords: cast chromecast video stupid
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Environment :: Console
+
+See website for more info.
+

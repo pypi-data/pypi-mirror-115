@@ -1,0 +1,3 @@
+[console_scripts]
+stupidcast = stupidcast.stupidcast:main
+

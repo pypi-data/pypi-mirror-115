@@ -1,0 +1,16 @@
+README.md
+setup.py
+stupidcast/__init__.py
+stupidcast/config.py
+stupidcast/stupidcast.py
+stupidcast/version.py
+stupidcast.egg-info/PKG-INFO
+stupidcast.egg-info/SOURCES.txt
+stupidcast.egg-info/dependency_links.txt
+stupidcast.egg-info/entry_points.txt
+stupidcast.egg-info/requires.txt
+stupidcast.egg-info/top_level.txt
+stupidcast/gadgets/__init__.py
+stupidcast/gadgets/alert.py
+stupidcast/gadgets/input_dialog.py
+stupidcast/gadgets/radio_list.py
