@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: lpa-output
+Version: 0.8.2
+Summary: Tools for the analysis of X-ray diffraction simulation output.
+Home-page: https://github.com/DunstanBecht/lpa-output
+Author: Dunstan Becht
+Author-email: dunstan@becht.network
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/DunstanBecht/lpa-output/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: CC0 1.0 Universal (CC0 1.0) Public Domain Dedication
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Physics
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: numpy (==1.21.1)
+Requires-Dist: matplotlib (==3.4.2)
+Requires-Dist: beartype (==0.7.1)
+Requires-Dist: scipy (==1.21.1)
+
+<div align="center">
+  <img width="250" src="https://dunstan.becht.network/views/signatures/mines.svg" alt="Mines Saint-Etienne">
+</div>
+
+# Project
+
+This repository is related to the analysis of crystals containing dislocations by X-ray diffraction. It is part of a larger project conducted during a research internship at the laboratory of material and structural sciences of the *École Nationale Supérieure des Mines de Saint-Étienne*.
+
+# Features
+
+The tools developed can be used to:
+* average the simulation output files
+* export figures presenting the Fourier amplitudes for each harmonic
+* fit different model for the calculation of the dislocation density
+* export files and graphics containing information on fits
+
+# Abbreviations
+
+Some abbreviations are used in the figures:
+
+* **G**: Groma
+* **K**: Kamminga
+* **W**: Wilkens
+
+# User guide
+
+### Installation
+
+The project is indexed on [PyPI](https://pypi.org/project/lpa-output/) and installable directly via pip.
+```bash
+pip install lpa-output
+```
+
+### Analysis
+
+To export in the directory `output-fits` the fit information on the simulation output `500_circle_1e3nm_rrdde_1e15m-2_screw` located in the directory `output-data`:
+
+```python
+from lpa.output import analyze
+s = '500_circle_1e3nm_rrdde_1e15m-2_screw'
+analyze.export(s, i='output-data', o='output-fits')
+```
+
+
