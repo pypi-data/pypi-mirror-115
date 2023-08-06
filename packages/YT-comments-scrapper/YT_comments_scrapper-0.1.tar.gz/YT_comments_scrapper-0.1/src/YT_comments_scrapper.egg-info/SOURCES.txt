@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+src/yt_scrapper.py
+src/YT_comments_scrapper.egg-info/PKG-INFO
+src/YT_comments_scrapper.egg-info/SOURCES.txt
+src/YT_comments_scrapper.egg-info/dependency_links.txt
+src/YT_comments_scrapper.egg-info/top_level.txt
+test/test_scrapper.py
