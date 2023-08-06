@@ -1,0 +1,10 @@
+scrcpy/__init__.py,sha256=TxsClp3Ibp-6B3ZPAATfSkYu5OsaQYivqV6KycIGI40,46
+scrcpy/const.py,sha256=m39POgbzSPkvq2AiCVw7LkpUVVbb8UR7xuoIMxY9fpg,7302
+scrcpy/control.py,sha256=t3Po3JGzKSb-oMYcm9KBqmr71JMQFHM3L1Qvtq13noI,4271
+scrcpy/core.py,sha256=cb6TefsInErKchai10TL3Kf9p0CbM5ZV0jetBoqshK8,6729
+scrcpy/scrcpy-server.jar,sha256=ZBxca-2pOZ365y0Rb1_0O17RBZ2HHJ68P0dhD9M8UaM,37330
+scrcpy_client-0.2.1.dist-info/entry_points.txt,sha256=0X5BPRizX5lWredNwXspmM_4mVdWuH_SN2IxAnDGEKY,43
+scrcpy_client-0.2.1.dist-info/LICENSE.txt,sha256=stWlJ4PtXsk61duCwHW2OiaduN78rugo1H-XNM7o9tY,1067
+scrcpy_client-0.2.1.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+scrcpy_client-0.2.1.dist-info/METADATA,sha256=TJJBfN76aDQh2DfosGzTUPN2-vRD83JBoMB2xXxnXkA,2201
+scrcpy_client-0.2.1.dist-info/RECORD,,
