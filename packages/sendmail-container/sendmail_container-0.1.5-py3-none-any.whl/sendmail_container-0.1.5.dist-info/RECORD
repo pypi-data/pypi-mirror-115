@@ -1,0 +1,8 @@
+sendmail_container/__init__.py,sha256=-VUyq-bPEprNkJ4-J18GB4mm1zFOkiEdasbQyqpwoP4,59
+sendmail_container/app.py,sha256=APqNtdHv9RO8935Ht8xrS8GpoaePxDSkYbWUQTFJG_Q,2172
+sendmail_container/request.py,sha256=-HUp12LKSLpRoGYp3Fs4PxVF8kD7oYqqbD9lzhVsUPU,1530
+sendmail_container-0.1.5.dist-info/LICENSE,sha256=vSkMqs-0ZMpEM8p9UYE-FgSmw1XPXguyFhsjp02Wv4g,1074
+sendmail_container-0.1.5.dist-info/METADATA,sha256=LZ4RES4CzBrVMq41ngaveOgaXoczba_UERNLAiS47rk,781
+sendmail_container-0.1.5.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+sendmail_container-0.1.5.dist-info/top_level.txt,sha256=yh5Oh7YGOLa2COJQJYYaUhW_AJU9qSWs9t92wJrLsaI,19
+sendmail_container-0.1.5.dist-info/RECORD,,
