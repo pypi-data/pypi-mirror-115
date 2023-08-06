@@ -1,0 +1,11 @@
+scanimate/__init__.py,sha256=m_WNYEx9das4zu0odfwzzByMIc1zJWC98O_idQ02C60,265
+scanimate/display.py,sha256=1GLxFJUYFK4j30RqcIPWsoP0QNWnWRmlarCwAgzo30Q,245
+scanimate/io.py,sha256=1GLxFJUYFK4j30RqcIPWsoP0QNWnWRmlarCwAgzo30Q,245
+scanimate/moire.py,sha256=sUECMFL6tlTMkNzQ8-n0-nESUDJnGdsibSVhDDc8RKU,9431
+scanimate/scanimate.py,sha256=aHOEnrKf4G_QSXK1WVCDGhkyFC1AJ6qACKSCM8ITcoo,408
+scanimate/version_info.py,sha256=dR0JhRgQseqZKwdNXS12j0abr3QzkqPEjaqe1fPPENc,2364
+scanimate-0.0.5.dev0.dist-info/LICENSE,sha256=Cx83t1gPngSPojvOVXRY26TwX0zrElbZh6Tl9Yx0z1E,1070
+scanimate-0.0.5.dev0.dist-info/METADATA,sha256=Zag9J7xMgqbviBXGt-8suNO7T0NcfIphser_CWpttds,3057
+scanimate-0.0.5.dev0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+scanimate-0.0.5.dev0.dist-info/top_level.txt,sha256=USo_2jY8XY98rtaYJosmZ3kVA6VQh-k329wnterzt1M,10
+scanimate-0.0.5.dev0.dist-info/RECORD,,
