@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: quickgraph
+Version: 0.14
+Summary: QuickGraph library can help you get a quick overview of a social graph in an extremely convenient way. QuickGraph will show the basic information of a graph, plot the CDF of selected metrics, characterize the largest connected component (LCC).
+Home-page: https://gongqingyuan.wordpress.com/
+Author: Mobile Systems and Networking Group, Fudan University
+Author-email: gongqingyuan@fudan.edu.cn
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+
+UNKNOWN
+
