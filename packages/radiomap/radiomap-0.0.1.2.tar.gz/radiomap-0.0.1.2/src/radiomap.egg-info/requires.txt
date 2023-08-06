@@ -1,0 +1,6 @@
+astropy>=4.2.1
+numpy>=1.20.3
+astroquery
+
+[dev]
+pytest>=3.7
