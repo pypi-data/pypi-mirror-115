@@ -1,0 +1,7 @@
+setup.py
+itsdangerous-stubs/METADATA.toml
+itsdangerous-stubs/__init__.pyi
+types_itsdangerous.egg-info/PKG-INFO
+types_itsdangerous.egg-info/SOURCES.txt
+types_itsdangerous.egg-info/dependency_links.txt
+types_itsdangerous.egg-info/top_level.txt
