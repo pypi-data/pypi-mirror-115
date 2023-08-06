@@ -1,0 +1,4 @@
+httpx[http2]>=0.18
+
+[test]
+pytest
