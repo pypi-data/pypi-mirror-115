@@ -1,0 +1,118 @@
+Metadata-Version: 2.1
+Name: wh-lookml-gen
+Version: 0.2.2
+Summary: generates lookml from a warehouse
+Home-page: https://github.com/lewischarlesbaker/wh_lookml_gen
+Author: Lewis Baker
+Author-email: lewischarlebaker@gmail.com
+License: MIT license
+Keywords: wh_lookml_gen
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+Requires-Dist: Click (>=7.0)
+
+=============
+wh_lookml_gen
+=============
+
+
+.. image:: https://img.shields.io/pypi/v/wh_lookml_gen.svg
+        :target: https://pypi.python.org/pypi/wh_lookml_gen
+
+.. image:: https://img.shields.io/travis/lewischarlesbaker/wh_lookml_gen.svg
+        :target: https://travis-ci.com/lewischarlesbaker/wh_lookml_gen
+
+.. image:: https://readthedocs.org/projects/wh-lookml-gen/badge/?version=latest
+        :target: https://wh-lookml-gen.readthedocs.io/en/latest/?version=latest
+        :alt: Documentation Status
+
+
+
+
+generates lookml from a warehouse
+
+
+* Free software: MIT license
+* Documentation: https://wh-lookml-gen.readthedocs.io.
+
+
+Features
+--------
+
+### bq_lookml_generator v.0.1.1
+
+This automatic generator is buit over Josh Temples looker parser [https://github.com/joshtemple/lkml]. Building out lkml, it allows you to generate lookml from BigQuery metadata. 
+
+## getting started
+
+- make sure you are working in a venv.
+- pip install lookml_gen
+
+- config params 
+    - run lookml_gen_init 
+        - head to .lookml_gen and input your wh credentials
+            - warehouse configs 
+                - either input big_query or red_shift (current support warehouses) under warehouse_name
+                - input schema name
+                - input project name
+            - security 
+                - big_query 
+                    - input your keyfile path
+                - red_shift
+                    - input you credentials
+
+
+- input your warehouse schema target in here lookml/bq_lookml_gen/warehouse_target.py
+- type lookml_gen into terminal and watch the base explore generate... 
+
+## troubleshooting 
+
+- run pip install -r requirements.txt if you are running into dependency issues
+- you can run bq_lookml_gen.py from terminal if needed
+
+## to update
+
+twine upload --skip-existing dist/*
+
+## to develop
+
+- add new features to setup tools using: python setup.py develop
+
+
+rebuild the wheel 
+
+    python setup.py sdist bdist_wheel
+
+pip freeze > requirements.txt
+
+cat requirements.txt
+
+
+
+Credits
+-------
+
+This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+
+.. _Cookiecutter: https://github.com/audreyr/cookiecutter
+.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+
+
+=======
+History
+=======
+
+0.1.7 (2021-05-28)
+------------------
+
+* First release on PyPI.
+
+
