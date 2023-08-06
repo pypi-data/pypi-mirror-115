@@ -1,0 +1,13 @@
+LICENCE.txt
+README.md
+setup.py
+pshape/__init__.py
+pshape/exceptions.py
+pshape/identify_backend.py
+pshape/metrics.py
+pshape/pshape.py
+pshape.egg-info/PKG-INFO
+pshape.egg-info/SOURCES.txt
+pshape.egg-info/dependency_links.txt
+pshape.egg-info/requires.txt
+pshape.egg-info/top_level.txt
