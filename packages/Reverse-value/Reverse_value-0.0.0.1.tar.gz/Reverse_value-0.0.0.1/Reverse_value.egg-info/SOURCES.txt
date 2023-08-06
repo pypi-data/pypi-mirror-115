@@ -1,0 +1,9 @@
+LICENCE
+README.md
+setup.py
+Reverse_value.egg-info/PKG-INFO
+Reverse_value.egg-info/SOURCES.txt
+Reverse_value.egg-info/dependency_links.txt
+Reverse_value.egg-info/top_level.txt
+libfolder/__init__.py
+libfolder/reverse-swapping.py
