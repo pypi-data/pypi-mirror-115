@@ -1,0 +1,12 @@
+licheck/__init__.py,sha256=iM3lKGQJCuzE5zma_8-OR3E8yyuWWwm2Adr7egvfYPs,1560
+licheck/__main__.py,sha256=iF4bTaP8Ta-B4k1Q9fbMUzcD-fR_3BvVsg7fQBX6CbY,1253
+licheck/api.py,sha256=LUMoDRRu2BXFIrTvvO5B-GAOF82JkN62ZfMbLTkyxLc,21868
+licheck/cli.py,sha256=En_V6PEtIKDan67WuBcJwgtN5HbNHNSjRdk5ReN4zwA,3144
+licheck/constants.py,sha256=Tk3EokVUvIT1lmF-PIjytK4QZ65SL9_WRwLiXkxrCco,1060
+licheck/exceptions.py,sha256=j6r2mA6d-jpBxpJ7NaHBXj4ZcR_ypA3DVeUl6UKHBNQ,1280
+licheck-0.0.2.dist-info/LICENSE.txt,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+licheck-0.0.2.dist-info/METADATA,sha256=-Y4LIuACO38hsY3Kgw6V8fafB4sdc22KLpjc0Ce8htY,4461
+licheck-0.0.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+licheck-0.0.2.dist-info/entry_points.txt,sha256=dYs-SBLyy8I7nL3DcASA7h9dlNUYUlzmVkLgSguwIzk,51
+licheck-0.0.2.dist-info/top_level.txt,sha256=BPCaFXFhuA-eBrCqC9LvKZqkVTS2t2psb1Hhf3Az_m4,8
+licheck-0.0.2.dist-info/RECORD,,
