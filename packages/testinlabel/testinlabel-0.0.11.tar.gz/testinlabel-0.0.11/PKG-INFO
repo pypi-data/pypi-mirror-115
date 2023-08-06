@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: testinlabel
+Version: 0.0.11
+Summary: 云测数据 标注平台pythonSDK
+Home-page: http://ai.testin.cn/
+Author: hide-in-code
+Author-email: hejinlong@testin.cn
+License: MIT Licence
+Description: testin标注平台 Python SDK
+        
+        
+Keywords: 云测,数据集,yuncedata,testin,testinlabel
+Platform: any
+Description-Content-Type: text/markdown
