@@ -1,0 +1,4 @@
+aiohttp==3.7.3
+
+[parser]
+pyhcl==0.4.4
