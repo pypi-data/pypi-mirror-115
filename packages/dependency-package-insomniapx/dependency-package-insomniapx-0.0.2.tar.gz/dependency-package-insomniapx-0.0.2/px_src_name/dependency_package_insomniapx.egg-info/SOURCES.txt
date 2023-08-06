@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+px_src_name/dependency_package_insomniapx.egg-info/PKG-INFO
+px_src_name/dependency_package_insomniapx.egg-info/SOURCES.txt
+px_src_name/dependency_package_insomniapx.egg-info/dependency_links.txt
+px_src_name/dependency_package_insomniapx.egg-info/requires.txt
+px_src_name/dependency_package_insomniapx.egg-info/top_level.txt
+px_src_name/lib_dep_pkg_insomniapx/__init__.py
+px_src_name/lib_dep_pkg_insomniapx/file0.py
+px_src_name/lib_dep_pkg_insomniapx/folder1/__init__.py
+px_src_name/lib_dep_pkg_insomniapx/folder1/file1.py
+px_src_name/lib_dep_pkg_insomniapx/folder1/subfolder1/__init__.py
+px_src_name/lib_dep_pkg_insomniapx/folder1/subfolder1/file3.py
+px_src_name/lib_dep_pkg_insomniapx/folder2/__init__.py
+px_src_name/lib_dep_pkg_insomniapx/folder2/file2.py
