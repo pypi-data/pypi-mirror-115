@@ -1,0 +1,15 @@
+lof/__init__.py,sha256=n1eHXqRD3RbL_MDlrVssgeiwqzJLyn6FFioZZvVLnqQ,50
+lof/cards.py,sha256=P1o7uzuZ92ipVQZKly_JXw5fB2fVPMUMWqHxACTikYM,4061
+lof/cli.py,sha256=WUS3acCdXVYevgOoLxbmiMhvRb9j3aM20LLnshlhRqs,1723
+lof/code_gen.py,sha256=yEyRTsnT0vcZv1JvkwNSSOym6i-EXy_rU3OijpUJzcc,2866
+lof/core.py,sha256=2BvvSLb6BeDRvCPvehltF6caTuSgZjACW0xzDrUsTro,3164
+lof/env_vars.py,sha256=HQyXYjr6T6R8n1EzWAMvAMZg1eypTYHFh0LIWCKoLEw,1337
+lof/errors.py,sha256=DYf90L9tRAeucp3MYFLDMdL5XEcpGoJonsl_O5LavNE,540
+lof/generator.py,sha256=_M-8OlidYotRGoJQYQipKMjuyLVhBx-YZ8H7Y0JpusU,3860
+lof/parser.py,sha256=EscUer-H9zi-OKxeJbOAkppuOVwVQPjhRHYTb-NnrzI,3191
+lof/template.jinja2,sha256=17qXbtL_bLrtziHVUgC0778Eas4OKJQas_MnYp4PA2g,1074
+lof-0.4.0.dist-info/entry_points.txt,sha256=cCM0fTXIMJ_pNQ9Bvgc10jUuqsKr33jrlQ9dMl8EWlQ,35
+lof-0.4.0.dist-info/LICENSE,sha256=F7Lnfq5TMUS5ic1Ax7_kRc5hB23kqM61CV6ueLQkkW4,1093
+lof-0.4.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+lof-0.4.0.dist-info/METADATA,sha256=q5zshdkLz_aps8mPIQjr2lFWIbS-oe9p69WTKwHK4UA,7944
+lof-0.4.0.dist-info/RECORD,,
