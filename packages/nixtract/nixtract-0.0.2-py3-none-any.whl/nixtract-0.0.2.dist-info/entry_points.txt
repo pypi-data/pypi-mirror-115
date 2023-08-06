@@ -1,0 +1,5 @@
+[console_scripts]
+nixtract-cifti = nixtract.cli.cifti:main
+nixtract-gifti = nixtract.cli.gifti:main
+nixtract-nifti = nixtract.cli.nifti:main
+
