@@ -1,0 +1,10 @@
+setup.py
+django_logentry_admin2.egg-info/PKG-INFO
+django_logentry_admin2.egg-info/SOURCES.txt
+django_logentry_admin2.egg-info/dependency_links.txt
+django_logentry_admin2.egg-info/requires.txt
+django_logentry_admin2.egg-info/top_level.txt
+logentry_admin/__init__.py
+logentry_admin/admin.py
+logentry_admin/apps.py
+logentry_admin/filters.py
