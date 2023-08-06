@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: pygrank
+Version: 0.2.2
+Summary: Recommendation algorithms for large graphs
+Home-page: https://github.com/MKLab-ITI/pygrank
+Author: Emmanouil Krasanakis
+Author-email: maniospas@hotmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: tqdm
+Requires-Dist: sklearn
+Requires-Dist: scipy
+Requires-Dist: numpy
+Requires-Dist: networkx
+
+For tutorials, documentation and contribution guidelines, please visit the project's homepage at https://github.com/MKLab-ITI/pygrank 
+
+
