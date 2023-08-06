@@ -1,0 +1,11 @@
+murre/__init__.py,sha256=I9AM7Dc_LPhaVcosIwUMMdPg437EgfhqD-Gs3IajBT4,269
+murre/dialects.py,sha256=mFxMPXlengn-5e00iBFWuvT9scYs04W3tlpA6r7I7PA,625
+murre/download.py,sha256=xIq4uuHiQimCJIO--B4g7hDd39HpyzjHaTXWXLZRxJU,1009
+murre/generator.py,sha256=CV3e7YAN56pyFMVChzs3tQzTsMKGOepsC-CRCZ23INY,2607
+murre/normalizer.py,sha256=LmZxxdeHibHQFkDqNFs-787OElF5pQlH9867YEfWx60,3060
+murre/models/readme.txt,sha256=CVsCzdPRBEHAvksgEXCex3CbsrR4q_WcabRoiGL0_wU,20
+murre-1.4.0.dist-info/LICENSE,sha256=Qf4kLyugWhXHrT3kbe--3eaFexIPhAYZnfhJvRuf2VE,13206
+murre-1.4.0.dist-info/METADATA,sha256=jYXlSYzBiQbzQWcJ1bHpyG_lMej7kIeLTu-362JQy3Y,5626
+murre-1.4.0.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+murre-1.4.0.dist-info/top_level.txt,sha256=lxrMcVYk1uVdpyMsRIapX62qvgBm0GhVJZBzomho93M,6
+murre-1.4.0.dist-info/RECORD,,
