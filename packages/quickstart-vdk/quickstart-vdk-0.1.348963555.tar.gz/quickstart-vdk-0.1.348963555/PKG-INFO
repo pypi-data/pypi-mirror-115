@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: quickstart-vdk
+Version: 0.1.348963555
+Summary: Versatile Data Kit SDK packaging containing common plugins to get started quickly using it.
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+This is the first VDK packaging that users would install to play around with it.
+
+It packages:
+
+* Plugin for a local database to get started quickly
+* Plugin for Big Data database (Presto) to start feeling the full cycle
+* Plugin for job management (vdk-control-cli)
+
+See also [Versatile Data Kit Getting Started](https://github.com/vmware/versatile-data-kit/wiki/Getting-Started).
+
+
