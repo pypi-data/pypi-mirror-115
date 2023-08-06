@@ -1,0 +1,3 @@
+[console_scripts]
+pdoc3-files = pdoc3_files.document:main
+
