@@ -1,0 +1,34 @@
+ovc is a module that simplifies python for young and enthusiastic programmers who find python to be complicated
+
+Here are the functions of the module ovc
+
+Display() - this function is used to display text or any other value to the user via your display or monitor
+ex - ovc.Display("Hello World!") -- Output: Hello World!
+     ovc.Display(1) -- Output: 1
+
+UserInput(prompt,itype) - this allows the program to get a certain value from the user and the type of value could also be asked as well
+ex - ovc.UserInput("Enter your name",'string') -- Output: Enter your name
+                                                             Michael Davis
+     ovc.UserInput("Enter a number",'integer') -- Output: Enter a number
+                                                             2
+                    
+Calculator(num1,num2,operator) - this function recieves two numbers and an operator(ex: +,-,*,/) to make a simple arithmetic calculation
+ex - ovc.Display(ovc.Calculator(1,2,"+")) -- Output: 3
+
+Datatype(value,dtype) - this function allows the user to give a certain value and declare it's Datatype
+ex - ovc.Display(ovc.Datatype(2,'integer')) -- Output: 2
+
+Bool(val) - This function would be used to delcare a variable in two ways, true or false
+ex - a=ovc.Bool('is true') or a=ovc.Bool('is false')
+
+OpenFile(filename,mode) - this function would allow the program to open a text file to read data, write data or add data to it
+ex - myfile=ovc.OpenFile('Myfile.txt','collect data')
+
+ReadfromFile(filehandle) - this function is used to read the contents of a text file
+ex - paragraph = ovc.ReadfromFile(myfile)
+
+WriteToFile(filehandle) - this function is used to write some text to a text file
+ex - ovc.WriteToFile(myfile,"My name is Jimmy Johnson")
+
+CloseFile(filehandle) - this function closes a text file that was opened in the program
+ex - ovc.CloseFile(myfile)

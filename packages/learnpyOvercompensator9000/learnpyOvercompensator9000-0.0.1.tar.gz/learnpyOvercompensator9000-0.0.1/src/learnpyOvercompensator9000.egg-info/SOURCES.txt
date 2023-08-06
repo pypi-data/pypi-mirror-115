@@ -1,0 +1,9 @@
+README.txt
+pyproject.toml
+setup.py
+src/easypy/__init__.py
+src/easypy/ovc.py
+src/learnpyOvercompensator9000.egg-info/PKG-INFO
+src/learnpyOvercompensator9000.egg-info/SOURCES.txt
+src/learnpyOvercompensator9000.egg-info/dependency_links.txt
+src/learnpyOvercompensator9000.egg-info/top_level.txt
