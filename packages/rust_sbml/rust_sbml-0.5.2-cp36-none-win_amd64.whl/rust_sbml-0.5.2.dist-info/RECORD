@@ -1,0 +1,5 @@
+rust_sbml-0.5.2.dist-info/METADATA,sha256=v9pNeaew8g-zLwmcQhOG1HeXxEWzf25h0E0D0LKbtMY,4564
+rust_sbml-0.5.2.dist-info/WHEEL,sha256=rDZTSDxKtHpqIDDK6MJEsLjD2foqb0-K8E3zKVNWh9g,95
+rust_sbml/__init__.py,sha256=-vOevUmPHcx9njBWh-URyzAQNkrOlgCykhHmHylCrUc,25
+rust_sbml/rust_sbml.pyd,sha256=d0vl2jyOYKHy8-dDMgzAaKKNBCOTDLCF8AAm3oJOhyU,976384
+rust_sbml-0.5.2.dist-info/RECORD,,
