@@ -1,0 +1,3 @@
+[console_scripts]
+ip_enrichment = digital_thought_commons.enrichers:main
+
