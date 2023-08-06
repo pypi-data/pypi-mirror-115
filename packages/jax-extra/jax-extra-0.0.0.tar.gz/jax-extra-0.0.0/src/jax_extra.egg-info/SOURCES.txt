@@ -1,0 +1,7 @@
+pyproject.toml
+setup.py
+src/jax-extra/__init__.py
+src/jax_extra.egg-info/PKG-INFO
+src/jax_extra.egg-info/SOURCES.txt
+src/jax_extra.egg-info/dependency_links.txt
+src/jax_extra.egg-info/top_level.txt
