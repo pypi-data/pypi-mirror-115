@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.coverage.run]
+    branch = true
+    source = ["./skbot"]
+
+[tool.coverage.report]
+    omit = [
+        "./skbot/ignition/messages.py",
+        "*tests*",
+        "./skbot/ignition/sdformat/bindings/*"
+    ]
+
+    exclude_lines = [
+        "pragma: no cover",
+        "raise NotImplementedError"
+    ]
