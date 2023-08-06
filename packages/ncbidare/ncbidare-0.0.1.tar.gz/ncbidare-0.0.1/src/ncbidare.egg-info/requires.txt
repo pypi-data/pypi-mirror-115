@@ -1,0 +1,4 @@
+biopython~=1.78
+
+[dev]
+pytest>=3.7

@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+dist/ncbidare-0.0.1-py3-none-any.whl
+dist/ncbidare-0.0.1.tar.gz
+src/__init__.py
+src/ncbiget.py
+src/ncbidare.egg-info/PKG-INFO
+src/ncbidare.egg-info/SOURCES.txt
+src/ncbidare.egg-info/dependency_links.txt
+src/ncbidare.egg-info/requires.txt
+src/ncbidare.egg-info/top_level.txt
