@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: new_tools
+Version: 0.0.4
+Summary: Multiple tools
+Home-page: https://github.com/Michael07220823/new_tools.git
+Author: Overcomer
+Author-email: michael31703@gmail.com
+License: MIT License
+Description: # new_tools
+Keywords: tools
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
