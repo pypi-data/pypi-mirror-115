@@ -1,0 +1,15 @@
+_wdm_lib.cpython-37m-i386-linux-gnu.so,sha256=LFA64CHEbCQGp1oIcEsjx46zWwcVHv1ynovJLBejyD8,577604
+wdmtoolbox/wdmutil.py,sha256=7XZ2Lc2QwciipiweG3Wq4p8LqEuwFXXa7B3YPa6Y5Lo,26036
+wdmtoolbox/message.wdm,sha256=1Frf1zZHO29AcrjoXVvPYtJlv9qC5Jj2U6X9M_MHDMc,204800
+wdmtoolbox/__init__.py,sha256=qnGYvMQ2df3uA_cTzhG1g2612DH9ctPPxZqH-uyyNSw,760
+wdmtoolbox/wdmtoolbox.py,sha256=xlk9MRk2pUtJ0rRM3ffE4xEuW5t3hSWNZh_KLo_NK_M,19902
+wdmtoolbox.libs/libquadmath-af029652.so.0.0.0,sha256=07KXlPynJZ54VDX3M78bjjNmqdTBLcwVvnG2qGuboPI,591684
+wdmtoolbox.libs/libgfortran-3ae5e5c8.so.5.0.0,sha256=DAPJxrG1yja6tROnQeVPanpzDlL8KEAxWO6i-03b3b4,2061720
+wdmtoolbox.libs/libz-9f7255d3.so.1.2.3,sha256=4XNTSwxidfE5u042lZe5aN7zD6WPRGesxUOkMTCi3m8,79808
+wdmtoolbox-12.8.0.dist-info/top_level.txt,sha256=yqeG2xNwgqVuf1dZo8wisibNGCN8OckyWF3-w9JVXqE,20
+wdmtoolbox-12.8.0.dist-info/WHEEL,sha256=YnbL03uqOdem43ZM5DX6r1ogiD_Hk-siL6laW8eqkGo,146
+wdmtoolbox-12.8.0.dist-info/entry_points.txt,sha256=XH4rVpXJM_a4ezgon3na0dgl5QvVneTdf3RHd-WJuDw,59
+wdmtoolbox-12.8.0.dist-info/AUTHORS.rst,sha256=CBkbVlY3ryF2Hyk-rv4zK0R01T62mwRl2kveNiOS8Pc,56
+wdmtoolbox-12.8.0.dist-info/LICENSE.txt,sha256=yZW0i-ZZHPMO782M7w2Y2S2AsyK1Uc3s80h6YXR4lIg,1487
+wdmtoolbox-12.8.0.dist-info/METADATA,sha256=9Jbc7He5UAFP5bE8cg3bTOcNz6sDnvaTxmgBcMcRQuA,4047
+wdmtoolbox-12.8.0.dist-info/RECORD,,
