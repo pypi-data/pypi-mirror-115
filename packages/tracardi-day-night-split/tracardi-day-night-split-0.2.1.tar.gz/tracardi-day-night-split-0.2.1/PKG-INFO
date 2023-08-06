@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: tracardi-day-night-split
+Version: 0.2.1
+Summary: The purpose of this plugin is to split the workflow depending on whether it is day or night of its execution.
+Home-page: UNKNOWN
+Author: Risto Kowaczewski
+Author-email: risto.kowaczewski@gmail.com
+License: UNKNOWN
+Keywords: tracardi,plugin
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+
+# Tracardi plugin
+
+This code can be run within Tracardi workflow.
+
+# Day, Night split action
+
+The purpose of this plugin is to split the workflow 
+depending on day or night of its execution.
+
+It will check if the event happened at day or night. Then it will route
+the workflow to the appropriate output port.
+
+This action minds the time zone to the event. Therefore you must provide 
+time zone. By default time zone is included in browser event context. 
+
+# Configuration
+
+This node require configuration. In order to read timezone 
+you must define path to time zone. Use dot notation to do that.
+
+# Input payload
+
+This node does not process input payload.
+
+# Output
+
+This node has two output nodes. One for DAY route and one for NIGHT node.
+The DAY one is active when event happened at day. The NIGHT node is active when 
+it is night. 
+ 
+
+
