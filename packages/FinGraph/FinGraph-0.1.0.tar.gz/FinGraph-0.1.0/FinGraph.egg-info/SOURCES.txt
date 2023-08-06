@@ -1,0 +1,8 @@
+FinGraph.py
+LICENSE
+README.md
+setup.py
+FinGraph.egg-info/PKG-INFO
+FinGraph.egg-info/SOURCES.txt
+FinGraph.egg-info/dependency_links.txt
+FinGraph.egg-info/top_level.txt
