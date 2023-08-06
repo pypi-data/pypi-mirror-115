@@ -1,0 +1,14 @@
+multicode/__init__.py,sha256=I_Lb_Xr0-Vl1XvG2eK-d-PclG1sussmaTa7YC0ALpmQ,904
+multicode/__main__.py,sha256=QC6_fM2S2RLqQf5fttPOUA9QKXY_nSS3cXxgcmcxI3A,511
+multicode/util.py,sha256=usx9OeohSaV2P2CJMhleQqZ5rikK62QagvUb2lg5GAE,691
+multicode/data/confusables/basic.tsv,sha256=YadydaYXRA1xNhNA7Ww1VZlFEnrfyN5mrl2FeRvXjFA,402
+multicode/data/confusables/epa.tsv,sha256=Ysx9jT6j_vQA7eM-oa6C3MhBdrOYgPLcAvLds2NGwDU,253
+multicode/data/confusables/ipa.tsv,sha256=0bRq9O9EEx_CZEVJm36nO2X2MmImsC_ssbiRCsOOXew,224
+multicode/data/confusables/metadata.json,sha256=rc3RTHkx73gnSSLLU2mNahEd3s66Lkc-x9LEXw2ia3c,1584
+multicode/data/thirdparty/confusablesSummary.txt,sha256=WKaV2MJZEgERdbeeZrzhkrRitFr17BIrIiVcLs7uIBg,600672
+multicode-0.2.1.dist-info/LICENSE,sha256=WJ7YI-moTFb-uVrFjnzzhGJrnL9P2iqQe8NuED3hutI,35141
+multicode-0.2.1.dist-info/METADATA,sha256=Au2d_OOniRiJVXjxu4QWaHtXg0QsmZj782uCKexXWcs,3701
+multicode-0.2.1.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+multicode-0.2.1.dist-info/entry_points.txt,sha256=gPITCpavXVV3lbaqxTmzTdenKr9fXLMAlxtZ_uzHteE,55
+multicode-0.2.1.dist-info/top_level.txt,sha256=FHwLjLoIwCotidxgxvqWETGWFc6PgTuXe7rWTpgUUWE,10
+multicode-0.2.1.dist-info/RECORD,,
