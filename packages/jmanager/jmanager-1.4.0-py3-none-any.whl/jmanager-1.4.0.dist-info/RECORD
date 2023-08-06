@@ -1,0 +1,9 @@
+LICENSE,sha256=XAGE9wxLYWKa1wtzYmkDDYJxBusooBaVMvSBiYlRX0w,1077
+jmanager/__init__.py,sha256=VADNbvJFaMgjlTQP0XQ_6RfeWJnHH_50dNWYT3FCdbU,139
+jmanager/cli.py,sha256=1tYA3IfmVyVVxaMMU6PAS3_BEPdc41YGONkmcsTFfN0,139
+jmanager/jmanager.py,sha256=4jIJNEu85f1V3eHz5NZbB0iiOKgwHu807NEOKxE1pyA,3255
+jmanager-1.4.0.dist-info/entry_points.txt,sha256=-kdBeggs4rft0oqW8f2rf-3XaofBO8klem6ekv4Jkck,46
+jmanager-1.4.0.dist-info/LICENSE,sha256=XAGE9wxLYWKa1wtzYmkDDYJxBusooBaVMvSBiYlRX0w,1077
+jmanager-1.4.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+jmanager-1.4.0.dist-info/METADATA,sha256=_9Q06Q9ihIMyKOklXmF9JNXPIOWvSIHY27GaFcdQ2Dk,756
+jmanager-1.4.0.dist-info/RECORD,,
