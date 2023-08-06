@@ -1,0 +1,79 @@
+Metadata-Version: 2.1
+Name: django-koldar-utils
+Version: 2.37.5
+Summary: Some stuff that i used when developing with django
+Home-page: https://github.com/Koldar/django-koldar-common-apps
+Author: Massimo Bono
+Author-email: massimobono1@gmail.com
+License: MIT
+Keywords: utils
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+License-File: PASSWORD
+License-File: pmakeup-cache.json
+License-File: PMakeupfile.py
+License-File: README.md
+License-File: requirements.txt
+License-File: setup.py
+License-File: TWINE_PYPI_PASSWORD
+Requires-Dist: arrow (>=1.1.0)
+Requires-Dist: Django (>=3.2.3)
+Requires-Dist: django-currentuser (>=0.5.3)
+Requires-Dist: django-filter (>=2.4.0)
+Requires-Dist: django-graphql-jwt (>=0.3.2)
+Requires-Dist: django-polymorphic (>=3.0.0)
+Requires-Dist: graphene (>=3.0b7)
+Requires-Dist: graphene-django (>=3.0.0b7)
+Requires-Dist: graphene-django-extras (>=0.5.1)
+Requires-Dist: graphql-core (>=3.1.5)
+Requires-Dist: networkx (>=2.5.1)
+Requires-Dist: pydot (>=1.4.2)
+Requires-Dist: PyJWT (>=2.1.0)
+Requires-Dist: requests (>=2.25.1)
+Requires-Dist: stringcase (>=1.2.0)
+Requires-Dist: urllib3 (>=1.26.5)
+Requires-Dist: jmespath (>=0.10.0)
+
+# Introduction
+
+Generic django providing models and function used to better developer other apps.
+In itself, this is **not** a django app 
+
+```
+pip install django-koldar-utils
+```
+
+# Capabilities
+
+ * `AbstractModelMetaclass` which can be used to create django models with abc capabilities;
+ * `AbstractPermissionMixin` which does not rely on `groups` and `permissions` relationships;
+ * `Orm` class that provides the creation of popular django fields, just for your convenience;
+ * `ArrowAuditMixin` for providing `created_at` and  `updated_at` fields using `arrow` project;
+ * convenience class to easily create django backends, middlesware, validators;
+ * `ArrowField` implementation (taken from `django-arrow-field`);
+ * convenience methods to interact with django framework without remembering how to do certain tasks;
+ * classes used to create graphql CRUD operation easily;
+
+# Upload new version
+
+Use setup.py directly:
+
+```
+# create .pypirc in your home directory
+python setup.py update_version_patch bdist_wheel upload
+```
+
+Or `pmake`:
+
+```
+# pmakeup is a Massimo Bono project used to automatize the build; per se it is not necessary
+pip install pmakeup 
+# add in TWINE_PYPI_PASSWORD the pypi password
+pmakeup update-version-patch build upload-to-pypi
+```
+
+
