@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: XuXiangPythonSDK
+Version: 0.0.7
+Summary: 我的自用模块
+Home-page: https://gitee.com/OrlandoXu/XuXiangPythonSDK
+Author: XuXiang
+Author-email: 1456127594@qq.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
