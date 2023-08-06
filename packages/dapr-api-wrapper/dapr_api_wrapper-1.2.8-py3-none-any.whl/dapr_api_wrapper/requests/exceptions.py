@@ -1,0 +1,2 @@
+class ImplementationError(Exception):
+    pass
