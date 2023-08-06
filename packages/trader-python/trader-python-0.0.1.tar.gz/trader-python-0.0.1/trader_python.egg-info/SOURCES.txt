@@ -1,0 +1,12 @@
+README.md
+setup.py
+trader/__init__.py
+trader/start.py
+trader/data/__init__.py
+trader/data/get_alpha_vantage.py
+trader/data/get_yfinance.py
+trader_python.egg-info/PKG-INFO
+trader_python.egg-info/SOURCES.txt
+trader_python.egg-info/dependency_links.txt
+trader_python.egg-info/requires.txt
+trader_python.egg-info/top_level.txt
