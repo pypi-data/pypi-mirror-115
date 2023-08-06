@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+setup.py
+refdatatypes/VERSION
+refdatatypes/__init__.py
+refdatatypes/refbase.py
+refdatatypes/refbool.py
+refdatatypes/reffloat.py
+refdatatypes/refint.py
+refdatatypes/refstr.py
+refdatatypes.egg-info/PKG-INFO
+refdatatypes.egg-info/SOURCES.txt
+refdatatypes.egg-info/dependency_links.txt
+refdatatypes.egg-info/not-zip-safe
+refdatatypes.egg-info/top_level.txt
