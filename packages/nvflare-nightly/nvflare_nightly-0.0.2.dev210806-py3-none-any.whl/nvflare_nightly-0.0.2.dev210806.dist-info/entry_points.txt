@@ -1,0 +1,4 @@
+[console_scripts]
+poc = nvflare.lighter.poc:main
+provision = nvflare.lighter.provision:main
+
