@@ -1,0 +1,17 @@
+LICENSE.md
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+itla/__init__.py
+itla/itla.py
+itla/itla_errors.py
+itla/pplaser.py
+itla/utils.py
+itla/registers/registers_itla.yaml
+itla/registers/registers_pp.yaml
+pytla.egg-info/PKG-INFO
+pytla.egg-info/SOURCES.txt
+pytla.egg-info/dependency_links.txt
+pytla.egg-info/requires.txt
+pytla.egg-info/top_level.txt
