@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+quickgraph/__init__.py
+quickgraph/quickgraph.py
+quickgraph.egg-info/PKG-INFO
+quickgraph.egg-info/SOURCES.txt
+quickgraph.egg-info/dependency_links.txt
+quickgraph.egg-info/top_level.txt

@@ -1,0 +1,1 @@
+QuickGraph library can help you get a quick overview of a social graph in an extremely convenient way. QuickGraph will show the basic information of a graph, plot the CDF of selected metrics, characterize the largest connected component (LCC).
