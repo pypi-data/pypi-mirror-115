@@ -1,0 +1,13 @@
+[tool.pyright]
+include = ["scr"]
+executionEnvironments = [
+  { root = "src" }
+]
+
+[build-system]
+requires = [
+    "setuptools>=42",
+    "wheel", 
+]
+build-backend = "setuptools.build_meta"
+
