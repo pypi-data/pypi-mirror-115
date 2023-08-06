@@ -1,0 +1,8 @@
+README.md
+setup.py
+kmp_utils/kmp_utils.cpp
+kmp_utils.egg-info/PKG-INFO
+kmp_utils.egg-info/SOURCES.txt
+kmp_utils.egg-info/dependency_links.txt
+kmp_utils.egg-info/requires.txt
+kmp_utils.egg-info/top_level.txt

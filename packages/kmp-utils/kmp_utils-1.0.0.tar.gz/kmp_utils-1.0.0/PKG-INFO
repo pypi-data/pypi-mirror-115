@@ -1,0 +1,78 @@
+Metadata-Version: 2.1
+Name: kmp_utils
+Version: 1.0.0
+Summary: Implementation of KMP algorithm and simple generalizations.
+Home-page: http://pypi.python.org/pypi/kmp_utils/
+Author: Algorithms Path
+Author-email: support@algorithmspath.com
+License: MIT
+Description: # KMP Utilities
+        
+        The KMP utils library provides a python binding to C++ for fast, linear time string processing.
+        
+        ## Installation
+        
+        You can install the KMP Utils library with the following command:
+        
+            pip install kmp_utils
+        
+        Then import into your program as:
+        
+            import kmp_utils
+        
+            def main():
+                s = "aabaaba"
+                t = "ab"
+                x = kmp_utils.split(s, t)
+                print(x)
+                pass
+        
+            if __name__ == '__main__':
+                main()
+        
+            >>> ['a', 'a', 'a']
+        
+        This library requires pybind11 and python >= 3
+        
+        ## Examples
+        
+        The `kmp_utils` library consists of 5 API methods.
+        
+        `find_all(s, t)`. Reading from left to right starting from the beginning of string `s`, find all disjoint occurrences of string `t` in `s` by returning the starting indices of any such occurrences. This returns an increasing list.
+        
+            find_all("aaaaaa", "aa") = [0, 2, 4]
+            find_all("aabaaba", "ab") = [1, 4]
+            find_all("sdsdsd", "ab") = []
+        
+        `find_all_left(s, t)`. Reading from right to left starting from the end of string `s`, find all disjoint occurrences of string `t` in `s` by returning the starting indices of any such occurrences. This returns a decreasing list.
+        
+            find_all_left("aaabbb", "aa") = [1]
+            find_all_left("aabaaba", "ab") = [4, 1]
+            find_all_left("sdsdsd", "ab") = []
+        
+        `get_next_right(s, i, t)`. Reading from left to right starting from index `i` in string `s`, find the next occurence of string `t` in `s` by returning the starting index. Returns `-1` if `t` cannot be found.
+        
+            get_next_right("aaaaaa", 5, "aa") = -1
+            get_next_right("aabaaba", 3, "ab") = 4
+            get_next_right("sdsdsd", 0, "ab") = -1
+        
+        `get_next_left(s, i, t)`. Reading from right to left starting from index `i` in string `s`, find the next occurence of string `t` in `s` by returning the starting index. Returns `-1` if `t` cannot be found.
+        
+            get_next_left("aaaaa", 1, "aa") = 0
+            get_next_left("aaaaa", 1, "aaa") = -1
+            get_next_left("ababaabb", 6, "ab") = 5
+        
+        `split(s, t)`. Split string `s` by `t` starting from the beginning of `s`.
+        
+            split("aaaaa", "aa") = ['', '', 'a']
+            split("axbxcx", "x") = ['a', 'b', 'c']
+            split("ababaabb", "xs") = ['ababaabb']
+        
+        For coding interview preparation, please visit [algorithmspath.com] (https://algorithmspath.com).
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3
+Description-Content-Type: text/markdown
