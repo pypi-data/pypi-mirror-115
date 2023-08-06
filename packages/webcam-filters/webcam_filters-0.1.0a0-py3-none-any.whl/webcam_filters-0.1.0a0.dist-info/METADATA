@@ -1,0 +1,83 @@
+Metadata-Version: 2.1
+Name: webcam-filters
+Version: 0.1.0a0
+Summary: Add filters (background blur, etc) to your webcam on Linux
+Home-page: https://github.com/jashandeep-sohi/webcam-filters
+License: GPL-3.0-only
+Keywords: webcam,filters,v4l2,video-conferencing
+Author: Jashandeep Sohi
+Author-email: jashandeep.s.sohi@gmail.com
+Requires-Python: >=3.9,<3.10
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: av (>=8.0.3,<9.0.0)
+Requires-Dist: importlib-metadata (>=1.0); python_version < "3.8"
+Requires-Dist: mediapipe (>=0.8.6,<0.9.0)
+Requires-Dist: opencv-contrib-python (>=4.5.3,<5.0.0)
+Requires-Dist: typer[all] (>=0.3.2,<0.4.0)
+Project-URL: Repository, https://github.com/jashandeep-sohi/webcam-filters
+Description-Content-Type: text/x-rst
+
+webcam-filters
+==============
+
+Add filters (background blur, etc) to your webcam on Linux.
+
+
+Why?
+----
+Video conferencing applications tend to either lack video effects altogether or
+support only a limited set of capabilities on Linux (e.g. Zoom, Google Meets).
+
+Goal here is to provide a virtual webcam via ``v4l2loopback`` with a common
+set of filters that can be used everywhere.
+
+Installation
+------------
+You can either use `pipx` or `pip`. Pipx_ is recommend to keep dependencies
+isolated.
+
+Latest stable::
+
+  $ pipx install webcam-filters || pip install --user webcam-filters
+
+Latest pre-release::
+
+  $ pipx install --pip-args "--pre" webcam-filters || pip install --user --pre webcam-filters
+
+Git::
+
+  $ url="git+https://github.com/jashandeep-sohi/webcam-filters.git" pipx install "$url" || pip install --user "$url"
+
+
+v4l2loopback
+------------
+`v4l2loopback` kernel module is required to emulate a virtual webcam. See your
+distro's docs or v4l2loopback_ on how to install and set it up.
+
+You'll probably want to create at least one loopback device (that's persistent
+on boot)::
+
+  $ sudo tee /etc/modprobe.d/v4l2loopback.conf << "EOF"
+  # /dev/video3
+  options v4l2loopback video_nr=3
+  options v4l2loopback card_label="Virtual Webcam"
+  options v4l2loopback exclusive_caps=1
+  EOF
+  $ sudo modprobe v4l2loopback
+  $ v4l2-ctl --device /dev/video3 --info
+
+Usage
+-----
+Passthrough (no-op)::
+
+  $ webcam-filters --input-dev /dev/video0 --output-dev /dev/video3
+
+Blur background::
+
+  $ webcam-filters --input-dev /dev/video0 --output-dev /dev/video3 --background-blur 50
+
+.. _Pipx: https://github.com/pypa/pipx
+.. _v4l2loopback_: https://github.com/umlaeute/v4l2loopback
+
