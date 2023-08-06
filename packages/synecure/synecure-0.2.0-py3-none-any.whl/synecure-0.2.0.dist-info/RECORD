@@ -1,0 +1,10 @@
+synecure/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+synecure/bsync.py,sha256=0LLVfAWsdCTZr9GJsFt5e7mtjFkf9UKRedljJI6deTE,34991
+synecure/cli.py,sha256=e90kSIp9gqKOQMDMvLiZ18aBx-bjDBI93LEpAWatpwo,11348
+synecure/gitignore_parser.py,sha256=Erb7o98htWCXem6o8AYvaMK3pcyLTyALDOA8zYb8Yes,4850
+synecure/utils.py,sha256=Rtu2Q4QnofOs-YJ9XkWgMlySQS3bqnhTOCI0Qw6DK9M,1990
+synecure/version.py,sha256=XQVhijSHeIVMVzY2S4fY9BKxV2XHSTr9VVHsYltGPvQ,18
+synecure-0.2.0.dist-info/entry_points.txt,sha256=lwi5SB1ogNrrz1mpAE7l9HYvXJNdO1TUEG0JGJHpZk8,117
+synecure-0.2.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+synecure-0.2.0.dist-info/METADATA,sha256=07fE4GMDMezcrArV_0mm4agmIsFbq5cm3w9uLGLHn54,5304
+synecure-0.2.0.dist-info/RECORD,,
