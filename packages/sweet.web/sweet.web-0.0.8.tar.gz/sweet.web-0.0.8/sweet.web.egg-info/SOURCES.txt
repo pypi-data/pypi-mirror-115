@@ -1,0 +1,12 @@
+README.md
+setup.py
+sweet.web.egg-info/PKG-INFO
+sweet.web.egg-info/SOURCES.txt
+sweet.web.egg-info/dependency_links.txt
+sweet.web.egg-info/requires.txt
+sweet.web.egg-info/top_level.txt
+sweet/modules/web/__init__.py
+sweet/modules/web/app.py
+sweet/modules/web/config.py
+sweet/modules/web/locator.py
+sweet/modules/web/window.py
