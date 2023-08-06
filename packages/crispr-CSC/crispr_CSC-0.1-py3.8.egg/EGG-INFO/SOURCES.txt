@@ -1,0 +1,10 @@
+README.txt
+setup.py
+crispr_CSC.egg-info/PKG-INFO
+crispr_CSC.egg-info/SOURCES.txt
+crispr_CSC.egg-info/dependency_links.txt
+crispr_CSC.egg-info/entry_points.txt
+crispr_CSC.egg-info/requires.txt
+crispr_CSC.egg-info/top_level.txt
+csc_v2/__init__.py
+csc_v2/csc_lite.py

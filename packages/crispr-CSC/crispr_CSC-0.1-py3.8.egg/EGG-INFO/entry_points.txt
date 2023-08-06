@@ -1,0 +1,3 @@
+[console_scripts]
+csc_process = csc_v2.csc_lite:main
+
