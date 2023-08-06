@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: kinematik
+Version: 0.0b1
+Summary: a unicorn in progress
+Home-page: https://github.com/AdaptiveMotorControlLab/kinematik/
+Author: Mackenzie Mathis
+Author-email: mackenzie@post.harvard.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: h5py (>=2.7)
+Requires-Dist: ipython (~=6.0.0)
+Requires-Dist: ipython-genutils (==0.2.0)
+Requires-Dist: wheel
+
+# Kinematik
+
+## Contact
+
+Mackenzie Mathis - mackenzie.mathis@epfl.ch
+
+
