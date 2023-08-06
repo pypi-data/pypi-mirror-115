@@ -1,0 +1,5 @@
+pynvml
+blessed
+apscheduler
+requests
+argparse
