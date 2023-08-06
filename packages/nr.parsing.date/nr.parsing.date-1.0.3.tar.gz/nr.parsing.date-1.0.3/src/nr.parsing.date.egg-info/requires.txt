@@ -1,0 +1,6 @@
+dataclasses<1.0.0,>=0.6.0
+nr.utils.re<1.0.0,>=0.2.0
+
+[test]
+pandas
+pytest
