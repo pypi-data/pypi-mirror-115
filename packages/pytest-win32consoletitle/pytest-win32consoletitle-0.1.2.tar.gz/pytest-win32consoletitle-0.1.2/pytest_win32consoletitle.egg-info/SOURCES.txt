@@ -1,0 +1,14 @@
+.gitignore
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+pytest_win32consoletitle/__init__.py
+pytest_win32consoletitle/plugin.py
+pytest_win32consoletitle.egg-info/PKG-INFO
+pytest_win32consoletitle.egg-info/SOURCES.txt
+pytest_win32consoletitle.egg-info/dependency_links.txt
+pytest_win32consoletitle.egg-info/entry_points.txt
+pytest_win32consoletitle.egg-info/top_level.txt
+tests/__init__.py
+tests/test_file.py
