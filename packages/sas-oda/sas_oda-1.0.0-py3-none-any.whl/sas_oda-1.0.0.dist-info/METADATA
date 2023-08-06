@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: sas-oda
+Version: 1.0.0
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: hoor0015
+Author-email: hoor0015@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: saspy (>=3.7.3)
+
+UNKNOWN
+
+
