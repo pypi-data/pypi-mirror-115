@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+sme.egg-info/PKG-INFO
+sme.egg-info/SOURCES.txt
+sme.egg-info/dependency_links.txt
+sme.egg-info/not-zip-safe
+sme.egg-info/top_level.txt
