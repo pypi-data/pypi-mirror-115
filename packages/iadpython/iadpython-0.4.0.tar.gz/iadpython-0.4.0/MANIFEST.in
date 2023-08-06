@@ -1,0 +1,9 @@
+include CHANGELOG.rst
+include LICENSE.txt
+exclude .gitignore
+exclude release.txt
+exclude Makefile
+exclude docs/*
+exclude tests/*
+exclude requirements.txt
+exclude requirements-dev.txt
