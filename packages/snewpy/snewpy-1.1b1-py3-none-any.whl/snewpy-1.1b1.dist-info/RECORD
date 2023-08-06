@@ -1,0 +1,16 @@
+snewpy/__init__.py,sha256=THWgwDYX1HdjaS44SqjCrL9T7TOai0xRfD_7dYRsrW0,4542
+snewpy/_git.py,sha256=zG2o5jhlCvlYWTyGnEbkooRgxaRgdL4YqI0sdqh7IlI,5734
+snewpy/_model_urls.py,sha256=E6sMI7NvdrMycj3sI_x_ovFXEeKEBGRvPdqRQgEcXpU,83957
+snewpy/_version.py,sha256=jFy5Qa27LrXVAhavmQla5RW0ESqIjA14IVDHuYTqY4w,22
+snewpy/flavor_transformation.py,sha256=dUliEvYL_XCQwdyiy8KPYJgcg5evwG-esz1GZEoCZNc,42590
+snewpy/from_snowglobes.py,sha256=k8N8syOwvdxndv5C7BatB7YC2b25FZIcnBSSt4m7kAw,18472
+snewpy/models.py,sha256=o_-Ebd03sTRxUnbx_2W5HnjKiODk-kmRon2s4S13Pyg,67423
+snewpy/neutrino.py,sha256=KDKEo15LMRqTr5bi_0GmWLxbS-z9msrvNeHMUQYhfiU,2804
+snewpy/run_snowglobes.py,sha256=xLYaF9M4C2SWAz4yhrhnX1dRUhY5DuvvtEaVp-kpfiQ,18365
+snewpy/to_snowglobes.py,sha256=ghV3sbCnezzD2khpTuHviZbVMEUPgdL0FY-JRgB2uxc,13023
+snewpy-1.1b1.data/scripts/to_snowglobes,sha256=ItbGk-kVAWtUMxTHvKP9S4aqc0RT13iCoLLTBf6MQrE,132
+snewpy-1.1b1.dist-info/LICENSE,sha256=rrQmdZWNycht5Psa9PalD9nmppIYUbyfqx36_b9x1P4,1516
+snewpy-1.1b1.dist-info/METADATA,sha256=oaYrRHQxph4ouQq95Z2Exj2yq0bFql6h60uDAzkv3Jk,2238
+snewpy-1.1b1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+snewpy-1.1b1.dist-info/top_level.txt,sha256=TC3iyJrtbNzzIZSEu2a4DliiOi_AQHPZX_QK-OjbMY0,7
+snewpy-1.1b1.dist-info/RECORD,,
