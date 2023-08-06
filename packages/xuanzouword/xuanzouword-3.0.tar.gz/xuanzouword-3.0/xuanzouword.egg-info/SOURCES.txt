@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+xuanzouword/__init__.py
+xuanzouword/word2image.py
+xuanzouword/word2text.py
+xuanzouword.egg-info/PKG-INFO
+xuanzouword.egg-info/SOURCES.txt
+xuanzouword.egg-info/dependency_links.txt
+xuanzouword.egg-info/top_level.txt
