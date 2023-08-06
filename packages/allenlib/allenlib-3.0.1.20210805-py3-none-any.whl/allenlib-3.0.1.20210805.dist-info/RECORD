@@ -1,0 +1,11 @@
+allenlib/__init__.py,sha256=AuY-SXTE1RiGk0_cJ6_HNNSjLLRBWimVOTCXgAu5KY8,113
+allenlib/computer_os.py,sha256=ZgLimAtmj_iauBe-Aj5GweAvnv4t1eSCAp7XnmaGz2M,167
+allenlib/message.py,sha256=taho5HIfkdLLM3SrR8a0TfUsDWxaw56yZxLujWo2MyI,486
+allenlib/print_load.py,sha256=NxIF75PUr35Tz0CgAOEi54DRH1K9aLXYLfO6Au1kZ2Y,1527
+allenlib/printfun.py,sha256=VUQzfCfrCpJtIb9jWlV7DM5CEknTUqITQVoTYoI1bJg,135
+allenlib/raise.py,sha256=4pAljkI0OLb6ETz6S2cu5ZBxtHMhaHe0JpL1rS4Hx7s,42
+allenlib/speak.py,sha256=bZd7EkOJhycgFyou4LaBxyFzM-Vq3P88gd-zWSjrbFY,2616
+allenlib-3.0.1.20210805.dist-info/METADATA,sha256=Q2-kB1v7wH8Sk1WgHYjzWN-w2ZTRztCnGcFHG1im0Jw,1230
+allenlib-3.0.1.20210805.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+allenlib-3.0.1.20210805.dist-info/top_level.txt,sha256=h29l_df6Dg_G-hBgsdEKCybKcWwn6KrL2LqIbTHA-xI,9
+allenlib-3.0.1.20210805.dist-info/RECORD,,
