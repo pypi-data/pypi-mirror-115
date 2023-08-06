@@ -1,0 +1,183 @@
+%Setup page 
+\usepackage[a4paper,margin=2cm]{geometry}
+
+% Make titles configurable
+\usepackage{titling}
+\usepackage{sectsty}
+
+% Allow reusing title name for header
+\usepackage{authoraftertitle}
+
+% Setup draft behaviour
+\ifdraft{
+  \usepackage{draftwatermark}
+  \SetWatermarkText{\themefont{\drafttext}}
+  \SetWatermarkColor[gray]{0.85}
+}{}
+\hypersetup{final}
+
+% Set font for titles
+\renewcommand{\maketitlehooka}{\themefont}
+\allsectionsfont{\themefont}
+
+% Set font for toc
+\let\tableofcontentsOld\tableofcontents
+\renewcommand{\tableofcontents}{\themefont\large\tableofcontentsOld}
+
+% Set images to always be loaded in draft-mode too
+\let\includegraphicsOld\includegraphics
+\renewcommand{\includegraphics}[2][]{\includegraphicsOld[draft=false,#1]{#2}}
+
+% Set the logo. Handle whether one is specified or not. 
+\ifEmpty{\logopath}{
+  \newcommand{\logo}{}
+  \newcommand{\logoBig}{}
+  \newcommand{\showRightHeaderInFirstPage}{\fancyhead[R]{}}
+}{
+  \newcommand{\logo}{
+    \renderLogo{2.24cm}\\
+  }
+  \newcommand{\logoBig}{
+    \renderLogo{10cm}\\
+  }
+  \newcommand{\showRightHeaderInFirstPage}{}
+}
+
+% Commands for setting title, author and date with newlines 
+\newcommand{\maybeTitle}{
+  \ifEmpty{\MyTitle}{}{
+    \begin{Large}\MyTitle\end{Large}\\
+  }
+}
+\newcommand{\maybeAuthor}{
+  \ifEmpty{\MyAuthor}{}{
+    \MyAuthor\\
+  }
+}
+
+% Set rightmark below leftmark, if it exists
+\newcommand{\maybeRightmark}{
+  \ifEmpty{\firstrightmark}{}{
+    \\
+    \begin{small}\firstrightmark\end{small}
+  }
+}
+
+% Clear header and footer if needed
+\newcommand{\clearHeaderHook}{}
+\newcommand{\clearFooterHook}{}
+
+\ifClassoptionSet{noheader}{
+  \renewcommand{\clearHeaderHook}{
+    \fancyhead{}
+    \renewcommand{\headrulewidth}{0cm}
+  }
+}{}
+
+\ifClassoptionSet{nofooter}{
+  \renewcommand{\clearFooterHook}{
+    \fancyfoot{}
+    \renewcommand{\footrulewidth}{0cm}
+  }
+}{}
+
+% Set the header and footer
+\newcommand{\customheader}{
+  \fancyhead{}
+  % Offset the top of the page because of the image
+  \setlength\headheight{2.54cm}
+  \addtolength{\textheight}{-2.54cm}
+  % Set the contents of the header
+  \fancyhead[L]{\themefont{
+    \maybeTitle
+    \firstleftmark
+    \maybeRightmark
+  }}
+  \fancyhead[R]{\logo \themefont{\logotext}}
+  \clearHeaderHook
+}
+
+\newcommand{\customfooter}{
+  \fancyfoot{}
+  % Set the contents of the footer
+  \fancyfoot[C]{\pagetext}
+  % Set draft Footer
+  \ifdraft{\fancyfoot[LR]{\themefont{\drafttext}}}{}
+  \clearFooterHook
+}
+
+
+\newcommand{\customheaderfooter}{
+  \customheader
+  \customfooter
+}
+
+% Configure header of first page. Since \maketitle forces a plain page, we override the plain-pagestyle. 
+\fancypagestyle{plain}{
+  \customheaderfooter
+
+  % Remove header text
+  \fancyhead[L]{}
+  \showRightHeaderInFirstPage
+
+  % Remove the ruler for the first page
+  \renewcommand{\headrulewidth}{0cm}
+  \clearHeaderHook
+  \clearFooterHook
+}
+
+% Set the pagestyle to fancy-header for all pages
+\fancypagestyle{fancyCustom}{
+  \customheaderfooter
+}
+\pagestyle{fancyCustom}
+
+% Congigure short-page
+\fancypagestyle{shortFirstPage}{
+  \customheaderfooter
+
+  % Remove header text
+  \fancyhead[L]{\themefont{\maybeTitle\maybeAuthor\MyDate}}
+  \showRightHeaderInFirstPage
+  \clearHeaderHook
+  \clearFooterHook
+}
+
+\ifClassoptionSet{short}{\renewcommand{\maketitle}{\thispagestyle{shortFirstPage}}}{}
+
+% Configure the title-page
+\makeatletter
+\if@titlepage 
+  \renewcommand{\maketitle}{ 
+    \begin{titlepage}
+      \begin{center}
+        \hspace{0pt}
+        \vfill
+        \logoBig 
+        \vskip.5cm
+        \ifthenelse{\equal{\logopath}{}}{}{
+          \large \themefont{\logotext}
+        }
+        \vskip5cm
+        \huge \themefont{\MyTitle} 
+        \vskip.5cm
+        \Large \themefont{\MyAuthor}
+        \vskip.5cm
+        \large \themefont{\MyDate}
+        \vfill
+        \hspace{0pt}
+      \end{center}
+    \end{titlepage}
+  }
+\fi
+\makeatother
+
+% Set Paragraph in front of sections if needed
+\ifClassoptionSet{legal}{
+  \renewcommand{\thesection}{\S\arabic{section}}
+}{}
+
+% Add a bit more spacing in toc
+\advance\cftsecnumwidth 0.5em\relax
+\advance\cftsubsecindent 0.5em\relax
+\advance\cftsubsecnumwidth 0.5em\relax
