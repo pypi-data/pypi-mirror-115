@@ -1,0 +1,8 @@
+googleapis-common-protos
+grpcio-status
+grpcio
+kaskada_grpc
+pandas
+protobuf
+pyarrow
+requests
