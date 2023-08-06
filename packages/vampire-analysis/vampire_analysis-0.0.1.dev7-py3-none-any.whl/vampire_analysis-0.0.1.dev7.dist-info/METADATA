@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: vampire-analysis
+Version: 0.0.1.dev7
+Summary: Visually Aided Morpho-Phenotyping Image Recognition, a robust method to quantify cell morphological heterogeneity.
+Home-page: https://github.com/tengjuilin/vampire-analysis
+Author: Teng-Jui Lin
+Author-email: lintengjui@outlook.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+Requires-Dist: opencv-python
+Requires-Dist: scikit-image
+Requires-Dist: scikit-learn
+
+UNKNOWN
+
