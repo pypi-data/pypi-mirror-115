@@ -1,0 +1,5 @@
+[console_scripts]
+clean=dashboard.console_utilities:clean
+converter=neogidashboard.console_utilities:convert
+dashboard=neogidashboard.combined:main
+

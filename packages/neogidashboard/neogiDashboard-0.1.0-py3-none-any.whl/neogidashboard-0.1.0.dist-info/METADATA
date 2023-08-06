@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: neogidashboard
+Version: 0.1.0
+Summary: Dashboard for visualizing data
+Author: bageljr
+Author-email: aryanagarwal897@gmail.com
+Requires-Python: >=3.9.6,<3.10.0
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: bokeh (>=2.3.2,<3.0.0)
+Requires-Dist: colorcet (>=2.0.6,<3.0.0)
+Requires-Dist: dask[distributed] (>=2021.7.0,<2022.0.0)
+Requires-Dist: hvplot (>=0.7.2,<0.8.0)
+Requires-Dist: matplotlib (>=3.4.2,<4.0.0)
+Requires-Dist: neogiinstruments (>=2.6.0,<3.0.0)
+Requires-Dist: netCDF4 (>=1.5.7,<2.0.0)
+Requires-Dist: numba (>=0.53.1,<0.54.0)
+Requires-Dist: numpy (>=1.21.0,<2.0.0)
+Requires-Dist: pandas (>=1.2.5,<2.0.0)
+Requires-Dist: panel (>=0.11.3,<0.12.0)
+Requires-Dist: plotly (>=5.0.0,<6.0.0)
+Requires-Dist: scipy (>=1.7.0,<2.0.0)
+Requires-Dist: simple-pid (>=1.0.1,<2.0.0)
+Requires-Dist: typing-extensions (>=3.10.0,<4.0.0)
+Requires-Dist: xarray (>=0.18.2,<0.19.0)
+Requires-Dist: zarr (>=2.3,<3.0)
