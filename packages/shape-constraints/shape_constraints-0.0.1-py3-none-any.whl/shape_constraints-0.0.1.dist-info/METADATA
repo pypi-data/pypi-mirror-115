@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: shape-constraints
+Version: 0.0.1
+Summary: Python decorator to annotate and check parameter. shapes for tensors and numerical programs.
+License: MIT
+Author: Thomas Deegan
+Author-email: tadeegan@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
