@@ -1,0 +1,7 @@
+README.md
+setup.py
+gosmsge.egg-info/PKG-INFO
+gosmsge.egg-info/SOURCES.txt
+gosmsge.egg-info/dependency_links.txt
+gosmsge.egg-info/requires.txt
+gosmsge.egg-info/top_level.txt
