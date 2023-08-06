@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/kp_fraydit.egg-info/PKG-INFO
+src/kp_fraydit.egg-info/SOURCES.txt
+src/kp_fraydit.egg-info/dependency_links.txt
+src/kp_fraydit.egg-info/top_level.txt
