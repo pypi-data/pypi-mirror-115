@@ -1,0 +1,16 @@
+dispersion/__init__.py,sha256=9WsGyxPQHFx7MGt9EcB8WYn0Jmv9jSHN3FHPOoTxuMs,1125
+dispersion/catalogue.py,sha256=j6YwH-38JePQCm_B6AwLV98eKpojS5BTYVCj7flwm_4,16302
+dispersion/config.py,sha256=NqxMQuIIdS1pB2aQWH2QWa3mXiEcFJATNk7d8mBtYqQ,4326
+dispersion/io.py,sha256=WobVLRcUd9-YEzlMOr71VFdqbIMNK1C6ePuXh5oHbaU,24222
+dispersion/material.py,sha256=4YKxdn10W6T74ihZemKa6XBMp5vE_654ZTnUxft20e8,35682
+dispersion/spectral_data.py,sha256=zzm6LtvzPNyC41t2o4pdpHsL2PiJQwo8hLl_q5Hra5U,28834
+dispersion/spectrum.py,sha256=ahmuD2zQCqqowZKNA7TvGCs_U_vH4pEiElYfH9BjPzM,12252
+dispersion/scripts/__init__.py,sha256=9putkruy9ozK0NefkDCFW2u51LpmGaNugrH4IU4NvUg,92
+dispersion/scripts/catalogue_rebuild.py,sha256=Ttpvn3ISI5nmB5l1adgWxmiPSpk6rZdu-j_GHbIrXpU,191
+dispersion/scripts/setup_dispersion.py,sha256=NBchI_4YlJANmo-uJfIac-MefCqB-1CuSJaqao5XtEQ,7677
+dispersion-1.0.0.dist-info/LICENSE,sha256=5LQZ778LGeGgXvKdNUTgOLgQe77Eylcl7JeSS74YQIM,1109
+dispersion-1.0.0.dist-info/METADATA,sha256=LIv3gjV_ENWDGvHrXuYdl4_t77gRzApd0EwsVWzWNJg,2064
+dispersion-1.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+dispersion-1.0.0.dist-info/entry_points.txt,sha256=RvQusZpHvw5e7R25p_5_gPL1nukau71AfGIw0ymLpnY,152
+dispersion-1.0.0.dist-info/top_level.txt,sha256=yZ_q9U3ukhzDGIC01hpOd43nNW4klmeIlTWnyGyE5rU,11
+dispersion-1.0.0.dist-info/RECORD,,
