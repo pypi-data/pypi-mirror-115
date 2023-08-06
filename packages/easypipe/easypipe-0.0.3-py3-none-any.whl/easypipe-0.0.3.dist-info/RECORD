@@ -1,0 +1,10 @@
+easypipe/__init__.py,sha256=cooYIQueI3ff4NWkAlj3mtjyv2Njt77qeuHtn_L_LPk,139
+easypipe/face.py,sha256=uW5qZRonS7CuS77Ref71LwGW0Ua24Zb6fKdQMm3UvNc,961
+easypipe/hands.py,sha256=BJuXjloTL9pe2LDC5lM0V_TJ4IFT3CkMzriYiInUJmw,1322
+easypipe/source.py,sha256=XKuxoC9AM590KG0yEacPWpdWE_SZzTUnB_L73GbqrOY,713
+easypipe/utils.py,sha256=OWjb_7DzgAoDsEhn6l_QnRuFDb-qECPCSatRcLTZhvI,453
+easypipe-0.0.3.dist-info/LICENSE,sha256=QwcOLU5TJoTeUhuIXzhdCEEDDvorGiC6-3YTOl4TecE,11356
+easypipe-0.0.3.dist-info/METADATA,sha256=vvNtPfUEPJwovo2D7ypUOw6VQm4j14xoJXKB-VAHna0,1733
+easypipe-0.0.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+easypipe-0.0.3.dist-info/top_level.txt,sha256=whi9XuRfwffstTxGUVimBYp4pA5vMQd0erSQv2B5J_M,9
+easypipe-0.0.3.dist-info/RECORD,,
