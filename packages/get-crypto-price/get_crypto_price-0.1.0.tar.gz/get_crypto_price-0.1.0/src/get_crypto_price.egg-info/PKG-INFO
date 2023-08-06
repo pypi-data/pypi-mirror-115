@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: get-crypto-price
+Version: 0.1.0
+Summary: A library to getting crypto price.
+Home-page: https://github.com/onuratakan/get_crypto_price
+Author: Onur Atakan ULUSOY
+Author-email: atadogan06@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >= 3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+# Get Crypto Price
+A library to getting crypto price.
+# Install
+```
+pip3 install get-crypto-price
+```
+# Using
+## In another script
+```python
+from get_crypto_price import get
+# get(source = "bitstamp", pair = "btcusdt")
+print(get())
+```
+## In command line
+```console
+  -h, --help            show this help message and exit
+  -s SOURCE, --source SOURCE
+                        Source
+  -p PAIR, --pair PAIR  Pair
+```
+```console
+get_crypto_price
+```
+
+
