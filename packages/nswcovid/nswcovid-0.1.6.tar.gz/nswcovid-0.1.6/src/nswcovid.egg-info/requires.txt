@@ -1,0 +1,10 @@
+backoff
+requests
+beautifulsoup4
+lxml
+jello
+
+[testing]
+pytest
+pytest-cov
+pytest-asyncio
