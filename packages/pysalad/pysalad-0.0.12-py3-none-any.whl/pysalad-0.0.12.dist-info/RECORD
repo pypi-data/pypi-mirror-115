@@ -1,0 +1,10 @@
+pysalad-0.0.12.data/scripts/pysalad,sha256=oQpP6juWVf95w63oi2EBffC3f_UWop0Y7ndv24r5E0U,10945
+salad/__init__.py,sha256=u_07pbXcPZqpPR3p_F-Ed3IRi-mB8BDnsgUGUW9Sask,228
+salad/api.py,sha256=IuT3YfhIxf32FTYGsqZ287gYXU9UXOG8KlO3pt2zxNI,10242
+salad/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+salad/test/test_api.py,sha256=BHXny6cfKMuoGvcIvCzqQArXh6Syza2ZTfkfVeW1vWw,151
+pysalad-0.0.12.dist-info/LICENSE,sha256=sZA5XKh1yFKIeORPBHLeA9G-vV4WZ30BljB04C2K1sQ,1069
+pysalad-0.0.12.dist-info/METADATA,sha256=a9WJzr5cB-A0MVVikXNFOk2A3JIAd7BenngJSjyGt4w,2141
+pysalad-0.0.12.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pysalad-0.0.12.dist-info/top_level.txt,sha256=Gy961LnEdQ486VP3oFO0MLjA9bNM1Ba-6Lu0m2lXnMU,6
+pysalad-0.0.12.dist-info/RECORD,,
