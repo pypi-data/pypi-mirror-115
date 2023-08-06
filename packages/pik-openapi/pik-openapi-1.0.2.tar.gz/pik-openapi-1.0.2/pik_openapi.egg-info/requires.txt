@@ -1,0 +1,8 @@
+django-rest-framework
+djangorestframework-camel-case
+
+[dev]
+pytest
+prospector
+pylint
+pylint-django
