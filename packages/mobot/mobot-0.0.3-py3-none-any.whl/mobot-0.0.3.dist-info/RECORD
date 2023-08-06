@@ -1,0 +1,17 @@
+mobot/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mobot/agent.py,sha256=SlBmvvfaYsl62gdOVT6ln2oUEBrQ-wXv0kujLcj5zh8,12927
+mobot/utils.py,sha256=jvw6ehHzlXTQgraN0t3fkOCnBhYEf092E-w_a2RDveU,2351
+mobot/proto/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mobot/proto/mobot_pb2.py,sha256=hKl3TdAtnXxG51KlzyPZgSV9p_-vpP6T2bEXtmI6tm0,48026
+mobot/proto/mobot_pb2_grpc.py,sha256=jA5FoK2emtj7Z5QlMGI9gmqA7dMccsgX-FErzvvMUj0,30710
+mobot/server/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mobot/server/body_state.py,sha256=g7MfySlL9rzNvfDWPdqCjQoaEoVgz1UGlEI9xKbC0Ho,3859
+mobot/server/server.py,sha256=O8Cc23U7cYEtI-6Dwox1MCJyqPQuEwxPXND4riA3fw4,1829
+mobot/server/servicer.py,sha256=m0VcTguxfFU-mFaw4Qg8Wl-IpCpTeBtr-5CHGMV-4dc,10516
+mobot/server/utils.py,sha256=ufV1xl01VvzqT6a5_y9vtsjFpjURru6EmgG2xsCjsTo,4312
+mobot-0.0.3.dist-info/LICENSE,sha256=ACmTUcz3hhxG1priTE3t53wLi6xYr43dChFqi6SkVFY,1062
+mobot-0.0.3.dist-info/METADATA,sha256=i55Y5LXXox6g4DN2Qei9p25aEczLUh4jbbKkaKjxg2I,626
+mobot-0.0.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+mobot-0.0.3.dist-info/entry_points.txt,sha256=X48izNeu9yv-UvSdkqvS9EoOFEiJlxHadx69x9UpoRA,59
+mobot-0.0.3.dist-info/top_level.txt,sha256=0r07uxQGeTnR3_mUhIhBOZCumcP4EyzWCY0CqW17cyg,6
+mobot-0.0.3.dist-info/RECORD,,
