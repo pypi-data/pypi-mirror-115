@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: traxix.rsq
+Version: 0.0.7
+Summary: UNKNOWN
+Home-page: https://gitlab.com/traxix/python/rsq
+Author: trax Omar Givernaud
+Author-email: o.givernaud@gmail.com
+License: GPLv3
+Description: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: dev
