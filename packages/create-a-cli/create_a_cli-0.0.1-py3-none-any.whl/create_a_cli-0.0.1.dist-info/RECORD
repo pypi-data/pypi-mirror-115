@@ -1,0 +1,9 @@
+cli/__init__.py,sha256=W99EDG92PD1JsZN_xxBD4qws7Bk7CEQTt1hZqNKp4w0,148
+cli/cli.py,sha256=coIfY6blnxJLPswuvrgvC-BEQXoPxb8H08VLeFpj07k,5153
+cli/command.py,sha256=HpkR_Mvh6tP593lKH4Hgy7_WqCGjbBBCQZPQuBX5moI,1387
+cli/errors.py,sha256=6s0uzApqrPxhoK9LEKhLFhmXV-uc_jmJhHvSCdhCgLQ,297
+create_a_cli-0.0.1.dist-info/LICENSE.txt,sha256=g7Hbg8OYFunugcsC1J-FsMi5jaR2SZ11ci0tRIUNHJI,1084
+create_a_cli-0.0.1.dist-info/METADATA,sha256=jHzCDtUzsD5S7qKVozWD3oJRglAedHqPnX2Co8Nx_Cg,907
+create_a_cli-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+create_a_cli-0.0.1.dist-info/top_level.txt,sha256=2ImG917oaVHlm0nP9oJE-Qrgs-fq_fGWgba2H1f8fpE,4
+create_a_cli-0.0.1.dist-info/RECORD,,

@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: create-a-cli
+Version: 0.0.1
+Summary: Create command line interfaces using Python
+Home-page: https://github.com/Dorukyum/create-a-cli
+Author: Dorukyum
+License: UNKNOWN
+Project-URL: Source, https://github.com/Dorukyum/create-a-cli
+Keywords: cli
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+<div align="center">
+    <h1>create-a-cli</h1>
+    <p style="font-size: 22px">Create basic command line interfaces using Python</p>
+</div>
+
+
+## Installation
+```
+[python | python3] -m [pip | pip3] install create-a-cli
+```
+## Usage
+```python
+from cli import Interface
+cli = Interface("Example CLI")
+
+@cli.command()
+def hello():
+    print("Hello World")
+
+cli.run()
+```
+```
+Command Line > python path/to/file.py
+>>> hello
+Hello World
+```
+
