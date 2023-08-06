@@ -1,0 +1,8 @@
+psutil
+numpy
+pillow
+evalcache>=1.14.0
+zenframe
+
+[gui]
+PyQt5
