@@ -1,0 +1,10 @@
+target_s3_jsonl/__init__.py,sha256=hYjs9z-eBCNgBt8qxneA_bjaPaL8PGdnl47jerslQqQ,7334
+target_s3_jsonl/logger.py,sha256=QROIZC-x7G57AVyQfZMZiK_W3GbvYbGmBvu6O2u82Vc,622
+target_s3_jsonl/logging.conf,sha256=erahU2eOyFu9aZMWaSjQb-oUfqucntt4RJ7uunrN-as,297
+target_s3_jsonl/s3.py,sha256=n6apyOr54UznNOYSqqd2MZun5NsPORrk-QGs0Ze9FSI,3011
+target_s3_jsonl-0.0.4.dist-info/LICENSE,sha256=q8_GG06iKdCqCfpZ9-GBBSsxxQN1bIJ2ivJFy2YyySU,11339
+target_s3_jsonl-0.0.4.dist-info/METADATA,sha256=4NcXcPMq34maLqAGN2nsgWF-L4ef0DCJY1Zj1uOLjbw,6973
+target_s3_jsonl-0.0.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+target_s3_jsonl-0.0.4.dist-info/entry_points.txt,sha256=RgkwlK_QGc3-D2NhY-NyHF39awfgicZO8Maz0DkU3_A,76
+target_s3_jsonl-0.0.4.dist-info/top_level.txt,sha256=qD_XasOJxka-zDh7PdiYZFLMlQdJafqxEXeaTfJGbdg,16
+target_s3_jsonl-0.0.4.dist-info/RECORD,,
