@@ -1,0 +1,4 @@
+pep_517_example/builder.py,sha256=V3jaxNcUVZVC27EfXaVrqzHNNrzlJE1VqH2ZYoyRyRw,1662
+pep_517_example/__main__.py,sha256=dH5cTYJ7VYT-NgDplcfO4rct0Gp97mG7cwTkqlApaiY,348
+pep_517_example-1.dist-info/METADATA,sha256=v7XOLN3N_ZLEAdHRLjdc6HDRI5r9Hdo2Tbw-f8DXSR0,485
+pep_517_example-1.dist-info/WHEEL,sha256=V8f_INNUBG9jB0k51vfUgE3jy_30btW4UvHD1PP7CEI,96
