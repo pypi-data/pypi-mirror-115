@@ -1,0 +1,17 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+xo/__init__.py
+xo/fileWatch.py
+xo/gd.py
+xo/osCommands.py
+xo/sync.py
+xo/xo.py
+xo/xoHelper.py
+xo_gd.egg-info/PKG-INFO
+xo_gd.egg-info/SOURCES.txt
+xo_gd.egg-info/dependency_links.txt
+xo_gd.egg-info/requires.txt
+xo_gd.egg-info/top_level.txt
