@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: ease-plugin
+Version: 1.0.3
+Summary: 一个简单的插件系统
+Home-page: https://gitee.com/XBCoder/ease-plugin-tools
+Author: XBCoder
+License: UNKNOWN
+Project-URL: Documentation, https://gitee.com/XBCoder/ease-plugin-tools
+Project-URL: Source Code, https://gitee.com/XBCoder/ease-plugin-tools
+Keywords: plugin tools easy
+Platform: UNKNOWN
+Requires-Dist: easy-sqlite (==1.0.5)
+
+UNKNOWN
+
+
