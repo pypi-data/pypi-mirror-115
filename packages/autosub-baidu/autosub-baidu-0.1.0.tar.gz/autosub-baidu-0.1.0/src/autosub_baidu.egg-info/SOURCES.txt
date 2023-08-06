@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+requirements.txt
+setup.py
+src/autosub_baidu.egg-info/PKG-INFO
+src/autosub_baidu.egg-info/SOURCES.txt
+src/autosub_baidu.egg-info/dependency_links.txt
+src/autosub_baidu.egg-info/requires.txt
+src/autosub_baidu.egg-info/top_level.txt
+src/autosubb/__init__.py
+src/autosubb/__main__.py
+src/autosubb/constants.py
+src/autosubb/formatters.py
