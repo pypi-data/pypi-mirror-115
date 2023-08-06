@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/scraper/__init__.py
+src/scraper/scraper.py
+src/scraper_Rafihatu.egg-info/PKG-INFO
+src/scraper_Rafihatu.egg-info/SOURCES.txt
+src/scraper_Rafihatu.egg-info/dependency_links.txt
+src/scraper_Rafihatu.egg-info/top_level.txt
