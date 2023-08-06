@@ -1,0 +1,75 @@
+Metadata-Version: 2.1
+Name: pysalad
+Version: 0.0.6
+Summary: Just Python Salad
+Home-page: https://github.com/hehu80/pysalad
+Author: Henning Voss
+Author-email: henning@huhehu.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/hehu80/pysalad/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pysalad
+
+Ein kleines Tool um über die Kommandozeile auf Salat zuzugreifen
+
+# How-to
+### Salatbuchungen von Heute anzeigen
+````bash
+pysalad --url <URL> --user <Mitarbeiterkürzel> show day
+````
+
+### Salatbuchungen von dieser Woche anzeigen
+````bash
+pysalad --url <URL> --user <Mitarbeiterkürzel> show week
+````
+
+### Salatbuchungen von diesem Monat anzeigen
+````bash
+pysalad --url <URL> --user <Mitarbeiterkürzel> show month
+````
+
+### Eigenen Vertrag in Salat anzeigen
+````bash
+pysalad --url <URL> --user <Mitarbeiterkürzel> show contract
+````
+
+### Eigenen Daten anzeigen
+````bash
+pysalad --url <URL> --user <Mitarbeiterkürzel> show employee
+````
+
+### Aufträge auf die man buchen kann
+````bash
+pysalad --url <URL> --user <Mitarbeiterkürzel> show orders
+````
+
+### Neue Buchung erstellen
+````bash
+pysalad --url <URL> --user <Mitarbeiterkürzel> report <Kommentar> <Dauer> <Auftrag> <Datum>
+````
+
+### Misc
+Um weniger tippen zu müssen Funktion in `.bashrc`, `.zshrc` o.ä. hinzufügen (funktioniert nur in Verbindung mit obrigem symlink):
+```bash
+function salat() {
+  url="URL" # Salat URL hier einsetzen
+  abbrev="abc" # mein Kuerzel hier einsetzen
+  order=${3:-blabla} # mein haeufigsten Unterauftrag hier einsetzen
+  echo "$(pysalad --url ${url}--user ${abbrev} report $1 $2 ${order})"
+}
+
+# Usage:
+# ohne Angabe eines Unterauftrags wird auf den im Skript eingetragenen gebucht
+salat ticket123 3.0
+# oder mit Anfabe eines Unterauftrags (gestalten):
+salat HBT-Tag 2.0 gestalten
+```
+
+
