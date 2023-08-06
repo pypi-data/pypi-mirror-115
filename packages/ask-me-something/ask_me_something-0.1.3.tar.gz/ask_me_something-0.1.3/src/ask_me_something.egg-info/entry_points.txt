@@ -1,0 +1,3 @@
+[console_scripts]
+ask = ask_me_something.ask_me_something:ask
+
