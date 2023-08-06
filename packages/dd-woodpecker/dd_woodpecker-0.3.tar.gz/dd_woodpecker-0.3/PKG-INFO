@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: dd_woodpecker
+Version: 0.3
+Summary: A Python library designed to simplify work with the woodpecker API
+Home-page: UNKNOWN
+Author: DevsData
+Author-email: tpotanski@devsdata.com
+License: MIT
+Description: <b>test</b>
+Keywords: woodpecker,woodpecker api,devsdata
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
