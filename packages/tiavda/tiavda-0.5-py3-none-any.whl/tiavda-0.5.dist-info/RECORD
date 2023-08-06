@@ -1,0 +1,14 @@
+tiavda/VERSION,sha256=WC4nC2xc9V3CpAIM1JIbmEDbqxZULpW7CXaKHf_ChXU,5
+tiavda/__init__.py,sha256=LlGh0KA5lYnAogsqrcm4woqPHURm7COejOIJWUCuA2E,179
+tiavda/version.py,sha256=rpALuCmRjYFW59vWDMLvmsq8WPP4aisZkpUO8JkzsYU,279
+tiavda/color/__init__.py,sha256=YYhLL6WpbjnKNxY6bykYV576cT6ePTPb5TpCRUYlLHs,29
+tiavda/color/color_palette.py,sha256=pCQpEK6ZXv_LBBPglbG_2Z1O4yYMorrg9mzDh_Hy9Ps,569
+tiavda/plotting/__init__.py,sha256=ESixuntZooAKaUgkobtddRoVu7CYBzu9fCUIXTPibQM,43
+tiavda/plotting/adata_plots_two_dimensional.py,sha256=fCwJ7eLFiiVlMZMiciLhYSxoLeSgg6DGi5e6hbX_q_A,3158
+tiavda/plotting/density_plots.py,sha256=JqBTigShZtazBEhJSpP8Zj7_9j-GT1x71cpEo6fNPzI,720
+tiavda-0.5.dist-info/LICENSE,sha256=RMNz3yhc6t87Ou8Atgvgfu9262SesdmpzOzgP6yeE9E,1072
+tiavda-0.5.dist-info/METADATA,sha256=qVh45aASglQp7CbFMkwF4ccAsGw7slBmt3dXaqqEkww,859
+tiavda-0.5.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+tiavda-0.5.dist-info/entry_points.txt,sha256=nhZw9fimG-BphoRm6Tvd8FXVSHmw0wrskz1xt1EUzak,45
+tiavda-0.5.dist-info/top_level.txt,sha256=oXi9t9ynWjQQUtHqLppjQwWF8lYYvjJV7eaUB-A6XM8,7
+tiavda-0.5.dist-info/RECORD,,
