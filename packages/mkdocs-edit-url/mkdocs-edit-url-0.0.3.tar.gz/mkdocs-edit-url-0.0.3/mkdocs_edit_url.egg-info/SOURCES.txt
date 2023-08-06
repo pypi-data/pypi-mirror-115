@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+mkdocs_edit_url.egg-info/PKG-INFO
+mkdocs_edit_url.egg-info/SOURCES.txt
+mkdocs_edit_url.egg-info/dependency_links.txt
+mkdocs_edit_url.egg-info/entry_points.txt
+mkdocs_edit_url.egg-info/requires.txt
+mkdocs_edit_url.egg-info/top_level.txt
