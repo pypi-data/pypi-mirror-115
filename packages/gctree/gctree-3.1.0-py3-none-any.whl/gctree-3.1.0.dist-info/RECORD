@@ -1,0 +1,15 @@
+gctree/__init__.py,sha256=OBwoekxeDxm6epcH83Smgtw-e5cmjxWUnebH_QE0h9Y,72
+gctree/_version.py,sha256=SKQS0RrMPNI7AWkvD_mT8tvYNtJn4N4MUhMGPmsNSH0,498
+gctree/branching_processes.py,sha256=Vv9dFp_jbFz5PtsXM05IuqYFpZqSXCxIR2X8X0ERupY,35686
+gctree/cli.py,sha256=XBuoMPokSdb93Dbl2iJuiQlHPXcRvng0-Hv6waXnOas,25365
+gctree/deduplicate.py,sha256=excxQzAhIAITVROPoVEhTmUpK9385r1penR-hF3NY0g,7405
+gctree/mkconfig.py,sha256=981090aWPIbaFx5IuToyvlroQ7zPMdSY166BRTe5T90,2212
+gctree/mutation_model.py,sha256=FeCSJrCb-1bURL31EUj9CXUO1NA7cAZ3J9Iyp8_77MA,15340
+gctree/phylip_parse.py,sha256=r0WUlXJJAcP-_NKPvL6z8tOcFcowmOgBXhOmlzIGYZo,8516
+gctree/utils.py,sha256=PAhVfQGhboSgVcK3r0nrbTA4At3XLVof0IkScu3Wr-c,413
+gctree-3.1.0.dist-info/LICENSE,sha256=WJ7YI-moTFb-uVrFjnzzhGJrnL9P2iqQe8NuED3hutI,35141
+gctree-3.1.0.dist-info/METADATA,sha256=AoQpdzc1GtfnuXgSD_UwQ_VZJen6stZ7nRYziUEIoJE,8504
+gctree-3.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+gctree-3.1.0.dist-info/entry_points.txt,sha256=FUvb1OYqy6G5KU-yTmke7MsTIPRxPggtOMXIJ_y6FHQ,154
+gctree-3.1.0.dist-info/top_level.txt,sha256=RP4tesCN0iQMfShQ9QHa0YvlcnLUTPDA-WerAS5udcE,7
+gctree-3.1.0.dist-info/RECORD,,
