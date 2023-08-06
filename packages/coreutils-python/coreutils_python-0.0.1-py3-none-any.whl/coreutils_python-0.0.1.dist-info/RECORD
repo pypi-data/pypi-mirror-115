@@ -1,0 +1,14 @@
+coreutils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+coreutils/cat.py,sha256=5IX7g7BgHo8WZUGQR8L_ucHOWGwi334eD5sdkeK-DnQ,448
+coreutils/cp.py,sha256=sw_xtuudgU0_kNqc1O9I3zhMgmNKpPS3NgOK19ik7-g,308
+coreutils/echo.py,sha256=64dnIStS-dOy67RKzTaTInc57pJtHy2HWYqQPKXH2kY,124
+coreutils/ls.py,sha256=__9O6sA8-Nba0wHq0QKvok9qG38MEfWxbGxvigOOFg4,563
+coreutils/mkdir.py,sha256=2YAf1FjsJLOtcBwBFaX2STvIST5yeUak1Y4-rirdpt4,235
+coreutils/mv.py,sha256=_MoxreGE0PhJ2L0H5t7FPbPuezYht0cyu80PbEFGN2g,429
+coreutils/rm.py,sha256=A1xtCK0OOUTj-vwITdNqNRVKcUI526xCBGKDyOSUu_w,939
+coreutils/rmdir.py,sha256=xDCmOxyc80P3HY-I308gNyb6de410Qldin3dI5AAVNM,363
+coreutils_python-0.0.1.dist-info/METADATA,sha256=bJhqRlPNxXlSabS2a_uLXPFH0wBorE0plllZNqZN_wQ,180
+coreutils_python-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+coreutils_python-0.0.1.dist-info/entry_points.txt,sha256=LF-AOHm5VGn9P2BJppo2eonaGntznkEXHRZ9fNulShc,221
+coreutils_python-0.0.1.dist-info/top_level.txt,sha256=GDLmsvDsMN1L8r3QYiGqoKobte_ku2wJhD9X5TuezOA,10
+coreutils_python-0.0.1.dist-info/RECORD,,

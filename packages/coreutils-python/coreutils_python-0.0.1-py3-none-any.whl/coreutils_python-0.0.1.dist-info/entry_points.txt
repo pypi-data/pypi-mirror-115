@@ -1,0 +1,10 @@
+[console_scripts]
+cat = coreutils.cat:main
+cp = coreutils.cp:main
+echo = coreutils.echo:main
+ls = coreutils.ls:main
+mkdir = coreutils.mkdir:main
+mv = coreutils.mv:main
+rm = coreutils.rm:main
+rmdir = coreutils.rmdir:main
+
