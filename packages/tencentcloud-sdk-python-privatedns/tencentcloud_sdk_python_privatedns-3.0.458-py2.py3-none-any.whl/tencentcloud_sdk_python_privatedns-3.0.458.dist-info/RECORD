@@ -1,0 +1,10 @@
+tencentcloud/__init__.py,sha256=8jkv5X4f1ZFSgUztF6LMIubumW24D6qeqKAsqgcsWLY,630
+tencentcloud/privatedns/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tencentcloud/privatedns/v20201028/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tencentcloud/privatedns/v20201028/errorcodes.py,sha256=4Ha9OmSDYqH6uIYk480pLnHAe6qEro0AjGHiOtM6BcI,5184
+tencentcloud/privatedns/v20201028/models.py,sha256=Kj83tJognEWNNeMdUSvq0w_V88UI8NNbmHzqAP_-WqE,39518
+tencentcloud/privatedns/v20201028/privatedns_client.py,sha256=P_NhKBm4LxYXtZYYvDTVaZRZQIqbC8untuv50C2ZyCQ,18914
+tencentcloud_sdk_python_privatedns-3.0.458.dist-info/METADATA,sha256=iAAOWaLWOuNm475D-jjAQ03tx4u5-UwFZV_SK-_i0ss,1467
+tencentcloud_sdk_python_privatedns-3.0.458.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+tencentcloud_sdk_python_privatedns-3.0.458.dist-info/top_level.txt,sha256=g-8OyzoqI6O6LiS85zkeNzhB-osEnRIPZMdyRd_0eL0,13
+tencentcloud_sdk_python_privatedns-3.0.458.dist-info/RECORD,,
