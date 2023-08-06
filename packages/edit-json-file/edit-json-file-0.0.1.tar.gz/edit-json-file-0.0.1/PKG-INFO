@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: edit-json-file
+Version: 0.0.1
+Summary: An api wrapper to edit json files
+Home-page: https://github.com/HexyeDEV/edit-json-file
+Author: Hexye
+Author-email: dragonsale22@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/HexyeDEV/edit-json-file/releases
+Project-URL: Bug Tracker, https://github.com/HexyeDEV/edit-json-file/issues
+Description: # Code-Snippets
+        Api wrapper to edit json file 
+        
+        # DOCS
+        
+        https://purring-action-2bd.notion.site/edit-json-file-DOCS-78491bcb654f42c38318837bf880888a
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
