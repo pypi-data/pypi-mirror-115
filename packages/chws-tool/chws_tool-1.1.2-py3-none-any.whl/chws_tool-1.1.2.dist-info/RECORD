@@ -1,0 +1,10 @@
+chws_tool/__init__.py,sha256=OYaDBHjuGnhW70eX8u3mUSseYs47vgiO0CaeOlMCWb8,807
+chws_tool/_version.py,sha256=bWM8kh-FY_y4rDzBDsfL3eW2gmnNPsOLHBxTXTOsm6o,142
+chws_tool/add_chws.py,sha256=V5wVDwNNhnzgxRV1lVqC8WotJuiFDODhsTY5N4ybPC4,3624
+chws_tool/config.py,sha256=5Ul9YpxG-OlxFx5V7Z71Ypr_Rc_XlHys2jTwoYV_pdM,6087
+chws_tool-1.1.2.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+chws_tool-1.1.2.dist-info/METADATA,sha256=w-uWXFJzNXvmf83LYj2ytik__BtuyZgfsD8uZNumX0w,6156
+chws_tool-1.1.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+chws_tool-1.1.2.dist-info/entry_points.txt,sha256=O9ws9cV5Qd64gk-hql37eIL7R9jSaGV-zdthsVhhwaU,54
+chws_tool-1.1.2.dist-info/top_level.txt,sha256=x7yjOZA_4k-QhECcV-eBmWC2RmLOibuXR_OFvXduvT0,10
+chws_tool-1.1.2.dist-info/RECORD,,
