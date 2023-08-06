@@ -1,0 +1,15 @@
+README.md
+setup.py
+spyrja/__init__.py
+spyrja/common.py
+spyrja/dict.py
+spyrja/errors.py
+spyrja/external.py
+spyrja/idlist.py
+spyrja/list.py
+spyrja/set.py
+spyrja.egg-info/PKG-INFO
+spyrja.egg-info/SOURCES.txt
+spyrja.egg-info/dependency_links.txt
+spyrja.egg-info/not-zip-safe
+spyrja.egg-info/top_level.txt
