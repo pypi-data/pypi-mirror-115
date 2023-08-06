@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: lcsscaseapi
+Version: 0.0.1
+Summary: A package to easily download and manipulate the lcss case datasets
+Home-page: https://github.com/SKAshwin/caseapi-wrapper
+Author: Sanil Kumar Ashwin
+Author-email: sanil.kumar.ashwin@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/SKAshwin/caseapi-wrapper/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests (==2.26.0)
+
+A wrapper around the [case-repository API](https://github.com/SKAshwin/case-repository) currently hosted at lcsscaseapi.duckdns.org (if this changes you need to chang the domain name in `lcsscaseapi/constants.py`).
+
+Any use of the wrapper begins by initializing an LCSSClient object (defined in `lcsscaseapi/client.py`). This requires supplying a valid username and password. After this, requests can be made using methods of the object, and will return objects of types specified in `lcsscaseapi/types.py`. 
+
+*Warning: Do not write the username and password supplied to the LCSSClient object in code that is committed to a repository. Fetch these details instead from environmental variblaes. Otherwise anyone reading your repository can access the API*
+
+Testing uses pytest and requests-mocker and tests are located in the `tests/` directory.
+
