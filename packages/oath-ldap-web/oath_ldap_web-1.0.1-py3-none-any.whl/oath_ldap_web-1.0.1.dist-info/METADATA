@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: oath-ldap-web
+Version: 1.0.1
+Summary: OATH-LDAP web application
+Home-page: https://oath-ldap.stroeder.com
+Author: Michael Stroeder
+Author-email: michael@stroeder.com
+Maintainer: Michael Stroeder
+Maintainer-email: michael@stroeder.com
+License: Apache-2.0
+Download-URL: https://pypi.org/project/oath-ldap-web/#files
+Keywords: LDAP,OpenLDAP,OATH,OATH-LDAP,HOTP,TOTP,Yubikey
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: System :: Systems Administration
+Classifier: Topic :: System :: Systems Administration :: Authentication/Directory
+Classifier: Topic :: System :: Systems Administration :: Authentication/Directory :: LDAP
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: Flask
+Requires-Dist: Jinja2
+Requires-Dist: WTForms
+Requires-Dist: Werkzeug (>=1.0.0)
+Requires-Dist: ldap0 (>=1.2.1)
+Requires-Dist: mailutil
+Requires-Dist: setuptools
+
+OATH-LDAP web applications
+==========================
+
+[OATH-LDAP](https://oath-ldap.stroeder.com/) directly integrates
+OTP-based two-factor authentication into
+[OpenLDAP](https://www.openldap.org) *slapd*.
+
+This package implements the web applications:
+
+  * Simple OATH enrollment web application
+
+Requirements
+------------
+
+  * Python 3.6+
+
+
