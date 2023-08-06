@@ -1,0 +1,25 @@
+Metadata-Version: 1.1
+Name: VidPlot
+Version: 0.1.1
+Summary: Create and Display mp4 file from matplotlib figure
+Home-page: UNKNOWN
+Author: Silvano Rosenau
+Author-email: silvano.rosenau@studium.uni-hamburg.de
+License: MIT
+Description: A package to create .mp4 files from matplotlib figures
+        
+        
+        Change Log
+        ==========
+        
+        0.1 (09.08.2021)
+        -------------------
+        - First Release
+        
+Keywords: video
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
