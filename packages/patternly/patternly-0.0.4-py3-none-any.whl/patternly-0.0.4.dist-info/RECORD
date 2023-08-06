@@ -1,0 +1,13 @@
+mantis/__init__.py,sha256=Sr6NvjwmIrxEX5qKKuX-pJR6opQRYbOotUNv2fc0Y1Y,133
+mantis/_version.py,sha256=ugyuFliEqtAwQmH4sTlc16YXKYbFWDmfyk87fErB8-8,21
+mantis/detection.py,sha256=DeiTpYNjDh_czvlOxMaGh6uu3G3NUhyh0Hl0YNPRaLA,7923
+mantis/utils.py,sha256=NA8S2jPCZsy0ODBjdsBtB9mtWY3K6db0CUOsMMgceyo,1341
+patternly/__init__.py,sha256=02JROCRFOZzS5Vc3wkOMFcUATsowaPuIgsE1Wr2CICg,220
+patternly/_utils.py,sha256=NA8S2jPCZsy0ODBjdsBtB9mtWY3K6db0CUOsMMgceyo,1341
+patternly/detection.py,sha256=ZrOKCTtyPptD6pK_N6YcbYg11gFOdOWsRdTYfQJ59mI,10100
+patternly/utils.py,sha256=NA8S2jPCZsy0ODBjdsBtB9mtWY3K6db0CUOsMMgceyo,1341
+patternly-0.0.4.dist-info/LICENSE,sha256=KeJJ1GzaC0b5EuE7XmauPozraQDwWxm4oC5AtPlh5M8,1065
+patternly-0.0.4.dist-info/METADATA,sha256=EASTgXI8st6RaHI1x73xMi6hyq7PniRybOcDnCaamJI,1811
+patternly-0.0.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+patternly-0.0.4.dist-info/top_level.txt,sha256=lORLW0f7BaBaB05q5crQsYW787udpLqNsIdI7Ugei5s,10
+patternly-0.0.4.dist-info/RECORD,,
