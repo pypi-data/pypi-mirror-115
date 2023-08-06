@@ -1,0 +1,9 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+EtlWorkers.egg-info/PKG-INFO
+EtlWorkers.egg-info/SOURCES.txt
+EtlWorkers.egg-info/dependency_links.txt
+EtlWorkers.egg-info/requires.txt
+EtlWorkers.egg-info/top_level.txt
