@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+kollektor/__init__.py
+kollektor/classes.py
+kollektor.egg-info/PKG-INFO
+kollektor.egg-info/SOURCES.txt
+kollektor.egg-info/dependency_links.txt
+kollektor.egg-info/top_level.txt

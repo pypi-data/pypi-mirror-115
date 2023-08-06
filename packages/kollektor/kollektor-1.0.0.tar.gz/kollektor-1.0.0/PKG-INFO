@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: kollektor
+Version: 1.0.0
+Summary: 📦 Collection utility for Python.
+Home-page: https://github.com/kremayard/kollektor/
+Author: kremayard
+Author-email: 
+License: MIT
+Project-URL: Bug Tracker, https://github.com/kremayard/kollektor/issues
+Description: <div align="center">
+        <h1>Kollektor</h1>
+        <p>Collection utility for Python.</p>
+        <p><i>This project is a part of Krema.</i></p>
+        <br>
+        </div>
+        
+        ## Documentation
+        Check https://kremayard.github.io/kollektor/
+        ## Installation
+        Run `pip install kollektor` and you are ready to go!
+        
+        ## Example
+        ```py
+        import kollektor
+        
+        collection = kollektor.Kollektor(limit=5, items=())
+        
+        # Print Collection Length
+        print(collection.length)
+        
+        # Add New Objects to the Collection
+        collection.append(1, 5, 6)
+        
+        # Remove Object from Collection.
+        collection.remove(2)
+        
+        # Print First & Last Object.
+        print(collection.first())
+        print(collection.last())
+        
+        # Get all Items in the Collection
+        print(collection.items)
+        ```
+Keywords: python,collector,krema,collection
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
