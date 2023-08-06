@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: popcornTimeApi
+Version: 0.0.3.1
+Summary: Unofficial python Api wrapper for Popcorntime-Api
+Home-page: https://github.com/DavidM42/popcornTimeApi
+Author: DavidM42
+Author-email: david@merz.dev
+License: MIT
+Description: # Popcorntime Api
+        
+        Library to use the api of popcorntime in python
+        
+        ## Getting started
+        
+        Install the library from git with `pip install popcornTimeApi`
+        
+        ```python
+        from popcorntimeapi.Popcorn import PopcornTimeApi
+        
+        popcorn = PopcornTimeApi()
+        
+        random_movie = popcorn.get_random()
+        
+        print(random_movie.title)
+        
+        ```
+        
+        ## How to update package
+        
+        (Python3 just to be sure)
+        
+        1. Update package version number in `setup.py`
+        2. `python3.7 setup.py sdist`
+        3. `python3.7 -m twine upload dist/*`
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
