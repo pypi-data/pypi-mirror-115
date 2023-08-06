@@ -1,0 +1,17 @@
+ja_timex/__init__.py,sha256=SyE6sxZRl16vyuCsMHrHzTB5e5pBzKlyGI21oXJvy9U,68
+ja_timex/dictionary/raw/wareki_raw.json,sha256=KXD5uNOSgoT775rhtrNYP5otxSvIZYExnFK58tD9jz4,4841
+ja_timex/dictionary/wareki.json,sha256=C75J2gpZqfBTWxk57AbXRi7aXbR8dVsZqPIrLYfkJ4U,5101
+ja_timex/number_normalizer.py,sha256=I4AUkqrYf10BxICUvST7lAOuDTx30X-6DE2x8fhE1vs,5223
+ja_timex/pattern/abstime.py,sha256=or_Yf7J66HsQQ5MgJfl-afwX_Wi0M4wBtVCFi4u2b8U,10702
+ja_timex/pattern/duration.py,sha256=Sc4Xf602KWknAI4oggn15cyJixAo3oGEj1HV15_hTNE,2963
+ja_timex/pattern/place.py,sha256=8qliQq5kc5ocLlUhtSQKlR-OLegVIHRRRuXX5JR12Gs,5351
+ja_timex/pattern/reltime.py,sha256=DlFSY0lCtw4M1Zy8KBuYSbr_RrG7pvkwwzUtX8LY3Xg,11037
+ja_timex/pattern/set.py,sha256=RQMnBL52zwDUKLgdlYUseQkzfaQMsQVT2R42D8_IM7w,12542
+ja_timex/tag.py,sha256=gsCCNbkwJfksGi7rYsM8oefSqIsHV0NLtF5yoL2Qwag,6818
+ja_timex/tagger.py,sha256=sYWFylzKS6z1MJJmoLQLaDprJ2S8Z6I7xT8VQNyL_wo,2065
+ja_timex/timex.py,sha256=G9ffXGS8f4veCLsJenuIFhirBXe_bJHGkIizQGSMCwk,5046
+ja_timex/util.py,sha256=2-QB5pGGu1YEgRdK-VL1m-nxVOqPCwG5FVQ8xhC1_NE,978
+ja_timex-0.1.5.dist-info/LICENSE,sha256=fywivLKiThjv4EvbqYWiKjJkfWncUUCv3-8NCDnK0GQ,1067
+ja_timex-0.1.5.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+ja_timex-0.1.5.dist-info/METADATA,sha256=zKzUaF9Y7npsVyOWFgT-3YQwC4KKvxJepLuPnjNb7jM,3271
+ja_timex-0.1.5.dist-info/RECORD,,
