@@ -1,0 +1,100 @@
+Metadata-Version: 1.2
+Name: liver-ct-segmentation-package
+Version: 1.5.0
+Summary: Prediction package for U-Net models trained on the LiTS dataset.
+Home-page: https://github.com/luiskuhn/liver-ct-segmentation-package
+Author: Luis Kuhn Cuellar
+Author-email: luis.kuhn@gmail.com
+License: MIT
+Description: =============================
+        liver-ct-segmentation-package
+        =============================
+        
+        .. image:: https://github.com/luiskuhn/liver-ct-segmentation-package/workflows/Build%20liver-ct-segmentation-package%20Package/badge.svg
+                :target: https://github.com/luiskuhn/liver-ct-segmentation-package/workflows/Build%20liver-ct-segmentation-package%20Package/badge.svg
+                :alt: Github Workflow Build liver-ct-segmentation-package Status
+        
+        .. image:: https://github.com/luiskuhn/liver-ct-segmentation-package/workflows/Run%20liver-ct-segmentation-package%20Tox%20Test%20Suite/badge.svg
+                :target: https://github.com/luiskuhn/liver-ct-segmentation-package/workflows/Run%20liver-ct-segmentation-package%20Tox%20Test%20Suite/badge.svg
+                :alt: Github Workflow Tests Status
+        
+        .. image:: https://img.shields.io/pypi/v/liver-ct-segmentation-package.svg
+                :target: https://pypi.python.org/pypi/liver-ct-segmentation-package
+                :alt: PyPI Status
+        
+        
+        .. image:: https://readthedocs.org/projects/liver-ct-segmentation-package/badge/?version=latest
+                :target: https://liver-ct-segmentation-package.readthedocs.io/en/latest/?badge=latest
+                :alt: Documentation Status
+        
+        .. image:: https://flat.badgen.net/dependabot/thepracticaldev/dev.to?icon=dependabot
+                :target: https://flat.badgen.net/dependabot/thepracticaldev/dev.to?icon=dependabot
+                :alt: Dependabot Enabled
+        
+        
+        Prediction package for U-Net models trained on the LiTS dataset.
+        
+        
+        * Free software: MIT
+        * Documentation: https://liverctsegmentationpackage.readthedocs.io.
+        
+        
+        Features
+        --------
+        
+        * Model download CLI: liver-ct-seg-model-dl
+        * Prediction CLI: liver-ct-seg-pred
+        
+        Credits
+        -------
+        
+        This package was created with mlf-core_ using cookiecutter_.
+        
+        .. _mlf-core: https://mlf-core.com
+        .. _cookiecutter: https://github.com/audreyr/cookiecutter
+        
+        
+        ==========
+        Changelog
+        ==========
+        
+        This project adheres to `Semantic Versioning <https://semver.org/>`_.
+        
+        1.5.0 (2021-09-01)
+        ---------------------------------------------
+        
+        **Added**
+        
+        * First working prototype
+        
+        **Fixed**
+        
+        **Dependencies**
+        
+        **Deprecated**
+        
+        
+        0.1.0-SNAPSHOT (2021-07-28)
+        ---------------------------------------------
+        
+        **Added**
+        
+        * Created the project using mlf-core
+        
+        **Fixed**
+        
+        **Dependencies**
+        
+        **Deprecated**
+        
+Keywords: liver-ct-segmentation-package
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.7
