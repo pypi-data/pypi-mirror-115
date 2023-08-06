@@ -1,0 +1,11 @@
+insee_number_translator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+insee_number_translator/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+insee_number_translator/data/cities.py,sha256=Qja0IPyg0XB310oNDj8LT6FEn7VFyM5aGuUssNyAuUU,2195895
+insee_number_translator/data/countries.py,sha256=dokS2kp7WS_1QHat8Nf-E25Kdv9GnXkgxabYd9nScWQ,8131
+insee_number_translator/data/departments.py,sha256=jnKwpYnJ1op-TMCPfjmHqtUgZBL2rvg_oh0-LPAydOs,2664
+insee_number_translator/main.py,sha256=JGc-KwQcVxqe6cboIgtsctkOGo7u5xKJcMLQLex_ZBE,5040
+insee_number_translator-0.3.0.dist-info/entry_points.txt,sha256=x-td8ODeYRN83eNG3i_5qV3Xh98eZiXrWSvBPI19cK4,59
+insee_number_translator-0.3.0.dist-info/LICENSE,sha256=NXYqY6ZtR9lUXGx_dcWTuzvNxIB76CzJfdAio3z9fjU,1199
+insee_number_translator-0.3.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+insee_number_translator-0.3.0.dist-info/METADATA,sha256=mMpzFYW9-Z044LWEJ6RPLQqYBCJrjcbO2q59rsioGLM,1195
+insee_number_translator-0.3.0.dist-info/RECORD,,
