@@ -1,0 +1,11 @@
+MANIFEST.in
+setup.py
+tdrawer/tdrawer/__init__.py
+tdrawer/tdrawer/_tdrawer.cp37-win_amd64.pyd
+tdrawer/tdrawer/glfw3.dll
+tdrawer/tdrawer/tdrawer.py
+tdrawer/tdrawer.egg-info/PKG-INFO
+tdrawer/tdrawer.egg-info/SOURCES.txt
+tdrawer/tdrawer.egg-info/dependency_links.txt
+tdrawer/tdrawer.egg-info/requires.txt
+tdrawer/tdrawer.egg-info/top_level.txt
