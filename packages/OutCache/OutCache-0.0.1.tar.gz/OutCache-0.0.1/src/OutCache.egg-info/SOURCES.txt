@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/OutCache.egg-info/PKG-INFO
+src/OutCache.egg-info/SOURCES.txt
+src/OutCache.egg-info/dependency_links.txt
+src/OutCache.egg-info/top_level.txt
+src/outcache/__init__.py
+src/outcache/cache.py
