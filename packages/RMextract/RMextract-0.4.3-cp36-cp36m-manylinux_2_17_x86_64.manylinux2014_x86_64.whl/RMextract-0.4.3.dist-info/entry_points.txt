@@ -1,0 +1,5 @@
+[console_scripts]
+createRMParmdb = RMextract.LOFAR_TOOLS.createRMParmdb:main [lofar-utils]
+createRMh5parm.py = RMextract.LOFAR_TOOLS.createRMh5parm:main [lofar-utils]
+download_IONEX.py = RMextract.LOFAR_TOOLS.download_IONEX:main [lofar-utils]
+
