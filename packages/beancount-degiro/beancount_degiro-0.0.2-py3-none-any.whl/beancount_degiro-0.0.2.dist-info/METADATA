@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: beancount-degiro
+Version: 0.0.2
+Summary: Degiro trading account importer for Beancount
+Home-page: https://gitlab.com/szabootibor/beancount-degiro
+Author: Tibor Szabó
+Author-email: szabootibor@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://gitlab.com/szabootibor/beancount-degiro/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: beancount (==2.3.4)
+Requires-Dist: pandas (==1.2.4)
+
+# Beancount Degiro importer
+
+`beancount-degiro` provides an importer for converting CSV exports of
+[Degiro] account to the [Beancount] format.
+
+## Installation
+
+```sh
+$ pip install beancount-degiro
+```
+
+## Usage
+
+
+[Beancount]: http://furius.ca/beancount/
+[Degiro]: https://www.degiro.de/
+
+
