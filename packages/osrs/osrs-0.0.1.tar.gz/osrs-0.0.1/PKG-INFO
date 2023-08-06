@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: osrs
+Version: 0.0.1
+Summary: Simple Wrapper for osrs related api's
+Home-page: https://github.com/extreme4all/osrs
+Author: extreme4all
+Author-email: 
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/extreme4all/osrs/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# osrs
+
+## setup
+```
+python -m venv venv
+venv\Scripts\activate
+python -m pip install --upgrade pip
+pip install -r requirements.txt
+```
+# for admin purposes saving & upgrading
+
+```
+venv\Scripts\activate
+call pip freeze > requirements.txt
+powershell "(Get-Content requirements.txt) | ForEach-Object { $_ -replace '==', '>=' } | Set-Content requirements.txt"
+call pip install -r requirements.txt --upgrade
+call pip freeze > requirements.txt
+powershell "(Get-Content requirements.txt) | ForEach-Object { $_ -replace '>=', '==' } | Set-Content requirements.txt"
+```
+
+
