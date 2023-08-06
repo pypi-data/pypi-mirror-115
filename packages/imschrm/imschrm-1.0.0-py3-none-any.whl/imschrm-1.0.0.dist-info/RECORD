@@ -1,0 +1,11 @@
+imschrm/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+imschrm/_gcpy_codepoints.py,sha256=6Kb5HvDo3Bq6E29AMQ9WcT0F_Otszy9Ltv7steyIkIY,38857
+imschrm/cli.py,sha256=ma8_jUp79bwWG6Us0gqTi6S9UMSE-yhF8-Jj7U7HR5o,3640
+imschrm/doc_sequence.py,sha256=c5tiaVdWGcHYIlPVVkcDJxvfRNDl6hX-M8hyQ1JD4DA,3394
+imschrm/hrm.py,sha256=7qUhvzOhPsowYWRAvzi0HviuF66EGa0O0CWUXXy7ycw,11195
+imschrm-1.0.0.dist-info/LICENSE.txt,sha256=nsq6BhJCsaxd74Kb3_jwm98FFgUdr0h0-rhQab1BMIs,1260
+imschrm-1.0.0.dist-info/METADATA,sha256=vav2Rs696Gsc8xehzlGglFX883xhjT4h_b_CImLJFWI,2957
+imschrm-1.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+imschrm-1.0.0.dist-info/entry_points.txt,sha256=aSZce7bHYj99WHcw78vijc3vGYqMRq-HjFvt9jbVzDU,46
+imschrm-1.0.0.dist-info/top_level.txt,sha256=TvXm1G2jbgqMIZ30lYiZLsZ_-C4-VY4W0dcLF4yCQbM,8
+imschrm-1.0.0.dist-info/RECORD,,
