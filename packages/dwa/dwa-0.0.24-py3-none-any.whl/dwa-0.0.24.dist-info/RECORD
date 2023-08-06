@@ -1,0 +1,12 @@
+dwa/__init__.py,sha256=hZ1oq1Va8mg6cnmeeo-l9XtzKI0fq_NY5-FGFbCf7xM,10081
+dwa/core.py,sha256=6iRzxnRFAeOMlt-U1x_cuAvIz7ukPfVKi4Y6zpnLpFg,3297
+dwa/handlers.py,sha256=RHJmD3T6Kn4tetiGGi_2aADiZABLEyI3Utrg8Kvxqu4,14814
+dwa/utils.py,sha256=UAVINMIaXpnKw-9wSRqLk4kjcui6Zhl2x2O_yHrpQ_I,183
+dwa/workers.py,sha256=dPphOWNka4ju3cFjMZBZumIajuIMAjm31iRWDicyMjo,1515
+dwa/example/cookie_secret.txt,sha256=a5pDf1Ht3LwdL2YAgHBn8iCx0MSKQ10RavoW2M0BZME,11
+dwa/example/test.py,sha256=jr-r5q3jXwjL25iQ14CgGKyrKOnVibzI2bvL4Os2v5Q,25
+dwa-0.0.24.dist-info/LICENSE,sha256=E_tIpsMacuDitpZQsc6-iVT3tzRJhISS3P0islvZGvo,35182
+dwa-0.0.24.dist-info/METADATA,sha256=fFhZi493ykqyiRht1yhPKYUk6YJy8-eifCA7pCrpfzQ,3218
+dwa-0.0.24.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+dwa-0.0.24.dist-info/top_level.txt,sha256=PROr4qp_vDToaw2vU_wjar-TQNTrWJmJ8myvrg74N3w,4
+dwa-0.0.24.dist-info/RECORD,,
