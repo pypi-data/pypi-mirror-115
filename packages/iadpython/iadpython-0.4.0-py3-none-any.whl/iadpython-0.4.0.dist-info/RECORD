@@ -1,0 +1,17 @@
+iadpython/__init__.py,sha256=W0oGEyzKHDCfKrIe_2VwfJ3OEG4LbTXrwNVlvqmwNrc,162
+iadpython/ad.py,sha256=96jFpCNMLZM0JXFy4zKAo5DRXyxoOrX1hW-ZHLTBGEs,14496
+iadpython/combine.py,sha256=a3TpQxcdQsiIPHLMw4LMmko0khPSHIVHnfNXjBcOgIU,9343
+iadpython/fresnel.py,sha256=cVpo5C-R3t-DELKziL6_j0u6pSxW63-pg2xW6Vod0so,15533
+iadpython/iad.py,sha256=zf1-0hE0PES6fttfzZOVtCxLA7pwLaYeoryfaFr2b6o,2484
+iadpython/iad_util.py,sha256=iLgrmHj9isrcs4sgqLDdC93NYHgogdbifWfoEkyz3DE,17546
+iadpython/iadc.py,sha256=Xv6VYiyqApmspUHqN6pgiFQ3wqCOsZjArqDp_QkpWMM,30966
+iadpython/quadrature.py,sha256=nZOneoLk5wNblNbEWvi3AyaitaeuaUUxtoMYJnQ8FGM,4859
+iadpython/redistribution.py,sha256=FQr1GK0UWnilLBs6zp7Vugb4K2C-VJqgCrAyHNzO5kE,3771
+iadpython/rxt.py,sha256=z4TTEQDCmSZwUIMjBetiWEGMxDKUCSgxsoz_W9Z6ydM,930
+iadpython/sphere.py,sha256=899hdOUxVg_j35rMiuurvyG7uTvBswG31p_ToIZFaCA,10619
+iadpython/start.py,sha256=ETiASML3c7lFN-zwIkb4sf6x3-L8x_bfeuUftlWUI1s,12844
+iadpython-0.4.0.dist-info/LICENSE.txt,sha256=g9-BWWRLvMDMQ1Zflxliku7Sleom1_SbXHQHOLGgqqk,1055
+iadpython-0.4.0.dist-info/METADATA,sha256=u-PHEKLZSVjVjhhM5cLwpjmQpAj9OBvhyrhj0nixE8A,3692
+iadpython-0.4.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+iadpython-0.4.0.dist-info/top_level.txt,sha256=OYHVgl4RKNT4etTl1K8AEnchCeR5O8zru08wrKBwQPg,10
+iadpython-0.4.0.dist-info/RECORD,,
