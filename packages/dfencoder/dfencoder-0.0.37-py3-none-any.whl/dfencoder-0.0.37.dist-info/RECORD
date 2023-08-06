@@ -1,0 +1,10 @@
+dfencoder/__init__.py,sha256=HNwFs2r63S5e6jwmN3_iOGoXGSs3dZe2vIJE_3VjkxQ,98
+dfencoder/autoencoder.py,sha256=9anCMC6Rgq5kyy374IojH3ZDs65IZtI8cxoSoMv7Ibk,36499
+dfencoder/dataframe.py,sha256=m5yxavD2XKrQerLBP2cnTGyxTkLQe9oNokA8Ypovlto,1263
+dfencoder/logging.py,sha256=UJlaP0W7zMvNETiVBs8LXVABYZtvhAXiEJdSIIAuliY,6515
+dfencoder/scalers.py,sha256=Lq4cI4iTfI4NGyXV2HPtBatRJZdOcTgaXoxBvOg4nIw,1718
+dfencoder-0.0.37.dist-info/LICENSE.txt,sha256=wAb_-tnIb555egGrQIROp8XQUaXGuwdLzGj9pecof8U,1539
+dfencoder-0.0.37.dist-info/METADATA,sha256=fHdFq18Wp3ZOyMa7xM5k1rY35DXzUspghYs93hRFdrY,667
+dfencoder-0.0.37.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+dfencoder-0.0.37.dist-info/top_level.txt,sha256=wBz27DphBAu2j3aXjDGRBjP_OnYpl6XcNmuqEVjaLrs,10
+dfencoder-0.0.37.dist-info/RECORD,,
