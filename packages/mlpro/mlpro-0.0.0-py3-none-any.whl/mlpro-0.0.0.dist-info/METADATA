@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: mlpro
+Version: 0.0.0
+Summary: Machine Learning Professional
+Home-page: https://pypi.org
+Author: Detlef Arend
+Author-email: detlef@arend-privat.net
+License: UNKNOWN
+Project-URL: Bug Tracker, https://pypi.org
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# MLPro
+
+Machine Learning Professional. More details coming soon...
+
+
+
