@@ -1,0 +1,10 @@
+README.md
+setup.py
+MyDateTimeLib/__init__.py
+MyDateTimeLib/myfunction.py
+MyDateTimeLib/test_myfunctions.py
+MyDateTimeLib.egg-info/PKG-INFO
+MyDateTimeLib.egg-info/SOURCES.txt
+MyDateTimeLib.egg-info/dependency_links.txt
+MyDateTimeLib.egg-info/requires.txt
+MyDateTimeLib.egg-info/top_level.txt
