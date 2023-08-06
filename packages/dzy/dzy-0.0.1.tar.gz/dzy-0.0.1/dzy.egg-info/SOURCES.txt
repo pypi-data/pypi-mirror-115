@@ -1,0 +1,6 @@
+README.md
+setup.py
+dzy.egg-info/PKG-INFO
+dzy.egg-info/SOURCES.txt
+dzy.egg-info/dependency_links.txt
+dzy.egg-info/top_level.txt
