@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/mathcad2smath/__init__.py
+src/mathcad2smath/converter.py
+src/mathcad2smath/custom_mathcad_function.py
+src/mathcad2smath/mathcad2smath.py
+src/mathcad2smath.egg-info/PKG-INFO
+src/mathcad2smath.egg-info/SOURCES.txt
+src/mathcad2smath.egg-info/dependency_links.txt
+src/mathcad2smath.egg-info/entry_points.txt
+src/mathcad2smath.egg-info/top_level.txt
