@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: easyDataset
+Version: 0.0.0
+Summary: Database interaction package.
+Home-page: https://github.com/Password-Classified/easySQL
+Author: Password-Classified
+Author-email: user@example.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/Password-Classified/easySQL/issues
+Requires-Dist: wheel
+Requires-Dist: setuptools
+Requires-Dist: pandas
+
+
+# easySQL
+
