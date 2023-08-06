@@ -1,0 +1,65 @@
+.\" generated with Ronn-NG/v0.8.0
+.\" http://github.com/apjanke/ronn-ng/tree/0.8.0
+.TH "VINCA" "1" "August 2021" "" ""
+.SH "NAME"
+\fBvinca\fR \- simple spaced repetition
+.SH "EXAMPLES"
+.IP "\[ci]" 4
+\fBvinca 2\fR create a simple card
+.IP "\[ci]" 4
+\fBvinca r\fR review all cards
+.IP "\[ci]" 4
+\fBvinca f [pattern]\fR search collection for regular expression
+.IP "\[ci]" 4
+\fBvinca b\fR browse all cards
+.IP "" 0
+.SH "ADVANCED EXAMPLES"
+.IP "\[ci]" 4
+\fBvinca f english | vinca x\fR (delete all cards containing the word english)
+.IP "\[ci]" 4
+\fBvinca f \-\-due_date_max +7 | vinca r\fR (review all cards due within a week)
+.IP "\[ci]" 4
+\fBvinca f \-tags_include robinson_crusoe | vinca export crusoe_deck\fR (export all cards tagged robinson_crusoe to a saved deck)
+.IP "" 0
+.SH "OPTIONS"
+\fB\-h \-\-help\fR Show help message and exit\.
+.P
+\fB\-v \-\-version\fR Show version and exit\.
+.SH "SUBCOMMANDS"
+\fBadd (a)\fR \- use the keys 2, m, v to create cards
+.P
+\fBstatistics (s)\fR [CARD [CARDS \|\.\|\.\|\. ]] \- show statistics for the specified card or collection of cards; defaults to summary statistics of the entire collection\.
+.P
+\fBedit (e)\fR CARD
+.P
+\fBedit_metadata (E)\fR CARD
+.P
+\fBdelete (x)\fR CARD
+.P
+\fBreview (r)\fR [CARD [CARD \|\.\|\.\|\.]] \- default to reviewing the entire collection
+.P
+\fBedit_tags (t)\fR [CARD [CARD \|\.\|\.\|\.]] \- edit the tags for a card or collection of cards \- defaults to editing the entire collection
+.P
+\fBbrowse (b)\fR [CARDS] \- defaults to browsing the entire collection \- within browse mode the following keys are available: \- \fB2\fR,\fBm\fR,\fBv\fR add a card \- \fBj\fR, \fBk\fR navigate up and down through the list \- \fBt\fR edit the tags of a book \- \fBe\fR edit a card \- \fBr\fR review the selected card \- \fBs\fR see statistics for the selected card \- \fBR\fR review all cards to the end of the list \- \fBS\fR see statistics for all displayed cards \- \fBE\fR edit metadata for te selected card
+.P
+\fBfilter (f)\fR [CARD \|\.\|\.\|\.] \- filter your collection of cards with a multitude of options \- run \fBfilter \-h\fR to see these options
+.P
+\fBpurge\fR \- delete all cards marked for deletion
+.P
+\fBexport\fR destination
+.P
+\fBimport\fR source
+.P
+\fBmedia (m)\fR \- create a media card
+.P
+\fBverses (v)\fR \- create a verses card \- verses cards can be used for lyrics, poetry, oratory, etc\. \- it quizzes the reviewer line by line
+.P
+\fBtwo_lines (2)\fR \- create a simple card with a front and a back
+.SH "ANCILLARY COMMANDS (low\-level)"
+\fBadd_tag\fR CARD
+.P
+\fBremove_tag\fR CARD
+.SH "SUGGESTIONS"
+TODO
+.SH "AUTHOR"
+Oscar Laird \fI\%mailto:oscar\.laird@colorado\.edu\fR
