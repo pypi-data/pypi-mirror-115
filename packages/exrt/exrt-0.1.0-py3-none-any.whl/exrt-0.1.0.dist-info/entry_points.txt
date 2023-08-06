@@ -1,0 +1,3 @@
+[console_scripts]
+exrt = exrt.__main__:main
+
