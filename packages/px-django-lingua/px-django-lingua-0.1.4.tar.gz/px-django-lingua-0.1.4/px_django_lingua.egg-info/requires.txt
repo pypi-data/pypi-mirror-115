@@ -1,0 +1,2 @@
+px-settings==0.1.2
+django<4,>=2.2
