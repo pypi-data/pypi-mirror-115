@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: Asciin.py
+Version: 0.1a
+Summary: Featherweight 3D / 2D ascii game engine for Python 2.7+ with no external dependencies and written in Python and optimized in C.
+Home-page: https://github.com/Rickaym/Asciin.py
+Author: Rickaym
+Author-email: UNKNOWN
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
