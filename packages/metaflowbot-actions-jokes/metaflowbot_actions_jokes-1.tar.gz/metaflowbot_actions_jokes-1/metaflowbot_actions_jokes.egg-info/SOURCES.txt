@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+setup.py
+metaflowbot/__init__.py
+metaflowbot/actions/__init__.py
+metaflowbot/actions/jokes/__init__.py
+metaflowbot/actions/jokes/commands.py
+metaflowbot/actions/jokes/rules.yml
+metaflowbot_actions_jokes.egg-info/PKG-INFO
+metaflowbot_actions_jokes.egg-info/SOURCES.txt
+metaflowbot_actions_jokes.egg-info/dependency_links.txt
+metaflowbot_actions_jokes.egg-info/not-zip-safe
+metaflowbot_actions_jokes.egg-info/top_level.txt
