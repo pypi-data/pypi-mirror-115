@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: targetran
+Version: 0.3.1
+Summary: Target transformation for data augmentation in objection detection
+Home-page: https://github.com/bhky/targetran
+Author: Bosco Yung
+Author-email: xtorch501@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# targetran
+A Python library for data augmentation in object detection.
+
+
