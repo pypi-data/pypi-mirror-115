@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: crainets
+Version: 0.1.0b0
+Summary: deep learning utility library
+Author: JonNesvold
+Author-email: jon.nesvold@pm.me
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: colorlog (>=5.0.1,<6.0.0)
+Requires-Dist: flake8 (>=3.9.2,<4.0.0)
+Requires-Dist: numpy (>=1.20.2,<2.0.0)
+Requires-Dist: py3nvml (>=0.2.6,<0.3.0)
+Requires-Dist: pytest (>=6.2.4,<7.0.0)
+Requires-Dist: torch (>=1.8.1,<2.0.0)
