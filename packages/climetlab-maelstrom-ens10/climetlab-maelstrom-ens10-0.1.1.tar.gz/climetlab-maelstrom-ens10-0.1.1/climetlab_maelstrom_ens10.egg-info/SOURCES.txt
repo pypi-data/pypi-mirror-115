@@ -1,0 +1,15 @@
+ENS10_LICENCE.txt
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+climetlab_maelstrom_ens10/__init__.py
+climetlab_maelstrom_ens10/ens10.py
+climetlab_maelstrom_ens10/toy.py
+climetlab_maelstrom_ens10.egg-info/PKG-INFO
+climetlab_maelstrom_ens10.egg-info/SOURCES.txt
+climetlab_maelstrom_ens10.egg-info/dependency_links.txt
+climetlab_maelstrom_ens10.egg-info/entry_points.txt
+climetlab_maelstrom_ens10.egg-info/requires.txt
+climetlab_maelstrom_ens10.egg-info/top_level.txt
+climetlab_maelstrom_ens10.egg-info/zip-safe
