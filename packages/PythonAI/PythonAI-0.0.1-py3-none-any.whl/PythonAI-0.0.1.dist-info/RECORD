@@ -1,0 +1,12 @@
+PythonAI/GeneticAlgorithm.py,sha256=WXMLXHbCmpyUHAxs3SZNjf7j6CSX7XhI0ixUBvyW_ZU,48
+PythonAI/NeuralNetwork.py,sha256=7jU0Eo8hnpIMFxs-WJ3hS9ql6hOeXXmoOmzTkxsncGY,45
+PythonAI/__init__.py,sha256=OSqzm3R9xMA-7WCxtFO0fShyjA-JfkqoQ4RM-m8Tc3A,181
+PythonAI/setup.py,sha256=ZnVbAXxt6I-0YIazpK2RW7fN3OsV-WKTp3udJSKS8Hg,172
+PythonAI/dep/GeneticAlgorithm.py,sha256=t2C8y6L5Z-ow1Ar8lWey5HL-cowuBl_xElyI4L1w4zU,3844
+PythonAI/dep/NeuralNetwork.py,sha256=q8gvCC0rnRKW03CvCq5A-20Zr5_O3OD8qQcsveAHgts,1708
+PythonAI/dep/__init__.py,sha256=SHLqLWWEg-6elel2a4SMqHOTjnt5V3QTEuw_u0v4D3U,173
+PythonAI-0.0.1.dist-info/LICENSE,sha256=y-TO9U2V96eK8ijvZU26NGZuBJBApZBai6b7B60bO8A,1087
+PythonAI-0.0.1.dist-info/METADATA,sha256=pnnrd2HsGaD0U-U1LDKKvkFat_kUGoZQx_rsMJWTRO8,1105
+PythonAI-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+PythonAI-0.0.1.dist-info/top_level.txt,sha256=RMUs7wlihoZyQXT7xvBeb924-0O80xyHcTmKboHUAh0,9
+PythonAI-0.0.1.dist-info/RECORD,,

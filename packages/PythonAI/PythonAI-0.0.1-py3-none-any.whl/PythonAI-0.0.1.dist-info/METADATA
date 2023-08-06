@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: PythonAI
+Version: 0.0.1
+Summary: A Python library that makes creating RL AIs easy in Python 
+Home-page: https://github.com/SpideyZac/PythonAI
+Author: Spidey Zac
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Intended Audience :: Developers
+Requires-Python: >=3.9
+License-File: LICENSE
+Requires-Dist: numpy
+
+# PythonAI
+A Python library that makes creating RL AIs easy in Python 
+
+# What's in this library
+In version 0.0.1 Genetic Algorithm is the only training technique
+
+# Genetic Algorithm
+```
+import PythonAI.GeneticAlgorithm as GeneticAlgorithm
+nn = GeneticAlgorithm.GeneticAlgorithm([2, 4, 5, 2])
+# ai with 2 inputs 2 hidden layers with sizes of 4 and 5 and 2 outputs
+nn.save("ai.ai")
+```
+
+# Tutorial On
+https://www.youtube.com/channel/UCqZRmkHlmG5848iYERnyUyA
+
