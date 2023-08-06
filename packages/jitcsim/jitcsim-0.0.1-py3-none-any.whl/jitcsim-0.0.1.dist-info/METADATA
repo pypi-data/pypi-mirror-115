@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: jitcsim
+Version: 0.0.1
+Summary: Simulation of networks with Ordinary/Delay/Stochastic differential equations (just-in-time compilation
+Home-page: https://github.com/Ziaeemehr/JITCSIM
+Author: ...
+Author-email: a.ziaeemehr@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+
+# JITCSIM
+
+Just-in time compilation differential equations for simulation of complex network dynamics.
+
+It mainly use [JITC*DE](https://github.com/neurophysik/jitcode) packages for solving differential equations.
+
+### installation
+
+```sh
+cd JITCSIM # directory where you have setup.py
+pip3 install -e .
+```
+
+
+

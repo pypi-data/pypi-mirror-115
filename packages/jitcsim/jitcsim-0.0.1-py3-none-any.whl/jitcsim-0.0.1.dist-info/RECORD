@@ -1,0 +1,11 @@
+jitcsim/__init__.py,sha256=GnbOPWnHdSNP4uMkrsUkSbmUBqKxspDoDTo0tg891Tc,76
+jitcsim/networks.py,sha256=tUUbILNIa-yjBP1g9lgjViIpglexSi-OPGR71LyQLp8,2453
+jitcsim/utility.py,sha256=1CyEzb6bLXbwcCzjqmgXTAy0ALUgCDTpHYo_kM2Y5go,2237
+jitcsim/visualization.py,sha256=uMfiweOKk6mPoE3YFjtxl8yaJsGDfqbvSV3B8dX1Ytg,3671
+jitcsim/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jitcsim/models/kuramoto.py,sha256=QBb9brPrRvRijXoEHksm88NLirQL98HChsMn_ie39_c,6956
+jitcsim-0.0.1.dist-info/LICENSE,sha256=gXf5dRMhNSbfLPYYTY_5hsZ1r7UU1OaKQEAQUhuIBkM,18092
+jitcsim-0.0.1.dist-info/METADATA,sha256=TObSPzEJR5PY3C7fak-5kgDR5dMZisVDCCYQNoo-1EY,814
+jitcsim-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+jitcsim-0.0.1.dist-info/top_level.txt,sha256=PENchiHG3pOXOf6NA1zjf28u8-Z4TcXhKalxVO9VJY8,8
+jitcsim-0.0.1.dist-info/RECORD,,
