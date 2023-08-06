@@ -1,0 +1,18 @@
+pillow~=8.3.1
+requests
+
+[all]
+
+[all:platform_machine != "armv7l"]
+tensorflow~=2.5.0
+onnxruntime~=1.8.1
+
+[onnx]
+
+[onnx:platform_machine != "armv7l"]
+onnxruntime~=1.8.1
+
+[tf]
+
+[tf:platform_machine != "armv7l"]
+tensorflow~=2.5.0
