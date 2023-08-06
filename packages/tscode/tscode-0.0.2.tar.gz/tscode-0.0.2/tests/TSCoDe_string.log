@@ -1,0 +1,63 @@
+
+*************************************************************
+*      TSCoDe: Transition State Conformational Docker       *
+*************************************************************
+*               Version 0.0.1 - First Release               *
+*       Nicolo' Tampellini - nicolo.tampellini@yale.edu     *
+*************************************************************
+
+--> Atom pairings imposed are 1: [[0, 8]] (Cumulative index numbering)
+
+--> Setup performed correctly. 48 candidates will be generated.
+
+--> Input structures & reactive indexes data:
+
+    1. CH3Cl.xyz
+        0  -> C(sp3, 1.25 A, 1 center)
+
+    2. HCOOH.xyz
+        3  -> O(Ether, 1.25 A, 2 centers)
+
+--> Calculation options used were:
+    - calculator                : MOPAC
+    - clash_thresh              : 1.3
+    - double_bond_protection    : False
+    - fix_angles_in_deformation : False
+    - keep_enantiomers          : False
+    - max_clashes               : 0
+    - max_newbonds              : 0
+    - only_refined              : False
+    - openbabel_opt             : False
+    - optimization              : True
+    - pruning_thresh            : 0.5
+    - rotation_steps            : 24
+    - shrink                    : False
+    - theory_level              : PM7
+
+--> Performing string embed (48 candidates)
+Generated 48 transition state candidates (0.027 s)
+
+--> Checking structures for compenetrations
+
+--> Similarity Processing
+    - similarity pre-processing   (k=5) - 0.005 s - kept 5/48
+    - similarity final processing (k=1) - 0.0 s - kept 1/5
+Discarded 47 candidates for similarity (1 left, 0.006 s)
+
+--> Structure optimization (PM7 level)
+    - MOPAC PM7 optimization: Structure 1 CONVERGED - took 0.178 s
+Successfully optimized 1/1 structures. Non-optimized ones will not be discarded.
+MOPAC PM7 optimization took 0.178 s (~0.178 s per structure)
+
+--> Checkpoint output - Updated 1 TS structures before distance refinement.
+
+--> Refining bonding distances for TSs (PM7 level)
+    - MOPAC PM7 refinement: Structure 0 REFINED (2 iterations, 0.173 s)
+MOPAC PM7 refinement took 0.174 s (~0.174 s per structure)
+Successfully refined 1/1 structures. Non-refined ones will not be discarded.
+
+Wrote 1 rough TS structures to TSCoDe_TS_guesses_string.xyz file.
+
+Wrote VMD TSCoDe_TS_guesses_string.vmd file
+
+--> TSCoDe normal termination: total time 0.393 seconds.

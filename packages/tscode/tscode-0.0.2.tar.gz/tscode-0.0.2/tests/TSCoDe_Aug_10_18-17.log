@@ -1,0 +1,48 @@
+
+*************************************************************
+*      TSCoDe: Transition State Conformational Docker       *
+*************************************************************
+*               Version 0.0.1 - First Release               *
+*       Nicolo' Tampellini - nicolo.tampellini@yale.edu     *
+*************************************************************
+
+--> Atom pairings imposed are 3: [[0, 6], [9, 11], [4, 14]] (Cumulative index numbering)
+
+--> Setup performed correctly. 3000 candidates will be generated.
+
+--> Input structures & reactive indexes data:
+
+    1. CH3Cl.xyz -> 3 pivots, sp3_sigmastar
+        0  -> C(sp3, 1.875 A, 3 centers)
+        4  -> Cl(Single Bond, 1.667 A, 3 centers)
+
+    2. HCOOH.xyz -> 2 pivots
+        1  -> O(Ketone, 1.875 A, 2 centers)
+        4  -> H(Single Bond, 1.5 A, 1 center)
+
+    3. HCOOH.xyz -> 2 pivots
+        1  -> O(Ketone, 1.5 A, 2 centers)
+        4  -> H(Single Bond, 1.875 A, 1 center)
+
+--> Calculation options used were:
+    - calculator                : MOPAC
+    - clash_thresh              : 1.3
+    - double_bond_protection    : False
+    - fix_angles_in_deformation : False
+    - keep_enantiomers          : False
+    - max_clashes               : 0
+    - max_newbonds              : 0
+    - only_refined              : True
+    - openbabel_opt             : False
+    - optimization              : True
+    - pruning_thresh            : 0.5
+    - rigid                     : False
+    - rotation_range            : 90
+    - rotation_steps            : 9
+    - shrink                    : True
+    - shrink_multiplier         : 1.5
+    - suprafacial               : False
+    - theory_level              : PM7
+
+--> Performing cyclical embed (3000 candidates)
+    HCOOH - pivot 6 - conformer 0 - CONVERGED (2   iterations, 0.287 s)

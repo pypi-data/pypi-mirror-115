@@ -1,0 +1,7 @@
+display resetview
+mol new {./TSCoDe_TS_guesses_dihedral.xyz}
+mol selection index 3 0 1 5
+mol representation CPK 0.7 0.5 50 50
+mol color ColorID 7
+mol material Transparent
+mol addrep top

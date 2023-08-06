@@ -1,0 +1,86 @@
+
+*************************************************************
+*      TSCoDe: Transition State Conformational Docker       *
+*************************************************************
+*               Version 0.0.1 - First Release               *
+*       Nicolo' Tampellini - nicolo.tampellini@yale.edu     *
+*************************************************************
+
+--> Atom pairings imposed are 3: [[0, 6], [9, 11], [4, 14]] (Cumulative index numbering)
+
+--> Setup performed correctly. 3000 candidates will be generated.
+
+--> Input structures & reactive indexes data:
+
+    1. CH3Cl.xyz -> 3 pivots, sp3_sigmastar
+        0  -> C(sp3, 1.875 A, 3 centers)
+        4  -> Cl(Single Bond, 1.667 A, 3 centers)
+
+    2. HCOOH.xyz -> 1 pivots
+        1  -> O(Ketone, 1.875 A, 2 centers)
+        4  -> H(Single Bond, 1.5 A, 1 center)
+
+    3. HCOOH.xyz -> 1 pivots
+        1  -> O(Ketone, 1.5 A, 2 centers)
+        4  -> H(Single Bond, 1.875 A, 1 center)
+
+--> Calculation options used were:
+    - calculator                : MOPAC
+    - clash_thresh              : 1.3
+    - double_bond_protection    : False
+    - fix_angles_in_deformation : False
+    - keep_enantiomers          : False
+    - max_clashes               : 0
+    - max_newbonds              : 0
+    - only_refined              : True
+    - openbabel_opt             : False
+    - optimization              : True
+    - pruning_thresh            : 0.5
+    - rigid                     : False
+    - rotation_range            : 90
+    - rotation_steps            : 9
+    - shrink                    : True
+    - shrink_multiplier         : 1.5
+    - suprafacial               : False
+    - theory_level              : PM7
+
+--> Performing cyclical embed (3000 candidates)
+Generated 3000 transition state candidates (6.167 s)
+
+--> Checking structures for compenetrations
+
+--> Similarity Processing
+    - similarity pre-processing   (k=500) - 0.459 s - kept 1045/3000
+    - similarity pre-processing   (k=200) - 0.164 s - kept 458/1045
+    - similarity pre-processing   (k=50) - 0.091 s - kept 133/458
+    - similarity pre-processing   (k=20) - 0.024 s - kept 56/133
+    - similarity pre-processing   (k=10) - 0.01 s - kept 28/56
+    - similarity pre-processing   (k=5) - 0.005 s - kept 15/28
+    - similarity pre-processing   (k=2) - 0.003 s - kept 7/15
+    - similarity final processing (k=1) - 0.002 s - kept 4/7
+Discarded 2996 candidates for similarity (4 left, 0.759 s)
+
+--> Structure optimization (PM7 level)
+    - MOPAC PM7 optimization: Structure 1 CONVERGED - took 1.205 s
+    - MOPAC PM7 optimization: Structure 2 CONVERGED - took 0.464 s
+    - MOPAC PM7 optimization: Structure 3 CONVERGED - took 2.817 s
+    - MOPAC PM7 optimization: Structure 4 CONVERGED - took 1.098 s
+Successfully optimized 4/4 structures. Non-optimized ones will not be discarded.
+MOPAC PM7 optimization took 5.583 s (~1.396 s per structure)
+
+--> Checkpoint output - Updated 4 TS structures before distance refinement.
+
+--> Refining bonding distances for TSs (PM7 level)
+    - MOPAC PM7 refinement: Structure 0 REFINED (61 iterations, 4.235 s)
+    - MOPAC PM7 refinement: Structure 1 REFINED (31 iterations, 2.147 s)
+    - MOPAC PM7 refinement: Structure 2 REFINED (64 iterations, 4.555 s)
+    - MOPAC PM7 refinement: Structure 3 REFINED (52 iterations, 3.58 s)
+MOPAC PM7 refinement took 14.518 s (~3.63 s per structure)
+Successfully refined 4/4 structures. Discarded 0 unrefined structures
+Discarded 1 candidates for similarity (3 left, 0.001 s)
+
+Wrote 3 rough TS structures to TSCoDe_TS_guesses_trimolecular.xyz file.
+
+Wrote VMD TSCoDe_TS_guesses_trimolecular.vmd file
+
+--> TSCoDe normal termination: total time 27.642 seconds.
