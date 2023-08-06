@@ -1,0 +1,9 @@
+README.md
+setup.py
+package_test_czh/__init__.py
+package_test_czh/main.py
+package_test_czh.egg-info/PKG-INFO
+package_test_czh.egg-info/SOURCES.txt
+package_test_czh.egg-info/dependency_links.txt
+package_test_czh.egg-info/requires.txt
+package_test_czh.egg-info/top_level.txt
