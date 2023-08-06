@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+ButtonPaginator/__init__.py
+ButtonPaginator/errors.py
+ButtonPaginator/paginator.py
+dpy_slash_button_paginator.egg-info/PKG-INFO
+dpy_slash_button_paginator.egg-info/SOURCES.txt
+dpy_slash_button_paginator.egg-info/dependency_links.txt
+dpy_slash_button_paginator.egg-info/not-zip-safe
+dpy_slash_button_paginator.egg-info/requires.txt
+dpy_slash_button_paginator.egg-info/top_level.txt

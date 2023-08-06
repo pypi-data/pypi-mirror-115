@@ -1,0 +1,17 @@
+Metadata-Version: 1.2
+Name: dpy-slash-button-paginator
+Version: 1.0.0
+Summary: Button paginator using discord_slash
+Home-page: https://github.com/catalyst4222/ButtonPaginator
+Author: catalyst4222
+Author-email: catalyst4222@gmail.com
+License: MIT
+Download-URL: https://github.com/Catalyst4222/ButtonPaginator/archive/refs/tags/v1.0.tar.gz
+Description: UNKNOWN
+Keywords: discord.py,paginaion,button,components,discord_slash,discord-interactions
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
