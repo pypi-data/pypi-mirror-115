@@ -1,0 +1,4 @@
+numpy
+dpdata[amber]>=0.2.1
+deepmd-kit
+tqdm
