@@ -1,0 +1,8 @@
+README.md
+setup_batchkit.py
+batchkit/client.py
+test_repo.egg-info/PKG-INFO
+test_repo.egg-info/SOURCES.txt
+test_repo.egg-info/dependency_links.txt
+test_repo.egg-info/requires.txt
+test_repo.egg-info/top_level.txt
