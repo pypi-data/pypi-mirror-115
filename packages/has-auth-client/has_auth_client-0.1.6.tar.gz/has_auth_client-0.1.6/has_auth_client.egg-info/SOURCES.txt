@@ -1,0 +1,8 @@
+has_auth_client/__init__.py
+has_auth_client/client.py
+has_auth_client/setup.py
+has_auth_client.egg-info/PKG-INFO
+has_auth_client.egg-info/SOURCES.txt
+has_auth_client.egg-info/dependency_links.txt
+has_auth_client.egg-info/requires.txt
+has_auth_client.egg-info/top_level.txt
