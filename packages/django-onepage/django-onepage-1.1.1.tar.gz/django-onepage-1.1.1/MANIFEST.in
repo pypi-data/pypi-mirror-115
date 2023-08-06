@@ -1,0 +1,3 @@
+recursive-include onepage/static *
+recursive-include onepage/templates *
+recursive-include onepage/templatetags *
