@@ -1,0 +1,4 @@
+
+    [pygments.lexers]
+    hole_c_lexer = hole_c_lexer.lexer:HoleCLexer
+    
