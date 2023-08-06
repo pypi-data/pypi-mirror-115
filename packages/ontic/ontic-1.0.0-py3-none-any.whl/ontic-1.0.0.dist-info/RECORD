@@ -1,0 +1,12 @@
+ontic/__init__.py,sha256=7_-omXrOY6ovKhxbQ_gi3FSCGS3U4BiXN0vd64UV3Ic,333
+ontic/core.py,sha256=nnvE_XeVYpsB1qDAHzEQM2w8x5WyMZg0Yl8Ff0bSIWg,2023
+ontic/meta.py,sha256=fpvyw2OHejcObfALwRkxUVMjnFRpWvQ20SXKTPYMXao,16783
+ontic/property.py,sha256=6o1P2P6prTBcfgFJQ8QI-0bz3_dyOycQr1h3hVsKzfc,21277
+ontic/schema.py,sha256=zyHBMo-dCmg9ePMP-HfixUjK5IYOfflWAN2v4sNmD6E,7567
+ontic/type.py,sha256=mlujKDeK89w_-mbO9AUtN5P49O1aMzxSh9dUenF2Vg4,11108
+ontic/validation_exception.py,sha256=PyFP2p8eAbIrYXpJVWCTrXYMQCWrOQJ-CuzlpI0JDks,832
+ontic-1.0.0.dist-info/LICENSE,sha256=bcDgaNzzpbyOBUIFuFt3IOHUkmW7xkv1FdLPeRl99po,11323
+ontic-1.0.0.dist-info/METADATA,sha256=mvJs2DEiEcYf0Ga5NGmOTg4QBHGdPnnZnCj23tRlhdY,3353
+ontic-1.0.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+ontic-1.0.0.dist-info/top_level.txt,sha256=7Qg7NweFteGNC0qj_88krXNLOh4OO6phkksxTvfpXrY,6
+ontic-1.0.0.dist-info/RECORD,,
