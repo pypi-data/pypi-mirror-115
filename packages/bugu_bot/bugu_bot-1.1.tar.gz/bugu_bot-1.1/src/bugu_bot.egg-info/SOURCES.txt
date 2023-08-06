@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.py
+src/bugu_bot/__init__.py
+src/bugu_bot/bugu_bot.py
+src/bugu_bot.egg-info/PKG-INFO
+src/bugu_bot.egg-info/SOURCES.txt
+src/bugu_bot.egg-info/dependency_links.txt
+src/bugu_bot.egg-info/entry_points.txt
+src/bugu_bot.egg-info/requires.txt
+src/bugu_bot.egg-info/top_level.txt
