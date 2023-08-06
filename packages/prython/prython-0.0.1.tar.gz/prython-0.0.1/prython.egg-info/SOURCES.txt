@@ -1,0 +1,9 @@
+README.md
+setup.py
+prython/__init__.py
+prython/__main__.py
+prython.egg-info/PKG-INFO
+prython.egg-info/SOURCES.txt
+prython.egg-info/dependency_links.txt
+prython.egg-info/entry_points.txt
+prython.egg-info/top_level.txt
