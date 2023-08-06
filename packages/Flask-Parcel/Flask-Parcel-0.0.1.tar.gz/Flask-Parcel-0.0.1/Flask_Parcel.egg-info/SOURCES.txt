@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+flask_parcel.py
+setup.py
+Flask_Parcel.egg-info/PKG-INFO
+Flask_Parcel.egg-info/SOURCES.txt
+Flask_Parcel.egg-info/dependency_links.txt
+Flask_Parcel.egg-info/not-zip-safe
+Flask_Parcel.egg-info/requires.txt
+Flask_Parcel.egg-info/top_level.txt
