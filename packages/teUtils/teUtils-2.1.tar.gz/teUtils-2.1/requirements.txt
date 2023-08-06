@@ -1,0 +1,6 @@
+libroadrunner
+nose
+numpy
+tabulate
+python-csv
+tellurium
