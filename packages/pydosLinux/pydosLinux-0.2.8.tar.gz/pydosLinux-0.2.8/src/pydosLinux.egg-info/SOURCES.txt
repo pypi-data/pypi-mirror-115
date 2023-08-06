@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/pydosLinux.egg-info/PKG-INFO
+src/pydosLinux.egg-info/SOURCES.txt
+src/pydosLinux.egg-info/dependency_links.txt
+src/pydosLinux.egg-info/top_level.txt
