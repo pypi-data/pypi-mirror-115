@@ -1,0 +1,12 @@
+banal>=1.0.1
+text-unidecode
+chardet
+
+[dev]
+pyicu>=1.9.3
+mypy
+pytest
+types-chardet
+
+[icu]
+pyicu>=1.9.3
