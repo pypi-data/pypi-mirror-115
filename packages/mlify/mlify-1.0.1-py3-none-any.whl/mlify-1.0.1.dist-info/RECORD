@@ -1,0 +1,12 @@
+mlify/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mlify/detect/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mlify/detect/face.py,sha256=qzRBqUVRW7HpCO3TcIjXfSnx3tzax1czg_Mr4saVBSU,2125
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/mlify/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/mlify/detect/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/mlify/detect/face.py,sha256=ODN9wwxnBGW8jjW4KrhoQ4dxjz-iArbx14TLn0NjZWY,2117
+mlify-1.0.1.dist-info/LICENSE,sha256=DBV0S-B_kgTJ2I1mdM850hAnWmfnVU-N5zAHtSY6OU8,35095
+mlify-1.0.1.dist-info/METADATA,sha256=TVFtoK47kX9BT80hu0UdFFfgii-KUnGBDDPviK2bwRo,2838
+mlify-1.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+mlify-1.0.1.dist-info/top_level.txt,sha256=n-ngzWLnSEecsJ6gFeijgQ9zCR2zPpeRvXQQAdRRo88,6
+mlify-1.0.1.dist-info/RECORD,,
