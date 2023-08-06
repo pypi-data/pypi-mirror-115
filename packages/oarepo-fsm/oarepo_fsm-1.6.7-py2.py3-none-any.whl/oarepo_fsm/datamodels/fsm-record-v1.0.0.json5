@@ -1,0 +1,8 @@
+{
+  "definitions": {
+    "state": {
+      "type": "string",
+      "description": "Field representing the current FSM state of the record"
+    }
+  }
+}
