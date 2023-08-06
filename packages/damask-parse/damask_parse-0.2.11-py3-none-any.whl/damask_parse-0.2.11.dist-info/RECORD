@@ -1,0 +1,15 @@
+damask_parse/__init__.py,sha256=VehBlcSzVc1-YI9low8GHojNDUDIlUVfdi6NLHyevVg,150
+damask_parse/_version.py,sha256=1GoaUwMSeBBLruUDdM6dEOYv-nA5voDZ34P71yo1WKo,23
+damask_parse/quats.py,sha256=VYNXIthwDIq3a4ELnApx3-006Z5SX0KydDh50B7HnW8,3668
+damask_parse/readers.py,sha256=g7kSOUlPalxkr_LgKdUB3p0zkQq5HpbPzMGf_4k7L2o,28816
+damask_parse/rotation.py,sha256=BQMYaqOajqbpKsmudTlhjBNG67WcaMbTlXGtceCKEuo,6598
+damask_parse/utils.py,sha256=CtGpCD_44n4Slc0bkjzIxRU4sjHRPzWNpEF1F6bnfSM,55931
+damask_parse/writers.py,sha256=hvx4LXSec5fbgcMP0TErpbXBcNdfhOvgWJ9kOlhYTAc,15370
+damask_parse/legacy/__init__.py,sha256=6UYvN3QU1gH6R9_50fyhsNK5cXynTcE3A2VVevTNn7Y,125
+damask_parse/legacy/readers.py,sha256=V2xwy-j_pjUp_nKiLc9R0kp1pYHTD_SkMm4ElPXZ9hM,13925
+damask_parse/legacy/writers.py,sha256=DnCmamRLFq_IH4vl4OMI0TufuvL8fr3aleqvbxkS76A,19900
+damask_parse-0.2.11.dist-info/LICENSE,sha256=HyVuytGSiAUQ6ErWBHTqt1iSGHhLmlC8fO7jTCuR8dU,16725
+damask_parse-0.2.11.dist-info/METADATA,sha256=KK6qyvLluCV4__CY5pw3Pee7k74O1R0LeLJFRWcF9LA,1915
+damask_parse-0.2.11.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+damask_parse-0.2.11.dist-info/top_level.txt,sha256=9XGoGdYv5pADdolBF_c7L_AqWqOC-KONEyUYn382zW4,13
+damask_parse-0.2.11.dist-info/RECORD,,
