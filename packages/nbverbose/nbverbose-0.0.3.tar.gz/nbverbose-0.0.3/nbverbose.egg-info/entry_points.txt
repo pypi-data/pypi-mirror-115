@@ -1,0 +1,3 @@
+[console_scripts]
+nbdev_build_docs = nbverbose.cli:nbdev_build_docs
+
