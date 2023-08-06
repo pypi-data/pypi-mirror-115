@@ -1,0 +1,14 @@
+xrp_price_aggregate/__init__.py,sha256=KHdokGfiMpmYSZ1YqFzc_xWvrTXuWjNUyASKBsTuatg,181
+xrp_price_aggregate/__main__.py,sha256=nUJYAm8GGHphAwgwLzLzNitAwIBqAeVAWPSm5FaSDOs,261
+xrp_price_aggregate/aggregate_filter.py,sha256=2u3Ns5_BV1bxMtntXujb6hia1FMkzUp5y15Q4HKkYf0,9954
+xrp_price_aggregate/providers/__init__.py,sha256=vPVxBheF7DVFaiJGkgcDfUVPhOpVjGXEozzZYgTL4hs,158
+xrp_price_aggregate/providers/base.py,sha256=2Zag5jK6OCTcaKZnAUlPvy4rSriCMjfhrouDQT6MaUU,1385
+xrp_price_aggregate/providers/binance.py,sha256=CwjHPE_Mz34ZJSaNKeAbRNSWE7kr-WAqSzFBSugPl5I,1274
+xrp_price_aggregate/providers/bitrue.py,sha256=ZznrrKlcHK7KtYY9cOIqs_0y1MVRnA6QHOyhl8bMEP4,1270
+xrp_price_aggregate/providers/gen_default.py,sha256=hdbGHX2bgP2holTbWW2AA94khZ-7X4UcZDX9UIJqAhs,2385
+xrp_price_aggregate/providers/kraken.py,sha256=vL7NBa1mkLhiPCm1pOk7jIqmCh2-J7mb8Go-Ve0jhn0,1151
+xrp_price_aggregate-0.0.5.dist-info/LICENSE,sha256=QYKU9nv5q_OoTEFgq_PL7Rub-zzRbXtJDYQN1cnNCpw,971
+xrp_price_aggregate-0.0.5.dist-info/METADATA,sha256=qorIgBXukP56MhPDRbi2yUMwhe6V_6A5LqznzMIw0R0,5978
+xrp_price_aggregate-0.0.5.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+xrp_price_aggregate-0.0.5.dist-info/top_level.txt,sha256=my4gDc5mw72y7Xhj4yddpH96qI7M5EYkUcIxofd3jTg,20
+xrp_price_aggregate-0.0.5.dist-info/RECORD,,
