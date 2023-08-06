@@ -1,0 +1,10 @@
+beavis/__init__.py,sha256=KAsjfJsKCGoeBSnf0ZOp0rOLMU1oOMd-YfUAXQ8c_hY,92
+beavis/bcolors.py,sha256=RH4LgcLbk6EbCiJy1Zl21Ho8flY-kHQ95HZVeQP6_Sg,662
+beavis/ddf_helpers.py,sha256=6cRgi3nvmuSZurHzvM1CesEkKM9ryyHl_tyPIbSA24U,279
+beavis/equality.py,sha256=xX1EfU_0rchpk8Hi_DmxmDJoszEZIzD6l93wg_87agw,348
+beavis/prettytable.py,sha256=NPlTxImv3CH-eOstMvcrUmGLc7bVmNqZnlP1BZ-5gZk,66117
+beavis/six.py,sha256=s81nbf8QT15Nkub1Lfh_PjUnuXbZJhRnlzpLwD2kfTc,34275
+beavis/testing.py,sha256=-jthDSp0J4-OWnIpU5xrehBI116ASZbVTr-ZdgkHgUo,4069
+beavis-0.1.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+beavis-0.1.0.dist-info/METADATA,sha256=JEsE9hkMM0LAa37xNSvCqtb0ceGM-fqib_Zb7vQBp7U,311
+beavis-0.1.0.dist-info/RECORD,,

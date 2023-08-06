@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: beavis
+Version: 0.1.0
+Summary: 
+Author: MrPowers
+Author-email: matthewkevinpowers@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: dask (>2021.01.1)
+Requires-Dist: pandas (>=1.0.0)
