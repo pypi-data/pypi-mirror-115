@@ -1,0 +1,9 @@
+README.md
+setup.py
+clever_chat/__init__.py
+clever_chat/clever.py
+clever_chat.egg-info/PKG-INFO
+clever_chat.egg-info/SOURCES.txt
+clever_chat.egg-info/dependency_links.txt
+clever_chat.egg-info/requires.txt
+clever_chat.egg-info/top_level.txt
