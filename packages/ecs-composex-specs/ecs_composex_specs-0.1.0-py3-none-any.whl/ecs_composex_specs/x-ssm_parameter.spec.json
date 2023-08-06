@@ -1,0 +1,55 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "id": "x-ssm_parameter.spec.json",
+    "$id": "x-ssm_parameter.spec.json",
+    "title": "x-ssm_parameter",
+    "description": "x-ssm_parameter specification   ",
+    "type": "object",
+    "properties": {
+        "Lookup": {
+            "$ref": "x-resources.common.spec.json#/definitions/Lookup"
+        },
+        "Use": {
+            "type": "string"
+        },
+        "Properties": {
+            "type": "object",
+            "description": "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ssm-parameter.html"
+        },
+        "Settings" : {
+            "$ref": "x-resources.common.spec.json#/definitions/Settings"
+        },
+        "MacroParameters": {
+            "type": "object",
+            "properties": {
+                "FromFile": {
+                    "type": "string",
+                    "description": "Path to the file to read the content of and set as Value"
+                }
+            }
+        },
+        "Services": {
+            "type": "array",
+            "items": {
+                "$ref": "#/definitions/ServicesDef"
+            }
+        }
+    },
+    "definitions": {
+        "ServicesDef": {
+            "type": "object",
+            "properties": {
+                "name": {
+                    "type": "string"
+                },
+                "access": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "name",
+                "access"
+            ]
+        }
+    }
+}
