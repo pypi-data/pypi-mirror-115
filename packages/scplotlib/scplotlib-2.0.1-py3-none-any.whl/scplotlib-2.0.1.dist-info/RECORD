@@ -1,0 +1,13 @@
+scplotlib/__init__.py,sha256=3q5_g_JhRRdzNu3jMD2SZ-YW-SFlDiUxQxaKsTF0wnA,915
+scplotlib/scp_core.py,sha256=1c6-ru64_FOXG3eGRYYKCbs5CJ89DZO4ZhP-1xUniNo,2821
+scplotlib/scp_heatmap.py,sha256=ueb4Otgc_f8Yhbn7w-TvH-Gl1AAMnnLhj0j7gyKJpIQ,3441
+scplotlib/scp_outlierplots.py,sha256=uN_UsdB6GkaOolT7BbIdr8EaBRWJbGO_5HsLQf2ET6Y,2353
+scplotlib/scp_pcaplot.py,sha256=z-v4eCmQqYzZSZM2NkIxeIl5FiMDaV9YQHg0BjHVEr8,4296
+scplotlib/scp_silhouetteplot.py,sha256=25y9gzbPtl_IwwWqipBJDNs6BwkEgP4YtJuip8e7A9k,2957
+scplotlib/scp_themes.py,sha256=M5LvyBLQmg2T9NB25vfu_owHgDy-_GZDZuXmWIEKBHI,1386
+scplotlib/scp_tsneplot.py,sha256=Mv3EsD_J5-H05JdUIFjpX66BQi3IkqfCSZSDZG9IjHs,6481
+scplotlib-2.0.1.dist-info/LICENSE,sha256=ac6-Vxz6LWLfOAzKSh3WSDBKxTzXaAqZOf61fKHdNa0,1067
+scplotlib-2.0.1.dist-info/METADATA,sha256=hh2CVALEtIaV7Vsfd9hdQ4DwmH4JDUiwUbG_iLsf8gc,1166
+scplotlib-2.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+scplotlib-2.0.1.dist-info/top_level.txt,sha256=gVFOXdu90x-olGqRJ_zna1Dp9Ca-TfpTo51scRXehc4,10
+scplotlib-2.0.1.dist-info/RECORD,,
