@@ -1,0 +1,7 @@
+tensorflow>=2.0
+pyzmq
+ruamel.yaml
+tornado
+requests==2.21
+urllib3==1.21.1
+grpcio
