@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+vinset/__init__.py
+vinset/vin.py
+vinset.egg-info/PKG-INFO
+vinset.egg-info/SOURCES.txt
+vinset.egg-info/dependency_links.txt
+vinset.egg-info/entry_points.txt
+vinset.egg-info/not-zip-safe
+vinset.egg-info/requires.txt
+vinset.egg-info/top_level.txt
