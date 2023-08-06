@@ -1,0 +1,103 @@
+Metadata-Version: 2.1
+Name: ctextinct
+Version: 6.3.0
+Summary: Educational Cyber Security Chatbot - Working to Making Cyber Threats Extinct
+Home-page: https://github.com/aapatrick/CT_Extinct/tree/master
+Author: Patrick Abdul-Ahad
+Author-email: aa.patrick@outlook.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+License-File: LICENCE
+Requires-Dist: absl-py
+Requires-Dist: astunparse
+Requires-Dist: beautifulsoup4
+Requires-Dist: bleach
+Requires-Dist: bs4
+Requires-Dist: cachetools
+Requires-Dist: certifi
+Requires-Dist: charset-normalizer
+Requires-Dist: click
+Requires-Dist: colorama
+Requires-Dist: docutils
+Requires-Dist: flatbuffers
+Requires-Dist: gast
+Requires-Dist: google-auth
+Requires-Dist: google-auth-oauthlib
+Requires-Dist: google-pasta
+Requires-Dist: grpcio
+Requires-Dist: h5py
+Requires-Dist: idna
+Requires-Dist: importlib-metadata
+Requires-Dist: joblib
+Requires-Dist: keras-nightly
+Requires-Dist: Keras-Preprocessing
+Requires-Dist: keyring
+Requires-Dist: Markdown
+Requires-Dist: newsapi
+Requires-Dist: newsapi-python
+Requires-Dist: nltk
+Requires-Dist: numpy
+Requires-Dist: oauthlib
+Requires-Dist: opt-einsum
+Requires-Dist: packaging
+Requires-Dist: pandas
+Requires-Dist: Pillow
+Requires-Dist: pkginfo
+Requires-Dist: protobuf
+Requires-Dist: pyasn1
+Requires-Dist: pyasn1-modules
+Requires-Dist: Pygments
+Requires-Dist: pyparsing
+Requires-Dist: python-dateutil
+Requires-Dist: pytz
+Requires-Dist: pywin32-ctypes
+Requires-Dist: readme-renderer
+Requires-Dist: regex
+Requires-Dist: requests
+Requires-Dist: requests-oauthlib
+Requires-Dist: requests-toolbelt
+Requires-Dist: rfc3986
+Requires-Dist: rsa
+Requires-Dist: six
+Requires-Dist: soupsieve
+Requires-Dist: tensorboard
+Requires-Dist: tensorboard-data-server
+Requires-Dist: tensorboard-plugin-wit
+Requires-Dist: tensorflow
+Requires-Dist: tensorflow-estimator
+Requires-Dist: termcolor
+Requires-Dist: tqdm
+Requires-Dist: twine
+Requires-Dist: typing-extensions
+Requires-Dist: urllib3
+Requires-Dist: webencodings
+Requires-Dist: Werkzeug
+Requires-Dist: wrapt
+Requires-Dist: zipp
+
+# CT Extinct
+This program uses deep learning and a Cybersecurity dataset to
+make Cyber Threats Extinct by educating employees on how to
+recognise a threat, and the correct steps to take once identified.
+
+## Installation
+'''pip install ctextinct'''
+
+## How to use it?
+Sign into your company account or Anonymously. Ask the cyber chatbot
+cyber security related questions. Use the buttons to navigate to
+different features of the application including a section to find the
+latest Cyber News that day, or a Cyber Security Incident or Feedback form.
+
+## License
+(c) 2021 CT Extinct
+
+This repository is licenced under the MIT licence.
+See LICENCE for details.
+
+
