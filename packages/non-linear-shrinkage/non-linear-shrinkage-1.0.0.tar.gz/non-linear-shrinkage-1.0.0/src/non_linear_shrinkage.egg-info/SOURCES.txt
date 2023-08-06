@@ -1,0 +1,12 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/non_linear_shrinkage.egg-info/PKG-INFO
+src/non_linear_shrinkage.egg-info/SOURCES.txt
+src/non_linear_shrinkage.egg-info/dependency_links.txt
+src/non_linear_shrinkage.egg-info/requires.txt
+src/non_linear_shrinkage.egg-info/top_level.txt
+src/nonlinshrink/__init__.py
+src/nonlinshrink/nonlinshrink.py
