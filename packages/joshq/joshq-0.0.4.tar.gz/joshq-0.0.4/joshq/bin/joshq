@@ -1,0 +1,23 @@
+#!/usr/bin/env python
+import argparse
+from joshq import joshq
+from colorama import Back, Style
+import sys
+
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--files", nargs="+")
+    args = parser.parse_args()
+    warnings = []
+    for file in args.files:
+        if file.endswith('.py'):
+            with open(file, 'r') as infile:
+                warnings.extend(joshq.parse(filename=file, contents=infile.read()))
+    if len(warnings) != 0:
+        for warning in warnings:
+            print(Style.BRIGHT + Back.RED + f"[JOSHQ:warning 😿 ] f-string within log statement found in {warning[0]}:{warning[1]}" + Style.RESET_ALL)
+        sys.exit(1)
+    else:
+        print(Style.BRIGHT + Back.GREEN + "[JOSHQ:warning 😻]: All good ✅" + Style.RESET_ALL)
+
