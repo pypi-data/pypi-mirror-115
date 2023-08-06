@@ -1,0 +1,3 @@
+[console_scripts]
+kbox = kbox.kbox:execute_kbox_command
+
