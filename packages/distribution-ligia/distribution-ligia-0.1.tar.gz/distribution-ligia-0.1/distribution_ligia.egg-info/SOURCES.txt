@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+distribution_ligia.egg-info/PKG-INFO
+distribution_ligia.egg-info/SOURCES.txt
+distribution_ligia.egg-info/dependency_links.txt
+distribution_ligia.egg-info/not-zip-safe
+distribution_ligia.egg-info/top_level.txt
+distributions/Binomialdistribution.py
+distributions/Gaussiandistribution.py
+distributions/Generaldistribution.py
