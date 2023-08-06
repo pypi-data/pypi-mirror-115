@@ -1,0 +1,15 @@
+summarizer/__init__.py,sha256=IbTizWeA-XtRyK4v7c4KN62zBUgbPE6gsHGue2SDjns,125
+summarizer/bert_parent.py,sha256=QI4FR3DlTtO86Zdp4TxZaGxo1xiDAsO2H0szJyHotjc,6089
+summarizer/cluster_features.py,sha256=wyRf3wMQkDVHdjKeScboNH1lB2IJCPYQq0avvlDXwpE,4828
+summarizer/coreference_handler.py,sha256=P3TEBnC71vX6fwhbQ4A7Vz9ygZT6RyLIgTS4SaONRNM,1310
+summarizer/model_processors.py,sha256=tQtGr6c8Ipm5PIXzuoY45PoQ2xAlRPXJVIstxPCHv14,16099
+summarizer/sentence_handler.py,sha256=S85B4LhlJPOAVvxsPHwq3xG3RKWOPQOjVGMTYZ4axFc,2421
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_coreference.py,sha256=5tuvSUqcfeK8BtjZvrlI0DrMC3DlSlXljblvAG_Jb7g,428
+tests/test_sentence_handler.py,sha256=m9r1o8Jyr3THcbpQl3HRg0OYUilUl_NAAV1Pvfbl-gQ,3170
+tests/test_summary_items.py,sha256=YVmJfMjrguMLKcrTmRV3iarI6fNY_6KGFTlegNK1XVI,5789
+bert_extractive_summarizer-0.8.1.dist-info/LICENSE,sha256=8ZlZUa7S0HgNJj2emNhH-GBgqByHaOE9EDLPWj_BfdM,1069
+bert_extractive_summarizer-0.8.1.dist-info/METADATA,sha256=MbqN5kt-fMj2XuuCBt975m0ZCNJFOkduIVYlkgxABtE,14764
+bert_extractive_summarizer-0.8.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+bert_extractive_summarizer-0.8.1.dist-info/top_level.txt,sha256=e2Uau8wOkA_iIIlWsqnC2yjUQ0z7ek7RF7-LcDe7TvE,17
+bert_extractive_summarizer-0.8.1.dist-info/RECORD,,
