@@ -1,0 +1,14 @@
+roulette/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+roulette/__main__.py,sha256=5KILuXig_C85qWMu5jPqxpguyOlGBB05Rud4XM8XUQM,63
+roulette/play.py,sha256=8B4O5nU5LIQmsvYoFrxv-nGM4IvhCAVfNJZv1L_zgUs,11014
+roulette/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+roulette/utils/config.py,sha256=7LwuAzxLRDpNt4OCleDctUpavzXXtxUVH-weB40EDLo,938
+roulette/vars/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+roulette/vars/bets.py,sha256=Y1-D1dv9jtJVzeJv_lTKpnS1uDJ97olwqD-uQBSfrOM,2394
+roulette/vars/numbers.py,sha256=dkrjbxCEovrklnxvyQzJuElc_75LcsKwEqPa92jXXog,703
+roulette-1.5.dist-info/LICENSE,sha256=WqS7GgVJk_T1GouVCLKKsR1q83EOah9Hpb72mq0pQ64,1073
+roulette-1.5.dist-info/METADATA,sha256=HXzR0OhCbQ9I4TQ0u-UYFuHz0zBDx-JeP6J_fDv64jI,2010
+roulette-1.5.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+roulette-1.5.dist-info/entry_points.txt,sha256=npn2gHofu-KOmSgsjXMo2ribDtHrfM6BZNDtDO3QwR8,49
+roulette-1.5.dist-info/top_level.txt,sha256=PtCNhYG6MuXprs2KioYVlo_q6z7gPfUgLvPxOPMESIQ,9
+roulette-1.5.dist-info/RECORD,,
