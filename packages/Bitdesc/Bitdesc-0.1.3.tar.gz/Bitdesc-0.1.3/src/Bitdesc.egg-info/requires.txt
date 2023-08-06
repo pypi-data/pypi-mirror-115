@@ -1,0 +1,11 @@
+opencv-python
+Scipy
+Numpy
+Pillow
+imageio
+scikit-image
+Shapely
+matplotlib
+
+[dev]
+pytest>=3.6
