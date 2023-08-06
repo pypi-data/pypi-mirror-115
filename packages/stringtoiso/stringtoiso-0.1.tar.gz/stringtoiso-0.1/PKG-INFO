@@ -1,0 +1,24 @@
+Metadata-Version: 1.1
+Name: stringtoiso
+Version: 0.1
+Summary: A library that converts string inputs representing languages like "Spanish" into their ISO-639 code equivalents.
+Home-page: https://anvayvats.ml
+Author: Anvay Vats
+Author-email: vats98754@gapps.uwcsea.edu.sg
+License: MIT
+Download-URL: https://github.com/vats98754/stringtoiso/archive/refs/tags/v_01.tar.gz
+Description: UNKNOWN
+Keywords: ISO-639-1,ISO-639-2B,ISO-639-2T,ISO-639-3,ISO-639,ISO,converter,string,gTTS
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
