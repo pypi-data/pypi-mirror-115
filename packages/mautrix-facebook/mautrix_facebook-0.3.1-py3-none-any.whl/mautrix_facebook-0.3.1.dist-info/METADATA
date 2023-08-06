@@ -1,0 +1,76 @@
+Metadata-Version: 2.1
+Name: mautrix-facebook
+Version: 0.3.1
+Summary: A Matrix-Facebook Messenger puppeting bridge.
+Home-page: https://github.com/mautrix/facebook
+Author: Tulir Asokan
+Author-email: tulir@maunium.net
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Topic :: Communications :: Chat
+Classifier: Framework :: AsyncIO
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: ~=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: aiohttp (<4,>=3)
+Requires-Dist: yarl (<2,>=1)
+Requires-Dist: asyncpg (<0.24,>=0.20)
+Requires-Dist: ruamel.yaml (<0.18,>=0.15.94)
+Requires-Dist: commonmark (<0.10,>=0.8)
+Requires-Dist: python-magic (<0.5,>=0.4)
+Requires-Dist: mautrix (<0.11,>=0.10.2)
+Requires-Dist: pycryptodome (<4,>=3)
+Requires-Dist: paho-mqtt (<2,>=1.5)
+Provides-Extra: all
+Requires-Dist: python-olm (<4,>=3) ; extra == 'all'
+Requires-Dist: pillow (<9,>=4) ; extra == 'all'
+Requires-Dist: prometheus-client (<0.12,>=0.6) ; extra == 'all'
+Requires-Dist: setuptools ; extra == 'all'
+Requires-Dist: pysocks ; extra == 'all'
+Requires-Dist: unpaddedbase64 (<2,>=1) ; extra == 'all'
+Requires-Dist: aiohttp-socks ; extra == 'all'
+Provides-Extra: animated_stickers
+Requires-Dist: pillow (<9,>=4) ; extra == 'animated_stickers'
+Provides-Extra: e2be
+Requires-Dist: python-olm (<4,>=3) ; extra == 'e2be'
+Requires-Dist: unpaddedbase64 (<2,>=1) ; extra == 'e2be'
+Provides-Extra: metrics
+Requires-Dist: prometheus-client (<0.12,>=0.6) ; extra == 'metrics'
+Provides-Extra: proxy
+Requires-Dist: pysocks ; extra == 'proxy'
+Requires-Dist: aiohttp-socks ; extra == 'proxy'
+Provides-Extra: weblogin
+Requires-Dist: setuptools ; extra == 'weblogin'
+
+# mautrix-facebook
+![Languages](https://img.shields.io/github/languages/top/mautrix/facebook.svg)
+[![License](https://img.shields.io/github/license/mautrix/facebook.svg)](LICENSE)
+[![Release](https://img.shields.io/github/release/mautrix/facebook/all.svg)](https://github.com/mautrix/facebook/releases)
+[![GitLab CI](https://mau.dev/mautrix/facebook/badges/master/pipeline.svg)](https://mau.dev/mautrix/facebook/container_registry)
+
+A Matrix-Facebook Messenger puppeting bridge.
+
+## Documentation
+All setup and usage instructions are located on
+[docs.mau.fi](https://docs.mau.fi/bridges/python/facebook/index.html).
+Some quick links:
+
+* [Bridge setup](https://docs.mau.fi/bridges/python/setup/index.html?bridge=facebook)
+  (or [with Docker](https://docs.mau.fi/bridges/python/setup/docker.html?bridge=facebook))
+* Basic usage: [Authentication](https://docs.mau.fi/bridges/python/facebook/authentication.html)
+
+### Features & Roadmap
+[ROADMAP.md](https://github.com/mautrix/facebook/blob/master/ROADMAP.md)
+contains a general overview of what is supported by the bridge.
+
+## Discussion
+Matrix room: [`#facebook:maunium.net`](https://matrix.to/#/#facebook:maunium.net)
+
+
