@@ -1,0 +1,8 @@
+apisession/__init__.py,sha256=EciQwP9kXadAXcr7TQkpBLEEuhVM6Y2SDus6gZcrrPQ,181
+apisession/apisession.py,sha256=KfaTG19lObCtsw9rx532-fRAFjp_n7RpQFrWzDyK2dg,3164
+apisession/debouncer.py,sha256=XuBN8JS8pVpjHePuTkYibHyQBbQB8U-KNIvlRKse-SU,1115
+apisession/throttle.py,sha256=f5c-P2-trq-pU6O3YrX0u-nubguA4Y2Y91iRL_8fYEs,949
+apisession/tokenauthenticator.py,sha256=LWLN6cIUyxehpaZuHd5VsIWei8eb0hekCPfFzFRiQZQ,1673
+aio_apisession-0.1.1.dist-info/WHEEL,sha256=VN2eEg4PHbTOniXb-cCYQPc6zUTS4dAcATjlgU3q-Lo,83
+aio_apisession-0.1.1.dist-info/METADATA,sha256=Y2manmBhqxKWmG3jnYT0BDjqQQ6xBsmbRG_tCjpUT0M,346
+aio_apisession-0.1.1.dist-info/RECORD,,
