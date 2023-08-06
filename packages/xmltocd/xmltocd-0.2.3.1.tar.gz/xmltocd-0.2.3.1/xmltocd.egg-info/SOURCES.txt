@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+xmltocd/__init__.py
+xmltocd/_collections.py
+xmltocd/_decorator.py
+xmltocd/_exception.py
+xmltocd/_ntype.py
+xmltocd/_parse.py
+xmltocd/_rely.py
+xmltocd/_tools.py
+xmltocd/manager.py
+xmltocd/struct.py
+xmltocd.egg-info/PKG-INFO
+xmltocd.egg-info/SOURCES.txt
+xmltocd.egg-info/dependency_links.txt
+xmltocd.egg-info/top_level.txt

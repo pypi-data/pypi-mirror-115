@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: xmltocd
+Version: 0.2.3.1
+Summary: An effective, powerful, fast and simple XML Python parsing tool.
+Home-page: https://github.com/JIYANG-PLUS/xml-to-chain-dict
+Author: jiyang
+Author-email: jiyangj@foxmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# xml-to-chain-dict
+An effective, powerful, fast and simple XML Python parsing tool.
+
+`online tutorial`：http://101.34.219.31:8001/
+
+# 注：
+0.2.2.2 版本（包含）之前的代码为测试版，不稳定；
+0.2.3.1 版本（包含）往后的代码为正式版，提供稳定的解析引擎。
+
+## 若您有意参与本工具的开发，请直接联系：jiyangj@foxmail.com，期待您的意见。
+
+
