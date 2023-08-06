@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: boundary-curvature
+Version: 0.0.1
+Summary: Method to calculate boundary curvature from binarized image
+Home-page: https://github.com/mahdilamb/boundary_curvature
+Author: Mahdi Lamb
+Author-email: mahdilamb@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Python port of https://github.com/preethamam/CurvatureVisualize
+
+The original MATLAB package finds the boundary curvature of a binarised 2D image
+
+

@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+boundary_curvature/__init__.py
+boundary_curvature/curvature.py
+boundary_curvature.egg-info/PKG-INFO
+boundary_curvature.egg-info/SOURCES.txt
+boundary_curvature.egg-info/dependency_links.txt
+boundary_curvature.egg-info/requires.txt
+boundary_curvature.egg-info/top_level.txt
