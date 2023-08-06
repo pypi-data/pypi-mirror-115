@@ -1,0 +1,6 @@
+GCLICK_URL_BASE = 'https://g2apiteste.gclick.com.br'
+ENDPOINT_ATIVIDADES_RESPOSTA = GCLICK_URL_BASE + '/atividades/resposta'
+GCLICK_URL_OAUTH_BASE = 'https://g2apiteste.gclick.com.br'
+ENDPOINT_ACCESS_TOKEN = GCLICK_URL_OAUTH_BASE + '/oauth/token'
+DEFAULT_TIMEOUT_AUTHENTICATION = 10
+DEFAULT_TIMEOUT_UPLOAD = 60

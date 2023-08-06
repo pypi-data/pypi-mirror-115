@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/gclick_sdk/__init__.py
+src/gclick_sdk/atividade_exception.py
+src/gclick_sdk/atividades_client.py
+src/gclick_sdk/credentials.py
+src/gclick_sdk/exception.py
+src/gclick_sdk/gclick.py
+src/gclick_sdk.egg-info/PKG-INFO
+src/gclick_sdk.egg-info/SOURCES.txt
+src/gclick_sdk.egg-info/dependency_links.txt
+src/gclick_sdk.egg-info/top_level.txt
