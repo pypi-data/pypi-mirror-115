@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "levo"
+version = "0.1.0"
+description = "Levo.ai's CLI that users can use to automatically trigger functional and security testing of their APIs."
+authors = ["Buchi Reddy B <buchi@levo.ai>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+click = "^7.1.2"
+requests = "^2.25.1"
+schemathesis = "^3.9.3"
+grpcio = "^1.37.0"
+reportportal-client = "^5.0.10"
+protobuf = "^3.15.8"
+colorama = "^0.4.4"
+levo-commons = "0.0.5"
+
+[tool.poetry.dev-dependencies]
+grpcio-tools = "^1.38.0"
+
+[tool.poetry.scripts]
+levo = "levo.cli:levo"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
