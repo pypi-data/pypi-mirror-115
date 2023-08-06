@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+datetimetimedate.egg-info/PKG-INFO
+datetimetimedate.egg-info/SOURCES.txt
+datetimetimedate.egg-info/dependency_links.txt
+datetimetimedate.egg-info/requires.txt
+datetimetimedate.egg-info/top_level.txt
+joshbasiccalculator/__init__.py
