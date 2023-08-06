@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: esguard
+Version: 0.1.0
+Summary: 
+Author: Your Name
+Author-email: you@example.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: docker (>=5.0.0,<6.0.0)
+Requires-Dist: elasticsearch (>=7.12.1,<8.0.0)
+Requires-Dist: six (>=1.16.0,<2.0.0)
