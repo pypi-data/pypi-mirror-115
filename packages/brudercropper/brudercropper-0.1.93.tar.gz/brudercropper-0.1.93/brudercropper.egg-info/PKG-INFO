@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: brudercropper
+Version: 0.1.93
+Summary: Croppt Zeug auf 62mm für Bruderlabeldrucker
+Home-page: UNKNOWN
+Author: Niggo
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+b'# Brudercropper\r\nCropped Bilder f\xc3\xbcr Brother Labeldrucker\r\n## Installation\r\n1. Ghostscript installieren\r\n2. `gs` / `gswin32c` im PATH ablegen\r\n3. [Tesseract installieren](https://tesseract-ocr.github.io/tessdoc/Home.html) \r\n4. `pip install brudercropper`\r\n5. `brudercrop -h`\r\n\r\n\r\n## Nutzung\r\n```\r\nusage: brudercrop [-h] [--dhl] -i INPUT [-l LOGO]\r\n\r\noptional arguments:\r\n  -h, --help            show this help message and exit\r\n  --dhl                 Cropped ein DHL A4 Etikett auf 62mm\r\n  -i INPUT, --input INPUT\r\n                        Inputfile\r\n  -l LOGO, --logo LOGO  Dateipfad zu einem optionalen Logo\r\n```\r\n\r\n### Beispiel\r\n`brudercrop --dhl -i Paketmarke_DHL_orig.pdf`\r\n```\r\nC:\\Users\\A\\AppData\\Local\\Temp\\tmp08l3xlzp\\zos5k5bj.png = 58285.070071.00.3\r\nC:\\Users\\A\\AppData\\Local\\Temp\\tmp3mmd4zs6\\cgdb_pvj.png = 35.800.229584 6\r\nSaved to result.png\r\n```\r\n\r\n### Ergebnisse\r\n#### Vorher\r\n![Vorher](https://i.imgur.com/8HvF0SF.png)\r\n\r\n#### Nachher\r\n![Nachher](https://i.imgur.com/usKfh6R.png)'
+

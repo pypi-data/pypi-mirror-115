@@ -1,0 +1,6 @@
+imutils
+numpy
+opencv-python
+Pillow>=8
+pytesseract
+python-barcode
