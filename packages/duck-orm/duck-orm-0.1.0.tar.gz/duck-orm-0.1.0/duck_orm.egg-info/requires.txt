@@ -1,0 +1,11 @@
+databases>=0.4.3
+sqlalchemy>=1.3.24
+
+[postgresql]
+asyncpg
+
+[postgresql+aiopg]
+aiopg
+
+[sqlite]
+aiosqlite
