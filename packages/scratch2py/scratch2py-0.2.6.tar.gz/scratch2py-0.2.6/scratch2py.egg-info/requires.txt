@@ -1,0 +1,4 @@
+ScratchEncoder
+requests
+websocket-client
+wsaccel
