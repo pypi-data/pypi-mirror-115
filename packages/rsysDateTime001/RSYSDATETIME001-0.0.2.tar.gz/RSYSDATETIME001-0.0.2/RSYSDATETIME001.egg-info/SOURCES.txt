@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+__init__.py
+setup.py
+RSYSDATETIME001.egg-info/PKG-INFO
+RSYSDATETIME001.egg-info/SOURCES.txt
+RSYSDATETIME001.egg-info/dependency_links.txt
+RSYSDATETIME001.egg-info/requires.txt
+RSYSDATETIME001.egg-info/top_level.txt
