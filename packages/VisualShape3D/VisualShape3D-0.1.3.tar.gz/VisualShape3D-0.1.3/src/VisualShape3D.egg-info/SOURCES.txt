@@ -1,0 +1,124 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+src/VisualShape3D/Constant.py
+src/VisualShape3D/Shapes.py
+src/VisualShape3D/Utils.py
+src/VisualShape3D/VisualShapes.py
+src/VisualShape3D/__init__.py
+src/VisualShape3D.egg-info/PKG-INFO
+src/VisualShape3D.egg-info/SOURCES.txt
+src/VisualShape3D.egg-info/dependency_links.txt
+src/VisualShape3D.egg-info/top_level.txt
+src/html/.buildinfo
+src/html/LineXLine or Polygon.html
+src/html/OperationOnLine.html
+src/html/OperationOnPoint.html
+src/html/PointXLine or Polygon.html
+src/html/PointXLine or Polygon0.html
+src/html/ShapeFunctions.html
+src/html/VisualShapes.html
+src/html/about.html
+src/html/beforeuse.html
+src/html/creating point line polygon.html
+src/html/draw some pictures.html
+src/html/eps.html
+src/html/genindex.html
+src/html/get_started.html
+src/html/index.html
+src/html/install.html
+src/html/objects.inv
+src/html/point line polygon.html
+src/html/pointX line or polygon.html
+src/html/precision.html
+src/html/search.html
+src/html/searchindex.js
+src/html/_images/PointEdge.png
+src/html/_images/PointInPolygon.png
+src/html/_images/Points.PNG
+src/html/_images/SpeciaComplexs.PNG
+src/html/_images/box3D.PNG
+src/html/_images/boxFunction.PNG
+src/html/_images/eps0.png
+src/html/_images/eps1.png
+src/html/_images/eps2.png
+src/html/_images/global_coordinates.PNG
+src/html/_images/house.PNG
+src/html/_images/house3D.PNG
+src/html/_images/houseFunction.PNG
+src/html/_images/line1.PNG
+src/html/_images/line2.PNG
+src/html/_images/local_coordinates.PNG
+src/html/_images/logo.PNG
+src/html/_images/logo_drawn.PNG
+src/html/_images/matrix.PNG
+src/html/_images/pointXline1.png
+src/html/_images/pointXline2.png
+src/html/_images/point_in_polygon2D.PNG
+src/html/_images/pointsandpolygon.png
+src/html/_images/polygon1.png
+src/html/_images/polygon2-1.png
+src/html/_images/polyline1.PNG
+src/html/_images/polyline2.PNG
+src/html/_images/shape1.PNG
+src/html/_images/shape2.PNG
+src/html/_images/shape3.PNG
+src/html/_images/shape3ex.PNG
+src/html/_images/shape4.PNG
+src/html/_images/shape5.PNG
+src/html/_images/shapeComplex.PNG
+src/html/_images/shapeComplexSpecials.PNG
+src/html/_images/shapes.PNG
+src/html/_images/shapes_rotation.png
+src/html/_images/shapes_test.PNG
+src/html/_images/testPolyon1.PNG
+src/html/_images/testPolyon2.PNG
+src/html/_sources/LineXLine or Polygon.rst.txt
+src/html/_sources/PointXLine or Polygon.rst.txt
+src/html/_sources/about.rst.txt
+src/html/_sources/beforeuse.rst.txt
+src/html/_sources/creating point line polygon.rst.txt
+src/html/_sources/draw some pictures.rst.txt
+src/html/_sources/eps.rst.txt
+src/html/_sources/index.rst.txt
+src/html/_sources/install.rst.txt
+src/html/_sources/point line polygon.rst.txt
+src/html/_sources/pointX line or polygon.rst.txt
+src/html/_static/basic.css
+src/html/_static/doctools.js
+src/html/_static/documentation_options.js
+src/html/_static/file.png
+src/html/_static/jquery-3.5.1.js
+src/html/_static/jquery.js
+src/html/_static/language_data.js
+src/html/_static/minus.png
+src/html/_static/plus.png
+src/html/_static/pygments.css
+src/html/_static/searchtools.js
+src/html/_static/underscore-1.12.0.js
+src/html/_static/underscore.js
+src/html/_static/css/badge_only.css
+src/html/_static/css/theme.css
+src/html/_static/css/fonts/Roboto-Slab-Bold.woff
+src/html/_static/css/fonts/Roboto-Slab-Bold.woff2
+src/html/_static/css/fonts/Roboto-Slab-Regular.woff
+src/html/_static/css/fonts/Roboto-Slab-Regular.woff2
+src/html/_static/css/fonts/fontawesome-webfont.eot
+src/html/_static/css/fonts/fontawesome-webfont.svg
+src/html/_static/css/fonts/fontawesome-webfont.ttf
+src/html/_static/css/fonts/fontawesome-webfont.woff
+src/html/_static/css/fonts/fontawesome-webfont.woff2
+src/html/_static/css/fonts/lato-bold-italic.woff
+src/html/_static/css/fonts/lato-bold-italic.woff2
+src/html/_static/css/fonts/lato-bold.woff
+src/html/_static/css/fonts/lato-bold.woff2
+src/html/_static/css/fonts/lato-normal-italic.woff
+src/html/_static/css/fonts/lato-normal-italic.woff2
+src/html/_static/css/fonts/lato-normal.woff
+src/html/_static/css/fonts/lato-normal.woff2
+src/html/_static/js/badge_only.js
+src/html/_static/js/html5shiv-printshiv.min.js
+src/html/_static/js/html5shiv.min.js
+src/html/_static/js/theme.js

@@ -1,0 +1,9 @@
+include src/html/*
+include README.md
+include help.bat
+include src/html/_images/*
+include src/html/_sources/*
+include src/html/_static/*
+include src/html/_static/js/*
+include src/html/_static/css/*
+include src/html/_static/css/fonts/*
