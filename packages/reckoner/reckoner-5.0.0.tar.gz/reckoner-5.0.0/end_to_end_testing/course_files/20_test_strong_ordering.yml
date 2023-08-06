@@ -1,0 +1,14 @@
+namespace: 20-test
+repositories:
+  ingress-nginx:
+    url: https://kubernetes.github.io/ingress-nginx
+minimum_versions:
+  helm: 0.0.0
+  reckoner: 0.0.0
+charts:
+  first-chart:
+    repository: ingress-nginx
+    chart: ingress-nginx
+  second-chart:
+    repository: ingress-nginx
+    chart: ingress-nginx

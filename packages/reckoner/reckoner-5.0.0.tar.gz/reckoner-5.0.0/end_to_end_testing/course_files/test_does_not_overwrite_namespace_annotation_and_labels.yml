@@ -1,0 +1,21 @@
+namespace: annotatednamespace #namespace to install the chart in, defaults to 'kube-system'
+namespace_management:
+  default:
+    metadata:
+      annotations:
+        reckoner: doesnotrockalsoshoulenotbewritten
+      labels:
+        rocks: reckonerstillshouldnotbewritten
+    settings:
+      overwrite: False
+repositories:
+  ingress-nginx:
+    url: https://kubernetes.github.io/ingress-nginx
+minimum_versions: #set minimum version requirements here
+  helm: 0.0.0
+  reckoner: 0.0.0
+charts:
+  namespace-test:
+    repository: ingress-nginx
+    chart: ingress-nginx
+    namespace: annotatednamespace

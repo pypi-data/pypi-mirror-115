@@ -1,0 +1,16 @@
+namespace: 08-second
+repositories:
+  ingress-nginx:
+    url: https://kubernetes.github.io/ingress-nginx
+minimum_versions:
+  helm: 0.0.0
+  reckoner: 0.0.0
+charts:
+  first-chart:
+    repository: ingress-nginx
+    chart: ingress-nginx
+    namespace: 08-first
+  second-chart:
+    repository: ingress-nginx
+    chart: ingress-nginx
+    namespace: 08-second

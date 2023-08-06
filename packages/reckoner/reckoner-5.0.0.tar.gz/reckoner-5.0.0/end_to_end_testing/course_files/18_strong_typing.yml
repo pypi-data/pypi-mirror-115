@@ -1,0 +1,35 @@
+---
+namespace: 18-testing
+minimum_versions:
+  helm: 0.0.0
+  reckoner: 0.0.0
+repositories:
+  ingress-nginx:
+    url: https://kubernetes.github.io/ingress-nginx
+charts:
+  chart-values:
+    repository: ingress-nginx
+    chart: ingress-nginx
+    values:
+      expect-number-float: 1.05
+      expect-bool-false: false
+      expect-bool-true: true
+      expect-string-true: "true"
+      expect-string-integer: "1000"
+      expect-number-integer: 1000
+      expect-null-from-null: null
+      expect-string-from-null: "null"
+  chart-env-values:
+    repository: ingress-nginx
+    chart: ingress-nginx
+    values:
+      expect-string-from-env-var-yes: "${yes_var}"
+      expect-bool-yes-from-env-var-yes-no-quotes: ${yes_var}
+      expect-bool-true-from-env-var-true-no-quotes: ${true_var}
+      expect-string-from-env-var-true: "${true_var}"
+      expect-bool-false-from-env-var-false-no-quotes: ${false_var}
+      expect-string-from-env-var-false: "${false_var}"
+      expect-string-from-integer: "${int_var}"
+      expect-number-from-integer-no-quotes: ${int_var}
+      expect-number-from-float-no-quotes: ${float_var}
+      expect-string-from-float: "${float_var}"

@@ -1,0 +1,51 @@
+version: "2"
+name: Strong Typing
+vars:
+  course: ../course_files/18_strong_typing.yml
+  namespace: 18-testing
+testcases:
+- name: 18 - plot course
+  steps:
+  - script: |
+      yes_var=yes true_var=true false_var=false int_var=123 float_var=1.234 reckoner plot {{.course}} -a 2> /dev/null
+    assertions:
+    - result.code ShouldEqual 0
+- name: 18 - check values
+  steps:
+  - script: |
+      set -e
+      charts="$(helm ls --namespace {{.namespace}} --output json | jq -r '.[].name')"
+      for _release_install in ${charts}; do
+          values="$(helm get values --namespace {{.namespace}} "${_release_install}" --output json | jq -e -r 'keys|.[]')"
+          for key in ${values}; do
+              helm -n {{.namespace}} get values ${_release_install} -ojson | jq  ". | has(\"${key}\")" > /dev/null
+              # Check type of key found in json
+              case "${key}" in
+                  expect-float*)
+                      _expected_type="number"
+                      ;;
+                  expect-number*)
+                      _expected_type="number"
+                      ;;
+                  expect-string*)
+                      _expected_type="string"
+                      ;;
+                  expect-bool*)
+                      _expected_type="boolean"
+                      ;;
+                  expect-null*)
+                      _expected_type="null"
+                      ;;
+                  *)
+                      exit 1
+                      ;;
+              esac
+              helm -n {{.namespace}} get values ${_release_install} -ojson | jq -e ".[\"${key}\"] | type == \"${_expected_type}\"" > /dev/null
+          done
+      done
+    assertions:
+    - result.code ShouldEqual 0
+- name: 18 - cleanup
+  steps:
+    - script: |
+        kubectl delete ns {{.namespace}}

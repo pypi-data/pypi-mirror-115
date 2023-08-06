@@ -1,0 +1,34 @@
+version: "2"
+name: Environment Variable Interpolation
+vars:
+  course: ../course_files/03_test_env_var.yml
+  namespace: 03-infra
+testcases:
+- name: 03 - plot without var
+  steps:
+  - script: |
+      reckoner plot -a {{.course}}
+    assertions:
+    - result.code ShouldEqual 1
+- name: 03 - plot course with var
+  steps:
+  - script: |
+      myvar=testing reckoner plot -a {{.course}}
+    assertions:
+    - result.code ShouldEqual 0
+  - script: |
+      helm -n {{.namespace}} ls
+    assertions:
+    - result.code ShouldEqual 0
+    - result.systemout ShouldContainSubstring 'check-values'
+- name: 03 - check values
+  steps:
+  - script: |
+      helm -n {{.namespace}} get values check-values -ojson | jq -e ".[\"non-used\"] == \"testing\""
+  assertions:
+    - result.code ShouldEqual 0
+- name: 03 - cleanup
+  steps:
+    - script: |
+        helm -n {{.namespace}} delete check-values
+        kubectl delete ns {{.namespace}}

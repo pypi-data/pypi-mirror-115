@@ -1,0 +1,22 @@
+version: "2"
+name: Exit on Failed Pre Install
+vars:
+  course: ../course_files/06_test_exit_on_pre_install_hook.yml
+  namespace: 06-infra
+  release: nginx-ingress
+testcases:
+- name: 06 - plot course
+  steps:
+  - script: |
+      reckoner plot -a {{.course}}
+    assertions:
+    - result.code ShouldEqual 1
+  - script: |
+      helm -n {{.namespace}} get all {{.release}}
+    assertions:
+    - result.code ShouldEqual 1
+- name: 06 - cleanup
+  steps:
+    - script: |
+        helm -n {{.namespace}} delete {{.release}}
+        kubectl delete ns {{.namespace}}
