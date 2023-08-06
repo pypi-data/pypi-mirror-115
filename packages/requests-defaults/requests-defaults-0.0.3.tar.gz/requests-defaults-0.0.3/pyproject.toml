@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "requests-defaults"
+version = "0.0.3"
+description = ""
+authors = ["Dani Hodovic <dani.hodovic@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests-toolbelt = "^0.9.1"
+pytest-mock = "^3.6.1"
+pytest-httpserver = "^1.0.1"
+pytest-cov = "^2.12.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+pylint = "^2.9.6"
+black = "^21.7b0"
+isort = "^5.9.3"
+mypy = "^0.910"
+ptipython = "^1.0.1"
+pudb = "^2021.1"
+types-requests = "^2.25.4"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+skip_numeric_underscore_normalization = true
+exclude = ".*(venv|virtualenv|migrations|.db|.poetry|.poetry-cache)"
