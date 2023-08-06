@@ -1,0 +1,13 @@
+License
+README.md
+pyproject.toml
+setup.cfg
+man/fortune.6.gz
+src/fortune/__init__.py
+src/fortune/main.py
+src/pnu_fortune.egg-info/PKG-INFO
+src/pnu_fortune.egg-info/SOURCES.txt
+src/pnu_fortune.egg-info/dependency_links.txt
+src/pnu_fortune.egg-info/entry_points.txt
+src/pnu_fortune.egg-info/requires.txt
+src/pnu_fortune.egg-info/top_level.txt

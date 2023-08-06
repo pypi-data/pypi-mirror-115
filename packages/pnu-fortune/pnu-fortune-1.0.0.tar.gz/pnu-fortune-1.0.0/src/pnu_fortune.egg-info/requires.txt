@@ -1,0 +1,3 @@
+fortunes-freebsd-classic
+fortunes-python
+fortunes-unix
