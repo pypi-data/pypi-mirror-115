@@ -1,0 +1,17 @@
+LICENSE-MIT
+MANIFEST.in
+README.md
+setup.py
+tox.ini
+pip_download.egg-info/PKG-INFO
+pip_download.egg-info/SOURCES.txt
+pip_download.egg-info/dependency_links.txt
+pip_download.egg-info/entry_points.txt
+pip_download.egg-info/requires.txt
+pip_download.egg-info/top_level.txt
+pipdownload/__init__.py
+pipdownload/__main__.py
+pipdownload/cli.py
+pipdownload/exceptions.py
+pipdownload/settings.py
+pipdownload/utils.py
