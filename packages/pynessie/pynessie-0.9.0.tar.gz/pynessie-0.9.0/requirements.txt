@@ -1,0 +1,11 @@
+attrs==21.2.0
+botocore==1.21.16
+Click==8.0.1
+confuse==1.5.0
+desert==2020.11.18
+marshmallow==3.13.0
+marshmallow_oneofschema==3.0.1
+python-dateutil>=2.8.0
+requests==2.26.0
+requests-aws4auth==1.1.1
+simplejson==3.17.3
