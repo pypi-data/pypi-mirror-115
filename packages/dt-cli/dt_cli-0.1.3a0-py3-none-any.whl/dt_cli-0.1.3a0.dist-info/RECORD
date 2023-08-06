@@ -1,0 +1,13 @@
+dtcli/__init__.py,sha256=19tqJwRbPINtgsrEL0Oa2BtDio9XSBNC3QZpRRRuwkI,618
+dtcli/building.py,sha256=wNrzHv5EfNb4iAtpghICvAtr6s0s2GVky5pnW_oYUMQ,4312
+dtcli/constants.py,sha256=GCNIfzSHFjb1A4vEjSg3tPr4g8nF_pYxcVpXqmSVEXM,1069
+dtcli/dev.py,sha256=DlsHN0qwsa8cjYkonT0gsp_BbV9O5SJJc5BjVWbk-yc,1191
+dtcli/scripts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dtcli/scripts/dt.py,sha256=a9QOSJ7-XWJ-6YmHBNqOuoqAIjtX0GSClY4nquP0ePo,9324
+dtcli/signing.py,sha256=KAH-JqRM5WSGmh-TlkOQKThJUpEiHis6Aa6CiW4NRWs,8232
+dtcli/utils.py,sha256=WWRpU_eUXdX8SxZC6wHK-281PUda4o3sM8pMbcff4n0,2396
+dt_cli-0.1.3a0.dist-info/entry_points.txt,sha256=wDzHgjT2vuHkUVZQFr3Awa5B4sFTBjin8vntjdkk5dQ,44
+dt_cli-0.1.3a0.dist-info/LICENSE,sha256=EZbZ23ehPGV1KCcpqM7B1CbjqrRpBtlx_1raoNWUofA,11342
+dt_cli-0.1.3a0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+dt_cli-0.1.3a0.dist-info/METADATA,sha256=4s0RUVGDPAN2yb_FdiHxltYLbXMjlMwOcM2_y32DJ08,5834
+dt_cli-0.1.3a0.dist-info/RECORD,,
