@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: pdfo
+Version: 1.0
+Summary: PDFO - Powell's Derivative-Free Optimization solvers
+Home-page: https://www.pdfo.net
+Author: Tom M. Ragonneau and Zaikun Zhang
+Author-email: pdfocode@gmail.com
+Maintainer: Tom M. Ragonneau and Zaikun Zhang
+Maintainer-email: pdfocode@gmail.com
+License: GNU Lesser General Public License v3 or later (LGPLv3+)
+Download-URL: https://www.pdfo.net/docs.html#releases
+Project-URL: Bug Tracker, https://github.com/pdfo/pdfo/issues
+Project-URL: Documentation, https://www.pdfo.net
+Project-URL: Source Code, https://github.com/pdfo/pdfo
+Keywords: Powell Derivative-Free Optimization UOBYQA NEWUOA BOBYQA LINCOA COBYLA
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Fortran
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=2.7
+Description-Content-Type: text/plain
+License-File: LICENCE.txt
+Requires-Dist: numpy
+
+PDFO (Powell's Derivative-Free Optimization solvers) is a cross-platform package providing interfaces for using late
+Professor M. J. D. Powell's derivative-free optimization solvers, including UOBYQA, NEWUOA, BOBYQA, LINCOA, and COBYLA.
+
+See https://www.pdfo.net for more information.
+
+
