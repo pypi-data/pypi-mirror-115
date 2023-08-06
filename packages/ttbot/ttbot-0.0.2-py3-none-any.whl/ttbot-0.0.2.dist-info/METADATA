@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: ttbot
+Version: 0.0.2
+Summary: Framework to build bots for TikTok
+Home-page: https://github.com/lukew3/ttbot
+Author: Luke Weiler
+Author-email: lukew25073@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: requests
+
+UNKNOWN
+
