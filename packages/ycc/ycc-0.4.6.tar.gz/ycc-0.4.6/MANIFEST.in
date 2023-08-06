@@ -1,0 +1,10 @@
+include README.md
+include README.rst
+include pyproject.toml
+include requirements.txt
+include e/*
+global-include *.py
+global-exclude *.pyc
+exclude setup.py
+exclude setup.cfg
+prune __pycache__
