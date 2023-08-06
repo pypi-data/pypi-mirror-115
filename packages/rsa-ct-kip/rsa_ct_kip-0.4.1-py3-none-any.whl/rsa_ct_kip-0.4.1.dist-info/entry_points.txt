@@ -1,0 +1,3 @@
+[console_scripts]
+rsa_ct_kip = rsa_ct_kip.client:main
+

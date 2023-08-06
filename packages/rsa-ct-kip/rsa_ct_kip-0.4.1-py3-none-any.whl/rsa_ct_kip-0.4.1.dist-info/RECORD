@@ -1,0 +1,10 @@
+rsa_ct_kip/client.py,sha256=ln2FZKlyqyQ3hrJO2jn3tvRD1wB27_YieWbvtudx6u4,10386
+rsa_ct_kip/common.py,sha256=WNYVTnquoWmVbfrF9ZxTdWLWPXIVYUrqW-wlTPg8A7M,837
+rsa_ct_kip/ct_kip_prf_aes.py,sha256=hQMICxMor6OenjAjBgnQ9itprWeDPKvvMvn-MBimzok,2684
+rsa_ct_kip/fakeserver.py,sha256=dZmKj28vGW3y94YzQDYQH2EOrmNiUvfcIHT8GsT4S5o,8614
+rsa_ct_kip-0.4.1.dist-info/LICENSE.txt,sha256=RazyQ0oO2K3N1X1fDYo7NlZTW-bIB50vi7JOSdM57cM,1131
+rsa_ct_kip-0.4.1.dist-info/METADATA,sha256=TTctk3R62mfhO5xIZH6K0UqAoDm7P7odbPIQiufQBMw,7744
+rsa_ct_kip-0.4.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+rsa_ct_kip-0.4.1.dist-info/entry_points.txt,sha256=lT0xPg-Ks1ueZcu9f46dZ8xdiV6Z8SRwOAb_IKnrwbU,55
+rsa_ct_kip-0.4.1.dist-info/top_level.txt,sha256=ckLKacD1nOT7vSQ07XFrWUVXm8EvOD0hUyPyH0D0b3I,11
+rsa_ct_kip-0.4.1.dist-info/RECORD,,
