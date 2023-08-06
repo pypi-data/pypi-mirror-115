@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+pdfbta/__init__.py
+pdfbta/pdf2image.py
+pdfbta/pdf2text.py
+pdfbta.egg-info/PKG-INFO
+pdfbta.egg-info/SOURCES.txt
+pdfbta.egg-info/dependency_links.txt
+pdfbta.egg-info/top_level.txt
