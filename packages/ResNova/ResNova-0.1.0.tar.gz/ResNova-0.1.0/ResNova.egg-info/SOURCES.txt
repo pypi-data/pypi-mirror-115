@@ -1,0 +1,11 @@
+setup.py
+ResNova/Detector.py
+ResNova/GenericSource.py
+ResNova/SNModel.py
+ResNova/Target.py
+ResNova/__init__.py
+ResNova.egg-info/PKG-INFO
+ResNova.egg-info/SOURCES.txt
+ResNova.egg-info/dependency_links.txt
+ResNova.egg-info/requires.txt
+ResNova.egg-info/top_level.txt
