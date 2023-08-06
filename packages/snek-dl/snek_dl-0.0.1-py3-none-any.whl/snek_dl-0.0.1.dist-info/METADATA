@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: snek-dl
+Version: 0.0.1
+Summary: An intuitive wrapper for youtube-dl
+Home-page: https://github.com/d-aughter/Snek
+Author: arta
+Author-email: disy455@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/d-aughter/Snek/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: youtube-dl
+
+# Snek
+
+An intuitive wrapper for youtube-dl, for in-line use.
+
