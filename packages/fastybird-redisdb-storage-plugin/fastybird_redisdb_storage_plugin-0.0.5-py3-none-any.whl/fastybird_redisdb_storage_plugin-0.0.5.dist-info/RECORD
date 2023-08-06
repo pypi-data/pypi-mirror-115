@@ -1,0 +1,9 @@
+redisdb_storage_plugin/__init__.py,sha256=Z6RYzAVD9GSITWzw4GdvE4kADK5vFyTtuBf0ozvSna8,676
+redisdb_storage_plugin/models.py,sha256=SQH7URzLaAq4vCUBB6w-YJWCk7HZKoYwNvzsSuSZXxk,4834
+redisdb_storage_plugin/redis.py,sha256=BEH3AWqmE1E41t8AXNm34IKQpOivM0GJJW6Go8QC3Ac,2695
+redisdb_storage_plugin/state.py,sha256=NYPoSUp_rjH9LVBRWZ1X6sTFjsiuV3cF0TaRA64XTjA,2133
+fastybird_redisdb_storage_plugin-0.0.5.dist-info/LICENSE.md,sha256=xazLvYVG6Uw0rtJK_miaYXYn0Y7tWmxIJ35I21fCOFE,11356
+fastybird_redisdb_storage_plugin-0.0.5.dist-info/METADATA,sha256=qifpBOMuC84gk1lLoDn5aiojNScaXdPcBcBr29DwLIw,4027
+fastybird_redisdb_storage_plugin-0.0.5.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+fastybird_redisdb_storage_plugin-0.0.5.dist-info/top_level.txt,sha256=_YUI9Y7upGMZcR56ttYBEUdp4g44W9vslUa46rzPZ8U,23
+fastybird_redisdb_storage_plugin-0.0.5.dist-info/RECORD,,
