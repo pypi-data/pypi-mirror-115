@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "exp4"
+readme="README.md"
+version = "0.1.0"
+description = "Implementation of Exponential weighting for Exploration and Exploitation with Experts."
+authors = ["Marcell Vazquez-Chanlatte <mvc@linux.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.10"
+numpy = "^1.21.1"
+scipy = "^1.7.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.4"
+pytest-flake8 = "^1.0.7"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
