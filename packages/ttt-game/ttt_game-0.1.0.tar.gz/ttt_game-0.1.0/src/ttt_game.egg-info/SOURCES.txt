@@ -1,0 +1,10 @@
+LICENCE
+README.md
+pyproject.toml
+setup.py
+src/ttt_game/__init__.py
+src/ttt_game/game.py
+src/ttt_game.egg-info/PKG-INFO
+src/ttt_game.egg-info/SOURCES.txt
+src/ttt_game.egg-info/dependency_links.txt
+src/ttt_game.egg-info/top_level.txt
