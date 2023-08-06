@@ -1,0 +1,9 @@
+DLTrainer/__init__.py,sha256=TXXncEpqK1opKjc6nd81hOHwC8D2Sc9jjlAN3y3a19E,105
+DLTrainer/pytorch/__init__.py,sha256=j70IxkG44YUA2l_C5hdgwLL4wgVJHPv0hCh4-00ns5o,30
+DLTrainer/pytorch/trainer.py,sha256=voTg7G5RDezS46CaeQoSeppdIQgpnhbuqmN0IsRwNC0,16512
+DLTrainer/pytorch/trainer_utils.py,sha256=64KNHfg8jsVDb5SEtoEBp6fEn0wUHO3pKNuCgAMC7D8,10355
+DLTrainer-0.0.5.dist-info/LICENSE,sha256=NuQnNEwF0hKoynGD4ObLmBbV9BTc1VDbfyCRrS6Jgs8,1066
+DLTrainer-0.0.5.dist-info/METADATA,sha256=rqp8dIUsL-erhzlsMg-K5YE7kWF5dHrwwtp_9-QSVGE,3117
+DLTrainer-0.0.5.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+DLTrainer-0.0.5.dist-info/top_level.txt,sha256=siyM7_8FRoewLH607MuHNdMJhfNZ7wYuT0-OAQx0aoA,10
+DLTrainer-0.0.5.dist-info/RECORD,,
