@@ -1,0 +1,12 @@
+tsam/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tsam/periodAggregation.py,sha256=HjW1444kF72JADl8eH0K11O29lcQ9Wr73RgER7oV5P4,4853
+tsam/representations.py,sha256=KyJcp90hgGZdo0Z00YanJwf7Cixg-lzgt0hb1-RFfSc,4824
+tsam/timeseriesaggregation.py,sha256=rqV5ld6e8UnG4rDPXK_J0tDQObrfklREzmtjPTh56ng,50053
+tsam/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tsam/utils/k_medoids_exact.py,sha256=9mpw9pZoKxoHVkkwmr5HUuZprUFVKwk0mrXrJra3XWI,6311
+tsam/utils/segmentation.py,sha256=FoAduexSScYcg2b9jECq9Vw78VuoG7I9kGJDk_eVTpo,5749
+tsam-1.1.1.dist-info/LICENSE.txt,sha256=B8VmjbX12BUztPNAYQR4hl3s7b2Q-YYAigrV5dkNGOw,1204
+tsam-1.1.1.dist-info/METADATA,sha256=4WRnd9PHxkbyvmS8nb0WLlteEGwEW9D0ojAicbH8fgk,10276
+tsam-1.1.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+tsam-1.1.1.dist-info/top_level.txt,sha256=MFI15PnPuMv8F1hTAOXbjGu41z-l6dJbnK69WlIQNcM,5
+tsam-1.1.1.dist-info/RECORD,,
