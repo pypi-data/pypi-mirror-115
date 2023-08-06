@@ -1,0 +1,17 @@
+LICENCE
+MANIFEST.in
+README.md
+setup.py
+ctextinct/__init__.py
+ctextinct/__main__.py
+ctextinct/controller.py
+ctextinct/model_.py
+ctextinct/parse_and_forum.py
+ctextinct/train.py
+ctextinct/view.py
+ctextinct.egg-info/PKG-INFO
+ctextinct.egg-info/SOURCES.txt
+ctextinct.egg-info/dependency_links.txt
+ctextinct.egg-info/entry_points.txt
+ctextinct.egg-info/requires.txt
+ctextinct.egg-info/top_level.txt
