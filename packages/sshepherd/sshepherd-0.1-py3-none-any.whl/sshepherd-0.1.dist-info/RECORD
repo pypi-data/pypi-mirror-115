@@ -1,0 +1,8 @@
+sshepherd/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sshepherd/ssh.py,sha256=d95UYDy32FNuS2V01GT7DT601LvauNb7muiNxlvjkqA,3906
+sshepherd-0.1.data/scripts/sshepherd,sha256=ouwi--QtiaWCjc-dQIwp_9ifFNkR9bCpbiN3lSS3L7k,3420
+sshepherd-0.1.dist-info/LICENSE.md,sha256=tIJTmNz-X4A6ww2v0LQ1maNnXDwOnle_qIZ9oXvNR94,1336
+sshepherd-0.1.dist-info/METADATA,sha256=Eu1mIZqdGyeyiRTaEOUxCi1dgXGsbyyyEzZswcgAvpw,2511
+sshepherd-0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+sshepherd-0.1.dist-info/top_level.txt,sha256=qkKF275tQKwps9PoQ7a77cljIv_KVEi0WOAvKNGw2bA,10
+sshepherd-0.1.dist-info/RECORD,,
