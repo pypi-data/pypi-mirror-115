@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: DateTimeRsys
+Version: 0.0.2
+Summary: Python Library for DATE TIME finder from a String
+Home-page: UNKNOWN
+Author: Praveen Kumar Srivas
+Author-email: pks101295nit2017@gmail.com
+License: UNKNOWN
+Description: 
+        ## Python Library for DATE TIME finder from a String
+Keywords: date time,datetime
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
