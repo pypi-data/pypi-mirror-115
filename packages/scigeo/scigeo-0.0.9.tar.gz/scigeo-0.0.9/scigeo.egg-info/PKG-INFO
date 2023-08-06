@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: scigeo
+Version: 0.0.9
+Summary: read/dump/process geo data
+Home-page: https://github.com/soonyenju/scigeo
+Author: Songyan Zhu
+Author-email: zhusy93@gmail.com
+License: MIT Licence
+Description: coming soon
+Keywords: easy geo warpper
+Platform: any
