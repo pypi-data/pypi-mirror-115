@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: cdk-metaflow
+Version: 0.0.13
+Summary: A JSII construct library to build Metaflow infrastructure on AWS using Python, Typescript or Go
+Home-page: https://github.com/bcgalvin/metaflow-cdk
+Author: bcgalvin<bcgalvin@gmail.com>
+License: Apache-2.0
+Project-URL: Source, https://github.com/bcgalvin/metaflow-cdk
+Description: # CDK Metaflow
+        
+        The `cdk-metaflow` package contains cdk constructs for deploying metaflow infrastructure on aws.
+        
+        ```python
+        # Example automatically generated without compilation. See https://github.com/aws/jsii/issues/826
+        import cdk_metaflow as metaflow
+        ```
+        
+        ## Metaflow
+        
+        The main construct creates all the required infrastructure for getting up and running with Metaflow on AWS. This is achieved by creating an instance of `Metaflow`:
+        
+        ```python
+        # Example automatically generated without compilation. See https://github.com/aws/jsii/issues/826
+        metaflow = Metaflow(self, "metaflow")
+        ```
+        
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: JavaScript
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Typing :: Typed
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
