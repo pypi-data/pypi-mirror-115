@@ -1,0 +1,3 @@
+[console_scripts]
+nautobot_aristacv_importer=nautobot_aristacv_importer.cli:main
+
