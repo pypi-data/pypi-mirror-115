@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: helloxyz
+Version: 0.0.2
+Summary: Say hello!
+Home-page: UNKNOWN
+Author: Ashwin Bala
+Author-email: ashwinbala1999@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.0
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+
+# This is a sample project to show how a library can be published to PyPi
+
+## Module
+
+### say_hello():
+
+#### Source code
+
+```python
+def say_hello(name: str = None) -> str:
+    return "Hello!" if name is None else f"Hello {name}"
+
+```
+
+#### How to use this module
+
+```python
+from hello import say_hello
+
+print(say_hello("Tommy")) # output: Hello Tommy!
+
+```
+
+
