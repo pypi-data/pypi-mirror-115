@@ -1,0 +1,15 @@
+jd-assistant/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jd-assistant/config.py,sha256=wDn4ByrQjoMfkPYgRNShy5nWZc4GEqBu16plfKtoEO0,774
+jd-assistant/exception.py,sha256=qV0TRUCr7bPfXntcFr2YA3MlgI3E4gX15Eb_tZky9jc,201
+jd-assistant/jd_assistant.py,sha256=36ypcgcRh8d4Avg4pzcGXD5A3uw3xTLsm_2sVw7o2hw,71435
+jd-assistant/log.py,sha256=_KhcIKpRMOZUeIj1VR77bJkAX_G8GfeyYCiPkkbZKds,634
+jd-assistant/messenger.py,sha256=7SLF6N67nlLhd5IjxwFqqUxxWHPltCmsN_0ApVU97Ao,1300
+jd-assistant/timer.py,sha256=xwugGG9rjsPAT-9aw6JGPxSr5B4GPkjuZ90v26zOZ2c,669
+jd-assistant/util.py,sha256=MuBpwPgr2Zik20NfCHXuhA_Fz24XT_19-qVTAdxJFgw,11255
+jd-assistant/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jd-assistant/tests/test.py,sha256=PnSjGe0YI1kSCtwgHJmFRfSbUdgxoWgzKFWIemRTe6g,514
+jd_assistant-1.0.0.2.dist-info/LICENSE,sha256=tWpFySB106-YNbtnBWuhcNt_SqpKowoV-pVocZLRwJw,1063
+jd_assistant-1.0.0.2.dist-info/METADATA,sha256=8DTAeBnr9NpdLX51BBnti118Q86TII_pXzl3nHuCiyA,4207
+jd_assistant-1.0.0.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+jd_assistant-1.0.0.2.dist-info/top_level.txt,sha256=88hhgt-gk9evChhgFk8cOxsg6b7Nax6Vm5UQ8MVqX_4,13
+jd_assistant-1.0.0.2.dist-info/RECORD,,
