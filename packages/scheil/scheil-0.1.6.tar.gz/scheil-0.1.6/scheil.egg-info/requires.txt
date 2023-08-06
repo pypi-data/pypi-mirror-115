@@ -1,0 +1,11 @@
+importlib_metadata
+numpy
+scipy
+setuptools_scm[toml]>=6.0
+pycalphad>=0.9.1
+
+[dev]
+furo
+sphinx
+pytest
+twine
