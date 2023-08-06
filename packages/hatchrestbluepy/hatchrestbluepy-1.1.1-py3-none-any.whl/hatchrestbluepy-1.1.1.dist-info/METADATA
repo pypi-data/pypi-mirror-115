@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: hatchrestbluepy
+Version: 1.1.1
+Summary: A Python library to control the Hatch Rest sound machine, using bluepy
+Home-page: https://github.com/southqaw/hatchrestbluepy
+Author: Klint Youngmeyer
+Author-email: kkyoungmeyer@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/southqaw/hatchrestbluepy/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Topic :: Home Automation
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: bluepy
+
+# Hatch Rest Python Library
+This library allows an original [Hatch Rest](https://www.hatch.co/rest) to be controlled via BLE. This library uses the [bluepy](https://github.com/IanHarvey/bluepy) library as a backend, and therefore only runs on Linux. This library is primarily intended to be run on Raspberry Pi devices.
+## Installation
+```
+pip install hatchrestbluepy
+```
+If you intend to use this library without elevated privileges, you will need to find `bluepy-helper` and run the following command to enable BLE access.
+```
+sudo setcap 'cap_net_raw,cap_net_admin+eip' bluepy-helper
+```
+## Example
+
+## Credits
+This library is heavily based on the [pyhatchbabyrest](https://github.com/kjoconnor/pyhatchbabyrest) library, written by [@kjoconnor](https://github.com/kjoconnor).
+
+
