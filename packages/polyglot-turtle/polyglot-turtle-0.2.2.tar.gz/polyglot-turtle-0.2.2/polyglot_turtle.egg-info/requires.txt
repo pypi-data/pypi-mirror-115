@@ -1,0 +1,6 @@
+setuptools>=42
+wheel
+hidapi
+cbor2
+packaging
+simplehdlc
