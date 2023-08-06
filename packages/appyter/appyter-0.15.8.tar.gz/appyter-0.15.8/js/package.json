@@ -1,0 +1,50 @@
+{
+  "name": "appyter-js",
+  "version": "1.0.0",
+  "description": "Javascript helpers for appyter",
+  "scripts": {
+    "build": "gulp build",
+    "start": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maayanlab/appyter.git"
+  },
+  "author": "Daniel J. B. Clarke <u8sand@gmail.com>",
+  "license": "CC-BY-NC-SA-4.0",
+  "bugs": {
+    "url": "https://github.com/maayanlab/appyter/issues"
+  },
+  "homepage": "https://github.com/maayanlab/appyter#readme",
+  "devDependencies": {
+    "@babel/core": "^7.13.14",
+    "@babel/preset-env": "^7.12.11",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-cli": "^2.3.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "merge-stream": "^2.0.0",
+    "svelte": "^3.37.0",
+    "svelte-loader": "^2.13.6",
+    "vinyl-named": "^1.1.0",
+    "webpack": "^5.16.0",
+    "webpack-cli": "^4.4.0",
+    "webpack-stream": "^6.1.2"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.1",
+    "ansi_up": "^5.0.0",
+    "bootstrap": "^4.5.3",
+    "canonical-json": "0.0.4",
+    "gulp-rename": "^2.0.0",
+    "highlight.js": "^10.7.2",
+    "jquery": "^3.6.0",
+    "markdown-it": "^11.0.1",
+    "markdown-it-anchor": "^5.3.0",
+    "requirejs": "^2.3.6",
+    "select2": "^4.0.13",
+    "socket.io-client": "^3.0.5",
+    "socketio-file-upload": "^0.7.3"
+  }
+}
