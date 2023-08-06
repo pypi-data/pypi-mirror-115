@@ -1,0 +1,11 @@
+smartredis/__init__.py,sha256=8i4SUT4XS4x9BGtPREtaqlVzUUm1kB22n3ehfSGxGGE,1438
+smartredis/client.py,sha256=CURl13YaMdct-gW81IhGq8ukO6qeifXvlSNqAejAmYU,27205
+smartredis/dataset.py,sha256=2W-jQqW9K3jG9tLXCuo-hX-TQ1VEw3BGj1BYZQFPyq4,4320
+smartredis/error.py,sha256=DzITEgFr1j76A4HL0FNWyVvsEbwCk7cjrHyK8nx2ecY,2311
+smartredis/smartredisPy.cpython-37m-darwin.so,sha256=TazrAdSxBHhn7UscAVvrmdThG-XpxgLXTT78U-CZNfA,1005384
+smartredis/util.py,sha256=ol-0WXrRzxU0IcEmlTsj5d_mb600hye8rgMUcyvvtTQ,2811
+smartredis-0.2.0.dist-info/LICENSE.md,sha256=jWJaTtmD1Xvg_b2cVGQ4tZExx8vi9HNGiEbNhh2T2iw,1336
+smartredis-0.2.0.dist-info/METADATA,sha256=QYXdOvJib7RwN2ZTh5Oh35qeJywnjGvMTH8N32x4tyk,5642
+smartredis-0.2.0.dist-info/WHEEL,sha256=MTGYRPpheMM24WbmS90Rp7e0ky6cZJ8CkS_x1qgwoGk,110
+smartredis-0.2.0.dist-info/top_level.txt,sha256=MosD07b7mH5hrFoyqhz6HPJaiyDbw7Km2oaL3DaE9uY,24
+smartredis-0.2.0.dist-info/RECORD,,
