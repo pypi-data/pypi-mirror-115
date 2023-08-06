@@ -1,0 +1,10 @@
+LICENSE
+README.md
+clname.py
+pyproject.toml
+setup.py
+clname.egg-info/PKG-INFO
+clname.egg-info/SOURCES.txt
+clname.egg-info/dependency_links.txt
+clname.egg-info/entry_points.txt
+clname.egg-info/top_level.txt
