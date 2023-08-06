@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: mind-palace
+Version: 0.1.0
+Summary: Note management application
+Home-page: https://github.com/jervenclark/mind-palace
+License: MIT
+Keywords: zettelkasten,notes,note management
+Author: Jerven Clark Chua
+Author-email: jervenclark@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Project-URL: Repository, https://github.com/jervenclark/mind-palace
+Description-Content-Type: text/markdown
+
+
