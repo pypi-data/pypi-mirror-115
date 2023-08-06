@@ -1,0 +1,6 @@
+
+RELEASE_VERSION='1.0.dev1'
+GIT_COMMIT_SHA='68924a8f1358cc8bf17c89baaeb3cefce72ce497'
+GIT_BRANCH='person/aivanov/vdk-control-cli'
+GITLAB_CI_JOB_ID='1492448824'
+BUILD_DATE='Tue Aug 10 15:12:19 UTC 2021'
