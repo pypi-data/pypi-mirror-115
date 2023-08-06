@@ -1,0 +1,3 @@
+[console_scripts]
+prometheus-mailjet-exporter = prometheus_mailjet_exporter:run
+
