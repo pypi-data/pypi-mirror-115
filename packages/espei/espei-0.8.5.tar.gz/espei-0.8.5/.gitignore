@@ -1,0 +1,15 @@
+.ipynb_checkpoints/
+.smt/
+__pycache__
+build
+_build
+.cache
+dask-worker-space
+
+# Sphinx documentation
+docs/_build
+
+# Editors
+*.sublime-project
+*.sublime-workspace
+.vscode
