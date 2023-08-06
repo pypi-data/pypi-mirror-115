@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: SubBrainSegment
+Version: 0.0.14
+Summary: Package for subcortical brain segmentation
+Home-page: https://github.com/JENNSHIUAN
+Author: JENNSHIUAN
+Author-email: danny092608@gmail.com
+License: UNKNOWN
+Keywords: subcortical brain segmentation
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Environment :: GPU :: NVIDIA CUDA :: 10.0
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
+Description-Content-Type: text/x-rst
+License-File: LICENCE.txt
+Requires-Dist: numpy (>=1.17.4)
+Requires-Dist: nibabel (>=2.5.1)
+Requires-Dist: nilearn (>=0.6.2)
+Requires-Dist: SimpleITK (>=2.0.0)
+Requires-Dist: tables (>=3.6.1)
+Requires-Dist: Keras (==2.3.1tensorflow-gpu==1.14.0)
+Requires-Dist: h5py (==2.9.0)
+
+UNKNOWN
+
