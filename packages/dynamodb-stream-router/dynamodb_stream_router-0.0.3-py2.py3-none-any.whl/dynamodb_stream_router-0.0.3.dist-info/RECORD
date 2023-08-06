@@ -1,0 +1,8 @@
+dynamodb_stream_router/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dynamodb_stream_router/exceptions.py,sha256=XOMAxCPxfXGKlRG84Z_AtJlboNJUaAvl9-A5uA2s9-M,176
+dynamodb_stream_router/router.py,sha256=QTEalea8MeFTicT-kk6vFmYO3aUks67nEjBtKflpTSc,23271
+dynamodb_stream_router-0.0.3.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+dynamodb_stream_router-0.0.3.dist-info/METADATA,sha256=rziPcEtK9QQP6UCpas8g8Kt4QwYxHr2LjaAgMV2YjcM,12616
+dynamodb_stream_router-0.0.3.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+dynamodb_stream_router-0.0.3.dist-info/top_level.txt,sha256=dKafCGHAINuENRhSOHScvu9V0pmSUDkEI_rxRjgFexM,23
+dynamodb_stream_router-0.0.3.dist-info/RECORD,,
