@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: loragateway
+Version: 0.2
+Summary: lora gateway
+Home-page: https://github.com/nbdy/loragateway
+Author: Pascal Eberlein
+Author-email: pascal@eberlein.io
+License: UNKNOWN
+Keywords: lora gateway
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+UNKNOWN
+

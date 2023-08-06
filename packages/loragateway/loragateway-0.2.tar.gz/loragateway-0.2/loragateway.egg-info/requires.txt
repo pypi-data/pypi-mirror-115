@@ -1,0 +1,4 @@
+paho-mqtt
+loguru
+dataset
+loraspi
