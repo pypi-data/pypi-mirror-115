@@ -1,0 +1,17 @@
+LICENSE,sha256=zNRjOZgSYeoTqrTrUW3N3AgY1-kw2o1_qqG9zf_2oB8,1050
+transparentemail/__init__.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+transparentemail/services/Emails/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+transparentemail/services/Emails/editableEmail.py,sha256=3pe1ifUoyemKbzOq2TMINHa0tpPZR3MhmQ0_FF2Qm-A,1152
+transparentemail/services/Emails/email.py,sha256=P9eU0WFWoMlxZ58aKBM2NzEG7WtmMe7cuVGxrs0Xx0M,598
+transparentemail/services/Emails/emailException.py,sha256=HyNYoweWE5lWmQv9Q9koOZL4p6hNmac4bRQipw4xOPI,49
+transparentemail/services/__init__.py,sha256=MIA-SaU-T7qF9_eRZoW1aL9NzDZ8xcj7Musu_qtkQ-w,236
+transparentemail/services/gmailCom.py,sha256=pAfBjdq09z-G7oq_XHtzoFO2q4woIYpIvJ8LaInQhG0,805
+transparentemail/services/outlookCom.py,sha256=1wkdY5o8Vt2XE1qNkoFnVnrgZUZWQK1iq3kP0IKR-uo,562
+transparentemail/services/serviceEmail.py,sha256=SKQIgv1I0s0pDqioplkg-mc-JyA4DcMJDj5zpwuW1F8,293
+transparentemail/services/www33MailCom.py,sha256=7Q-yiFQbxWDvnNmA86nUc8Olk_5ft2HFXW1PQumTsAg,615
+transparentemail/services/yahooCom.py,sha256=uHKe59ty-T1II7sWHfc9Css4BfaPqoo8Lql7Rt9iPik,541
+transparentemail/src.py,sha256=PAh2c4E5OECQfZm7KW4bDs-9ErHqDJ68c0PqB1hIPEw,689
+transparentemail-0.1.2.dist-info/LICENSE,sha256=zNRjOZgSYeoTqrTrUW3N3AgY1-kw2o1_qqG9zf_2oB8,1050
+transparentemail-0.1.2.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+transparentemail-0.1.2.dist-info/METADATA,sha256=6_baB3sFwdPp0zsgoJnCI2cQ1rRHt-jVLNeRVP_IXkk,2565
+transparentemail-0.1.2.dist-info/RECORD,,
