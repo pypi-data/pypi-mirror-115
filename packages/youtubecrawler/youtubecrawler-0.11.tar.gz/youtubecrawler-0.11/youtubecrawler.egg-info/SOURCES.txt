@@ -1,0 +1,9 @@
+README.md
+setup.py
+youtubecrawler/channel.py
+youtubecrawler/crawl.py
+youtubecrawler.egg-info/PKG-INFO
+youtubecrawler.egg-info/SOURCES.txt
+youtubecrawler.egg-info/dependency_links.txt
+youtubecrawler.egg-info/requires.txt
+youtubecrawler.egg-info/top_level.txt
