@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+pyOSOAA/__init__.py
+pyOSOAA/constants.py
+pyOSOAA/osoaa.py
+pyOSOAA/osoaahelpers.py
+pyOSOAA/outputs.py
+pyOSOAA.egg-info/PKG-INFO
+pyOSOAA.egg-info/SOURCES.txt
+pyOSOAA.egg-info/dependency_links.txt
+pyOSOAA.egg-info/requires.txt
+pyOSOAA.egg-info/top_level.txt
+test/test_osoaa.py
