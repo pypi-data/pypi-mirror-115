@@ -1,0 +1,13 @@
+README.md
+setup.cfg
+setup.py
+brand/__init__.py
+brand/base.py
+brand/search_names.py
+brand/util.py
+brand.egg-info/PKG-INFO
+brand.egg-info/SOURCES.txt
+brand.egg-info/dependency_links.txt
+brand.egg-info/not-zip-safe
+brand.egg-info/requires.txt
+brand.egg-info/top_level.txt
