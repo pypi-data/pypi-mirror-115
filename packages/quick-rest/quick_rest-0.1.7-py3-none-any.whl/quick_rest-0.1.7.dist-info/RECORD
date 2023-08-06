@@ -1,0 +1,10 @@
+quick_rest/__init__.py,sha256=9U_E-K3lBY-G5dgJOTHIVct1TyTEfox_z8SsmmfI0gg,71
+quick_rest/auth.py,sha256=t4tU_bAmDfpRMxnqti6iGOn6xae5Z6NUM5dx-C5swTE,2841
+quick_rest/client.py,sha256=D_oG09VuQ-oaytBEp_kjM-hHg1t3sfDJnCud-KhoyhE,4578
+quick_rest/exceptions.py,sha256=U-ILylD-o430POsu-jr3opB5lwBvTvHk0Wrum2xeqcg,459
+quick_rest/resources.py,sha256=AOJV3UfVz0hEMFrClgnNAiVy24T9DKy4GMX6S71plnY,57
+quick_rest-0.1.7.dist-info/LICENSE,sha256=dVVPV7cGdA4Exhu23vFUVX4yudemZvgPoUbQ0-wRz2k,1066
+quick_rest-0.1.7.dist-info/METADATA,sha256=EhvZwcpobk6TcAY9y-PmnfvoPZAS1jxpf60Q8VTJTDs,3640
+quick_rest-0.1.7.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+quick_rest-0.1.7.dist-info/top_level.txt,sha256=n3GG5yqvJSVMNYLBDXLnIop5fYM2umUholwzZRNtuTU,11
+quick_rest-0.1.7.dist-info/RECORD,,
