@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: zhfnote
+Version: 1.0
+Summary: A tool for learning English
+Home-page: UNKNOWN
+Author: Huanfeng Zheng
+Author-email: www.670267038@qq.com
+License: MIT
+Keywords: English Learning
+Platform: UNKNOWN
+Classifier: License :: Public Domain
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Education
+Classifier: Natural Language :: English
+
+Introduction
+=============
+
+Just run it
+
+import zhfnote
+

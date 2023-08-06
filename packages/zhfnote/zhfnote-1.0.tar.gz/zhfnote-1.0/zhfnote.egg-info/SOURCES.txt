@@ -1,0 +1,8 @@
+README.txt
+setup.py
+zhfnote.py
+zhfnote.egg-info/PKG-INFO
+zhfnote.egg-info/SOURCES.txt
+zhfnote.egg-info/dependency_links.txt
+zhfnote.egg-info/top_level.txt
+zhfnote.egg-info/zip-safe
