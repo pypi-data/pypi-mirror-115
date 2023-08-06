@@ -1,0 +1,10 @@
+dbson/__init__.py,sha256=IMaFjqO-ABElgm4Rn8babWQXFIKEiEoAmn827w4K9z8,65
+dbson/client.py,sha256=3WffYc1wodIMr9RERxVzi3PD33cXXQOYZ4CTpgWAPeQ,1907
+dbson/commands.py,sha256=GU2pzP7w7IAnYymN8cZV6yvZ7Jhfna4OwXGDy0aMkYo,1312
+dbson/deserializer.py,sha256=azGvC4ii6QI6fNYy3Ooh6NKV2B3ykQ83Wgkwvk5Sjsk,1807
+dbson/serializer.py,sha256=DkVwdu35BH_Y0lbR0jpgfX2KKdECrKi26sJ131zQvqw,2428
+dbson/test.py,sha256=gPYi1HJATCmIfOEkYyBZL7T55Cdi0JYQa-dbodV0B94,1165
+dbson-0.0.1.dist-info/METADATA,sha256=5IrYTRo-7FE95z8cssKxsiat1TX9eKhEp06sxnnOZKc,179
+dbson-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+dbson-0.0.1.dist-info/top_level.txt,sha256=SGsXwA34-QQnTCDM1VFBMPLFSJEBPCU1v7YG3S4TRic,6
+dbson-0.0.1.dist-info/RECORD,,
