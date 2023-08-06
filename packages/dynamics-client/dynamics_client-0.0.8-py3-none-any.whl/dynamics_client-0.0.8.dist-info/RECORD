@@ -1,0 +1,16 @@
+dynamics/__init__.py,sha256=O-dkkRGSpJcBe-qQf8NNQ-uRskN05KzZJmuPOuoaENs,138
+dynamics/api_actions.py,sha256=045ORCqDj2DH0sJzkJ6yxU8wlvkN4N2SC5IGUKedgc4,9586
+dynamics/api_functions.py,sha256=WNvQDnis2y21LjwoFGagudXOi8oQ1fDmxZTy1c21iOk,7330
+dynamics/apply_functions.py,sha256=8XCFFWMZYJeWondBhUF_Bhv1O__H9gwZ4SpVipbQems,2199
+dynamics/client.py,sha256=XK41hjATuczjLP2LsaoNVyyHD2r971hsTXlx5TaqcHk,29278
+dynamics/enums.py,sha256=gQqcTgnt-hYG8oUqUveoYYoduu5oOvAcE_tKf7admkI,1374
+dynamics/exceptions.py,sha256=pEuArQHIhRag_SzbN60Qle-v9H0hxD6TAX3vJmWetpQ,4307
+dynamics/normalizers.py,sha256=nitHiNxmjrmb77o5n_Sw1BnACEp0hNAvKTplhdRHb94,1474
+dynamics/query_functions.py,sha256=e_nDg2SvreQdIT3wbXqM9II15KGplJXIu5vN8R9JriI,37512
+dynamics/status.py,sha256=JnXFTN9fRofI0z-D3HY2eNVii117ZDmH1ljtTXielCE,1972
+dynamics/utils.py,sha256=C2J7N2u5q3TeEu8BqV5eEoZPURbK-niG_J5EIITp7k0,11366
+dynamics_client-0.0.8.dist-info/LICENSE,sha256=aVX99MHe0Uow-2bjeqfTl5aEIdLgYWhrvYioTrZI_js,1090
+dynamics_client-0.0.8.dist-info/METADATA,sha256=EMa2USJ9I0sPthKXpk__R0RDF5iomk_puFiWsogdfM8,15360
+dynamics_client-0.0.8.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+dynamics_client-0.0.8.dist-info/top_level.txt,sha256=kJGRV9Z3IFH0JgCcbwdyo9OSJ54S24_IN7mVuI3aUOU,9
+dynamics_client-0.0.8.dist-info/RECORD,,
