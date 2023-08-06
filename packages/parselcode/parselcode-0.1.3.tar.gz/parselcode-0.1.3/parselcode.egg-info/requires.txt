@@ -1,0 +1,2 @@
+pandas
+os-sys>=2.1
