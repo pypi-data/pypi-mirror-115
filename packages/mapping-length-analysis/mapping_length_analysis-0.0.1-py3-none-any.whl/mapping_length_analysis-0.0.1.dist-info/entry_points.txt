@@ -1,0 +1,3 @@
+[console_scripts]
+mapping_length_analysis = mapping_length_analysis.__main__:main
+
