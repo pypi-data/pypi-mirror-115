@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+use_proper_hosting/__init__.py
+use_proper_hosting.egg-info/PKG-INFO
+use_proper_hosting.egg-info/SOURCES.txt
+use_proper_hosting.egg-info/dependency_links.txt
+use_proper_hosting.egg-info/top_level.txt
