@@ -1,0 +1,11 @@
+__version__ = "1.2.11"
+__git_commiter_name__ = "Maxim Kigel"
+__git_commiter_email__ = "mkigel@infinidat.com"
+__git_branch__ = '(detached from v1.2.11)'
+__git_remote_tracking_branch__ = '(No remote tracking)'
+__git_remote_url__ = '(Not remote tracking)'
+__git_head_hash__ = '6f64d22e97bc2ffee13d65f5e95b1ea0937b600d'
+__git_head_subject__ = 'Finished Release v1.2.11'
+__git_head_message__ = ''
+__git_dirty_diff__ = ''
+__git_commit_date__ = '2021-08-09 12:42:35'
