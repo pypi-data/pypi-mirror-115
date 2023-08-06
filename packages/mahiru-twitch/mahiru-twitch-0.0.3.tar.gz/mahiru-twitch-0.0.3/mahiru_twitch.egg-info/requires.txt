@@ -1,0 +1,4 @@
+mahiru-core
+aiohttp
+twitch-ws-irc
+twitch-helix
