@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.py
+rulesengine/__init__.py
+rulesengine/common.py
+rulesengine/rule.py
+rulesengine/rulesengine.py
+rulesengine.egg-info/PKG-INFO
+rulesengine.egg-info/SOURCES.txt
+rulesengine.egg-info/dependency_links.txt
+rulesengine.egg-info/top_level.txt
