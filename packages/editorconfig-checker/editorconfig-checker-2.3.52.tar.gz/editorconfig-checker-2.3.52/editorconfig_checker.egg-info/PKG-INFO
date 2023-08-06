@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: editorconfig-checker
+Version: 2.3.52
+Summary: Python wrapper around invoking editorconfig-checker (https://github.com/editorconfig-checker/editorconfig-checker)
+Home-page: https://github.com/editorconfig-checker/editorconfig-checker.python
+Author: Marco M.
+Author-email: mmicu.github00@gmail.com
+License: MIT
+Description: # editorconfig-checker.python
+        A Python wrapper to provide a pip-installable [editorconfig-checker](https://github.com/editorconfig-checker/editorconfig-checker) binary.
+        
+        Internally, this package provides a convenient way to download the pre-built `editorconfig-checker` binary for your particular platform.
+        
+        
+        ## Installation
+        ```
+        $ pip install .                     # from source code
+        $ pip install editorconfig-checker  # from PyPI
+        ```
+        
+        
+        ## Usage
+        After installation, the `ec` binary should be available in your environment (or `ec.exe` on Windows):
+        
+        ```
+        $ ec -version
+        ```
+        
+        
+        ## Usage with the pre-commit git hooks framework
+        `editorconfig-checker` can be included as a hook for [pre-commit](https://pre-commit.com/).
+        The easiest way to get started is to add this configuration to your `.pre-commit-config.yaml`:
+        
+        ```yaml
+        repos:
+        -   repo: https://github.com/editorconfig-checker/editorconfig-checker.python
+            rev: ''  # pick a git hash / tag to point to
+            hooks:
+            -   id: editorconfig-checker
+        ```
+        
+        See the [pre-commit docs](https://pre-commit.com/#pre-commit-configyaml---hooks) to check how to customize this configuration.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Text Processing
+Classifier: Topic :: Utilities
+Requires-Python: >=2.7
+Description-Content-Type: text/markdown
