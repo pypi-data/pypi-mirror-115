@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/terraforms/__init__.py
+src/terraforms/ec2.py
+src/terraforms/iam.py
+src/terraforms/key_pair.py
+src/terraforms_farrukh90.egg-info/PKG-INFO
+src/terraforms_farrukh90.egg-info/SOURCES.txt
+src/terraforms_farrukh90.egg-info/dependency_links.txt
+src/terraforms_farrukh90.egg-info/top_level.txt
