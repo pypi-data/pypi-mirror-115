@@ -1,0 +1,6 @@
+jaconv
+jupyter
+pip-chill
+pipdeptree
+twine
+word2number
