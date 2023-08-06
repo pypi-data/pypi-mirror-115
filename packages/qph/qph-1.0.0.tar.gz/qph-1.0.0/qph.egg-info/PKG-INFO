@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: qph
+Version: 1.0.0
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: its_me
+Author-email: rycepie3909@gmail.com
+License: MIT
+Description: # QPH (Quick Python to HTML)
+        
+        - Unlike the [Jinja Templating Engine](https://jinja.palletsprojects.com/en/3.0.x/) you can write pure Python in HTML
+        
+        - Easy to use; all you have to do is write "{$qph ***code goes here*** $}" in a HTML file and you can write pure python code
+        
+        - Helper functions; if you use the function "html_print" you can write html code in [Python](https://www.python.org/)
+        
+        
+        Change Log
+        ==========
+        
+        1.0.0 (7/06/2021)
+        -----------------
+        
+        - First Release
+Keywords: templating
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3

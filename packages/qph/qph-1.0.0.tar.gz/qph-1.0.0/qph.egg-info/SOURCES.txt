@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+test.py
+qph/__init__.py
+qph.egg-info/PKG-INFO
+qph.egg-info/SOURCES.txt
+qph.egg-info/dependency_links.txt
+qph.egg-info/top_level.txt
