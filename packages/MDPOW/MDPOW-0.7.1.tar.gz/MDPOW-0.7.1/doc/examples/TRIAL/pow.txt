@@ -1,0 +1,1 @@
+BNZ         -8.71     1.94  logPow    +1.52     0.34   benzene

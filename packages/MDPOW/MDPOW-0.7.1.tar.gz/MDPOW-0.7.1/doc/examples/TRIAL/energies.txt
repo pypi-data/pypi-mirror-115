@@ -1,0 +1,4 @@
+BNZ        water             -8.32     1.49     +7.53     0.51     +0.78     1.40  benzene
+BNZ        octanol          -17.03     1.24     +1.93     0.25    +15.10     1.22  benzene
+BNZ        water             -8.32     1.49     +7.53     0.51     +0.78     1.40     -8.71     1.94   logPow    +1.52     0.34  benzene
+BNZ        octanol          -17.03     1.24     +1.93     0.25    +15.10     1.22     -8.71     1.94   logPow    +1.52     0.34  benzene
