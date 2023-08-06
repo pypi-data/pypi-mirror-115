@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+setup.py
+tracardi_day_night_split/__init__.py
+tracardi_day_night_split/day_night_split_action.py
+tracardi_day_night_split.egg-info/PKG-INFO
+tracardi_day_night_split.egg-info/SOURCES.txt
+tracardi_day_night_split.egg-info/dependency_links.txt
+tracardi_day_night_split.egg-info/requires.txt
+tracardi_day_night_split.egg-info/top_level.txt
+tracardi_day_night_split/manual/day_night_split_action.md
+tracardi_day_night_split/plugin/__init__.py
+tracardi_day_night_split/plugin/day_night_checker.py
+tracardi_day_night_split/plugin/__pycache__/__init__.cpython-38.pyc
+tracardi_day_night_split/plugin/__pycache__/day_night_checker.cpython-38.pyc
