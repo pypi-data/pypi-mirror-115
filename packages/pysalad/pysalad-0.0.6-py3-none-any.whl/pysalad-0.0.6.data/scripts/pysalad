@@ -1,0 +1,171 @@
+#!python
+
+import calendar
+from functional import seq
+import argparse
+import getpass
+import json
+import sys
+import os
+from datetime import datetime
+from datetime import timedelta
+from salad.api import Connection
+
+
+def date_or_today(date: str) -> datetime:
+    if date is None:
+        return datetime.today()
+    else:
+        return datetime.strptime(date, '%Y-%m-%d')
+
+
+def safe_get(arr, index, default=None):
+    try:
+        return arr[index]
+    except IndexError:
+        return default
+
+
+def print_message(args, message: str):
+    if args.verbose:
+        print(message)
+
+
+def print_json(j):
+    print(json.dumps(j, indent=4, sort_keys=False))
+
+
+def sum_duration(x, y) -> float:
+    return x + y["duration"]
+
+
+def command_show_report(args, conn: Connection, begin: datetime, end: datetime):
+    begin_str = begin.strftime("%Y-%m-%d")
+    end_str = end.strftime("%Y-%m-%d")
+    print_message(args, f"get report from {begin_str} to {end_str}")
+
+    contract = conn.get_contract()
+    report = conn.get_report(contract, begin_str, end_str)
+
+    if args.summary:
+        summary = report \
+            .group_by(lambda x: x["date"]) \
+            .map(lambda x: {"date": x[0], "values": seq(x[1]).reduce(sum_duration, 0.0)})
+        print_json(summary.to_list())
+    else:
+        print_json(report.to_list())
+
+
+def command_show(args, conn: Connection):
+    if args.parameters[0] == "contract":
+        print_json(conn.get_contract())
+
+    elif args.parameters[0] == "orders":
+        contract_orders = conn.get_contract_orders().to_list()
+        print_json(contract_orders)
+
+    elif args.parameters[0] == "employee":
+        print_json(conn.get_employee())
+
+    elif args.parameters[0] == "day":
+        day = date_or_today(safe_get(args.parameters, 1))
+        command_show_report(args, connection, day, day)
+
+    elif args.parameters[0] == "yesterday":
+        day = date_or_today(safe_get(args.parameters, 1))
+        yesterday = day - timedelta(days=1)
+        command_show_report(args, connection, yesterday, yesterday)
+
+    elif args.parameters[0] == "week":
+        day = date_or_today(safe_get(args.parameters, 1))
+        begin_of_week = day - timedelta(days=day.weekday())
+        end_of_week = day + timedelta(days=6 - day.weekday())
+        command_show_report(args, connection, begin_of_week, end_of_week)
+
+    elif args.parameters[0] == "month":
+        day = date_or_today(safe_get(args.parameters, 1))
+        begin_of_month = day.replace(day=1)
+        end_of_month = day.replace(day=calendar.monthrange(day.year, day.month)[1])
+        command_show_report(args, connection, begin_of_month, end_of_month)
+
+    else:
+        raise RuntimeError(f"unknown type {args.parameters[0]}")
+    sys.exit(os.EX_OK)
+
+
+def command_report(args, conn: Connection):
+    comment = args.parameters[0]
+    duration = float(args.parameters[1])
+    order = args.parameters[2].lower()
+    day = date_or_today(safe_get(args.parameters, 3))
+
+    # get contract orders
+    contract_orders = conn.get_contract_orders()
+
+    # filer all sub-orders by contract orders (sub-orders assigned to employee)
+    contract_suborders = conn.get_sub_orders() \
+        .filter(
+        lambda so:
+        contract_orders
+            .exists(
+            lambda o:
+            (o["order"]["number"] == so["order"]["number"]) and
+            (o["sub_order"]["number"] == so["number"])
+        )
+    )
+
+    matches = contract_suborders \
+        .filter(
+            lambda so:
+                (order in so["id"]) or
+                (order in so["short"].lower()) or
+                (order in so["order"]["number"].lower())
+            ).to_list()
+
+    if len(matches) == 0:
+        raise RuntimeError(f"no order for {order} found")
+
+    elif len(matches) > 1:
+        raise RuntimeError(f"more than one order for {order} found")
+
+    else:
+        hours = int((duration * 60) / 60)
+        minutes = int(duration * 60) - hours * 60
+        conn.create_report(matches[0], comment, day.strftime("%Y-%m-%d"), hours, minutes)
+        print(f"saved {hours}h and {minutes}min")
+        sys.exit(os.EX_OK)
+
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description='Python Salat')
+    parser.add_argument('command', type=str)
+    parser.add_argument('parameters', metavar='command parameters', type=str, nargs='+')
+    parser.add_argument('--url', dest='url', help='Salat URL')
+    parser.add_argument('--user', dest='user', help='Salat Username (Mitarbeiterkuerzel)')
+    parser.add_argument('--password', dest='password', help='Salat Passwort')
+    parser.add_argument('--summary', dest='summary', action="store_true", help='Summarize')
+    parser.add_argument('--verbose', dest='verbose', action="store_true", help='Verbose')
+    args = parser.parse_args()
+
+    connection = Connection(
+        args.user if args.user is not None else input("Bitte den Benutzernamen eingeben (Mitarbeiterkuerzel): "),
+        args.password if args.password is not None else getpass.getpass("Bitte das Passwort eingeben: "),
+        args.url if args.url is not None else input("Bitte die Salat URL eingeben: "),
+    )
+
+    try:
+        if args.command == "show":
+            command_show(args, connection)
+        elif args.command == "report":
+            command_report(args, connection)
+        else:
+            raise RuntimeError(f"unknown command {args.command}")
+
+    except RuntimeError as error:
+        print(f"failed: {error}")
+        sys.exit(os.EX_USAGE)
+    finally:
+        try:
+            connection.logout()
+        except RuntimeError:
+            pass
