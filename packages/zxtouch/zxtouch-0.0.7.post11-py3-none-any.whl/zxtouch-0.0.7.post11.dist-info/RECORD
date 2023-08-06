@@ -1,0 +1,15 @@
+zxtouch/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+zxtouch/client.py,sha256=OKwHM16PgWqQziyPqsGXFXo9JB2-NTUPuTD60R6T-Xw,19273
+zxtouch/colorsearchtasktypes.py,sha256=Uzgs50Ddc57xzmfLbnUiI3g7xkjyc4Jkg2-ZzNZ37yI,27
+zxtouch/constants.py,sha256=P8TS3H4Nq7TVVXXelS9q640kgxIkZQXW7EIlNYwozyA,183
+zxtouch/datahandler.py,sha256=QBIswtuPc-DFvJJRJRqhs3luQbrqgCiVzKwRTH-VoIU,840
+zxtouch/deviceinfotasktypes.py,sha256=iRydg_9COzqgQRELsZCvmEYbFtTin1jzHK2gl--X0o4,300
+zxtouch/kbdtasktypes.py,sha256=hkjFD4OxWTkRca9-G0Labjt8IeEBhphswwFfZGW1gDw,110
+zxtouch/tasktypes.py,sha256=YQb2nIm_wwUW1ZDEuaWo4n6_Q_V3RF2iHmWI6ETy9KY,474
+zxtouch/toasttypes.py,sha256=SgcQdBcUUkRbAZ3tXvymV2G45MqzwSMR85hpxOGcCas,147
+zxtouch/touchtypes.py,sha256=oaVvdfWGZIUfftbem3nf_JyDMYeqvN9ccsNp9MGy_W8,42
+zxtouch-0.0.7.post11.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+zxtouch-0.0.7.post11.dist-info/METADATA,sha256=_hHw-Yry0nGHPTFYaQPG3QDRGFMlLxROXMwN8pcLfXA,474
+zxtouch-0.0.7.post11.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+zxtouch-0.0.7.post11.dist-info/top_level.txt,sha256=AxDKRoYV_jWnygQMb8IO7TPodl5GuDe-mQUisfsX1C0,8
+zxtouch-0.0.7.post11.dist-info/RECORD,,
