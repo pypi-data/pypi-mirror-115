@@ -1,0 +1,12 @@
+LICENSE
+setup.py
+src/ONUR_Voice_Assistant/ONUR_Voice_Assistant.py
+src/ONUR_Voice_Assistant/__init__.py
+src/ONUR_Voice_Assistant/offical_data_system.py
+src/ONUR_Voice_Assistant.egg-info/PKG-INFO
+src/ONUR_Voice_Assistant.egg-info/SOURCES.txt
+src/ONUR_Voice_Assistant.egg-info/dependency_links.txt
+src/ONUR_Voice_Assistant.egg-info/entry_points.txt
+src/ONUR_Voice_Assistant.egg-info/not-zip-safe
+src/ONUR_Voice_Assistant.egg-info/requires.txt
+src/ONUR_Voice_Assistant.egg-info/top_level.txt
