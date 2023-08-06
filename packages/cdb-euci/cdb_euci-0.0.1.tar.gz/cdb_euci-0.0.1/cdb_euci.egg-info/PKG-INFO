@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: cdb-euci
+Version: 0.0.1
+Summary: CDB Utils By Euci
+Home-page: UNKNOWN
+Author: moda
+Author-email: 2586935358@qq.com
+License: MIT License
+Description: This is a contact software tools package
+Platform: all
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Programming Language :: Python :: 2.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Software Development :: Libraries
+Description-Content-Type: text/markdown

@@ -1,0 +1,8 @@
+README.rst
+setup.py
+cdb_euci.egg-info/PKG-INFO
+cdb_euci.egg-info/SOURCES.txt
+cdb_euci.egg-info/dependency_links.txt
+cdb_euci.egg-info/top_level.txt
+utils/__init__.py
+utils/generate_id.py
