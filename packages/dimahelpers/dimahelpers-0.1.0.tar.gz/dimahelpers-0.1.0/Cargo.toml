@@ -1,0 +1,22 @@
+[package]
+name = "dimahelpers"
+version = "0.1.0"
+authors = ["Shan Tharanga <stwm2@student.london.ac.uk>"]
+
+[dependencies.pyo3]
+version = "0.14.1"
+features = ["extension-module"]
+
+[lib]
+crate-type = ["cdylib"]
+name = "dimahelpers"
+
+[dependencies]
+rand = "0.8.4"
+linreg = "0.2.0"
+maplit = "1.0.2"
+reduce = "0.1.4"
+bio = "0.37.0"
+serde_json = "1.0.66"
+serde = { version = "1.0", features = ["derive"] }
+either = "1.6.1"

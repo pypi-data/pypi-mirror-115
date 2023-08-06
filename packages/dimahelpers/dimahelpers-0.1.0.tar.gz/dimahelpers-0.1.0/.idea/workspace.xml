@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" ENABLED="true" />
+    </configurations>
+  </component>
+  <component name="CargoProjects">
+    <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1e74767d-4ed2-4a5e-bccd-4f5cae216b11" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/dima/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dima/bin/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dima/bin/_dima.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dima/dima.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dima/exceptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helpers.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dima/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dima/bin/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dima/bin/_dima.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dima/core/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dima/core/header_decode.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dima/datatypes/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dima/datatypes/motif_classes.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dima/datatypes/position.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dima/datatypes/variant.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dima/datatypes/variant_counter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dima/datatypes/variant_dictionary.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dima/dima.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dima/dynamic_constants.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dima/entropy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dima/errorhandlers/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dima/errorhandlers/exceptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/setup.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_run_advanced.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_run_advanced.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_run_basic.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_run_basic.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Rust File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="3kl46f4e" />
+  </component>
+  <component name="ProjectId" id="1vOo3LD6lawLpVKWjg5JI00LQc8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="DiMA" is-module-sdk="true">
+        <envs>
+          <env key="RUST_BACKTRACE" value="full" />
+        </envs>
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="DiMA" />
+        <option name="myEnvs">
+          <map>
+            <entry key="RUST_BACKTRACE" value="full" />
+          </map>
+        </option>
+      </console-settings>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Repositories\DiMA\src" />
+      <recent name="C:\Repositories\DiMA" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python._dima">
+    <configuration name="_dima" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DiMA" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dima/bin" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dima/bin/_dima.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="benchmark" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DiMA" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/benchmark.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python._dima" />
+        <item itemvalue="Python.benchmark" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="RustProjectSettings">
+    <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
+    <option name="version" value="2" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1e74767d-4ed2-4a5e-bccd-4f5cae216b11" name="Default Changelist" comment="" />
+      <created>1626442297450</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1626442297450</updated>
+      <workItem from="1626442299953" duration="1908000" />
+      <workItem from="1626444485922" duration="4044000" />
+      <workItem from="1626448720086" duration="6031000" />
+      <workItem from="1626494460652" duration="43770000" />
+      <workItem from="1628169768659" duration="5971000" />
+      <workItem from="1628278809927" duration="20058000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/DiMA$_dima.coverage" NAME="_dima Coverage Results" MODIFIED="1628351252483" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dima/bin" />
+    <SUITE FILE_PATH="coverage/DiMA$benchmark.coverage" NAME="benchmark Coverage Results" MODIFIED="1628350069481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
