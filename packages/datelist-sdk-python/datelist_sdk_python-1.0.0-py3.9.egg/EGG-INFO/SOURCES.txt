@@ -1,0 +1,8 @@
+README.md
+setup.py
+datelist/__init__.py
+datelist/client.py
+datelist_sdk_python.egg-info/PKG-INFO
+datelist_sdk_python.egg-info/SOURCES.txt
+datelist_sdk_python.egg-info/dependency_links.txt
+datelist_sdk_python.egg-info/top_level.txt
