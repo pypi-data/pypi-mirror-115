@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: nvflare-nightly
+Version: 0.0.1.dev210806
+Summary: Federated Learning Application Runtime Environment
+Home-page: https://github.com/NVIDIA/NVFlare
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8,<3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE.pdf
+Requires-Dist: rich
+Requires-Dist: numpy
+Requires-Dist: grpcio
+Requires-Dist: google-api-python-client
+Requires-Dist: cryptography
+Requires-Dist: psutil
+Requires-Dist: PyYAML
+Requires-Dist: tenseal (==0.3.0)
+
+**NV**IDIA **F**ederated **L**earning **A**pplication **R**untime **E**nvironment
+
+
+[NVFlare](https://nvidia.github.io/nvflare) enables researchers to collaborate and build AI models without sharing private data. 
+
+NVFlare is a standalone python library designed to enable federated learning amongst different parties using their local secure protected data for client-side training, at the same time it includes capabilities to coordinate and exchange progressing of results across all sites to achieve better global model while preserving data privacy. The participating clients can be in any part of the world. 
+
+NVFlare builds on a flexible and modular architecture and is abstracted through APIs allowing developers & researchers to customize their implementation of functional learning components in a Federated Learning paradigm. 
+
+Learn more - [NVFlare](https://nvidia.github.io/nvflare).
+
+
+## Installation
+
+To install [the current release](https://pypi.org/project/nvflare), you can simply run:
+
+```bash
+pip install nvflare
+```
+
+To install [the nightly release](https://pypi.org/project/nvflare-nightly), you can simply run:
+
+```bash
+pip install nvflare-nightly
+```
+
+## Third party license
+
+pyyaml: https://github.com/yaml/pyyaml/blob/master/LICENSE (MIT)
+
+grpcio: https://pypi.org/project/grpcio/ (Apache 2.0)
+
+google-api-python-client: https://github.com/googleapis/google-api-python-client/blob/master/LICENSE (Apache 2.0)
+
+psutil: https://github.com/giampaolo/psutil/blob/master/LICENSE (BSD 3-Clause)
+
+cryptography: https://github.com/pyca/cryptography/blob/main/LICENSE (BSD, Apache and PSF)
+
+rich: https://github.com/willmcgugan/rich/blob/master/LICENSE (MIT)
+
+tenseal: https://github.com/OpenMined/TenSEAL/blob/master/LICENSE (Apache 2.0)
+
+
+## License
+
+By installing the software, you agree to the [license terms](https://developer.download.nvidia.com/assets/Clara/nvidia_nvflare_license.pdf).
+
+
