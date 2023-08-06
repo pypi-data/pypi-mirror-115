@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: pgb_utils
+Version: 0.2.4
+Summary: Tools to interact with Pitt-Google Broker data products and services.
+Home-page: https://github.com/mwvgroup/Pitt-Google-Broker
+Author: Troy Raen
+Author-email: troy.raen@pitt.edu
+License: UNKNOWN
+Keywords: astronomy,alert broker
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# Query, download, and process the data
+
+This package facilitates access to data products from the Pitt-Google Broker.
+See the docs at [pitt-broker.readthedocs.io](https://pitt-broker.readthedocs.io/en/latest/index.html).
+
+
