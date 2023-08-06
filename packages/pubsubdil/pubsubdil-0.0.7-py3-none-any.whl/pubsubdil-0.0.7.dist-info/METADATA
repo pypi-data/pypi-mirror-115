@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: pubsubdil
+Version: 0.0.7
+Summary: Package for pubsub channel
+Home-page: UNKNOWN
+Author: DeepInnovations
+Author-email: lidor@deepinnovations.co.uk
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: redis
+
+UNKNOWN
+
