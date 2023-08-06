@@ -1,0 +1,13 @@
+spkpb/LICENSE.txt,sha256=4cCtcomD2KVzNeUs8QZPGv_R1FQXPYzr0-2LSnK0hwQ,35121
+spkpb/README.md,sha256=8VBpUdDb-0IZs5awBSHqGtl-iE2Neb86Q8vO9zn8E9A,4655
+spkpb/__init__.py,sha256=TO6RPVXKLwHKQ2PPBu8tlJxRtnfzlUIXlnUO2l9elPw,93
+spkpb/problems.py,sha256=xlGBLLNA8Y8ZCwpk5o_V79sMNO47j5PUFzjBj0mDI78,11719
+spkpb/speaker/__init__.py,sha256=hal4bAcS_MZpvq0cIoOLn5JZpWo1zLBR08pGnSHR_ps,45
+spkpb/speaker/allinone.py,sha256=3M8i9P43VaiKLn6NL7sxuWaZeYULxeD0GD8OdNz1aw0,11101
+spkpb/speaker/log.py,sha256=cXil-g3F-lGg-evWfWxw5mdduQYe31KT0joeXvua8Ro,2002
+spkpb/speaker/spk_interface.py,sha256=Km7vI69rwfvqaP8YeG6pny0pqtPgt3TUvQKDDTYBrk8,3990
+spkpb/speaker/term.py,sha256=PmfjjaZofG1kuNC7oJLR4lNGjY8WZ0xDI4oE8BKc3rc,4069
+spkpb/timer.py,sha256=26wthvCkxtIwnSp0-666zYVNF0IUSijQ0VPPMXDgyEI,998
+spkpb-0.0.5b0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+spkpb-0.0.5b0.dist-info/METADATA,sha256=0CeImaPWVskemfK4o5IAzQO2kHImS5HO7wS8Yp9LNQs,5459
+spkpb-0.0.5b0.dist-info/RECORD,,
