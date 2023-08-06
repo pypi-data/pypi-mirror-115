@@ -1,0 +1,9 @@
+README.md
+setup.py
+t5s.egg-info/PKG-INFO
+t5s.egg-info/SOURCES.txt
+t5s.egg-info/dependency_links.txt
+t5s.egg-info/entry_points.txt
+t5s.egg-info/not-zip-safe
+t5s.egg-info/requires.txt
+t5s.egg-info/top_level.txt
