@@ -1,0 +1,7 @@
+setup.py
+pyshell_msg/Shell.py
+pyshell_msg/__init__.py
+pyshell_msg.egg-info/PKG-INFO
+pyshell_msg.egg-info/SOURCES.txt
+pyshell_msg.egg-info/dependency_links.txt
+pyshell_msg.egg-info/top_level.txt
