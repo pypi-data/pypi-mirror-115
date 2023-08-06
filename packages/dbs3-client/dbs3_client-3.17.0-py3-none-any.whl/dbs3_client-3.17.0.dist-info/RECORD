@@ -1,0 +1,9 @@
+dbsClient/apis/__init__.py,sha256=d2-l0iJao7RKWx2uDZU3WCvgCGTLl7sPkXnwtWjx3nE,41
+dbsClient/apis/dbsClient.py,sha256=Hkt4pN2G6mtWQeBjeCKgs3RjyknDqx575p2pmCIskNw,79926
+dbsClient/exceptions/__init__.py,sha256=d2-l0iJao7RKWx2uDZU3WCvgCGTLl7sPkXnwtWjx3nE,41
+dbsClient/exceptions/dbsClientException.py,sha256=rs-l5n7T0MpMvyPIoNC_WGRhbKBk3ar5t_--29SAKAM,481
+dbs3_client-3.17.0.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+dbs3_client-3.17.0.dist-info/METADATA,sha256=f0Rp2IQvOYYMmWWlExcEP7UfqadM2e9Rnym8hCDOl2E,328
+dbs3_client-3.17.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+dbs3_client-3.17.0.dist-info/top_level.txt,sha256=Ebm0OoG_9FKqeaXh7X7yfHm5S8vQCdYLNoT_AvlQlCc,10
+dbs3_client-3.17.0.dist-info/RECORD,,
