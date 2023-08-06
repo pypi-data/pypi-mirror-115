@@ -1,0 +1,8 @@
+julian
+numpy
+pandas
+python-dateutil
+pytz
+requests
+six
+urllib3
