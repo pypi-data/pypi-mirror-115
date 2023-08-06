@@ -1,0 +1,6 @@
+pip
+packaging
+nbdev<2.0.0
+fastcore@ https://github.com/fastai/fastcore/tarball/master
+
+[dev]
