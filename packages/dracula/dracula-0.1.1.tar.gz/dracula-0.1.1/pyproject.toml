@@ -1,0 +1,11 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "dracula"
+authors = [{name = "f.catus", email = "none@none.com"}]
+dynamic = ["version", "description"]
+
+[project.urls]
+Home = "https://github.comm/Alyetama/dracula"
