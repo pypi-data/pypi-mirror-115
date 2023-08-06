@@ -1,0 +1,7 @@
+serial.py
+setup.py
+pycopy_serial.egg-info/PKG-INFO
+pycopy_serial.egg-info/SOURCES.txt
+pycopy_serial.egg-info/dependency_links.txt
+pycopy_serial.egg-info/requires.txt
+pycopy_serial.egg-info/top_level.txt
