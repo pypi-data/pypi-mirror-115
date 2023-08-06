@@ -1,0 +1,30 @@
+final_dir = [ ] # For example: ["P:", "T:"], The final directory will plot will saved.
+
+[main]
+max_jobs = 10 # default is not set.
+
+[[jobs]]
+tmp_dir = "E:/plotting"
+# tmp2_dir = "F:/plotting"
+# max_jobs = 1
+# job_start_mode = "simple"
+
+# size = 32
+# nobitfield = false
+# farmer_key = ""
+# pool_key = ""
+# pool_contract_address = ""
+# num_threads = 2
+# bukets = 128
+# buffer = 4_608
+
+[[jobs]]
+tmp_dir = "G:/plotting"
+# tmp2_dir = "H:/plotting"   # optional
+# max_jobs = 1  # default is 1.
+
+# size = 32
+# nobitfield = false
+# num_threads = 2
+# bukets = 128
+# buffer = 4_608
