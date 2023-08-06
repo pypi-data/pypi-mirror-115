@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: lexis
+Version: 0.0.2
+Summary: Wordnet wrapper - Easy access to words and their relationships
+Home-page: https://github.com/thorwhalen/lexis
+Author: Thor Whalen
+License: apache-2.0
+Platform: any
+Description-Content-Type: text/markdown
+Requires-Dist: i2
+Requires-Dist: dol
+Requires-Dist: nltk
+
+
+# lexis
+Wordnet wrapper - Easy access to words and their relationships
+
+
+To install:	```pip install lexis```
+
+
