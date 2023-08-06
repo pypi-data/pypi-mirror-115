@@ -1,0 +1,17 @@
+ansi2html
+best_download
+colorama
+flask
+flask-admin
+flask-bootstrap
+flask-login
+flask-migrate
+flask-sqlalchemy
+flask-wtf
+natsort
+parse
+pyjwt
+sqlalchemy
+sqlitedict
+wtforms[email]
+yaspin
