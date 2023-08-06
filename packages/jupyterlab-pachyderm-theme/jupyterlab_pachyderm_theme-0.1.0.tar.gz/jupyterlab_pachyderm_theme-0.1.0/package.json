@@ -1,0 +1,89 @@
+{
+  "name": "@pachyderm/jupyterlab-pachyderm-theme",
+  "version": "0.1.0",
+  "description": "A JupyterLab Pachyderm theme with a splash extension.",
+  "keywords": [
+    "jupyter",
+    "jupyterlab",
+    "jupyterlab-extension"
+  ],
+  "author": "Jimmy Whitaker",
+  "homepage": "https://github.com/pachyderm/jupyterlab-pachyderm-theme",
+  "bugs": {
+    "url": "https://github.com/pachyderm/jupyterlab-pachyderm-theme/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pachyderm/jupyterlab-pachyderm-theme"
+  },
+  "license": "BSD-3-Clause",
+  "files": [
+    "lib/*.d.ts",
+    "lib/*.js.map",
+    "lib/*.js",
+    "style/*",
+    "style/index.js"
+  ],
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "style": "style/index.css",
+  "directories": {
+    "lib": "lib/"
+  },
+  "scripts": {
+    "build": "jlpm run build:lib && jlpm run build:labextension:dev",
+    "build:labextension": "jupyter labextension build .",
+    "build:labextension:dev": "jupyter labextension build --development True .",
+    "build:lib": "tsc",
+    "build:prod": "jlpm run clean && jlpm run build:lib && jlpm run build:labextension",
+    "build:webpack": "webpack",
+    "clean": "jlpm run clean:lib",
+    "clean:all": "jlpm run clean:lib && jlpm run clean:labextension",
+    "clean:labextension": "rimraf jupyterlab_pachyderm_theme/labextension",
+    "clean:lib": "rimraf lib tsconfig.tsbuildinfo",
+    "eslint": "eslint . --ext .ts,.tsx --fix",
+    "eslint:check": "eslint . --ext .ts,.tsx",
+    "install:extension": "jlpm run build",
+    "prepare": "npm run clean && npm run build",
+    "watch": "run-p watch:src watch:labextension",
+    "watch:labextension": "jupyter labextension watch .",
+    "watch:src": "tsc -w",
+    "watch:webpack": "webpack --watch"
+  },
+  "dependencies": {
+    "@jupyterlab/application": "^3.0.10",
+    "@jupyterlab/apputils": "^3.0.8",
+    "@jupyterlab/translation": "^3.0.8",
+    "style-loader": "^3.2.1"
+  },
+  "devDependencies": {
+    "@jupyterlab/builder": "^3.0.0",
+    "@typescript-eslint/eslint-plugin": "^4.8.1",
+    "@typescript-eslint/parser": "^4.8.1",
+    "css-loader": "~0.28.7",
+    "eslint": "^7.14.0",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "mini-css-extract-plugin": "~0.4.4",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^2.1.1",
+    "rimraf": "^3.0.2",
+    "svg-url-loader": "~2.3.1",
+    "svgo": "~1.0.4",
+    "svgo-loader": "~2.1.0",
+    "typedoc": "~0.12.0",
+    "typescript": "~4.1.3",
+    "url-loader": "~1.0.1",
+    "watch": "~1.0.2",
+    "webpack": "~4.12.0",
+    "webpack-cli": "^3.0.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "jupyterlab": {
+    "extension": true,
+    "outputDir": "jupyterlab_pachyderm_theme/labextension"
+  },
+  "styleModule": "style/index.js"
+}

@@ -1,0 +1,118 @@
+#jp-MainLogo{
+  background-image: url(pachyderm_logo.svg);
+  background-repeat: no-repeat;
+  margin: 2px 2px 2px 6px;
+  height: auto;
+  width: 100px;
+} 
+#jp-MainLogo > svg {
+  visibility: hidden;
+}
+
+#pachyderm-splash {
+  z-index: 10;
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#pachyderm-logo {
+  position: absolute;
+  display: flex;
+}
+
+#pachyderm-logo .logoGraphic {
+  width: 165px;
+  margin: 0 15px 0 0;
+}
+
+#pachyderm-logo .logoGraphic div {
+  height: 56px;
+  width: 100%;
+  margin: 15px 0 15px 0;
+  border-radius: 8px;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+#pachyderm-logo .graphicTop {
+  background-color: #5ba3b1;
+  animation-duration: 1s;
+  animation-name: bounceWidthTop;
+}
+
+#pachyderm-logo .logoGraphic .graphicMid {
+  width: calc(175px / 2);
+  background-color: #582f6b;
+  animation-duration: 1.3s;
+  animation-name: bounceWidthMid;
+}
+
+#pachyderm-logo .graphicBot {
+  background-color: #F69279;
+  animation-duration: 1.5s;
+  animation-name: bounceWidthBot;
+}
+
+#pachyderm-logo .logoText {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: start;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#pachyderm-logo .logoText h1 {
+  margin: 0;
+  font-size: 94px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  line-height: 100px;
+  color: #333;
+  user-select: none;
+}
+
+#pachyderm-logo .logoText h2 {
+  margin: -20px 0 0 2px;
+  font-size: 54px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  color: #333;
+  user-select: none;
+}
+
+@keyframes bounceWidthTop {
+  from {
+    width: 100%;
+  }
+
+  to {
+    width: 40%;
+  }
+}
+
+@keyframes bounceWidthMid {
+  from {
+    width: 100%;
+  }
+
+  to {
+    width: 50%;
+  }
+}
+
+@keyframes bounceWidthBot {
+  from {
+    width: 100%;
+  }
+
+  to {
+    width: 60%;
+  }
+}
