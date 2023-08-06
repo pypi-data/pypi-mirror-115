@@ -1,0 +1,3 @@
+[simplebot.plugins]
+simplebot_frotz = simplebot_frotz
+
