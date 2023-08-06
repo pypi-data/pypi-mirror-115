@@ -1,0 +1,10 @@
+README.md
+setup.py
+KoGaMa.py_Rewrite.egg-info/PKG-INFO
+KoGaMa.py_Rewrite.egg-info/SOURCES.txt
+KoGaMa.py_Rewrite.egg-info/dependency_links.txt
+KoGaMa.py_Rewrite.egg-info/requires.txt
+KoGaMa.py_Rewrite.egg-info/top_level.txt
+Kogama/Exceptions.py
+Kogama/__init__.py
+Kogama/kogama.py
