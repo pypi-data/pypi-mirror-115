@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: has-auth-client
+Version: 0.1.6
+Summary: auth middleware client
+Home-page: UNKNOWN
+Author: Florian Baier
+Author-email: f.baier1@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: requests
+
+UNKNOWN
+
+
