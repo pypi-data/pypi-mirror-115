@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+./tomek/__init__.py
+./tomek/_person.cpython-39-x86_64-linux-gnu.so
+./tomek/_person.py
+./tomek/usage.py
+tomek_marstomek.egg-info/PKG-INFO
+tomek_marstomek.egg-info/SOURCES.txt
+tomek_marstomek.egg-info/dependency_links.txt
+tomek_marstomek.egg-info/requires.txt
+tomek_marstomek.egg-info/top_level.txt
