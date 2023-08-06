@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: commonMethods-zhaozl
+Version: 3.13
+Summary: timeTrans code2Name mysqlOperator printWithColor bpNetworkTrain bpNetworkRun comtradeParse processBar trendAnalyzer bounceAnalyzer evennessDetermine... by zhaozl.
+Home-page: UNKNOWN
+Author: zhaozl1123
+Author-email: 545362989@qq.com
+License: MIT
+Description: 
+        ## 版本记录
+        
+        v1.1 修正了输出类型
+        
+        v1.2 修正了：单code对应多names应退出
+        
+        v1.3 新增了mysqlOperator，并更新了初始化和selectData方法
+        
+        v1.5 新增了printWithColor
+        
+        v1.6 新增了bpNetworkTrain
+        
+        v1.8 新增了bpNetworkRun
+        
+        v1.9 优化了tensorflow的引入
+        
+        v1.10 修复了tensorflow的bug
+        
+        v1.12 增加了对comtrade标准的支持
+        
+        v1.14 针对boolean值简化了comtrade的使用过程
+        
+        v2.0 优化了comtrade的使用说明
+        
+        v2.4 增加了processBar
+        
+        v2.5 增加了trendAnalyzer
+        
+        v2.6 增加了bounceAnalyzer
+        
+        v3.0 增加了evennessDetermine
+        
+        v3.1 修正了module的加载方式，修改了各种description
+        
+        v3.2 添加了环境依赖信息
+        
+        v3.4 对trendAnalyzer中的plotDualYAxisFig功能进行了修改
+        
+        v3.5 对trendAnalyzer、bounceAnalyzer、evennessDetermine中的计算与判断逻辑进行了补充
+        
+        v3.6 修正了Method_bpNetworkRun、Method_bpNetworkTrain中的错误
+        
+        v3.7 修正了一些bug
+        
+        v3.8 修正了一些bug
+        
+        v3.9 增加了mapminmax、moduleOfDataframe、cosineThetaOfVectors三个函数
+        
+        v3.10 增加了randomGrouping函数
+        
+        v3.11 randomGrouping函数为随机不重复选取数据
+        
+        v3.12 升级了processBar
+        
+        v3.13 修复了Method_mysqlOperator中的insertRow方法中excute后的commit
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.7.0
+Description-Content-Type: text/markdown
