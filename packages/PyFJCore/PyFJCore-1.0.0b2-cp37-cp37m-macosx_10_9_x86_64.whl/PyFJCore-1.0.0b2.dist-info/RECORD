@@ -1,0 +1,9 @@
+pyfjcore/__init__.py,sha256=uIissTU2pKacw8v_ZJ9CI2q82cftpFNzDm4XlyJKtvk,1505
+pyfjcore/pyfjcore.py,sha256=YRSJTzGwW9Dma9gylTcsUHw_EllRnAp_SVjvEvOgLoo,56125
+pyfjcore/_pyfjcore.cpython-37m-darwin.so,sha256=gJp-jPev5GcttEgY1_xfwx9t8I7zI_ryBipyVA3YdEU,1069456
+pyfjcore/.dylibs/libPyFJCore.dylib,sha256=iJolrPx55GW6DuGfehJ94TGDBzesr9H6RRnBxcyd_wk,472320
+PyFJCore-1.0.0b2.dist-info/RECORD,,
+PyFJCore-1.0.0b2.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+PyFJCore-1.0.0b2.dist-info/WHEEL,sha256=WVG6A_oY5zUoNXUyvfLMOSXC-hqC5VZacUL1MeSOz70,110
+PyFJCore-1.0.0b2.dist-info/top_level.txt,sha256=GqB3IMYDEPV37bu-Loi2Xd3v2cG4Yp2DSBnrWQ1BJFc,9
+PyFJCore-1.0.0b2.dist-info/METADATA,sha256=0IFPesDag2R8CGGu8fpOTwCY8MBboD-0tCRHlue-hE4,13502
