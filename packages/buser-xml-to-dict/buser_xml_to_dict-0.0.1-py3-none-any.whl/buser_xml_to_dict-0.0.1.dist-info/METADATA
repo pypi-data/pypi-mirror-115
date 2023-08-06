@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: buser-xml-to-dict
+Version: 0.0.1
+Summary: Simple lib to handle with xml like a dictionary
+Home-page: UNKNOWN
+Author: Abraao Barros Lacerda
+Author-email: abraao.lacerda@buser.com.br
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+License-File: LICENSE
+Provides-Extra: dev
+Requires-Dist: pytest (>=3.6) ; extra == 'dev'
+
+## Installation
+
+Run the following to install:
+
+'''python
+pip install xml-to-dict 
+''' 
+
+
+## Usage
+
