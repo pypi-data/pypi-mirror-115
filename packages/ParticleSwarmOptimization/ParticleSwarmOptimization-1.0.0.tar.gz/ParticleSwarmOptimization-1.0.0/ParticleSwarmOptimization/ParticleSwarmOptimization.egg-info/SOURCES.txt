@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+ParticleSwarmOptimization/ParticleSwarmOptimization/Particle.py
+ParticleSwarmOptimization/ParticleSwarmOptimization/Swarm.py
+ParticleSwarmOptimization/ParticleSwarmOptimization/__init__.py
+ParticleSwarmOptimization/ParticleSwarmOptimization.egg-info/PKG-INFO
+ParticleSwarmOptimization/ParticleSwarmOptimization.egg-info/SOURCES.txt
+ParticleSwarmOptimization/ParticleSwarmOptimization.egg-info/dependency_links.txt
+ParticleSwarmOptimization/ParticleSwarmOptimization.egg-info/top_level.txt
