@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: finVizFetchPkg
+Version: 0.0.2
+Summary: A package to fetch finViz data
+Home-page: https://github.com/p-hiroshige/finVizFetch.git
+Author: Example Author
+Author-email: author@example.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# finVizFetch
+This is a python package for fetching FinViz data
+
+

@@ -1,0 +1,8 @@
+README.md
+setup.py
+finVizFetchPkg/__init__.py
+finVizFetchPkg/finVizScaper.py
+finVizFetchPkg.egg-info/PKG-INFO
+finVizFetchPkg.egg-info/SOURCES.txt
+finVizFetchPkg.egg-info/dependency_links.txt
+finVizFetchPkg.egg-info/top_level.txt
