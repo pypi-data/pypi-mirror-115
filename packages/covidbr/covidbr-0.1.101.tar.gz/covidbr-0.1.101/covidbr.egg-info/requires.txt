@@ -1,0 +1,10 @@
+openlsx
+instabot
+osmnx
+numpy
+matplotlib
+pillow
+mechanicalsoup
+psutil
+requests
+pandas
