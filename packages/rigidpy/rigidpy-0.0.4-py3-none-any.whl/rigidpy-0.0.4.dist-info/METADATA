@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: rigidpy
+Version: 0.0.4
+Summary: rigidpy package for rigidity analysis
+Home-page: https://github.com/vfaghirh/rigidpy
+Author: Varda Faghir Hagh, Mahdi Sadjadi
+Author-email: vardahagh@uchicago.edu
+License: MIT
+Keywords: rigidity physics math python flexibility condensed matter
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Science/Research
+Requires-Python: >=3.5
+
+rigidPy is a library written in python with minimal dependency to compute
+
+
