@@ -1,0 +1,11 @@
+README.md
+setup.py
+callable_cli/__init__.py
+callable_cli/version.py
+callable_cli.egg-info/PKG-INFO
+callable_cli.egg-info/SOURCES.txt
+callable_cli.egg-info/dependency_links.txt
+callable_cli.egg-info/requires.txt
+callable_cli.egg-info/top_level.txt
+tests/__init__.py
+tests/test_callable_cli.py
