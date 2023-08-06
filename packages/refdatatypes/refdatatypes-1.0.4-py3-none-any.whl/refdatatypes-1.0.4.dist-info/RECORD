@@ -1,0 +1,15 @@
+refdatatypes/VERSION,sha256=rqWtvvV0eFJzxPOcG3aHz4AZk-DLa_Z4GkFonk7bsgw,5
+refdatatypes/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+refdatatypes/refbase.py,sha256=9gkWcLNRGqy_dCiz6N7Qokl1SnUqU_jmu8ZdXmdcWsg,1781
+refdatatypes/refbool.py,sha256=4CENUqCviGg-xLgLezZIH3-71R3f3pSUFIa8L3Ut9G0,314
+refdatatypes/reffloat.py,sha256=MyAO8Res-bSozwMyHSaaXFt5F9icw8sT5q8dNruHchQ,319
+refdatatypes/refint.py,sha256=6N-UWriq87rYjHbdwFQtLhHV10Z3pvdMTJVLOcVQ78Q,309
+refdatatypes/refstr.py,sha256=MkVg6g9iZ1pWX_C0Wz4ngDLnzR0oPb37CIkZuRaJJoo,309
+refdatatypes/test_class_static.py,sha256=8HDu3D8jcqj2xK2hzsHr08XyB09XUm7DUuScxoKVwkQ,465
+refdatatypes/test_refbool.py,sha256=SJIyYyVr43Ye0YwKpgoA1ciyvBP1kWG5kxV_g7ak-Bc,441
+refdatatypes/test_reffloat.py,sha256=gljt1BqRgYtQwVXfqpKUxZQjFwsfNIkParZM1nTgpRE,459
+refdatatypes/test_refint.py,sha256=lc29T8ieYjm7fkifUY8rdHmxIH4kKFySoNhYX9iobWs,635
+refdatatypes-1.0.4.dist-info/METADATA,sha256=cJxqFqC9IogGjEFVXXzDfRJ4JFngaTg443uL-q_82SY,1739
+refdatatypes-1.0.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+refdatatypes-1.0.4.dist-info/top_level.txt,sha256=IXUFznfSb6GD7LbEKqRcw5Wl5XKnR4Draa71njs27Cw,13
+refdatatypes-1.0.4.dist-info/RECORD,,
