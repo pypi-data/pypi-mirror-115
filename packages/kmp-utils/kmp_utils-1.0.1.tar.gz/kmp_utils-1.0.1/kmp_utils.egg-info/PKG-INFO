@@ -1,0 +1,162 @@
+Metadata-Version: 2.1
+Name: kmp-utils
+Version: 1.0.1
+Summary: Implementation of KMP algorithm and simple generalizations.
+Home-page: http://pypi.python.org/pypi/kmp_utils/
+Author: Algorithms Path
+Author-email: support@algorithmspath.com
+License: MIT
+Description: # KMP Utilities
+        
+        The KMP utils library provides a python binding to C++ for fast, linear time string processing.
+        
+        ## Installation
+        
+        You can install the `kmp_utils` library with the following command:
+        
+            pip install kmp_utils
+        
+        Then import into your program as:
+        
+            import kmp_utils
+        
+            def main():
+                s = "aabaaba"
+                t = "ab"
+                x = kmp_utils.split(s, t)
+                print(x)
+                pass
+        
+            if __name__ == '__main__':
+                main()
+        
+            >>> ['a', 'a', 'a']
+        
+        This library requires pybind11 and python >= 3
+        
+        ## Examples
+        
+        The `kmp_utils` library consists of 5 API methods.
+        
+        `find_all(s, t)`. Reading from left to right starting from the beginning of string `s`, find all disjoint occurrences of string `t` in `s` by returning the starting indices of any such occurrences. This returns an increasing list.
+        
+            find_all("aaaaaa", "aa") = [0, 2, 4]
+            find_all("aabaaba", "ab") = [1, 4]
+            find_all("sdsdsd", "ab") = []
+        
+        `find_all_left(s, t)`. Reading from right to left starting from the end of string `s`, find all disjoint occurrences of string `t` in `s` by returning the starting indices of any such occurrences. This returns a decreasing list.
+        
+            find_all_left("aaabbb", "aa") = [1]
+            find_all_left("aabaaba", "ab") = [4, 1]
+            find_all_left("sdsdsd", "ab") = []
+        
+        `get_next_right(s, i, t)`. Reading from left to right starting from index `i` in string `s`, find the next occurence of string `t` in `s` by returning the starting index. Returns `-1` if `t` cannot be found.
+        
+            get_next_right("aaaaaa", 5, "aa") = -1
+            get_next_right("aabaaba", 3, "ab") = 4
+            get_next_right("sdsdsd", 0, "ab") = -1
+        
+        `get_next_left(s, i, t)`. Reading from right to left starting from index `i` in string `s`, find the next occurence of string `t` in `s` by returning the starting index. Returns `-1` if `t` cannot be found.
+        
+            get_next_left("aaaaa", 1, "aa") = 0
+            get_next_left("aaaaa", 1, "aaa") = -1
+            get_next_left("ababaabb", 6, "ab") = 5
+        
+        `split(s, t)`. Split string `s` by `t` starting from the beginning of `s`.
+        
+            split("aaaaa", "aa") = ['', '', 'a']
+            split("axbxcx", "x") = ['a', 'b', 'c']
+            split("ababaabb", "xs") = ['ababaabb']
+        
+        ## Performance Testing
+        
+        We compare a linear python iteration with the `kmp_utils.find_all` method with the following code.
+        
+            import kmp_utils
+            import time
+            from typing import List
+        
+            def python_kmp_find_all(text: str, pattern: str) -> List[int]:
+                result = []
+                prefixTable = computePrefixTable(pattern)
+                index = KMPAlgorithm(text, pattern, 0, prefixTable)
+                while index != -1:
+                    result.append(index)
+                    index = KMPAlgorithm(text, pattern, index + len(pattern), prefixTable)
+        
+                return result
+        
+            def KMPAlgorithm(text: str, pattern: str, index: int, prefixTable: List[int]) -> int:
+                n = len(text)
+                m = len(pattern)
+                if n-index < m or m == 0:
+                    return -1
+                i = index
+                j = 0
+                while i < n:
+                    if text[i] == pattern[j]:
+                        i += 1
+                        j += 1
+                        if j == m:
+                            return i-m
+                        continue
+                    while j > 0 and pattern[j] != text[i]:
+                        j = prefixTable[j-1]
+                    if j == 0 and pattern[j] != text[i]:
+                        i += 1
+        
+                return -1
+        
+            def computePrefixTable(pattern: str) -> List[int]:
+                m = len(pattern)
+                prefixTable = [0 for i in range(0,m)]
+                j = 0
+                for i in range(1,m):
+                    while j > 0 and pattern[j] != pattern[i]:
+                        j = prefixTable[j-1]
+                    if pattern[j] == pattern[i]:
+                        j += 1
+                    prefixTable[i] = j
+                return prefixTable
+        
+            def p1():
+                n = 1000000
+                s1 = 'a' * n
+                s2 = 'a' * n
+                p1 = 'a' * 10
+                p2 = 'a' * 10
+        
+                t1 = time.time()
+                x1 = kmp_utils.find_all(s1, p1)
+                dt = time.time() - t1
+                print(f'kmp_utils time: {dt} seconds')
+        
+                t1 = time.time()
+                x2 = python_kmp_find_all(s2, p2)
+                dt = time.time() - t1
+                print(f'kmp algorithm in python time: {dt} seconds')
+        
+                assert(len(x1) == len(x2))
+        
+                for i in range(0, len(x1)):
+                    assert x1[i] == x2[i]
+        
+        
+            def main():
+                p1()
+                pass
+        
+            if __name__ == '__main__':
+                main()
+        
+            >>> kmp_utils time: 0.009107112884521484 seconds
+            >>> kmp algorithm in python time: 0.40862512588500977 seconds
+        
+        For coding interview preparation, please visit [algorithmspath.com] (https://algorithmspath.com).
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3
+Description-Content-Type: text/markdown
