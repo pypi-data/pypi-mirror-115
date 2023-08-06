@@ -1,0 +1,11 @@
+PyYAML
+attrs
+boltons
+cached_property
+download
+marisa-trie>=0.7.5
+scipy
+sqlalchemy
+tqdm
+ujson
+us
