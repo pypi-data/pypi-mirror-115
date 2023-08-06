@@ -1,0 +1,13 @@
+MANIFEST.in
+requirements.txt
+setup.cfg
+setup.py
+src/opentelemetry/instrumentation/kser_sequencing/__init__.py
+src/opentelemetry/instrumentation/kser_sequencing/package.py
+src/opentelemetry/instrumentation/kser_sequencing/version.py
+src/opentelemetry_instrumentation_kser.egg-info/PKG-INFO
+src/opentelemetry_instrumentation_kser.egg-info/SOURCES.txt
+src/opentelemetry_instrumentation_kser.egg-info/dependency_links.txt
+src/opentelemetry_instrumentation_kser.egg-info/entry_points.txt
+src/opentelemetry_instrumentation_kser.egg-info/requires.txt
+src/opentelemetry_instrumentation_kser.egg-info/top_level.txt
