@@ -1,0 +1,7 @@
+README.md
+setup.py
+useful_classes
+useful_classes/useful_classes.egg-info/PKG-INFO
+useful_classes/useful_classes.egg-info/SOURCES.txt
+useful_classes/useful_classes.egg-info/dependency_links.txt
+useful_classes/useful_classes.egg-info/top_level.txt
