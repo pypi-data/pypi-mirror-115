@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/aogn/__init__.py
+src/aogn/client.py
+src/aogn/settings.py
+src/aogn.egg-info/PKG-INFO
+src/aogn.egg-info/SOURCES.txt
+src/aogn.egg-info/dependency_links.txt
+src/aogn.egg-info/top_level.txt
