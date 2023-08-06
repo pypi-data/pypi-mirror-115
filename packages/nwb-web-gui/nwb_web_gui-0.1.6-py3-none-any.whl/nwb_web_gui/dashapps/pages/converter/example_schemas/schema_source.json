@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "source.schema.json",
+  "title": "Source data",
+  "description": "Schema for the source data",
+  "version": "0.1.0",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+
+    "EcephysDataInterface": {
+      "title": "Ecephys data interface",
+      "type": "object",
+      "required": [],
+      "properties": {
+        "ecephys_raw_data": {
+          "type": "string",
+          "format": "file",
+          "description": "path to raw data file"
+        }
+      }
+    },
+
+    "OphysDataInterface": {
+      "title": "Ophys data interface",
+      "type": "object",
+      "properties": {
+        "ophys_processed_data": {
+          "type": "string",
+          "format": "directory",
+          "description": "path to directory containing processed data files"
+        }
+      }
+    }
+  }
+}

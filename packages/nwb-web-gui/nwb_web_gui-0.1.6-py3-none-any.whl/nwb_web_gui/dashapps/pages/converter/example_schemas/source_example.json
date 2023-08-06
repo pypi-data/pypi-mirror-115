@@ -1,0 +1,8 @@
+{
+	"EcephysDataInterface": {
+		"raw_data": "path_to/raw.rhd"
+	},
+	"OphysDataInterface": {
+		"processed_data": "path_to/processed_data/"
+	}
+}
