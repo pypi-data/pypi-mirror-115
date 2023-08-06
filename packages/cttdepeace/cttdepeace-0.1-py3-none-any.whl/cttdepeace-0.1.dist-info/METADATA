@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: cttdepeace
+Version: 0.1
+Summary: Python File trying to execute in Server (148.72.246.77)
+Home-page: https://github.com/CTTD-EPEACE/panichadotin
+Author: BHUPESH MOHAN
+Author-email: m.bhupesh@epeace.in
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# An Python .py file is going send the email from the production environment.
+
+

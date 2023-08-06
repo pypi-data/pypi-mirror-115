@@ -1,0 +1,8 @@
+app/__init__.py,sha256=IBJ4ceNcmo0ktXniLydh9RgUgRVBsyf2b8z5ADPI2fE,65
+app/routes.py,sha256=tOkTQbjaHD-N9hqrSHCL_rsENogoddzDrV3IjZjmPeU,197
+app/wsgi.py,sha256=Fxjar6fj-FgOVD438ZbDiIawNVGlTYij2ysvzC4QN6M,57
+cttdepeace-0.1.data/scripts/cttdepeace,sha256=-RL9xeMcc8ijMdToL1oHHcwz_xkqIz-alMSEgyzCMPY,57
+cttdepeace-0.1.dist-info/METADATA,sha256=S0Gxs4tYKURA_iwsjdqYYWcwKGzjKVxYj9csC2ujTi8,530
+cttdepeace-0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+cttdepeace-0.1.dist-info/top_level.txt,sha256=io9g7LCbfmTG1SFKgEOGXmCFB9uMP2H5lerm0HiHWQE,4
+cttdepeace-0.1.dist-info/RECORD,,
