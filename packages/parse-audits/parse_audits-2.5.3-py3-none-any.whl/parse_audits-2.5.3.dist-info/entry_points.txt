@@ -1,0 +1,3 @@
+[console_scripts]
+parse-audits=bin.cli:app
+
