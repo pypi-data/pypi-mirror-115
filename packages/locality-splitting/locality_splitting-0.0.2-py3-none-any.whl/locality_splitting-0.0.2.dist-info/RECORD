@@ -1,0 +1,8 @@
+locality_splitting/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+locality_splitting/fips_lookup.py,sha256=vIiH93FiAo0yBrfsBT69w0t4UaAAsHe9p1kR1muafM8,1469
+locality_splitting/metrics.py,sha256=iPrnAvEbfmFAujojmSY9Hs5md43P5xdG0dGJHfLEV7E,9843
+locality_splitting-0.0.2.dist-info/LICENSE.txt,sha256=lOUxtumfNqyw6EXGIEIwatPoOYaXcv7DK9ouiAaTBu0,1077
+locality_splitting-0.0.2.dist-info/METADATA,sha256=WRGeU5oTSW2yXUMsr1Tr5VbDRr6baugk8pJ6LGXWVEU,5908
+locality_splitting-0.0.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+locality_splitting-0.0.2.dist-info/top_level.txt,sha256=HBI6Wp_m5spu1TmJAISEqiOrxw0m8jvs6UYCvgWNaio,19
+locality_splitting-0.0.2.dist-info/RECORD,,
