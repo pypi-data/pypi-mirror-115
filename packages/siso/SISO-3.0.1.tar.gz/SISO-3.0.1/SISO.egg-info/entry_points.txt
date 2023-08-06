@@ -1,0 +1,4 @@
+[console_scripts]
+ifem-to-vt = siso.__main__:deprecated
+siso = siso.__main__:convert
+
