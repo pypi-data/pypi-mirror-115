@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/test_xlsxreader_test.egg-info/PKG-INFO
+src/test_xlsxreader_test.egg-info/SOURCES.txt
+src/test_xlsxreader_test.egg-info/dependency_links.txt
+src/test_xlsxreader_test.egg-info/top_level.txt
+src/xlsxreader/__init__.py
+src/xlsxreader/xlsxreader.py
