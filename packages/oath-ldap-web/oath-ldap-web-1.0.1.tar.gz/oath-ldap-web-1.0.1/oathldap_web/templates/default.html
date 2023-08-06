@@ -1,0 +1,21 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+  <h1>Overview</h1>
+
+  {% if message %}
+      <p class="message">
+          {{ message }}
+      </p>
+  {% endif %}
+
+  <p>
+    As an <em>OATH-LDAP admin</em> you can invoke the following actions:
+  </p>
+
+  <ul>
+    <li>
+      <a href="reset">Reset OATH Token and request enrollment password</a>
+    </li>
+  </ul>
+{% endblock content %}

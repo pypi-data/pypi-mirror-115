@@ -1,0 +1,50 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+  <h1>Initialize OATH Token</h1>
+
+  <p>
+
+    <p>
+      Temporary enrollment password part #1 for token entry was
+      set and sent to the owner's e-mail address.
+    </p>
+
+    <p>
+      Temporary enrollment password part #2: <strong>{{ enrollpw2 }}</strong>
+    </p>
+
+    <table>
+      <tr>
+        <td>Token:</td>
+        <td>{{ token }}</td>
+      </tr>
+      <tr>
+        <td>Owner:</td>
+        <td><a href="mailto:{{ email }}">{{ owner }}</a></td>
+      </tr>
+      <tr>
+        <td>Owner's e-mail address:</td>
+        <td><a href="mailto:{{ email }}">{{ email }}</a></td>
+      </tr>
+    </table>
+  </p>
+
+  <ul class="tip">
+    <li>
+      Make sure the token owner has access to a properly functioning
+      enrollment device (e.g. special notebook).
+    </li>
+    <li>
+      Please hand over temporary enrollment password part #2 displayed
+      above to the token owner over a secure
+      <strong>out-of-band channel</strong>.
+    </li>
+    <li>
+      Please advice the token owner that the temporary password will
+      be valid only for a few minutes. If password has expired you can
+      simply request <a href="reset?serial={{ serial }}">token reinitialization</a>
+      again.
+    </li>
+  </ul>
+{% endblock content %}
