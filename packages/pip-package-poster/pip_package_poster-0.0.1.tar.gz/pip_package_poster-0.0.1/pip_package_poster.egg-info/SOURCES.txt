@@ -1,0 +1,8 @@
+setup.py
+PPP/__init__.py
+PPP/pip_package_poster.py
+pip_package_poster.egg-info/PKG-INFO
+pip_package_poster.egg-info/SOURCES.txt
+pip_package_poster.egg-info/dependency_links.txt
+pip_package_poster.egg-info/requires.txt
+pip_package_poster.egg-info/top_level.txt
