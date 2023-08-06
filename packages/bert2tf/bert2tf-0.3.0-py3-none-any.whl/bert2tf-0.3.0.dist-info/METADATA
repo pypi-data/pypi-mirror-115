@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: bert2tf
+Version: 0.3.0
+Summary: ('A framework for user easy to load pre trained models with tensorflow keras, like bert gpt2 etc',)
+Home-page: https://github.com/xiongma/bert2tf
+Author: Xiong Ma
+Author-email: cally.maxiong@gmail.com
+Maintainer: Xiong Ma
+Maintainer-email: cally.maxiong@gmail.com
+License: Apache 2.1
+Download-URL: https://github.com/xiongma/bert2tf/tags
+Platform: linux
+Platform: mac
+Requires-Python: >=3.7.0
+Description-Content-Type: text/markdown
+Requires-Dist: tensorflow (>=2.0)
+Requires-Dist: pyzmq
+Requires-Dist: ruamel.yaml
+Requires-Dist: tornado
+Requires-Dist: requests (==2.21)
+Requires-Dist: urllib3 (==1.26.5)
+Requires-Dist: grpcio
+
+# bert2tf
+bert to tensorflow
+
+
