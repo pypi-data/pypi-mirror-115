@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: esguard
+Version: 0.1.3
+Summary: esguard provides a Python decorator that waits for processing while monitoring the load of Elasticsearch.
+Home-page: http://github.com/po3rin/esguard
+License: Apache-2.0
+Author: po3rin
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: docker (>=5.0.0,<6.0.0)
+Requires-Dist: elasticsearch (>=7.12.1,<8.0.0)
+Requires-Dist: six (>=1.16.0,<2.0.0)
+Project-URL: Repository, http://github.com/po3rin/esguard
+Description-Content-Type: text/markdown
+
+# esguard
+
+esguard provides a Python decorator that waits for processing while monitoring the load of Elasticsearch.
+
+## Quick Start
+
+You need to launch elasticsearch before quick start.
+
+```python
+from esguard import ESGuard
+
+
+@ESGuard(os_cpu_percent=90, os_mem_used_percent=-1, jvm_mem_heap_used_percent=-1).decotator()
+def mock_func(x):
+    return x
+        
+self.assertEqual(mock_func(1), 1)
+```
+
+## Test
+
+You need to launch elasticsearch before testing.
+
+```sh
+$ docker-compose up -d --build
+$ poetry run pytest
+```
+
+
