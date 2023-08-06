@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+package.yml
+setup.py
+src/nr_packaging_test/__init__.py
+src/nr_packaging_test.egg-info/PKG-INFO
+src/nr_packaging_test.egg-info/SOURCES.txt
+src/nr_packaging_test.egg-info/dependency_links.txt
+src/nr_packaging_test.egg-info/requires.txt
+src/nr_packaging_test.egg-info/top_level.txt
+src/nr_packaging_test.egg-info/zip-safe
