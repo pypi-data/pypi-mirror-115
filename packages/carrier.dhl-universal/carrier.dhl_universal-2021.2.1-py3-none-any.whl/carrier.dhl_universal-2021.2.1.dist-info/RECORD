@@ -1,0 +1,5 @@
+dhl_universal_lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dhl_universal_lib/tracking.py,sha256=pGwksBWk9VoGRl0hsyRFSYDZwo6zgyqJalXZdG-amrQ,2233
+carrier.dhl_universal-2021.2.1.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+carrier.dhl_universal-2021.2.1.dist-info/METADATA,sha256=5e-vdNzpXDqjgUGDXiZzacwXzVS1wflav52pzZCRJEw,1251
+carrier.dhl_universal-2021.2.1.dist-info/RECORD,,
