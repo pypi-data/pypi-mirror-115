@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: pyerse
+Version: 0.0.2
+Summary: Provides algorithms and an API for Portugal Energy Regulator (ERSE)
+Home-page: http://github.com/dgomes/pyerse
+Author: Diogo Gomes
+Author-email: diogogomes@gmail.com
+License: MIT License
+Description: # Python ERSE
+        
+        A python package do deal with ERSE
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
