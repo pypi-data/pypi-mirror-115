@@ -1,0 +1,3 @@
+[console_scripts]
+pyvogen = vogen.__main__:main
+
