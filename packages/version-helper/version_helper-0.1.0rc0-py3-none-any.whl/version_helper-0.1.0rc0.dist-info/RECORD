@@ -1,0 +1,7 @@
+version_helper/__init__.py,sha256=XkAKi3tbdtRnihiurCW-ofngx2TkMwH1RyX-UuQeOcQ,86
+version_helper/git_tools.py,sha256=94N6BRO3HA8gCrIijIBo3c99BgyLiWYmB_e-ZNvqPsI,2177
+version_helper/version.py,sha256=MSXPFApqIBY9yq_EzNzi94UgGda1s17n20dGHFMllMk,4378
+version_helper-0.1.0rc0.dist-info/LICENSE.md,sha256=O1ribU16rUwo_No6Od-MvcsuqU7a7xlgWzToxAj9B1A,1083
+version_helper-0.1.0rc0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+version_helper-0.1.0rc0.dist-info/METADATA,sha256=W1DfUdfn0VwJ7MBCfvSa_NCHISkpkYR-dZU5JjfNRd0,1659
+version_helper-0.1.0rc0.dist-info/RECORD,,
