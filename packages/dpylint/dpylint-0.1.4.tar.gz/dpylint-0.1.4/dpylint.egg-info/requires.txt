@@ -1,0 +1,3 @@
+pylint
+astroid
+discord.py
