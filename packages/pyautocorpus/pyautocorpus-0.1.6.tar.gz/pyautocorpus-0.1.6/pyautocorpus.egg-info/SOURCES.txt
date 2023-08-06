@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+setup.py
+AutoCorpus/src/common/PCREMatcher.h
+AutoCorpus/src/common/merge.h
+AutoCorpus/src/common/utilities.h
+AutoCorpus/src/ngrams/NGramCounter.h
+AutoCorpus/src/wikipedia/SentenceExtractor.h
+AutoCorpus/src/wikipedia/Textifier.h
+pyautocorpus.egg-info/PKG-INFO
+pyautocorpus.egg-info/SOURCES.txt
+pyautocorpus.egg-info/dependency_links.txt
+pyautocorpus.egg-info/top_level.txt
+src/Textifier.cpp
+src/pyautocorpus.cpp
+src/utilities.cpp
