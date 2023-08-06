@@ -1,0 +1,3 @@
+[console_scripts]
+kvdl = kvdl.main:main
+
