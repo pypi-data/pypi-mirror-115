@@ -1,0 +1,17 @@
+.gitignore
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+.github/workflows/build.yaml
+.github/workflows/integrate.yaml
+.github/workflows/publish.yaml
+gsindex.egg-info/PKG-INFO
+gsindex.egg-info/SOURCES.txt
+gsindex.egg-info/dependency_links.txt
+gsindex.egg-info/requires.txt
+gsindex.egg-info/top_level.txt
+src/__init__.py
+src/gsindex.py
+tests/test_gsindex.py
