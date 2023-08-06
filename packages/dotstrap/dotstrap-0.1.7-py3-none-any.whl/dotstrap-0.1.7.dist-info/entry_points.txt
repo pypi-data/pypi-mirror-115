@@ -1,0 +1,3 @@
+[console_scripts]
+dotstrap=dotstrap.dotstrap:cli
+
