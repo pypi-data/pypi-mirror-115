@@ -1,0 +1,12 @@
+README.md
+setup.py
+src/mcstats/__init__.py
+src/mcstats/main.py
+src/mcstats.egg-info/PKG-INFO
+src/mcstats.egg-info/SOURCES.txt
+src/mcstats.egg-info/dependency_links.txt
+src/mcstats.egg-info/entry_points.txt
+src/mcstats.egg-info/top_level.txt
+src/mcstats/lib/__init__.py
+src/mcstats/lib/packet.py
+src/mcstats/lib/raknet.py
