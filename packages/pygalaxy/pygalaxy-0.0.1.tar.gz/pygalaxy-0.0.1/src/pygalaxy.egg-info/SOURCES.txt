@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+src/logger/__init__.py
+src/pygalaxy.egg-info/PKG-INFO
+src/pygalaxy.egg-info/SOURCES.txt
+src/pygalaxy.egg-info/dependency_links.txt
+src/pygalaxy.egg-info/top_level.txt
