@@ -1,0 +1,7 @@
+README.md
+setup.py
+topmine/topmine.egg-info/PKG-INFO
+topmine/topmine.egg-info/SOURCES.txt
+topmine/topmine.egg-info/dependency_links.txt
+topmine/topmine.egg-info/requires.txt
+topmine/topmine.egg-info/top_level.txt
