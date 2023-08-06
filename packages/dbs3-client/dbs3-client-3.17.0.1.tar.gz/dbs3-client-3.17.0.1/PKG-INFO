@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: dbs3-client
+Version: 3.17.0.1
+Summary: UNKNOWN
+Home-page: https://github.com/dmwm/DBSClient
+Maintainer: CMS DWMWM Group
+Maintainer-email: hn-cms-dmDevelopment@cern.ch
+License: Apache License, Version 2.0
+Description: # DBSClient
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
