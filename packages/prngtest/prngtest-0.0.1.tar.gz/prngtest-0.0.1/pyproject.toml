@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "prngtest"
+version = "0.0.1"
+description = "RNG testing CLI and library"
+authors = ["Matthew Barber <quitesimplymatt@gmail.com>"]
+repository = "https://github.com/honno/prngtest"
+packages = [{include = "prngtest.py"}]
+license = "BSD-3-Clause"
+
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.10"
+bitarray = "^2.2.4"
+# some later version requires normalisation for chisquare values which I cba with
+scipy = "1.5.4"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.4"
+pre-commit = "^2.13.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: prngtest
+Version: 0.0.1
+Summary: RNG testing CLI and library
+Home-page: https://github.com/honno/prngtest
+License: BSD-3-Clause
+Author: Matthew Barber
+Author-email: quitesimplymatt@gmail.com
+Requires-Python: >=3.8,<3.10
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: bitarray (>=2.2.4,<3.0.0)
+Requires-Dist: scipy (==1.5.4)
+Project-URL: Repository, https://github.com/honno/prngtest
