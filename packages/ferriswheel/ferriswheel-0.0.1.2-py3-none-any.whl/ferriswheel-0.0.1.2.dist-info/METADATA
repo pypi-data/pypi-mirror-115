@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: ferriswheel
+Version: 0.0.1.2
+Summary: https://ferris.chat API library
+Home-page: http://github.com/randomairborne/ferriswheel
+Author: valkyrie_pilot
+Author-email: valk@randomairborne.dev
+License: LGPL
+Project-URL: Bug Tracker, https://github.com/randomairborne/ferriswheel/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: aiohttp[speedups]
+
+# ferriswheel
+An API for [ferrischat](https://ferris.chat)
+
+### As ferrischat is not yet done, this library is also a work in progress!!
+Ferriswheel is an async, aiohttp-based api for [ferrischat](https://ferris.chat)! It aims to be easy to use and efficient. 
+
+
