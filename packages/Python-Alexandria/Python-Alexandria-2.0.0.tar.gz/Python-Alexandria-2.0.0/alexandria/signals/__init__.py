@@ -1,0 +1,3 @@
+"""
+Signal creation and processing.
+"""
