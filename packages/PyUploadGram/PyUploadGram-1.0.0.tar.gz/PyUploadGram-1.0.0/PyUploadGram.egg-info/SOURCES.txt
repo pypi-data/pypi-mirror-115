@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+PyUploadGram/PyUploadGram.py
+PyUploadGram/__init__.py
+PyUploadGram.egg-info/PKG-INFO
+PyUploadGram.egg-info/SOURCES.txt
+PyUploadGram.egg-info/dependency_links.txt
+PyUploadGram.egg-info/requires.txt
+PyUploadGram.egg-info/top_level.txt
