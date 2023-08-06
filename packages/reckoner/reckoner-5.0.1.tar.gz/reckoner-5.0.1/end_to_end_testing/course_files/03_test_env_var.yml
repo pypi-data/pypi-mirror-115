@@ -1,0 +1,17 @@
+namespace: 03-test
+repositories:
+  ingress-nginx:
+      url: https://kubernetes.github.io/ingress-nginx
+minimum_versions:
+  helm: 0.0.0
+  reckoner: 0.0.0
+charts:
+  check-values:
+    repository: ingress-nginx
+    chart: ingress-nginx
+    namespace: 03-infra
+    values:
+      non-used: "${myvar}"
+      comment-problem-detector:
+        # This is a comment "${this_var_should_not_be_parsed}"
+        - test-value
