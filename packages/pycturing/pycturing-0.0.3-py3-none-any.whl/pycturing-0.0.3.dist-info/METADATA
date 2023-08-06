@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: pycturing
+Version: 0.0.3
+Summary: yet a captcha library
+Home-page: https://github.com/chenshenchao/pycturing
+Author: chenshenchao
+Author-email: chenshenchao@outlook.com
+License: MIT
+Keywords: pycturing captcha
+Platform: any
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+Requires-Dist: pillow (>=8.0.1)
+Requires-Dist: ran (>=0.0.5)
+
+# [pycturing](https://github.com/chenshenchao/pycturing)
+
+## 安装
+
+```bash
+pip install pycturing
+```
+
+## 使用
+
+```python
+from pycturing.util import roll_text
+from pycturing.text import TextPycturing
+
+tp = TextPycturing()
+
+# 随机地生成图像和答案
+p1 = './debug/a.png'
+r1 = tp.save(p1)
+print(f'result 1: {r1} => {p1}')
+
+# 把答案写到文件名里面
+r2 = roll_text(length=5)
+p2 = f'./debug/{r2}.png'
+tp.save(p2, text=r2)
+print(f'result 2: {r2} => {p2}')
+
+```
+
+
