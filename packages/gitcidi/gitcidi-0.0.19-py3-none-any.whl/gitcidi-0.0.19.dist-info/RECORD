@@ -1,0 +1,16 @@
+buildpan/__init__.py,sha256=jHmmFVxfNgJrCDu4ctp-iyuthfrjA4EBilE5a0wpPnA,31
+buildpan/buildpan.py,sha256=-OuY1OSlNflOLIFgxzy366fSX4wpfVdrqZL_tIz0mLM,1933
+buildpan/commands/__init__.py,sha256=5euHezAkhu0jj-QIr6qPQ_qtC13dg_wpcM5X9luDQPo,181
+buildpan/commands/allrepo.py,sha256=18owacx41KTawJbkWZ8E8YDguUsUrCcjDjd_5ZBZm7w,1089
+buildpan/commands/auth.py,sha256=g4Y_Cky-VQLqGd3jmWjOmBtRWm1tGcP0LfLiOdMEvHE,1010
+buildpan/commands/auth_copy.py,sha256=N-7fkd3eWZvB2fKN-jIiZ4uqru0zb4vfXs1I92-UUhg,828
+buildpan/commands/pull.py,sha256=0U7Co0VGOOy-Xqq_9F1suM-m0XWvNpemFY75aa59daQ,1114
+buildpan/commands/reset.py,sha256=-pKiGTsu_qsRnZD_RRy8zhQHjP6DLeFPqsIoKWy5euQ,1060
+buildpan/commands/selectrepo.py,sha256=DIBLidG-p7Cug5EpiSa52DK9RNFd98I7oBJam89MiOY,1566
+buildpan/commands/webhook.py,sha256=18AgfHdJOpiz1HwJXPjYtVPbfIuGksHc9wrhdtm91C0,3233
+gitcidi-0.0.19.dist-info/LICENCE,sha256=-Yt8LreCWOLQ7OKzxhfkSoMVCi2gMbhoJhEzm27g4qs,1068
+gitcidi-0.0.19.dist-info/METADATA,sha256=Kp79sz3vJYb6RSwYO-e0utIl-9uvkApaj3YRh50EKHQ,877
+gitcidi-0.0.19.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+gitcidi-0.0.19.dist-info/entry_points.txt,sha256=C819REBs6z_exALnf6tIapdCkfuwaUHZt3r1JNSYn_o,52
+gitcidi-0.0.19.dist-info/top_level.txt,sha256=_Xx-tXKqYa9OPhRIbds2lVFLuzEIzSN6ig0nEtRzM5A,9
+gitcidi-0.0.19.dist-info/RECORD,,
