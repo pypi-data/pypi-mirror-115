@@ -1,0 +1,3 @@
+[console_scripts]
+mf-mines=mfranceschi_minesweeper.main:main
+
