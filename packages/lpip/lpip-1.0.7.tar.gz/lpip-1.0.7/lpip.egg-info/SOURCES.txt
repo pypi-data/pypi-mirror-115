@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+lpip/__init__.py
+lpip/__main__.py
+lpip.egg-info/PKG-INFO
+lpip.egg-info/SOURCES.txt
+lpip.egg-info/dependency_links.txt
+lpip.egg-info/entry_points.txt
+lpip.egg-info/requires.txt
+lpip.egg-info/top_level.txt
