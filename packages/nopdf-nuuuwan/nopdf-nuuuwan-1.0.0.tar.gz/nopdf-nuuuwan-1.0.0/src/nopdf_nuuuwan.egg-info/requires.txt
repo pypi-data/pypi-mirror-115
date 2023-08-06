@@ -1,0 +1,8 @@
+bs4
+tweepy
+Pillow
+tesseract
+tesseract-ocr
+pytesseract
+utils-nuuuwan
+gig-nuuuwan

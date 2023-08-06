@@ -1,0 +1,11 @@
+LICENCE
+README.md
+setup.py
+src/nopdf/__init__.py
+src/nopdf/ocr.py
+src/nopdf/scrape.py
+src/nopdf_nuuuwan.egg-info/PKG-INFO
+src/nopdf_nuuuwan.egg-info/SOURCES.txt
+src/nopdf_nuuuwan.egg-info/dependency_links.txt
+src/nopdf_nuuuwan.egg-info/requires.txt
+src/nopdf_nuuuwan.egg-info/top_level.txt
