@@ -1,0 +1,13 @@
+CHANGELOG.md,sha256=sJInNazlZN9ljPWz2Rpfa9NUK5PQxjV3ASUuSjSl4Uw,916
+deepl/__init__.py,sha256=EEOipLBjsy6l8JJEvUELinGudk-HTvMN-I9JSU4L32A,505
+deepl/__main__.py,sha256=angfwDZ7UF8Y9N5xAL2VXw6CgexlVQRBzLts99l2DtA,9317
+deepl/exceptions.py,sha256=ow-7iy7IJIIKernK8RXV09YNQPj5nY9bk6-YJxqw-4M,1041
+deepl/http_client.py,sha256=tI6XiEmRmTX50QR2MSL5IpT5BxIMHMTel4B1A1WyXzI,5247
+deepl/translator.py,sha256=4cC6A3gGO9yGK6AT2Uy1Mthr7JE1MCqspXc_KBTzXh4,26950
+deepl/util.py,sha256=6WvW2R1V2cLg3fLDZGUJCrWRsRez6hD6YbdAaDR27DI,673
+deepl/version.py,sha256=PS0k6-Ci30dE_Nsmj4Ud5HkeeS0C778G78NsBdlUuyg,18
+deepl-0.4.0.dist-info/entry_points.txt,sha256=LCzWecFrG8EXDH4dsB5vjAaPMTyETwh18wuQvGozprY,45
+deepl-0.4.0.dist-info/LICENSE,sha256=4tjIKH9R6udPsH9M0MsNWGVVtlV4khWneO0CnR1Gc70,1090
+deepl-0.4.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+deepl-0.4.0.dist-info/METADATA,sha256=mS-GvnncRp_n4vl-Ls22GqBAupShydNkfhzShss6kOM,6078
+deepl-0.4.0.dist-info/RECORD,,
