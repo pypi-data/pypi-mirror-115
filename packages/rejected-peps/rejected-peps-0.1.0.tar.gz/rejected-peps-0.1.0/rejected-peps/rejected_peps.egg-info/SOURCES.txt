@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+rejected-peps/rejected_peps.egg-info/PKG-INFO
+rejected-peps/rejected_peps.egg-info/SOURCES.txt
+rejected-peps/rejected_peps.egg-info/dependency_links.txt
+rejected-peps/rejected_peps.egg-info/top_level.txt
