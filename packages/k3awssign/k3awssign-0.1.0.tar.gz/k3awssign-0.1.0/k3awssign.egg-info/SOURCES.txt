@@ -1,0 +1,10 @@
+setup.py
+k3awssign/__init__.py
+k3awssign/awssign.py
+k3awssign/setup.py
+k3awssign/synopsis.py
+k3awssign.egg-info/PKG-INFO
+k3awssign.egg-info/SOURCES.txt
+k3awssign.egg-info/dependency_links.txt
+k3awssign.egg-info/requires.txt
+k3awssign.egg-info/top_level.txt
