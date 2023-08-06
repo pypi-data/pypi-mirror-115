@@ -1,0 +1,11 @@
+PyWars/__init__.py,sha256=uyli_D4HWfFHz6293snU85sa3IXOmAVeXB4Y6G4nBlM,1078
+PyWars/_codec/__init__.py,sha256=QpM0ojXExVrYPnVkMj5xPVVzpc9ojtcxgd1KYRCFO_k,27
+PyWars/_codec/digest.py,sha256=T5jU2iaLA5Du8--fdSpZaO13WGHo0mhnxTOCr2J92Po,366
+PyWars/client.py,sha256=BuYQa1qWZAIfRCWT8L0nY5Zgf_lV_0qz4hZ2kCljegY,4824
+PyWars/types/__init__.py,sha256=uahtRU1Iaq1khBZUeiNUKrmuVAqZE5QffWbSzkMKzEE,335
+PyWars/types/digests.py,sha256=Cw45TonMTxywlU5EdDY3sZxhvrXFI9OXMdv1_cRPWN4,893
+PyWars/types/types.py,sha256=XPIQnBX3k3fPK6UYXxu4eJxuS5oYeWs7jxKCaClZ1kA,2768
+pywars-0.1.0.dist-info/LICENSE,sha256=dAY01rl8FbebNRioXbJWAW5oP8X6iwTYBXpVTU5EzWY,1079
+pywars-0.1.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+pywars-0.1.0.dist-info/METADATA,sha256=YcxYQCJo-D_CPtmL_ZxyMTAKpMeu-kmgLijT5zDKliw,3481
+pywars-0.1.0.dist-info/RECORD,,
