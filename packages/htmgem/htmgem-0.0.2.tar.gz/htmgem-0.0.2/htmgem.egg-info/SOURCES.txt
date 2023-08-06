@@ -1,0 +1,10 @@
+README.md
+setup.py
+htmgem/__init__.py
+htmgem/doc.py
+htmgem/tags.py
+htmgem.egg-info/PKG-INFO
+htmgem.egg-info/SOURCES.txt
+htmgem.egg-info/dependency_links.txt
+htmgem.egg-info/top_level.txt
+htmgem/resources/__init__.py
