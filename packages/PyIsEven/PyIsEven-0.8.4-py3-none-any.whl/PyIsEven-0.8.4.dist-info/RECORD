@@ -1,0 +1,13 @@
+is_even/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+is_even/_py2_is_even.py,sha256=7hplEg_BOeMkTLqmk0nl2uzIxr6UifyZdMrjGiXzBwY,841
+is_even/_py3_10_is_even.py,sha256=1EDulx8endVbXhpfnBeIqcpMPz1ve9-N6RKop4s2QJU,969
+is_even/_py3_8_is_even.py,sha256=WAQr69CQHoIOy6HiezhqnlqyOGW2n8sVwhgo4NMVn7Q,1086
+is_even/_py3_api_response.py,sha256=eGf1iZGcjmcLM9EBTOFuBW3OgdIvDeEEec_DMKyWFIo,229
+is_even/_py3_is_even.py,sha256=oDQD3taxG_5CdicfV9S5GmjvOmUxEQN3iJlkFRTMhCE,836
+is_even/_typings.py,sha256=JjHkLS76-754W9-ogKSLPhSdn_Ufqji8n2T0r6aiSoU,127
+is_even/is_even.py,sha256=lbZHIQBtczFuRtI3SWAR7NGirBn-PiqFsgO6gUOGkRQ,396
+PyIsEven-0.8.4.dist-info/LICENSE,sha256=uDpHggrFyWIjNExNTlNLkKQwX86q8JzRc_-N6-y-Ar4,1078
+PyIsEven-0.8.4.dist-info/METADATA,sha256=kmFnIFh_L-TMvnewxfymyQG75kV4NSpxPOshhR-rma0,1171
+PyIsEven-0.8.4.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+PyIsEven-0.8.4.dist-info/top_level.txt,sha256=kDoep96ojzSBJUXU7rrYK3R8fxxE3SnYtedbJ5Wi8y8,8
+PyIsEven-0.8.4.dist-info/RECORD,,
