@@ -1,0 +1,12 @@
+scanimate/__init__.py,sha256=fr3jHi21_fQUTklcNFCsRVBoJeZSb9E6koLritVJUhw,334
+scanimate/display.py,sha256=1GLxFJUYFK4j30RqcIPWsoP0QNWnWRmlarCwAgzo30Q,245
+scanimate/io.py,sha256=1GLxFJUYFK4j30RqcIPWsoP0QNWnWRmlarCwAgzo30Q,245
+scanimate/moire.py,sha256=sUECMFL6tlTMkNzQ8-n0-nESUDJnGdsibSVhDDc8RKU,9431
+scanimate/scanimate.py,sha256=gYnMB-1hZ9THWLUCo6NDfyROrRn0sd2TcNO2aMTY7nI,8168
+scanimate/version_info.py,sha256=se97pusx1SckupfSbSxewqLUhQt8kF58RibifwPs-IA,2364
+scanimate-0.1.0.dev0.dist-info/LICENSE,sha256=Cx83t1gPngSPojvOVXRY26TwX0zrElbZh6Tl9Yx0z1E,1070
+scanimate-0.1.0.dev0.dist-info/METADATA,sha256=vo0n5OdpRYV9sm_wwGEswOC0yN3Xyat0J5hpLFonHvk,3057
+scanimate-0.1.0.dev0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+scanimate-0.1.0.dev0.dist-info/entry_points.txt,sha256=az9hXjVsjZl09cmLms2YfeeP5n61Ulv91R01nhT_lF8,56
+scanimate-0.1.0.dev0.dist-info/top_level.txt,sha256=USo_2jY8XY98rtaYJosmZ3kVA6VQh-k329wnterzt1M,10
+scanimate-0.1.0.dev0.dist-info/RECORD,,
