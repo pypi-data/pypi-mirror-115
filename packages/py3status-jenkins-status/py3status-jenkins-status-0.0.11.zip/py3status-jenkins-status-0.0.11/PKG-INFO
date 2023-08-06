@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: py3status-jenkins-status
+Version: 0.0.11
+Summary: py3status module to display the current jenkins job status
+Home-page: https://gitlab.com/schmidtandreas/py3status-jenkins
+Author: Andreas Schmidt
+Author-email: mail@schmidt-andreas.de
+License: MIT
+Download-URL: https://gitlab.com/schmidtandreas/py3status-jenkins/tags
+Project-URL: Documentation, https://py3status-jenkins.readthedocs.io/en/latest/
+Project-URL: Changelog, https://py3status-jenkins.readthedocs.io/en/latest/changelog.html
+Project-URL: Source, https://gitlab.com/schmidtandreas/py3status-jenkins
+Keywords: py3status,jenkins
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Operating System :: POSIX :: Linux
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Environment :: Console
+Classifier: Topic :: Utilities
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+Provides-Extra: lint
+Provides-Extra: test
+License-File: LICENSE
+
+[![Documentation Status](https://readthedocs.org/projects/py3status-jenkins/badge/?version=latest)](https://py3status-jenkins.readthedocs.io/en/latest/?badge=latest)
+[![coverage report](https://gitlab.com/schmidtandreas/py3status-jenkins/badges/master/coverage.svg)](https://gitlab.com/schmidtandreas/py3status-jenkins/-/commits/master)
+[![pipeline status](https://gitlab.com/schmidtandreas/py3status-jenkins/badges/master/pipeline.svg)](https://gitlab.com/schmidtandreas/py3status-jenkins/-/commits/master)
+
+# py3status-jenkins-status
+
+A [py3status](https://github.com/ultrabug/py3status) module displays the current status of jenkins jobs.
+
+

@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+src/py3status_jenkins_status/__init__.py
+src/py3status_jenkins_status/jenkins_status.py
+src/py3status_jenkins_status/version.py
+src/py3status_jenkins_status.egg-info/PKG-INFO
+src/py3status_jenkins_status.egg-info/SOURCES.txt
+src/py3status_jenkins_status.egg-info/dependency_links.txt
+src/py3status_jenkins_status.egg-info/entry_points.txt
+src/py3status_jenkins_status.egg-info/requires.txt
+src/py3status_jenkins_status.egg-info/top_level.txt
