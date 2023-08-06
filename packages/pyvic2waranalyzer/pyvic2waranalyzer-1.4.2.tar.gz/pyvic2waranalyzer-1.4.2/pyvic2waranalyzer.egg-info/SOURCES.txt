@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+pyvic2waranalyzer/__init__.py
+pyvic2waranalyzer/main.py
+pyvic2waranalyzer.egg-info/PKG-INFO
+pyvic2waranalyzer.egg-info/SOURCES.txt
+pyvic2waranalyzer.egg-info/dependency_links.txt
+pyvic2waranalyzer.egg-info/requires.txt
+pyvic2waranalyzer.egg-info/top_level.txt
+pyvic2waranalyzer/localisation/text.csv
+pyvic2waranalyzer/utils/__init__.py
+pyvic2waranalyzer/utils/types.py
