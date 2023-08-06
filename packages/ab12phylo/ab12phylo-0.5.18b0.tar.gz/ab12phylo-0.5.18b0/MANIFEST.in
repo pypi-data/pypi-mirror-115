@@ -1,0 +1,23 @@
+
+# include the license
+include LICENSE.md
+include README.md
+
+# include entire package
+graft ab12phylo
+graft ab12phylo_cmd
+
+# exclude test and config data
+global-exclude *.zip *.cfg
+prune ab12phylo_cmd/test_data
+
+# but include the setup.cfg
+include setup.cfg
+
+# exclude non-python dependencies
+prune ab12phylo_cmd/tools/iqtree*
+prune ab12phylo_cmd/tools/ncbi*
+prune ab12phylo_cmd/tools/raxml*
+
+prune ab12phylo/__pycache__
+prune ab12phylo_cmd/__pycache__
