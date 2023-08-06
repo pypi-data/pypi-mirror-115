@@ -1,0 +1,9 @@
+canvacord/__init__.py,sha256=PsKEUtpQFfGXBvrEwgn3dFpFL_v-GAw2JJl4SEuCPYM,65
+canvacord/generators/__init__.py,sha256=aor_Y4x4rqh6lECyEdpGXpRV05Ol_h2WuPFSHu-f-yY,60
+canvacord/generators/rankcard.py,sha256=z5Cj7zgxe1y1qjzm5fcR-jg3pH-hiJwIjjc6_Cpn8PI,9540
+canvacord/generators/trigger.py,sha256=sSl7wtXfXBeSXf5fFr4ogcE47ZoUFF4_WCM5h-DspNo,2227
+canvacord-0.1.9.dist-info/LICENSE,sha256=_KKcU1-sIDaEfNDowV0r1DHvNd1R4WBJdk71K5Mlr9M,1067
+canvacord-0.1.9.dist-info/METADATA,sha256=nKtA4JJHfb-oW86nrgx9KAS7niaTerPNYFjtjO1UodQ,2218
+canvacord-0.1.9.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+canvacord-0.1.9.dist-info/top_level.txt,sha256=P3iucJIZQPCTmvKdYPOhz4KIVUMH1T7rOfzARArxBi0,10
+canvacord-0.1.9.dist-info/RECORD,,
