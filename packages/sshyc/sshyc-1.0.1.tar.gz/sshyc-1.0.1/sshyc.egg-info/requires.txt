@@ -1,0 +1,7 @@
+pyyaml
+
+[setup]
+wheel
+twine
+collective.checkdocs
+bumpversion
