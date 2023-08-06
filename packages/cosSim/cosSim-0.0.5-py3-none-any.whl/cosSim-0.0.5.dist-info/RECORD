@@ -1,0 +1,11 @@
+cosSim/__init__.py,sha256=Tk8aOXabB4a2ZLEW1QlQZnfvIbiPXNFLPL05mOn443w,148
+cosSim/cli.py,sha256=M-_jGcH0Ry09c6P-e-RT54XjZ-LAlm3TT4NHc8wJ-KM,3716
+cosSim/parseClass.py,sha256=88sw4CDERVsXEPeHfqnpg12GB9VN4S_7Lq_QdrQQP1U,2865
+cosSim/similarity.py,sha256=OxvP2EkoJjH3CrX-pXCtnbCW9xHpJN01CnsL66g7lhw,1479
+cosSim/text_preprocessor.py,sha256=tXPV4okggnc0xEe2WP23VpqVT5ve5Rb7QlKTa1-4VKg,1354
+cosSim-0.0.5.dist-info/LICENSE,sha256=JpIvL_9PEQAavATGP98ysky4nM7ZInYlt0dyBxEUY38,1092
+cosSim-0.0.5.dist-info/METADATA,sha256=wVTRLuifSf9aE51oEUy0_zA2HpdQTO53qyziQ17BhqU,3844
+cosSim-0.0.5.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+cosSim-0.0.5.dist-info/entry_points.txt,sha256=RY_MC2dHh1FeW7giJYu2Fu4KTVSFfycubPdhWym5BcM,44
+cosSim-0.0.5.dist-info/top_level.txt,sha256=GljyPale-fUf3UdGs4FdVeMzcYpRuvG9V929pQ-V7wM,7
+cosSim-0.0.5.dist-info/RECORD,,
