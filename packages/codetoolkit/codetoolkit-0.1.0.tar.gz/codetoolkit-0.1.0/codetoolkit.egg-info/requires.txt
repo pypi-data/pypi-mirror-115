@@ -1,0 +1,6 @@
+numpy
+fasttext
+gensim
+networkx
+nltk
+textdistance[extras]
