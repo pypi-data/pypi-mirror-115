@@ -1,0 +1,10 @@
+setup.py
+k3txutil/__init__.py
+k3txutil/setup.py
+k3txutil/synopsis.py
+k3txutil/txutil.py
+k3txutil.egg-info/PKG-INFO
+k3txutil.egg-info/SOURCES.txt
+k3txutil.egg-info/dependency_links.txt
+k3txutil.egg-info/requires.txt
+k3txutil.egg-info/top_level.txt
