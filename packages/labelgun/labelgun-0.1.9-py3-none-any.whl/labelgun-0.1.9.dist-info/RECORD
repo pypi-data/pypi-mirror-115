@@ -1,0 +1,9 @@
+labelgun/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+labelgun/integrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+labelgun/integrations/logging_utils.py,sha256=MdfOpyMt6uuay3pKH7_Roj_iucdwBQgJgOt8_3oiuBU,1664
+labelgun/integrations/structlog_utils.py,sha256=_JTD1cZZl4YFLYwRtQGtuh42r2a86wFJdkNpWWW9-l0,2998
+labelgun/label.py,sha256=Tm0Q8suvIGr0SxfuIwjb8rOquOqvlNMXbVyVt79f-pU,2423
+labelgun-0.1.9.dist-info/LICENSE,sha256=2Boh4Dep0om3GfUt8GnWbW_oDbrre2y3E4PTfWaeYbU,1077
+labelgun-0.1.9.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+labelgun-0.1.9.dist-info/METADATA,sha256=Nnm2LPLfrnCvgnqA72BbzTP285atmsxO5OO9PWIMNmc,677
+labelgun-0.1.9.dist-info/RECORD,,
