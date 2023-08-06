@@ -1,0 +1,3 @@
+[console_scripts]
+sc-sme-analysis = sc_sme_analysis.main:main
+
