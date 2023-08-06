@@ -1,0 +1,20 @@
+[tool.poetry]
+name         = "spkpb"
+version      = "0.0.5-beta"
+description  = "A module to write programs which have to be verbose about a process on files and directories, and that have to emit informations, warnings and errors."
+readme       = "README.md"
+authors      = ["Christophe BAL"]
+maintainers  = ["Christophe BAL"]
+license      = "GNU License Version 3"
+repository   = "https://github.com/projetmbc/tools-for-dev/tree/master/spkpb"
+
+[tool.poetry.dependencies]
+python  = "^3.8"
+mistool = "^1.2.6-beta.0"
+natsort = "^7.1.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires      = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
