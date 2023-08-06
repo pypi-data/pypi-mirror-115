@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: easypipe
+Version: 0.0.2
+Summary: EasyPipe is a simple tool for developers to build ML applications.
+Home-page: https://github.com/kalmufti/easypipe
+Author: Khalid Almufti
+Author-email: almufti.khalid@gmail.com
+License: Apache 2.0
+Project-URL: Bug Tracker, https://github.com/kalmufti/easypipe/issues
+Keywords: mediapipe
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE
+
+### Project is still in early planning stage.
+
+# EasyPipe
+
+EasyPipe is a MediaPipe wrapper Python library, that makes it super simple to develop and build Machine Learning application fast.
+
+# Developing EasyPipe
+
+To install easypipe, along with the tools you need to develop and run tests, run the following in your virtual environment.
+
+```bash
+pip install -e .[dev]
+```
+
+
