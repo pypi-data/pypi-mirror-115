@@ -1,0 +1,5 @@
+setup.py
+roshanhelloworld.egg-info/PKG-INFO
+roshanhelloworld.egg-info/SOURCES.txt
+roshanhelloworld.egg-info/dependency_links.txt
+roshanhelloworld.egg-info/top_level.txt
