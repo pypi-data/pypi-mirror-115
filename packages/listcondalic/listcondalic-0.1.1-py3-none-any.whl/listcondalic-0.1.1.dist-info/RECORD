@@ -1,0 +1,12 @@
+listcondalic/__init__.py,sha256=o11Lr7PGiDUvn9w-lI0pNvRnuMk51qCWplPIHvwkPnU,864
+listcondalic/_version.py,sha256=8dBWmXqSStKTKkFj9drLBh0Qb4Eu75EonFr_ggz9dL8,22390
+listcondalic/conda_search_based.py,sha256=IGtrFZUcpJtq3hvPcMsNKrpyny_oK047etKsUC87szQ,2339
+listcondalic/liccheck_and_condameta_based.py,sha256=e7Pv1GX8I5zo_tnLwjbrQC0zORywZj87C3-EIC2FcsM,4845
+listcondalic/modified_liccheck.py,sha256=vS9I15MglnWdZW43pTEqCnnvaQgZCmP77JCgqNiOqVc,1241
+listcondalic/utils.py,sha256=T3Lycqnvwk1Vyt-1CckySEmRAJe86SL3RLvCfI0HuVY,1374
+listcondalic-0.1.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+listcondalic-0.1.1.dist-info/METADATA,sha256=Or80UUd4myFsojfRN56WW8EheWubqlHbQL5PR5vWh0M,4558
+listcondalic-0.1.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+listcondalic-0.1.1.dist-info/entry_points.txt,sha256=A4rmiBmhy7GadTAATItIq904EZsRHtlLwCFRikAP5zQ,52
+listcondalic-0.1.1.dist-info/top_level.txt,sha256=Vcdtg7OyQV2bdtz35RbNpwxb1zobM4mf1_52moHRysk,13
+listcondalic-0.1.1.dist-info/RECORD,,
