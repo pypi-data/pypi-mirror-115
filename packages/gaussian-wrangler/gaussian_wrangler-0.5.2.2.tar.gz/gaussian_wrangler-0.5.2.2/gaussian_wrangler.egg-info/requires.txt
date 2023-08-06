@@ -1,0 +1,6 @@
+numpy
+matplotlib
+scipy
+common-wrangler>=0.3.7.2
+jpype1
+pubchempy
