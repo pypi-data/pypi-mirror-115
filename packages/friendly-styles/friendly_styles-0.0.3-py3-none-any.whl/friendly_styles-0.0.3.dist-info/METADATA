@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: friendly-styles
+Version: 0.0.3
+Summary: Pygments styles designed for friendly/friendly-traceback
+Home-page: https://github.com/friendly-traceback/friendly_styles
+Author: André Roberge
+Author-email: andre.roberge@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Plugins
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: pygments (>=1.5)
+
+# friendly_styles
+Pygments compatible styles used with friendly.
+
+

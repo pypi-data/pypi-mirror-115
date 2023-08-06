@@ -1,0 +1,4 @@
+[pygments.styles]
+friendly_dark = styles.friendly_dark:FriendlyDarkStyle
+friendly_light = styles.friendly_light:FriendlyLightStyle
+
