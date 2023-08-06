@@ -1,0 +1,7 @@
+CHANGES
+=======
+
+0.7.18
+------
+
+* Remove leading v from Github tags in release drafter
