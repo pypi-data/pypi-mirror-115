@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+webcv/webcv.egg-info/PKG-INFO
+webcv/webcv.egg-info/SOURCES.txt
+webcv/webcv.egg-info/dependency_links.txt
+webcv/webcv.egg-info/requires.txt
+webcv/webcv.egg-info/top_level.txt
