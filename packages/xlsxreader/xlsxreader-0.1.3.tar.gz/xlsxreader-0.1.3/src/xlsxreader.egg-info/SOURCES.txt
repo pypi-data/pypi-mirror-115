@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+src/xlsxreader.egg-info/PKG-INFO
+src/xlsxreader.egg-info/SOURCES.txt
+src/xlsxreader.egg-info/dependency_links.txt
+src/xlsxreader.egg-info/top_level.txt
+test/test.py
+test/test_readxlsx.py
