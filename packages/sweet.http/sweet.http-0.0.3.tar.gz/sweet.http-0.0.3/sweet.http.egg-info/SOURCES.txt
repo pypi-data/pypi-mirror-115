@@ -1,0 +1,8 @@
+README.md
+setup.py
+sweet.http.egg-info/PKG-INFO
+sweet.http.egg-info/SOURCES.txt
+sweet.http.egg-info/dependency_links.txt
+sweet.http.egg-info/requires.txt
+sweet.http.egg-info/top_level.txt
+sweet/modules/http.py
