@@ -1,0 +1,3 @@
+[console_scripts]
+accession2taxid = accession2taxid:accession2taxid
+
