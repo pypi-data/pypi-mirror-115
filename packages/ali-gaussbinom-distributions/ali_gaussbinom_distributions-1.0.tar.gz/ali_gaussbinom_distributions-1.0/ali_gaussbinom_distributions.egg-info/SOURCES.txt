@@ -1,0 +1,11 @@
+setup.cfg
+setup.py
+ali_gaussbinom_distributions/Binomialdistribution.py
+ali_gaussbinom_distributions/Gaussiandistribution.py
+ali_gaussbinom_distributions/Generaldistribution.py
+ali_gaussbinom_distributions/__init__.py
+ali_gaussbinom_distributions.egg-info/PKG-INFO
+ali_gaussbinom_distributions.egg-info/SOURCES.txt
+ali_gaussbinom_distributions.egg-info/dependency_links.txt
+ali_gaussbinom_distributions.egg-info/not-zip-safe
+ali_gaussbinom_distributions.egg-info/top_level.txt
