@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+utils.py
+demo/demo.py
+python_orange_sms.egg-info/PKG-INFO
+python_orange_sms.egg-info/SOURCES.txt
+python_orange_sms.egg-info/dependency_links.txt
+python_orange_sms.egg-info/requires.txt
+python_orange_sms.egg-info/top_level.txt
