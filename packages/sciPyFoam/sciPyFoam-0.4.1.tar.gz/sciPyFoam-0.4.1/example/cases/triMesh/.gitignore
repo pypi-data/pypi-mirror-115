@@ -1,0 +1,14 @@
+*/
+0/permeability
+log.*
+pid*
+log*
+
+!0
+!constant
+!system
+!*.sh
+!gmsh
+gmsh/*.msh
+!6912000000
+!constant/polyMesh

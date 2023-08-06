@@ -1,0 +1,6 @@
+.DS_Store
+__pycache__
+dist
+sciPyFoam.egg-info
+example/*.pdf
+example/cases/3D
