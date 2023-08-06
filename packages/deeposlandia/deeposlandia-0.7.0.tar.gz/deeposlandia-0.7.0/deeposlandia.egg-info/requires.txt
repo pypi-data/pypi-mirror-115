@@ -1,0 +1,10 @@
+tensorflow==2.5.0
+opencv-python~=3.4.15
+numpy<=1.19.3
+pillow<=7.1.1
+daiquiri<=2.1.1
+Flask<=1.0.2
+seaborn<=0.10.0
+shapely<=1.7.0
+geopandas<=0.7.0
+rtree<=0.9.4
