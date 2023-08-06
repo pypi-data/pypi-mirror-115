@@ -1,0 +1,8 @@
+logentry_admin/__init__.py,sha256=xycTQw8bHVV-CNAZpvVqMU7tUx1g-H3Y16J09-gQqZM,54
+logentry_admin/admin.py,sha256=k4kdCCzQgDphvRNT-OgdO9Hxa4SLUD5gEgj--gJgwz8,1936
+logentry_admin/apps.py,sha256=-pDybqHW1NfpxFgJ88pyP9J5Kwn53UgRUx8mp8YE1ik,149
+logentry_admin/filters.py,sha256=nSrxUsPrRoXUqXsHKgoD3O9Xcjji_MAK-1nc7a4jVSM,616
+django_logentry_admin2-1.0.0.dist-info/METADATA,sha256=5c2mwdqJWhpDPv4Qm6oBfGoeBB5sZstcWbD0vNsetqg,897
+django_logentry_admin2-1.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+django_logentry_admin2-1.0.0.dist-info/top_level.txt,sha256=Axnmh3GUATtaMSouGRGN73poXZjk8LdKcZI0HOls-H8,15
+django_logentry_admin2-1.0.0.dist-info/RECORD,,

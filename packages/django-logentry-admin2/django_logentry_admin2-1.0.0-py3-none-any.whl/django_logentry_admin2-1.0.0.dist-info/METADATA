@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: django-logentry-admin2
+Version: 1.0.0
+Summary: Show all LogEntry objects in the Django admin site.
+Home-page: https://github.com/yprez/django-logentry-admin
+Author: Yuri Prezument
+Author-email: y@yprez.com
+License: ISC
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 3.1
+Classifier: Framework :: Django :: 3.2
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: ISC License (ISCL)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Django (>=3.0)
+
+UNKNOWN
+
