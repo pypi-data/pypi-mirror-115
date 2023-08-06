@@ -1,0 +1,7 @@
+pyproject.toml
+setup.py
+src/flax-extra/__init__.py
+src/flax_extra.egg-info/PKG-INFO
+src/flax_extra.egg-info/SOURCES.txt
+src/flax_extra.egg-info/dependency_links.txt
+src/flax_extra.egg-info/top_level.txt
