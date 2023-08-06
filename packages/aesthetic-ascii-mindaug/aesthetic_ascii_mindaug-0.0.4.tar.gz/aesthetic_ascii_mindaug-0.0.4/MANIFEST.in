@@ -1,0 +1,3 @@
+include aesthetic_ascii_mindaug/*.png
+include aesthetic_ascii_mindaug/*.jpg
+include aesthetic_ascii_mindaug/*.ttf

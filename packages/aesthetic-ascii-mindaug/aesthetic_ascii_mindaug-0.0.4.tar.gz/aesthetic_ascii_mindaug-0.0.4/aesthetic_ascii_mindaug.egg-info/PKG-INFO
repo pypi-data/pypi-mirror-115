@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: aesthetic-ascii-mindaug
+Version: 0.0.4
+Summary: For generating A E S T H E T I C ascii art
+Home-page: https://github.com/xxx223/aesthetic_ascii
+Author: Min Ber
+Author-email: xyz@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Aesthetic ASCII
+
+Generate **A E S T H E T I C** ASCII art.
+
