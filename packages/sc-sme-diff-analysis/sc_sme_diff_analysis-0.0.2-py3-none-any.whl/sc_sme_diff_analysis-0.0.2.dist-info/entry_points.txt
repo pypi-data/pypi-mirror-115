@@ -1,0 +1,3 @@
+[console_scripts]
+sc-sme-diff-analysis = sc_sme_diff_analysis.main:main
+
