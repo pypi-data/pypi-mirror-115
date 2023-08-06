@@ -1,0 +1,6 @@
+edfi_sql_adapter/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+edfi_sql_adapter/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+edfi_sql_adapter/sql_adapter.py,sha256=mbCibpIlsuMyVSAPYtq02gaePe6Ozh39A6EVNM35SzY,7741
+edfi_sql_adapter-1.0.0a6.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+edfi_sql_adapter-1.0.0a6.dist-info/METADATA,sha256=wYE882Uwq2rdqineVlU1-mL2ahq-nASFA0aCbCe-l3k,1686
+edfi_sql_adapter-1.0.0a6.dist-info/RECORD,,
