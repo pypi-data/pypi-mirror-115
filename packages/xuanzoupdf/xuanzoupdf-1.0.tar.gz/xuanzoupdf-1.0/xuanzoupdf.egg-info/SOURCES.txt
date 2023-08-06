@@ -1,0 +1,9 @@
+README.md
+setup.py
+xuanzoupdf/__init__.py
+xuanzoupdf/pdf2image.py
+xuanzoupdf/pdf2text.py
+xuanzoupdf.egg-info/PKG-INFO
+xuanzoupdf.egg-info/SOURCES.txt
+xuanzoupdf.egg-info/dependency_links.txt
+xuanzoupdf.egg-info/top_level.txt
