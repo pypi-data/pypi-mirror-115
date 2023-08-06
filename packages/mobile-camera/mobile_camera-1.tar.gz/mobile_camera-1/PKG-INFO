@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: mobile_camera
+Version: 1
+Summary: Access mobile camera
+Home-page: UNKNOWN
+Author: Md. Samin Mustakim
+Author-email: saminshamima@gmail.com
+License: UNKNOWN
+Keywords: mobile,camera,cv,python tutorial,samin mustakim,mobile camera
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+For accessing a mobile camera install this library on your desktop.
+Then download IP Webcam App on android phone. After installing the app click on start server.
+Give all permissions to the app. You will get IPv4 & IPv6 ip address. Copy TPv4 ip address.
+Then open browser on your desktop and paste that url on browser. You will get some opption.
+Select Javascript. You will get a preview. Then open python file. See the example file.
+Then write that code. You can take ip by taking input or you can also give the ip address on file.
+You also can edit the mobile_camera library code also and you can give me suggestion on saminshamima@gmail.com.
+

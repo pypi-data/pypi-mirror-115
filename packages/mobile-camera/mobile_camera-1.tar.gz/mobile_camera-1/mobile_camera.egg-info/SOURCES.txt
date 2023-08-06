@@ -1,0 +1,6 @@
+LICENSE
+setup.py
+mobile_camera.egg-info/PKG-INFO
+mobile_camera.egg-info/SOURCES.txt
+mobile_camera.egg-info/dependency_links.txt
+mobile_camera.egg-info/top_level.txt
