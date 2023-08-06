@@ -1,0 +1,10 @@
+image_crawl/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+image_crawl/src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+image_crawl/src/collect.py,sha256=xJrXrIb7Y5g6M6CgaUYN1FzuWe7yO46IQjU9ABkwbaM,9412
+image_crawl/src/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+image_crawl/src/utils/imageprocessor.py,sha256=YyV0hnSAPLE8_X2UJdIAX8V-T3Xl9QgsvknrD-5qs70,6088
+image_crawl-0.1.dist-info/METADATA,sha256=qyl9mXJGswwki6tkv9iNy3xCwuD-LZGkdgj062ybDt0,3085
+image_crawl-0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+image_crawl-0.1.dist-info/entry_points.txt,sha256=woiJTul3kaGgwYpXEnK3ZkLi75l6NFL4_tOuUTpTlr4,57
+image_crawl-0.1.dist-info/top_level.txt,sha256=6K27_xFuU5d60pxU1hp0ptPqW__MQdhBHwPKWJxOUVY,12
+image_crawl-0.1.dist-info/RECORD,,
