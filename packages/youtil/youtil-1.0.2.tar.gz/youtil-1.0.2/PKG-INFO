@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: youtil
+Version: 1.0.2
+Summary: Module to get youtube details
+Home-page: https://github.com/smartwe/youtil
+Author: smartwe
+Author-email: sparklingwee@naver.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3
