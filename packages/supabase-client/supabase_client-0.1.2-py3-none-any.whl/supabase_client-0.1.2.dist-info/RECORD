@@ -1,0 +1,10 @@
+supabase_client/__init__.py,sha256=-JAXjFJDLWlym6P37a2OKcRy5i_z9Ix_ICOTX8PubYY,486
+supabase_client/_http_client.py,sha256=JA3Wcaw7H2L1eeuKZa1MLjR36mRO2EJL8pOBos430fU,2146
+supabase_client/_supabase_clients.py,sha256=vWDvInHKUWm7u_2sughyPDbSKKVjzepPF3Q9v2UNLoY,5501
+supabase_client/_utils.py,sha256=IiAMErQI0acA41ICoKZneDsUy_-bKNpFcXz6MPyZfxA,2708
+supabase_client/supabase_client.py,sha256=AykqF9yFxvUhCGBxgi5q823lR2nrIeawiJvuRma8nHw,1735
+supabase_client/supebase_exceptions.py,sha256=Q4BVhCkm559H0n0YrnULTk9c8h5yeIqKCpC4GCqOvgo,737
+supabase_client-0.1.2.dist-info/METADATA,sha256=-dA1F4_CX4o2RqwADpH3fTa2x0Zb0d0wb_yKnD_XZMk,846
+supabase_client-0.1.2.dist-info/RECORD,,
+supabase_client-0.1.2.dist-info/WHEEL,sha256=cScVKDQXc_cp1jHmxFDq9fIOIg17a2BsmfS6J39H6Eo,97
+supabase_client-0.1.2.dist-info/top_level.txt,sha256=_x_eDWZVI5G4a-0ISbKXH4Hk8oD1KeHRHkzDZ557mvE,16
