@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: harvest-for-mightyhive
+Version: 0.0.2
+Summary: An automation tool to speed up the process of updating entries in harvest
+Home-page: https://github.com/superyang713/harvest_automation/blob/main/README.md
+Author: Yang Dai
+Author-email: yang.dai2020@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/superyang713/harvest_automation/archive/refs/tags/v0.0.2.tar.gz
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Intended Audience :: Developers
+Classifier: Development Status :: 3 - Alpha
+License-File: LICENSE
+
+## About The Package
+The package aims to automate the process of updating time entries in harvest.
+Although harvest provides APIs to do so, it requires superuser access. For
+regular users, those APIs are not accessible. That is why I created this
+package, just to make life easier.
+
+## Dependencies
+
+* [selenium](https://selenium-python.readthedocs.io/)
+* [chrome-driver](https://chromedriver.chromium.org/): You should have this if you use chrome.
+
+
+## Installation
+```sh
+pip install harvest-mightyhive
+```
+<!-- USAGE EXAMPLES -->
+## Usage
+
+Initialize a Harvest client:
+```python
+harvest = Harvest(username, password)
+```
+
+Populate the class variables and submit.
+```python
+harvest.date = date.today()
+harvest.project = Project.INTERNAL
+harvest.task = Task.MEETING
+harvest.note = "Kick off meeting"
+harvest.duration = "0:30"
+harvest.submit()
+```
+
+
