@@ -1,0 +1,9 @@
+README.md
+setup.py
+kinematik/__init__.py
+kinematik/version.py
+kinematik.egg-info/PKG-INFO
+kinematik.egg-info/SOURCES.txt
+kinematik.egg-info/dependency_links.txt
+kinematik.egg-info/requires.txt
+kinematik.egg-info/top_level.txt
