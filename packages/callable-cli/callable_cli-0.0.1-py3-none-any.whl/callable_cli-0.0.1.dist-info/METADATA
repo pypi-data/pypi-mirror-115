@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: callable-cli
+Version: 0.0.1
+Summary: A wrapper for building click CLIs that retains callable functions
+Home-page: https://github.com/chrispyles/callable-cli
+Author: Chris Pyles
+License: BSD-3-Clause
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: click
+
+# Callable CLI
+
+[![Run tests](https://github.com/chrispyles/callable-cli/actions/workflows/run-tests.yml/badge.svg?branch=main)](https://github.com/chrispyles/callable-cli/actions/workflows/run-tests.yml)
+[![codecov](https://codecov.io/gh/chrispyles/callable-cli/branch/main/graph/badge.svg?token=E66CT5Y0IE)](https://codecov.io/gh/chrispyles/callable-cli)
+
+A wrapper around [`click`](https://click.palletsprojects.com/) that allows you to write CLIs that 
+are both callable and invokable from the command line.
+
+
