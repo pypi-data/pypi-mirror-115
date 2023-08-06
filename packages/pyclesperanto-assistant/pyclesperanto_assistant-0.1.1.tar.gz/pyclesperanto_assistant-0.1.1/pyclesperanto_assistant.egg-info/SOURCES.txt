@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+pyclesperanto_assistant/__init__.py
+pyclesperanto_assistant.egg-info/PKG-INFO
+pyclesperanto_assistant.egg-info/SOURCES.txt
+pyclesperanto_assistant.egg-info/dependency_links.txt
+pyclesperanto_assistant.egg-info/requires.txt
+pyclesperanto_assistant.egg-info/top_level.txt
+pyclesperanto_assistant/ipython/__init__.py
