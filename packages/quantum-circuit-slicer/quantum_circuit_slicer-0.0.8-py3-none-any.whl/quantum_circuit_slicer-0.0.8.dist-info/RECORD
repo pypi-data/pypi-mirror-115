@@ -1,0 +1,11 @@
+qcs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+qcs/breakbarrier.py,sha256=nrtfstdcstb3G-ZjtzBKDc28YGJheZwSwFXI0yUa6-U,1514
+qcs/gatefinder.py,sha256=qewXnoVqGcFeWZLMjxmGLPoJj7-QU8kvoz2Xcmpcw4w,2022
+qcs/qcs.py,sha256=Ediv2aQh21uAqlao9MTkjxOnYENHvwYlYhW67WyTDc0,666
+qcs/slicer.py,sha256=_D6uHPlBe1Y0d9eyA9pxb_A1miCDNZE3j2icj_2GJNg,3407
+qcs/workfuncs.py,sha256=MB_xcC-puXw7jtUzR33s2uRkWHyna--SylxlFzRhKcU,1224
+quantum_circuit_slicer-0.0.8.dist-info/LICENSE,sha256=HFO7dZX4NsszHVEguXlGJ6o_04piAqFozfNBrnLlu-k,11556
+quantum_circuit_slicer-0.0.8.dist-info/METADATA,sha256=0KoK8nl22pniHrMMWFxQwXYNRBMY6aIOobGjv7BCaEI,1428
+quantum_circuit_slicer-0.0.8.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+quantum_circuit_slicer-0.0.8.dist-info/top_level.txt,sha256=Co577R_lkFLG5SMDXY3CeTlBdeaW3the1nBJO_QlbpI,4
+quantum_circuit_slicer-0.0.8.dist-info/RECORD,,
