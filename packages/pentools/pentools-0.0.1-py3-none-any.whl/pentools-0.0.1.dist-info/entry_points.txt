@@ -1,0 +1,7 @@
+[console_scripts]
+pentools = pentools.__main__:main
+
+[pentools.registered_commands]
+list = pentools.commands.list:main
+script = pentools.commands.script:main
+
