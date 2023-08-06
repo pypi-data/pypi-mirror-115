@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: simplebot-frotz
+Version: 1.0.0
+Summary: Z-machine interpreter plugin for SimpleBot, play interactive fiction games in Delta Chat!
+Home-page: https://github.com/simplebot-org/simplebot_frotz
+Author: The SimpleBot Contributors
+Author-email: adbenitez@nauta.cu
+License: Apache2.0
+Description: "Frotz" SimpleBot plugin
+        ========================
+        
+        .. image:: https://img.shields.io/pypi/v/simplebot_frotz.svg
+           :target: https://pypi.org/project/simplebot_frotz
+        
+        .. image:: https://img.shields.io/pypi/pyversions/simplebot_frotz.svg
+           :target: https://pypi.org/project/simplebot_frotz
+        
+        .. image:: https://pepy.tech/badge/simplebot_frotz
+           :target: https://pepy.tech/project/simplebot_frotz
+        
+        .. image:: https://img.shields.io/pypi/l/simplebot_frotz.svg
+           :target: https://pypi.org/project/simplebot_frotz
+        
+        .. image:: https://github.com/simplebot-org/simplebot_frotz/actions/workflows/python-ci.yml/badge.svg
+           :target: https://github.com/simplebot-org/simplebot_frotz/actions/workflows/python-ci.yml
+        
+        .. image:: https://img.shields.io/badge/code%20style-black-000000.svg
+           :target: https://github.com/psf/black
+        
+        Z-Machine (Infocom) interpreter for `SimpleBot`_.
+        
+        Install
+        -------
+        
+        To install run::
+        
+          pip install simplebot-frotz
+        
+        After installation you should put games in ``~/.simplebot/frotz-games/`` folder, name the games appropriately, the file names will be shown to the users in the game list. If a ``.jpg`` or ``.png`` file with the same name of a game is found it will be used for the game group's profile image.
+        
+        
+        .. _SimpleBot: https://github.com/simplebot-org/simplebot
+        
+Keywords: simplebot plugin deltachat game interactive-fiction
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Plugins
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Utilities
+Description-Content-Type: text/x-rst
+Provides-Extra: test
+Provides-Extra: dev
