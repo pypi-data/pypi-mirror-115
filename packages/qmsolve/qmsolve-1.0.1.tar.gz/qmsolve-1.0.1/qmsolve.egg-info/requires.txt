@@ -1,0 +1,14 @@
+numpy
+scipy
+matplotlib
+h5py
+
+[with_mayavi:python_version=="3.7"]
+vtk==8.1.2
+mayavi>=4.7.1
+PyQt5>=5.14.1
+
+[with_mayavi:python_version>="3.8"]
+vtk==9.0.1
+mayavi>=4.7.1
+PyQt5>=5.14.1
