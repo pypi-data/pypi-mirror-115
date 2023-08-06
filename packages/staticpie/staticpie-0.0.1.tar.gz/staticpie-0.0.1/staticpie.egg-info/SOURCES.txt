@@ -1,0 +1,6 @@
+setup.py
+./staticpie/__init__.py
+staticpie.egg-info/PKG-INFO
+staticpie.egg-info/SOURCES.txt
+staticpie.egg-info/dependency_links.txt
+staticpie.egg-info/top_level.txt

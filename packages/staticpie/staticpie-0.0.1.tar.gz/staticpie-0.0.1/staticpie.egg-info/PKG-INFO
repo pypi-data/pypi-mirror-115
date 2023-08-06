@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: staticpie
+Version: 0.0.1
+Summary: empty repo (for now)
+Home-page: https://github.com/rsusik/poc
+Author: Robert Susik
+Author-email: robert.susik@gmail.com
+License: GPLv3
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Topic :: Utilities
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
