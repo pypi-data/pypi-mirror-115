@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+gcamreader/__init__.py
+gcamreader/querymi.py
+gcamreader.egg-info/PKG-INFO
+gcamreader.egg-info/SOURCES.txt
+gcamreader.egg-info/dependency_links.txt
+gcamreader.egg-info/not-zip-safe
+gcamreader.egg-info/requires.txt
+gcamreader.egg-info/top_level.txt
+gcamreader/tests/__init__.py
+gcamreader/tests/test_querymi.py
