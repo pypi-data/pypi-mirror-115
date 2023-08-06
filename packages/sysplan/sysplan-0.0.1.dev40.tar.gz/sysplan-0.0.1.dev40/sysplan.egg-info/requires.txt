@@ -1,0 +1,8 @@
+cli2
+
+[colors]
+pygments
+
+[test]
+pytest
+pytest-cov
