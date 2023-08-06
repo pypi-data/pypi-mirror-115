@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: pycheesi
+Version: 0.1
+Summary: The class ic game of Parcheesi, in Python!
+Home-page: https://github.com/wendeborn8/pycheesi
+Author: John Wendeborn
+Author-email: jwendeborn@gmail.com
+License: MIT
+Download-URL: https://github.com/wendeborn8/pycheesi.git
+Description: UNKNOWN
+Keywords: game,parcheesi,pygame,board,ludo,parchisi,pycheesi
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Other Audience
+Classifier: Topic :: Games/Entertainment :: Board Games
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
