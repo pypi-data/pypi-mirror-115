@@ -1,0 +1,15 @@
+CHANGES
+=======
+
+0.4.15
+------
+
+* fix fsync ls app error, close #124, ref libimobiledevice/libimobiledevice#193
+* remove useless code
+* Update README.md
+* hotfix for 14.6, tested
+* fix 14.6 image missing bug, not tested
+* fix bug of retrieve image 12.5
+* do some fix for #116
+* retry and qq group id
+* fix again image retrieve ref #108
