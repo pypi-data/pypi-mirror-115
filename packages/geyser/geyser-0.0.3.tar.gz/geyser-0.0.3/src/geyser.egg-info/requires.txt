@@ -1,0 +1,9 @@
+pybind11
+ruamel.yaml
+toml
+
+[dev]
+check-manifest
+
+[test]
+coverage
