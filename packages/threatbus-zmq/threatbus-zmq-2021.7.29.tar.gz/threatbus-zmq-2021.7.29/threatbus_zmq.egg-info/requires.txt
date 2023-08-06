@@ -1,0 +1,4 @@
+python-dateutil>=2.8.1
+pyzmq>=19
+stix2<3.0,>=2.1
+threatbus>=2021.5.27
