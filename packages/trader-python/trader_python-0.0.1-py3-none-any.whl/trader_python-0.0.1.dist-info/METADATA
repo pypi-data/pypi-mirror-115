@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: trader-python
+Version: 0.0.1
+Summary: Run/Backtest/Create Easy Python Trading Algorithms
+Home-page: UNKNOWN
+Author: Hazzahx (Harry Ludemann)
+Author-email: 
+License: UNKNOWN
+Keywords: python,harryludemann,trader,backtest,trader-python
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+Requires-Dist: pandas
+Requires-Dist: yfinance
+Requires-Dist: requests
+
+UNKNOWN
+
+
