@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+protein_bert_pytorch/__init__.py
+protein_bert_pytorch/protein_bert_pytorch.py
+protein_bert_pytorch.egg-info/PKG-INFO
+protein_bert_pytorch.egg-info/SOURCES.txt
+protein_bert_pytorch.egg-info/dependency_links.txt
+protein_bert_pytorch.egg-info/requires.txt
+protein_bert_pytorch.egg-info/top_level.txt
