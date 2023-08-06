@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+VERSION
+setup.cfg
+setup.py
+ontic/__init__.py
+ontic/core.py
+ontic/meta.py
+ontic/property.py
+ontic/schema.py
+ontic/type.py
+ontic/validation_exception.py
+ontic.egg-info/PKG-INFO
+ontic.egg-info/SOURCES.txt
+ontic.egg-info/dependency_links.txt
+ontic.egg-info/top_level.txt
