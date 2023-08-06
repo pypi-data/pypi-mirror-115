@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: plato_cqrs
+Version: 0.1.1
+Summary: Simple CQRS implementation
+Home-page: https://github.com/IronSenior/PythonCommandQuery
+Author: Pepe Márquez Doblas
+Author-email: pepemarquezof@gmail.com
+License: GPL-3
+Download-URL: https://github.com/IronSenior/PythonCommandQuery/archive/refs/tags/0.1.tar.gz
+Description: UNKNOWN
+Keywords: CQRS,COMMAND,QUERY
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
