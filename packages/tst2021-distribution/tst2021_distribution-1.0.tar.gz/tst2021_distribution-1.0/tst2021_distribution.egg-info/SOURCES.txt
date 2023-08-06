@@ -1,0 +1,11 @@
+setup.py
+tst2021_distribution/Binomialdistribution.py
+tst2021_distribution/__init__.py
+tst2021_distribution/example-code.py
+tst2021_distribution/gaussiandistribution.py
+tst2021_distribution/generaldistribution.py
+tst2021_distribution.egg-info/PKG-INFO
+tst2021_distribution.egg-info/SOURCES.txt
+tst2021_distribution.egg-info/dependency_links.txt
+tst2021_distribution.egg-info/not-zip-safe
+tst2021_distribution.egg-info/top_level.txt
