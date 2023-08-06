@@ -1,0 +1,10 @@
+mathcad2smath/__init__.py,sha256=2un8k8GFsH9dCD4_ZThEPCMZq_JL335e0Wzkk034rmo,48
+mathcad2smath/converter.py,sha256=kWU2eSXTeOhd31Fa48wf5nN6AAuwEEhQ4cu2DND-AA8,12120
+mathcad2smath/custom_mathcad_function.py,sha256=K84BVD5EMJdBgAGvTAJU9Xw0kWnQoLfMDEcFXYgFNeg,3876
+mathcad2smath/mathcad2smath.py,sha256=P7dyLbwLlbqH72sWV6dR9c12wRocCcoALfdzKKByRAg,2764
+mathcad2smath-1.0.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+mathcad2smath-1.0.dist-info/METADATA,sha256=UZ7JdCpSTI2kq1CHd-Or5L5YRyPKmWqqxKm6Pwd7K6Q,890
+mathcad2smath-1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+mathcad2smath-1.0.dist-info/entry_points.txt,sha256=MllvV5OCfT5HXYKR4VzUyoKl80Vuyz6howcOMpbO3d4,68
+mathcad2smath-1.0.dist-info/top_level.txt,sha256=dPOi70XiIA5AqwMW0u3Tnk-dGTkGmi38oftgwsdXkXI,14
+mathcad2smath-1.0.dist-info/RECORD,,

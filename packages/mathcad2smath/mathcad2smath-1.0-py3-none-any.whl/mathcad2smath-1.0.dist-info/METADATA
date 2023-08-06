@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: mathcad2smath
+Version: 1.0
+Summary: This module convert XMCD mathcad files in XMCD compatible with Smath Studio
+Home-page: https://github.com/Ginklings/mathcad2smath
+Author: André Ginklings
+Author-email: andre.ginklings@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/Ginklings/mathcad2smath/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# mathcad2smath
+Command tool to convert mathcad XMCD to XMCD with Smath Studio support
+
+In progress...
+
+TODO change to lxml?
+
+TODO IF Statement wrong cases (most works)
+
+TODO inline replaces to xml
+
+TODO correct namespaces (refactor)
+
+TODO and more...
+
+
