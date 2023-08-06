@@ -1,0 +1,101 @@
+Metadata-Version: 2.1
+Name: HypixelStats
+Version: 0.0.1
+Summary: This is an API that can be used to get hypixel bedwars and skywars stats.
+Home-page: UNKNOWN
+Author: Jaishnu
+Author-email: jaishnu.ixi@gmail.com
+License: MIT
+Keywords: HypixelStats
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENCE.txt
+
+Hypixel Stats
+
+This is an API that can be used to get hypixel bedwars and skywars stats.
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install Hypixe Stats API
+
+```bash
+pip install HypixelStats
+```
+
+## Usage
+
+```py
+import HypixelStats
+import requests
+
+# Object for bedwars stats class
+bedwars = Bedwars_Stats("Hypixel API key here visit https://hypixel.net/threads/how-do-i-get-my-api-key.2993281/ for more information")
+
+# Returns Beds Destroyed by the player on Hypixel(only)
+bedwars.bedwars_beds_destroyed("Player Name here")
+
+# Returns Bedwars coin of the player on Hypixel(only)
+bedwars.bedwars_coins("Player name here")
+
+# Returns bedwars final kills of the player on Hypixel(only)
+bedwars.bedwars_final_kills("Player name here")
+
+# Returns how many bedwars matches the player has lost on Hypixel(only)
+bedwars.bedwars_losses("Player name here")
+
+# Returns how many Bedwars matches the player has won on Hypixel(only)
+bedwars.bedwars_wins("Player name here")
+
+# Returns the player's current bedwars winstreak on Hypixel(only)
+bedwars.bedwars_winstreak("Player name here")
+
+# Returns how many players the player has killed on Hypixel(only)
+bedwars.bedwars_kills("Player name here")
+
+
+# Object for Skywars class
+skywars = Skywars_Stats("Hypixel API key here visit https://hypixel.net/threads/how-do-i-get-my-api-key.2993281/ for more information")
+
+# Returns how many skywars matches the player has won on Hypixel(only)
+skywars.skywars_matches("Player name here")
+
+# Returns how many skywars matches the player has one on Hypixel(only)
+skywars.skywars_wins("Player name here")
+
+# Returns how many skywars coins the player has on Hypixel(only)
+skywars.skywars_coins("Player name here")
+
+# Returns how many players the player has killed in skywars on Hypixel(only)
+skywars.skywars_kills("Player name here")
+
+# Returns how many matches the player has lost on Hypixel(only)
+skywars.skywars_losses("Player name here")
+
+# Returns the player's current skywars winstreak on Hypixel(only)
+skywars.skywars_winstreak("Player name here")
+```
+
+## License
+Copyright 2021 Jaishnu aka INFI
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+Change Log
+===============
+
+0.0.1 (06/08/2021)
+
+------------------
+
+- First Release
+
