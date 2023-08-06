@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/ipyquery/__init__.py
+src/ipyquery/linq.py
+src/ipyquery.egg-info/PKG-INFO
+src/ipyquery.egg-info/SOURCES.txt
+src/ipyquery.egg-info/dependency_links.txt
+src/ipyquery.egg-info/top_level.txt
