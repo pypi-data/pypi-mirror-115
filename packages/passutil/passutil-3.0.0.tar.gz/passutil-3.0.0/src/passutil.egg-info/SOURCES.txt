@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+src/passutil/__init__.py
+src/passutil/__main__.py
+src/passutil/chars.py
+src/passutil/pu.py
+src/passutil.egg-info/PKG-INFO
+src/passutil.egg-info/SOURCES.txt
+src/passutil.egg-info/dependency_links.txt
+src/passutil.egg-info/top_level.txt
