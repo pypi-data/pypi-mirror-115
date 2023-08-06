@@ -1,0 +1,9 @@
+numpy
+scipy
+pandas
+obspy
+pyasdf
+numba
+pycwt
+shapely
+netCDF4
