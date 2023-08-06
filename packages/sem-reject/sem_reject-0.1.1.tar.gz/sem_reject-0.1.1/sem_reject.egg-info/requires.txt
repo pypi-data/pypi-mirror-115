@@ -1,0 +1,13 @@
+numpy
+keras
+tokenizer_tools
+flask
+flask-cors
+ioflow
+tf-crf-layer
+tf-attention-layer
+deliverable_model
+gunicorn
+micro_toolkit
+seq2annotation
+mtnlpmodel
