@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: EtlWorkers
+Version: 0.0.3
+Summary: Package for performing data operations within python
+Home-page: https://github.com/M-Farag/EtlWorkers
+Author: Mina Farag
+Author-email: mina.farag@icloud.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: uuid
+
+UNKNOWN
+
+
