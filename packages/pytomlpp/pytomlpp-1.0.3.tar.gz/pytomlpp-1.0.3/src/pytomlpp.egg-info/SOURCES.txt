@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/encoding_decoding.cpp
+src/pytomlpp.cpp
+src/type_casters.cpp
+src/pytomlpp/__init__.py
+src/pytomlpp/_io.py
+src/pytomlpp.egg-info/PKG-INFO
+src/pytomlpp.egg-info/SOURCES.txt
+src/pytomlpp.egg-info/dependency_links.txt
+src/pytomlpp.egg-info/not-zip-safe
+src/pytomlpp.egg-info/top_level.txt
