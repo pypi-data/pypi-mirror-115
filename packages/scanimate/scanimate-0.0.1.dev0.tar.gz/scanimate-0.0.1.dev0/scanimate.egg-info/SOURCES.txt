@@ -1,0 +1,14 @@
+README.md
+pyproject.toml
+setup.py
+core/__init__.py
+core/display.py
+core/io.py
+core/moire.py
+core/scanimate.py
+core/version_info.py
+scanimate.egg-info/PKG-INFO
+scanimate.egg-info/SOURCES.txt
+scanimate.egg-info/dependency_links.txt
+scanimate.egg-info/requires.txt
+scanimate.egg-info/top_level.txt

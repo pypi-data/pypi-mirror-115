@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: scanimate
+Version: 0.0.1.dev0
+Summary: Tiny package for generating static animations, or "scanimations"
+Home-page: https://ryanhartzell.github.io/scanimate
+Author: Ryan Hartzell
+Author-email: scanimate@gmail.com
+Maintainer: Ryan Hartzell
+Maintainer-email: scanimate@gmail.com
+License: MIT
+Download-URL: https://github.com/RyanHartzell/scanimate
+Description: # scanimate
+        Tiny Python package for generating static animations (also known as 'scanimations')
+        
+        Leverages Moire patterns for motion effects.
+        
+Keywords: fun imaging-science animation image-processing stem steam art
+Platform: Windows
+Platform: Linux
+Platform: Mac OS-X
+Platform: Unix
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Education
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Image Processing
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Natural Language :: English
+Requires-Python: >=3.7.*
+Description-Content-Type: text/markdown
+Provides-Extra: dev
