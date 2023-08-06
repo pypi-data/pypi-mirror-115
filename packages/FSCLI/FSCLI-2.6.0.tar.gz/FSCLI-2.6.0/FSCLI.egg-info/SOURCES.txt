@@ -1,0 +1,11 @@
+README.md
+setup.py
+FSCLI.egg-info/PKG-INFO
+FSCLI.egg-info/SOURCES.txt
+FSCLI.egg-info/dependency_links.txt
+FSCLI.egg-info/entry_points.txt
+FSCLI.egg-info/requires.txt
+FSCLI.egg-info/top_level.txt
+fscli/__main__.py
+fscli/config.py
+fscli/set_key.py
