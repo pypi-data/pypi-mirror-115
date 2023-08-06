@@ -1,0 +1,4 @@
+[console_scripts]
+rosdepc = roscdep2.main:rosdep_main
+rosdepc-source = roscdep2.install:install_main
+
