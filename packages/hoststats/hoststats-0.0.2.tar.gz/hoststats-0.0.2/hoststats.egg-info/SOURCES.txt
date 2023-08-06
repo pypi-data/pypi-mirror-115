@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+hoststats/__init__.py
+hoststats/cli.py
+hoststats.egg-info/PKG-INFO
+hoststats.egg-info/SOURCES.txt
+hoststats.egg-info/dependency_links.txt
+hoststats.egg-info/entry_points.txt
+hoststats.egg-info/top_level.txt
