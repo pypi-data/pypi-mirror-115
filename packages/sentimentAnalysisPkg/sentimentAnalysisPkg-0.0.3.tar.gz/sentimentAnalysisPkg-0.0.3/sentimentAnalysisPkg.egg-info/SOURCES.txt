@@ -1,0 +1,8 @@
+README.md
+setup.py
+sentimentAnalysisPkg/__init__.py
+sentimentAnalysisPkg/basicSentimentAnalysis.py
+sentimentAnalysisPkg.egg-info/PKG-INFO
+sentimentAnalysisPkg.egg-info/SOURCES.txt
+sentimentAnalysisPkg.egg-info/dependency_links.txt
+sentimentAnalysisPkg.egg-info/top_level.txt
