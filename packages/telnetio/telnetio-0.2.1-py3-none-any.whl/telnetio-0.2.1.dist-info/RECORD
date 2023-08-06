@@ -1,0 +1,8 @@
+telnetio/__init__.py,sha256=ATgrlfKlLCfjZSLlmQEgGQ6WMOVLkU7VHec7gP_3IGk,467
+telnetio/_anyio.py,sha256=yBCptKXN3hm50HrabbwvwUnKM06eh7aMl0x01JsNqWc,3490
+telnetio/_machine.py,sha256=lt3ILCO_NsO1so4EIjmOBw68jBicZGxrcyrR-RDN6wo,8958
+telnetio/_opt.py,sha256=B7r-rq_-6Q0AXzxBU2t2U3wRtjslKq4hVUWv9GWIUYY,683
+telnetio-0.2.1.dist-info/LICENSE,sha256=VeZEnmx09Ssj5PiuvUDresN_k_rI7KTECWWLsBbBtio,1082
+telnetio-0.2.1.dist-info/WHEEL,sha256=VN2eEg4PHbTOniXb-cCYQPc6zUTS4dAcATjlgU3q-Lo,83
+telnetio-0.2.1.dist-info/METADATA,sha256=bueZ5bg_4gyvO80rgUBoUJiRX2H3w8Oxs2CoB-HNbxA,1420
+telnetio-0.2.1.dist-info/RECORD,,
