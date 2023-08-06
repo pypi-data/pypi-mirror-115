@@ -1,0 +1,10 @@
+MANIFEST.in
+__init__.py
+config.py
+pubsub.py
+setup.py
+pubsubdil.egg-info/PKG-INFO
+pubsubdil.egg-info/SOURCES.txt
+pubsubdil.egg-info/dependency_links.txt
+pubsubdil.egg-info/requires.txt
+pubsubdil.egg-info/top_level.txt
