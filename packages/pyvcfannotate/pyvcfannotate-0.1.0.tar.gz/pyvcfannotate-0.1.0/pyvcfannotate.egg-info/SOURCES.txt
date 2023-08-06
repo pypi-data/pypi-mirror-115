@@ -1,0 +1,12 @@
+setup.py
+pyannotate/__init__.py
+pyannotate/cli.py
+pyannotate/exac_client.py
+pyannotate/vcf_annotator.py
+pyvcfannotate.egg-info/PKG-INFO
+pyvcfannotate.egg-info/SOURCES.txt
+pyvcfannotate.egg-info/dependency_links.txt
+pyvcfannotate.egg-info/entry_points.txt
+pyvcfannotate.egg-info/not-zip-safe
+pyvcfannotate.egg-info/requires.txt
+pyvcfannotate.egg-info/top_level.txt
