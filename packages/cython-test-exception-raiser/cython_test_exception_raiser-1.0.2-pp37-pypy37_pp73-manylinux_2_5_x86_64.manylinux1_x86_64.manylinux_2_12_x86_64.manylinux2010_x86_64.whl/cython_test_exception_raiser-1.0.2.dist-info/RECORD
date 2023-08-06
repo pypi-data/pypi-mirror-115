@@ -1,0 +1,7 @@
+cython_test_exception_raiser/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cython_test_exception_raiser/raiser.pypy37-pp73-x86_64-linux-gnu.so,sha256=EjHWkU8bCazTXx281q6sqf81uLTz8wIGy_TTfX6h0QQ,26240
+cython_test_exception_raiser-1.0.2.dist-info/top_level.txt,sha256=nvSPyEIChzsZeaZETLfb0hMaNQTcgfOSMCqmJmOzM0w,29
+cython_test_exception_raiser-1.0.2.dist-info/WHEEL,sha256=lWvU972VIWbSanUNnwtujDunNuJocCqfXVN-gf5M4e4,245
+cython_test_exception_raiser-1.0.2.dist-info/LICENSE,sha256=OVON_1vuS3_2OZZ8f6xIgo9tBD85rxLGW39skZFaImI,1942
+cython_test_exception_raiser-1.0.2.dist-info/METADATA,sha256=uK8ahiolsQw2xs_GguPrXtmSxjya0X7jgkLH3ecZX1s,954
+cython_test_exception_raiser-1.0.2.dist-info/RECORD,,
