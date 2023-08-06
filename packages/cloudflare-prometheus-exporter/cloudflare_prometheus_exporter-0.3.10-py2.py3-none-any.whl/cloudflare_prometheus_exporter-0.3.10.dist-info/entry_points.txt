@@ -1,0 +1,3 @@
+[console_scripts]
+cfexpose = cloudflare_exporter.cli:main
+
