@@ -1,0 +1,16 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+setup.py
+licheck/__init__.py
+licheck/__main__.py
+licheck/api.py
+licheck/cli.py
+licheck/constants.py
+licheck/exceptions.py
+licheck.egg-info/PKG-INFO
+licheck.egg-info/SOURCES.txt
+licheck.egg-info/dependency_links.txt
+licheck.egg-info/entry_points.txt
+licheck.egg-info/requires.txt
+licheck.egg-info/top_level.txt

@@ -1,0 +1,139 @@
+Metadata-Version: 2.1
+Name: licheck
+Version: 0.0.2
+Summary: Automatically check the licenses of package dependencies.
+Home-page: https://blog.franco.net.eu.org/software/#licheck
+Author: Franco Masotti
+Author-email: franco.masotti@tutanota.com
+License: GPL
+Keywords: text license
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Utilities
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.5, <4
+Description-Content-Type: text/x-rst
+License-File: LICENSE.txt
+
+licheck
+=======
+
+|pypiver|   |license|   |buymeacoffee|	|pre-commit|
+
+.. |license| image:: https://img.shields.io/pypi/l/licheck.svg?color=blue
+               :alt: PyPI - License
+               :target: https://raw.githubusercontent.com/frnmst/licheck/master/LICENSE.txt
+
+.. |pypiver| image:: https://img.shields.io/pypi/v/licheck.svg
+               :alt: PyPI licheck version
+               :target: https://pypi.org/project/licheck/
+
+.. |pre-commit| image:: https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white
+				  :alt: pre-commit
+				  :target: https://github.com/pre-commit/pre-commit
+
+.. |buymeacoffee| image:: assets/buy_me_a_coffee.svg
+                   :alt: Buy me a coffee
+                   :target: https://buymeacoff.ee/frnmst
+
+Automatically check the licenses of package dependencies.
+
+Description
+-----------
+
+Inspired by `kontrolilo <https://github.com/kontrolilo/kontrolilo>`_, check the licenses
+of sotware dependencies in package managers used by developers. This program is primarly
+aimed to be used as a git hook with `pre-commit <https://github.com/pre-commit/pre-commit>`_.
+
+Documentation
+-------------
+
+https://docs.franco.net.eu.org/licheck/
+
+Please read carefully the `External programs`_ section of the documentation
+to learn which programs you need to install before licheck.
+
+.. _External programs: https://docs.franco.net.eu.org/licheck/external_programs.html
+
+Have a look at the `Configuration file`_ section... to know how to configure
+licheck.
+
+.. _Configuration file: https://docs.franco.net.eu.org/licheck/configuration_file.html
+
+API examples
+------------
+
+licheck has a `public API`_. This means for example that you can you easily
+build a TOC within another Python program. The easiest way to build one
+for a markdown file is:
+
+
+::
+
+    >>> import licheck
+    >>> f = open('Pipfile')
+    >>> print(f.read(), end='')
+    [[source]]
+    name = "pypi"
+    url = "https://pypi.org/simple"
+    verify_ssl = true
+
+    [dev-packages]
+    Sphinx = "~=4.1"
+
+    [requires]
+    python_version = "*"
+    >>> binary, program = licheck.get_binary_and_program('python')
+    >>> command = licheck.build_command(binary, program, 'Pipfile')
+    >>> print(licheck.get_data(command, program))
+
+
+.. _public API: https://docs.franco.net.eu.org/licheck/api.html
+
+CLI Helps
+---------
+
+
+::
+
+
+    $ licheck --help
+
+
+License
+-------
+
+Copyright (C) 2021 frnmst (Franco Masotti) <franco.masotti@tutanota.com>
+
+licheck is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+licheck is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with licheck.  If not, see <http://www.gnu.org/licenses/>.
+
+Changelog and trusted source
+----------------------------
+
+You can check the authenticity of new releases using my public key.
+
+Changelogs, instructions, sources and keys can be found at `blog.franco.net.eu.org/software <https://blog.franco.net.eu.org/software/>`_.
+
+Crypto donations
+----------------
+
+- Bitcoin: bc1qnkflazapw3hjupawj0lm39dh9xt88s7zal5mwu
+- Monero: 84KHWDTd9hbPyGwikk33Qp5GW7o7zRwPb8kJ6u93zs4sNMpDSnM5ZTWVnUp2cudRYNT6rNqctnMQ9NbUewbj7MzCBUcrQEY
+- Dogecoin: DMB5h2GhHiTNW7EcmDnqkYpKs6Da2wK3zP
+- Vertcoin: vtc1qd8n3jvkd2vwrr6cpejkd9wavp4ld6xfu9hkhh0
+
+
