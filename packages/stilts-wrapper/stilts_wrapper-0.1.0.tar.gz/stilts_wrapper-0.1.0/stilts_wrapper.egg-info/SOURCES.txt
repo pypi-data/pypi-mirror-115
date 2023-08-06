@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+stilts_wrapper/__init__.py
+stilts_wrapper/api.py
+stilts_wrapper/exc.py
+stilts_wrapper/known_tasks.py
+stilts_wrapper/utils.py
+stilts_wrapper.egg-info/PKG-INFO
+stilts_wrapper.egg-info/SOURCES.txt
+stilts_wrapper.egg-info/dependency_links.txt
+stilts_wrapper.egg-info/requires.txt
+stilts_wrapper.egg-info/top_level.txt
