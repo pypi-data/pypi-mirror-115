@@ -1,0 +1,8 @@
+README.md
+setup.py
+autonlpinsights/__init__.py
+autonlpinsights.egg-info/PKG-INFO
+autonlpinsights.egg-info/SOURCES.txt
+autonlpinsights.egg-info/dependency_links.txt
+autonlpinsights.egg-info/requires.txt
+autonlpinsights.egg-info/top_level.txt
