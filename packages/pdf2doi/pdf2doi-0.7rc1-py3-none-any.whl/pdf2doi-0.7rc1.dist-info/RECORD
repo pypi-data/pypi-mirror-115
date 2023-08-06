@@ -1,0 +1,11 @@
+pdf2doi/__init__.py,sha256=HTsCA5upHK-UXvIShs2GyM70np3M9F1qqKE_HIb53Vs,475
+pdf2doi/bibtex_makers.py,sha256=sCFUKji_4cTE_HZfuIuXO8kWf_SFPajT0Gx2fxud63c,7645
+pdf2doi/config.py,sha256=k_NQ58VQJVwtaAHfwv5jUUDFcxPuuJO9y4Jem67mhHs,730
+pdf2doi/finders.py,sha256=mCVvfAn_bNp9_QqR18o65ogwEUUWN6-wPHtL9PWTTVg,34534
+pdf2doi/main.py,sha256=OUFGIacN9WxTVwIAV9M008GoTy616XL5QjU42kMUp20,25255
+pdf2doi/utils_registry.py,sha256=1e7WNEcX3ovbTJDirfL43HWhClPA8zHb48pczd4KWqg,9109
+pdf2doi-0.7rc1.dist-info/METADATA,sha256=hJ6O-mIC9F_JHwTv73HZI0NuNTt1Ir7VROo1NACuono,26925
+pdf2doi-0.7rc1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pdf2doi-0.7rc1.dist-info/entry_points.txt,sha256=HlrIWC3aY0VzMKoyvUstXNfvM2Krp48khFTneU5C8nM,47
+pdf2doi-0.7rc1.dist-info/top_level.txt,sha256=mjnLRGseHZPjiQMk3YXfBDZNz-mSMVAK8GyNK1y7EuY,8
+pdf2doi-0.7rc1.dist-info/RECORD,,
