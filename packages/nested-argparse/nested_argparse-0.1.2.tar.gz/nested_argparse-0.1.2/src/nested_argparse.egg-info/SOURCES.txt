@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+src/nested_argparse/__init__.py
+src/nested_argparse/nested_argparse.py
+src/nested_argparse.egg-info/PKG-INFO
+src/nested_argparse.egg-info/SOURCES.txt
+src/nested_argparse.egg-info/dependency_links.txt
+src/nested_argparse.egg-info/top_level.txt
+test/test_multinesting.py
+test/test_sanity_check.py
