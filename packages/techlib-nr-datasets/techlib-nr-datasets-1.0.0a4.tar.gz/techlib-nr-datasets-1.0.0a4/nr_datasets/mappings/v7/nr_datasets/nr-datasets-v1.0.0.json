@@ -1,0 +1,18 @@
+{
+  "aliases": {
+    "{PREFIX}nr-all": {},
+    "{PREFIX}nr-all-datasets": {}
+  },
+  "mappings": {
+    "date_detection": false,
+    "numeric_detection": false,
+    "dynamic": false,
+    "oarepo:extends": [
+      "nr-datasets-metadata-v1.0.0.json#/mappings",
+      "communities-v1.0.0.json#/Communities",
+      "fsm-record-v1.0.0.json#/FSMRecord"
+    ]
+  }
+}
+
+
