@@ -1,0 +1,10 @@
+setup.py
+distributions-pavieira/Binomialdistribution.py
+distributions-pavieira/Gaussiandistribution.py
+distributions-pavieira/Generaldistribution.py
+distributions-pavieira/__init__.py
+distributions_pavieira.egg-info/PKG-INFO
+distributions_pavieira.egg-info/SOURCES.txt
+distributions_pavieira.egg-info/dependency_links.txt
+distributions_pavieira.egg-info/not-zip-safe
+distributions_pavieira.egg-info/top_level.txt
