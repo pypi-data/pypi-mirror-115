@@ -1,0 +1,8 @@
+README.md
+setup.py
+hello/__init__.py
+hello/hello.py
+say2hello.egg-info/PKG-INFO
+say2hello.egg-info/SOURCES.txt
+say2hello.egg-info/dependency_links.txt
+say2hello.egg-info/top_level.txt
