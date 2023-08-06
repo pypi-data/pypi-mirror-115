@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: listshiftoperationpkg
+Version: 0.0.1
+Summary: A basic List Shift Operation package
+Home-page: UNKNOWN
+Author: Prabhat Ale
+Author-email: <srv.ale52@gmail.com>
+License: UNKNOWN
+Keywords: python,list,shift opeartion,left shift,right shift
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+
+UNKNOWN
+
+
