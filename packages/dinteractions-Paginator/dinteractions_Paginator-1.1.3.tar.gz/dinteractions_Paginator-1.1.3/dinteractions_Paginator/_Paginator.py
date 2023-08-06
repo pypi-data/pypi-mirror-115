@@ -1,0 +1,298 @@
+import random
+from asyncio import TimeoutError
+from typing import Optional, Union, List
+
+import discord
+from discord.ext import commands
+
+from discord_slash import SlashContext
+from discord_slash.context import ComponentContext
+from discord_slash.model import ButtonStyle
+from discord_slash.utils.manage_components import (
+    create_actionrow,
+    create_button,
+    wait_for_component,
+    create_select, 
+    create_select_option
+)
+
+async def Paginator(
+    bot: commands.Bot,
+    ctx: SlashContext,
+    pages: List[discord.Embed],
+    content: Optional[str] = None,
+    authorOnly: Optional[bool] = False,
+    timeout: Optional[int] = None,
+    disableAfterTimeout: Optional[bool] = True,
+    deleteAfterTimeout: Optional[bool] = False,
+    useSelect: Optional[bool] = True,
+    useIndexButton: Optional[bool] = False,
+    firstLabel: str = "",
+    prevLabel: str = "",
+    nextLabel: str = "",
+    lastLabel: str = "",
+    firstEmoji: Optional[
+        Union[discord.emoji.Emoji, discord.partial_emoji.PartialEmoji, dict]
+    ] = "⏮️",
+    prevEmoji: Optional[
+        Union[discord.emoji.Emoji, discord.partial_emoji.PartialEmoji, dict]
+    ] = "◀",
+    nextEmoji: Optional[
+        Union[discord.emoji.Emoji, discord.partial_emoji.PartialEmoji, dict]
+    ] = "▶",
+    lastEmoji: Optional[
+        Union[discord.emoji.Emoji, discord.partial_emoji.PartialEmoji, dict]
+    ] = "⏭️",
+    indexStyle: Optional[Union[ButtonStyle, int]] = 3,
+    firstStyle: Optional[Union[ButtonStyle, int]] = 1,
+    prevStyle: Optional[Union[ButtonStyle, int]] = 1,
+    nextStyle: Optional[Union[ButtonStyle, int]] = 1,
+    lastStyle: Optional[Union[ButtonStyle, int]] = 1,
+):
+    """
+    :param bot: the bot/client variable with discord_slash.SlashCommand override
+    :param ctx: command context
+    :param content: the content of message to send
+    :param authorOnly: paginator to work author only
+    :param timeout: set paginator to work for limited time
+    :param disableAfterTimeout: disables components after timeout
+    :param deleteAfterTimeout: deletes components after timeout
+    :param useSelect: uses select
+    :param useIndexButton: uses index button
+    :param firstLabel: label of first page button
+    :param prevLabel: label of previous page button
+    :param nextLabel: label of next page button
+    :param lastLabel: label of last page button
+    :param firstEmoji: emoji of first page button
+    :param prevEmoji: emoji of previous page button
+    :param nextEmoji: emoji of next page button
+    :param lastEmoji: emoji of last page button
+    :param indexStyle: colo[u]r of index button
+    :param firstStyle: colo[u]r of first button
+    :param prevStyle: colo[u]r of previous button
+    :param nextStyle: colo[u]r of next button
+    :param lastStyle: colo[u]r of last button
+    """
+    top = len(pages)  # limit of the paginator
+    bid = random.randint(10000, 99999)  # base of button id
+    index = 0  # starting page
+    controlButtons = [
+        # First button
+        create_button(
+            style=firstStyle,
+            label=firstLabel,
+            custom_id=f"{bid}-first",
+            disabled=True,
+            emoji=firstEmoji,
+        ),
+        # Previous Button
+        create_button(
+            style=prevStyle,
+            label=prevLabel,
+            custom_id=f"{bid}-prev",
+            disabled=True,
+            emoji=prevEmoji,
+        ),
+        # Index
+        create_button(
+            style=indexStyle,
+            label=f"Page {index+1}/{top}",
+            disabled=True,
+            custom_id=f"{bid}-index",
+        ),
+        # Next Button
+        create_button(
+            style=nextStyle,
+            label=nextLabel,
+            custom_id=f"{bid}-next",
+            disabled=False,
+            emoji=nextEmoji,
+        ),
+        # Last button
+        create_button(
+            style=lastStyle,
+            label=lastLabel,
+            custom_id=f"{bid}-last",
+            disabled=False,
+            emoji=lastEmoji,
+        )
+    ]
+    select_options = []
+    for i in pages:
+        pageNum = pages.index(i) + 1
+        try:
+            title = i.title
+            title = (title[:18] + "...") if len(title) > 21 else title
+            select_options.append(create_select_option(f"{pageNum}: {title}", value=f"{pageNum}"))
+        except Exception:
+            select_options.append(create_select_option(f"{pageNum}: Title not found", value=f"{pageNum}"))
+    select = create_select(
+        options=select_options,
+        placeholder=f"Page {index+1}/{top}",
+        min_values=1,
+        max_values=1,
+    )
+    if useIndexButton == False:
+        controlButtons.pop(2)
+    selectControls = create_actionrow(select)
+    buttonControls = create_actionrow(*controlButtons)
+    components = [selectControls, buttonControls] if useSelect == True else [buttonControls]
+    msg = await ctx.send(content=content, embed=pages[0], components=components)
+    # handling the interaction
+    tmt = True  # stop listening when timeout expires
+    while tmt:
+        try:
+            button_context: ComponentContext = await wait_for_component(
+                bot, components=components, timeout=timeout
+            )
+            await button_context.defer(edit_origin=True)
+        except TimeoutError:
+            tmt = False
+            if disableAfterTimeout == True:
+                selectControls["components"][0][
+                    "disabled"
+                ] = True
+                for i in range(5 if useIndexButton == True else 4):
+                    buttonControls["components"][i][
+                        "disabled"
+                    ] = True
+                await msg.edit(
+                    components=components
+                )
+            if deleteAfterTimeout == True:
+                await msg.edit(
+                    components=None
+                )
+
+        else:
+            # Handling first button
+            if button_context.component_id == f"{bid}-first" and index > 0:
+                index = 0  # first page
+                buttonControls["components"][0][
+                    "disabled"
+                ] = True  # Disables the first button
+                buttonControls["components"][1][
+                    "disabled"
+                ] = True  # Disables the previous button
+                buttonControls["components"][3 if useIndexButton == True else 2]["disabled"] = False  # Enables Next Button
+                buttonControls["components"][4 if useIndexButton == True else 3]["disabled"] = False  # Enables Last Button
+                if useIndexButton == True:
+                    buttonControls["components"][2][
+                        "label"
+                    ] = f"Page {index+1}/{top}"  # updates the index
+                if useSelect == True:
+                    selectControls["components"][0][
+                        "placeholder"
+                    ] = f"Page {index+1}/{top}"
+                await button_context.edit_origin(
+                    content=content, embed=pages[index], components=components
+                )
+            # Handling previous button
+            if button_context.component_id == f"{bid}-prev" and index > 0:
+                index = index - 1  # lowers index by 1
+                if index == 0:
+                    buttonControls["components"][0][
+                        "disabled"
+                    ] = True  # Disables the first button
+                    buttonControls["components"][1][
+                        "disabled"
+                    ] = True  # Disables the previous button
+                buttonControls["components"][3 if useIndexButton == True else 2]["disabled"] = False  # Enables Next Button
+                buttonControls["components"][4 if useIndexButton == True else 3]["disabled"] = False  # Enables Last Button
+                if useIndexButton == True:
+                    buttonControls["components"][2][
+                        "label"
+                    ] = f"Page {index+1}/{top}"  # updates the index
+                if useSelect == True:
+                    selectControls["components"][0][
+                        "placeholder"
+                    ] = f"Page {index+1}/{top}"
+                await button_context.edit_origin(
+                    content=content, embed=pages[index], components=components
+                )
+            # handling next button
+            if button_context.component_id == f"{bid}-next" and index < top - 1:
+                index = index + 1  # add 1 to the index
+                if index == top - 1:
+                    buttonControls["components"][3 if useIndexButton == True else 2][
+                        "disabled"
+                    ] = True  # disables the next button
+                    buttonControls["components"][4 if useIndexButton == True else 3][
+                        "disabled"
+                    ] = True  # disables the last button
+                buttonControls["components"][0]["disabled"] = False  # enables first button
+                buttonControls["components"][1]["disabled"] = False  # enables previous button
+                if useIndexButton == True:
+                    buttonControls["components"][2][
+                        "label"
+                    ] = f"Page {index+1}/{top}"  # updates the index
+                if useSelect == True:
+                    selectControls["components"][0][
+                        "placeholder"
+                    ] = f"Page {index+1}/{top}"
+                await button_context.edit_origin(
+                    content=content, embed=pages[index], components=components
+                )
+            # handling last button
+            if button_context.component_id == f"{bid}-last" and index < top - 1:
+                index = top - 1  # set index to last
+                buttonControls["components"][3 if useIndexButton == True else 2][
+                    "disabled"
+                ] = True  # disables the next button
+                buttonControls["components"][4 if useIndexButton == True else 3][
+                    "disabled"
+                ] = True  # disables the last button
+                buttonControls["components"][0]["disabled"] = False  # enables first button
+                buttonControls["components"][1]["disabled"] = False  # enables previous button
+                if useIndexButton == True:
+                    buttonControls["components"][2][
+                        "label"
+                    ] = f"Page {index+1}/{top}"  # updates the index
+                if useSelect == True:
+                    selectControls["components"][0][
+                        "placeholder"
+                    ] = f"Page {index+1}/{top}"
+                await button_context.edit_origin(
+                    content=content, embed=pages[index], components=components
+                )
+            # handling select
+            if button_context.component_type == 3:
+                index = int(button_context.selected_options[0]) - 1
+                if index == 0:
+                    buttonControls["components"][0][
+                        "disabled"
+                    ] = True  # Disables the first button
+                    buttonControls["components"][1][
+                        "disabled"
+                    ] = True  # Disables the previous button
+                    buttonControls["components"][3 if useIndexButton == True else 2]["disabled"] = False  # Enables Next Button
+                    buttonControls["components"][4 if useIndexButton == True else 3]["disabled"] = False  # Enables Last Button
+                elif index == top - 1:
+                    buttonControls["components"][3 if useIndexButton == True else 2][
+                        "disabled"
+                    ] = True  # disables the next button
+                    buttonControls["components"][4 if useIndexButton == True else 3][
+                        "disabled"
+                    ] = True  # disables the last button
+                    buttonControls["components"][0]["disabled"] = False  # enables first button
+                    buttonControls["components"][1]["disabled"] = False  # enables previous button
+                else:
+                    buttonControls["components"][3 if useIndexButton == True else 2][
+                        "disabled"
+                    ] = False # enables the next button
+                    buttonControls["components"][4 if useIndexButton == True else 3][
+                        "disabled"
+                    ] = False # enables the last button
+                    buttonControls["components"][0]["disabled"] = False # enables first button
+                    buttonControls["components"][1]["disabled"] = False # enables previous button
+                if useIndexButton == True:
+                    buttonControls["components"][2][
+                        "label"
+                    ] = f"Page {index+1}/{top}"  # updates the index
+                if useSelect == True:
+                    selectControls["components"][0][
+                        "placeholder"
+                    ] = f"Page {index+1}/{top}"
+                await button_context.edit_origin(
+                    content=content, embed=pages[index], components=components
+                )
