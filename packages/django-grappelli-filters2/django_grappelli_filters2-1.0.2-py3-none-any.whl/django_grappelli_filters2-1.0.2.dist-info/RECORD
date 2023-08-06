@@ -1,0 +1,14 @@
+grappelli_filters/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+grappelli_filters/admin.py,sha256=ThQL_3F-eKoCbnLJvg_THBEw643Bhl9wFnR7DH9pv0w,278
+grappelli_filters/filters.py,sha256=C_PysgnmFDR5VhLLXZAEi6TPcxO8YpgP3odjSP3VEsk,2893
+grappelli_filters/models.py,sha256=Vjc0p2XbAPgE6HyTF6vll98A4eDhA5AvaQqsc4kQ9AQ,57
+grappelli_filters/tests.py,sha256=mrbGGRNg5jwbTJtWWa7zSKdDyeB4vmgZCRc2nk6VY-g,60
+grappelli_filters/views.py,sha256=xc1IQHrsij7j33TUbo-_oewy3vs03pw_etpBWaMYJl0,63
+grappelli_filters/static/grappelli_filters/filter.css,sha256=agQWZOkecgOu-8lnQYpri5rakSwWrD_OflVWjnR-wm0,949
+grappelli_filters/static/grappelli_filters/filter.js,sha256=0jtaoGgjj9iRLrW74Aj7FZKZjZeNJqw37hVPWfKabaI,3335
+grappelli_filters/templates/grappelli_filters/related_autocomplete.html,sha256=3ITJXP50HlSvpxWlQ-2YsfjVU0Bt0SEWPolSl3EQ6M8,648
+grappelli_filters/templates/grappelli_filters/search.html,sha256=Ligp2Qbk4HIEZQZgAmr44aSRRvhruWtC_Knv5OWqo_s,2608
+django_grappelli_filters2-1.0.2.dist-info/METADATA,sha256=Sx9MDErk9Ms1_CNuK4qiZBIzWLezGx3_ygyR2pDqvqs,685
+django_grappelli_filters2-1.0.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+django_grappelli_filters2-1.0.2.dist-info/top_level.txt,sha256=8QW7R4tCHbjczQqqkOzZiPV2OJKS0528xGQEXDXZSWM,18
+django_grappelli_filters2-1.0.2.dist-info/RECORD,,

@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: django-grappelli-filters2
+Version: 1.0.2
+Summary: Additional filters for Djagno Grappelli admin
+Home-page: https://github.com/frnhr/django-grappelli-filters/
+Author: Fran Hrzenjak
+Author-email: fran@changeset.hr
+License: Unlicense
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: Freeware
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Requires-Dist: django
+Requires-Dist: django-grappelli
+
+UNKNOWN
+
