@@ -1,0 +1,16 @@
+relaxed/__init__.py,sha256=ystdmbLyPmOJeVs92ARotUZMdE-f9aXOrfUQAKy9u8k,111
+relaxed/_types.py,sha256=O6RgMPHjxXkcb4X2IJ0APGtOQpHA7vpg10_M4xfd-A4,580
+relaxed/_version.py,sha256=P8W_XGgjz5fygcRdylGsnzMVA8WRVNYCU54UyiKh4-0,142
+relaxed/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+relaxed/fit/__init__.py,sha256=nOVDC7IKwe5W6ru3rtbXGyWXYcVhVR6v-1G4jT1sZOg,72
+relaxed/fit/constrained.py,sha256=RDKOCBTeyzDWTSSMtRAiUVgAL7UjCrOBepDxF7Cw9MY,3636
+relaxed/fit/minuit_transforms.py,sha256=94FAy1NWI96gMQSzEUYq9MInhMI5CDIe_MSu-ZSJ13Y,1148
+relaxed/infer/__init__.py,sha256=NA_nZ9fefHKCnOLom5TmSZW7d-VV2Fwv3tseBpeHPRI,65
+relaxed/infer/hypotest.py,sha256=EkmaEaGeF__50MhL33z5mWHN0HAedAR92M3LVhBTnwQ,3277
+relaxed/ops/__init__.py,sha256=oFgSA4n9aopjYbFHNXs1FLZ7JugsAOpDtCh4-WxCD9k,57
+relaxed/ops/histograms.py,sha256=ZTEUBsAz6gdoIeEUpZ_3MDlZ0xxIOPBmF1O_kmF4lWc,2260
+relaxed-0.0.5.dist-info/LICENSE,sha256=KPpalWEXnrqJW0wxDDJydLE-Dm9dD12qESynLpWFUgA,1524
+relaxed-0.0.5.dist-info/METADATA,sha256=8uNlYvV9vzfQ8M_uMcL68MedzMTf3mqaNIkgVDG7x9g,3816
+relaxed-0.0.5.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+relaxed-0.0.5.dist-info/top_level.txt,sha256=j7N3cparpryrK4t48wacBEHeqyd-j3NtZB97hY726TA,8
+relaxed-0.0.5.dist-info/RECORD,,
