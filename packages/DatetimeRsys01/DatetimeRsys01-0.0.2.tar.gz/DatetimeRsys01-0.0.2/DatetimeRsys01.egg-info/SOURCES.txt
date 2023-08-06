@@ -1,0 +1,15 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+DatetimeRsys.egg-info/SOURCES.txt
+DatetimeRsys.egg-info/dependency_links.txt
+DatetimeRsys.egg-info/requires.txt
+DatetimeRsys.egg-info/top_level.txt
+DatetimeRsys01.egg-info/PKG-INFO
+DatetimeRsys01.egg-info/SOURCES.txt
+DatetimeRsys01.egg-info/dependency_links.txt
+DatetimeRsys01.egg-info/requires.txt
+DatetimeRsys01.egg-info/top_level.txt
+rsysdatefinder/__init__.py
