@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+squares/__init__.py
+squares/_version.py
+squares/squares.py
+squares_rng.egg-info/PKG-INFO
+squares_rng.egg-info/SOURCES.txt
+squares_rng.egg-info/dependency_links.txt
+squares_rng.egg-info/top_level.txt
