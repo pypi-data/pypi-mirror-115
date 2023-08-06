@@ -1,0 +1,53 @@
+% Set the logo and the footer-text
+\ifthenelse{\equal{\logopath}{}}{
+  \renewcommand{\logotitle}{}
+  \renewcommand{\logoheader}{}
+}{
+  \renewcommand{\logotitle}{\includegraphics%
+    [width=.3\linewidth]{\logopath}}
+  \renewcommand{\logoheader}{\includegraphics%
+    [width=.5\linewidth]{\logopath}}
+}
+\renewcommand{\logofooter}{\logotext}
+
+% Set font
+\babelfont{sf}{\themefontName}
+
+% Set the commands, in case the theme uses this as its default value
+\newcommand{\MyAuthor}{}
+
+% If footertext is not set, then use no-footer-option
+\ifthenelse{\equal{\logofooter}{}}{
+  \setbeamertemplate{footline}[pureminimalisticfooternologo]
+  \ifthenelse{\boolean{nofooter}}{
+    \setbeamertemplate{footline}[pureminimalisticfooterdisable]
+  }{}
+}{}
+
+% Bullet points are evenly spaced out
+\def\itemsymbol{\raisebox{0.3ex}{\small$\bullet$}}
+
+\let\svitem\item
+\LetLtxMacro\svitemize\itemize
+\LetLtxMacro\endsvitemize\enditemize
+
+\makeatletter
+\renewenvironment<>{itemize}{%
+  \begin{svitemize}[#1]%
+  \let\olditem\item
+  \renewcommand\item[1][\itemsymbol]{
+    \ifnum\@itemdepth=1\relax
+      \vfill
+    \else
+      \ifnum\@itemdepth=2\relax
+        \setlength\itemsep{0.5ex}
+      \else
+        \ifnum\@itemdepth=3\relax
+          \setlength\itemsep{0.25ex}
+    \fi\fi\fi
+    \svitem[##1]
+  }
+}{
+  \end{svitemize}\vfill
+}
+\makeatother

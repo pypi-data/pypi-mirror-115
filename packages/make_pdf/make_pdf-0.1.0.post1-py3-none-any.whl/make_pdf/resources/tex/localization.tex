@@ -1,0 +1,24 @@
+\usepackage[base]{babel}
+\AfterBabelLanguage{german}{
+  \newcommand{\drafttext}{E N T W U R F}
+  \newcommand{\pagetext}{Seite \thepage\ von \pageref*{VeryLastPage}}
+  \ifCommandDefined{pageword}{
+    \renewcommand{\pageword}{Seite}
+  }{}
+  \ifCommandDefined{logotextDE}{
+    \renewcommand{\logotext}{\logotextDE}
+  }{}
+  \newcommand{\newsletterDefaultTitle}{Newsletter}
+}
+\AfterBabelLanguage{english}{
+  \newcommand{\drafttext}{D R A F T}
+  \newcommand{\pagetext}{Page \thepage\ of \pageref*{VeryLastPage}}
+  \ifCommandDefined{pageword}{
+    \renewcommand{\pageword}{Page}
+  }{}
+  \ifCommandDefined{logotextEN}{
+    \renewcommand{\logotext}{\logotextEN}
+  }{}
+  \newcommand{\newsletterDefaultTitle}{Newsletter}
+}
+\usepackage{babel}

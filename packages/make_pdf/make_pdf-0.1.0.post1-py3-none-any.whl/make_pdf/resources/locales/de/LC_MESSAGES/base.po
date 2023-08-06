@@ -1,0 +1,325 @@
+# German translations for make_pdf.
+# Copyright (C) 2021 EorlBruder
+# This file is distributed under the same license as the make_pdf project.
+# EorlBruder <eorl@bruder.space>, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version:  0.1.0\n"
+"Report-Msgid-Bugs-To: eorl@bruder.space\n"
+"POT-Creation-Date: 2021-08-06 02:53+0200\n"
+"PO-Revision-Date: 2021-08-01 15:25+0200\n"
+"Last-Translator: EorlBruder <eorl@bruder.space>\n"
+"Language: de\n"
+"Language-Team: de <eorl@bruder.space>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: src/make_pdf/base.py:7
+msgid "help_message_default"
+msgstr "Zeigt diese Nachricht an und beendet das Programm."
+
+#: src/make_pdf/base.py:10
+msgid "help_message_no_toc"
+msgstr "Generiert kein Inhaltsverzeichnis."
+
+#: src/make_pdf/base.py:14
+msgid "help_message_two_columns"
+msgstr "Generiert die Datei in einem zweispaltigen Layout."
+
+#: src/make_pdf/base.py:18
+msgid "help_message_title_page"
+msgstr "Generiert eine Titelseite."
+
+#: src/make_pdf/base.py:31
+msgid "help_message_theme"
+msgstr ""
+"Setzt das Theme welches genutzt werden soll. Diese liegen in der $CON_DIR"
+" und können Logos und den Text unterdem Logo definieren. Das Standard-"
+"Theme gibt einfach nur den Namen des:der Autors:Autorin oben rechts aus."
+
+#: src/make_pdf/base.py:32
+msgid "help_message_draft"
+msgstr ""
+"Generiert das Dokument mit einem Entwurf-Wasserzeichen. Die generierte "
+"Datei wird mit dem Suffix '-draft' abgespeichert."
+
+#: src/make_pdf/base.py:33
+msgid "help_message_language"
+msgstr ""
+"Setzt die Dokumentensprache. Das funktioniert aktuell nur für englisch "
+"und deutsch ([english, german]). Die Standardeinstellung ist 'german'."
+
+#: src/make_pdf/base.py:34
+msgid "help_message_title"
+msgstr ""
+"Setzt den Titel des Dokuments. Dies ist nicht nötig, wenn der Titel in "
+"der Quelldatei korrekt gesetzt ist. Allerdings ist es z.B. notwendig, "
+"wenn eine .odt-Datei konvertiert wird."
+
+#: src/make_pdf/base.py:35
+msgid "help_message_author"
+msgstr ""
+"Setzt den:die Autor:in des Dokuments. Dies ist nicht nötig, wenn der:die "
+"Autor:in in der Quelldatei korrekt gesetzt ist."
+
+#: src/make_pdf/base.py:36
+msgid "help_message_date"
+msgstr ""
+"Setzt das Datum des Dokuments. Dies ist nicht nötig, wenn das Datum in "
+"der Quelldatei korrekt gesetzt ist."
+
+#: src/make_pdf/base.py:38
+msgid "help_message_no_automatic_date"
+msgstr ""
+"Das aktuelle Datum wird nicht automatisch gesetzt, wenn kein Datum "
+"übergeben wurde. Stattdessen wird kein Datum genutzt."
+
+#: src/make_pdf/base.py:40
+msgid "help_message_print"
+msgstr "Generates das Dokument als eine Datei zum Drucken."
+
+#: src/make_pdf/base.py:41
+msgid "help_message_diff"
+msgstr ""
+"Erstellt einen Diff zwischen der übergebenen Datei und einer älteren, "
+"hier übergebenen Datei. Setzt das Dokument automatisch als Entwurf. Um "
+"mehrere Dateien zu übergeben, sollte der Parameter mehrmals verwendet "
+"werden."
+
+#: src/make_pdf/base.py:42
+msgid "help_message_debug_latex"
+msgstr "Gibt den Inhalt der resultierende LaTeX-Datei in der Kommandozeile aus."
+
+#: src/make_pdf/base.py:43
+msgid "help_message_verbose"
+msgstr "Gibt mehr Informationen aus."
+
+#: src/make_pdf/base.py:44
+msgid "help_message_no_footer"
+msgstr "Generiert ein Dokument ohne Fußzeile."
+
+#: src/make_pdf/base.py:45
+msgid "help_message_no_header"
+msgstr "Generiert ein Dokument ohne Kopfzeile."
+
+#: src/make_pdf/base.py:65
+msgid "help_message_cli"
+msgstr ""
+"Dieses Programm generiert eine PDF aus einer oder mehreren Markdown-"
+"Dateien. Sie akzeptiert verschiedene Optionen, z.B. ein Theme.Die "
+"erstellte Datei wird standardmäßig 'basis-name'-final.pdf heißen. Es "
+"können mehrere Markdown-Dateien verwendet werden, welche eine nach der "
+"anderenumgewandelt werden. Der Basisname der ersten Markdown-Datei wird "
+"für die PDF verwendet."
+
+#: src/make_pdf/base.py:85
+msgid "message_stitching_diff_files_together"
+msgstr "Alle übergebenen Diff-pDateien werden zusammengefügt."
+
+#: src/make_pdf/commands/letter.py:11
+msgid "help_message_letter"
+msgstr ""
+"Generiert einen Brief. Benötigt zusätzliche Metadaten, die entweder in "
+"den Metadten der Quelldatei oder in zusätzlichen Dateien stehen können."
+
+#: src/make_pdf/commands/letter.py:13
+msgid "help_message_letter_to"
+msgstr ""
+"Setzt die Metadaten für den:die Empgänger:in des Briefes. Referenziert "
+"entweder direkt eine .yml oder .tex Datei mit den Metadaten, oder eine "
+"entsprechende <to>-to.tex oder <to>-to.yml Datei liegt in der $CONF_DIR."
+
+#: src/make_pdf/commands/letter.py:14
+msgid "help_message_letter_from"
+msgstr ""
+"Setzt die Metadaten für den:die Absender:in des Briefes. Referenziert "
+"entweder direkt eine .yml oder .tex Datei mit den Metadaten, oder eine "
+"entsprechende <from>-from.tex Datei liegt in der $CONF_DIR."
+
+#: src/make_pdf/commands/letter.py:56
+msgid "message_type_is_letter"
+msgstr "Ein Brief wird generiert."
+
+#: src/make_pdf/commands/letter.py:98
+msgid "error_to_file_not_found"
+msgstr "Keine entsprechende Datei mit den Metadaten des:der Empfänger:in gefunden!"
+
+#: src/make_pdf/commands/letter.py:100
+msgid "message_to_metadata_set"
+msgstr "Die Metadaten des:der Empfänger:in werden aus folgender Datei {0} bezogen"
+
+#: src/make_pdf/commands/letter.py:104
+msgid "error_from_file_not_found"
+msgstr "Keine entsprechende Datei mit den Metadaten des:der Absender:in gefunden!"
+
+#: src/make_pdf/commands/letter.py:106
+msgid "message_from_metadata_set"
+msgstr "Die Metadaten des:der Absender:in werden aus der Datei {0} bezogen"
+
+#: src/make_pdf/commands/newsletter.py:13
+msgid "help_message_newsletter"
+msgstr ""
+"Generiert einen ansprechenden Newsletter. Alle Sektionen bekommen ihre "
+"eigne Box und der Header wird ein fixer Name innerhalb einer großen Box."
+
+#: src/make_pdf/commands/newsletter.py:52
+msgid "message_type_is_newsletter"
+msgstr "Ein Newsletter wird generiert."
+
+#: src/make_pdf/commands/param_extractor.py:50
+msgid "message_set_to_draft"
+msgstr "Die Datei wird als Entwurf generiert!"
+
+#: src/make_pdf/commands/param_extractor.py:52
+msgid "message_using_title"
+msgstr "'{0}' wird als Titel gesetzt."
+
+#: src/make_pdf/commands/param_extractor.py:55
+msgid "message_using_author"
+msgstr "'{0}' wird als Autor:in gesetzt."
+
+#: src/make_pdf/commands/param_extractor.py:57
+msgid "message_using_date"
+msgstr "'{0}' wird als Datum gesetzt."
+
+#: src/make_pdf/commands/param_extractor.py:60
+msgid "message_no_automatic_date_will_be_set"
+msgstr "Falls kein Datum vorhanden ist, wird kein automatisches Datum gesetzt."
+
+#: src/make_pdf/commands/param_extractor.py:64
+msgid "message_generate_for_printing"
+msgstr "Die Datei wird zum Drucken generiert."
+
+#: src/make_pdf/commands/param_extractor.py:68
+msgid "message_only_debug_latex"
+msgstr ""
+"Der Inhalt der resultierende LaTeX-Datei in der Kommandozeile ausgegeben."
+" Anschließend wird das Programm beendet."
+
+#: src/make_pdf/commands/param_extractor.py:71
+msgid "message_generate_no_footer"
+msgstr "Generiert ein Dokument ohne Fußzeile."
+
+#: src/make_pdf/commands/param_extractor.py:74
+msgid "message_generate_no_header"
+msgstr "Generiert ein Dokument ohne Kopfzeile."
+
+#: src/make_pdf/commands/param_extractor.py:90
+msgid "error_no_content_files"
+msgstr ""
+"Es wurde keine Input-Datei mit Inhalt gefunden! Wurden nur YAML-Dateien "
+"übergeben?"
+
+#: src/make_pdf/commands/param_extractor.py:105
+msgid "error_no_diff_content_files"
+msgstr ""
+"Es wurde keine Input-Datei für den Diff mit Inhalt gefunden! Wurden nur "
+"YAML-Dateien übergeben?"
+
+#: src/make_pdf/commands/param_extractor.py:109
+msgid "message_diffing_with_file"
+msgstr "Diff mit den übergebenen Dateien wird erstellt"
+
+#: src/make_pdf/commands/param_extractor.py:164
+msgid "error_theme_not_existing"
+msgstr "Keine Dateien für das übergebene theme existieren!"
+
+#: src/make_pdf/commands/param_extractor.py:165
+msgid "message_using_theme"
+msgstr "Das theme '{0}' wird genutzt."
+
+#: src/make_pdf/commands/param_extractor.py:187
+msgid "error_language_not_supported"
+msgstr ""
+"Die übergebene Sprache wurde nicht erkannt oder sie wird nicht "
+"unterstützt!"
+
+#: src/make_pdf/commands/param_extractor.py:188
+msgid "message_language_used"
+msgstr "'{0}' wird als Sprache für das Dokument genutzt."
+
+#: src/make_pdf/commands/param_extractor.py:202
+msgid "message_using_outfile"
+msgstr "Es wird die Datei '{0}' generiert."
+
+#: src/make_pdf/commands/plain.py:13
+msgid "help_message_plain"
+msgstr "Generiert ein einfaches Dokument, z.B. einen Bericht oder einen Artikel."
+
+#: src/make_pdf/commands/plain.py:18
+msgid "help_message_plain_short"
+msgstr ""
+"Generiert ein Kurzlayout. Das setzt den Titel und den:die Autor:in in den"
+" header der ersten Seite und nicht in den Text."
+
+#: src/make_pdf/commands/plain.py:19
+msgid "help_message_plain_legal"
+msgstr "Ergänzt '§' zu allen Sektions-Titeln."
+
+#: src/make_pdf/commands/plain.py:67
+msgid "message_type_is_plain"
+msgstr "Ein einfaches Dokument wird generiert."
+
+#: src/make_pdf/commands/plain.py:89
+msgid "message_title_page_will_be_generated"
+msgstr "Generiert eine Titelseite."
+
+#: src/make_pdf/commands/plain.py:91
+msgid "message_no_toc_will_be_generated"
+msgstr "Es wird kein Inhaltsverzeichnis generiert."
+
+#: src/make_pdf/commands/plain.py:93
+msgid "message_two_columns_layout_will_be_used"
+msgstr "Generiert die Datei in einem zweispaltigen Layout."
+
+#: src/make_pdf/commands/plain.py:95
+msgid "message_short_is_set"
+msgstr "Die Datei wird in einem Kurzlayout generiert."
+
+#: src/make_pdf/commands/plain.py:96
+msgid "message_legal_is_set"
+msgstr "Füge '§' zu allen Sektionstiteln hinzu."
+
+#: src/make_pdf/commands/presentation.py:9
+msgid "help_message_presentation"
+msgstr "Generiert eine Präsentation."
+
+#: src/make_pdf/commands/presentation.py:11
+msgid "help_message_presentation_aspect_ration"
+msgstr ""
+"Setzt das Bildformat. Die Standardeinstellung ist 169 (für 16:9). Weitere"
+" Optionen ergeben sich aus der Konfiguration von Beamer: "
+"https://pandoc.org/MANUAL.html#variables-for-beamer-slides."
+
+#: src/make_pdf/commands/presentation.py:52
+msgid "message_type_is_presentation"
+msgstr "Generiert eine Präsentation."
+
+#: src/make_pdf/commands/presentation.py:73
+msgid "aspect_ratio_is_set"
+msgstr "Das Bildformat wird auf {0} gesetzt."
+
+#: src/make_pdf/converters/file_converter.py:31
+msgid "message_set_locale_to"
+msgstr "Die Lokalisierung wird für diesen Aufruf auf {0} gesetzt."
+
+#: src/make_pdf/converters/file_converter.py:40
+msgid "message_writing_file"
+msgstr "Die Datei '{0}' wird erstellt."
+
+#: src/make_pdf/preprocessors/criticmarkup_preprocessor.py:23
+msgid "message_evaluating_criticmarkup"
+msgstr "CriticMarkup-Annotationen werden evaluiert."
+
+#: src/make_pdf/preprocessors/diff_preprocessor.py:17
+msgid "message_diffing_files"
+msgstr "Die Dateien werden verglichen und ein Diff wird erstellt."
+
+#: src/make_pdf/preprocessors/file_stitcher.py:9
+msgid "message_stitching_files_together"
+msgstr "Alle übergebenen Dateien werden zusammengefügt."
+
