@@ -1,0 +1,5 @@
+setup.py
+src/Code_Snippets_Hexye.egg-info/PKG-INFO
+src/Code_Snippets_Hexye.egg-info/SOURCES.txt
+src/Code_Snippets_Hexye.egg-info/dependency_links.txt
+src/Code_Snippets_Hexye.egg-info/top_level.txt
