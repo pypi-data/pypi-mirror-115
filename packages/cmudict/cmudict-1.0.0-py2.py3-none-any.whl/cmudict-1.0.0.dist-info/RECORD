@@ -1,0 +1,14 @@
+cmudict/VERSION,sha256=WYVJhIUxBN9cNT4vaBoV_HkkdC-aLkaMKa8kjc5FzgM,6
+cmudict/__init__.py,sha256=cK0QFuiL5QD7gSHhs7nz1BqVYgAZSngHjl6XuyRrEGw,3909
+cmudict/data/LICENSE,sha256=vUzo5EFwpfn0gTEMqFxR3jxPhRpl5nm0DmA7FDvTVCo,1754
+cmudict/data/README,sha256=AMNOdWTx9qaN4C4SwSPYAUcdqSvDCR99ibYF8ji_hVQ,1412
+cmudict/data/README.developer,sha256=qUVpRU1rZNSRLOaLIpOtXd-C-fv0lSQVmW_BcFOuoSk,2582
+cmudict/data/cmudict.dict,sha256=NhR8CdSG6ttBo8ZiwZhmQuOgrn1XL9sdnaCRSHZ9elc,3618090
+cmudict/data/cmudict.phones,sha256=_7WIpeVWhHI1gsclbh0vn62xMAETktnlkjfHbjTCz9Y,382
+cmudict/data/cmudict.symbols,sha256=QIzKroA2QcbXtia2KZlJMgwtvKlrIiD9P7F4h7AjsCc,281
+cmudict/data/cmudict.vp,sha256=vTb1eNgOTs3WSxyHKQRYX7QAdukEL-d8O7cVEkBOYB8,1747
+cmudict-1.0.0.dist-info/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+cmudict-1.0.0.dist-info/METADATA,sha256=8ovBg6dtrTPBklsN1PhXZsroQoDZFBoAVZlyGRE-LZg,3972
+cmudict-1.0.0.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+cmudict-1.0.0.dist-info/top_level.txt,sha256=E1Qr9j9kFD8vyC8v_KdFGbF6VCnukiMdHvz16E4YS8o,8
+cmudict-1.0.0.dist-info/RECORD,,
