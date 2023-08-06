@@ -1,0 +1,14 @@
+tencentcloud/__init__.py,sha256=8jkv5X4f1ZFSgUztF6LMIubumW24D6qeqKAsqgcsWLY,630
+tencentcloud/ams/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tencentcloud/ams/v20200608/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tencentcloud/ams/v20200608/ams_client.py,sha256=MsUbKIgqZtn5wM-Qkn7FVJTjnUpMIuQIlPcl5bhb4iM,11106
+tencentcloud/ams/v20200608/errorcodes.py,sha256=jMN9uZHg6fd1T8w8JGbb29jrxoStMYlYEwbWmtWwl9U,1779
+tencentcloud/ams/v20200608/models.py,sha256=D5it8F-Qx399XjO1MBFBuoh3QUxrDsElF_juzM4FJ5o,58105
+tencentcloud/ams/v20201229/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tencentcloud/ams/v20201229/ams_client.py,sha256=ZIoVINKdI9kr_dnGadA17fqAPwIt8klm6WMYk-_1B1Q,10132
+tencentcloud/ams/v20201229/errorcodes.py,sha256=9V_1X73keJLeHQlz2U-HJzURyds7-s9qEhZAEWVnAYM,3216
+tencentcloud/ams/v20201229/models.py,sha256=XNJrSn_WLPUW8Ma57xoSQ5br2a69apO07v4s2XMMEMU,57744
+tencentcloud_sdk_python_ams-3.0.458.dist-info/METADATA,sha256=hj8Po4rzHLPiV2eHExjAquo7qm5Kv4b4YVpnDdU-FQA,1432
+tencentcloud_sdk_python_ams-3.0.458.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+tencentcloud_sdk_python_ams-3.0.458.dist-info/top_level.txt,sha256=g-8OyzoqI6O6LiS85zkeNzhB-osEnRIPZMdyRd_0eL0,13
+tencentcloud_sdk_python_ams-3.0.458.dist-info/RECORD,,
