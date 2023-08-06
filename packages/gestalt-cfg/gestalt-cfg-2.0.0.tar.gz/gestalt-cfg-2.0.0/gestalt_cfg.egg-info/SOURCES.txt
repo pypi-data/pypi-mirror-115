@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+gestalt/__init__.py
+gestalt_cfg.egg-info/PKG-INFO
+gestalt_cfg.egg-info/SOURCES.txt
+gestalt_cfg.egg-info/dependency_links.txt
+gestalt_cfg.egg-info/requires.txt
+gestalt_cfg.egg-info/top_level.txt
