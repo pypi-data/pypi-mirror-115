@@ -1,0 +1,6 @@
+royalmail_lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+royalmail_lib/error.py,sha256=4mTtzb0ybxmQC-PV_Hmye2UNyC3E3ChJtjx--KTmhFE,486
+royalmail_lib/tracking.py,sha256=jY4Z_KYMuM1YT48_Uunj94pPIoo4bPTw5t-VBuCBIwE,740
+carrier.royalmail-2021.2.1.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+carrier.royalmail-2021.2.1.dist-info/METADATA,sha256=nuUmG81GNWa7BkXhEdSEdqg9Du0cIZ0aAsW_1zjaCEA,1149
+carrier.royalmail-2021.2.1.dist-info/RECORD,,
