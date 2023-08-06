@@ -1,0 +1,17 @@
+MANIFEST.in
+README.md
+setup.py
+streammachine_io_streammachine_schemas_demo_v1/__init__.py
+streammachine_io_streammachine_schemas_demo_v1/schema.avsc
+streammachine_io_streammachine_schemas_demo_v1/schema_classes.py
+streammachine_io_streammachine_schemas_demo_v1/io/__init__.py
+streammachine_io_streammachine_schemas_demo_v1/io/streammachine/__init__.py
+streammachine_io_streammachine_schemas_demo_v1/io/streammachine/schemas/__init__.py
+streammachine_io_streammachine_schemas_demo_v1/io/streammachine/schemas/demo/__init__.py
+streammachine_io_streammachine_schemas_demo_v1/io/streammachine/schemas/demo/v1/__init__.py
+streammachine_schemas_demo_avro.egg-info/PKG-INFO
+streammachine_schemas_demo_avro.egg-info/SOURCES.txt
+streammachine_schemas_demo_avro.egg-info/dependency_links.txt
+streammachine_schemas_demo_avro.egg-info/not-zip-safe
+streammachine_schemas_demo_avro.egg-info/requires.txt
+streammachine_schemas_demo_avro.egg-info/top_level.txt
