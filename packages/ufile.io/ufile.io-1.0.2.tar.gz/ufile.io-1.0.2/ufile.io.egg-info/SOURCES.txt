@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+ufile/__init__.py
+ufile/exception.py
+ufile/file.py
+ufile/folder.py
+ufile/ufile.py
+ufile.io.egg-info/PKG-INFO
+ufile.io.egg-info/SOURCES.txt
+ufile.io.egg-info/dependency_links.txt
+ufile.io.egg-info/requires.txt
+ufile.io.egg-info/top_level.txt
