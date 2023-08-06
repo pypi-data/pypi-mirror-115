@@ -1,0 +1,4 @@
+Qiskit
+numpy
+pymongo
+datetime
