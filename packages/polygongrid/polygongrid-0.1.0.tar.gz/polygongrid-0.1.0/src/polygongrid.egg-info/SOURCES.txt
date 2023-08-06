@@ -1,0 +1,13 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/polygongrid/__init__.py
+src/polygongrid/_version.py
+src/polygongrid/main.py
+src/polygongrid.egg-info/PKG-INFO
+src/polygongrid.egg-info/SOURCES.txt
+src/polygongrid.egg-info/dependency_links.txt
+src/polygongrid.egg-info/requires.txt
+src/polygongrid.egg-info/top_level.txt

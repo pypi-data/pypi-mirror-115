@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: polygongrid
+Version: 0.1.0
+Summary: Generate polygon grids
+Home-page: https://github.com/sgoodm/python-polygon-grid
+Author: Seth Goodman
+Author-email: sgoodman@aiddata.wm.edu
+License: BSD
+Project-URL: Bug Tracker, https://github.com/sgoodm/python-polygon-grid/issues
+Keywords: gis geospatial geographic vector grid
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Utilities
+Classifier: Topic :: Scientific/Engineering :: GIS
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# polygon-grid
+
+Creates a regular grid of polygons based on input bounding box and resolution or dimensions.
+
+[![build badge](https://github.com/sgoodm/python-polygon-grid/actions/workflows/test-with-coverage.yml/badge.svg)](https://github.com/sgoodm/python-polygon-grid/actions/workflows/test-and-coverage.yml)
+[![Coverage Status](https://coveralls.io/repos/github/sgoodm/python-polygon-grid/badge.svg?branch=master)](https://coveralls.io/github/sgoodm/python-polygon-grid?branch=master)
+[![Downloads](https://static.pepy.tech/personalized-badge/polygongrid?period=total&units=international_system&left_color=lightgrey&right_color=brightgreen&left_text=Downloads)](https://pepy.tech/project/polygongrid)
+
+
+
