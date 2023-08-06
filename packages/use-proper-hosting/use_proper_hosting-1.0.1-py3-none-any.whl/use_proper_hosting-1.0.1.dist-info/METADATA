@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: use-proper-hosting
+Version: 1.0.1
+Summary: No more support server flooding with questions about unsupported hosting.
+Home-page: https://github.com/playground1104/use-proper-hosting
+Author: eunwoo1104
+Author-email: sions04@naver.com
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# use-proper-hosting
+No more support server flooding with questions about unsupported hosting.  
+If you want to block other hosting platform, feel free to contribute.
+
+## Installation
+```
+pip install -U use-proper-hosting
+```
+
+## Example
+
+```py
+from use_proper_hosting import detect_repl
+
+detect_repl()
+```
+![](https://github.com/playground1104/use-proper-hosting/blob/master/.github/example.png?raw=true)
+
+
