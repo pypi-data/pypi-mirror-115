@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+roc_aggregator/__init__.py
+roc_aggregator/validations.py
+roc_aggregator.egg-info/PKG-INFO
+roc_aggregator.egg-info/SOURCES.txt
+roc_aggregator.egg-info/dependency_links.txt
+roc_aggregator.egg-info/requires.txt
+roc_aggregator.egg-info/top_level.txt
