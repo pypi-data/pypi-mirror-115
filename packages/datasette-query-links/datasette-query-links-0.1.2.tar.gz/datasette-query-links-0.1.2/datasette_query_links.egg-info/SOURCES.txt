@@ -1,0 +1,9 @@
+README.md
+setup.py
+datasette_query_links/__init__.py
+datasette_query_links.egg-info/PKG-INFO
+datasette_query_links.egg-info/SOURCES.txt
+datasette_query_links.egg-info/dependency_links.txt
+datasette_query_links.egg-info/entry_points.txt
+datasette_query_links.egg-info/requires.txt
+datasette_query_links.egg-info/top_level.txt
