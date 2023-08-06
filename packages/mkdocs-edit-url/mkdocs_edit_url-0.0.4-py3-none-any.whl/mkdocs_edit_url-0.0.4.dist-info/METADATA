@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: mkdocs-edit-url
+Version: 0.0.4
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: GNU
+Keywords: mkdocs python markdown wiki mkdocs-edit
+Platform: UNKNOWN
+Requires-Python: >=3.5
+License-File: LICENSE
+Requires-Dist: mkdocs (>=1)
+Requires-Dist: wcmatch (>=7)
+
+UNKNOWN
+
