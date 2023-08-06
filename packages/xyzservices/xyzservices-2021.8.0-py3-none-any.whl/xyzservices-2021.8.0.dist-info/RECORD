@@ -1,0 +1,15 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_lib.py,sha256=cLGNyQpEG5-XkFcQUJ4tpmsijId7_y3r8Nw-0slP4lI,8284
+tests/test_providers.py,sha256=gma7QASL0ICH_ukvyZfBHBYNZF532qlLT3S6-LPvLY8,2358
+xyzservices/__init__.py,sha256=QGsfcNb9_NWPg8RCXkl0pIJePpDGw-dCPvcAomGlhPc,179
+xyzservices/_version.py,sha256=jIozDV06tLC3RAyZc-FPj4OtgqqOk3Ea4ledLh9l0FU,501
+xyzservices/lib.py,sha256=O5uB-O4P1JwIWRL7f_dT0NkN2YBedNeML-A2I3vPvDo,20127
+xyzservices/providers.py,sha256=5lTcyq3sQIzSqQhXMrbJLUU2InMUmiK-Vpf6E6Z6nVs,368
+xyzservices/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xyzservices/data/providers.json,sha256=R8RbiP5X8ZLDLl5JhdTngycC_mJyqg44IZkkeJ1pBCQ,140934
+xyzservices-2021.8.0.data/data/share/xyzservices/providers.json,sha256=R8RbiP5X8ZLDLl5JhdTngycC_mJyqg44IZkkeJ1pBCQ,140934
+xyzservices-2021.8.0.dist-info/LICENSE,sha256=2Ga4xsDnfmeyw_bSzKdx_8BfZbveFnTc8uDsVau2rWE,1517
+xyzservices-2021.8.0.dist-info/METADATA,sha256=x4_j0RNV6ikvGb8XEnQzwdolAVvNmcyDOvshJC4Svt4,3979
+xyzservices-2021.8.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+xyzservices-2021.8.0.dist-info/top_level.txt,sha256=fQttHwvOS83bZRy3Ssc8B8r6ZePkKuwPfrxs-_-XcnA,18
+xyzservices-2021.8.0.dist-info/RECORD,,
