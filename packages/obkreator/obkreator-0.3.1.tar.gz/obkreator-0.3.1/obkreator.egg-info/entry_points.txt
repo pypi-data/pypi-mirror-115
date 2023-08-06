@@ -1,0 +1,5 @@
+[console_scripts]
+mkfrsob = obkreator.feros:mkfrsobs
+mkgrndob = obkreator.grond:mkgrndobs
+mkwfob = obkreator.wfi:mkwfobs
+
