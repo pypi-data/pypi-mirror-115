@@ -1,0 +1,12 @@
+corpus/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+corpus/config.py,sha256=09yVIu00YJ7pqx7kfpuFC0oLS37ATBx_S04xC8ZREpE,988
+corpus/event.py,sha256=y5D-Jk0vN-jewXgEAPLj4EDzQNDOpFtRZqKReiMz_3g,11514
+corpus/eventcorpus.py,sha256=MF9jGQOO_UWT87FbsrF-CEQu7iRVVCoetKIufteTNBM,2772
+corpus/eventrating.py,sha256=lvqxzYPH28_K5QOy8nwLAlnGdtkKOJajiGzGRqMj1Kw,509
+corpus/lookup.py,sha256=NWVed4fHRWfH8g8f0XVFA7f-lcASOPjBZBh_WMLSZ64,10087
+ConferenceCorpus-0.0.18.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+ConferenceCorpus-0.0.18.dist-info/METADATA,sha256=qXmniTgkUVXSbJGXU5o2KCfwdUHgIwWAr20drw0Gi08,2350
+ConferenceCorpus-0.0.18.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+ConferenceCorpus-0.0.18.dist-info/entry_points.txt,sha256=oP7XsOOLsjgAlG6deQ4jXgYPRFFNKj_wuMewqiJ9oHw,49
+ConferenceCorpus-0.0.18.dist-info/top_level.txt,sha256=z4vd9wH7uTtSQAoEdqFf79vnhvAfRXCaXiAXft2CWzI,7
+ConferenceCorpus-0.0.18.dist-info/RECORD,,
