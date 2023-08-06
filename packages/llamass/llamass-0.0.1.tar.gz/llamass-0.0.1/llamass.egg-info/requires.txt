@@ -1,0 +1,8 @@
+pip
+packaging
+joblib
+tqdm
+torch
+numpy
+
+[dev]
