@@ -1,0 +1,10 @@
+{"intents": [
+    {"tag": "greetings",
+     "patterns": ["Hello", "Hey", "Hi"],
+     "responses": ["What's up?", "How can I help you?", "Hi, I am at your service"]
+     },
+    {"tag": "farewell",
+     "patterns": ["Bye", "See you later", "I do not need any more help"],
+     "responses": ["Great, feel free to have another chat anytime you like!", "Bye Bye"]
+     }
+]}

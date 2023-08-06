@@ -1,0 +1,6 @@
+{"responses": [
+    {"name": "greetings",
+     "email": ["Hello", "Hey", "Hi"],
+     "comment": ["What's up?", "How can I help you?", "Hi, I am at your service"]
+     }
+]}

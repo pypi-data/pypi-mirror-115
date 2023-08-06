@@ -1,0 +1,5 @@
+[console_scripts]
+ctextinct = ctextinctPackage.__main__:main
+ctextinct-parse = ctextinctPackage.parse_and_forum:parse_and_train
+ctextinct-train = ctextinctPackage.train:train
+
