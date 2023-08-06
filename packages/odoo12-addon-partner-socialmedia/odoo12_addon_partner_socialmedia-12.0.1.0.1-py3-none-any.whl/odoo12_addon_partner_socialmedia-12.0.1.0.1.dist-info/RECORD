@@ -1,0 +1,12 @@
+odoo/addons/partner_socialmedia/README.rst,sha256=QVYJQtKMUP8MOrj2amsIpxGSjXsxmjJ4elPvRq_zmiE,2027
+odoo/addons/partner_socialmedia/__init__.py,sha256=TM6rjuHDm3b47rTMuhQKIVPzYyZp9fGoCLkNHxCJCOY,85
+odoo/addons/partner_socialmedia/__manifest__.py,sha256=nx-uctWhLwq1QS7v50CZ28fcs59Rx2z9tjqh0TssToI,550
+odoo/addons/partner_socialmedia/i18n/partner_socialmedia.pot,sha256=QmfUMcuVKmQ9hTs7uA7YlA-xM0ORIiSUd1Uu8jpbMlQ,2752
+odoo/addons/partner_socialmedia/models/__init__.py,sha256=O4OHMwwHE5n0qoT8kkebfd7q4ndFJRZYut6r1a1VTVU,90
+odoo/addons/partner_socialmedia/models/res_partner.py,sha256=ql5PZsDoq-a5s0DQ_u7xc_jhsyfdCkiBL0j1xL3NjKI,520
+odoo/addons/partner_socialmedia/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/partner_socialmedia/views/res_partner_view.xml,sha256=MpIAxdIFwnfGaR4RShg4w26zQTVYoRkB8ixwZ-7eCug,1166
+odoo12_addon_partner_socialmedia-12.0.1.0.1.dist-info/METADATA,sha256=0AgTYM6E9-KGI9Bz_FXp3gabtT3-yt19XQm0sAOv7Vg,2544
+odoo12_addon_partner_socialmedia-12.0.1.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+odoo12_addon_partner_socialmedia-12.0.1.0.1.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo12_addon_partner_socialmedia-12.0.1.0.1.dist-info/RECORD,,
