@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: youtubecrawler
+Version: 0.0.2
+Summary: Youtube videos and channels scraper python wraper!
+Home-page: UNKNOWN
+Author: KeinShin
+Author-email: <youtubecrawler@youtubecrawl.com>
+License: UNKNOWN
+Requires-Dist: moviepy
+Requires-Dist: requests-html
+Requires-Dist: bs4
+Requires-Dist: lxml
+
+
+## YouTubeCrawle Wrapper for python
+
