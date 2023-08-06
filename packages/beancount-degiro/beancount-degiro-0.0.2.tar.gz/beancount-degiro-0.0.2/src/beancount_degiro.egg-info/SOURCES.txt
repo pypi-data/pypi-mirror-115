@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/beancount_degiro/__init__.py
+src/beancount_degiro/degiro.py
+src/beancount_degiro/degiro_lang.py
+src/beancount_degiro/stockutil.py
+src/beancount_degiro.egg-info/PKG-INFO
+src/beancount_degiro.egg-info/SOURCES.txt
+src/beancount_degiro.egg-info/dependency_links.txt
+src/beancount_degiro.egg-info/requires.txt
+src/beancount_degiro.egg-info/top_level.txt
