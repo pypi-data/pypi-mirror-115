@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: paddlehelix
+Version: 1.0.0
+Summary: PaddleHelix is a machine-learning-based bio-computing framework.
+Home-page: UNKNOWN
+Author: baidu-nlp-bio
+Author-email: nlp-bio@baidu.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: networkx
+Requires-Dist: sklearn
+
+PaddleHelix is a machine-learning-based bio-computing framework.
+
+
