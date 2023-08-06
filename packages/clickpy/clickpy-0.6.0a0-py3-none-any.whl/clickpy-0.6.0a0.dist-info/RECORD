@@ -1,0 +1,12 @@
+clickpy/__init__.py,sha256=8tSFuOsZ2nymr5MtEpoBcVCeSKIK9Tvjulhy8a-QqJw,150
+clickpy/__main__.py,sha256=7TLx3iLEdlD3DXm5cc391TDwNWO5j-7hZbzp3XcJEtg,142
+clickpy/cli.py,sha256=cpXq_-UjR41IysL5VZnonGjCNfuj6ilfj7jlS5i1MnM,1532
+clickpy/clickers/__init__.py,sha256=FMDnXP61qmRybXcmsesgi-ZkGK8gqZJ5dRUk5oPvw2o,375
+clickpy/clickers/basic_clicks.py,sha256=VE2GCpS_-WvRbBC89e_Kc47k3tcpK_-qLluR5S7NimY,1597
+clickpy/clickers/click_protocol.py,sha256=80GFl1PLnpS_Tlkpa5LlZRILhFcApnLWWogp_jQDGw0,506
+clickpy/clickpy.py,sha256=y0jVLx6MHPaDbMWwd-CiMq-QtRt9UZzkYQL9GVnzn2I,442
+clickpy-0.6.0a0.dist-info/entry_points.txt,sha256=0Wt47NPFY5aC7WDjTXqbWf80FUyCuNPBlenuCh0A_0Q,39
+clickpy-0.6.0a0.dist-info/LICENSE,sha256=FO9aCruAt7TB5fTyOsP-gqe8A1qCcuUBig2nyEKfgpc,1072
+clickpy-0.6.0a0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+clickpy-0.6.0a0.dist-info/METADATA,sha256=4lVv2hKtPs4Jdjr5Avxr6SuZseMlGrxhyK10fz9b9Ys,2919
+clickpy-0.6.0a0.dist-info/RECORD,,
