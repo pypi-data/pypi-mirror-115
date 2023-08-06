@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: siriuscommon
+Version: 0.0.1
+Summary: Commons for Sirius applications
+Home-page: https://github.com/lnls-sirius/sirius-common/
+Author: Carneiro, Claudio F.
+License: GNU GPLv3
+Download-URL: https://github.com/lnls-sirius/sirius-common
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: requests (>=2.22.0)
+Requires-Dist: pyzabbix (==1.0.0)
+
+Common module for Sirius applications
+=====================================
+[![Build Status](https://api.travis-ci.org/lnls-sirius/sirius-common.svg)](https://travis-ci.org/lnls-sirius/sirius-common)
+![Latest tag](https://img.shields.io/github/tag/lnls-sirius/sirius-common.svg?style=flat)
+[![Latest release](https://img.shields.io/github/release/lnls-sirius/sirius-common.svg?style=flat)](https://github.com/lnls-sirius/sirius-common/releases)
+[![PyPI version fury.io](https://badge.fury.io/py/siriuscommon.svg)](https://pypi.python.org/pypi/siriuscommon/)
+
+Common features for Sirius scripts.
+Available at **PyPi** https://pypi.org/project/siriuscommon/
+
+
+library for:
+* EPICS Archiver Appliance
+* Zabbix
+* utility-api
+
+03/08/2021
+----------
+Include initial Zabbix and Archiver library
+
