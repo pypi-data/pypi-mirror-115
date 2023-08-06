@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+src/haros_plugin_hplrv/__init__.py
+src/haros_plugin_hplrv/plugin.py
+src/haros_plugin_rv_gen.egg-info/PKG-INFO
+src/haros_plugin_rv_gen.egg-info/SOURCES.txt
+src/haros_plugin_rv_gen.egg-info/dependency_links.txt
+src/haros_plugin_rv_gen.egg-info/not-zip-safe
+src/haros_plugin_rv_gen.egg-info/requires.txt
+src/haros_plugin_rv_gen.egg-info/top_level.txt
