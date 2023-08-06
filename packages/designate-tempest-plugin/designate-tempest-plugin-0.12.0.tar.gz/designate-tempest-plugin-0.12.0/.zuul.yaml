@@ -1,0 +1,12 @@
+- project:
+    templates:
+      - designate-devstack-jobs
+      - check-requirements
+      - publish-openstack-docs-pti
+      - tempest-plugin-jobs
+      - release-notes-jobs-python3
+    check:
+      jobs:
+        - neutron-tempest-plugin-designate-scenario
+    gate:
+      queue: designate
