@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: ask_me_something
+Version: 0.1.0
+Summary: A speak to text library.
+Home-page: https://github.com/onuratakan/ask_me_something
+Author: Onur Atakan ULUSOY
+Author-email: atadogan06@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >= 3, < 3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+# Ask Me Something
+A speak to text library.
+# Install
+```
+pip3 install ask-me-something
+```
+# Using
+The ask function prints and returns the recognized content
+## In another script
+```python
+from ask_me_something import ask
+
+# ask(text = "Say something to mic", language = "en-en")
+
+ask()
+```
+## In command line
+```console
+  -h, --help            show this help message and exit
+  -l LANGUAGE, --language LANGUAGE
+                        Language
+```
+
+```console
+ask
+```
+
+
