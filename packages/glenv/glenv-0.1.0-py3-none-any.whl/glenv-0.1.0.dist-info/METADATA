@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: glenv
+Version: 0.1.0
+Summary: Easily manage your Gitlab CI variables using .env files
+Home-page: https://vjgarcera.github.io/glenv
+License: TODO
+Keywords: Python,Gitlab,CI,Environment,DotEnv
+Author: Tiko JG
+Author-email: vjgarcera@gmail.com
+Maintainer: Tiko JG
+Maintainer-email: vjgarcera@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: fire (>=0.4.0,<0.5.0)
+Requires-Dist: pytest (>=6.2.4,<7.0.0)
+Requires-Dist: python-gitlab (>=2.9.0,<3.0.0)
+Project-URL: Repository, https://github.com/vjgarcera/glenv
+Project-URL: issues, https://github.com/vjgarcera/glenv/issues
+Description-Content-Type: text/markdown
+
+

@@ -1,0 +1,3 @@
+[console_scripts]
+glenv=glenv.__main__:cli
+
