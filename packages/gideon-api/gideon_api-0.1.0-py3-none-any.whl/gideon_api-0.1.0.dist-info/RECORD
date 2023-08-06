@@ -1,0 +1,15 @@
+gideon_api/__init__.py,sha256=TB5ii91NfvB45L-vc8dEZDvMXVMX8ZNy6ZNkSQbGi9g,2667
+gideon_api/codes/__init__.py,sha256=5lFjtiwKZwecK0jCre7TAGSilGw22MVCEFybLMKbb4I,101
+gideon_api/codes/categories.py,sha256=_qIDhB_liP1uEcbYuPfKgdPXsB4fJ1F0_LqKr3pmSmE,1912
+gideon_api/codes/lookup.py,sha256=mTdy8T785TQXOlCT9Qxc25t222UF9fInRoKU2NGRQsU,2338
+gideon_api/diseases/__init__.py,sha256=sLizAUAnmPxLtayJ73Wnt3DyBCta4YsCNPmjw78az1M,469
+gideon_api/diseases/filter.py,sha256=8_ZQ-SXsz69UKO5rswMpHE7tzASk6wLI5ZuR5yaceZ4,2399
+gideon_api/diseases/outbreaks.py,sha256=xmFSTlxMkz5IjZGmox0T_ghSTOUQQxPMd0NQ8PKotOQ,3032
+gideon_api/query/__init__.py,sha256=11xSLl9vLDB8ySXe95m_B2-wcGPEW3mO3RqqArT7Ge0,47
+gideon_api/query/api_wrapper.py,sha256=hxeFeh9e8yYUlvJfaCHri97qtRZchWxuw0syvT30M6s,5150
+gideon_api/query/cache.py,sha256=7lJGYxQbBs17GltamFDxG4M0IIMdin8_6_NSFq94Vj8,6156
+gideon_api-0.1.0.dist-info/LICENSE,sha256=H4cl-OK-jHIDwudOw4TtUyFZAVU_W2ZheCYTm81OpuY,16987
+gideon_api-0.1.0.dist-info/METADATA,sha256=K0EkXFjMSe5hpUmAt9bkgul1NmsW9J8wdt2kYiCuV3A,3166
+gideon_api-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+gideon_api-0.1.0.dist-info/top_level.txt,sha256=LouYBWDMI62SuJ6sUoa5cFlxtiPY7OZI0dSd9zYVgp0,11
+gideon_api-0.1.0.dist-info/RECORD,,
