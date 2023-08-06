@@ -1,0 +1,9 @@
+README.md
+setup.py
+src/mcquery/__init__.py
+src/mcquery/query.py
+src/mcquery.egg-info/PKG-INFO
+src/mcquery.egg-info/SOURCES.txt
+src/mcquery.egg-info/dependency_links.txt
+src/mcquery.egg-info/entry_points.txt
+src/mcquery.egg-info/top_level.txt
