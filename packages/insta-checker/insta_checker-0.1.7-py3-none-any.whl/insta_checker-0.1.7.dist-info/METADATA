@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: insta-checker
+Version: 0.1.7
+Summary: Python Instagram checker / scrapper 2021. Fast and asynchronously scrapes instagram profiles and posts, powered by aiohttp.
+License: MIT
+Author: Anton Nechaev
+Author-email: antonnechaev990@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: aiohttp (>=3.7.4,<4.0.0)
