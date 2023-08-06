@@ -1,0 +1,12 @@
+rappiflow_dag_operators/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rappiflow_dag_operators/dags/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rappiflow_dag_operators/dags/dag_metric_resources.py,sha256=GRoGaP7dapUciM5vbhhzJy_ne6wXI_W0mCE30De3FV4,2211
+rappiflow_dag_operators/dags/test_class.py,sha256=hyIln4VEKKTCUzAxr-kGO26nWTSjXH-K0M3t7Zgox5Y,28
+rappiflow_dag_operators/operators/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rappiflow_dag_operators/operators/snowflake_operators.py,sha256=a5yXl3a6lfh_GhdsDyBtmThtNRf3XPFE21H2R8m4GUw,2412
+rappiflow_dag_operators/operators/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rappiflow_dag_operators/operators/utils/time_execution.py,sha256=p4oWNuuu0rVCBVWFBc4ANSpoMr4l6_7C9q6Q6OBR8bE,3146
+rappiflow_dag_operators-0.2.5.dist-info/METADATA,sha256=aSYNxmwFfIn55yHyYjXAQ1p_qS0ZQGK94G41VjSEMzs,551
+rappiflow_dag_operators-0.2.5.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+rappiflow_dag_operators-0.2.5.dist-info/top_level.txt,sha256=GZi2gQB5cFeJ1VOs08A_x34TWPhCVJ9VakPRBHiC3G8,24
+rappiflow_dag_operators-0.2.5.dist-info/RECORD,,
