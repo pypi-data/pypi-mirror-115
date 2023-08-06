@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: optic-django-middleware
+Version: 0.1.0
+Summary: Django Middleware for optic
+Author: Mukesh
+Author-email: mmukesh95@hotmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Django (>=3.2.4,<4.0.0)
+Requires-Dist: kubi-ecs-logger (>=0.1.0,<0.2.0)
+Requires-Dist: optic-sdk (>=0.1.0,<0.2.0)

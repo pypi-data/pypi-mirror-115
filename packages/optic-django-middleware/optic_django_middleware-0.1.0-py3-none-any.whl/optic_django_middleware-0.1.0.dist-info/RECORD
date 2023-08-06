@@ -1,0 +1,9 @@
+optic_django_middleware/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+optic_django_middleware/apps.py,sha256=Wb3kYJWxK6UUUOm7ktvA6RnlpMrdWdRyh4Mwa9YGXog,1505
+optic_django_middleware/container.py,sha256=1c2tLhpfehMJ4VTv4XDwWbJOR7ysGhDyT-D9e2oGIIg,696
+optic_django_middleware/manager.py,sha256=dzcVDKYLHMo2V0vGvgtDE2A32mLyENl-nr3L4mxat3U,2596
+optic_django_middleware/middleware.py,sha256=Yk15KbzqNDUjdmnsuVhn83OikvVhrESG8QtyV6FCCSI,708
+optic_django_middleware/serializers.py,sha256=Vb-NQu4OV97K_ohm3AvMsyYsPeCk7FfAIFGuY1h5ATo,2577
+optic_django_middleware-0.1.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+optic_django_middleware-0.1.0.dist-info/METADATA,sha256=1MHKeJM3Tk9wAE0pJ-WfPw7Frdl8IiZH5Lx0KvEK8Oo,510
+optic_django_middleware-0.1.0.dist-info/RECORD,,
