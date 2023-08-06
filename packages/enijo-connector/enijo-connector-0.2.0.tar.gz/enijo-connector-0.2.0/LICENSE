@@ -1,0 +1,56 @@
+Some individual parts have different copyright notices as follows:
+
+  docs/_static/swagger-ui/
+    All files in this directory, except 'swagger-ui.html', are a re-
+    distribution of the 'dist/' directory of the swagger-ui-3.51.0' project.
+    The Apache-2.0 license as laid out in file docs/_static/swagger-ui/LICENSE
+    applies.
+
+  docs/_static/swagger-ui/swagger-ui.html
+    This file content is mainly the json format version of the file
+    'openapi/invenio.yaml'.
+
+  docs/_static/openapi-*/
+    The content of these directories are auto-generated from file
+    'openapi/invenio.yaml' with the openapi-generator-cli.jar program
+    distributed by the OpenApi Generator project.
+    While the generator program itself is not included in this repository,
+    the output is based on a template included in in that generator,
+    which itself again includes parts from other projects.
+    As such, the exakt license status of the content of these
+    directories is unclear to this author.
+    However, using the program and subsequently publishing the output
+    for public viewing is in any case unprohibited.
+
+  openapi/invenio.yaml
+    This is the OpenApi 3.0.3 "translation" of the Invenio RDM Rest Api
+    documentation. As such, the license of the original has to be
+    considered. See inside this file at the top for details.
+
+For all other parts as well for the project as a whole, this file lays
+out the terms under which the 'enijo-connector', this project, is
+distributed by the below-mentioned authors.
+
+These "MIT LICENSE" terms are as follows:
+
+
+Copyright 2021 Max-Julian Pogner <max-julian@pogner.at>
+Copyright 2021 Tobias Hajszan <tobias.hajszan@outlook.com>
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the "Software"), to deal in
+the Software without restriction, including without limitation the rights to
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies
+of the Software, and to permit persons to whom the Software is furnished to do
+so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

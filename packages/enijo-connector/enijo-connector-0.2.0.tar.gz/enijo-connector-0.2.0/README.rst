@@ -1,0 +1,73 @@
+.. SPDX-License-Identifier: MIT
+.. Copyright 2021 Max-Julian Pogner <max-julian@pogner.at>
+.. Copyright 2021 Tobias Hajszan <tobias.hajszan@outlook.com>
+.. This file forms part of the 'enijo-connector' project, see the
+   project's readme, notes, and other documentation for further details.
+
+
+
+**************************************************
+ Python Connector for Invinio-RDM Data Repository
+**************************************************
+
+
+Overview and Project State
+==========================
+
+This project is currently in initial development, and not (yet)
+fit for any production use.
+
+All APIs are subject to change.
+
+
+How To Build
+============
+
+Distribution
+------------
+
+::
+
+    pipenv sync
+    pipenv run make dist
+
+This will place a distributable package into the ``dist/`` directory.
+This package can further be published or installed with ``pip3``.
+
+Documentation
+-------------
+
+::
+
+    pipenv sync
+    pipenv run make docs
+
+The documentation is then found in directory ``build/docs/``
+
+
+Notes for Development
+=====================
+
+Some parts of the source and documentation are auto-generated from other
+source files.
+
+::
+
+    pipenv sync
+    pipenv run make generate
+
+This will renew all generated source files after some changes have been
+applied by a developer.
+
+
+In-Source Nomenclature
+======================
+
+TODO
+    points at which there could be further development in order to
+    improve the performance, support more features, or increase
+    resilience.
+
+FIXME
+    the issue discribed by that line MUST be fixed before this project
+    could be considered for submitting as Exercise 2 Topic 9 solution.
