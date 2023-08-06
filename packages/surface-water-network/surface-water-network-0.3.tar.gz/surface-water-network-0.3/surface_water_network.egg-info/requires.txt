@@ -1,0 +1,4 @@
+geopandas
+pyproj>=2.0
+rtree
+shapely

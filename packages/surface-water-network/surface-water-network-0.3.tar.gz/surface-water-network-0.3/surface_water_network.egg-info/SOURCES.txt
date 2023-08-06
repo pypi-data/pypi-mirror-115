@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+surface_water_network.egg-info/PKG-INFO
+surface_water_network.egg-info/SOURCES.txt
+surface_water_network.egg-info/dependency_links.txt
+surface_water_network.egg-info/requires.txt
+surface_water_network.egg-info/top_level.txt
+swn/__init__.py
+swn/base.py
+swn/file.py
+swn/logger.py
+swn/modflow.py
+swn/spatial.py
+swn/util.py
