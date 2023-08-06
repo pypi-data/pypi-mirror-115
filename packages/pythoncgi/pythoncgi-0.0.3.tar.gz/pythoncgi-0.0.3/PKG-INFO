@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: pythoncgi
+Version: 0.0.3
+Summary: Python CGI framework for Apache 2.
+Home-page: https://github.com/foxe6/pythoncgi
+Author: f̣ộx̣ệ6
+Author-email: foxe6@protonmail.com
+License: AGPL-3.0
+Description: # CGI
+        
+        <badges>[![version](https://img.shields.io/pypi/v/pythoncgi.svg)](https://pypi.org/project/pythoncgi/)
+        [![license](https://img.shields.io/pypi/l/pythoncgi.svg)](https://pypi.org/project/pythoncgi/)
+        [![pyversions](https://img.shields.io/pypi/pyversions/pythoncgi.svg)](https://pypi.org/project/pythoncgi/)  
+        [![donate](https://img.shields.io/badge/Donate-Paypal-0070ba.svg)](https://paypal.me/foxe6)
+        [![powered](https://img.shields.io/badge/Powered%20by-UTF8-red.svg)](https://paypal.me/foxe6)
+        [![made](https://img.shields.io/badge/Made%20with-PyCharm-red.svg)](https://paypal.me/foxe6)
+        </badges>
+        
+        <i>Python CGI framework for Apache 2.</i>
+        
+        # Hierarchy
+        
+        ```
+        cgi
+        ```
+        
+        # Example
+        
+        ## python
+        ```python
+        
+        ```
+        
+Keywords: python cgi apache
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Utilities
+Classifier: Natural Language :: English
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
