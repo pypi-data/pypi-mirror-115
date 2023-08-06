@@ -1,0 +1,12 @@
+rebox/__init__.py,sha256=UJ2UJEzmgyIVWhac5kDmDXpntEeY97864DAn48ahqVc,295
+rebox/bbox.py,sha256=J-X2D-iHMmcHj63SVMVp0vflMxvIB5kSXZF8zFTMVDo,12219
+rebox/bboxformat.py,sha256=0cIVqmx-WH_Mc2oPPfjaYNoEfWx8R4ZRneRPPdZKsk8,2738
+rebox/elements.py,sha256=exEwPqat1RRZcIk6g6Jhyl-IQHmmA_V2vw3Jku_iP9w,2882
+rebox/formats.py,sha256=BX2KlNiVPWAN1b6WmVBuSBLW2ciA16f2oJ_aoN6Jqdc,323
+rebox/ops.py,sha256=aFWo8IwcCiEJoj1HlBSH64MseDxiatQ2OPI1oQDEtc0,1312
+rebox-0.1.1.dist-info/LICENSE,sha256=MxpOjfndvYtpirZRDPStEyxum1o59l63Osz-DOLS3nw,1067
+rebox-0.1.1.dist-info/METADATA,sha256=AjdojK9PZrrcl4kEoiVRYWHJZYFFnpKcsDJoINtl5sc,4425
+rebox-0.1.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+rebox-0.1.1.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+rebox-0.1.1.dist-info/top_level.txt,sha256=WDeVcgy4ZhFh1bvQkFBQC4AXK7MrMdQBHdII0eiXEBk,6
+rebox-0.1.1.dist-info/RECORD,,
