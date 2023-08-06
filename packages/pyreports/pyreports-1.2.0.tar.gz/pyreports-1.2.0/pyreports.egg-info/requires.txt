@@ -1,0 +1,6 @@
+ldap3
+pymssql
+mysql-connector-python
+psycopg2-binary
+tablib
+tablib[all]
