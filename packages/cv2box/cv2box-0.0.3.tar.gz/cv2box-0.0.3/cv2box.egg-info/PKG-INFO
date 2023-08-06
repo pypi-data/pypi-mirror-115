@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: cv2box
+Version: 0.0.3
+Summary: cv toolbox
+Home-page: https://github.com/ykk648/cv2box
+Author: ykk
+Author-email: ykk648@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/ykk648/cv2box/issues
+Description: ## cv2box - cv toolbox
+        
+        A gather of tools or funcs frequently using in my work.
+        
+        Now including these functions:
+        
+        ### Img
+        
+        - show img
+        - set img alpha channel to 0
+        - convert img channels
+        - resize batch img
+        - generate pure color img to some experience
+        
+        ### Folder
+        
+        - extract img from folder
+        - clean one folder from another
+        
+        ### Video
+        
+        - get video info
+        - video 2 h264
+        - resize video
+        - video2frame & frame2video
+        - video crop & reverse
+        
+        ### Compress
+        
+        - batch uncompress supporting multi suffix (zip 7z tar tar.gz)
+        
+        ### Plot
+        
+        - hist plot easy func
+        
+        ## Version
+        
+        ### 0.0.2
+        
+        - add batch uncompress shell script
+        - add basic plot func
+        
+        ### 0.0.1
+        
+        - init img/video/folder processing tools
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
