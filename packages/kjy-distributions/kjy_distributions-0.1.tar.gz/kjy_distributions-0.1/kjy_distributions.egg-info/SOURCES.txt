@@ -1,0 +1,10 @@
+setup.py
+kjy_distributions/Binomialdistribution.py
+kjy_distributions/Gaussiandistribution.py
+kjy_distributions/Generaldistribution.py
+kjy_distributions/__init__.py
+kjy_distributions.egg-info/PKG-INFO
+kjy_distributions.egg-info/SOURCES.txt
+kjy_distributions.egg-info/dependency_links.txt
+kjy_distributions.egg-info/not-zip-safe
+kjy_distributions.egg-info/top_level.txt
