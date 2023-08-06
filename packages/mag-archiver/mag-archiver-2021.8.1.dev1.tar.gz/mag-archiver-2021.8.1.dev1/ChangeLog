@@ -1,0 +1,7 @@
+CHANGES
+=======
+
+2021.8.1.dev1
+-------------
+
+* upgrade azure-storage-blob requirement (#10)
