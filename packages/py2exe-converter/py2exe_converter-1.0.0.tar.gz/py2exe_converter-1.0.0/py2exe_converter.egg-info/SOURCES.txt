@@ -1,0 +1,8 @@
+setup.py
+py2exe_converter/__init__.py
+py2exe_converter/converter.py
+py2exe_converter.egg-info/PKG-INFO
+py2exe_converter.egg-info/SOURCES.txt
+py2exe_converter.egg-info/dependency_links.txt
+py2exe_converter.egg-info/not-zip-safe
+py2exe_converter.egg-info/top_level.txt
