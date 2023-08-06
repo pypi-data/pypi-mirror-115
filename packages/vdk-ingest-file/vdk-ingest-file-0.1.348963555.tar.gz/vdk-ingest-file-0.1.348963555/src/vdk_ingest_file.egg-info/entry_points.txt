@@ -1,0 +1,3 @@
+[vdk.plugin.run]
+vdk-ingest-file = taurus.vdk.ingest_file_plugin
+
