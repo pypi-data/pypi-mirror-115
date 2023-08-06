@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+res/svg/coverage.svg
+tests/__init__.py
+tests/path_imports.py
+tests/test_json.py
+tests/test_main.py
+tests/test_version_resut.py
+verr/__init__.py
+verr.egg-info/PKG-INFO
+verr.egg-info/SOURCES.txt
+verr.egg-info/dependency_links.txt
+verr.egg-info/top_level.txt
