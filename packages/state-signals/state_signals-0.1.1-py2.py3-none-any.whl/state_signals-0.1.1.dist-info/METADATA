@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: state-signals
+Version: 0.1.1
+Summary: Package for easy management of state/event signal publishing, subscribing, and responding
+Home-page: https://github.com/Maxusmusti/state-signals
+License: GPL
+Keywords: state,event,signal,publish,subscribe
+Author: Mustafa Eyceoz
+Author-email: meyceoz@redhat.com
+Requires-Python: >=2.7, !=3.0.*, !=3.1.*
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: dataclasses (>=0.8,<0.9)
+Requires-Dist: redis (>=3.5,<4.0)
+Project-URL: Repository, https://github.com/Maxusmusti/state-signals
+Description-Content-Type: text/markdown
+
+# state-signals
+A temporary repo for testing packaging and getting a demo package available
+
+NOTE: License will likely be changed when moved to official repo, just in place here for safety in meantime
+
+# State/Event Signal Module
+
+Adds two new, simple-to-use objects:
+ - SignalExporter      (for publishing state signals and handling subscribers + responses)
+ - SignalResponder     (for receiving state signals, locking onto publishers, and publishing responses)
+
+Also provides two dataclass specifications:
+ - Signal              (state signal protocol definition)
+ - Response            (response protocol definition)
+
+Combining redis pubsub features with state signal + response protocols, 
+these additions make state signal publishing, subscribing, receiving, 
+and responding incredibly easy to integrate into any code.
+
