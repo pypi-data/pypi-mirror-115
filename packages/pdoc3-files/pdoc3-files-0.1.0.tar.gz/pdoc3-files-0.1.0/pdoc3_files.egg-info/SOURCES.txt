@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+pdoc3_files/__init__.py
+pdoc3_files/document.py
+pdoc3_files.egg-info/PKG-INFO
+pdoc3_files.egg-info/SOURCES.txt
+pdoc3_files.egg-info/dependency_links.txt
+pdoc3_files.egg-info/entry_points.txt
+pdoc3_files.egg-info/top_level.txt
