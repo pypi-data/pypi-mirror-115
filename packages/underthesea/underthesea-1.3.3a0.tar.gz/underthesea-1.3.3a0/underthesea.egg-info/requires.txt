@@ -1,0 +1,14 @@
+Click>=6.0
+python-crfsuite>=0.9.6
+nltk
+tqdm
+requests
+joblib
+chardet
+scikit-learn
+unidecode
+seqeval
+PyYAML
+chardet
+torch>=1.1.0
+transformers>=3.5.0
