@@ -1,0 +1,5 @@
+[console_scripts]
+extract_data = mle_training_pack.ingest_data:main
+score_test = mle_training_pack.test:main
+train_model = mle_training_pack.train:main
+
