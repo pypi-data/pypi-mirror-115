@@ -1,0 +1,10 @@
+tauk/__init__.py,sha256=x9q7zPKliOJCmTF0litg3O2dZah40Xn-jFHFU_QjaAo,34
+tauk/enums.py,sha256=7UYGfDrCSW8YlDNtsh_pk6R9KeLMEY29AbYaQFjL47U,135
+tauk/tauk_appium.py,sha256=h4QGih96T1P-YVv3vA8i_C9Wd07KX-2Wu18dpX9nGAc,8815
+tauk/temp_test.py,sha256=hDxIVqRf1UkskwwFVVUARbUIVP1mrtP_MBlFvmKiE0M,6570
+tauk/utils.py,sha256=6S-1WTooB--k3te5tBgwlqS00UaYlJyAQhahPTAW0gg,6003
+tauk-1.0.0.dist-info/LICENSE,sha256=mnt1fASKYzUlH6j09br2FeJjEO7p_kW81L77JLGHSq4,1066
+tauk-1.0.0.dist-info/METADATA,sha256=jij_HO7hk3Rts_uxHQhRkxZOmy5QOipPdKtEGCRrY3I,2504
+tauk-1.0.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+tauk-1.0.0.dist-info/top_level.txt,sha256=b8Yk4ysVa6CS6pMHQozIcshhVqYpu00hRxvE5DH8ums,5
+tauk-1.0.0.dist-info/RECORD,,
