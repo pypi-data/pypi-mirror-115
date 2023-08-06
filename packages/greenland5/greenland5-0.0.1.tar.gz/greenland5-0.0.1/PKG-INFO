@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: greenland5
+Version: 0.0.1
+Summary: Greenland5 Root Package - Pulls in all publicly released Greenland5 packages via dependencies
+Home-page: https://gitlab.com/m-e-leypold/greenland5
+Author: M E Leypold
+Author-email: greenland5-sk01mq04ym43pr@m-e-leypold.de
+License: GPLv3
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown; charset=UTF-8
+License-File: LICENSE
+
+# Greenland5 Package
+## About
+
+'greenland5' pulls in all currently publicly released Greenland5
+packages by dependencies.
+
+
+## LICENSE
+
+	greenland5-bundle - Bundle to pull in by dependency all public Greenland5 packages.
+	Copyright (C) 2020 M E Leypold
+
+	This program is free software: you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation, either version 3 of the License, or
+	(at your option) any later version.
+
+	This program is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
+
+	You should have received a copy of the GNU General Public License
+	along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+
+
