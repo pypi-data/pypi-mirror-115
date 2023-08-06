@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: value-tagrec
+Version: 1.5
+Summary: Text values tag recommendation
+Home-page: https://github.com/lavenderhhl/value_tagrec/tree/master
+Author: lavenderhhl
+Author-email: 492421824@qq.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
