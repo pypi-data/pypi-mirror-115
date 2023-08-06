@@ -1,0 +1,5 @@
+[console_scripts]
+p-gen = password_generator.generator:main
+pass-gen = password_generator.generator:main
+pgen = password_generator.generator:main
+
