@@ -1,0 +1,9 @@
+simple_k8s_orm/__init__.py
+simple_k8s_orm/base.py
+simple_k8s_orm/orm.py
+simple_k8s_orm/setup.py
+simple_k8s_orm.egg-info/PKG-INFO
+simple_k8s_orm.egg-info/SOURCES.txt
+simple_k8s_orm.egg-info/dependency_links.txt
+simple_k8s_orm.egg-info/requires.txt
+simple_k8s_orm.egg-info/top_level.txt
