@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+company_name_matching/__init__.py
+company_name_matching/abbreviations.json
+company_name_matching/elf_company.csv
+company_name_matching/matching_function.py
+company_name_matching.egg-info/PKG-INFO
+company_name_matching.egg-info/SOURCES.txt
+company_name_matching.egg-info/dependency_links.txt
+company_name_matching.egg-info/requires.txt
+company_name_matching.egg-info/top_level.txt
+company_name_matching/data/abbreviations.json
+company_name_matching/data/elf_company.csv
