@@ -1,0 +1,16 @@
+freiner/__init__.py,sha256=OV_JZ4UulwWaKozYtFU8nBbJJDhtFCJo_5hRYVzJHLw,502
+freiner/errors.py,sha256=4pFjAYuZHdX0zkPm6frxyv1IQl4y1sg1S6YMN_qQMxY,161
+freiner/limits.py,sha256=I_6ZfOcc99OTMP7-6CD0UDz-OklDvXOBZiKcCca4jqM,3818
+freiner/strategies.py,sha256=xsShPLluJCSUbxFamQfLnlrgIbSrqvJKbFdzxARJAgI,5805
+freiner/util.py,sha256=nh275ukUyYQ8ao19z7V7IW2rmxHDJu0HMwgLxXNT7P8,2464
+freiner/storage/__init__.py,sha256=Mqh45tt-gyTq46yBStwc-utRjmENGb2YoZ3hGOL-ja8,2062
+freiner/storage/memcached.py,sha256=49G307eMQ6R31N__qZr3bVOVIjS4hGlCITzyWT67bt0,3893
+freiner/storage/memory.py,sha256=kiAZYb5CxUNZe_UaCQPx-vkgIF6sPCNiVFvUHa-VbIM,4889
+freiner/storage/redis.py,sha256=CkHx0aVUk4lwS9VwR8FKB5cY-8TRmbot0N0Wtqpkwc4,8632
+freiner/storage/redis_cluster.py,sha256=c7hpUbbDIhF86Zh3pXNU1F_oXAqv8r8-SRgMWFAastI,2061
+freiner/storage/redis_sentinel.py,sha256=A274SkQTkADjrav14nS2dASdv3G8uqBjxHXfKWRAcHY,2827
+freiner-2.0.0.dist-info/LICENSE.txt,sha256=S0NkW83stgUk7iuW-1bZZHnqLCKWEtF5QcN51dIaNiM,1094
+freiner-2.0.0.dist-info/METADATA,sha256=G5akEIYO4mg5c6OmPwycuixKUpIUs1vrLk78L7EiMuE,3824
+freiner-2.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+freiner-2.0.0.dist-info/top_level.txt,sha256=wh451mtyvH4oxYyj_ZKxbtVtL-U2n5vXiB_0JKe-X60,8
+freiner-2.0.0.dist-info/RECORD,,
