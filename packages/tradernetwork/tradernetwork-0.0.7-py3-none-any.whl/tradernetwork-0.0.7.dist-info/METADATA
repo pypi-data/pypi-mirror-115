@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: tradernetwork
+Version: 0.0.7
+Summary: Coin Trader Network Modules
+Home-page: UNKNOWN
+Author: Phillip Park
+Author-email: ppark9553@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: python-dotenv
+Requires-Dist: pyzmq
+Requires-Dist: numpy
+Requires-Dist: pandas
+
+UNKNOWN
+
+
