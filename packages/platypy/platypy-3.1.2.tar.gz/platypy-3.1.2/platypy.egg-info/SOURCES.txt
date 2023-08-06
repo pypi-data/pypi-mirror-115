@@ -1,0 +1,10 @@
+README.md
+setup.py
+platypy/Fontschanger.py
+platypy/__init__.py
+platypy/coolcalci.py
+platypy/createquestionsandanswers.py
+platypy.egg-info/PKG-INFO
+platypy.egg-info/SOURCES.txt
+platypy.egg-info/dependency_links.txt
+platypy.egg-info/top_level.txt
