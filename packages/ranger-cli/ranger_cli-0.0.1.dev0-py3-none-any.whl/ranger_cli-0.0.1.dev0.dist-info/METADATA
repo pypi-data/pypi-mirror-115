@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: ranger-cli
+Version: 0.0.1.dev0
+Summary: A (unofficial) command-line interface for Apache Ranger public REST API.
+Home-page: https://github.com/degagne/ranger-cli
+Author: Deric Degagne
+Author-email: deric.degagne@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: click (>=7.1)
+Requires-Dist: six (>=1.16)
+Requires-Dist: confuse (>=1.4)
+Requires-Dist: PyYAML (>=5.4)
+Requires-Dist: requests (>=2.25)
+Requires-Dist: urllib3 (>=1.26)
+Requires-Dist: xmltodict (>=0.12)
+Requires-Dist: simplejson (>=3.17)
+Requires-Dist: rich (>=10.2)
+Requires-Dist: colorama (>=0.4)
+
+UNKNOWN
+
