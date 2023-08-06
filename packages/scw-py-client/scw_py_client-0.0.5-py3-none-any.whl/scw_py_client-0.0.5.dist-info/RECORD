@@ -1,0 +1,15 @@
+scw_py_client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scw_py_client/client_api.py,sha256=XF2vPMAO85l98BODqTuMvpBmORcd5KOZamfFfcOo3mg,2277
+scw_py_client/core.py,sha256=Fwtsewx6tSIrA-0CAxUEr-Bc7prKbCKkUojT-FAqu0M,14824
+scw_py_client/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scw_py_client/models/functions.py,sha256=7Qvc8PXDhkeW-uo8ESgLQgbyZi_SerQWpIv2MVa9OgQ,3823
+scw_py_client/models/k8s.py,sha256=qYSsU0sZr_Md0KtM-icg6UL5-_3P9iL-Ieb7sahcUTU,2105
+scw_py_client/models/pagination.py,sha256=YIuZOUzbkeYzuOsvAslePbqU90lZDZ-elgmyVo8BuBA,113
+scw_py_client/models/rdb.py,sha256=0PNeIkC9sV7YPyctKeJsJsxNLo1tFM5GBhNZJ9lM0D8,3490
+scw_py_client/models/region.py,sha256=6vAvcYbk3XZm7rCqPdOkqZkOQZqATUXAotlnEHDga7M,116
+scw_py_client/models/registry.py,sha256=2aIrH8KGeBLYiXOwT6vdWu1JfRICWK8BR9-oGE6_k3E,862
+scw_py_client-0.0.5.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scw_py_client-0.0.5.dist-info/METADATA,sha256=G4MYUMiqvpfv05gmiB9z651RrfkotuMINilDXUaQ1Hc,2953
+scw_py_client-0.0.5.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+scw_py_client-0.0.5.dist-info/top_level.txt,sha256=MkoY38GlUJ8K4ERwiE5ZcwU1GR0Sa54mSl5Rg-blQb0,14
+scw_py_client-0.0.5.dist-info/RECORD,,
