@@ -1,0 +1,35 @@
+[dependencies]
+geo = "^0.18"
+itertools = "^0.10"
+svgbobdoc = "^0.2"
+thiserror = "1.0"
+
+[dependencies.geo-types]
+version = "^0.7"
+
+[dependencies.h3ron-h3-sys]
+path = "../h3ron-h3-sys"
+version = "0.12.0"
+
+[dependencies.serde]
+features = ["derive"]
+version = "^1.0"
+
+[dev-dependencies]
+bincode = "^1.3"
+
+[dev-dependencies.geojson]
+features = ["geo-types"]
+version = "^0.22"
+
+[package]
+authors = ["Nico Mandery <nico@nmandery.net>"]
+description = "High-level rust API for H3"
+edition = "2018"
+homepage = "https://github.com/nmandery/h3ron"
+keywords = ["geo", "spatial", "h3"]
+license = "MIT"
+name = "h3ron"
+readme = "../README.md"
+repository = "https://github.com/nmandery/h3ron"
+version = "0.12.0"
