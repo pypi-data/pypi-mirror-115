@@ -1,0 +1,13 @@
+HiSTra/BoxFinder.py,sha256=Bf1DitQBrU-4MAYwsyCru8VZn96QUOp1_YKsdEG_iZs,21754
+HiSTra/SignalFinder.py,sha256=1x2VhGOMDVdRHanler2IYyz5ChWblqrcCs0JBBK_Uwo,11224
+HiSTra/SparseMatrixDeal.py,sha256=RtSUJOBf45zZr8dJ4eGE3oP8HRZnPY7MlnAx8B7uHDc,7638
+HiSTra/__init__.py,sha256=i4BRWVEuWQYE1dSJ9UywTQG0dfMaS9FSwWOwuHBQ7YE,15
+HiSTra/hicInput.py,sha256=vea2GNcpNPGQ0FfupaZ6Rl--64l_Yx6q_DsfigUMAFg,2826
+HiSTra/run_main.py,sha256=Uo8A4hYByiawml9GITFssrHGh_eVSZW_ciBMzbsJUXo,8246
+HiSTra/utils.py,sha256=sj1a5eHA3nz2yhbbR8FqkbQq5sbDy4o4ctP1GkoIghg,3194
+HiSTra-1.1.data/scripts/HiST,sha256=XuVaRyTct2wBToYzXWSKW9KDS8Uj-QMir6USJD71k5c,2025
+HiSTra-1.1.dist-info/LICENSE.txt,sha256=j_gc6anaDvYnS5hk87W3BVvr9BGuzbFlBkCGSAxoCBE,1069
+HiSTra-1.1.dist-info/METADATA,sha256=j0LE7QXz-4-fk8flG5pc1Lq1WHCMBkeC3U5B9t46KLA,615
+HiSTra-1.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+HiSTra-1.1.dist-info/top_level.txt,sha256=_wbxD7EvYVUFj2DqgSLdc3aCAfEFdFQijE2T6g_wA1I,7
+HiSTra-1.1.dist-info/RECORD,,
