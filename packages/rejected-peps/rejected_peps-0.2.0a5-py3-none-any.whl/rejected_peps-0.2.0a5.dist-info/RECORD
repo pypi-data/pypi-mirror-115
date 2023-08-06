@@ -1,0 +1,14 @@
+rejected_peps/__init__.py,sha256=6TiFm2fWWVu6rn8l-phjzkmX55G8Dm6PxqCHvh0uuAI,978
+rejected_peps/pep212.py,sha256=rNoMU2HZlPh9ci35liSFObvWs6MYoIQ1zq6KUqChCSE,494
+rejected_peps/pep265.py,sha256=ELwuwMNzQXtdSqgLjoO26t3kIKpwg_yHYAYpHZIhT0o,1657
+rejected_peps/pep276.py,sha256=BCdCCW4Q3uGk1QykOZLoVqA_9h3IObLXxLAT6tXdgL4,433
+rejected_peps/pep303.py,sha256=SUR7PxptM3b2sCXrkMjL5qIjU1ULhyJwkgxleBdSCHc,1528
+rejected_peps/pep326.py,sha256=fV3eIX5VmRcz_lH-PPt_z-zUalnof7w-H4lIJQ0dOgQ,1584
+rejected_peps/pep351.py,sha256=xcgG9Q46m7JNL17OPd3VWnnW76r7E2shvr-X0LhXr_4,1616
+rejected_peps/pep416.py,sha256=9GikwT3cUE7rrDcwn8t4bPpcvimWZ0IuWFAwccw-6Po,1631
+rejected_peps/pep559.py,sha256=HpX2VTaDe1fEmobjgu8_hyP2WIaiE_zq8FA8kjgVZcQ,350
+rejected_peps-0.2.0a5.dist-info/LICENSE,sha256=vwHwgXsCf7zgi9rIcxhfry8DxuIz6CyfzZCO5kshdHQ,1083
+rejected_peps-0.2.0a5.dist-info/METADATA,sha256=kbZ7CMCEeOzdwy9IqrUU6_hgVDRFIvCt0jcZ77jc17U,2798
+rejected_peps-0.2.0a5.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+rejected_peps-0.2.0a5.dist-info/top_level.txt,sha256=3hchExytbwHZPTuF_Z29X5pL70-b1E3mXvwQXk1pV7s,14
+rejected_peps-0.2.0a5.dist-info/RECORD,,
