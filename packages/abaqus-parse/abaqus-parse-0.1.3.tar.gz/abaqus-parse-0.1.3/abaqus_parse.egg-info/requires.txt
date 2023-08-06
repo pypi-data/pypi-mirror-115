@@ -1,0 +1,4 @@
+numpy
+calfem-python
+fracture_fea_laf==0.1.1
+plotly
