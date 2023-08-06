@@ -1,0 +1,7 @@
+SQLAlchemy>=1.4
+sqlalchemy_utils
+
+[testing]
+psycopg2
+testing.postgresql
+tox

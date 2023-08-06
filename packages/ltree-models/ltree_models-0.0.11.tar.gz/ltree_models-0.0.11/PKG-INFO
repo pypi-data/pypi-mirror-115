@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: ltree_models
+Version: 0.0.11
+Summary: sqlalchemy models for ltree.
+Home-page: UNKNOWN
+Author: Colin Higgs
+Author-email: colin.higgs70@gmail.com
+License: GNU Affero General Public License v3 or later (AGPLv3+)
+Keywords: json,api,json-api,jsonapi,jsonschema,openapi,pyramid,sqlalchemy
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+Provides-Extra: testing
+
+# SQLAlchemy Ltree Model Mixins
+
+## Synopsis
+
+```python
+import ltree
+from sqlalchemy import (
+  Column,
+  Integer,
+  Text,
+)
+from sqlalchemy.orm import (
+    Session,
+)
+
+class UnorderedNode(Base, ltree.LtreeMixin):
+    __tablename__ = 'ltree_nodes'
+    id = Column(Integer, primary_key=True)
+    name = Column(Text, nullable=False)
+
+class OrderedNode(Base, ltree.OLtreeMixin):
+    __tablename__ = 'oltree_nodes'
+    id = Column(Integer, primary_key=True)
+    name = Column(Text, nullable=False)
+```
+
+
