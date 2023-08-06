@@ -1,0 +1,13 @@
+cache/dpl_log_210628_100327/test_store.py,sha256=-aIm_cfQAY0DpBagAEKvVZddCNYMuRScQsbR9WnR1y0,1159
+cache/dpl_log_210628_100345/test_store.py,sha256=-aIm_cfQAY0DpBagAEKvVZddCNYMuRScQsbR9WnR1y0,1159
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_store.py,sha256=-aIm_cfQAY0DpBagAEKvVZddCNYMuRScQsbR9WnR1y0,1159
+tpd/__init__.py,sha256=zZoaev893tsjonYm6NbMozCE6q0hMko9JABdft4Y9Wc,115
+tpd/core.py,sha256=fHMZgjgKOTMe1beXSiioM9B17w1uV6hFgQhVofdEzbk,8377
+tpd/utils.py,sha256=4PRVOw7ET-m5dQXedaKI3NvM12o693fngtF1QB5dWSE,931
+tpd-1.6.dist-info/LICENSE,sha256=u3LKF7PJWoeQGY4_K5aJSV_n_T1d01CdQBaE2jOg44Q,1072
+tpd-1.6.dist-info/METADATA,sha256=Kb-Qwj0E-Rq2DtriApkMStMis4sUCLS7x0y2bn8ZNJw,2417
+tpd-1.6.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+tpd-1.6.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+tpd-1.6.dist-info/top_level.txt,sha256=97gXnZI0pxbD4yfFDu-C__dpaeRGTGiVlP7AW1XGMIQ,16
+tpd-1.6.dist-info/RECORD,,
