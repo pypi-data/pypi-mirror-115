@@ -1,0 +1,5 @@
+FROM nginx:latest
+
+COPY docs/build/html /usr/share/nginx/html
+COPY docs/build/html-de /usr/share/nginx/html-de
+COPY docs/nginx.conf /etc/nginx/conf.d/default.conf
