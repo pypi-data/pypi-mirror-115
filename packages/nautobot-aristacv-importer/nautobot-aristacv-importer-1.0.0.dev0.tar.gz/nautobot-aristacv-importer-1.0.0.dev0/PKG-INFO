@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: nautobot-aristacv-importer
+Version: 1.0.0.dev0
+Summary: Import CloudVision tags to Nautobot
+Author: Network to Code, LLC
+Author-email: info@networktocode.com
+Requires-Python: >=3.6,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: cloudvision (>=1.0.0,<2.0.0)
+Requires-Dist: dataclasses (>=0.7,<0.8); python_version >= "3.6" and python_version < "3.7"
+Requires-Dist: diffsync (>=1.3.0,<2.0.0)
+Requires-Dist: pydantic[dotenv] (>=1.7.2,<2.0.0)
+Requires-Dist: pynautobot (>=1.0.2,<2.0.0)
+Requires-Dist: toml (==0.10.1)
