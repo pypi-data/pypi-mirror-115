@@ -1,0 +1,7 @@
+setup.py
+dateparser-stubs/METADATA.toml
+dateparser-stubs/__init__.pyi
+types_dateparser.egg-info/PKG-INFO
+types_dateparser.egg-info/SOURCES.txt
+types_dateparser.egg-info/dependency_links.txt
+types_dateparser.egg-info/top_level.txt
