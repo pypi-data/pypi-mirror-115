@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+nlpertools.egg-info/PKG-INFO
+nlpertools.egg-info/SOURCES.txt
+nlpertools.egg-info/dependency_links.txt
+nlpertools.egg-info/top_level.txt
