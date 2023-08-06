@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: tscode
+Version: 0.0.2
+Summary: Computational chemistry general purpose transition state builder
+Home-page: https://www.github.com/ntampellini/tscode
+Author: Nicolò Tampellini
+Author-email: nicolo.tampellini@yale.edu
+License: UNKNOWN
+Keywords: computational chemistry,ASE,transition state,xtb
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: matplotlib (==3.4.2)
+Requires-Dist: periodictable (==1.6.0)
+Requires-Dist: networkx (==2.5.1)
+Requires-Dist: numpy (==1.21.1)
+Requires-Dist: scipy (==1.6.3)
+Requires-Dist: rmsd (==1.4)
+Requires-Dist: cclib (==1.7)
+Requires-Dist: ase (==3.21.1)
+Requires-Dist: sella (==1.0.0)
+
+## TSCoDe: Transition State Conformational Docker.
+Systematically generate poses for bimolecular and trimolecular transition states. Support for open and cyclical transition states, exploring all regiosomeric and stereoisomeric poses.
+
+## TSCoDe Changelog
+
+### 0.0.1 (10 Aug 2021)
+- First release
+
+### 0.0.2 (10 Aug 2021)
+- If pivots decrease during a bend, an exception is raised. Future versions might have a different behavior in this scenario.
+
