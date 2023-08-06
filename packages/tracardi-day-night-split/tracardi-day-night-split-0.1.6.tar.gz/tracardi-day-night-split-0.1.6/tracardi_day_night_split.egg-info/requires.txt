@@ -1,0 +1,3 @@
+tracardi_plugin_sdk
+geopy==2.2.0
+astral==2.2
