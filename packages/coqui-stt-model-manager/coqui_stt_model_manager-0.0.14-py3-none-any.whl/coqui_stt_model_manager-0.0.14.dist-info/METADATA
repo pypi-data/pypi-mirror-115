@@ -1,0 +1,99 @@
+Metadata-Version: 2.1
+Name: coqui-stt-model-manager
+Version: 0.0.14
+Summary: Model management and testing tool for Coqui STT models
+Home-page: https://github.com/coqui-ai/stt-model-manager
+Author: Coqui GmbH
+Author-email: info@coqui.ai
+License: MPL-2.0
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Multimedia :: Sound/Audio :: Speech
+Classifier: License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
+Classifier: Programming Language :: Python :: 3
+Requires-Python: <4,>=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: Jinja2 (==3.0.1)
+Requires-Dist: Flask (==2.0.1)
+Requires-Dist: Flask-Cors (==3.0.10)
+Requires-Dist: pyxdg (==0.27)
+Requires-Dist: coqpit (==0.0.9)
+Requires-Dist: Flask-SocketIO (==4.3.2)
+Requires-Dist: webrtcvad (==2.0.10)
+Requires-Dist: stt (==0.10.0a13)
+Requires-Dist: requests (==2.25.1)
+Provides-Extra: test
+Requires-Dist: pytest (==6.2.4) ; extra == 'test'
+
+# Coqui STT Model manager
+
+🐸STT Model Manager is a tool for installing and trying out Coqui STT models from the [Coqui Model Zoo](https://coqui.ai/models/).
+
+# Usage
+
+```bash
+$ pip install coqui_stt_model_manager
+$ stt-model-manager
+```
+
+# Build and install from source
+
+Build dependencies:
+
+ - Node.JS
+ - Yarn
+ - Python >=3.7
+ - Up-to-date pip/setuptools/wheel packages
+
+```bash
+$ # Create and activate virtualenv:
+$ python -m venv /tmp/venv
+$ /tmp/venv/bin/activate
+$ # Update Python packaging tools:
+$ python -m pip install -U pip setuptools wheel
+$ # Install package
+$ make install
+```
+
+# Development installation (editable, with pre-commit hooks)
+
+```bash
+$ # Create and activate virtualenv:
+$ python -m venv /tmp/venv
+$ /tmp/venv/bin/activate
+$ # Install package in editable mode:
+$ make dev_install
+$ # Install pre-commit hooks for development:
+$ make install_pre_commit_hooks
+```
+
+# Running in development mode (watching file changes and rebuilding automatically)
+
+The following command will watch the React-based front-end files for changes and rebuild automatically:
+
+```bash
+$ yarn watch
+```
+
+Then, in a separate terminal window run the following to start the Python server in debug mode:
+
+```bash
+$ # Create and activate virtualenv:
+$ python -m venv /tmp/venv
+$ /tmp/venv/bin/activate
+$ # Start server in debug mode with automatic server reloads:
+$ stt-model-manager --debug
+```
+
+For now you have to reload the browser manually. We'd gladly welcome a PR adding auto-refresh functionality :)
+
+# Build Python package (sdist/wheel)
+
+```bash
+$ make package
+$ ll dist/
+```
+
+

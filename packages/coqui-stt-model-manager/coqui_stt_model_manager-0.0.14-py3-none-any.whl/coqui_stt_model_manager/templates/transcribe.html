@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+
+{% block title %}Coqui STT - {{ model_card.name }}{% endblock %}
+
+{% block extra_head %}
+<link rel="stylesheet" href="{{ url_for('static', filename='build/static/css/bundle.min.css') }}">
+{% endblock %}
+
+{% block before_logo %}
+<a href="/" class="btn btn-outline-secondary">&laquo; Home</a>
+{% endblock %}
+
+{% block content %}
+<p>Transcribing with <strong>{{ model_card.name }}</strong>, created by <strong>{{ model_card.creator }}</strong>.</p>
+<p>Click <strong>Start Recording</strong> and just start talking. The system automatically detects silences as breaks and continues transcribing.</p>
+{% if "digits" in scorer_basename and "yesno" in scorer_basename %}
+<div class="bd-callout bd-callout-warning">
+This {{ model_card.language }} model is specialized to recognize digits (i.e. from "zero" to "nine" in {{ model_card.language }}) and the words for "yes" and "no" (if they exist in {{ model_card.language }}). This model will only predict these words.
+Specializing a model's vocabulary is commonly used in conversational STT. If you'd like to specialize this {{ model_card.language }} model to another set of words, it's as easy as <a href="https://stt.readthedocs.io/en/latest/LANGUAGE_MODEL.html">swapping out the language model</a>.
+</div>
+{% endif %}
+<div id="react-root"></div>
+<script src="{{ url_for('static', filename='build/static/js/bundle.min.js') }}"></script>
+<script>
+    startReactUI("{{ model_card.name }}");
+</script>
+<p>
+The Coqui Model Zoo collects models from our global community of researchers, developers and users.
+<a href="https://gitter.im/coqui-ai/community">Join our community on Gitter</a> to participate in the conversation, talk to the model creators, or learn how to create your own models.
+</p>
+{% endblock %}
