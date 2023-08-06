@@ -1,0 +1,30 @@
+### Setup GIT ###
+
+https://www.toptal.com/developers/gitignore
+
+### Get the correct license ###
+
+https://choosealicense.com/
+https://pypi.org/classifiers
+
+### The README.md file ###
+
+### Get the requirements/environment ###
+
+pip freeze > requirements.txt
+
+### Compile the distro ###
+
+python3 setup.py sdist
+
+# pip install check-manifest
+
+MANIFEST.in
+
+### Prepare the distro for upload ###
+
+python3 setup.py bdist_wheel sdist
+
+### Upload the distro ###
+
+twine upload dist/*

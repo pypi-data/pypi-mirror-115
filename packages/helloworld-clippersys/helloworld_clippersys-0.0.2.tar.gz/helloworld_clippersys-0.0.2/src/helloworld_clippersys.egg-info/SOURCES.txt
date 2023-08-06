@@ -1,0 +1,16 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+steps.txt
+test_helloworld.py
+__pycache__/test_helloworld.cpython-39-pytest-6.2.4.pyc
+dist/helloworld_clippersys-0.0.2.tar.gz
+src/helloworld_clippersys.py
+src/__pycache__/helloworld_clippersys.cpython-39.pyc
+src/helloworld_clippersys.egg-info/PKG-INFO
+src/helloworld_clippersys.egg-info/SOURCES.txt
+src/helloworld_clippersys.egg-info/dependency_links.txt
+src/helloworld_clippersys.egg-info/requires.txt
+src/helloworld_clippersys.egg-info/top_level.txt
