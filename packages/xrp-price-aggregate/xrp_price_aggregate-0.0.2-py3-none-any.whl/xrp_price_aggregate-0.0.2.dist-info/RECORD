@@ -1,0 +1,12 @@
+xrp_price_aggregate/__init__.py,sha256=M1M4OJmgOvSuU3k6LLOO2Zp6yNttUXPBb2QjYNMxymo,181
+xrp_price_aggregate/__main__.py,sha256=ch-2D-OfFIKMjfIdO7oPDEhKXhbhSz-Pm1OcwBig-68,41
+xrp_price_aggregate/aggregate_filter.py,sha256=G-a2LRSj5iDFEPVnUVLX-uWbmZP24GEk7t_D1dxhx-I,6279
+xrp_price_aggregate/providers/__init__.py,sha256=mohdNSVdrBVzM9ajPXOtDMBUIcVZkxDmonldmTk9_Nk,126
+xrp_price_aggregate/providers/base.py,sha256=c4MovMXyfAS419xI8vuoVTnDGIQ5CuNwmbnJ7xc1jFo,939
+xrp_price_aggregate/providers/bitrue.py,sha256=d2QHz_Gv099ZKwLwfzbCkr9fkbJgmWPc6T8LYkmnDkI,763
+xrp_price_aggregate/providers/gen_default.py,sha256=MUYYw3nvR-p6XkKXdywhnNM4U4pXwK333fmPH2OeV4s,1238
+xrp_price_aggregate-0.0.2.dist-info/LICENSE,sha256=QYKU9nv5q_OoTEFgq_PL7Rub-zzRbXtJDYQN1cnNCpw,971
+xrp_price_aggregate-0.0.2.dist-info/METADATA,sha256=hZoPLMHYU4hMbYMvFzN3Wp2gBiS_ydxN8xrv_ehz0-Q,5884
+xrp_price_aggregate-0.0.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+xrp_price_aggregate-0.0.2.dist-info/top_level.txt,sha256=my4gDc5mw72y7Xhj4yddpH96qI7M5EYkUcIxofd3jTg,20
+xrp_price_aggregate-0.0.2.dist-info/RECORD,,
