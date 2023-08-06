@@ -1,0 +1,7 @@
+pydantic
+
+[test]
+flake8
+black
+mypy
+pytest

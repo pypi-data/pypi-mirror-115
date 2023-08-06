@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: pyceptive
+Version: 0.0.1
+Summary: Data change events on top of pydantic
+Home-page: https://github.com/davidbrochart/pyceptive
+Author: David Brochart
+Author-email: david.brochart@gmail.com
+License: UNKNOWN
+Description: [![Build Status](https://github.com/davidbrochart/pyceptive/workflows/CI/badge.svg)](https://github.com/davidbrochart/pyceptive/actions)
+        [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+        
+        # pyceptive
+        
+        Data change events on top of [pydantic](https://github.com/samuelcolvin/pydantic).
+        
+Keywords: pydantic
+Platform: Windows
+Platform: Linux
+Platform: Mac OS X
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: test
