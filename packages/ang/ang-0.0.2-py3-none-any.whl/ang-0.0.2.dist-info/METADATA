@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: ang
+Version: 0.0.2
+Summary: UNKNOWN
+Home-page: https://github.com/c0ntribut0r/ang
+Author: Alex
+Author-email: alex@alpha.dev
+License: UNKNOWN
+Project-URL: Website, https://ang.alpha.dev
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: uvicorn[standard] (<0.15)
+Requires-Dist: click (<=9)
+Requires-Dist: starlette (<0.15)
+Requires-Dist: aiofiles (<0.8)
+Requires-Dist: sqlalchemy (<1.5)
+Requires-Dist: WTForms-SQLAlchemy (<0.3)
+Requires-Dist: pyhumps (<3.1)
+Requires-Dist: environs (<9.4)
+Requires-Dist: ipython (<8)
+Requires-Dist: jinja2 (<3.1)
+
+UNKNOWN
+
