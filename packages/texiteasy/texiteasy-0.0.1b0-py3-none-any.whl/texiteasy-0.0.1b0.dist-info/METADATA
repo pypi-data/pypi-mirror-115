@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: texiteasy
+Version: 0.0.1b0
+Summary: This project contains tools to work with LaTeX.
+Home-page: https://github.com/projetmbc/tools-for-latex/tree/master/TeXitEasy
+License: GNU License Version 3
+Author: Christophe BAL
+Maintainer: Christophe BAL
+Requires-Python: >=3.8,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Project-URL: Repository, https://github.com/projetmbc/tools-for-latex/tree/master/TeXitEasy
+Description-Content-Type: text/markdown
+
+The `Python` module `TeXitEasy`
+===============================
+
+
+> **I beg your pardon for my english...**
+>
+> English is not my native language, so be nice if you notice misunderstandings, misspellings, or grammatical errors in my documents and codes.
+
+
+About `TeXitEasy`
+-----------------
+
+This modules proposes some `Python` tools to work with `LaTeX`.
+
+
+<!-- :tutorial-START: -->
+<!-- :tutorial-END: -->
+
+
+<!-- :version-START: -->
+<!-- :version-END: -->
+
