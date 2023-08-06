@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+weedcv/weedcv.egg-info/PKG-INFO
+weedcv/weedcv.egg-info/SOURCES.txt
+weedcv/weedcv.egg-info/dependency_links.txt
+weedcv/weedcv.egg-info/requires.txt
+weedcv/weedcv.egg-info/top_level.txt
