@@ -1,0 +1,13 @@
+ctextinct/__init__.py,sha256=i9CVkczQSq8rPGAg07VUeAXGu6ZhEQwkWBKyG6nEtBY,46
+ctextinct/__main__.py,sha256=gOgU27ZgchS4BqvT7_1P_mYoe0d0nxbsupY4msmqBGw,1300
+ctextinct/controller.py,sha256=IBE6qhbReNl8yKk0-70vv7-DqXgAjmGXiaULokkLomM,2617
+ctextinct/model_.py,sha256=pl5aWPP9x0isOOR8MC6E9muSFm6zF5aTMgfRe96kvmc,14457
+ctextinct/parse_and_forum.py,sha256=z2XumpZwU9_ABqGxbeefV0xB2LbFl_z-vkQfi919JhY,27
+ctextinct/train.py,sha256=z2XumpZwU9_ABqGxbeefV0xB2LbFl_z-vkQfi919JhY,27
+ctextinct/view.py,sha256=Zc0NwWzSFL9JbKyI9xNNPE7Z0kgdqw7WHvxKvhGtJL8,9028
+ctextinct-5.0.0.dist-info/LICENCE,sha256=E7v-IQbeu3yl7Njk6i-jk82ALVZitBCv9CylABRm8p0,1104
+ctextinct-5.0.0.dist-info/METADATA,sha256=G385DQapvKy3pc_EQyW71ejmxxNfAucvEqepafVtIXM,2513
+ctextinct-5.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+ctextinct-5.0.0.dist-info/entry_points.txt,sha256=6RXv1hz0F4KTSg79tSZEG0FQuX1HL9RvsWSBKpsUogg,155
+ctextinct-5.0.0.dist-info/top_level.txt,sha256=b3HUjIS00HDNWNkDvPU6vzsRjmh5blK7c3lgMWxbQgk,10
+ctextinct-5.0.0.dist-info/RECORD,,
