@@ -1,0 +1,10 @@
+
+description = "default container revision recipe"
+schema = "rezup-recipe:1.0"
+
+[init]
+script = ""
+
+[rez]
+name = "rez"
+url = "rez>=2.83"
