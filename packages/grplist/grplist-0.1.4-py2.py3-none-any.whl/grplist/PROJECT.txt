@@ -1,0 +1,8 @@
+name            grplist
+version         0.1.4
+description     Groups list items using a compare function
+company         wheresjames
+author          Robert Umbehant
+email           grplist@wheresjames.com
+url             https://github.com/wheresjames/grplist
+license         MIT
