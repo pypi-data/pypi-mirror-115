@@ -1,0 +1,12 @@
+README.md
+setup.py
+tests/__init__.py
+tests/test_collectors.py
+uwsgi_prometheus/__init__.py
+uwsgi_prometheus/collectors.py
+uwsgi_prometheus.egg-info/PKG-INFO
+uwsgi_prometheus.egg-info/SOURCES.txt
+uwsgi_prometheus.egg-info/dependency_links.txt
+uwsgi_prometheus.egg-info/not-zip-safe
+uwsgi_prometheus.egg-info/requires.txt
+uwsgi_prometheus.egg-info/top_level.txt
