@@ -1,0 +1,11 @@
+pydantic_aioredis/__init__.py,sha256=TDY4U7EYK7O2hbK068JIn_Vmrqm-9cyHsEbX-WuV76I,164
+pydantic_aioredis/abstract.py,sha256=6GmL4bA1nuS5BJuw6X0i48xhjmzJkEGNFmu6s9WTgMk,2475
+pydantic_aioredis/config.py,sha256=Kc-V6DnzPnl5YpgY8GjzH-VZbf8pOkdYH5cgXRj8Rbw,667
+pydantic_aioredis/model.py,sha256=8tAdM339oDEnBHyVs2zk-h5hw_REi-mNbKV-7iF-_wc,5940
+pydantic_aioredis/store.py,sha256=oCXfXIzUXTcWGmMzn9dpMONB_FjgtfmZXIXcvV5VYWY,1589
+pydantic_aioredis/utils.py,sha256=mmFYYLSoQwDa0g6v8BLhxMqnBiVVr5ycxj0rxiFQpN0,178
+pydantic_aioredis-0.2.0.dist-info/LICENSE,sha256=MtTS12HrYWv7CCZIGjIjuMrV-sHLlmFxlCXnVQr91jY,1262
+pydantic_aioredis-0.2.0.dist-info/METADATA,sha256=0KNw_zFgyIWAOXYKHy_85J_y_6IptMkxdAr0VkxZgVc,7009
+pydantic_aioredis-0.2.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pydantic_aioredis-0.2.0.dist-info/top_level.txt,sha256=T9luHF_k68KiJ01kTiSDX_0BKTPKsqbKm4MSEjLYN9A,18
+pydantic_aioredis-0.2.0.dist-info/RECORD,,
