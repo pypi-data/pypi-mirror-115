@@ -1,0 +1,14 @@
+pandas
+finta
+pyyaml
+tqdm
+pytz
+yfinance
+SQLAlchemy
+
+[AlpacaMarket]
+alpaca-trade-api
+
+[Robinhood]
+pyotp
+robin_stocks
