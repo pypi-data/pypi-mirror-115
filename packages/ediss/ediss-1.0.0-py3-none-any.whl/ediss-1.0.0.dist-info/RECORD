@@ -1,0 +1,11 @@
+ediss/__init__.py,sha256=uT0XQAESG8PvZ-MoGkvXkSpyBTGKAvAabwm8ePwFs70,4384
+ediss/cipher.py,sha256=zAZ79oUtndpd1upf2AXLCyC4mP_vJv3iK_Oqjtu36Nc,2806
+ediss/eddsa.py,sha256=ls55USTvAQNNgjvpjeH6Nh4J7AOyKWU2k456H87qz4w,2295
+ediss/keys.py,sha256=9dseOJGabPMjHthksOR36ftelv-G9sNjitEQh566doI,12710
+ediss/patch.py,sha256=vGFP9FPiTkSs4U2YsvV3QL6yQqwdY6K5Vb92DbY2Exg,3530
+ediss/utils.py,sha256=5sjUJlJRmaJWmCYfg5klvZyYxkgmcQbWjytqRuHSS2A,869
+ediss-1.0.0.dist-info/LICENSE.txt,sha256=KJSMWS2wtEMjL4zIjAl3tmTn8ZVxUOND5csGRBE0GxI,1086
+ediss-1.0.0.dist-info/METADATA,sha256=c1UWQzab4aww9QBbOUwHpoBshcA3yR4v28qKlneInKk,9233
+ediss-1.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+ediss-1.0.0.dist-info/top_level.txt,sha256=9e1Y1s1ceLVLGGhRmRXCb8db_KqpjY3WnK7gQA_LSZQ,6
+ediss-1.0.0.dist-info/RECORD,,
