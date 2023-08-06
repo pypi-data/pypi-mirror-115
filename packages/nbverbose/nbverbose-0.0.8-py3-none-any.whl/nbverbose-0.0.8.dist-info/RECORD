@@ -1,0 +1,9 @@
+nbverbose/__init__.py,sha256=R9xOYoYrWKcfO5zvTeGC3m_eDNOvxMd8CocQs2tLufo,22
+nbverbose/_nbdev.py,sha256=tIpCNVZcavQIAtNXkfThA-OQLn1RzFh68ufeICD_Ahs,538
+nbverbose/cli.py,sha256=oTFo6nZfiAo6iXqPmjImCF9VVYpZ8HqLbPNpcmIPDP4,5171
+nbverbose/showdoc.py,sha256=O6uj0ytIrTQuS7uTTDQ4Ek-FvDsYCWlRzuKKp2Ib-e8,4330
+nbverbose-0.0.8.dist-info/METADATA,sha256=TkvFC3ZJ7MjiirBHddPbSzxSuU4I8l8x-X2l2bTCMEA,4929
+nbverbose-0.0.8.dist-info/RECORD,,
+nbverbose-0.0.8.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+nbverbose-0.0.8.dist-info/entry_points.txt,sha256=8AVz0ndD3PvkSQQhl2cdP-hPWTI2OUvrlKziqHmsSks,69
+nbverbose-0.0.8.dist-info/top_level.txt,sha256=Qc9W0-DKbH4qXsMmMutMqG3_8VurMy0d_jF8WU_MjE8,10
