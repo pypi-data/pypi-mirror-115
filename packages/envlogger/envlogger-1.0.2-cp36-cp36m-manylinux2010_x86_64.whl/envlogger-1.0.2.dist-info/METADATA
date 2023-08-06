@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: envlogger
+Version: 1.0.2
+Summary: EnvLogger: A tool for recording trajectories.
+Home-page: UNKNOWN
+Author: DeepMind
+License: Apache 2.0
+Platform: UNKNOWN
+Requires-Dist: absl-py
+Requires-Dist: dm-env
+Requires-Dist: mock
+Requires-Dist: numpy
+Requires-Dist: protobuf (>=3.14)
+Requires-Dist: setuptools (!=50.0.0)
+
+UNKNOWN
+
+
