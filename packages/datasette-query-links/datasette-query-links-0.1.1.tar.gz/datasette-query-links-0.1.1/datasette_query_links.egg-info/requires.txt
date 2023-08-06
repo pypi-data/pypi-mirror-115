@@ -1,0 +1,6 @@
+datasette>=0.59a1
+
+[test]
+pytest
+pytest-asyncio
+beautifulsoup4
