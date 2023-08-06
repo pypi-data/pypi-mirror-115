@@ -1,0 +1,3 @@
+[console_scripts]
+geyser = geyser:Geyser.entry
+
