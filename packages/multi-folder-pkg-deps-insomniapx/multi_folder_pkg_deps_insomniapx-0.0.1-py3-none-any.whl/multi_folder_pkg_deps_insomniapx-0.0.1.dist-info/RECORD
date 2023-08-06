@@ -1,0 +1,13 @@
+lib_px_pkg_deps/__init__.py,sha256=9QSZF0jFPGKTyNBmy1B20fDgTLJPXFDo9uZD1rvsnB8,230
+lib_px_pkg_deps/file0.py,sha256=BsBtOcGn2S4iohZZFwsnt_ctgMO1zhCo0lRtt7uZ0ZI,332
+lib_px_pkg_deps/folder1/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lib_px_pkg_deps/folder1/file1.py,sha256=4rJtuKPzCTVYw4qpiC6AqzIy8xzS5Hty-7MrT_eX7G4,364
+lib_px_pkg_deps/folder1/subfolder1/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lib_px_pkg_deps/folder1/subfolder1/file3.py,sha256=jbd_sbKGJZfij-4TU7njA5rjPGVIcnIqdLub2XHDyok,343
+lib_px_pkg_deps/folder2/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lib_px_pkg_deps/folder2/file2.py,sha256=VaZqm9JOnIrGc_0p1oLpqex1dA1n9kfW4pzJsUKrp9k,345
+multi_folder_pkg_deps_insomniapx-0.0.1.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+multi_folder_pkg_deps_insomniapx-0.0.1.dist-info/METADATA,sha256=ozOEOzim84pMNK2-zPKoE46gLaE0p5WTcBsr7DslR8g,526
+multi_folder_pkg_deps_insomniapx-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+multi_folder_pkg_deps_insomniapx-0.0.1.dist-info/top_level.txt,sha256=BiQuN2Uw4LKYRUdezwFUr_AHhcFW-tFkr1VOClH4nGI,16
+multi_folder_pkg_deps_insomniapx-0.0.1.dist-info/RECORD,,
