@@ -1,0 +1,6 @@
+LICENSE
+setup.py
+prime_number_python.egg-info/PKG-INFO
+prime_number_python.egg-info/SOURCES.txt
+prime_number_python.egg-info/dependency_links.txt
+prime_number_python.egg-info/top_level.txt
