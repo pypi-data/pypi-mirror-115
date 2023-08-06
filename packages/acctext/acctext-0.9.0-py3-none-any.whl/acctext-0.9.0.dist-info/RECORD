@@ -1,0 +1,9 @@
+acctext/__init__.py,sha256=cYDbncKbWDROpfp7IJxHWpLJNHQ249qW2FdhhQd1olA,41
+acctext/core.py,sha256=9gX0kojWYQtUv8aqdcts0R4ox-Yre98LRn_MSODh6Fo,14567
+acctext/graphql.py,sha256=3liSyivM8Wzwkulrff2xPug7Pk59aEHjAaic2x9nVNk,5044
+acctext/transforms.py,sha256=tMcmFZW7Ttsh3BZitPldIGM433r-nj2FhSiMJEJe1fc,2655
+acctext-0.9.0.dist-info/LICENCE,sha256=2uff_R38UwA978WBLTyubZxGUWjs3v3JAlMs_fMO36Y,551
+acctext-0.9.0.dist-info/METADATA,sha256=iBaxYjNJgZh3F1O6JlCW3wH4EtIbpFqoVK2lNAabwXo,7401
+acctext-0.9.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+acctext-0.9.0.dist-info/top_level.txt,sha256=TDBgzaaXBG_iWqp69egcC2grpXUr41m5AsWibUzgJdc,8
+acctext-0.9.0.dist-info/RECORD,,
