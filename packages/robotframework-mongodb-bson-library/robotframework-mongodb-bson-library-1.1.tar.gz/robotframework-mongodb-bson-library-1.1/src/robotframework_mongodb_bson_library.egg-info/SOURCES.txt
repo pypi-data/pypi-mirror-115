@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/MongoDBBSONLibrary/__init__.py
+src/MongoDBBSONLibrary/mongo_connection_manager.py
+src/MongoDBBSONLibrary/mongoquery.py
+src/MongoDBBSONLibrary/version.py
+src/robotframework_mongodb_bson_library.egg-info/PKG-INFO
+src/robotframework_mongodb_bson_library.egg-info/SOURCES.txt
+src/robotframework_mongodb_bson_library.egg-info/dependency_links.txt
+src/robotframework_mongodb_bson_library.egg-info/not-zip-safe
+src/robotframework_mongodb_bson_library.egg-info/requires.txt
+src/robotframework_mongodb_bson_library.egg-info/top_level.txt
