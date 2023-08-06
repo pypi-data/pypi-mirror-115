@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: hdltobq
+Version: 0.0.1
+Summary: A Data Migration API for Data Lake to BQ
+Home-page: UNKNOWN
+Author: shivam shukla
+Author-email: shivamshukla12@gmail.com
+License: UNKNOWN
+Description: Data Migration Utility from DL to BQ
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows

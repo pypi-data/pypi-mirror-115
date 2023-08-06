@@ -1,0 +1,6 @@
+setup.py
+hdltobq/hdltobq.py
+hdltobq.egg-info/PKG-INFO
+hdltobq.egg-info/SOURCES.txt
+hdltobq.egg-info/dependency_links.txt
+hdltobq.egg-info/top_level.txt
