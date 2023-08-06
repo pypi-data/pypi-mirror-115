@@ -1,0 +1,14 @@
+hpm/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hpm/__main__.py,sha256=viDwye3r0znBPRq86OZEqv-IPVHEa4Y6docGrbbWp8w,60
+hpm/_printing.py,sha256=V3avUbgJ398yQbgN_SzPu9Qj8JvP-nD0w3JxAsciElI,1988
+hpm/_typing.py,sha256=H4ed9AsU3H3uqpmdxCa_8iba2TqebWVmUWEIrGxjaAM,1648
+hpm/api.py,sha256=wjTbwJ4PlVR26VdCO28MpPC9rgGox3SohzqWffxBcF0,2584
+hpm/args.py,sha256=UYLCcLCQZ1cibltE3SZkfonJDqWK_NnGz2QFcw28XyY,832
+hpm/hpm.py,sha256=N3YUjWoxydcbyXS7KzHEtk_9JWjzJ7Y96_XXfUG715M,4189
+hpm/namespaces.py,sha256=tTHEb86M6jdl63E4hv-XGZx9OQUL4-UPVSs1l5eULt8,2747
+hpm-0.0.2.5.dist-info/LICENSE,sha256=NgOMEz2yyW5KfMlpvLCc6dFXv8tY1IewTBt6XbVWce8,1071
+hpm-0.0.2.5.dist-info/METADATA,sha256=xAF6kmI1P5sum1s4-8fUSogrU8j3_Prjrrmry2UO6fc,747
+hpm-0.0.2.5.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+hpm-0.0.2.5.dist-info/entry_points.txt,sha256=0EoNXG6vTtfj7omLnlxfRDNF0p5fSbxU7AkLslM5AGs,34
+hpm-0.0.2.5.dist-info/top_level.txt,sha256=RagG_qsYv6ZWvTqao4VZSos1vlAoawja7mHC5CRswFc,4
+hpm-0.0.2.5.dist-info/RECORD,,
