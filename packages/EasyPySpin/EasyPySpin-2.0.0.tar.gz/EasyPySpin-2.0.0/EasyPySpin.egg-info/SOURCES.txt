@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+EasyPySpin/__init__.py
+EasyPySpin/command_line.py
+EasyPySpin/multiplevideocapture.py
+EasyPySpin/synchronizedvideocapture.py
+EasyPySpin/utils.py
+EasyPySpin/videocapture.py
+EasyPySpin/videocaptureex.py
+EasyPySpin.egg-info/PKG-INFO
+EasyPySpin.egg-info/SOURCES.txt
+EasyPySpin.egg-info/dependency_links.txt
+EasyPySpin.egg-info/entry_points.txt
+EasyPySpin.egg-info/top_level.txt
