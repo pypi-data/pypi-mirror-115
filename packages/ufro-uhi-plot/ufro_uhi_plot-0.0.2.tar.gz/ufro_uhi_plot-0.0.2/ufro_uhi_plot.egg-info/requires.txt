@@ -1,0 +1,7 @@
+matplotlib
+numpy
+pandas
+matplotlib-scalebar
+shapely
+cartopy>=0.17.0
+scipy
