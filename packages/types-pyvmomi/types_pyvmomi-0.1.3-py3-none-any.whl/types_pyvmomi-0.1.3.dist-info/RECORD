@@ -1,0 +1,14 @@
+pyVmomi-stubs/METADATA.toml,sha256=Fnrm4wFv6yi1wp2HzHP8ocfvdOrnGokWlQxoEqFWpA8,59
+pyVmomi-stubs/__init__.pyi,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyVmomi-stubs/vim/__init__.pyi,sha256=wddK6G7TpjbfWY1cCqoYTDgoLmqoUWTHC5cmy8he_LI,2197
+pyVmomi-stubs/vim/event.pyi,sha256=GIxugpgYOODuc5rSewssVmYlRAZ8qmkC1C38rbD4yhA,395
+pyVmomi-stubs/vim/fault.pyi,sha256=LYt9WpvRZNEwWlR55k6l7CxSFbS8k_FLJLjU-TGoP8U,195
+pyVmomi-stubs/vim/option.pyi,sha256=YCaLxJmOtTldHIlo984EI6d9ykGsFbelNGuTHL70Ar8,204
+pyVmomi-stubs/vim/view.pyi,sha256=hLDI0bDPEkPnxpLliSBlcmYgond-3RCxWc1_3NU-5Bc,586
+pyVmomi-stubs/vmodl/__init__.pyi,sha256=zmyPtRdetXPA6iByZuVnvf26kn7GUyDqKB8mxIY4UjI,146
+pyVmomi-stubs/vmodl/fault.pyi,sha256=l8VLbRpKzACCz_wqwXLJkyxLwYRS0XiUl9JmKy2Vixw,116
+pyVmomi-stubs/vmodl/query.pyi,sha256=-JfBzGVnC88jCrz7ny7icljaDs9rzMbv0X5Jhm0ekUA,2442
+types_pyvmomi-0.1.3.dist-info/METADATA,sha256=c1TRLS5SdHbwmWh_3ejwDzU4QPo56HDBwklFM00geyY,882
+types_pyvmomi-0.1.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+types_pyvmomi-0.1.3.dist-info/top_level.txt,sha256=_F8eWqF4ovs_xuwyUO4uNH9f9IW65hcZ6NEDtpEPy-s,14
+types_pyvmomi-0.1.3.dist-info/RECORD,,
