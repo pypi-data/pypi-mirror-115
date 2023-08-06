@@ -1,0 +1,3 @@
+[console_scripts]
+sra-downloader = sra_downloader.__main__:main
+

@@ -1,0 +1,9 @@
+sra_downloader/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sra_downloader/__main__.py,sha256=8HBpHq0TFB8lh62Hj8HQz8KjACL_854Wk_Ynnc52wno,1900
+sra_downloader/download.py,sha256=_DgiaCwye7ktnN7EiH-gNopmBANRriSvUpGlefrXY0g,5530
+sra_downloader-1.0.1.dist-info/LICENSE,sha256=4NYoElkMIPUyoYzgvJ2tMi2fxYD_lq4ujfZmzmm9wgE,1110
+sra_downloader-1.0.1.dist-info/METADATA,sha256=1HwGJP-8Mzzu1jqsZGiJTMahRVX2hoOmFc7D0NWyVIU,2671
+sra_downloader-1.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+sra_downloader-1.0.1.dist-info/entry_points.txt,sha256=yNZwpY4XTOgA8vwvEjy7iS4MDD5pRn-A2u2royfmOOw,65
+sra_downloader-1.0.1.dist-info/top_level.txt,sha256=_NZS_spxq2OU-qztFpgQHE15s2ZKbd9P7oMT6wJxQGw,15
+sra_downloader-1.0.1.dist-info/RECORD,,
