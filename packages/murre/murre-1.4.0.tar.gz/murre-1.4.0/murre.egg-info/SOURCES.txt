@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+murre/__init__.py
+murre/dialects.py
+murre/download.py
+murre/generator.py
+murre/normalizer.py
+murre.egg-info/PKG-INFO
+murre.egg-info/SOURCES.txt
+murre.egg-info/dependency_links.txt
+murre.egg-info/not-zip-safe
+murre.egg-info/requires.txt
+murre.egg-info/top_level.txt
+murre/models/readme.txt

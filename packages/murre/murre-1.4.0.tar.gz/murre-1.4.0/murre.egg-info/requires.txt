@@ -1,0 +1,5 @@
+natas
+OpenNMT-tf>=2.18.1
+pyonmttok>=1.23.0
+tensorflow==2.4.0
+tensorflow-addons==0.12.1
