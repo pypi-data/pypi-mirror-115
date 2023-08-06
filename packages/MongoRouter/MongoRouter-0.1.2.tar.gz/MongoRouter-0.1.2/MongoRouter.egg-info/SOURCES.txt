@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+MongoRouter/Executable.py
+MongoRouter/MongoProxy.py
+MongoRouter/MongoRouter.py
+MongoRouter/__init__.py
+MongoRouter.egg-info/PKG-INFO
+MongoRouter.egg-info/SOURCES.txt
+MongoRouter.egg-info/dependency_links.txt
+MongoRouter.egg-info/requires.txt
+MongoRouter.egg-info/top_level.txt

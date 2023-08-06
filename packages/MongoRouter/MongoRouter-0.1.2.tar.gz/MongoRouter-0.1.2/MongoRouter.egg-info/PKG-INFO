@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: MongoRouter
+Version: 0.1.2
+Summary: A routing package for Mongo DB
+Home-page: http://www.mandrescu.co
+Author: Michael
+Author-email: mihai@mandrescu.co
+License: MIT
+Keywords: mongo pymongo database nosql
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+License-File: LICENSE
+
+![Build Statsus](https://travis-ci.org/mayk93/MongoRouter.svg?branch=master)
+
