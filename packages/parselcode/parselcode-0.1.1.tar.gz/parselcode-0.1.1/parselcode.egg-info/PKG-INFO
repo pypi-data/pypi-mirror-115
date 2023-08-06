@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: parselcode
+Version: 0.1.1
+Summary: Substitution based Cipher to Encrypt/Decrypt by mapping word structure to hindu birth chart houses
+Home-page: https://github.com/Puru-Malhotra/parselcode
+Author: Puru Malhotra
+Author-email: purumalhotra99@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
