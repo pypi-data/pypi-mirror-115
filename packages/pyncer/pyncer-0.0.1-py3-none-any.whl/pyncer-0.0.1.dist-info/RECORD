@@ -1,0 +1,10 @@
+pyncer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyncer/text/__init__.py,sha256=fAyR2zfQNB46HquVsKyeYKaMf5QofZBJpPqE0vZa7M0,3102
+pyncer/text/data.py,sha256=HTUiRvfx7NDzWMaqjtf1frefmiH2EVuboptM9GRgo_c,1314
+pyncer/text/model.py,sha256=QF0kFN3svdQajNfJTufcL1ci4QGUvtD3WAnder8oeqY,1597
+pyncer/text/util.py,sha256=EA9RRy2l3qDgZ3MSIIoAeFYsXN-pJd9NGJDO2Ip1kOE,261
+pyncer-0.0.1.dist-info/METADATA,sha256=W1XPFciRV9mZIDF9XGyCuQ39hVCUHOAyp8-V9vE-dcY,2567
+pyncer-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pyncer-0.0.1.dist-info/license,sha256=LAqOmPpXq8Xs6btu-WnLmnFKwjQIxvmz1-2RNb5O8NU,1062
+pyncer-0.0.1.dist-info/top_level.txt,sha256=9PTC5ozSJmizLo-2-jtDAoaPekmGYbZVC8oMz_aDVME,7
+pyncer-0.0.1.dist-info/RECORD,,
