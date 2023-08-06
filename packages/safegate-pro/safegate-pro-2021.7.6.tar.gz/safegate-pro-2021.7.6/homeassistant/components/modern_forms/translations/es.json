@@ -1,0 +1,15 @@
+{
+    "config": {
+        "flow_title": "{name}",
+        "step": {
+            "user": {
+                "description": "Configura tu ventilador de Modern Forms para que se integre con Safegate Pro."
+            },
+            "zeroconf_confirm": {
+                "description": "\u00bfQuieres a\u00f1adir el ventilador de Modern Forms llamado `{name}` a Safegate Pro?",
+                "title": "Dispositivo de ventilador de Modern Forms descubierto"
+            }
+        }
+    },
+    "title": "Modern Forms"
+}
