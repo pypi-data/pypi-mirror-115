@@ -1,0 +1,10 @@
+-r ./requirements.txt
+.[googlegroups]
+codecov
+mwoauth >= 0.3.7
+pre-commit
+pyjwt
+pytest >= 2.8
+pytest-asyncio
+pytest-cov
+requests-mock
