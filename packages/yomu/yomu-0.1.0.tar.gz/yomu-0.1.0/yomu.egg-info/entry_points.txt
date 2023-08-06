@@ -1,0 +1,3 @@
+[console_scripts]
+yomu = yomu.readme:main
+
