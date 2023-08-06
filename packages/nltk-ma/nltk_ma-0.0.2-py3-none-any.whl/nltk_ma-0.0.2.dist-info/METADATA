@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: nltk-ma
+Version: 0.0.2
+Summary: UNKNOWN
+Home-page: http://nltk.org/
+Author: Steven Bird, Miriam Aydt
+Maintainer: Miriam Aydt
+License: Apache License, Version 2.0
+Project-URL: Documentation, http://nltk.org/
+Project-URL: Source Code, https://github.com/aydtmiri/nltk-ma
+Keywords: NLP,CL,natural language processing,computational linguistics,parsing,tagging,tokenizing,syntax,linguistics,language,natural language,text analytics
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Requires-Dist: click
+Requires-Dist: joblib
+Requires-Dist: regex
+Requires-Dist: tqdm
+Provides-Extra: all
+Requires-Dist: numpy ; extra == 'all'
+Requires-Dist: twython ; extra == 'all'
+Requires-Dist: python-crfsuite ; extra == 'all'
+Requires-Dist: gensim (<4.0.0) ; extra == 'all'
+Requires-Dist: requests ; extra == 'all'
+Requires-Dist: matplotlib ; extra == 'all'
+Requires-Dist: pyparsing ; extra == 'all'
+Requires-Dist: scikit-learn ; extra == 'all'
+Requires-Dist: scipy ; extra == 'all'
+Provides-Extra: corenlp
+Requires-Dist: requests ; extra == 'corenlp'
+Provides-Extra: machine_learning
+Requires-Dist: gensim (<4.0.0) ; extra == 'machine_learning'
+Requires-Dist: numpy ; extra == 'machine_learning'
+Requires-Dist: python-crfsuite ; extra == 'machine_learning'
+Requires-Dist: scikit-learn ; extra == 'machine_learning'
+Requires-Dist: scipy ; extra == 'machine_learning'
+Provides-Extra: plot
+Requires-Dist: matplotlib ; extra == 'plot'
+Provides-Extra: tgrep
+Requires-Dist: pyparsing ; extra == 'tgrep'
+Provides-Extra: twitter
+Requires-Dist: twython ; extra == 'twitter'
+
+This implementation of NLTK (http://nltk.org/) extends the collocation and concordance line functions.
+
+
