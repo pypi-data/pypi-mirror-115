@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+src/lpa/xrd/__init__.py
+src/lpa/xrd/run.py
+src/lpa_xrd.egg-info/PKG-INFO
+src/lpa_xrd.egg-info/SOURCES.txt
+src/lpa_xrd.egg-info/dependency_links.txt
+src/lpa_xrd.egg-info/top_level.txt
