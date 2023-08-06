@@ -1,0 +1,8 @@
+README.txt
+setup.py
+winboost/__init__.py
+winboost.egg-info/PKG-INFO
+winboost.egg-info/SOURCES.txt
+winboost.egg-info/dependency_links.txt
+winboost.egg-info/requires.txt
+winboost.egg-info/top_level.txt
