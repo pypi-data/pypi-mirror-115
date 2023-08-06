@@ -1,0 +1,3 @@
+nipype~=1.6
+pybids~=0.12
+termcolor~=1.1
