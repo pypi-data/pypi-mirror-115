@@ -1,0 +1,164 @@
+pipeline {
+  agent any
+  options {
+    timeout(time: 1, unit: 'HOURS')
+  }
+
+  stages {
+    stage('Build infra') {
+      steps {
+        sh '''  mkdir -p $WORKSPACE/$BUILD_TAG
+
+                if [ -e .git ]
+                then
+                  echo "Detected existing git checkout."
+                  git remote -v
+
+                  if [ "https://github.com/shakenfist/shakenfist" == "https://github.com/shakenfist/shakenfist" ]
+                  then
+                    mkdir $WORKSPACE/$BUILD_TAG/shakenfist
+                    ls -A | grep -v $BUILD_TAG | xargs -t -I '__' mv __ $WORKSPACE/$BUILD_TAG/shakenfist/
+                  elif [ "https://github.com/shakenfist/shakenfist" == "https://github.com/shakenfist/client-python" ]
+                  then
+                    mkdir $WORKSPACE/$BUILD_TAG/client-python
+                    ls -A | grep -v $BUILD_TAG | xargs -t -I '__' mv __ $WORKSPACE/$BUILD_TAG/client-python/
+                  else
+                    echo "Unknown github_url!"
+                    exit 1
+                  fi
+                fi
+
+                if [ ! -e $WORKSPACE/$BUILD_TAG/shakenfist ]
+                then
+                  echo "Performing shakenfist git checkout."
+                  cd $WORKSPACE/$BUILD_TAG
+                  git clone https://github.com/shakenfist/shakenfist
+                  cd shakenfist
+                  git checkout
+                fi
+
+                if [ ! -e $WORKSPACE/$BUILD_TAG/client-python ]
+                then
+                  echo "Performing client-python git checkout."
+                  cd $WORKSPACE/$BUILD_TAG
+                  git clone https://github.com/shakenfist/client-python
+                  cd client-python
+                  git checkout master
+                fi
+
+                SOURCE_PATH="$WORKSPACE/$BUILD_TAG"
+
+                echo "==== shakenfist git log ===="
+                cd $SOURCE_PATH/shakenfist
+                git log -5 --no-merges
+
+                echo "==== client-python git log ===="
+                cd $SOURCE_PATH/client-python
+                git log -5 --no-merges
+
+                echo "==== end git logs ===="
+
+                cd $SOURCE_PATH/shakenfist
+                . /home/jenkins/sf-ci
+                ansible-playbook -i /home/jenkins/hosts \
+                    --extra-vars "identifier=$BUILD_TAG source_path=$SOURCE_PATH base_image=https://sfcbr.shakenfist.com/static/ubuntu2004-ci-template.qcow2 base_image_user=ubuntu" \
+                    deploy/ansible/ci.yml
+           '''
+      }
+    }
+    stage('Run installer on primary') {
+      steps {
+        sh '''  . $WORKSPACE/$BUILD_TAG/ci-environment.sh
+                ssh -i /home/jenkins/id_ci -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null \
+                    ubuntu@$primary sudo /root/sf-deploy.sh
+           '''
+      }
+    }
+    stage('Run CI tests on primary') {
+      steps {
+        sh '''  . $WORKSPACE/$BUILD_TAG/ci-environment.sh
+                scp -rp -i /home/jenkins/id_ci -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null \
+                    $source_path/shakenfist ubuntu@$primary:shakenfist
+                ssh -i /home/jenkins/id_ci -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null \
+                    ubuntu@$primary "cd shakenfist/deploy; tox -epy3"
+           '''
+      }
+    }
+    stage('Log check') {
+      steps {
+        sh '''  # Ensure we don't have any tracebacks
+                if [ `grep -c "Traceback (most recent call last):" /var/log/syslog` -gt 0 ]
+                then
+                  echo "We have tracebacks in the logs!"
+                  exit 1
+                fi
+
+                # Ensure we didn't log any errors
+                if [ `grep -c "ERROR"` -gt 0 ]
+                then
+                  echo "Errors were logged!"
+                  exit 1
+                fi
+
+                # Ensure nothing died
+                if [ `grep -c "died"` -gt 0 ]
+                then
+                  echo "A process died!"
+                  exit 1
+                fi
+          '''
+      }
+    }
+    stage('Process check') {
+      steps {
+        sh '''  # No zombies!
+                if [ `ps -ef | grep sf | grep -c defunct` -gt 0 ]
+                then
+                  echo "We have zombies!"
+                  exit 1
+                fi
+          '''
+      }
+    }
+  }
+
+  post {
+    always {
+      sh '''  . /home/jenkins/sf-ci
+              . $WORKSPACE/$BUILD_TAG/ci-environment.sh
+
+              echo "=============================="
+              ssh -i /home/jenkins/id_ci -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null \
+                  ubuntu@$primary sudo cat /etc/sf/sfrc
+
+              echo "=============================="
+              ssh -i /home/jenkins/id_ci -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null \
+                  ubuntu@$primary sudo cat /etc/sf/shakenfist.json
+
+              echo "=============================="
+              ssh -i /home/jenkins/id_ci -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null \
+                  ubuntu@$primary sudo cat /var/log/syslog
+
+              echo "=============================="
+
+              safe_build_tag=`echo $BUILD_TAG | tr "_" "-"`
+              if [ -e $source_path/keepme ]
+              then
+                echo "Retaining CI environment because you asked nicely."
+              else
+                for uuid in `sf-client --simple instance list | grep $safe_build_tag | cut -f 1 -d ","`
+                do
+                  sf-client instance delete $uuid
+                done
+
+                for uuid in `sf-client --simple network list | grep $safe_build_tag | cut -f 1 -d ","`
+                do
+                  sf-client network delete $uuid
+                done
+              fi
+
+              rm -rf $WORKSPACE/$BUILD_TAG
+          '''
+    }
+  }
+}
