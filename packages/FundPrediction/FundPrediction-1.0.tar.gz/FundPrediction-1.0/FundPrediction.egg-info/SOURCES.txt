@@ -1,0 +1,8 @@
+FundPrediction.py
+README.txt
+__init__.py
+setup.py
+FundPrediction.egg-info/PKG-INFO
+FundPrediction.egg-info/SOURCES.txt
+FundPrediction.egg-info/dependency_links.txt
+FundPrediction.egg-info/top_level.txt
