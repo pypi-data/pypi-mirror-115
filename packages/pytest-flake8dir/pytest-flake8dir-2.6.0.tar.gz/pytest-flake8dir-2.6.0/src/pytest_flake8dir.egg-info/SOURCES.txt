@@ -1,0 +1,16 @@
+HISTORY.rst
+LICENSE
+MANIFEST.in
+README.rst
+pyproject.toml
+setup.cfg
+setup.py
+src/pytest_flake8dir/__init__.py
+src/pytest_flake8dir/py.typed
+src/pytest_flake8dir.egg-info/PKG-INFO
+src/pytest_flake8dir.egg-info/SOURCES.txt
+src/pytest_flake8dir.egg-info/dependency_links.txt
+src/pytest_flake8dir.egg-info/entry_points.txt
+src/pytest_flake8dir.egg-info/not-zip-safe
+src/pytest_flake8dir.egg-info/requires.txt
+src/pytest_flake8dir.egg-info/top_level.txt
