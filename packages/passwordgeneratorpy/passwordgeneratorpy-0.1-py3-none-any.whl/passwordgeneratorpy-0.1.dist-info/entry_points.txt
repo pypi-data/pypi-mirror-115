@@ -1,0 +1,3 @@
+[console_scripts]
+passwordgeneratorpy = passwordgeneratorpy.passwordgeneratorpy:main
+

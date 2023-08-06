@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: passwordgeneratorpy
+Version: 0.1
+Summary: This is a password generator.
+Home-page: https://github.com/Vinz2008/password-generator-py
+Author: Vincent Bidard de laN Noë
+Author-email: vincentbidarddelanoe@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENCE
+
+This is a password generator.
+
