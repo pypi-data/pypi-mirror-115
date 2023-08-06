@@ -1,0 +1,2 @@
+jupyter_server<2,>=1.6
+etc_jupyterlab_telemetry_extension==1.1.0
