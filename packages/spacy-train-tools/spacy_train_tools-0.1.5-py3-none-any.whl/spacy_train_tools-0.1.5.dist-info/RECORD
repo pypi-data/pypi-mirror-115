@@ -1,0 +1,9 @@
+spacy_train_tools/__init__.py,sha256=mGVZ-ZVOiCVdvlc-DMbfW4XSxBl6HMt_FDvtEL89vAA,143
+spacy_train_tools/command_line.py,sha256=5fys2I6WF5i5wwt9cwSaonordlRIYHMXzYfK1wm3Bpg,333
+spacy_train_tools/train.py,sha256=XaOQFSvuqq8p9EmPMcFXtOUPp7Nl_FR22gn5Tz-M2Fw,1423
+spacy_train_tools/utils.py,sha256=S4e3_GTy-oPC3R0TubN2RVHncU3xwe8Wy5-F6pw5Wk8,5584
+spacy_train_tools-0.1.5.dist-info/LICENSE,sha256=uFbon6_wgBHAoq94zjGolbRVBuChGRRw-Qk1D1ghoAI,1073
+spacy_train_tools-0.1.5.dist-info/METADATA,sha256=0YFS42UdIBkeyXk8zzgzGVgvOkNP8WltKtt61Tiy-ww,1138
+spacy_train_tools-0.1.5.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+spacy_train_tools-0.1.5.dist-info/top_level.txt,sha256=6WK5INke7ukMldIXCYHQ0QNMzNg3UH7BGlAof6pM2Gc,18
+spacy_train_tools-0.1.5.dist-info/RECORD,,
