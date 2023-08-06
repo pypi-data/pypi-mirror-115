@@ -1,0 +1,17 @@
+ampform/__init__.py,sha256=euX4VCwxvSWXO_mCsZCVaFS7jij1GYJUWe8wX57zqyI,1454
+ampform/data.py,sha256=X2ZmLU_8ef7oqRoWoISMX6ZszE-_XeLKE1grG7JtzV0,12128
+ampform/kinematics.py,sha256=CLXeKq_b48_1FewbmoJde3a3Sl3fAS59TrVYXhPCyuU,14861
+ampform/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ampform/dynamics/__init__.py,sha256=xkGgDf5It4Ma_C7EuMWD05jLNM9bDi9G78pu-OgIOsk,12154
+ampform/dynamics/builder.py,sha256=QatziNw888TSR2cZJq5gTDnjkf_WnmLPekF7V4J641Y,5769
+ampform/dynamics/decorator.py,sha256=AlvsU39DfbaLdKv-qnXZ20jF_oIXUY4puQTbYCWEyaU,3928
+ampform/dynamics/math.py,sha256=yDhLCEcBtnna75MSogHjD0uF16DViUbKAfNDhA5104U,2247
+ampform/helicity/__init__.py,sha256=9Rxx2C1yv05abUAOlIcJJ4gNV3c2_l-MESrYuQRRSrI,21679
+ampform/helicity/decay.py,sha256=rZcr1oDKAHPIcD4ocspFaV08sfaD-LyynczIaxrHdcw,4430
+ampform/helicity/naming.py,sha256=xVQn61uugKGhnGbl7QpSUrE3UZ5pQ82AmjvkiyZhb1A,7996
+symplot/__init__.py,sha256=yka4DSchNz_t_kG7x9kEXzrg6MNhkeJOg43VHqZmvOs,11280
+symplot/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ampform-0.10.5.dist-info/METADATA,sha256=SFSfNo_ZPly8gX875eotuaSVyYibgxB1k9iw_JXrQVU,9917
+ampform-0.10.5.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+ampform-0.10.5.dist-info/top_level.txt,sha256=vArUJLZyYEq1IZY68EiihQiIlgAr1Dzx2Iq22BsmfYM,16
+ampform-0.10.5.dist-info/RECORD,,
