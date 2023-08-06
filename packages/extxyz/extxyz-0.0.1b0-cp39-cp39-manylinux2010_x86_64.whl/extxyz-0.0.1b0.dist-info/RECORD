@@ -1,0 +1,15 @@
+extxyz-0.0.1b0.dist-info/top_level.txt,sha256=LY7rThC6uFk6NFvisM0AnFWkZrS-MN2Em8AH1fPP1IM,7
+extxyz-0.0.1b0.dist-info/WHEEL,sha256=C-sg6l2ppbqlkU_0fUt0o5fTSvsM-h9TfVKAh4ryMfI,111
+extxyz-0.0.1b0.dist-info/entry_points.txt,sha256=bYsVN2EodKdN1oaum3Liu0bH1Ie6kkEETzTijuh8QP8,44
+extxyz-0.0.1b0.dist-info/LICENSE,sha256=6BX6txS-yq4F1TuNhho7Wyst5CnYB9RwudvqOFsvSsQ,1070
+extxyz-0.0.1b0.dist-info/METADATA,sha256=Ss29WQDKuENu5za8dP-TYuD-04bkJ-Cz_NFvsRxnn1U,261
+extxyz-0.0.1b0.dist-info/RECORD,,
+extxyz/extxyz.py,sha256=8_1aEyVKT4oy6mT55crD9U9fmIn-BZU5qRn1kv0gexo,27455
+extxyz/cextxyz.py,sha256=MLFrgNG66g2mNv-kjcsn329m26n3ubmjbwFQKcrfO7g,9422
+extxyz/_extxyz.so,sha256=auL42MFB73KvTnEygQPCtTDayKjELE1IUwMyj4Rxtd0,116744
+extxyz/__init__.py,sha256=t2-atkqjtbI3_FByavPAAZdsGeuEnM73ogZfZdp9Tv8,127
+extxyz/utils.py,sha256=cr_MuOel8A8JeCXZVwLSAQm87wr7_o3DbxlGTEb7fGk,3135
+extxyz/extxyz_kv_grammar.py,sha256=7ye2acc1v9_LQ8q0OOdy6kjAAZzP5tg7rjfukjY4Irw,4858
+extxyz/cli.py,sha256=UiNs_NNdJDt41w9mTg80v7SrBuLSN6rK6As3g_Q9I3Q,2819
+extxyz/__main__.py,sha256=VlwlDPUFQme_ppKS7d1cN-_ww3xpMR2WGOPVqVUcMZo,29
+extxyz.libs/libpcre2-8-84ea0c61.so.0.3.0,sha256=IuvyC1s6v9xlnfaWaIkqCv_qRujRcYEho1dvc5CemEA,477608
