@@ -1,0 +1,11 @@
+karen/__init__.py,sha256=3nD5ta8jObwFJ6wpDcJF1BpruBM1F0JCc1ZtYqMIsCI,2927
+karen/shared.py,sha256=AIrxnYxk4QA7LnD7Adpf-NhiMTLntrzCKytE9ovkftk,23203
+karen/templates.py,sha256=Q6B9A7ncOrgg7C-bnpWsfcRvqngN0pR_EaSMz9ZgS1w,17829
+karen/data/basic_config.json,sha256=Dn7NS10Zehtzg4fWDGh191NUtuDGQix5ni-Nhfr4BRc,844
+karen/data/basic_config_video.json,sha256=bM-wBvwX1NYQ3RixuTsl2xotqdwBHfXvTs190JjY0-g,1302
+karen-0.7.0.dist-info/LICENSE,sha256=KrhW-9DNGH3EOupX-vaofBYFwxqzn_MJVBH3t0DKHAo,1064
+karen-0.7.0.dist-info/METADATA,sha256=uu6x_l50KVDw48WU0EnrVjFwwuW4WlkXSHuiZT2kAts,8417
+karen-0.7.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+karen-0.7.0.dist-info/top_level.txt,sha256=CAyOigVTXqP8NG1BhvIXKz11jb6MXMEr5xkJ0_Ym1U4,6
+karen-0.7.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+karen-0.7.0.dist-info/RECORD,,
