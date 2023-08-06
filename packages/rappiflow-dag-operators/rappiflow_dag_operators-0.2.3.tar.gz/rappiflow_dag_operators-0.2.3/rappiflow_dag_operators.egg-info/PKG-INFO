@@ -1,0 +1,10 @@
+Metadata-Version: 1.2
+Name: rappiflow-dag-operators
+Version: 0.2.3
+Summary: Rappiflow Dags and Operators utils
+Home-page: UNKNOWN
+Author: CPGS DS Team
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7
