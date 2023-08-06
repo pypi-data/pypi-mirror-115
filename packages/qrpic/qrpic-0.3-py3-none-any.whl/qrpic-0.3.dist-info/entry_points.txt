@@ -1,0 +1,3 @@
+[console_scripts]
+qrpic=qrpic.main:run
+

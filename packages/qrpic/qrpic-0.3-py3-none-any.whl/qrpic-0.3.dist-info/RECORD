@@ -1,0 +1,11 @@
+qrpic/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+qrpic/geom/__init__.py,sha256=ak00ieX99lKqaLxlOIhmL7bkCh9YFsgeO4mqizmJXls,195
+qrpic/itertools/__init__.py,sha256=An9aHJPM1ITaNs5vTEV_783J5eyL2TncRYwUNZUzKwY,278
+qrpic/main.py,sha256=5kfYQ7c30ekx-NXFeG1lw7ReiEAvc44D2JxDUCeIOnk,7286
+qrpic/svgdom/__init__.py,sha256=W1jVn8ioHnNvXPkmhhlp-WVsBoxPu12TLO4BwD8u0dw,12805
+qrpic/svgdom/transforms.py,sha256=ZVLCmMq0SNdsS5c6oKo6ye3QXP3ksut9RZt_IOsqtrI,2517
+qrpic-0.3.dist-info/entry_points.txt,sha256=oem7lNr8vpLM7sZNt-ircUtUHmpYEuj2dZduc-S2xfQ,40
+qrpic-0.3.dist-info/LICENSE,sha256=N3ckWJ-DdhfozHqtjHJArczeDmlKxtg7sFWmsJEQ6Qw,1071
+qrpic-0.3.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+qrpic-0.3.dist-info/METADATA,sha256=5ldI0HqzXbjd3SaFc0fYxmJUPwQLUW-Gh9y1s9sRJHc,4707
+qrpic-0.3.dist-info/RECORD,,
