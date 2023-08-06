@@ -1,0 +1,17 @@
+pybaselines/__init__.py,sha256=fBu5lsKOg4diV3iPnTOQL3otcWxmLj5ona_EXFdJtRY,2698
+pybaselines/_algorithm_setup.py,sha256=zZKxaTz7PmnI5mFgNtDjXruZ3-Y9sZZsbCjf2BqpppA,22596
+pybaselines/_compat.py,sha256=RepjggqtirvFuRtgkJDd6rQq1HkVYKC5uhP27USJHII,1526
+pybaselines/classification.py,sha256=ARQad79I1Dcu2Dfcz_jZS8G48R23XBD4NE3RrnEUuOY,22381
+pybaselines/misc.py,sha256=QKDmALUTSJP6R-d4sT8YDQLbEKa9McIo-aqyVGcrbFw,43014
+pybaselines/morphological.py,sha256=9CIRhWuHDBJ9WXwmKFcCP7RTYlU-sE01o4Y82D_l33Y,33900
+pybaselines/optimizers.py,sha256=5m9zqfCLxRiiFaAFXc4reMaJSbpJGdN9sL_R1aiPv9w,19088
+pybaselines/polynomial.py,sha256=O_lVBmfzZ0cdSTOCebZsajSqp95bC8p9vchSiJJyYZE,59832
+pybaselines/utils.py,sha256=YLr7s7o99XCk6pn2SjPBtBBgVpccDXIMUhy_brxVvYw,16497
+pybaselines/whittaker.py,sha256=Jrd_0hBP53l-LK0Q3mMRH8qXYaevKkZv5hgu86hQU0I,33768
+pybaselines/window.py,sha256=w_h5xQuxDZlnH9lpWmyxsAEXimbHaVXcZtVLCzZDj40,18361
+pybaselines-0.5.1.dist-info/LICENSE.txt,sha256=N4W6uUrhKmuG-A0W194-LibdBrbNAEpVHtzxAgCIezs,1547
+pybaselines-0.5.1.dist-info/LICENSES_bundled.txt,sha256=-ORwjIyX1ga9-75RilSZkjzq9W9TbLUNqgvkytflugw,8198
+pybaselines-0.5.1.dist-info/METADATA,sha256=FJ6TtR146TzCG_GQfcFIOROcEg8xMDE4ixwTE0fK2S8,9438
+pybaselines-0.5.1.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+pybaselines-0.5.1.dist-info/top_level.txt,sha256=xQ1ELLFlPN2oLLFejtcxzT_V0BQsBN2uo2E0k46sHrc,12
+pybaselines-0.5.1.dist-info/RECORD,,
