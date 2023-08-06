@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: exp4
+Version: 0.1.0
+Summary: Implementation of Exponential weighting for Exploration and Exploitation with Experts.
+License: MIT
+Author: Marcell Vazquez-Chanlatte
+Author-email: mvc@linux.com
+Requires-Python: >=3.9,<3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: numpy (>=1.21.1,<2.0.0)
+Requires-Dist: scipy (>=1.7.1,<2.0.0)
+Description-Content-Type: text/markdown
+
+# exp4
