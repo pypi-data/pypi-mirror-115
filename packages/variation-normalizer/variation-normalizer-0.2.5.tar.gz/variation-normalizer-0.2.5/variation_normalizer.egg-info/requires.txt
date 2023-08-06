@@ -1,0 +1,9 @@
+hgvs
+requests
+biocommons.seqrepo
+fastapi
+uvicorn
+pydantic
+ga4gh.vrs
+gene-normalizer
+pyliftover
