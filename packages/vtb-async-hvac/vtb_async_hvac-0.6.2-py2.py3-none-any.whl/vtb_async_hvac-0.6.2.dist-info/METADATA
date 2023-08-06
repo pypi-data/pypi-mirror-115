@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: vtb-async-hvac
+Version: 0.6.2
+Summary: HashiCorp Vault API client (VTB version)
+Home-page: https://github.com/VyacheslavKazakov/async-hvac
+Author: Vyacheslav Kazakov
+Author-email: vyachka@gmail.com
+License: UNKNOWN
+Keywords: hashicorp,vault,hvac
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Apache Software License
+License-File: LICENSE.txt
+Requires-Dist: aiohttp (==3.7.3)
+Provides-Extra: parser
+Requires-Dist: pyhcl (==0.4.4) ; extra == 'parser'
+
+HashiCorp Vault API python 3.6+ client using asyncio (VTB version).
+
