@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: BreathFinder
+Version: 0.1.1
+Summary: Algorithm designed to find locations of
+    individual breaths in a PSG
+Home-page: https://github.com/benedikthth/BreathFinder
+Author: Benedikt Holm Thordarson
+Author-email: b@spock.is
+License: MIT
+Download-URL: https://github.com/benedikthth/BreathFinder/archive/refs/tags/v0.1.0.tar.gz
+Description: UNKNOWN
+Keywords: Adaptive segmentation,Sleep research,RIP belts
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
