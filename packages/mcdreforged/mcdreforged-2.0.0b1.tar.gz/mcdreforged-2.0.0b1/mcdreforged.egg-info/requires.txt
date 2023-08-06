@@ -1,0 +1,7 @@
+ruamel.yaml
+requests
+colorlog
+colorama
+psutil
+parse
+prompt-toolkit
