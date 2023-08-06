@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: unpackai
+Version: 0.0.5
+Summary: Unpack.AI, the library
+Home-page: https://github.com/raynardj/unpackai
+Author: xiaochen(ray) zhang
+Author-email: b2ray2c@gmail.com
+License: Apache Software License 2.0
+Description: # Unpack.AI
+        > The Unpack.AI library, through dedication and simple engineering, empower your business / career with state-of-the-art deep learning.
+        
+        
+        ## Installation
+        
+        
+        You can install this library with pip
+        ```
+        pip install unpackai
+        ```
+        
+        or with github link
+        ```shell
+        pip install git+https://github.com/raynardj/unpackai/
+        ```
+        
+Keywords: python fastai data science pytorch
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
