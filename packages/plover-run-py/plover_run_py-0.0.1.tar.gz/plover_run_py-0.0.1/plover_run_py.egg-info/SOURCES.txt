@@ -1,0 +1,13 @@
+.gitignore
+LICENSE
+README.md
+setup.cfg
+setup.py
+plover_run_py/__init__.py
+plover_run_py.egg-info/PKG-INFO
+plover_run_py.egg-info/SOURCES.txt
+plover_run_py.egg-info/dependency_links.txt
+plover_run_py.egg-info/entry_points.txt
+plover_run_py.egg-info/requires.txt
+plover_run_py.egg-info/top_level.txt
+plover_run_py.egg-info/zip-safe
