@@ -1,0 +1,3 @@
+[vdk.plugin.run]
+vdk-trino = taurus.vdk.trino_plugin
+
