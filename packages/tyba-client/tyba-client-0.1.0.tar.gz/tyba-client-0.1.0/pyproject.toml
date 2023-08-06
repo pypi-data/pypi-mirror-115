@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "tyba-client"
+version = "0.1.0"
+description = "A Python API client for the Tyba Public API"
+authors = ["Tyler Nisonoff <tyler@tybaenergy.com>"]
+license = "MIT"
+readme = "README.md"
+include = [
+    "LICENSE",
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = "^2.25.1"
+dataclasses-json = "^0.5.4"
+marshmallow = "^3.12.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
