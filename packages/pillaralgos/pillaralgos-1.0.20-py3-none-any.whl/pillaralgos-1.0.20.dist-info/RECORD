@@ -1,0 +1,13 @@
+pillaralgos/__init__.py,sha256=vKYgDx-ETFpMpfP2pIDGslOGtBnsQTlPvCEI5awXxpo,302
+pillaralgos/algo1.py,sha256=M9am0T--gRkRendSVidNIE6bbTNj10E8lMOhAdke2C8,4990
+pillaralgos/algo2.py,sha256=U_yy-W-jl8_lAlgzOBnBG5wIqoBjPKuP0h0JcmZuArc,4648
+pillaralgos/algo3_0.py,sha256=drGqXgxYEv0_VP3i_iG3U6jwYCc8JfK74LvyfWUnyGc,5532
+pillaralgos/algo3_5.py,sha256=oOvci7kwA4gtMt-gsQMpnhZDkLxqPHKMkdvPWyYhyh0,5067
+pillaralgos/algo3_6.py,sha256=uftVvJ1lmmkiJf3ZhcpXxeL1nKj3j_CFqFG5o63_1IQ,6900
+pillaralgos/algo4.py,sha256=LHONg_syWYFtfM6H9bjjej5sA1vvaZJifx9kaH65R64,4715
+pillaralgos/brain.py,sha256=dtyRpPCVeQ6lWlWN8iG3Agfqwa8Ab4H5a9BbOL0TV4o,2705
+pillaralgos/helpers/__init__.py,sha256=gwy4fCCGTF9nip3XUoLreasowqwa3MtPYqCHn97XR0A,161
+pillaralgos/helpers/data_handler.py,sha256=TNIVhGuhtznnUgZD2MyM4y24p3B2OeDWZS7ZcveMdSs,11094
+pillaralgos-1.0.20.dist-info/WHEEL,sha256=VN2eEg4PHbTOniXb-cCYQPc6zUTS4dAcATjlgU3q-Lo,83
+pillaralgos-1.0.20.dist-info/METADATA,sha256=znRxF4CVJg8UKGuIBsQufZaXN6ZWvVm83IQiBKZwGiQ,5555
+pillaralgos-1.0.20.dist-info/RECORD,,
