@@ -1,0 +1,12 @@
+input/__init__.py,sha256=4W8VliAYUP1KY2gLJ_YDy2TmcXYVm-PY7XikQD_bFwA,2
+input/etl.py,sha256=fJiuDsnhSFW9VjCky7cdWVi2fMFINTYNgICy-X5Vsh4,24670
+output/__init__.py,sha256=4W8VliAYUP1KY2gLJ_YDy2TmcXYVm-PY7XikQD_bFwA,2
+output/pushtoES.py,sha256=iRiyJ2wwH-i7NNbaK9XSYdWMgT_llLUfhqNoZG8StJY,7107
+output/scriptConst.py,sha256=ZueKiDjWf3pI4HiwqueDY2Sh2he5_MdnY5Flmdv5Gd0,487
+sf_apm_etl/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sf_apm_etl/cli.py,sha256=VstCwZe305FmIQiIE6-pvJaZ_Wx2eMKzy81WTkqCif4,1307
+sfapmetl-0.1.0.dist-info/METADATA,sha256=1ria_DFT7b-91z2aD75Fe_snWpUAZua7NcEwhQfXDTc,2722
+sfapmetl-0.1.0.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+sfapmetl-0.1.0.dist-info/entry_points.txt,sha256=dpN3C4Z4n0XbSg6Nr_rFeeTMIOSuwihxMxy7uOWo1F0,52
+sfapmetl-0.1.0.dist-info/top_level.txt,sha256=reLrR9pWT1XQ8MpRzNDchrM7XiF0epcICr3wZKnNrvU,24
+sfapmetl-0.1.0.dist-info/RECORD,,
