@@ -1,0 +1,17 @@
+graft examples
+graft tools
+graft docs
+prune docs/_build
+prune .github/
+graft panoramisk
+graft tests
+graft tests_python3
+include *.rst *.cfg *.ini Pipfile* .coveragerc LICENCE
+global-exclude *.pyc
+global-exclude __pycache__
+global-exclude .installed.cfg
+include *.py
+include .coveragerc
+include LICENSE
+recursive-include examples *.py
+recursive-include tests_python3 *.py
