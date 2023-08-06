@@ -1,0 +1,15 @@
+Metadata-Version: 1.2
+Name: HiSTra
+Version: 1.1
+Summary: Spectral translocation detection of HiC matrices.
+Home-page: https://github.com/dtzxyangq/HiSTra
+Author: Q.Yang
+Author-email: dtzxyangq@foxmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: HiC genome structure variation translocation
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
