@@ -1,0 +1,11 @@
+lwpipe/__init__.py,sha256=Ovj1-NXhzsoJWp89_zdEFuiVWnd9Kq1daKhq8hwEAx0,19302
+lwpipe/io.py,sha256=4gSXLisKG3D4IWsdFhU_p4fQ_QlEc5njDFxqS6lIMN8,2444
+lwpipe/utils.py,sha256=NVNmmyUP1EA7UOVg39Rs95yL2XUAh4ErMB9qDmKWs8o,190
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_pipeline.py,sha256=c8cIbY2avZaWTmPqatsfs_dKS5THRSHzjmUC2Ky9aDc,11086
+tests/test_trivial_pipieline.py,sha256=pCwIn0uhU2V5DSE2rREtUxbDdlHpxB67p3oYe8aMc4w,1186
+lwpipe-4.1.0.dist-info/LICENSE,sha256=WtjCEwlcVzkh1ziO35P2qfVEkLjr87Flro7xlHz3CEY,11556
+lwpipe-4.1.0.dist-info/METADATA,sha256=rziXyPz27YpxF2BOZXnAYabxPWWxIW56hFCXPLAhkAg,5581
+lwpipe-4.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+lwpipe-4.1.0.dist-info/top_level.txt,sha256=m8Uv-W3eUKjIYepebHQW1CNCmc0ltTBHVGW4zbjF7tQ,13
+lwpipe-4.1.0.dist-info/RECORD,,
