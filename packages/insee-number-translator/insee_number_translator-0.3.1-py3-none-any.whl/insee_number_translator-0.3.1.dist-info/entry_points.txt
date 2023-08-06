@@ -1,0 +1,3 @@
+[console_scripts]
+insee=insee_number_translator.main:main
+
