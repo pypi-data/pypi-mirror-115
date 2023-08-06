@@ -1,0 +1,63 @@
+[tool.poetry]
+name = "pytest-split"
+version = "0.3.3"
+description = "Pytest plugin for splitting test suite based on test execution time"
+homepage = 'https://github.com/jerry-git/pytest-split'
+repository = 'https://github.com/jerry-git/pytest-split'
+authors = ["Jerry Pussinen <jerry.pussinen@gmail.com>"]
+maintainers = []
+readme = 'README.md'
+license = "MIT"
+keywords = ['pytest', 'plugin', 'split', 'tests']
+packages = [{ include = 'pytest_split', from = 'src' }]
+include = ['LICENCE']
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Framework :: Pytest",
+    "Typing :: Typed",
+]
+
+[tool.poetry.dependencies]
+python = "^3.6.1"
+pytest = "^5 | ^6"
+
+[tool.poetry.dev-dependencies]
+coverage = {extras = ["toml"], version = "^5.5"}
+pre-commit = "^2.13.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+slowest-tests = "pytest_split.cli:list_slowest_tests"
+
+[tool.poetry.plugins.pytest11]
+pytest-split = "pytest_split.plugin"
+
+[tool.black]
+line-length = 120
+include = '\.pyi?$'
+
+[tool.coverage.run]
+include = ["src/pytest_split/*"]
+
+[tool.coverage.report]
+show_missing = true
+skip_covered = true
+exclude_lines = [
+    'if TYPE_CHECKING:',
+    'pragma: no cover'
+]
+fail_under = 100
+
+[tool.isort]
+profile = 'black'
+line_length = 120
