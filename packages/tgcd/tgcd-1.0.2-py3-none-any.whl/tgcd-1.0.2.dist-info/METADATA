@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: tgcd
+Version: 1.0.2
+Summary: a private fork of slam-mirrorbot.
+Home-page: UNKNOWN
+Author: reaitten
+Author-email: wsy0xf2u8@relay.firefox.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Development Status :: 5 - Production/Stable
+Requires-Python: >=3.8.2
+License-File: LICENSE
+Requires-Dist: aiohttp
+Requires-Dist: aria2p
+Requires-Dist: appdirs
+Requires-Dist: beautifulsoup4
+Requires-Dist: cloudscrape
+Requires-Dist: feedparser
+Requires-Dist: gitpython
+Requires-Dist: google-api-python-client
+Requires-Dist: google-auth-httplib2
+Requires-Dist: google-auth-oauthlib
+Requires-Dist: heroku3
+Requires-Dist: js2py
+Requires-Dist: lk21
+Requires-Dist: lxml
+Requires-Dist: psutil
+Requires-Dist: psycopg2-binary
+Requires-Dist: pybase64
+Requires-Dist: pyrogram
+Requires-Dist: python-dotenv
+Requires-Dist: python-magic
+Requires-Dist: python-telegram-bot
+Requires-Dist: requests
+Requires-Dist: speedtest-cli
+Requires-Dist: telegraph
+Requires-Dist: tenacity
+Requires-Dist: TgCrypto
+Requires-Dist: youtube-dl
+
+UNKNOWN
+
