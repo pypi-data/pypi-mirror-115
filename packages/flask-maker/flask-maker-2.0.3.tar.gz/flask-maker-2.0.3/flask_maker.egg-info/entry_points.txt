@@ -1,0 +1,4 @@
+[console_scripts]
+flask-maker = flask_maker:cli
+fm = flask_maker:cli
+
