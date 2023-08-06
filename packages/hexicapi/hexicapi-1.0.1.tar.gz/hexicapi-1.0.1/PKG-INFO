@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: hexicapi
+Version: 1.0.1
+Summary: Tool for making servers.
+Home-page: UNKNOWN
+Author: Red
+Author-email: redtonehair@gmail.com
+License: UNKNOWN
+Keywords: python,video
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+API for making servers and clients to connect to those servers.
+
