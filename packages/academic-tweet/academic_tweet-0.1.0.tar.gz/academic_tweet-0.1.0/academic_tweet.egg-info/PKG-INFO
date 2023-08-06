@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: academic-tweet
+Version: 0.1.0
+Summary: An API wrapper for academic track access to the v2 Twitter API
+Home-page: https://github.com/A-Lohse/academic_tweet
+Author: August Lohse
+Author-email: al@augustlohse.com
+License: MIT
+Download-URL: https://github.com/A-Lohse/academic_tweet/archive/refs/tags/v0.2.tar.gz
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
