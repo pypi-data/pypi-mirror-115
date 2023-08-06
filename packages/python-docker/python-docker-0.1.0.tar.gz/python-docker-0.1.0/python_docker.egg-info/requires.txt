@@ -1,0 +1,7 @@
+pydantic
+requests
+
+[dev]
+pytest
+black==21.5b0
+flake8
