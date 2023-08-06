@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        repo-links=repo_links.cli:cli
+    
