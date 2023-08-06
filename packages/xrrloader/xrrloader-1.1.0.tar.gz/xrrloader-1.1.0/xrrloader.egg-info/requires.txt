@@ -1,0 +1,7 @@
+setuptools
+numpy
+pandas
+scipy
+matplotlib
+fabio
+h5py
