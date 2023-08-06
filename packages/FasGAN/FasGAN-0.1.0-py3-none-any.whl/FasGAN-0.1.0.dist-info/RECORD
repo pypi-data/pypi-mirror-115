@@ -1,0 +1,10 @@
+fasgan/__init__.py,sha256=WLo9k1Hqjdafso3KmZzvJXeTKCT8wtRbn6wMUFJtdk0,171
+fasgan/discore.py,sha256=77jr7ajJ6c6-XNINKUMnTuVlySLaPuMbCFE5MmcwmGE,862
+fasgan/discriminator.py,sha256=SxhaXlJJAQAun4SLeQUz84nqmcFOvrA77ymUBnlGI6Q,1452
+fasgan/gencore.py,sha256=iJVpXZEHrtaH7eWwJ3v6c6dq_uitiIKBxuzlmGhn7zs,871
+fasgan/generator.py,sha256=NEv-3LCcb5EUPBnyTWPP2HjcUZpexQk6n49ngO5hSQE,1568
+FasGAN-0.1.0.dist-info/LICENSE.txt,sha256=INHtSOdaDJwuvIPCZsgK69nlu0M_pcbfla6Dy0IdY18,553
+FasGAN-0.1.0.dist-info/METADATA,sha256=Vre3C9CsQshNlfycX2hjb5WNxhh-O-mOUJ7OShjIz5I,1009
+FasGAN-0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+FasGAN-0.1.0.dist-info/top_level.txt,sha256=0dDIOQvw2iTjy0TBFBYxGnC-_G4ICKeZ4u81Z8DypEo,7
+FasGAN-0.1.0.dist-info/RECORD,,
