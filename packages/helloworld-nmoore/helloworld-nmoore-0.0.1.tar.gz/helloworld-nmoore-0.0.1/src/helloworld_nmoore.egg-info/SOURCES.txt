@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.py
+src/helloworld.py
+src/helloworld_nmoore.egg-info/PKG-INFO
+src/helloworld_nmoore.egg-info/SOURCES.txt
+src/helloworld_nmoore.egg-info/dependency_links.txt
+src/helloworld_nmoore.egg-info/requires.txt
+src/helloworld_nmoore.egg-info/top_level.txt
