@@ -1,0 +1,8 @@
+README.md
+setup.py
+rfsdk/__init__.py
+rfsdk.egg-info/PKG-INFO
+rfsdk.egg-info/SOURCES.txt
+rfsdk.egg-info/dependency_links.txt
+rfsdk.egg-info/requires.txt
+rfsdk.egg-info/top_level.txt
