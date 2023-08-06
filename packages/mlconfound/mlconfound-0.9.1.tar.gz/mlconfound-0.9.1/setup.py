@@ -1,0 +1,38 @@
+# -*- coding: utf-8 -*-
+from setuptools import setup
+
+packages = \
+['mlconfound']
+
+package_data = \
+{'': ['*']}
+
+install_requires = \
+['dot2tex>=2.11.3,<3.0.0',
+ 'graphviz>=0.17,<0.18',
+ 'joblib>=1.0.1,<2.0.0',
+ 'numpy>=1.21.1,<2.0.0',
+ 'pandas>=1.3.1,<2.0.0',
+ 'scipy>=1.7.1,<2.0.0',
+ 'seaborn>=0.11.1,<0.12.0',
+ 'statsmodels>=0.12.2,<0.13.0',
+ 'tqdm>=4.62.0,<5.0.0']
+
+setup_kwargs = {
+    'name': 'mlconfound',
+    'version': '0.9.1',
+    'description': 'Tools for analyzing and quantifying effects of counfounder variables on machine learning model predictions.',
+    'long_description': '# mlconfound\n[![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/pni-lab/mlconfound)\n[![GitHub license](https://img.shields.io/github/license/pni-lab/mlconfound.svg)](https://github.com/pni-lab/mlconfound/blob/master/LICENSE)\n[![GitHub release](https://img.shields.io/github/release/pni-lab/mlconfound.svg)](https://github.com/pni-lab/mlconfound/releases/)\n[![GitHub issues](https://img.shields.io/github/issues/pni-lab/mlconfound.svg)](https://GitHub.com/pni-lab/mlconfound/issues/)\n[![GitHub issues-closed](https://img.shields.io/github/issues-closed/pni-lab/mlconfound.svg)](https://GitHub.com/pni-lab/mlconfound/issues?q=is%3Aissue+is%3Aclosed)\n[![Documentation Status](https://readthedocs.org/projects/mlconfound/badge/?version=latest)](https://mlconfound.readthedocs.io/en/latest/?badge=latest)\n\nTools for analyzing and quantifying effects of counfounder variables "\n                "on machine learning model predictions.\n## Install\n````\npip install git+https://github.com/pni-lab/mlconfound\n````\n*pipy support coming soon*\n\n## Usage\n\n````\n# y   : prediction target\n# yhat: prediction\n# c   : confounder\n\nfrom mlconfound.stats import test_partially_confounded\n\ntest_partially_confounded(y, yhat, c)\n````\n\nSee documentation for more details.\n\n## Documentation [![Documentation Status](https://readthedocs.org/projects/mlconfound/badge/?version=latest)](https://mlconfound.readthedocs.io/en/latest/?badge=latest)\nhttps://mlconfound.readthedocs.io/en/latest/ \n',
+    'author': 'Tamas Spisak',
+    'author_email': 'tamas.spisak@uni-due.de',
+    'maintainer': None,
+    'maintainer_email': None,
+    'url': 'https://github.com/pni-lab/mlconfound',
+    'packages': packages,
+    'package_data': package_data,
+    'install_requires': install_requires,
+    'python_requires': '>=3.7,<3.10',
+}
+
+
+setup(**setup_kwargs)
