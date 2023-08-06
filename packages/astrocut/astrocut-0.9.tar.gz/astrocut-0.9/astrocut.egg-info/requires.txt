@@ -1,0 +1,12 @@
+astropy>=3.0
+scipy
+Pillow
+
+[docs]
+sphinx!=4.1.0
+docutils==0.16
+sphinx-astropy
+sphinx_rtd_theme>=0.5.2
+
+[test]
+pytest-astropy
