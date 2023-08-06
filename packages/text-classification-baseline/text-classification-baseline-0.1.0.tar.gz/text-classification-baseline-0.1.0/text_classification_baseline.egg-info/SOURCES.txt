@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+text_classification_baseline.egg-info/PKG-INFO
+text_classification_baseline.egg-info/SOURCES.txt
+text_classification_baseline.egg-info/dependency_links.txt
+text_classification_baseline.egg-info/entry_points.txt
+text_classification_baseline.egg-info/requires.txt
+text_classification_baseline.egg-info/top_level.txt
+text_clf/__init__.py
+text_clf/__main__.py
+text_clf/data.py
+text_clf/save.py
+text_clf/train.py
+text_clf/utils.py
