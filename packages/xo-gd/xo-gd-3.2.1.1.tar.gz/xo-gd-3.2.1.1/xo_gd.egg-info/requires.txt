@@ -1,0 +1,10 @@
+GitPython
+coverage
+dill
+nose
+paho-mqtt
+pickle
+pypi-publisher
+sphinx
+sphinx_rtd_theme
+xo-gd==3.2.1
