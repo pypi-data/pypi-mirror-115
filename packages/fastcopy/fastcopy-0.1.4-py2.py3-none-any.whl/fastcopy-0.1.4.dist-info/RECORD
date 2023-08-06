@@ -1,0 +1,10 @@
+fastcopy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fastcopy/client.py,sha256=H0iLXpStFpOrXv-Hk_x3XqVUuyZnPxirvMRwTFcV0hY,13703
+fastcopy/server.py,sha256=_zy98gHK2xQh4-Z6kmsSFcdfqBz7uTlxNZR8lFrkgo8,6771
+fastcopy/utils.py,sha256=ht0PJoB9_V1JgVDHhnu_xl6W84OTXvmmv8H6DbMqDoY,28067
+fastcopy-0.1.4.dist-info/LICENSE,sha256=4Bh5YCBc9ZOqME_6rqbrWdzzgJnwEC1Ehvbn_nRGe1w,1064
+fastcopy-0.1.4.dist-info/METADATA,sha256=HGbvRGSHRFkZCVrLLXyQVqV_oVn1Lz9Ym9j4X5lIQDg,5428
+fastcopy-0.1.4.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+fastcopy-0.1.4.dist-info/entry_points.txt,sha256=VpTjPMA9GVpbljIt6xVy_OvesK29DCj98lbYLsE6WMA,74
+fastcopy-0.1.4.dist-info/top_level.txt,sha256=_vWrUUN4hbEAreaUii9yHHGzisHyTJx3Wz7ZjMZExtg,9
+fastcopy-0.1.4.dist-info/RECORD,,
