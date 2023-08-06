@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/py_reflection/__init__.py
+src/py_reflection/views.py
+src/py_reflection.egg-info/PKG-INFO
+src/py_reflection.egg-info/SOURCES.txt
+src/py_reflection.egg-info/dependency_links.txt
+src/py_reflection.egg-info/top_level.txt
