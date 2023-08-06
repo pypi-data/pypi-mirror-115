@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+statistical_distributions_TK/Binomialdistribution.py
+statistical_distributions_TK/Gaussiandistribution.py
+statistical_distributions_TK/Generaldistribution.py
+statistical_distributions_TK/__init__.py
+statistical_distributions_TK.egg-info/PKG-INFO
+statistical_distributions_TK.egg-info/SOURCES.txt
+statistical_distributions_TK.egg-info/dependency_links.txt
+statistical_distributions_TK.egg-info/not-zip-safe
+statistical_distributions_TK.egg-info/top_level.txt
