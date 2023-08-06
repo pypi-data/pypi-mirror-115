@@ -1,0 +1,87 @@
+Metadata-Version: 2.1
+Name: gclick-sdk
+Version: 0.0.2
+Summary: SDK Python para integração com a plataforma de controle de processos GClick.
+Home-page: https://github.com/Nasajon/gclick_sdk
+Author: Sergio Silva
+Author-email: sergiosilva@nasajon.com.br
+License: UNKNOWN
+Project-URL: Source, https://github.com/Nasajon/gclick_sdk
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# GClick SDK
+
+SDK Python para integração com a plataforma de controle de processos GClick.
+
+Este SDK foi construído com base na [documentação oficial das APIs](http://g2apiteste.gclick.com.br/swagger-ui.html).
+
+## Features disponíveis (por classe)
+
+* [GClickCredentials](#gclick_sdk.credentials.gclickcredentials) - Classe de controle da autenticação com o portal do GClick.
+* [AtividadesClient](#gclick_sdk.atividades_client.atividadesclient) - Classe para manipulação das atividades na plataforma.
+
+## gclick_sdk.credentials.GClickCredentials
+
+Controle de autenticação com o portal do GClick (obtenção de access_token, pelo protoco OAuth). Disponibiliza os seguintes métodos públicos:
+
+### Construtor padrão
+
+Retorna uma instância da classe, necessária para construção das classes "client" (para manipulação de dados na plataforma).
+#### Parâmetros
+
+- sistema: Código do sistema informado pelo G-Click (para integração).
+- usuario: Apelido do usuário no sistema parceiro correspondente ao apelido do usuário no G-Click.
+- conta: Conta de acesso do usuário junto ao GClick
+- senha: Senha de acesso do usuário junto ao GClick
+- empresa: Código da empresa parceira provido pelo GClick, para integração.
+- client_id: ID da aplicação cliente cadastrada no servidor de autenticação.
+- client_secret: Chave da aplicação cliente cadastrada no servidor de autenticação.
+
+## gclick_sdk.atividades_client.AtividadesClient
+
+Client para invocação dos endpoints destinados à manipulação de Atividades no GClick.
+
+### baixar_upload()
+
+Realiza a baixa de atividade, realizando também upload de arquivo associado.
+
+#### Retorno
+
+Método sem retorno esperado (ver sessão de exceções para o caso de erro no processamento).
+#### Parâmetros
+
+- **id_atividade**: ID da atividade.
+- **inscricao**: Inscrição do cliente do escritório contábil (CPF ou CNPJ).
+- **competencia**: Data da competência no formato AAAAMM.
+- **file_content**: Conteúdo, em bytes, do arquivo a sofrer upload.
+- **file_name**: Nome do arquivo sofrendo upload.
+- **file_mimetype**: Mimetype do arquivo sofrendo upload.
+- **usuario [opcional]**: Apelido do usuário no sistema parceiro.
+
+_Obs.: Se o parâmetro "usuario" não for passado, será assumido o usuário recebido com o objeto de credenciais (no construtor da classe)._
+
+#### Exceções
+
+* **BaixadaAnteriormenteException**: Indica que a atividade já foi baixada anteriormente (não podendo ser baixada diretamente, apenas atualizada, o que ainda não está implementado).
+* **UnauthorizedException**: Erro de autenticação, contendo mensagem de erro descritiva, porém seguem algumas possíveis causas:
+  * _conta_ ou _senha_ incorretos (no objeto GClickCredentials).
+  * _empresa_ ou _sistema_ incorretos (no objeto GClickCredentials).
+  * _client_id_ ou _client_secret_ incorretos (no objeto GClickCredentials).
+* **AtividadeNotFoundException**: Atividade pendente não encontrada, causas prováveis:
+  * _inscrição_ da empresa cliente incorreto.
+  * _id_atividade_ incorreto.
+  * _competencia_ incorreta.
+* **BaixaUnknowException**: Erro desconhecido inesperado na requisição. Possíveis causas:
+  * Chamada à API da GClick com retorno HTTP 400.
+  * Faltando um ou mais parâmetros do arquivo para upload.
+* **HTTPError**: Erro desconhecido inesperado no processamento (retorno HTTP 500 ou outros, consultar a mensagem da exceção).
+* **Exception**: Erro desconhecido.
+
+
