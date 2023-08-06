@@ -1,0 +1,10 @@
+petitparser/__init__.py,sha256=9zJDheHZm4W4ILMpQQSa-0DXgdn_MrQ1fpjn9ckbK2k,555
+petitparser/character.py,sha256=rFZd8MssF8Ib6CQAN7LG6sTgqs2jMzdJVsqokE1ClOo,2102
+petitparser/context.py,sha256=k-AnjJYfykaRli-FiODUGNiBOQWDmXPyg-0VjeqApgk,3836
+petitparser/string.py,sha256=QKvRPNTfHJ1SPdiPEcfyKTgjEC2EosLCV2RRuvZqWWE,420
+petitparser/utils.py,sha256=f83LsNh96GyPCFXIgTpQLaGXK-BirpaFYsU7P3WjTJw,1352
+petitparser-0.1.0.dist-info/LICENSE,sha256=udUX5AhdBbG9nav4fCm7vUwM61i8r1MCDWbs3zD-p6Q,1057
+petitparser-0.1.0.dist-info/METADATA,sha256=Y3dwi4LBeYpUDuRSGMBuQs6GLQKksOdXUUu6jEnC7d8,472
+petitparser-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+petitparser-0.1.0.dist-info/top_level.txt,sha256=oY30-jFMxXyHfb3hvCxzMq-FQN1CYdMikDELyjajQkU,12
+petitparser-0.1.0.dist-info/RECORD,,
