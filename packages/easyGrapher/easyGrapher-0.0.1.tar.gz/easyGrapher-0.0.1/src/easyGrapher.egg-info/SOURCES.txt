@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/easyGrapher/__init__.py
+src/easyGrapher.egg-info/PKG-INFO
+src/easyGrapher.egg-info/SOURCES.txt
+src/easyGrapher.egg-info/dependency_links.txt
+src/easyGrapher.egg-info/top_level.txt
