@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: xpe-library
+Version: 0.0.1
+Summary: A library to communicate with XPE line
+Home-page: UNKNOWN
+Author: PD Solucoes
+Author-email: gabriel@pdsolucoes.com.br
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# XPE 3000 library communication
+Library to communicate with XPE line
+
+## Commands
+1. GET and POST method to Relay
+2. GET and POST method to Input
+3. GET and POST method to User card
+4. Reboot system
+5. GET and POST method to Dial Plan
+
+## Server to receive events
+Call run server function to start the serve to receive all events from the device
+
+## Install
+Run the command
+```bash
+ pip install  xpe_library-x.x.x-py3-none-any.whl
+```
+where x.x.x is the version of the library
+
