@@ -1,0 +1,3 @@
+incursive-include  ./KevinSR/Thin-to-thin/variables *
+incursive-include  KevinSR/Thin-to-thin/assets *
+incursive-include  KevinSR/Thin-to-thin/variables *
