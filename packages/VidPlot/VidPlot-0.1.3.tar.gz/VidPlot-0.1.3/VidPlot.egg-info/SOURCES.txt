@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+VidPlot/__init__.py
+VidPlot.egg-info/PKG-INFO
+VidPlot.egg-info/SOURCES.txt
+VidPlot.egg-info/dependency_links.txt
+VidPlot.egg-info/requires.txt
+VidPlot.egg-info/top_level.txt
