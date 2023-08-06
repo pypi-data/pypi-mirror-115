@@ -1,0 +1,42 @@
+[tool.poetry]
+name = "version-helper"
+version = "0.1.0-rc.0"
+description = "Helpers for a better version management in python projects"
+authors = ["DL6NM <mail@dl6nm.de>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/dl6nm/version-helper"
+repository = "https://github.com/dl6nm/version-helper"
+keywords = ["git", "describe", "tags", "version", "__version__.py"]
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.8",
+    "Topic :: Software Development :: Version Control",
+    "Topic :: Software Development :: Version Control :: Git",
+]
+packages = [
+    { include = "version_helper" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.4"
+
+[tool.pytest.ini_options]
+testpaths = "tests"
+addopts = "--tb=short"
+# --tb=short
+# --full-trace
+# --cov=version_helper
+# --cov-report=html
+# --showlocals
+# --setup-show
+# --setup-plan
+# --disable-warnings
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
