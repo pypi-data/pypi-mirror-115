@@ -1,0 +1,203 @@
+AUTHORS.rst
+CONTRIBUTING.rst
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+docs/Makefile
+docs/api_reference.rst
+docs/authors.rst
+docs/changelog.rst
+docs/conf.py
+docs/contributing.rst
+docs/index.rst
+docs/installation.rst
+docs/make.bat
+docs/readme.rst
+docs/usage.rst
+docs/images/install/conda_activate.gif
+docs/images/install/conda_install.gif
+docs/images/install/conda_source_installed_all_users.gif
+docs/tutorials/Tutorial 1. Controlling a basic experiment using MeasurementControl.rst
+docs/tutorials/Tutorial 2. Advanced capabilities of the MeasurementControl.rst
+docs/tutorials/Tutorial 3. Building custom analyses - the data analysis framework.rst
+docs/tutorials/Tutorial 4. Adaptive Measurements.rst
+docs/tutorials/Tutorial 5. Plot monitor.rst
+quantify_core/__init__.py
+quantify_core.egg-info/PKG-INFO
+quantify_core.egg-info/SOURCES.txt
+quantify_core.egg-info/dependency_links.txt
+quantify_core.egg-info/not-zip-safe
+quantify_core.egg-info/requires.txt
+quantify_core.egg-info/top_level.txt
+quantify_core/analysis/__init__.py
+quantify_core/analysis/allxy_analysis.py
+quantify_core/analysis/base_analysis.py
+quantify_core/analysis/cosine_analysis.py
+quantify_core/analysis/echo_analysis.py
+quantify_core/analysis/fitting_models.py
+quantify_core/analysis/interpolation_analysis.py
+quantify_core/analysis/optimization_analysis.py
+quantify_core/analysis/rabi_analysis.py
+quantify_core/analysis/ramsey_analysis.py
+quantify_core/analysis/spectroscopy_analysis.py
+quantify_core/analysis/t1_analysis.py
+quantify_core/analysis/types.py
+quantify_core/analysis/schemas/__init__.py
+quantify_core/data/__init__.py
+quantify_core/data/handling.py
+quantify_core/data/types.py
+quantify_core/measurement/__init__.py
+quantify_core/measurement/control.py
+quantify_core/measurement/gettables.py
+quantify_core/measurement/types.py
+quantify_core/measurement/schemas/__init__.py
+quantify_core/utilities/__init__.py
+quantify_core/utilities/_docs_helpers.py
+quantify_core/utilities/_tests_helpers.py
+quantify_core/utilities/experiment_helpers.py
+quantify_core/utilities/general.py
+quantify_core/utilities/inspect_utils.py
+quantify_core/visualization/SI_utilities.py
+quantify_core/visualization/__init__.py
+quantify_core/visualization/_appnope.py
+quantify_core/visualization/color_utilities.py
+quantify_core/visualization/instrument_monitor.py
+quantify_core/visualization/mpl_plotting.py
+quantify_core/visualization/plot_interpolation.py
+quantify_core/visualization/pyqt_plotmon.py
+quantify_core/visualization/pyqt_plotmon_remote.py
+quantify_core/visualization/ins_mon_widget/__init__.py
+quantify_core/visualization/ins_mon_widget/qc_snapshot_widget.py
+tests/__init__.py
+tests/test_headers_and_copyright.py
+tests/analysis/test_allxy_analysis.py
+tests/analysis/test_base_analysis.py
+tests/analysis/test_echo_analysis.py
+tests/analysis/test_fitting_models.py
+tests/analysis/test_interpolation_analysis.py
+tests/analysis/test_optimization_analysis.py
+tests/analysis/test_rabi_analysis.py
+tests/analysis/test_ramsey_analysis.py
+tests/analysis/test_spectroscopy_analysis.py
+tests/analysis/test_t1_analysis.py
+tests/analysis/test_types.py
+tests/data/__init__.py
+tests/data/test_data_handling.py
+tests/data/test_types.py
+tests/measurement/__init__.py
+tests/measurement/test_measurement_control.py
+tests/measurement/test_types.py
+tests/test_data/__init__.py
+tests/test_data/transmon_test_config.json
+tests/test_data/20200430/20200430-170837-001-315f36-Cosine test/dataset.hdf5
+tests/test_data/20200430/20200430-170837-001-315f36-Cosine test/analysis_Basic1DAnalysis/processed_dataset.hdf5
+tests/test_data/20200430/20200430-170837-001-315f36-Cosine test/analysis_Basic1DAnalysis/quantities_of_interest.json
+tests/test_data/20200430/20200430-170837-001-315f36-Cosine test/analysis_DummyAnalysisSubclassArgs/processed_dataset.hdf5
+tests/test_data/20200430/20200430-170837-001-315f36-Cosine test/analysis_DummyAnalysisSubclassArgs/quantities_of_interest.json
+tests/test_data/20200430/20200430-170837-001-315f36-Cosine test/analysis_DummyAnalysisSubclassRaisesA/processed_dataset.hdf5
+tests/test_data/20200430/20200430-170837-001-315f36-Cosine test/analysis_DummyAnalysisSubclassRaisesA/quantities_of_interest.json
+tests/test_data/20200504/20200504-191556-002-4209ee-2D Cosine test/dataset.hdf5
+tests/test_data/20200814/20200814-134652-492-fbf254-save/snapshot.json
+tests/test_data/20201124/20201124-184709-137-8a5112-(0) Spec IF=0.000 MHz/dataset.hdf5
+tests/test_data/20201124/20201124-184716-237-918bee-(1) Spec IF=20.000 MHz/dataset.hdf5
+tests/test_data/20201124/20201124-184722-988-0463d4-(2) Spec IF=-20.000 MHz/dataset.hdf5
+tests/test_data/20201124/20201124-184729-618-85970f-(3) Spec IF=40.000 MHz/dataset.hdf5
+tests/test_data/20201124/20201124-184736-341-3628d4-(4) Spec IF=-40.000 MHz/dataset.hdf5
+tests/test_data/20210118/20210118-202044-211-58ddb0-heterodyne_spectroscopy_mockDev/dataset.hdf5
+tests/test_data/20210118/20210118-202044-211-58ddb0-heterodyne_spectroscopy_mockDev/snapshot.json
+tests/test_data/20210118/20210118-202044-211-58ddb0-heterodyne_spectroscopy_mockDev/analysis_Basic1DAnalysis/processed_dataset.hdf5
+tests/test_data/20210118/20210118-202044-211-58ddb0-heterodyne_spectroscopy_mockDev/analysis_Basic1DAnalysis/quantities_of_interest.json
+tests/test_data/20210118/20210118-202044-211-58ddb0-heterodyne_spectroscopy_mockDev/analysis_Basic1DAnalysis/figs_mpl/Line plot x0-y0.png
+tests/test_data/20210118/20210118-202044-211-58ddb0-heterodyne_spectroscopy_mockDev/analysis_Basic1DAnalysis/figs_mpl/Line plot x0-y0.svg
+tests/test_data/20210118/20210118-202044-211-58ddb0-heterodyne_spectroscopy_mockDev/analysis_Basic1DAnalysis/figs_mpl/Line plot x0-y1.png
+tests/test_data/20210118/20210118-202044-211-58ddb0-heterodyne_spectroscopy_mockDev/analysis_Basic1DAnalysis/figs_mpl/Line plot x0-y1.svg
+tests/test_data/20210126/20210126-162726-170-de4f78-TWPA_pump_8.3300GHz_heterodyne_spectroscopy_mockDevmock-coarse/dataset.hdf5
+tests/test_data/20210126/20210126-162726-170-de4f78-TWPA_pump_8.3300GHz_heterodyne_spectroscopy_mockDevmock-coarse/snapshot.json
+tests/test_data/20210227/20210227-172939-723-53d82c-Resonator_power_id6_4.612GHz/dataset.hdf5
+tests/test_data/20210227/20210227-172939-723-53d82c-Resonator_power_id6_4.612GHz/analysis_Basic2DAnalysis/processed_dataset.hdf5
+tests/test_data/20210227/20210227-172939-723-53d82c-Resonator_power_id6_4.612GHz/analysis_Basic2DAnalysis/quantities_of_interest.json
+tests/test_data/20210227/20210227-172939-723-53d82c-Resonator_power_id6_4.612GHz/analysis_Basic2DAnalysis/figs_mpl/Heatmap x0x1-y0.svg
+tests/test_data/20210227/20210227-172939-723-53d82c-Resonator_power_id6_4.612GHz/analysis_Basic2DAnalysis/figs_mpl/Heatmap x0x1-y1.svg
+tests/test_data/20210227/20210227-172939-723-53d82c-Resonator_power_id6_4.612GHz/analysis_Basic2DAnalysis/figs_mpl/Linecuts x0x1-y0.svg
+tests/test_data/20210227/20210227-172939-723-53d82c-Resonator_power_id6_4.612GHz/analysis_Basic2DAnalysis/figs_mpl/Linecuts x0x1-y1.svg
+tests/test_data/20210227/20210227-174714-680-31df85-Resonator_id7_4.660GHz/dataset.hdf5
+tests/test_data/20210305/.DS_Store
+tests/test_data/20210305/20210305-152943-497-ad8670-Resonator_id2_4.483GHz/dataset.hdf5
+tests/test_data/20210305/20210305-152943-497-ad8670-Resonator_id2_4.483GHz/analysis_ResonatorSpectroscopyAnalysis/processed_dataset.hdf5
+tests/test_data/20210305/20210305-152943-497-ad8670-Resonator_id2_4.483GHz/analysis_ResonatorSpectroscopyAnalysis/quantities_of_interest.json
+tests/test_data/20210305/20210305-154735-413-142768-Resonator_id2_4.483GHz/dataset.hdf5
+tests/test_data/20210305/20210305-154735-413-142768-Resonator_id2_4.483GHz/analysis_ResonatorSpectroscopyAnalysis/processed_dataset.hdf5
+tests/test_data/20210305/20210305-154735-413-142768-Resonator_id2_4.483GHz/analysis_ResonatorSpectroscopyAnalysis/quantities_of_interest.json
+tests/test_data/20210305/20210305-160157-184-3c17e9-Resonator_id4_4.541GHz/dataset.hdf5
+tests/test_data/20210305/20210305-160157-184-3c17e9-Resonator_id4_4.541GHz/analysis_ResonatorSpectroscopyAnalysis/processed_dataset.hdf5
+tests/test_data/20210305/20210305-160157-184-3c17e9-Resonator_id4_4.541GHz/analysis_ResonatorSpectroscopyAnalysis/quantities_of_interest.json
+tests/test_data/20210305/20210305-161550-671-982c6d-Resonator_id5_4.577GHz/dataset.hdf5
+tests/test_data/20210305/20210305-161550-671-982c6d-Resonator_id5_4.577GHz/analysis_ResonatorSpectroscopyAnalysis/processed_dataset.hdf5
+tests/test_data/20210305/20210305-161550-671-982c6d-Resonator_id5_4.577GHz/analysis_ResonatorSpectroscopyAnalysis/quantities_of_interest.json
+tests/test_data/20210319/20210319-094728-327-69b211-load_settings_test/snapshot.json
+tests/test_data/20210322/20210322-205253-758-6689ca-T1 at 4.715GHz/dataset.hdf5
+tests/test_data/20210322/20210322-205253-758-6689ca-T1 at 4.715GHz/analysis_T1Analysis/processed_dataset.hdf5
+tests/test_data/20210322/20210322-205253-758-6689ca-T1 at 4.715GHz/analysis_T1Analysis/quantities_of_interest.json
+tests/test_data/20210331/20210331-133734-718-aa9c83 AllXY q0/dataset.hdf5
+tests/test_data/20210331/20210331-133734-718-aa9c83 AllXY q0/analysis_Basic1DAnalysis/processed_dataset.hdf5
+tests/test_data/20210331/20210331-133734-718-aa9c83 AllXY q0/analysis_Basic1DAnalysis/quantities_of_interest.json
+tests/test_data/20210417/20210417-191934-749-41de74-custom cosine/dataset.hdf5
+tests/test_data/20210417/20210417-191934-749-41de74-custom cosine/analysis_Basic1DAnalysis/processed_dataset.hdf5
+tests/test_data/20210417/20210417-191934-749-41de74-custom cosine/analysis_Basic1DAnalysis/quantities_of_interest.json
+tests/test_data/20210417/20210417-191934-749-41de74-custom cosine/analysis_Basic1DAnalysis/figs_mpl/Line plot x0-y0.png
+tests/test_data/20210419/20210419-153127-883-fa4508-Rabi oscillation at 4.515GHz/dataset.hdf5
+tests/test_data/20210419/20210419-153127-883-fa4508-Rabi oscillation at 4.515GHz/analysis_RabiAnalysis/processed_dataset.hdf5
+tests/test_data/20210419/20210419-153127-883-fa4508-Rabi oscillation at 4.515GHz/analysis_RabiAnalysis/quantities_of_interest.json
+tests/test_data/20210419/20210419-170747-902-9c5a05-Offset_calibration/dataset.hdf5
+tests/test_data/20210419/20210419-173649-456-23c5f3-AllXY q0/dataset.hdf5
+tests/test_data/20210420/20210420-001339-580-97bdef-Echo at 4.715GHz/dataset.hdf5
+tests/test_data/20210422/20210422-104958-297-7d6034-Ramsey oscillation at 4.715GHz/dataset.hdf5
+tests/test_data/20210702/20210702-181952-363-4efa9d-Resonator spectroscopy test_transmock/dataset.hdf5
+tests/test_data/20210702/20210702-181952-363-4efa9d-Resonator spectroscopy test_transmock/snapshot.json
+tests/test_data/20210702/20210702-181952-363-4efa9d-Resonator spectroscopy test_transmock/analysis_BasicAnalysis/dataset_processed.hdf5
+tests/test_data/20210702/20210702-181952-363-4efa9d-Resonator spectroscopy test_transmock/analysis_BasicAnalysis/quantities_of_interest.json
+tests/test_data/20210702/20210702-181952-363-4efa9d-Resonator spectroscopy test_transmock/analysis_BasicAnalysis/figs_mpl/Line plot x0-y0.png
+tests/test_data/20210702/20210702-181952-363-4efa9d-Resonator spectroscopy test_transmock/analysis_BasicAnalysis/figs_mpl/Line plot x0-y0.svg
+tests/test_data/20210702/20210702-181952-363-4efa9d-Resonator spectroscopy test_transmock/analysis_BasicAnalysis/figs_mpl/Line plot x0-y1.png
+tests/test_data/20210702/20210702-181952-363-4efa9d-Resonator spectroscopy test_transmock/analysis_BasicAnalysis/figs_mpl/Line plot x0-y1.svg
+tests/test_data/20210702/20210702-181952-363-4efa9d-Resonator spectroscopy test_transmock/analysis_ResonatorSpectroscopyAnalysis/dataset_processed.hdf5
+tests/test_data/20210702/20210702-181952-363-4efa9d-Resonator spectroscopy test_transmock/analysis_ResonatorSpectroscopyAnalysis/quantities_of_interest.json
+tests/test_data/20210702/20210702-181952-363-4efa9d-Resonator spectroscopy test_transmock/analysis_ResonatorSpectroscopyAnalysis/figs_mpl/S21-MagnPhase.png
+tests/test_data/20210702/20210702-181952-363-4efa9d-Resonator spectroscopy test_transmock/analysis_ResonatorSpectroscopyAnalysis/figs_mpl/S21-MagnPhase.svg
+tests/test_data/20210702/20210702-181952-363-4efa9d-Resonator spectroscopy test_transmock/analysis_ResonatorSpectroscopyAnalysis/figs_mpl/S21-RealImag.png
+tests/test_data/20210702/20210702-181952-363-4efa9d-Resonator spectroscopy test_transmock/analysis_ResonatorSpectroscopyAnalysis/figs_mpl/S21-RealImag.svg
+tests/test_data/20210702/20210702-181952-363-4efa9d-Resonator spectroscopy test_transmock/analysis_ResonatorSpectroscopyAnalysis/figs_mpl/S21-complex.png
+tests/test_data/20210702/20210702-181952-363-4efa9d-Resonator spectroscopy test_transmock/analysis_ResonatorSpectroscopyAnalysis/figs_mpl/S21-complex.svg
+tests/test_data/20210702/20210702-182000-238-f0c6b4-Resonator power scan test_transmock_power/dataset.hdf5
+tests/test_data/20210702/20210702-182000-238-f0c6b4-Resonator power scan test_transmock_power/snapshot.json
+tests/test_data/20210702/20210702-182000-238-f0c6b4-Resonator power scan test_transmock_power/analysis_Basic2DAnalysis/dataset_processed.hdf5
+tests/test_data/20210702/20210702-182000-238-f0c6b4-Resonator power scan test_transmock_power/analysis_Basic2DAnalysis/quantities_of_interest.json
+tests/test_data/20210702/20210702-182000-238-f0c6b4-Resonator power scan test_transmock_power/analysis_Basic2DAnalysis/figs_mpl/Heatmap x0x1-y0.png
+tests/test_data/20210702/20210702-182000-238-f0c6b4-Resonator power scan test_transmock_power/analysis_Basic2DAnalysis/figs_mpl/Heatmap x0x1-y0.svg
+tests/test_data/20210702/20210702-182000-238-f0c6b4-Resonator power scan test_transmock_power/analysis_Basic2DAnalysis/figs_mpl/Heatmap x0x1-y1.png
+tests/test_data/20210702/20210702-182000-238-f0c6b4-Resonator power scan test_transmock_power/analysis_Basic2DAnalysis/figs_mpl/Heatmap x0x1-y1.svg
+tests/test_data/20210702/20210702-182000-238-f0c6b4-Resonator power scan test_transmock_power/analysis_Basic2DAnalysis/figs_mpl/Linecuts x0x1-y0.png
+tests/test_data/20210702/20210702-182000-238-f0c6b4-Resonator power scan test_transmock_power/analysis_Basic2DAnalysis/figs_mpl/Linecuts x0x1-y0.svg
+tests/test_data/20210702/20210702-182000-238-f0c6b4-Resonator power scan test_transmock_power/analysis_Basic2DAnalysis/figs_mpl/Linecuts x0x1-y1.png
+tests/test_data/20210702/20210702-182000-238-f0c6b4-Resonator power scan test_transmock_power/analysis_Basic2DAnalysis/figs_mpl/Linecuts x0x1-y1.svg
+tests/test_data/20210702/20210702-182000-238-f0c6b4-Resonator power scan test_transmock_power/analysis_ResonatorPowerScanAnalysis/dataset_processed.hdf5
+tests/test_data/20210702/20210702-182000-238-f0c6b4-Resonator power scan test_transmock_power/analysis_ResonatorPowerScanAnalysis/quantities_of_interest.json
+tests/test_data/20210702/20210702-182000-238-f0c6b4-Resonator power scan test_transmock_power/analysis_ResonatorPowerScanAnalysis/figs_mpl/Heatmap x0x1-y0.png
+tests/test_data/20210702/20210702-182000-238-f0c6b4-Resonator power scan test_transmock_power/analysis_ResonatorPowerScanAnalysis/figs_mpl/Heatmap x0x1-y0.svg
+tests/test_data/20210702/20210702-182000-238-f0c6b4-Resonator power scan test_transmock_power/analysis_ResonatorPowerScanAnalysis/figs_mpl/Heatmap x0x1-y1.png
+tests/test_data/20210702/20210702-182000-238-f0c6b4-Resonator power scan test_transmock_power/analysis_ResonatorPowerScanAnalysis/figs_mpl/Heatmap x0x1-y1.svg
+tests/test_data/20210702/20210702-182000-238-f0c6b4-Resonator power scan test_transmock_power/analysis_ResonatorPowerScanAnalysis/figs_mpl/frequency_vs_power.png
+tests/test_data/20210702/20210702-182000-238-f0c6b4-Resonator power scan test_transmock_power/analysis_ResonatorPowerScanAnalysis/figs_mpl/frequency_vs_power.svg
+tests/test_data/20210702/20210702-182000-238-f0c6b4-Resonator power scan test_transmock_power/analysis_ResonatorPowerScanAnalysis/figs_mpl/q_factor_vs_power.png
+tests/test_data/20210702/20210702-182000-238-f0c6b4-Resonator power scan test_transmock_power/analysis_ResonatorPowerScanAnalysis/figs_mpl/q_factor_vs_power.svg
+tests/test_data/empty/nothing
+tests/utilities/__init__.py
+tests/utilities/test_experiment_helpers.py
+tests/utilities/test_general.py
+tests/utilities/test_inspect_utils.py
+tests/visualization/test_SI_utilities.py
+tests/visualization/test_instrument_monitor.py
+tests/visualization/test_mpl_plotting.py
+tests/visualization/test_pyqt_plotmon.py

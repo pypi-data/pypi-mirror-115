@@ -1,0 +1,368 @@
+{
+    "instruments": {
+        "test_transmock_power": {
+            "parameters": {
+                "IDN": {
+                    "value": null,
+                    "ts": null,
+                    "label": "IDN",
+                    "name": "IDN",
+                    "unit": ""
+                },
+                "init_duration": {
+                    "value": 0.0002,
+                    "ts": "2021-07-02 18:20:00",
+                    "label": "init_duration",
+                    "name": "init_duration",
+                    "unit": "s"
+                },
+                "mw_amp180": {
+                    "value": null,
+                    "ts": "2021-07-02 18:20:00",
+                    "label": "$\\pi-pulse amplitude$",
+                    "name": "mw_amp180",
+                    "unit": "V"
+                },
+                "mw_motzoi": {
+                    "value": 0,
+                    "ts": "2021-07-02 18:20:00",
+                    "label": "mw_motzoi",
+                    "name": "mw_motzoi",
+                    "unit": ""
+                },
+                "mw_pulse_duration": {
+                    "value": 2e-08,
+                    "ts": "2021-07-02 18:20:00",
+                    "label": "mw_pulse_duration",
+                    "name": "mw_pulse_duration",
+                    "unit": "s"
+                },
+                "mw_ef_amp180": {
+                    "value": null,
+                    "ts": "2021-07-02 18:20:00",
+                    "label": "mw_ef_amp180",
+                    "name": "mw_ef_amp180",
+                    "unit": "V"
+                },
+                "mw_port": {
+                    "value": "test_transmock_power:mw",
+                    "ts": "2021-07-02 18:20:00",
+                    "label": "mw_port",
+                    "name": "mw_port",
+                    "unit": ""
+                },
+                "fl_port": {
+                    "value": "test_transmock_power:fl",
+                    "ts": "2021-07-02 18:20:00",
+                    "label": "fl_port",
+                    "name": "fl_port",
+                    "unit": ""
+                },
+                "ro_port": {
+                    "value": "test_transmock_power:res",
+                    "ts": "2021-07-02 18:20:00",
+                    "label": "ro_port",
+                    "name": "ro_port",
+                    "unit": ""
+                },
+                "mw_01_clock": {
+                    "value": "test_transmock_power.01",
+                    "ts": "2021-07-02 18:20:00",
+                    "label": "mw_01_clock",
+                    "name": "mw_01_clock",
+                    "unit": ""
+                },
+                "mw_12_clock": {
+                    "value": "test_transmock_power.12",
+                    "ts": "2021-07-02 18:19:52",
+                    "label": "mw_12_clock",
+                    "name": "mw_12_clock",
+                    "unit": ""
+                },
+                "ro_clock": {
+                    "value": "test_transmock_power.ro",
+                    "ts": "2021-07-02 18:20:00",
+                    "label": "ro_clock",
+                    "name": "ro_clock",
+                    "unit": ""
+                },
+                "freq_01": {
+                    "value": null,
+                    "ts": "2021-07-02 18:20:00",
+                    "label": "Qubit frequency",
+                    "name": "freq_01",
+                    "unit": "Hz"
+                },
+                "freq_12": {
+                    "value": null,
+                    "ts": null,
+                    "label": "Frequency of the 12 transition",
+                    "name": "freq_12",
+                    "unit": "Hz"
+                },
+                "ro_freq": {
+                    "value": null,
+                    "ts": "2021-07-02 18:20:00",
+                    "label": "Readout frequency",
+                    "name": "ro_freq",
+                    "unit": "Hz"
+                },
+                "ro_pulse_amp": {
+                    "value": 0.5,
+                    "ts": "2021-07-02 18:20:00",
+                    "label": "ro_pulse_amp",
+                    "name": "ro_pulse_amp",
+                    "unit": "V"
+                },
+                "ro_pulse_duration": {
+                    "value": 3e-07,
+                    "ts": "2021-07-02 18:20:00",
+                    "label": "ro_pulse_duration",
+                    "name": "ro_pulse_duration",
+                    "unit": "s"
+                },
+                "ro_pulse_type": {
+                    "value": "square",
+                    "ts": "2021-07-02 18:20:00",
+                    "label": "ro_pulse_type",
+                    "name": "ro_pulse_type",
+                    "unit": ""
+                },
+                "ro_pulse_delay": {
+                    "value": 3e-07,
+                    "ts": "2021-07-02 18:19:52",
+                    "label": "Readout pulse delay",
+                    "name": "ro_pulse_delay",
+                    "unit": "s"
+                },
+                "ro_acq_delay": {
+                    "value": 0,
+                    "ts": "2021-07-02 18:20:00",
+                    "label": "ro_acq_delay",
+                    "name": "ro_acq_delay",
+                    "unit": "s"
+                },
+                "ro_acq_integration_time": {
+                    "value": 1e-06,
+                    "ts": "2021-07-02 18:20:00",
+                    "label": "ro_acq_integration_time",
+                    "name": "ro_acq_integration_time",
+                    "unit": "s"
+                },
+                "spec_pulse_duration": {
+                    "value": 8e-06,
+                    "ts": "2021-07-02 18:19:52",
+                    "label": "spec_pulse_duration",
+                    "name": "spec_pulse_duration",
+                    "unit": "s"
+                },
+                "spec_pulse_frequency": {
+                    "value": 4715000000.0,
+                    "ts": "2021-07-02 18:19:52",
+                    "label": "spec_pulse_frequency",
+                    "name": "spec_pulse_frequency",
+                    "unit": "Hz"
+                },
+                "spec_pulse_amp": {
+                    "value": 0.5,
+                    "ts": "2021-07-02 18:19:52",
+                    "label": "spec_pulse_amp",
+                    "name": "spec_pulse_amp",
+                    "unit": "V"
+                },
+                "spec_pulse_clock": {
+                    "value": "test_transmock_power.01",
+                    "ts": "2021-07-02 18:19:52",
+                    "label": "spec_pulse_clock",
+                    "name": "spec_pulse_clock",
+                    "unit": ""
+                },
+                "acquisition": {
+                    "value": "SSBIntegrationComplex",
+                    "ts": "2021-07-02 18:20:00",
+                    "label": "acquisition",
+                    "name": "acquisition",
+                    "unit": ""
+                },
+                "ro_acq_weight_type": {
+                    "value": "SSB",
+                    "ts": "2021-07-02 18:20:00",
+                    "label": "ro_acq_weight_type",
+                    "name": "ro_acq_weight_type",
+                    "unit": ""
+                },
+                "device_cfg_backend": {
+                    "value": "quantify_scheduler.compilation.add_pulse_information_transmon",
+                    "ts": "2021-07-02 18:20:00",
+                    "label": "device_cfg_backend",
+                    "name": "device_cfg_backend",
+                    "unit": ""
+                }
+            },
+            "name": "test_transmock_power"
+        },
+        "test_transmock_power.mock_resonator": {
+            "parameters": {
+                "IDN": {
+                    "value": null,
+                    "ts": null,
+                    "label": "IDN",
+                    "name": "IDN",
+                    "unit": ""
+                },
+                "noise_level": {
+                    "value": 0.005,
+                    "ts": "2021-07-02 18:19:52",
+                    "label": "noise_level",
+                    "name": "noise_level",
+                    "unit": "V"
+                },
+                "resonant_frequency": {
+                    "value": 4482000000.0,
+                    "ts": "2021-07-02 18:19:52",
+                    "label": "resonant_frequency",
+                    "name": "resonant_frequency",
+                    "unit": "Hz"
+                },
+                "dispersive_shift": {
+                    "value": -3000000.0,
+                    "ts": "2021-07-02 18:19:52",
+                    "label": "dispersive_shift",
+                    "name": "dispersive_shift",
+                    "unit": "Hz"
+                },
+                "amplitude_low": {
+                    "value": 0.1,
+                    "ts": "2021-07-02 18:19:52",
+                    "label": "amplitude_low",
+                    "name": "amplitude_low",
+                    "unit": "V"
+                },
+                "amplitude_high": {
+                    "value": 0.4,
+                    "ts": "2021-07-02 18:19:52",
+                    "label": "amplitude_high",
+                    "name": "amplitude_high",
+                    "unit": "V"
+                },
+                "Ql": {
+                    "value": 4900,
+                    "ts": "2021-07-02 18:19:52",
+                    "label": "Ql",
+                    "name": "Ql",
+                    "unit": "SI_PREFIX_ONLY"
+                },
+                "Qe": {
+                    "value": 6500,
+                    "ts": "2021-07-02 18:19:52",
+                    "label": "Qe",
+                    "name": "Qe",
+                    "unit": "SI_PREFIX_ONLY"
+                },
+                "A": {
+                    "value": 0.0045,
+                    "ts": "2021-07-02 18:19:52",
+                    "label": "A",
+                    "name": "A",
+                    "unit": "V"
+                },
+                "theta": {
+                    "value": -0.12714301693783137,
+                    "ts": "2021-07-02 18:19:52",
+                    "label": "theta",
+                    "name": "theta",
+                    "unit": ""
+                },
+                "phi_v": {
+                    "value": -3.8e-07,
+                    "ts": "2021-07-02 18:19:52",
+                    "label": "phi_v",
+                    "name": "phi_v",
+                    "unit": "s"
+                },
+                "phi_0": {
+                    "value": 1700,
+                    "ts": "2021-07-02 18:19:52",
+                    "label": "phi_0",
+                    "name": "phi_0",
+                    "unit": ""
+                },
+                "alpha": {
+                    "value": 0.99,
+                    "ts": "2021-07-02 18:19:52",
+                    "label": "alpha",
+                    "name": "alpha",
+                    "unit": ""
+                }
+            },
+            "name": "test_transmock_power.mock_resonator"
+        },
+        "ic_test_transmock_power": {
+            "parameters": {
+                "IDN": {
+                    "value": null,
+                    "ts": null,
+                    "label": "IDN",
+                    "name": "IDN",
+                    "unit": ""
+                },
+                "components": {
+                    "value": [],
+                    "ts": "2021-07-02 18:19:52",
+                    "label": "components",
+                    "name": "components",
+                    "unit": ""
+                }
+            },
+            "name": "ic_test_transmock_power"
+        },
+        "test_mc": {
+            "parameters": {
+                "IDN": {
+                    "value": null,
+                    "ts": null,
+                    "label": "IDN",
+                    "name": "IDN",
+                    "unit": ""
+                },
+                "verbose": {
+                    "value": true,
+                    "ts": "2021-07-02 18:20:00",
+                    "label": "verbose",
+                    "name": "verbose",
+                    "unit": ""
+                },
+                "on_progress_callback": {
+                    "value": null,
+                    "ts": null,
+                    "label": "on_progress_callback",
+                    "name": "on_progress_callback",
+                    "unit": ""
+                },
+                "instr_plotmon": {
+                    "value": null,
+                    "ts": null,
+                    "label": "instr_plotmon",
+                    "name": "instr_plotmon",
+                    "unit": ""
+                },
+                "instrument_monitor": {
+                    "value": null,
+                    "ts": null,
+                    "label": "instrument_monitor",
+                    "name": "instrument_monitor",
+                    "unit": ""
+                },
+                "update_interval": {
+                    "value": 0.5,
+                    "ts": "2021-07-02 18:20:00",
+                    "label": "update_interval",
+                    "name": "update_interval",
+                    "unit": ""
+                }
+            },
+            "name": "test_mc"
+        }
+    },
+    "parameters": {}
+}
