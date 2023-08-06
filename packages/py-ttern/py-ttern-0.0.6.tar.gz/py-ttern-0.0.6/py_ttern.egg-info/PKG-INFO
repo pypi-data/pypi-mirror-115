@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: py-ttern
+Version: 0.0.6
+Summary: Python module for simple pattern matching
+Home-page: https://github.com/Z-Shang/pyttern
+Author: zshang
+Author-email: z@gilgamesh.me
+License: MIT
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+
+# Pyttern
+
+Simple ans stupid pattern matching for Python
+
+## Usage
+
+With the decorator `@pyttern`, you can do pattern matching easily with:
+
+```python
+@pyttern
+def pat(a, b): {
+  (1, 2): a,
+  (3, 4): b,
+  (_1, 5): _1 * 5,
+  _ : 100,
+}
+
+pat(1, 2) => 1
+pat(3, 4) => 4
+pat(10, 5) => 50
+pat(0, 0) => 100
+```
+
+For a more complex example, check out: [Tick](tests/tick.py)
+
