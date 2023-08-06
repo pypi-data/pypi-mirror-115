@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+google_duylk/__init__.py
+google_duylk/user_agents.txt.gz
+google_duylk_monitaz.egg-info/PKG-INFO
+google_duylk_monitaz.egg-info/SOURCES.txt
+google_duylk_monitaz.egg-info/dependency_links.txt
+google_duylk_monitaz.egg-info/requires.txt
+google_duylk_monitaz.egg-info/top_level.txt
+scripts/google
