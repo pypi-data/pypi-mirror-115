@@ -1,0 +1,9 @@
+LICENSE.md
+README.md
+setup.py
+tracardi_dot_notation/dot_accessor.py
+tracardi_dot_notation.egg-info/PKG-INFO
+tracardi_dot_notation.egg-info/SOURCES.txt
+tracardi_dot_notation.egg-info/dependency_links.txt
+tracardi_dot_notation.egg-info/requires.txt
+tracardi_dot_notation.egg-info/top_level.txt
