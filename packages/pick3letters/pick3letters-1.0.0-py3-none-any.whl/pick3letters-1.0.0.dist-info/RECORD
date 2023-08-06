@@ -1,0 +1,11 @@
+pick3letters/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pick3letters/generate.py,sha256=romOK9mQKwtN5HXAHW_eej9vHp6Xd1hia8OTcDdxtkg,3362
+pick3letters/magnet.py,sha256=JUVeRI4B17cRCp9d0C_AOLkDZhZdgidpeRhImB-61ws,1003
+pick3letters/pick3letters.py,sha256=rDo6uBgmWYHRlO-fR4VsoxooSggUHjZK4njNOarHhnE,5726
+pick3letters/prefixes.py,sha256=lD-u1GMTadTKm4q1UosmzOjiHG6fvinagRLDSBeijzo,5120
+pick3letters-1.0.0.dist-info/COPYING,sha256=DZak_2itbUtvHzD3E7GNUYSRK6jdOJ-GqncQ2weavLA,34523
+pick3letters-1.0.0.dist-info/METADATA,sha256=tyEBNgZXm1qGxFPFSwiqYrAj8gaj4CZTZInBFsPY-Yk,2718
+pick3letters-1.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pick3letters-1.0.0.dist-info/entry_points.txt,sha256=5dptBjXLZliBp2T1WREAYF32RtDeWWOiZQzccm6O3VQ,65
+pick3letters-1.0.0.dist-info/top_level.txt,sha256=PXa1cl-NwrRZaCayRSRRB8SF9ory68MHmdp0zFj24sg,13
+pick3letters-1.0.0.dist-info/RECORD,,
