@@ -1,0 +1,9 @@
+h5py
+objax
+pytest
+plum-dispatch
+optax
+tqdm>=4.38
+
+[EXPTS]
+olive-oil-ml
