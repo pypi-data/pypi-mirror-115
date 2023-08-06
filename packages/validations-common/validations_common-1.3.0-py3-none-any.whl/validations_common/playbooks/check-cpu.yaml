@@ -1,0 +1,15 @@
+---
+- hosts: localhost
+  gather_facts: false
+  vars:
+    metadata:
+      name: Verify if the server fits the CPU core requirements
+      description: >
+        Make sure that the server has enough CPU cores.
+      groups:
+        - prep
+        - backup-and-restore
+        - pre-introspection
+    minimal_cpu_count: 8
+  roles:
+    - check_cpu
