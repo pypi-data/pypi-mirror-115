@@ -1,0 +1,4 @@
+numpy
+imageio
+IPython
+imageio-ffmpeg
