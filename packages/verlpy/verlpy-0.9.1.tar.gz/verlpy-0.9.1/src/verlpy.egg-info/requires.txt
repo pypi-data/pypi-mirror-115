@@ -1,0 +1,4 @@
+cocotb
+gym
+stable_baselines3
+matplotlib

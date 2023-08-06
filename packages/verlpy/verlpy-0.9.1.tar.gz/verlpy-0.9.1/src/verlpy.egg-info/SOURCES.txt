@@ -1,0 +1,13 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+src/verlpy/RL_helper.py
+src/verlpy/__init__.py
+src/verlpy/cocotb_env.py
+src/verlpy/utils.py
+src/verlpy.egg-info/PKG-INFO
+src/verlpy.egg-info/SOURCES.txt
+src/verlpy.egg-info/dependency_links.txt
+src/verlpy.egg-info/requires.txt
+src/verlpy.egg-info/top_level.txt
