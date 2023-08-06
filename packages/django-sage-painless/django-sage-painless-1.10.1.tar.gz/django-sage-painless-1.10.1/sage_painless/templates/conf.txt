@@ -1,0 +1,7 @@
+"""
+Auto Generated conf.py
+You may need to change some parts
+"""
+{% for key in config %}
+{{key}}={% if config.get(key) is string %}'{{config.get(key)}}'{%else%}{{config.get(key)}}{%endif%}
+{%endfor%}
