@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+twitchplays_retroarch/__init__.py
+twitchplays_retroarch/__main__.py
+twitchplays_retroarch.egg-info/PKG-INFO
+twitchplays_retroarch.egg-info/SOURCES.txt
+twitchplays_retroarch.egg-info/dependency_links.txt
+twitchplays_retroarch.egg-info/entry_points.txt
+twitchplays_retroarch.egg-info/requires.txt
+twitchplays_retroarch.egg-info/top_level.txt

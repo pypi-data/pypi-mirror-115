@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: twitchplays-retroarch
+Version: 0.2.0
+Summary: witch Plays application for RetroArch/FBNeo, with input queue and chat control toggle shortcut.
+Home-page: https://github.com/JMcB17/twitchplays-retroarch
+Author: JMcB
+Author-email: joel.mcbride1@live.com
+License: GPLv3
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Natural Language :: English
+Classifier: Topic :: Games/Entertainment
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# twitchplays-retroarch
+Twitch Plays application for RetroArch/FBNeo, with input queue and chat control toggle shortcut
+
+
