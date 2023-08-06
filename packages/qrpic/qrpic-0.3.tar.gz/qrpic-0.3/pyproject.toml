@@ -1,0 +1,34 @@
+[tool.poetry]
+name = "qrpic"
+version = "0.3"
+authors = ["Mischa Krueger <makmanx64@gmail.com>"]
+homepage = "https://gitlab.com/Makman2/qrpic"
+readme = "README.rst"
+description = "Create beautiful QR-codes with perfectly fitting logos!"
+keywords = ["qr-code", "imaging", "logo"]
+license = "MIT"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Environment :: Console",
+    "Intended Audience :: End Users/Desktop",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Topic :: Artistic Software",
+    "Topic :: Printing",
+]
+
+[tool.poetry.scripts]
+"qrpic" = "qrpic.main:run"
+
+[tool.poetry.urls]
+"Bug Tracker" = "https://gitlab.com/Makman2/qrpic/issues"
+"Source Code" = "https://gitlab.com/Makman2/qrpic/-/tree/master"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+Shapely = "^1.7.1"
+qrcodegen = "^1.6.0"
+"svg.path" = "^4.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^3.4"
