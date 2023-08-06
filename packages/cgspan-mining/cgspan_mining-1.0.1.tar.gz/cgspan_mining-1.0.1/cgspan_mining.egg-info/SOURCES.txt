@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+cgspan_mining/__init__.py
+cgspan_mining/__main__.py
+cgspan_mining/cgspan.py
+cgspan_mining/config.py
+cgspan_mining/dfscode.py
+cgspan_mining/graph.py
+cgspan_mining/main.py
+cgspan_mining/trie.py
+cgspan_mining.egg-info/PKG-INFO
+cgspan_mining.egg-info/SOURCES.txt
+cgspan_mining.egg-info/dependency_links.txt
+cgspan_mining.egg-info/top_level.txt
