@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+cosSim/__init__.py
+cosSim/cli.py
+cosSim/parseClass.py
+cosSim/similarity.py
+cosSim/text_preprocessor.py
+cosSim.egg-info/PKG-INFO
+cosSim.egg-info/SOURCES.txt
+cosSim.egg-info/dependency_links.txt
+cosSim.egg-info/entry_points.txt
+cosSim.egg-info/requires.txt
+cosSim.egg-info/top_level.txt
