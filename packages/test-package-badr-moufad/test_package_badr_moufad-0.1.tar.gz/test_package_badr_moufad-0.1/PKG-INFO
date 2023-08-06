@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: test_package_badr_moufad
+Version: 0.1
+Summary: A test repo to publish a python package to PyPI
+Home-page: https://github.com/Badr-MOUFAD/test_package_badr_moufad
+Author: Badr MOUFAD
+Author-email: Badr.MOUFAD@emines.um6p.ma
+License: MIT
+Download-URL: https://github.com/Badr-MOUFAD/test_package_badr_moufad/archive/refs/tags/v0.1.tar.gz
+Description: UNKNOWN
+Keywords: Example,test_package
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
