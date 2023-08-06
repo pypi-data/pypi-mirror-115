@@ -1,0 +1,7 @@
+README.md
+setup.py
+docker_compose_env.egg-info/PKG-INFO
+docker_compose_env.egg-info/SOURCES.txt
+docker_compose_env.egg-info/dependency_links.txt
+docker_compose_env.egg-info/requires.txt
+docker_compose_env.egg-info/top_level.txt
