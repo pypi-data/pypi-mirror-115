@@ -1,0 +1,10 @@
+GoogleNewsScraper/__init__.py,sha256=iNkw_dqauqKaD_ijh5-jLYDB6FS3IlbShYV04k7SqXY,6547
+GoogleNewsScraper/chromedriver/chromedriver,sha256=KKfUlENkq_e6Vyv1m_ej7cb7KGKCjFovkGCf9Nr3XIY,16805128
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/app.py,sha256=fGJXe6KV6AkVmbRfsSoIVHYW_MoJdz5HnRVZiNqVYus,110
+test/requirements.txt,sha256=b3WZHIP7v79K-HWf-22wUcdemqRbeLzP9dir5BxIlRo,32
+GoogleNewsScraper-0.0.3.dist-info/LICENSE,sha256=NMyy0yte4N1Gv4whBr3Hml2sWQTSEtS9QxbCtm7eqgw,1077
+GoogleNewsScraper-0.0.3.dist-info/METADATA,sha256=ZxazeLs4koxGzB34DxdETtoK1MEQx9qnJlpLQTDLN74,4535
+GoogleNewsScraper-0.0.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+GoogleNewsScraper-0.0.3.dist-info/top_level.txt,sha256=OQYNcVvAHmZTQ343OMvl_8Ij6R4UX2BQqpGdXHKNiYg,23
+GoogleNewsScraper-0.0.3.dist-info/RECORD,,
