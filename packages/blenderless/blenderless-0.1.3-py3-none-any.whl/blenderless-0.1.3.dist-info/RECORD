@@ -1,0 +1,13 @@
+blenderless/__init__.py,sha256=ddRvVres9eEEVkx8JEqsVJdWF6sminj5fTmzxYXt7vE,1214
+blenderless/blender_object.py,sha256=TR1eaXznP7TuAy8079tvbnZYkVCPJTvDCz9VeNpp28c,1414
+blenderless/camera.py,sha256=BGoUZaiyasbj2nUWsehhKioCXWK33Q3lCP3kc3j_sII,3712
+blenderless/cli.py,sha256=hLy9087cGrArYG46RB31yzzf7nk_0wDGaTXkn5U8HYc,2082
+blenderless/geometry.py,sha256=owYMhCINHBB8YMn4KXwfjZW1X0nSB0aKM5s1lB-nrrY,6261
+blenderless/material.py,sha256=LfljLvJzmvkMlSail4jccmuLcNLTIifhVarA_OABjbI,2178
+blenderless/scene.py,sha256=o5eq9rPYQE1CKW_N1-TTHm1LvpMvqJIDAgVbqom9QAI,5755
+blenderless/utils.py,sha256=Dh3eWgwRQo8-8CRvvmUAhPVe1eaRSjsM35zmVu7yENQ,591
+blenderless-0.1.3.dist-info/entry_points.txt,sha256=XGaTBD6-r4MB0eiFQxA93il3xi-aeCPsc3Rx-jBJfnU,51
+blenderless-0.1.3.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+blenderless-0.1.3.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+blenderless-0.1.3.dist-info/METADATA,sha256=hHFh22o9WGw-A9qDdhv7h_iPo96r3z_VsmKoOde0NWs,1539
+blenderless-0.1.3.dist-info/RECORD,,
