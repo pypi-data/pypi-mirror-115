@@ -1,0 +1,10 @@
+louvre_vision/__init__.py,sha256=nkj4-Xh4d71gwbvK22k53ifrS7CkPfofGHbnqQbkwZA,61
+louvre_vision/config.py,sha256=mYG-1NTKndIzLCeVohOQQTjfevgqOVwLJtiaZ-GdD5o,185
+louvre_vision/data_models.py,sha256=fXvU1uqsstGIQGNLseoAyTMX79C3JnLo_Ld2822m4Pw,3890
+louvre_vision/errors.py,sha256=iJAf8mFNPMoY0NwkCM8ZEAPPwvoXn-CyySFmWWFDhV8,99
+louvre_vision/images.py,sha256=p_dZYs0noR5RTVxZTriCfWn0DncSRgHAOv6CWBE_dw8,5552
+louvre_vision/methods.py,sha256=m7YCMtkCMTQtzuoEK9ROXACgos3o_KVCLzhWY2Jds2U,2044
+elvia_louvre_vision-0.0.3.dist-info/METADATA,sha256=lQk9wan34IocSd6LInzVeyJzXO9-d6oCJJIEla1UzPs,577
+elvia_louvre_vision-0.0.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+elvia_louvre_vision-0.0.3.dist-info/top_level.txt,sha256=Pd-AnTMGWtKtCRhc4ehN5spg6knL-Z_0nDfNF1Affw0,14
+elvia_louvre_vision-0.0.3.dist-info/RECORD,,
