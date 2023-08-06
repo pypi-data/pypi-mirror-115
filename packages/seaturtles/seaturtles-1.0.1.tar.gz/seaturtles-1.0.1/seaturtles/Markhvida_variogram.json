@@ -1,0 +1,132 @@
+{
+    "PC1": [
+        {
+            "Type": "isotropic_nested_covariance",
+            "co": 2.5,
+            "c1": 4.52,
+            "a1": 15,
+            "c2": 6.78,
+            "a2": 250
+        }
+    ],
+    "PC2": [
+        {
+            "Type": "isotropic_nested_covariance",
+            "co": 0.5,
+            "c1": 1.4,
+            "a1": 10,
+            "c2": 2.6,
+            "a2": 160
+        }
+    ],
+    "PC3": [
+        {
+            "Type": "isotropic_nested_covariance",
+            "co": 0.15,
+            "c1": 0.42,
+            "a1": 15,
+            "c2": 0.63,
+            "a2": 160
+        }
+    ],
+    "PC4": [
+        {
+            "Type": "isotropic_nested_covariance",
+            "co": 0.15,
+            "c1": 0.225,
+            "a1": 10,
+            "c2": 0.225,
+            "a2": 120
+        }
+    ],
+    "PC5": [
+        {
+            "Type": "nugget_covariance",
+            "co": 0.314321867
+        }
+    ],
+    "PC6": [
+        {
+            "Type": "nugget_covariance",
+            "co": 0.190749536
+        }
+    ],
+    "PC7": [
+        {
+            "Type": "nugget_covariance",
+            "co": 0.137846759
+        }
+    ],
+    "PC8": [
+        {
+            "Type": "nugget_covariance",
+            "co": 0.111283843
+        }
+    ],
+    "PC9": [
+        {
+            "Type": "nugget_covariance",
+            "co": 0.096499281
+        }
+    ],
+    "PC10": [
+        {
+            "Type": "nugget_covariance",
+            "co": 0.071736797
+        }
+    ],
+    "PC11": [
+        {
+            "Type": "nugget_covariance",
+            "co": 0.064816215
+        }
+    ],
+    "PC12": [
+        {
+            "Type": "nugget_covariance",
+            "co": 0.054076636
+        }
+    ],
+    "PC13": [
+        {
+            "Type": "nugget_covariance",
+            "co": 0.051188751
+        }
+    ],
+    "PC14": [
+        {
+            "Type": "nugget_covariance",
+            "co": 0.04331642
+        }
+    ],
+    "PC15": [
+        {
+            "Type": "nugget_covariance",
+            "co": 0.041398046
+        }
+    ],
+    "PC16": [
+        {
+            "Type": "nugget_covariance",
+            "co": 0.034663672
+        }
+    ],
+    "PC17": [
+        {
+            "Type": "nugget_covariance",
+            "co": 0.018796994
+        }
+    ],
+    "PC18": [
+        {
+            "Type": "nugget_covariance",
+            "co": 0.002856941
+        }
+    ],
+    "PC19": [
+        {
+            "Type": "nugget_covariance",
+            "co": 0.000360645
+        }
+    ]
+}

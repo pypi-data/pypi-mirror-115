@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+seaturtles/EQHazard.jar
+seaturtles/Markhvida_Table_1.csv
+seaturtles/Markhvida_variogram.json
+seaturtles/__init__.py
+seaturtles/base.py
+seaturtles/constants.py
+seaturtles/main.py
+seaturtles.egg-info/PKG-INFO
+seaturtles.egg-info/SOURCES.txt
+seaturtles.egg-info/dependency_links.txt
+seaturtles.egg-info/requires.txt
+seaturtles.egg-info/top_level.txt
