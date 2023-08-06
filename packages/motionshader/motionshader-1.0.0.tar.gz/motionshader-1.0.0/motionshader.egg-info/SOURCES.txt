@@ -1,0 +1,8 @@
+setup.py
+motionshader/__init__.py
+motionshader/core.py
+motionshader.egg-info/PKG-INFO
+motionshader.egg-info/SOURCES.txt
+motionshader.egg-info/dependency_links.txt
+motionshader.egg-info/requires.txt
+motionshader.egg-info/top_level.txt
