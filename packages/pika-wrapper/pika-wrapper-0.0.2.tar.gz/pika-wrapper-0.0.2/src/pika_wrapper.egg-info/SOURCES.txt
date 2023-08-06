@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/pika_wrapper/__init__.py
+src/pika_wrapper/client.py
+src/pika_wrapper.egg-info/PKG-INFO
+src/pika_wrapper.egg-info/SOURCES.txt
+src/pika_wrapper.egg-info/dependency_links.txt
+src/pika_wrapper.egg-info/not-zip-safe
+src/pika_wrapper.egg-info/top_level.txt
