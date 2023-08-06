@@ -1,0 +1,17 @@
+README.md
+setup.cfg
+setup.py
+stackboost/__init__.py
+stackboost/core.py
+stackboost.egg-info/PKG-INFO
+stackboost.egg-info/SOURCES.txt
+stackboost.egg-info/dependency_links.txt
+stackboost.egg-info/requires.txt
+stackboost.egg-info/top_level.txt
+stackboost/utils/__init__.py
+stackboost/utils/activation_functions.py
+stackboost/utils/data_manipulation.py
+stackboost/utils/data_operation.py
+stackboost/utils/errors.py
+stackboost/utils/loss_functions.py
+stackboost/utils/optimization.py
