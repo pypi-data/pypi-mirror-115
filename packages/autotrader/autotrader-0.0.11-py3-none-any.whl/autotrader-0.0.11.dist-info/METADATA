@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: autotrader
+Version: 0.0.11
+Summary: A Python-based platform for developing, optimising and deploying automated trading systems.
+Home-page: https://kieran-mackle.github.io/AutoTrader/
+Author: Kieran Mackle
+Author-email: kemackle98@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/kieran-mackle/AutoTrader/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: yfinance
+Requires-Dist: pyfiglet
+Requires-Dist: PyYAML
+Requires-Dist: v20
+Requires-Dist: bokeh
+Requires-Dist: plotly
+
+# AutoTrader
+AutoTrader is an event-driven platform intended to help in the development, optimisation and live deployment of automated trading systems. 
+A basic level of experience with Python is recommended for using AutoTrader, but the [website](https://kieran-mackle.github.io/AutoTrader) 
+aims to make using it as easy as possible with detailed tutorials.
+
+## Features
+- [Backtesting](https://kieran-mackle.github.io/AutoTrader/tutorials/backtesting)
+- [Integrated data feeds](https://kieran-mackle.github.io/AutoTrader/tutorials/price-data)
+- [Interactive visualisation](https://kieran-mackle.github.io/AutoTrader/interactive-visualisation)
+- [Built-in parameter optimisation](https://kieran-mackle.github.io/AutoTrader/tutorials/optimisation)
+- [Library of custom indicators](https://kieran-mackle.github.io/AutoTrader/docs/indicators)
+- [Price streaming](https://kieran-mackle.github.io/AutoTrader/docs/autostream)
+- [Live trading](https://kieran-mackle.github.io/AutoTrader/supported-api)
+- [Email notification system](https://kieran-mackle.github.io/AutoTrader/docs/emailing)
+
+## Installation
+```
+pip install autotrader
+```
+## Documentation
+AutoTrader is well documented on the [project website](https://kieran-mackle.github.io/AutoTrader/docs).
+
+There is also a detailed [Quick Start Guide](https://kieran-mackle.github.io/AutoTrader/tutorials/getting-autotrader).
+
+## Demo Chart
+![MACD-backtest-demo](https://user-images.githubusercontent.com/60687606/128127659-bf81fdd2-c246-4cd1-b86d-ef624cac50a7.png)
+
+## License
+GNU General Public License v3.0
+
+
