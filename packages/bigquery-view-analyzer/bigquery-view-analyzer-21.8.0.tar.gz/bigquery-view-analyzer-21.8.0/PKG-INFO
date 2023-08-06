@@ -1,0 +1,153 @@
+Metadata-Version: 2.1
+Name: bigquery-view-analyzer
+Version: 21.8.0
+Summary: CLI tool for managing + visualising BigQuery authorised views
+Home-page: https://github.com/servian/bigquery-view-analyzer
+License: MIT
+Keywords: bigquery,google-cloud,iam
+Author: Chris Tippett
+Author-email: git@christippett.dev
+Requires-Python: >=3.7,<3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Utilities
+Provides-Extra: tests
+Requires-Dist: anytree (>=2.8.0,<3.0.0)
+Requires-Dist: click (>=8.0.1,<9.0.0)
+Requires-Dist: colorama (>=0.4.4,<0.5.0)
+Requires-Dist: coveralls (>=3.2.0,<4.0.0); extra == "tests"
+Requires-Dist: google-cloud-bigquery (>=2.23.2,<3.0.0)
+Requires-Dist: yaspin (>=2.0.0,<3.0.0)
+Project-URL: Repository, https://github.com/servian/bigquery-view-analyzer
+Description-Content-Type: text/markdown
+
+# BigQuery View Analyzer
+
+[![PyPI version](https://img.shields.io/pypi/v/bigquery-view-analyzer.svg)](https://pypi.python.org/pypi/bigquery-view-analyzer)
+[![Python versions](https://img.shields.io/pypi/pyversions/bigquery-view-analyzer.svg)](https://pypi.python.org/pypi/bigquery-view-analyzer)
+[![Build status](https://img.shields.io/travis/servian/bigquery-view-analyzer.svg)](https://travis-ci.org/servian/bigquery-view-analyzer)
+[![Github license](https://img.shields.io/github/license/servian/bigquery-view-analyzer.svg)](https://github.com/servian/bigquery-view-analyzer)
+
+## Description
+
+`bigquery-view-analyzer` is a command-line tool for visualizing dependencies and managing permissions between BigQuery views.
+
+To authorize a view, permissions must be granted at a dataset level for every view/table referenced in the view definition. This requirement cascades down to every view that's referenced by the parent view, they too must have permissions granted for every view/table they reference - and so on. This can quickly become difficult to manage if you have many nested views across multiple datasets and/or projects.
+
+`bigquery-view-analyzer` automatically resolves these dependencies and applies the relevant permissions to all views and datasets referenced by the parent view.
+
+## Installation
+
+```bash
+$ pip install bigquery-view-analyzer
+```
+
+## Usage
+
+```bash
+$ bqva --help
+```
+
+[![asciicast](https://asciinema.org/a/252724.svg)](https://asciinema.org/a/252724)
+
+### Example: CLI
+
+![Example tree](/docs/example.png)
+
+Given the above datasets and tables in BigQuery, to authorize `bqva-demo:dataset_4.shared_view`, the following views would need to be authorized with each of the following datasets:
+
+- Authorized views for **`dataset_1`**
+  - `bqva-demo:dataset_3.view_a_b_c_d`
+- Authorized views for **`dataset_2`**
+  - `bqva-demo:dataset_3.view_a_b_c_d`
+  - `bqva-demo:dataset_1.view_c`
+- Authorized views for **`dataset_3`**
+  - `bqva-demo:dataset_2.view_d`
+  - `bqva-demo:dataset_4.shared_view`
+
+You can easily visualize the above view hierarchy using the `bqva tree` command.
+
+```bash
+# View dependency tree and authorization status for 'bqva-demo:dataset_4.shared_view'
+$ bqva tree --status --no-key --view "bqva-demo:dataset_4.shared_view"
+bqva-demo:dataset_4.shared_view
+└── bqva-demo:dataset_3.view_a_b_c_d (⨯)
+    ├── bqva-demo:dataset_1.table_a (⨯)
+    ├── bqva-demo:dataset_1.table_b (⨯)
+    ├── bqva-demo:dataset_1.view_c (⨯)
+    │   └── bqva-demo:dataset_2.table_c (⨯)
+    └── bqva-demo:dataset_2.view_d (⨯)
+        └── bqva-demo:dataset_3.table_d (⨯)
+```
+
+Permissions can be applied automatically to all datasets referenced by the parent view using the `bqva authorize` command.
+
+```bash
+# Apply all permissions required by 'bqva-demo:dataset_4.shared_view'
+$ bqva authorize --view "bqva-demo:dataset_4.shared_view"
+bqva-demo:dataset_4.shared_view
+└── bqva-demo:dataset_3.view_a_b_c_d (✓)
+    ├── bqva-demo:dataset_1.table_a (✓)
+    ├── bqva-demo:dataset_1.table_b (✓)
+    ├── bqva-demo:dataset_1.view_c (✓)
+    │   └── bqva-demo:dataset_2.table_c (✓)
+    └── bqva-demo:dataset_2.view_d (✓)
+        └── bqva-demo:dataset_3.table_d (✓)
+```
+
+If you want to revoke permissions for a view, you can do that too!
+
+```bash
+# Revoke all permissions granted to 'bqva-demo:dataset_4.shared_view'
+$ bqva revoke --view "bqva-demo:dataset_4.shared_view"
+bqva-demo:dataset_4.shared_view
+└── bqva-demo:dataset_3.view_a_b_c_d (⨯)
+    ├── bqva-demo:dataset_1.table_a (⨯)
+    ├── bqva-demo:dataset_1.table_b (⨯)
+    ├── bqva-demo:dataset_1.view_c (⨯)
+    │   └── bqva-demo:dataset_2.table_c (⨯)
+    └── bqva-demo:dataset_2.view_d (⨯)
+        └── bqva-demo:dataset_3.table_d (⨯)
+```
+
+### Example: Python library
+
+You can import the library within a Python project to programatically apply permissions to multiple datasets.
+
+```python
+
+from bqva import ViewAnalyzer
+from google.cloud import bigquery
+
+client = bigquery.Client()
+
+
+def auth_views(datasets=[], **kwargs):
+    # get all datasets by default if none provided
+    if len(datasets) == 0:
+        datasets = client.list_datasets(max_results=1)
+    for dataset in datasets:
+        dataset = client.dataset(dataset)
+        tables = client.list_tables(dataset.dataset_id)
+        for table in tables:
+            if table.table_type == "VIEW":
+                view = ViewAnalyzer(
+                    project_id=table.project,
+                    dataset_id=table.dataset_id,
+                    view_id=table.table_id,
+                )
+                view.apply_permissions()
+            print(
+                f"Authorised view: {table.project}.{table.dataset_id}.{table.table_id}"
+            )
+
+
+auth_views(["dataset_a", "dataset_b"])
+
+```
+
