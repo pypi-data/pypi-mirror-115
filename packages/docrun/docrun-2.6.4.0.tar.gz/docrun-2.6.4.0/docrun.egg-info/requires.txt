@@ -1,0 +1,7 @@
+websockets
+paramiko
+psutil
+ipykernel
+matlab-kernel
+powershell_kernel
+bash_kernel
