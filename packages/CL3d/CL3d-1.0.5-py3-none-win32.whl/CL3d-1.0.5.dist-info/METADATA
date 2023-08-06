@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: CL3d
+Version: 1.0.5
+Summary: laser editor
+Home-page: https://www.github.com
+Author: cygrid
+Author-email: michael.li@cygrid.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3.7
+Requires-Dist: PyQt5 (>=5.0.0)
+Requires-Dist: ecdsa (>=0.16.0)
+Requires-Dist: wmi (>=1.5.0)
+
+UNKNOWN
+
+
