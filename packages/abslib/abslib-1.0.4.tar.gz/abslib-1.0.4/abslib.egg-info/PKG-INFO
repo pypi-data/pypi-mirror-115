@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: abslib
+Version: 1.0.4
+Summary: Library for working with algebraic bayesian networks
+Home-page: https://github.com/sthfaceless/abs-lib
+Author: Tatiana Stelmakh
+Author-email: st087048@student.spbu.ru
+License: MIT
+Keywords: abs,statistic
+Platform: UNKNOWN
+License-File: LICENSE
+
+UNKNOWN
+
