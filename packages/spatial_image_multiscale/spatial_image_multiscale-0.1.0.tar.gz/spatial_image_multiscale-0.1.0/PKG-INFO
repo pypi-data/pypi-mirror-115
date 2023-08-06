@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: spatial_image_multiscale
+Version: 0.1.0
+Summary: spatial-image-multiscale
+Home-page: https://github.com/spatial-image/spatial-image-multiscale
+Author: Matt McCormick
+Author-email: matt.mccormick@kitware.com
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Dist: numpy
+Requires-Dist: xarray
+Requires-Dist: pytest ; extra == "test"
+Requires-Dist: fsspec ; extra == "test"
+Requires-Dist: ipfsspec ; extra == "test"
+Requires-Dist: zarr ; extra == "test"
+Provides-Extra: test
+
+# spatial-image-multiscale
+
+[![Test](https://github.com/spatial-image/spatial-image-multiscale/actions/workflows/test.yml/badge.svg)](https://github.com/spatial-image/spatial-image-multiscale/actions/workflows/test.yml)
+
+Generate a multiscale [spatial-image].
+
+## Development
+
+Contributions are welcome and appreciated.
+
+To run the test suite:
+
+```
+git clone https://github.com/spatial-image/spatial-image-multiscale
+cd spatial-image-multiscale
+pip install -r requirements.txt -r requirements-dev.txt
+pytest
+```
+
+[spatial-image]: https://github.com/spatial-image/spatial-image
+[Xarray]: https://xarray.pydata.org/en/stable/
+
