@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: redocker
+Version: 0.1.1
+Summary: reverse docker image, container and network
+License: BSD
+Author: junka
+Requires-Python: >=3.5,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9

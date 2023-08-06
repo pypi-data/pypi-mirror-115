@@ -1,0 +1,3 @@
+[console_scripts]
+redocker=redocker.redocker:main
+
