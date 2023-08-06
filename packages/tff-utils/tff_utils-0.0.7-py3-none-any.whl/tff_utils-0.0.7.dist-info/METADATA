@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: tff-utils
+Version: 0.0.7
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: tensorflow-federated-nightly
+Requires-Dist: ConfigArgParse (>=1.4)
+
+UNKNOWN
+
