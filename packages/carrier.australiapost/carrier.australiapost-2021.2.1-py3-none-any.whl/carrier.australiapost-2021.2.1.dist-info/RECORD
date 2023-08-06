@@ -1,0 +1,6 @@
+australiapost_lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+australiapost_lib/error.py,sha256=i8nQeHyk0n9iu5IRPaqnBsLKIgCQVmmV7NlYFp8wR50,499
+australiapost_lib/tracking.py,sha256=Uq9HxHa4yfKK_AjThJJo7Qmwvv9LdiJ_VusQ-kRSHTM,1344
+carrier.australiapost-2021.2.1.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+carrier.australiapost-2021.2.1.dist-info/METADATA,sha256=xfrdMEb16_TNND7oH5fX6U9pYbj9GclEXwFeM5OkbJ8,1177
+carrier.australiapost-2021.2.1.dist-info/RECORD,,
