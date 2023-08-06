@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+fileconv/Converter.py
+fileconv/__init__.py
+fileconv/cli.py
+fileconv.egg-info/PKG-INFO
+fileconv.egg-info/SOURCES.txt
+fileconv.egg-info/dependency_links.txt
+fileconv.egg-info/entry_points.txt
+fileconv.egg-info/requires.txt
+fileconv.egg-info/top_level.txt
