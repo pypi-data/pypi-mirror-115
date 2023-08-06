@@ -1,0 +1,13 @@
+cgspan_mining/__init__.py,sha256=2rwYZ5jLo1m3fViFPS6nlFC2cjOK_EpsVtjrxUslz2M,169
+cgspan_mining/__main__.py,sha256=fxCKBEHK3F3DKXdQgptexIQLbMYLTL70aUg3TrEAC7E,206
+cgspan_mining/cgspan.py,sha256=AoXHDWMkqgefOZ86gofz_EdcEvP5D1pPTgnBbNd73ws,46978
+cgspan_mining/config.py,sha256=pdnwy9XwO2ipaVXf1PFunx18J30L-LyLJKx8IDZncqk,1605
+cgspan_mining/dfscode.py,sha256=qra9k2Ad5kot-OpYPICBYcsU3rO-Vkwcn7ISXiOymu0,5321
+cgspan_mining/graph.py,sha256=rESnRxATYywfz2o6TIFz6qb9L929o-WeUgCWf8ScvDI,13051
+cgspan_mining/main.py,sha256=-kYdPofbLbprlZEoSM87uABUJJBTI3sKy882HDeNGxs,1038
+cgspan_mining/trie.py,sha256=Fjkg0NzD9GH1CskCQXS6FmiqvHTofW0l8d6oNx7ISQw,919
+cgspan_mining-1.0.1.dist-info/LICENSE,sha256=LSVeeJQbfoFLpbR4Z1x5BjNiPcsP0YjeMFu2rFNaYfo,1124
+cgspan_mining-1.0.1.dist-info/METADATA,sha256=LVXyBCTs6CEmsgNa5iF7rjmdYwZ4zrUpeWYIheHk2Zk,2556
+cgspan_mining-1.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+cgspan_mining-1.0.1.dist-info/top_level.txt,sha256=dzd0GSrw0HLFqcswVZ9GNe7Yvh0EORVSohozCwftNho,14
+cgspan_mining-1.0.1.dist-info/RECORD,,
