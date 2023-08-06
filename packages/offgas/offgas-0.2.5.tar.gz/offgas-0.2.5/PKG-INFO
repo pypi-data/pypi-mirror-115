@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: offgas
+Version: 0.2.5
+Summary: Python interface to the USB CO2 monitor
+Home-page: https://github.com/Pinkers/offgas
+Author: Aaron Kirby
+Author-email: aaronkirby2000@gmail.com
+License: MIT License
+Download-URL: https://github.com/Pinkers/offgas/archive/v0.2.5.zip
+Description: 
+        **offgas** is a Python interface to the USB CO2 monitor with monitoring and
+        logging tools for fermentation. Based on co2meter package from Valdimir Fillanov,
+        but with updates for offgas measurement in R&D fermentation context.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3

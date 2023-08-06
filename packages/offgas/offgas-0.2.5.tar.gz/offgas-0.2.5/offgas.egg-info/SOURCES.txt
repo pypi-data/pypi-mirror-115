@@ -1,0 +1,13 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+offgas/__init__.py
+offgas/_version.py
+offgas/offgas.py
+offgas.egg-info/PKG-INFO
+offgas.egg-info/SOURCES.txt
+offgas.egg-info/dependency_links.txt
+offgas.egg-info/not-zip-safe
+offgas.egg-info/requires.txt
+offgas.egg-info/top_level.txt
