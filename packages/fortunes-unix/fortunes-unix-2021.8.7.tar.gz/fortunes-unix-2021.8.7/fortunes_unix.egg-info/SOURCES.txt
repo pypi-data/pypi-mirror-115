@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.cfg
+data/unix-philosophy
+data/unix-philosophy.dat
+data/unix-quotes
+data/unix-quotes.dat
+fortunes_unix.egg-info/PKG-INFO
+fortunes_unix.egg-info/SOURCES.txt
+fortunes_unix.egg-info/dependency_links.txt
+fortunes_unix.egg-info/top_level.txt
