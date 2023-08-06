@@ -1,0 +1,3 @@
+[console_scripts]
+pyocutil = pyocutil.main:main
+
