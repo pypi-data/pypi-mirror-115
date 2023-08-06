@@ -1,0 +1,17 @@
+scipy
+numpy==1.19.2
+pandas
+scikit-learn
+jupyter
+matplotlib
+seaborn
+requests
+pvlib
+cvxpy>=1.1.0
+Mosek
+
+[dev]
+check-manifest
+
+[test]
+coverage
