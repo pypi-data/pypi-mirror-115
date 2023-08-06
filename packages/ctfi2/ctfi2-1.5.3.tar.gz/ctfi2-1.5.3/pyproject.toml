@@ -1,0 +1,9 @@
+[build-system]
+requires = [
+	"requests>=2.22.0",
+	"PyQt5>=5.9.2",
+	"simplejson>=3.16.0",
+	"setuptools>=45.2.0",
+	"wheel"
+]
+build-backend = "setuptools.build_meta"
