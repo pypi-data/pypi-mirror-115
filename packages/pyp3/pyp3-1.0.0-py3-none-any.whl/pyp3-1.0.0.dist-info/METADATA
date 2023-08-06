@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: pyp3
+Version: 1.0.0
+Summary: Pyp is a linux command line text manipulation tool similar to awk or sed, but which uses standard python string and list methods as well as custom functions evolved to generate fast results in an intense production environment.
+Home-page: https://github.com/donno2048/pyp3
+Author: Elisha Hollander
+Author-email: just4now666666@gmail.com
+License: UNKNOWN
+Project-URL: Documentation, https://github.com/donno2048/pyp3#readme
+Project-URL: Bug Reports, https://github.com/donno2048/pyp3/issues
+Project-URL: Source Code, https://github.com/donno2048/pyp3
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+
+# pyp3
+
+A minified [pyp](https://code.google.com/archive/p/pyp/) compatible with python3
+
+Pyp is a linux command line text manipulation tool similar to awk or sed, but which uses standard python string and list methods as well as custom functions evolved to generate fast results in an intense production environment.
+
+## Installation
+
+### From PyPI
+
+```sh
+pip3 install pyp3
+```
+
+### From GitHub
+
+```sh
+pip3 install git+https://github.com/donno2048/pyp3
+```
+
+## Usage
+
+Because pyp employs it's own internal piping syntax ("|") similar to unix pipes, complex operations can be proceduralized by feeding the output of one python command to the input of the next.
+
+This greatly simplifies the generation and troubleshooting of multistep operations without the use of temporary variables or nested parentheses. The variable "p" represents each line as a string, while "pp" is entire input as python list
+
+### Use it directly
+
+```sh
+ls | pyp3 "p[0] | pp.sort()" #gives sorted list of first letters of every line
+```
+
+## Use it as a python module
+
+```sh
+ls | python3 -m pyp3 "p.replace('.', ',')" #replaces . with ,
+```
+
+
