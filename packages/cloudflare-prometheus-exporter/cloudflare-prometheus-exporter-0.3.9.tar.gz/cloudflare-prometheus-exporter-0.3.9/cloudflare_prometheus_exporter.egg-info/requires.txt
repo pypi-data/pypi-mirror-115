@@ -1,0 +1,6 @@
+click
+requests
+pyyaml
+prometheus_client
+python-json-logger
+schedule
