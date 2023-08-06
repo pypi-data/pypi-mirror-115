@@ -1,0 +1,10 @@
+transformer_package/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+transformer_package/loss_functions/__init__.py,sha256=BivyvNYPKfxC_MW5xwx0zm2d4POKTogXlCBf3jDGmQY,100
+transformer_package/loss_functions/loss.py,sha256=q-4WgA7GB0byhHSncx2d00Nn8DprSYYlZXqhh1gRWZs,1083
+transformer_package/models/__init__.py,sha256=zwIyPccLk6s2AHdIXA6S9RtomzoSlzFNyNCZav0PFRs,206
+transformer_package/models/transformer.py,sha256=C6HLQZosBUMf2aw8yvPkFwWdc4toqdm77lgkOi74HX0,29137
+transformer_implementations-0.0.9.dist-info/LICENSE,sha256=EjBcXOQGnPWcTdQ2WPRJX8oUnFb5hYs9uJMhs9L9AWk,1091
+transformer_implementations-0.0.9.dist-info/METADATA,sha256=5MZrfTgybPai_3wkg2BScEBfnT_9i812mc3KPkbZWs8,4351
+transformer_implementations-0.0.9.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+transformer_implementations-0.0.9.dist-info/top_level.txt,sha256=mxOBC0gqhZ1D_DYAuWW8EUr36a_1Wu_SkwiTGJD5y34,21
+transformer_implementations-0.0.9.dist-info/RECORD,,
