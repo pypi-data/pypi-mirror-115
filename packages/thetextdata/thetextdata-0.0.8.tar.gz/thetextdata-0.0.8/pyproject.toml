@@ -1,0 +1,26 @@
+[build-system]
+requires = ["flit_core >=2,<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.metadata]
+module = "thetextdata"
+author = "Berk Gokden"
+author-email = "berkgokden@gmail.com"
+home-page = "https://github.com/bgokden/text-data"
+requires-python = ">=3.7"
+description-file = "README.md"
+classifiers = [
+    "License :: OSI Approved :: Apache Software License",
+    "Programming Language :: Python :: 3",
+]
+requires = [
+    "spacy>=3.0.5",
+    "spacy_universal_sentence_encoder>=0.4.1",
+    "veriservice>=0.0.34",
+    "pandas>=1.1.2",
+    "tensorflow_text>=2.4.0",
+    "scikit-learn>=0.24.1",
+]
+
+[tool.black]
+line-length = 100
