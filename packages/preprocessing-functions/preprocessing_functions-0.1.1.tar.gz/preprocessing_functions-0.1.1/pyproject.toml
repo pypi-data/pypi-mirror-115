@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "preprocessing_functions"
+version = "0.1.1"
+description = "Common preprocessing functions for image deep learning applications packaged independently in order to avoid installing hefty packages such as tensorflow or pytorch in production."
+authors = ["Panagiotis Galopoulos <gl.panagiotis@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+Pillow = "^8.3.1"
+numpy = "^1.19"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+tensorflow = "^2.5.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
