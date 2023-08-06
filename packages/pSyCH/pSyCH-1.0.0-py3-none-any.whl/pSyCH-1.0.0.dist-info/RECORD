@@ -1,0 +1,11 @@
+pSyCH/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pSyCH/scheduler.py,sha256=ZaB4ihYr7AOE6Nok14CJ6icI1KODOwPBBJJo5NXWu9g,29360
+pSyCH/server.py,sha256=O_2naOKkguc98zTuzqNNz0PzG7uetpHivApEkdoa6so,9904
+pSyCH/task.py,sha256=Mwwk6xXoYCT0X5YK6L3sJaiFtIaOnavjaqrfm5RxIU8,28416
+pSyCH/tests.py,sha256=WRUPUBSH7_YfQiUU0EEGv7qOwY5gipCJv8PRGFqCo4g,5982
+pSyCH/utils.py,sha256=C9XQBbawlkSwJjUDNm6pM5UHDIIyAhQwEqW5RTdiKL0,5819
+pSyCH-1.0.0.dist-info/LICENSE,sha256=L-tptU-Bh5Vx_p9nR1v0y85nGzwhqRZzDDM6gjj3g1Y,1057
+pSyCH-1.0.0.dist-info/METADATA,sha256=HpG94xk8xNzM4EUlKcZztD6AoNeTS5xJh2fGG0wVSeE,710
+pSyCH-1.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pSyCH-1.0.0.dist-info/top_level.txt,sha256=Vug-kliTeYO2vyOcbmQM7LLUJAUxvYt7x5zeMTzm9Mc,6
+pSyCH-1.0.0.dist-info/RECORD,,

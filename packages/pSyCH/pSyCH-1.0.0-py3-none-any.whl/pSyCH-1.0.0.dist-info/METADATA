@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: pSyCH
+Version: 1.0.0
+Summary: LaTeX generation for tables, math and figures
+Home-page: https://github.com/matiyau/pSyCH
+Author: Nishad Mandlik
+Author-email: mandliksg@gmail.com
+License: UNKNOWN
+Project-URL: Documentation, https://pSyCH.rtfd.io
+Project-URL: Bug Tracker, https://github.com/matiyau/pSyCH/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# ReadMe
+A Python package for generating pictorial representations of task schedules under various scheduling policies.
+
+
