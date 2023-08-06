@@ -1,0 +1,3 @@
+[console_scripts]
+videofy=videofy.__main__:main
+
