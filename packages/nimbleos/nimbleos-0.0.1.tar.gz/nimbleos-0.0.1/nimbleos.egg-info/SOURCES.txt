@@ -1,0 +1,5 @@
+setup.py
+nimbleos.egg-info/PKG-INFO
+nimbleos.egg-info/SOURCES.txt
+nimbleos.egg-info/dependency_links.txt
+nimbleos.egg-info/top_level.txt
