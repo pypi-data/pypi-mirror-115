@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+demo_pip_math/__init__.py
+demo_pip_math/math.py
+demo_pip_math.egg-info/PKG-INFO
+demo_pip_math.egg-info/SOURCES.txt
+demo_pip_math.egg-info/dependency_links.txt
+demo_pip_math.egg-info/top_level.txt
+tests/__init__.py
+tests/test_math.py
