@@ -1,0 +1,9 @@
+wasserstein/__init__.py,sha256=TVRSD4OD1Fy2HXoSfc2l6r-7gYZgv8NkmljbrkDu9m4,2357
+wasserstein/wasserstein.py,sha256=bEBfkFQRZK-IND8G-vQQZBDxOsbt1Bfg18m9wAjRaSU,66417
+wasserstein/_wasserstein.cpython-38-darwin.so,sha256=qTx32qcE8h6WNQXRmS-H0oaZqbO4MAPPFlVWrYgnrS0,1296944
+wasserstein/.dylibs/libomp.dylib,sha256=sBFoAMl263TR5GnPrmYEx8wk2H_h3qg8OA6HVe_iBMI,641008
+Wasserstein-1.0.1.dist-info/RECORD,,
+Wasserstein-1.0.1.dist-info/LICENSE,sha256=4lSoVDgxAbEitqiYyUNA0fWK-74K09_qyGhLFFCSs0w,41554
+Wasserstein-1.0.1.dist-info/WHEEL,sha256=RA4ju32EWHpO-G1BhxTQ3AwXQWjnnrzYGkM9skoN7_I,109
+Wasserstein-1.0.1.dist-info/top_level.txt,sha256=0FwkDx4xC33hHjr2XwadzvCHKVjIUA3aFpMfMbBhmLE,12
+Wasserstein-1.0.1.dist-info/METADATA,sha256=mXYoZhqjw03hKo0ozNnR3EXP3fi6FezF854y_EsgQ_I,2912
