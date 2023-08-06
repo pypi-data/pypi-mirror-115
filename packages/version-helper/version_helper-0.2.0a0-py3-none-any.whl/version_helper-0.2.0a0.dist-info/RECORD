@@ -1,0 +1,8 @@
+CHANGELOG.md,sha256=kor9iAidfNK2hbRQg0WkJ7vYKmEee93DSBm6H3ocHeA,2352
+version_helper/__init__.py,sha256=RpxHp7FXxOZlfW14RbBDoAZB1yk2mUb79MuiWsyIuVU,84
+version_helper/git_tools.py,sha256=QOOLY3Bw4P5YSf3O4ycnTNHXFrBCPnDD_ERukwbr_Vc,2118
+version_helper/version.py,sha256=692w97xoT-dKk7F5-TD79TUXuzXsXXrRFkn0fCv7LCQ,4267
+version_helper-0.2.0a0.dist-info/LICENSE.md,sha256=ObrTJ0Ul2L-w54ZSImL0oYIwTLS_GpjBjOjxNWEuPXE,1062
+version_helper-0.2.0a0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+version_helper-0.2.0a0.dist-info/METADATA,sha256=JM1gkq3jfDjtovpNZUZf6_zAfK_IIdzNSr5jE2PWkfw,2490
+version_helper-0.2.0a0.dist-info/RECORD,,
