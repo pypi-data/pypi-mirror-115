@@ -1,0 +1,13 @@
+lib_px_pkg_deps_channels/__init__.py,sha256=D7IektgdNYkrw7P7Xta5z521o8AGucaxEwmaZLyg9i8,240
+lib_px_pkg_deps_channels/file0.py,sha256=t3l_c7zbyetnaDQUWuQXXw9SCWw9cpGuTR1FdoCgWm4,2652
+lib_px_pkg_deps_channels/folder1/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lib_px_pkg_deps_channels/folder1/file1.py,sha256=U3W6oG5N9-IWf2Ee_yYAw2FF1RTAN44RQEpAuqC3mOA,2684
+lib_px_pkg_deps_channels/folder1/subfolder1/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lib_px_pkg_deps_channels/folder1/subfolder1/file3.py,sha256=inuCA7ITAjnhD5qeAfEIRtrP_Yq4iHefGlBFgXD7Ecc,2663
+lib_px_pkg_deps_channels/folder2/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lib_px_pkg_deps_channels/folder2/file2.py,sha256=RzCXiWPPqurMg0YxpPQtEJWSTVjAhRzzITTY9zIixQ8,2665
+multi_folder_pkg_deps_channels_insomniapx-0.0.1.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+multi_folder_pkg_deps_channels_insomniapx-0.0.1.dist-info/METADATA,sha256=GaI7uzMRkCOqOORS4B2OA7G29RYix9owfuxuQQAVOC4,658
+multi_folder_pkg_deps_channels_insomniapx-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+multi_folder_pkg_deps_channels_insomniapx-0.0.1.dist-info/top_level.txt,sha256=mYDv--PWeKWTHyipA2iectmD0CwGJvhFl_iTdvgpIqU,25
+multi_folder_pkg_deps_channels_insomniapx-0.0.1.dist-info/RECORD,,
