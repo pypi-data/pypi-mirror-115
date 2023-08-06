@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: nfl-pylon
+Version: 0.0.2
+Summary: A framework that wraps nflfastR functions for NFL data analytics
+Home-page: https://github.com/amogh-dambal/pylon
+Author: Amogh Dambal
+Author-email: amoghdambal@utexas.edu
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/amogh-dambla/pylon/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pylon
+Python 3.6 version of nflfastr
+
+
