@@ -1,0 +1,10 @@
+pshape/__init__.py,sha256=21rRle2sXrDz3gpRsIKWlC19nT5PFJkTesNrO7GUobM,242
+pshape/exceptions.py,sha256=vucpcnP0FX_CImrmXJINAehxXZiaKuj0UwTq4kYC4m8,429
+pshape/identify_backend.py,sha256=72u1IfFf7_Ac1giN3DPCuC2dQKNiGk9gP-zPOikZsz0,730
+pshape/metrics.py,sha256=7MLCvowzp9po3PZqQRkzia2Nb9bvk1xEiKb4avTWUcA,3227
+pshape/pshape.py,sha256=8n7OcY269BG17l2Qhv1LiNy4_D8nkjh1SoT0cQuqALk,6405
+pshape-0.2.0.dist-info/LICENCE.txt,sha256=bZz_ljAyPaixvSW1gMuIbIAMT12HJsvIlz4_KbWlr-M,1537
+pshape-0.2.0.dist-info/METADATA,sha256=Ug8aEG-Nw_0oFZpOiZ67cHJw8YhYu85CJ2x0YzA08jM,4332
+pshape-0.2.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pshape-0.2.0.dist-info/top_level.txt,sha256=aEhb_r8CjV8mg7Q1stKNFgLJJsA9b27gNQe3zmy4EWk,7
+pshape-0.2.0.dist-info/RECORD,,
