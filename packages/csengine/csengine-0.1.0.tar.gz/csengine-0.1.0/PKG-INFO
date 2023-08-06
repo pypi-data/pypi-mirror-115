@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: csengine
+Version: 0.1.0
+Summary: APP CORE
+Home-page: UNKNOWN
+Author: csdev
+Author-email: vmbdevel@gmail.com
+License: UNKNOWN
+Keywords: app core
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Provides-Extra: fastapi
+Provides-Extra: aioredis
+Provides-Extra: redis
+Provides-Extra: gcloud-aio
+Provides-Extra: gcloud
+Provides-Extra: rq
+Provides-Extra: es
+Provides-Extra: es-async
+License-File: LICENSE
+
+UNKNOWN
+
