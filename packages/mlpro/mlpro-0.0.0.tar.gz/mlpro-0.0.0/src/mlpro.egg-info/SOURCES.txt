@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/mlpro/__init__.py
+src/mlpro/helloworld.py
+src/mlpro.egg-info/PKG-INFO
+src/mlpro.egg-info/SOURCES.txt
+src/mlpro.egg-info/dependency_links.txt
+src/mlpro.egg-info/top_level.txt
