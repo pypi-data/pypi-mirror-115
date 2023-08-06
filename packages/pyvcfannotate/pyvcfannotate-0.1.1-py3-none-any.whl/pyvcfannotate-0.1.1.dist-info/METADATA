@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: pyvcfannotate
+Version: 0.1.1
+Summary: VCF annotation
+Home-page: https://github.com/ionox0/pyannotate
+Author: Ian Johnson
+Author-email: ionox0@gmail.com
+License: Apache Software License 2.0
+Keywords: pyvcfannotate
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.5
+Requires-Dist: PyVCF (==0.6.8)
+Requires-Dist: click (==8.0.1)
+Requires-Dist: requests (==2.26.0)
+
+# PyAnnotate
+Package for annotation of genomic variant files
+
+### Responsibilities
+- Extract relevant details from VCF records
+- Merge records with variant info from EXAC API
+- Write output to MAF format
+
+### Usage:
+- `pip install pyannotate`
+- `annotate_vcf --vcf_path my_variants.vcf`
+
