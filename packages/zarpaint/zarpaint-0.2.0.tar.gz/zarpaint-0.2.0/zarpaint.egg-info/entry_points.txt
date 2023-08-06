@@ -1,0 +1,6 @@
+[console_scripts]
+zarpaint = zarpaint._main:main
+
+[napari.plugin]
+zarpaint = zarpaint.plugin
+
