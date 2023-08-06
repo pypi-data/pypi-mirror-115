@@ -1,0 +1,11 @@
+fateslist/__init__.py,sha256=s3xkHzmGaX18NRQRLS24Kd_MgmKY0A1Qz9ZUXp7RBMk,409
+fateslist/classes.py,sha256=VQ-V6XAkuMN1OmQ_xdYefypFm349NR6RvdmhGxhLeno,4208
+fateslist/config.py,sha256=qHXYjeQNQQazXby0sfJIcbOaYxRfpmoujrwdkYShUZs,121
+fateslist/http.py,sha256=-Rr_KoCOS9PfglNAQr7ah4qtlRvn2-phHiMkPTNA5k0,2863
+fateslist/main.py,sha256=_cLdT5nCdnq-mO3UE4ihIW8QDLA0iDb9TTSSjehSx7E,9680
+fateslist/ws.py,sha256=98BpUPb6Do3CxPgfnLLstKfLkhRN4gCYVGuJ6bZLkmI,1931
+fateslist-0.1a0.dist-info/LICENSE,sha256=RWUdavRcZ0s53o-1lRPPAyyF7RUS7lf1I8xblQ-AUGY,1070
+fateslist-0.1a0.dist-info/METADATA,sha256=TKXKK9mk24T9XnT0D7LWZthAqmyjWKIG__7FMwxdmZU,884
+fateslist-0.1a0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+fateslist-0.1a0.dist-info/top_level.txt,sha256=iREwhqb8zLZojBtw_MtKHweGjka_z1nr6Oql5GAs-s4,10
+fateslist-0.1a0.dist-info/RECORD,,

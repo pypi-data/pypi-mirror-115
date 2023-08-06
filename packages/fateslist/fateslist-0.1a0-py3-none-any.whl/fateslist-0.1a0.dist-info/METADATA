@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: fateslist
+Version: 0.1a0
+Summary: fateslist.py is a API Wrapper for Fates List
+Home-page: https://github.com/cheesycod/fateslist.py
+Author: Rootspring
+Author-email: tor_needletail@outlook.com
+License: MIT
+Project-URL: Bug Tracker, https://github.com/cheesycod/fateslist.py/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: aiohttp
+Requires-Dist: loguru
+Requires-Dist: discord
+Requires-Dist: orjson
+
+# fateslist.py
+
+Work in progress library for Fates List
+
+## Issues And Contributing
+
+This API wrapper/library is maintained by ``Rootspring#6701``. If you wish to contribute to this project or report an issue, please make a Github Issue or a Pull Request (templates coming soon)
+
+
