@@ -1,0 +1,10 @@
+from setuptools import setup, find_packages
+
+setup(
+    name='{{kernel_name}}',
+    packages=find_packages(),
+    version='{{version}}',
+    description='{{description}}',
+    author='{{author}}',
+    install_requires={{reqs}}
+)
