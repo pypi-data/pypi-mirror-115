@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+./qualtrutils/__init__.py
+./qualtrutils/qualtrics.py
+qualtrutils/__init__.py
+qualtrutils/qualtrics.py
+qualtrutils.egg-info/PKG-INFO
+qualtrutils.egg-info/SOURCES.txt
+qualtrutils.egg-info/dependency_links.txt
+qualtrutils.egg-info/requires.txt
+qualtrutils.egg-info/top_level.txt
