@@ -1,0 +1,551 @@
+11/1 - Planning
+---------------
+Deadline: 12/31/20 (depending on what I decide to include here, this could end up being as short as a few days or as long as a few months. I think it's important to set some sort of soft timebox so this is it. Extending past this would be fine if I want to and wrapping up far earlier would also be fine.)
+
+Final Product: 
+    -addition of transformers-based data augmentation capabilitites to incendio. I expect this to include 3 methods though I'm open to change:
+		-mask filling: swap 1 or more words in the source
+		-text generation: truncate source and fill in the end with seq2seq
+		-paraphrase: pretty simple, just use pretrained model
+	Each method should have 3 possible interfaces:
+		-base function: the core functionality. Pass in a string and return an augmented string.
+		-composable random transform: It's possible this won't require anything different than the base function, but basically I want it to be super easy to plug these into a torch dataset. This would let us augment data on the fly. In reality, I suspect this would be way too slow and we'd want to pre-compute these, but it would be nice to have the option.
+		-CLI: provide the option for a user to run something like "incendio augment data/searches.csv --out_path data/searches-augmented.csv --mode mask --mask_n 2" to create a new file with augmented text. Maybe should support other common file structures, e.g. 1 file for each item.
+
+	-Optionally, this could include tasks such as:
+		-CLI: class to make it easier to construct a train.py script given a Trainer. Basically, I've found it still ends up being annoyingly slow to construct very similar training scripts for each project, even with all the boilerplate incendio.Trainer provides. There's a wide range in possible complexity here: on the high end, I have some fuzzy vision of something that identifies all the possible args/kwargs used in a script and jams them all into one train func so we get them as command line options. But maybe that's overcomplicating things and I just need to enforce a stricter approach to what is called in the train script and then call them in order (get_data, get_callbacks, get_metrics, etc.).
+		-finalize work from annotated gpt2 notebooks: port some attention-related layers/helpers to incendio. Some of this stuff might already be available in huggingface or pytorch but it wouldn't hurt to implement them myself anyway to better understand them.
+		-finalize and port work from spatial attention notebooks: probably too computationally intensive to be actually useful at this point, and it sounds like similar concepts may already be common. But it would be cool.
+		-layers/building blocks of lambda networks: would be cool and a good way to make me take the time to really understand what they're doing.
+		-various einops-based layers
+		-tensor debugger: inspired by image from einops tutorial, see if I can come up with something to make it easier to validate that a layer/model does what I think it does to a tensor. There are often cases where I think something's working but I want to 100% confirm that it's not jumbling up batches/axes in an unintended way. Could use a similar concept (perhaps an input image where every batch/row/column has a different "color" (rgb value)?) or see if I can do something similar to one of my img_wang strategies (attaching attributes to tensors to keep track of specific items in a batch; however, I've found it's hard to make these things stick. Many tensor operations seem to delete these, perhaps because they're copying or creating new tensors under the hood and base tensors don't have my added attributes. Might be solvable through monkeypatching.)
+		-massive overhaul to trainer: make it possible to access everything during training (set self.xb, self.yb every batch)? Or maybe a wiser approach is to mimic lightning and make it easier for user to overwrite certain steps (e.g. instead of loss = self.criterion(y, y_hat) call loss = self.compute_loss() (unsure of args at the moment, maybe none?) where "compute_loss" is a method of trainer, as opposed to self.criterion which is an attribute containing a torch loss function. Idea is we want it to be easier to do custom stuff like passing x to a loss function for contrastive loss or training a seq2seq model without unnecessarily duplicating tensors.
+		-Building + hosting docs - did I ever do this? I can't remember.
+		-better readmes - in the spirit of fleshing out the library.
+		-semi cheating since it's not incendio, but htools docs and readme - would be nice to update those too.
+
+Concepts: 
+    -interface design: practice writing useful, user-friendly components. I don't know that these need to be particularly customizable (i.e. user (me) will be using the finished product, not building custom variants), but they should be flexible enough that if useful new pipelines types emerge, I can easily add them.
+	-features of python packaging: strengthen knowledge of CLIs, optional dependencies, etc. I like the idea of letting users install incendio (with no deps) or incendio[all] (all deps). 
+	-optional: if implementing things like lambda layers or finishing off attention-related layers, this will involve some solid ML comprehension.
+
+Tech: 
+	-Can't think of anything new I'd need to use or that would be particularly useful here. Perhaps focusing on getting github actions working since I'm pretty sure Incendio's still failing whatever gets run on git pushes.
+	
+Requirements:
+
+	-Complete the transformers augmentation bullet points outlined in Final Product.
+	-Update docs and readme.
+	-Other items are optional, though I think it would be a good idea to close out some of these items and this is a good opportunity. But I don't want to require it since this was initially mean to be a quick project to re-energize me prior to a larger, more ambitious project.
+
+Pre-Mortem:
+    What could go wrong?
+
+	-I get bored and tempted by other project distractions, e.g. Liza.ai. 
+		[SOLUTION] I made the requirements flexible enough that this project should be pretty quick to wrap up if I want to. If I find myself getting distracted, toss the optional ideas for now and just churn out the mandatory items. This should let me move on to other stuff pretty quickly. Also, this system has been highly effective so even if I get distracted it won't be enough to overpower my discipline. If img_wang didn't break me, I can't imagine a scenario where this does. Famous last words, etc., but I really don't see that happening.
+
+	-I spend most of my time struggling with nbdev to get docs and workflows working, and this frustration ends up overpowering the intended refreshing benefits.
+		[SOLUTION] Even if this is true, it would still be a worthwhile project - building docs, at least, seems pretty important. And so far the project's been pretty fun. And I can think of this as part of the reality of library building.
+
+	-Code burnout due to work coding, incendio coding, and DS/Algos coding.
+		[SOLUTION] Can back off the DS/Algos coding a little if truly necessary (e.g. weekends only? It would be nice to get the daily accumulation benefit but I do think that might be pushing things cognitively), or fit that in as post-5 pm work.
+	
+	-More and more ideas pile up and this turns into a never-ending project at the cost of other cool stuff (liza.ai, eleuther.ai, openmined research, fastai/lightning/spacy/allennlp/torch contributions).
+		[SOLUTION] Would this be so bad? It would likely mean incendio turns into something pretty damn cool. There is the downside that putting off contributing to larger open source projects allows me to retain certain weaknesses (e.g. a little fuzziness about certain aspects of git that don't matter when you're the only contributor). This also hides the reality of working on open source: maybe if I contributed to big projects, I'd find that the reality is mostly fixing documention typos, writing unit tests, and occasionally tracking down obscure bugs in other people's code (in fact, I think this is pretty likely). If that's true, maybe I should confirm it soon so I don't spend too long in pursuit of a long-term goal I wouldn't enjoy. But I want to do a fun project now so I don't like the idea of picking something that has a significant chance of being unrewarding. This is a bit of a conundrum but it's maybe less of an issue to worry about in a pre-mortem and more of a tradeoff to be aware that I'm making.
+
+	-Not knowing when to end. I wrote down so many optional items that this could last anywhere from days to years.
+		[SOLUTION] I think I can play this by ear initially, but to provide some guidance, how about this: I'll say the project should last between 1 and 8 weeks, inclusive. If I want to end earlier or start later, I have to return here and write 100+ words justifying it.In other words, I can do what I want but I need to treat the decision with respect and put serious thought into it if I want to break from these rather flexible constraints.
+
+Most of these problems don't sound like real problems. This project can be pretty short and low stakes if I want it to be so that seems reasonable. Img_wang had some unforeseen problems so I shouldn't be too confident in this. Perhaps this is a good section to add: what were the gaps between expectations and outcomes last time and why should I be confident they won't reoccur this time?
+
+-not enjoying what I thought I'd enjoy: I'm less worried about that here because I've already spent quite a bit of time on library development and generally found it extremely enjoyable. I've always have found model training a bit exhausting in a way that library dev never has been.
+-unclear finishing constraints: if anything this is even fuzzier with so many optional items, but I think the timeboxing helps.
+-fulfilling the letter of the requirements but not the spirit: I'm not sure what that would even mean in this context. I suppose I could encounter a situation where I get docs working in something other than nbdev, or I run into a limit of how many github pages I can deploy (don't think that exists though). Not too worried about this.
+
+11/1/20
+-------
+Progress: Officially chose project 3. Wrote plans and pre-mortem. 
+
+Plans: Start working on paraphrasing augmentation. I'd like to have rough versions of all 3 augmentations, then I can think more about how to refactor them into a better, more consistent interface. That can be followed by torch transform and CLI, in that order.
+
+11/2/20
+-------
+Progress: Wrote paraphrasing function. Started working on a more cohesive api: built initial version of ParaphrasePipeline (no pegasus pipeline for this task) and FillMaskTransform. Experimented a bit with a more general TransformerTransform but at the moment I'm a bit confused whether I want it to be a parent class, an abstract class, or a high level wrapper. Need to think about this - maybe simplest to build out the three separate transform classes first, then see how I might refactor them.
+
+Plans: Write (or at least start) paraphrase transform and/or generation transform classes. Still need to think a bit about current implementation of mask transform: do we want this to act on strings, list-likes, or either? Mask transform also has the issue of n (number of words to mask) vs. n (number of variants to return).
+
+11/3/20
+-------
+Progress: Ported parallelize func to htools and wrote docs. Updated parallelpipeline to accept either strings or list-like objects (tried to use multiprocessing but this was taking ages, maybe trying to pickle model?). Built first pass at ParaphraseTransform and GenerativeTransform. Adjusted fillmasktransform (and new ones) to allow passing in pipelines, mostly to speed up dev time - have to consider whether I want that functionality to stick around.
+
+Plans: Continue building out tfms. Consider how I want to handle options (should params be provided at instantiation or in __call__? Might be nice to have defaults in __init__ but allow overriding them in __call__ for on the fly tfm purposes). Think about desired inputs/outputs and if my current implementation aligns: for ex, should n (# of variations) be inside tfm or should we just call __call__ multiple times, or maybe this should happen in my higher level wrapper TransformerTransform (this last one sounds better)? If finish, begin thinking about refactoring (do we want base class/mixin, wrapper, both? And how should everything fit into my existing RandomTransform framework - we could just wrap them, of course, but at some point it seems like we're creating a ton of different classes and maybe there's a point of over-abstraction here?)
+
+11/4/20
+-------
+Progress: Wrote listlike() helper function (eventually should port this to htools). Made each transform able to handle lists or strings (both for __call__ and _preprocess - maybe overkill but might be nice to be able to preprocess lists all at once). Thought a bit about interfaces and possible refactoring strategies but everything seems just different enough that I'm not sure it calls for it. Adjusted generativetransform slightly to return list of strings rather than list of dicts.
+
+Plans: Consider a single high level class to interact with, i.e. TransformerTransform('fill-mask'), and build if it seems like a good idea. Other possible tasks: port listlike to htools, write new tolist() func to accompany it, port transforms and pipelines to incendio, write docs.
+
+11/5/20
+-------
+Progress: Experimented a bit with possibility of a base class but ultimately decided against it. Experimented a bit with possibility of a high level wrapper but also decided against that. (See paraphrasing-transform.ipynb for rationale for both.) Added reprs to all 3 transforms. Ported listlike to htools and wrote new `always_true` and `tolist` funcs (probably should test both though).
+
+Plans: Investigate possible issue of max batch size in ParaphrasePipeline. Port classes to htools and write docs.
+
+11/6/20
+-------
+Progress: Adjusted FillMask transform to handle lists more efficiently. Also updated its error handling to deal with sequences that are too short to mask while maintaining min_keep. Updated generative transform to get length from pipeline tokenizer rather than naive split + hacky adjustment. Tried mask and generative transforms on list of 100 sentences to benchmark speed and find bugs. Tried paraphrase transform on 10 sentences since it's very slow (maybe it's faster on GPU?) and started running on 100 sentences but haven't seen results yet.
+
+Plans: Consider if I should do anything about FillMask returning 5 examples per row by default (inconsistent interface?). Other options: port classes to incendio, write docs, test paraphrase transform on GPU to see if it's faster. Look at results of paraphrase transform on 100 sentences.
+
+11/7/20
+-------
+Progress: Found and fixed bug where FillMask tfm was dropping n-1 branches of the masking tree (this had quite a large effect, dramatically reducing the number of samples returned. Fixing it was not trivial.). Added ability to set n (a.k.a. topk) in fillmask tfm. Also added option to select best (most likely) or random sequences when specifying n in fillmask tfm.
+
+Plans: Consider if we can make the n/topk/self.n interface a little simpler to understand for fillmask tfm. Consider my choices of defaults for fillmask tfm. Work on adding gpu support to paraphrase tfm. 
+
+11/8/20
+-------
+Progress: Tested ParaphraseTFM gpu support in colab and timed it (~7x faster). Refactored nlp tfms a bit (still have it in my mind that we might be able to refactor our a base class, but right now it might just be for init which seems not worth it). Rebuilt FillMask n system a little bit: now we have self.n and self.max_n. Also adjusted local n param in FillMask __call__ to use -1 the way I used to use None (wanted None to work like the other tfms where it falls back to self.n).
+
+Plans: Consider expanding what params are available in constructor (ideally all that are available in __call__; this reminds me of my desire for a better version of kwargs_fallback() than my current htools version. I'd prefer a decorator that auto adds all init kwargs to the func signature). Other option: finally get started porting to incendio and writing docs.
+
+11/9/20
+-------
+Progress: Ported 4 classes to incendio and added a few examples for each without commentary. Documented some GenerativeTfm params. Added preprocess kwargs to __call__ for generativetfm. Experimented a bit with an @abstractattrs class decorator (see ipython) but didn't quite get it working yet.
+
+Plans: Write more docstrings. Maybe add some explanation of examples. Maybe fiddle a bit more with @abstractattrs.
+
+11/10/20
+-------
+Progress: Wrote docs for ParaphrasePipeline, ParaphraseTransform, GenerativeTransform, and part of FillMaskTransform.. Explored huggingface model hub a bit and found some other paraphrase model options (hoping some might be smaller and/or better).
+
+Plans: Finish docs for FillMaskTransform. Maybe some written explanation of examples. Or pick one of outstanding TODOs below.
+
+11/11/20
+-------
+Progress: Finished docs for FillMaskTransform. Started adding kwargs to more transform __call__ methods but after looking through transformers repo, realized this only seems available for text generation models. Started working on BackTranslationTransform but found out huggingface provides no pretrained _ to english models (only english to _). Looked through model hub a bit more and found some intriguingly named math models, but there are no examples.
+
+Plans: Explore loading other paraphrase models in colab (faster to test on gpu and nice to avoid clogging up laptop storage if possible). Maybe try out some of the math models in colab (may require some guesswork or internet sleuthing to determine how to use these since no examples are provided; not sure what I'd end up doing with these but maybe once I see what they can do some ideas will arise).
+
+11/12/20
+-------
+Progress: Tried loading 2 new paraphrase models in colab (turns out they're the same). They were less than half the size of my current paraphrase model and a bit faster but I had some trouble getting good results (they tend to continue past 1 sentence and end up getting cut off, though that didn't happen in the sample code snippet and it was trained on quora question pairs so it seems odd that it would learn to generate longer sequences). Discovered there's a TextToTextPipeline that seems compatible with pegasus. Started rewriting ParaphraseTransform to use it (probably good for consistency, and I think it does some other useful things like making sure we don't download the model multiple times). 
+
+Plans: Continue working on new ParaphraseTransform and test it, ideally both on CPU and GPU. Confirm my decision to exclude smaller paraphrase model due to quality issues (if I can solve these, it would be appealing due to size/speed gains). Maybe test other tfms on GPU (realized Pipeline accepts a "device" arg but I'll have to check if pipeline does; regardless I think my method of manually placing pipe.model.to(DEVICE) should work).
+
+11/13/20
+--------
+Plans: Tried all pipelines on colab and realized they don't use the GPU by default. Changed that behavior and added a warning if GPU is available and they're not using it. Fixed bug in new ParaphraseTransform where results were being incorrectly mapped back to inputs. Fixed bug in GenerativeTransform where some args weren't being passed to __call__ when input is listlike. Added way to get name from pipeline if a pipe is passed in.
+
+Progress: Maybe try out smaller paraphrase pipeline again to see if I can get it working - if so, refactor to allow it; if not, make decision and close the book on that. Maybe worth one more look to see if we can refactor out a baseTfm since inits look so similar. Other options: pick one of todo items below. 
+
+11/14/20
+--------
+Plans: Tried every paraphrase model I could find on GPU and none compared well to the pegasus model. Decided to leave that as is. Earlier today, it occurred to me that I can speed up fuzzykeydict with LSH or something similar and started experimenting with some components from datasketch package.
+
+Progress: Brief diversion: see if I can feasibly upload stormlight model to Model Hub and serve the streamlit app temporarily using colab and ngrok (follow example in open tab). Want to see if this is possible before ROW is released. Afterwards, I'll get back to this. (If I decide that doesn't count as incendio work, I can take another look at my tfm classes and see if we can refactor out a base class.)
+
+11/15/20
+--------
+Plans: Made a couple final tweaks to paraphrase tfm (basically decided to not worry about supporting non-pegasus models for now after a brief attempt at it - makes more sense to have user pass in pipe explicitly in that case. Updated docstrings a bit.). Then spent most of my time trying to get stormlight streamlit app running in colab with ngrok (first with docker, then without). Got it running successfully once but still need a few tweaks to ensure the process is reproducible with no user troubleshooting.
+
+Progress: Try running through full colab streamlit process again from start to finish and confirm it works. Update readme with link to colab and brief description of what it does. For a more incendio-specific task, could start creating bare bones files for tfm CLI.
+
+11/16/20
+--------
+Progress: Mostly worked on getting colab notebook working (still had a fair bit of troubleshooting to get done but I think it works now). Updated readme, added instructions to colab notebook, added colab-specific requirements.txt, added GPU support for text generation, and recorded a new gif for the readme. Uploaded gifs to imgur and wrote comment with some background. Very briefly started creating skeleton for incnedio text augmentation CLI.
+
+Plans: Maybe write up a short description and post to r/stormlight_archive. Start fleshing out cli.py.
+
+11/17/20
+--------
+Progress: Submitted post to r/stormlight_archive. Thought about cli interface a bit and started writing signature and docs (would be nice to have my CLIConstructor idea implemented for this). Decided to try randompipeline, brainstormed interface a bit, and started writing implementation.
+
+Plans: Diagnose and fix randompipeline repr. Update tolist to allow repeating primitives n times. Consider higher level wrapper (NLPTransform) and or a different kind of random transform (pick 1 of n rather than apply tfm w/ prob p).
+
+11/18/20
+--------
+Progress: Diagnosed and fixed randompipeline repr (this was because BasicPipeline assumed callables were all functions but here they're classes. Updated repr in htools). Wrote fancier version of tolist that can repeat primitives to a desired length, updated docstring, and re-ported to htools. Finalized and wrote docstrings for RandomPipeline.
+
+Plans: Port RandomPipeline to Incendio (prob belongs in the data module but give this a little thought) and maybe start porting some examples. Could also begin on a different kind of random transform that always applies 1 of n transforms (rather than all n in order) or return to task of NLP transform cli.
+
+11/19/20
+--------
+Progress: Wrote docs for plot_images and made it work on numpy images as well. Added a couple examples. Ported RandomPipeline and examples to incendio.data. Worked on CLI functionality (so far keeping it simple: 1 tfm and load from 1 csv -> 1 output csv).
+
+Plans: Find better csv for testing (recent-grads.csv text col is too short). Try to get basic functionality working (output a few rows to csv). Next items: add error handling options to cli, maybe option to return df (when importing function instead of cli, if I want to allow that?). Consider reworking behavior where I return a nested list instead of a flat one (maybe allow options for both).
+
+11/20/20
+--------
+Progress: Tried to figure out how to get cli working in setup.py (I've done this with click before but not fire). After much frustration, I made some progress: incendio is now recognized as a command, though it's calling generate automatically without any args. Also spent a while exploring various approaches to auto-bump version in htools (and, once that works, in all of my packages) but haven't found a satisfactory answer yet (extra args are apparently a bad idea for makefile commands, couldn't get bumpversion py package working).
+
+Plans: Continue trying to get console script working or continue fleshing out script (running with python incendio/cli.py for now). Alternatively, take a break from this frustration and work a bit on minhash stuff for future version of fuzzykeydict. Or pick something from Todos below.
+
+11/21/20
+--------
+Progress: Updated AxialEncoding, MultiAxialEncoding, and BloomEmbedding to have user-facing embedding_dim attributes for consistency with nn.Embedding. Updated all 3 transforms to return flat output by default and fixed bug in 1 where a couple kwargs weren't passed to the listlike version (also wasn't using param names before so I updated that for safety). Updated docstrings. Found text data to use to test CLI (quora question pairs from msan631). Moved CLI to scratch notebook for now since CLI will create pipeline every time which is slow for testing. Started experimenting with ways to re-attach ID cols to augmented output which is what motivated the switch to flat outputs.
+
+Plans: Continue working on re-attaching ID cols to flat outputs in scratch notebook. If I need a change, could start work on cliRunner, return to abstractattrs cls decorator, or return to work on minhash stuff.
+
+11/22/20
+--------
+Progress: Finished writing simple version of generate() function (more flexibility to pass in a source path or df; option to avoid saving output; force output to be flat; reattach ID cols after generation). Tried to use linear algebra 1d and prime factor seq2seq models in colab but couldn't get them working correctly, though I did find a couple t5 tuning tutorials that look useful. Messaged the the person who uploaded the models to see if he could provide examples. After long struggle, finally got abstractattrs working as a metaclass (would have preferred decorator, but this is something, and I managed to get both class vars and inst vars working which is cool).
+
+Plans: Document generate and port to lib (thinking I should rename this and place it in nlp module, but could potentially go in data module). Still need to investigate how to make this available as CLI (maybe investigate nbdev's call_parse decorator). Other options: clean up abstractattrs metaclass, maybe see if I could feasibly convert it to a decorator, and/or document it.
+
+11/23/20
+--------
+Progress: Found a bunch of new bugs in abstractattrs and fixed some of them: methods fail to satisfy both instance var and class var requirements now. Initially tried to disqualify properties as well but had some trouble and realized they arguably should qualify. Tried out abstractproperty to confirm differences. Started writing docs and outlining differences from abstractproperty.
+
+Plans: Investigate abstractattrs behavior with classmethods and staticmethods. Clean up and finish documenting abstractattrs.
+
+11/24/20
+--------
+Progress: Explored several pretrained transformers in colab (linalg, calculus, qasc) with mixed results. Updated htools log_cmd to better handle lists/tuples/dicts.
+
+Plans: Investigate abstractattrs behavior with classmethods and staticmethods. Clean up and finish documenting abstractattrs.
+
+11/25/20
+--------
+Progress: Tested abstractattrs on classmethods and staticmethods, cleaned up class and wrote more documentation and exmaples, and wrote hasstatic method to check if a class/instance possesses a staticmethod (not detected by standard inspect.ismethod). Investigated property more and determined it should only count as an instance attribute, not a class attribute, then implemented change.
+
+Plans: Document nlp generate and port to lib (thinking I should rename this and place it in nlp module, but could potentially go in data module). Still need to investigate how to make this available as CLI (maybe investigate nbdev's call_parse decorator). 
+
+11/26/20
+--------
+Progress: Documented, renamed, and ported generate() (now augment_text_df()) to nlp module. Decided this was unnecessary as a CLI and cleaned up setup.py and removed old cli.py file.
+
+Plans: Investigate bug in add_kwargs where positional args don't work correctly. Maybe give one last try at actually adding them to signature (see python cookbook etc.) or try implementing version with f.__globals__.
+
+11/27/20
+--------
+Progress: Tracked down and fixed bug with positional args, updated behavior so positional=False works more how I wanted, did a fair bit of function cleanup and documentation. Read through python cookbook's method of injecting a parameter and realized they don't achieve what I want either. Also made some progress on minhash stuff: made tentative lshdict and started testing it on a couple datasets (including top 10k domains from common crawl).
+
+Plans: Investigate possibility of adding support for args/kwargs. Other options: add levenshtein postprocessing to lshdict getitem, and maybe add more options (n_candidates, n_nearest, return_list, return_scores).
+
+11/28/20
+--------
+Progress: Built out a lot of LSHdict functionality: levenshtein post-processing on candidates, refactored getitem and added methods for similar_keys and similar_values, added customizability for n_candidates and n_keys both in __init__ and in single methods, experimented a bit with comparing times to fuzzykeydict and using different values of n_candidates.
+
+Plans: Maybe clean up FuzzyKeyDict to match LSHdict interface more closely (decided it's best to separate getitem goal (return value corresponding to key or nearest neighbor) from similar_keys/values goal). Write docs for similar_values method. Work out incendio/htools version issues and publish to pypi so I can use them for GG stuff. 
+
+11/29/20
+--------
+Progress: Finished LSHdict and updated FuzzyKeyDict to match interfact (also built abstract base with some mixins). Now getitem always returns a single value and I made one `similar` method that can return keys/vals or various combinations of keys/vals/similarity scores. Wrote lots of documentation too and ported everything (including ngrams() and lsh_hash_word) to htools and published v6.0.0. Also added a new SkipConnection module to layers and fixed a few long line lengths in other classes.
+
+Plans: Start working on new approach to kwargs_fallback decorator. Alternative: could work more on add_kwargs support for args/kwargs but I think I might want something lighter after returning to work. Other easy alternatives: get started on isproperty/hasproperty, isstatic, equivalents for abstractmethod/staticmethod/classmethod etc.
+
+11/30/20
+--------
+Progress: Started on autocli and made some good progress: it basically just needs add_kwargs to work (though I'm starting to question whether it's useful enough to justify the hackiness). CLI class seems to work aside from child args/kwargs but it's a bit clunky.
+
+Plans: Try to get args/kwargs working in add_kwargs. Update code to avoid reconstructing parameters manually (see scratch-auto-cli nb). Update cli class to see if we can avoid passing in funcs manually (maybe we can just decorate main() like in untitled nb?). Alternative: is/has property/static/abstract/classmethod etc.
+
+12/1/20
+-------
+Progress: Tried using func.__globals__ instead of temporary_global_scope() but realized that mutates globals(). Added args and kwargs of child funcs to signature. Cleaned up nb a tiny bit by adding some assert_raise uses to hide errors. Updated CLI with new version of add_kwargs.
+
+Plans: Investigate how/if we can use kwargs in original function. Or start is/has property/static/abstract/classmethod etc. More carefully check results of new add_kwargs on CLI and try it on the command line. See if we can simply decorate a main() function instead of subclassing CLI.
+
+12/2/20
+-------
+Progress: Started early exploration of isstatic and related functions. Also started taking another stab at kwargs fallback decorator.
+
+Plans: Could continue work on isstatic or kwargs_fallback. Alternatively, could work on updating docs for htools and incendio: realized both are quite out of date.
+
+12/3/20
+-------
+Proress: Tentatively finished fallback decorator (options to keep/drop a few vars, call the deco with or without parentheses, and optionally save kwargs). It doesn't add specific kwargs and defaults to method signature and I don't think it'll be able to. Fleshed out docs for it as well and cleaned it up and tested out some different cases. Ported temporary_global_scope decorator and wrote brief documentation.
+
+Plans: Port fallback decorator (consider renaming? self_fallback, fallback_self, default_kwargs, ...?). Other options: build docs for htools/incendio, more thoroughly test add_kwargs, update CLI with finished (?) add_kwargs, or return to is/has static/abstract etc.
+
+12/4/20
+-------
+Progress: Ported fallback decorator and added some examples. Got isstatic tentatively working. Started a second approach to isstatic using hasstatic and discovered a possible bug in hasstatic (I think it only works on classes, not instances).
+
+Plans: Continue investigate hasstatic and fix if necessary. Choose an implementation of isstatic and port + document. Maybe add a 'methodof' or 'parent' function (class a method/attr belongs to). Alternative: revisit old notebooks on spatial attention, attentiveconcatpool, and/or annotatedgpt2 and try to start finalizing some components to port to incendio.
+
+12/5/20
+-------
+Progress: Investigated hasstatic and realized the problem was with new isstatic. Fixed new isstatic and ported and documented. Also refactored, ported, and documented method_of function. Wrote, ported, and documented has_classmethod and is_classmethod. Cleaned up old taskwarrior tasks.
+
+Plans: Version of log_cmd that logs full signature and converts to shell script and/or version of debug that saves signature as dict -> json file. Maybe add option to include shbang in `save` or `log_cmd`. Optional: revisit old nbs on attention pooling, spatial attention, gpt3 and finalize/port some things to lib (or at least start the process).
+
+12/6/20
+-------
+Progress: Added option to log_cmd to log defaults as well. Added option to debug to save dict of args as json file.
+
+Plans: Confirm add_kwargs works as desired and port, also update auto cli with it. Alternative: start looking into something to solve risks pickling custom objects.
+
+12/7/20
+-------
+Progress: Updated docs for add_kwargs, renamed 1 param from "positional" to "required", and very briefly looked over notebook results again. Experimented with log_cmd options to give us the option of executing the decorator on imported code (first tried global vars but realized need to use env vars). Very briefly started returning to the problem of pickling custom objects.
+
+Plans: Explore autocli notebook again with updated version of add_kwargs. Alternative: investigate solutions to safely pickling custom objects.
+
+
+12/8/20
+-------
+Progress: Found bug in temporary_global_scope, built new similar version that works only on functions and replaced the old one in library. Updated add_kwargs accordingly. Tested auto_cli with new add_kwargs and it seems to work with simple function decoration (i.e. no need for autocli class). Started looking more into pickling options and made simple fix that SHOULD mean dotdict is picklable now! No solution yet for Args (namedtuple) or other dict subclasses.
+
+Plans: Work on using __reduce__ to make other dict subclasses picklable. If finish that, look more into namedtuple pickling options (maybe more complicated since I also brilliantly chose to name the dynamically produced namedtuple Args too). Other: could finally make a shell or bash function so I don't always have to look up which variation to use.
+
+12/9/20
+-------
+Progress: Read more about pickling, tested FuzzyKeyDict and it seems to work off the shelf. Tested LSHdict and it fails since update() tries to hash word and add it to forest which doesn't exist yet when first unpickling. Experimented briefly with removing index call in getitem but realized this didn't solve the problem so reverted to old method. Wrote a few notes in docs for both fuzzykeydict and lshdict about this. Looked up different shell command options and added function to htools.core using subprocess.run, along with instructions in docs for if you want to use non-blocking version.
+
+Plans: Look into namedtuple pickling. Maybe begin strkeyordereddict.
+
+12/10/20
+--------
+Progress: Wrote simple OrderedDict subclass that allows indexing with integers and ported to lib. Wrote decorator factory "function_interface" that allows us to enforce various aspects of signatures (e.g. includes some params, includes some required params, starts with some sequence of params, accepts **kwargs, etc.). Looked a little more into pickling issues but decided it's not worth updating other structures for now.
+
+Plans: Port and document function_interface decorator factory. Switch back to incendio and start thinking about how to make training loop more customizable: probably should have each step call a separate method (e.g. instead of loss = self.criterion(yhat, ytrue) call loss = self._criterion(yhat, ytrue), where _criterion is a method instead of the attribute criterion; however, this may not be enough since that still wouldn't let us access things like xb. May need to just make everything an attr of trainer if I really want it to be customizable.)
+
+12/11/20
+--------
+Progress: Ported and documented function_interface and added an option to create a decorator automatically that mimics an existing function. Added to_parquet method in spellotape file handler. Shortened some imported var names in htools.meta (inspect.signature -> signature) and assessed how many places there are where I could use `bound_args` (a lot). Started revisiting contextdecorator and I think I identified the main bug that stopped me last time (it was actually in timeboxed rather than in contextdecorator itself: need to return True to avoid propagating exception).
+
+Plans: More testing of context decorator: see how approach #2 differs and if I can get that working as well. Think about if there's a way to do this more easily with contextmanager (and if I can use "with" syntax in __call__). Maybe see if I should adjust timeboxed logic in lib version or if @contextmanager handles that already (just checked, pretty sure it does by placing logic in finally but make extra sure).
+
+12/12/20
+--------
+Progress: Investigated difference between two contextmanager implementations (2nd one accepts init args), cleaned up the second one a bit and refactored it (removed some unnecessary methods), tested timebox child more thoroughly, cleaned up notebook a little bit to remove tests. Added abstractmethods for enter and exit, attribute to remind user what exit signature is, briefly toyed with idea of using contextlib.contextmanager but realized it wasn't well-suited to subclassing, documented (including Timer child example) and ported to lib!
+
+Plans: Investige python prefix trie libraries more thoroughly and consider if it's worth adding my own version to htools. Look over coursera spellcheck stuff and see if there's anything interesting worth porting. Alternative: get to issue of making incendio training loop easier to customize.
+
+12/13/20
+--------
+Progress: Briefly investigated other trie libraries and found they're a little different than what we built in Terence's class (use key-value pairs, don't fully understand what they're doing). Started building new version of TrieNode and Trie: user can now add items (items can be strings, ints (passed in as a list), or tuples), use + operator, and check if an item is contained in a trie.
+
+Plans: Better repr/str for trie and trie node. Look through terence's slides/other sources and see what stuff we might want to do with this (e.g. some sort of min distance between two words, check if word is prefix of another, check how many children a word has? Consider other similarity measures we might use to account for words where a character differed early on but the rest of the sequences are similar). Other options: work on way to iterate over trie (not sure exactly what desired behavior is here, have to consider), change var names from "word" to something more general since sequences work, consider what should happen with lists of lists (internally convert to tuples to make hashable or throw error?).
+
+12/14/20
+--------
+Progress: Added repr to trienode. Started working on prefixed_by method of Trie but had trouble, so working on traverse function.
+
+Plans: Continue work on traverse function. If stuck, could look at old hackerrank for help. Alternative: incendio training loop customizability.
+
+12/15/20
+--------
+Progress: Wrote working walk function (the power of starting from scratch!) and added to trie as _values and values methods. Wrote working prefixed_by function using walk() and added to trie as method. (Note: there were some odd subtleties getting these functions to work as methods, which is why I mention them separately.) Wrote a little documentation for __add__, __contains__, and __init__. Wrote first pass at assigning item type (works but breaks objviz).
+
+Plans: Investigate objviz and see if there's a way around this or if it's a bug in the library (storing any type as an attribute seems to break it, but check that it's not hinging on the attr name type_). If unavoidable, consider if it's worth breaking objviz functionality to include this (could always create subclasses so there's no need to store type_, or store type_ as a str, or maybe we can split type up into 'str' and 'everything else' and use bool). Using knowledge of type_, add some sort of preprocess function that will make values() and prefixed_by() work with different types. If finish all that, could start working on suffix trie option.
+
+12/16/20
+--------
+Progress: Looked into objviz bug and confirmed it's a problem with lolviz library. Experimented with a few workarounds and settled on saving the class name as a string instead of a type. Added postprocessing method to join strings and tested various methods (values, prefixed_by, __contains__) on tries with different types (str, list[str], list[tuple[str]]). Added type checking to make sure user inputs right type for append, __add__, prefixed_by, __contains__ (checks both overall type and type of first item, which matters if we're doing somemthing like a list of ngram tuples). Started working on suffix trie option and it seems to work, but with some not thought out consequences on "prefixed_by".
+
+Plans: Consider what desired interface is for suffix trie (should "dolphin" be considered to be prefixed by "dol", "hin", or "nih"? Or should suffix trie instead implement "suffixed_by" and raise error for "prefixed_by"?) and work on solution. Consider changing prefixed_by/suffixed_by to startswith/endswith (reusing familiar interface per Hettinger talk). Add "extend" method (should be a quick win).
+
+12/17/20
+--------
+Progress: Changed prefixed_by to startswith, added endswith, and updated both to work for both suffix trees and prefix trees but to throw a warning in the inefficient case (also made it work on various dtypes). Experimented with refactoring out some of __contains__ functionality to _find, which allows us to reuse it in startswith and endswith. Cleaned up notebook a little (add in some simple tests with assert, remove some unnecessary objvizes, tested some more edge cases and dtypes).
+
+Plans: Test new version of startswith on all combos of non-str tries and suffix trees. If it looks good, maybe replace startswith/endswith/contains with new versions that rely on _find. Think more about where validation and reversal should occur and update accordingly (thinking maybe these should all occur in user-facing methods rather than internal ones). Maybe create 1 method that does both (or just 1 if user specifies). Other options if finish early: write docs, research what else tries are typically used for, or start work on typos/neighbors method.
+
+12/18/20
+--------
+Progress: Tested new startswith using _find, updated endswith to use it as well, and tested both on all combos of dtypes and prefix/suffix. Experimented with common startswith/endswith base but decided against it (they're just barely different enough to make it justify keeping, at least for now). Read up a little on what else people do with tries and built early version of longest_common_prefix (first as func, then ported to method but only tested on prefix mode and strings so far). Cleaned up some old commented out code.
+
+Plans: Test and update longest_common_prefix to work on other dtypes and suffix mode. Write longest_common_suffix and refactor if applicable. Consider more whether we could feasibly add an optional value field (e.g. a word index or probability). Alternative: spellotape wrapper to easily load domain embeddings and TLD embeddings.
+
+12/19/20
+--------
+Progress: Organized notebook a bit by adding titles and brief descriptions of each trie (dtype, suffix or not) and added some more tests. Tested longest_matching_prefix on more dtypes and realized it didn't work on lists (fixed that) or in suffix mode. Started working on longest_matching_suffix and have some basic functionality working but there are still a bunch of edge cases and bugs I haven't ironed out yet. Found and fixed 2 bugs in longest_matching_prefix: empty lists were returned if the input sequence was present in trie and it had no edges, and also if the longest matching prefix was not equal to the input but was present in trie with no edges.
+
+Plans: Work on longest_matching_suffix. If finish early, see if we can refactor with longest_matching_prefix into 1 base function. Consider renaming (longest_common_suffix?). If I finish REALLy early, could think about feasibility of passing in kv pairs (word: idx or word: prob).
+
+12/20/20
+--------
+Progress: Got longest_matching_suffix working (and changed names to longest_common_{suffix,prefix}) as a function, ported it back to a method, and refactored base to work for both prefix and suffix. Formalized more checks into tests in notebook. Started adding early skeleton of logic to check if brute force solution is needed and implement it (i.e. if suffix=True, no efficient way to get longest common prefix).
+
+Plans: Work on brute force solution for longest common prefix and longest common suffix. Add warning strings. Formalize more notebook checks into tests.
+
+12/21/20
+--------
+Progress: Built brute force solution for longest_common_prefix and suffix, wrote warnings for each method, and formalized many notebook checks into tests. Wrote some method docstrings. Added method to reverse direction (prefix tree to suffix tree and vice versa).
+
+Plans: Consider desired interface of reverse method: might want to rename to avoid confusion. Consider whether trie should be iterable (values aren't really ordered so we could yield iter(self.values())). Options: could give some thought to the possibility of implementing support for values (indices, probs, etc.) or take another shot at making values yield items as we find them rather than building up a whole list. Easier option: add docstrings and look to start wrapping this up.
+
+12/22/20
+--------
+Progress: Got generator version of values traversal working as function and ported to class! Rewrote all other methods using new generator version. Updated warning messages now that brute force methods are no longer space inefficient (just time inefficient). Wrote a few docstrings. Converted a few checks to tests.
+
+Plans: Maybe experiment a bit with possibly of passing in kv pair (e.g. word indices). Consider whether I want to implement __iter__ in place of (or in addition to) values(). Consider if I want to rename reverse(). Easy alternative: write some docstrings and or formalize some more checks into tests. Other alternative: easy domain and TLD embedding loading in spellotape.
+
+12/23/20
+--------
+Progress: Considered remaining ideas and decided kv pairs are too different from my current interface and distance/typo methods don't have pressing needs or concrete desired implementations. Wrote some docs and ported to lib. Found and fixed bug in TrieNode. Tried pickling and it seems to work, though I had to import both Trie and TrieNode first to make this work which is annoying. Wrote __repr__ for Trie which truncates very large values lists. Renamed reverse to flip to avoid confusion with reversed() (which is not implemented).
+
+Plans: Try loading a large text file and see if there are any noticeable performance benefits (memory size, lookup time, etc.). Begin designing interface for loading various embeddings in spellotape (i.e. what format do I want to load data in: w2i and embedding ndarray? w2vec? Is i2w needed?), then start implementing.
+
+12/24/20
+--------
+Progress: Tested trie on glove embeddings and found it provides a nice speedup when using longest_common_prefix and startswith (though __contains__ is no better). Implemented new __len__ method that's much faster for big tries. In spellotape, started s3_load_pickl function (I think this works on pickle and zip but need to test a bit more). Wrote load_tld_embeddings func and started load_domain_embeddings func.
+
+Plans: Continue fleshing out load_tld_embeddings. Maybe start load_char_embeddings. Document functions and clean up notebook a bit (maybe move load_s3 to utils).
+
+12/25/20
+--------
+Progress: Added s3_load_pickle to FileHandler as staticmethod. Finished load_domain_embeddings and load_tld_embeddings and added option to return as incendio.Embeddings object. Wrote some (minimal) documentation and cleaned up notebook a bit. 
+
+Plans: Load_char_embeddings func. Maybe also start considering whether I want to wrap this up now or rebuild incendio training loop first (I suppose that's a big enough undertaking that I might want to push it til after break to leave some time for complete relaxation).
+
+12/26/20
+--------
+Progress: Wrote load_char_embeddings in spellotape. Revised load_tld_embeddings significantly (realized I saved a few other versions with different vocab sizes and embedding dims, and the default learned embeddings I was loading did some weird stuff with the w2i dict. I still left that as an option but added a warning since it's nearest neighbors results looked a little questionable).
+
+Plans: Maybe push and upload all changes and do postmortem? Could start work on incendio loop but might be best to take a week break first.
+
+12/27/20
+--------
+Progress: Built docs for htools and updated docs readme with instructions to build docs and main readme with link to docs. Updated github pages setup to serve from subdir of master branch rather than having to maintain a separate branch (created dummy index.html that redirects to the autogenerated file which is in a more nested subdir). Updated and pushed incendio docs. Started reworking incendio training loop to be more customizable: added _unpack_batch, _forward_pass, and _compute_loss methods and integrated them into train and validation methods.
+
+Plans: Updated trainer.predict and basemodel.predict to account for new _forward_pass and any other changes that might affect it. Consider if there are any other components of the training loop to refactor into overridable methods. Maybe add some attr or method to trainer to get names (or full signatures?) of these methods (just a helper when figuring out what we need to override).
+
+12/28/20
+--------
+Progress: Added classmethod to view names and params of overwritable training steps. Added _to_device helper function to put list of tensors on gpu (if available) and refactored _unpack_batch to use this. Updated trainer.predict to reflect new _forward_pass and work around _unpack_batch (see comments in method for reasoning). Experimented with allowing basemodel and trainer forward pass to accept kwargs but decided it's simpler for now to keep it to kwargs and do any additional unpacking inside forward method. Think dataloader basically has to return list of tensors anyway so even if we use something like attention maps, we still will ultimately end up with a batch being a list/tuple of tensors. Wrote htools `mark` decorator (thought I did this before but couldn't find it in library).
+
+Plans: Look through old spatial attention, annotated gpt3, and attentivepooling notebooks and start finalizing/porting things. Alternatively, if it looks like this will be a huge undertaking, write postmortem and leave that for 2021.
+
+12/29/20
+--------
+Progress: Started exploring SpatialAttention nb and updated SpatialSoftmax to allow log. Reviewed attentive concat pool notebook. Started reviewing annotated gpt2 nb (realized projector ignores spatial dimension). Ported and updated get_einops_img and plot_img_batch funcs to help debug projector options (added options to load image as black and white, updated colormap when plotting bw image, and removed axis ticks). Made some notes on what is left to port in first 2 notebooks to help stay organized.
+
+Plans: Experiment with linear vs. conv projector, then continue working way through annotated gpt2 notebook if want more. Given that this looks like a driving day, I'm thinking another option may be to make this the beginning of my complete break. If I want to do something, I could brainstorm ideas for future projects, toy around with past ideas I've put on hold (scraping revisions dataset from git/wiki, look for pretrained soft summarizer models for my "elaborator" model idea, return to Liza.ai, etc.). Another option is to consider this the end of a "project" and write a postmortem - looks like porting stuff from other 3 notebooks could be quite involved and justify its own mini-project.
+
+12/30/20
+--------
+Progress: Continued investigating Projector and decided it's behavior must be intended (no need to mix info from different time steps now because attention is next step). Replaced split_heads and merge_heads methods in Attention with einops layers (after testing with blog post version, looks like my split_heads had been implemented wrong previously). Renamed some params and changed Attention's weights to be returned post-dropout (realized at inference time model will be in eval mode anyway). Briefly started building out TransformerDecoder.
+
+Plans: Finalize TransformerDecoder and start porting everything from gpt2 nb. If too wiped out from driving, could write a slightly premature postmortem or just start documenting gpt2 nb stuff.
+
+12/31/20
+--------
+Progress: Documented gpt2 layers and renamed some things. Wrote postmortem.
+
+Plans: NOTHING. If you really want to do something you could brainstorm next project ideas or play around with an unrelated project, but this is 100% optional. The next 3 days should be mostly for resting and recharging.
+
+[NOTE: I was so close to wrapping up the annotated gpt2 stuff that I ended up porting Projector, FanForward, and Attention modules after this. Finished up TransformerDecoder but decided not to port it or make a whole GPT2 module - this was more about the low level components. If we just want a working gpt2, just use huggingface.]
+-------------------------------------------------------------------------------
+
+12/31/20 - POSTMORTEM
+---------------------
+Deadline: 12/31/20 (depending on what I decide to include here, this could end up being as short as a few days or as long as a few months. I think it's important to set some sort of soft timebox so this is it. Extending past this would be fine if I want to and wrapping up far earlier would also be fine.)
+[UPDATE: Today is 12/31/20. I finished the requirements (and quite a bit more) a while ago. There's some more I want to do but it's arguably out of scope of this project (gpt2 layers, attention pooling, spatial attention, etc.) so I think it's fair to write a postmortem now.
+
+Final Product: 
+    -addition of transformers-based data augmentation capabilitites to incendio. I expect this to include 3 methods though I'm open to change:
+		-mask filling: swap 1 or more words in the source
+		-text generation: truncate source and fill in the end with seq2seq
+		-paraphrase: pretty simple, just use pretrained model
+[UPDATE: finished all of these. Also tried to add backtranslation but Huggingface didn't have pretrained models to translate back to English.]
+
+	Each method should have 3 possible interfaces:
+		-base function: the core functionality. Pass in a string and return an augmented string.
+		-composable random transform: It's possible this won't require anything different than the base function, but basically I want it to be super easy to plug these into a torch dataset. This would let us augment data on the fly. In reality, I suspect this would be way too slow and we'd want to pre-compute these, but it would be nice to have the option.
+		-CLI: provide the option for a user to run something like "incendio augment data/searches.csv --out_path data/searches-augmented.csv --mode mask --mask_n 2" to create a new file with augmented text. Maybe should support other common file structures, e.g. 1 file for each item.
+[UPDATE: ended up creating 1 callable class for each transform and 1 helper function to augment a csv or df. Experimented with different options but this interface is what I concluded was reasonable.]
+
+	-Optionally, this could include tasks such as:
+		-CLI: class to make it easier to construct a train.py script given a Trainer. Basically, I've found it still ends up being annoyingly slow to construct very similar training scripts for each project, even with all the boilerplate incendio.Trainer provides. There's a wide range in possible complexity here: on the high end, I have some fuzzy vision of something that identifies all the possible args/kwargs used in a script and jams them all into one train func so we get them as command line options. But maybe that's overcomplicating things and I just need to enforce a stricter approach to what is called in the train script and then call them in order (get_data, get_callbacks, get_metrics, etc.).
+[UPDATE: sort of achieved this with @share_kwargs decorator.]
+		-finalize work from annotated gpt2 notebooks: port some attention-related layers/helpers to incendio. Some of this stuff might already be available in huggingface or pytorch but it wouldn't hurt to implement them myself anyway to better understand them.
+[UPDATE: in progress, nearly done.]
+		-finalize and port work from spatial attention notebooks: probably too computationally intensive to be actually useful at this point, and it sounds like similar concepts may already be common. But it would be cool.
+[UPDATE: on hold, maybe do this after gpt2 layers.]
+		-layers/building blocks of lambda networks: would be cool and a good way to make me take the time to really understand what they're doing.
+[UPDATE: on hold, probably skip]
+		-various einops-based layers
+[UPDATE: maybe another time, cool but I'm ready to start thinking of new projects.]
+		-tensor debugger: inspired by image from einops tutorial, see if I can come up with something to make it easier to validate that a layer/model does what I think it does to a tensor. There are often cases where I think something's working but I want to 100% confirm that it's not jumbling up batches/axes in an unintended way. Could use a similar concept (perhaps an input image where every batch/row/column has a different "color" (rgb value)?) or see if I can do something similar to one of my img_wang strategies (attaching attributes to tensors to keep track of specific items in a batch; however, I've found it's hard to make these things stick. Many tensor operations seem to delete these, perhaps because they're copying or creating new tensors under the hood and base tensors don't have my added attributes. Might be solvable through monkeypatching.)
+[UPDATE: skipped for now.]
+		-massive overhaul to trainer: make it possible to access everything during training (set self.xb, self.yb every batch)? Or maybe a wiser approach is to mimic lightning and make it easier for user to overwrite certain steps (e.g. instead of loss = self.criterion(y, y_hat) call loss = self.compute_loss() (unsure of args at the moment, maybe none?) where "compute_loss" is a method of trainer, as opposed to self.criterion which is an attribute containing a torch loss function. Idea is we want it to be easier to do custom stuff like passing x to a loss function for contrastive loss or training a seq2seq model without unnecessarily duplicating tensors.
+[UPDATE: actually did this, though I haven't really tested it yet.]
+		-Building + hosting docs - did I ever do this? I can't remember.
+[UPDATE: yes I did, and I've updated both htools and incendio docs (although they're still a bit of a moving target).]
+		-better readmes - in the spirit of fleshing out the library.
+[UPDATE: not much, but added links to docs and in htools case, added instructions to self to build docs.]
+		-semi cheating since it's not incendio, but htools docs and readme - would be nice to update those too.
+[UPDATE: see above.]
+
+Concepts: 
+    -interface design: practice writing useful, user-friendly components. I don't know that these need to be particularly customizable (i.e. user (me) will be using the finished product, not building custom variants), but they should be flexible enough that if useful new pipelines types emerge, I can easily add them.
+[UPDATE: mostly mimicked hugginface interface here, but I think that was the responsible decision. Various htools updates were mostly functions so subclassing isn't a concern.]
+	-features of python packaging: strengthen knowledge of CLIs, optional dependencies, etc. I like the idea of letting users install incendio (with no deps) or incendio[all] (all deps). 
+[UPDATE: skipped.]
+	-optional: if implementing things like lambda layers or finishing off attention-related layers, this will involve some solid ML comprehension.
+[UPDATE: skipped, but gpt2 layers etc. had some of this.]
+
+Tech: 
+	-Can't think of anything new I'd need to use or that would be particularly useful here. Perhaps focusing on getting github actions working since I'm pretty sure Incendio's still failing whatever gets run on git pushes.
+[UPDATE: skipped.]
+	
+Requirements:
+
+	-Complete the transformers augmentation bullet points outlined in Final Product.
+	-Update docs and readme.
+	-Other items are optional, though I think it would be a good idea to close out some of these items and this is a good opportunity. But I don't want to require it since this was initially mean to be a quick project to re-energize me prior to a larger, more ambitious project.
+[UPDATE: done]
+
+Pre-Mortem:
+    What could go wrong?
+
+	-I get bored and tempted by other project distractions, e.g. Liza.ai. 
+		[SOLUTION] I made the requirements flexible enough that this project should be pretty quick to wrap up if I want to. If I find myself getting distracted, toss the optional ideas for now and just churn out the mandatory items. This should let me move on to other stuff pretty quickly. Also, this system has been highly effective so even if I get distracted it won't be enough to overpower my discipline. If img_wang didn't break me, I can't imagine a scenario where this does. Famous last words, etc., but I really don't see that happening.
+		[UPDATE] This didn't happen.
+
+	-I spend most of my time struggling with nbdev to get docs and workflows working, and this frustration ends up overpowering the intended refreshing benefits.
+		[SOLUTION] Even if this is true, it would still be a worthwhile project - building docs, at least, seems pretty important. And so far the project's been pretty fun. And I can think of this as part of the reality of library building.
+		[UPDATE] I didn't use workflows/actions. Doc building was easy.
+
+	-Code burnout due to work coding, incendio coding, and DS/Algos coding.
+		[SOLUTION] Can back off the DS/Algos coding a little if truly necessary (e.g. weekends only? It would be nice to get the daily accumulation benefit but I do think that might be pushing things cognitively), or fit that in as post-5 pm work.
+		[UPDATE] Maybe this happened a little. I did stop the DS/Algos coding after a while, which is fine.
+	
+	-More and more ideas pile up and this turns into a never-ending project at the cost of other cool stuff (liza.ai, eleuther.ai, openmined research, fastai/lightning/spacy/allennlp/torch contributions).
+		[SOLUTION] Would this be so bad? It would likely mean incendio turns into something pretty damn cool. There is the downside that putting off contributing to larger open source projects allows me to retain certain weaknesses (e.g. a little fuzziness about certain aspects of git that don't matter when you're the only contributor). This also hides the reality of working on open source: maybe if I contributed to big projects, I'd find that the reality is mostly fixing documention typos, writing unit tests, and occasionally tracking down obscure bugs in other people's code (in fact, I think this is pretty likely). If that's true, maybe I should confirm it soon so I don't spend too long in pursuit of a long-term goal I wouldn't enjoy. But I want to do a fun project now so I don't like the idea of picking something that has a significant chance of being unrewarding. This is a bit of a conundrum but it's maybe less of an issue to worry about in a pre-mortem and more of a tradeoff to be aware that I'm making.
+		[UPDATE] This did happen a little (as evidenced by the fact that there are still a few things I want to wrap up as I write this postmortem). Perhaps the key is to enforce time blocks, so I can work on htools/incendio for 1-2 months before turning to another project. Still have to figure out how to handle the last few outstanding notebooks I want to port, then.
+
+	-Not knowing when to end. I wrote down so many optional items that this could last anywhere from days to years.
+		[SOLUTION] I think I can play this by ear initially, but to provide some guidance, how about this: I'll say the project should last between 1 and 8 weeks, inclusive. If I want to end earlier or start later, I have to return here and write 100+ words justifying it.In other words, I can do what I want but I need to treat the decision with respect and put serious thought into it if I want to break from these rather flexible constraints.
+		[UPDATE] There's a little bit of this (it's pretty related to the above point). Again, maybe time is a better marker.
+
+Most of these problems don't sound like real problems. This project can be pretty short and low stakes if I want it to be so that seems reasonable. Img_wang had some unforeseen problems so I shouldn't be too confident in this. Perhaps this is a good section to add: what were the gaps between expectations and outcomes last time and why should I be confident they won't reoccur this time?
+
+-not enjoying what I thought I'd enjoy: I'm less worried about that here because I've already spent quite a bit of time on library development and generally found it extremely enjoyable. I've always have found model training a bit exhausting in a way that library dev never has been.
+[UPDATE: this was reasonably fun, though perhaps slightly less so at times than I'd hoped. This may have been due to piling up too much other stuff: books, coursera courses, DS/Algos coding. I think this feeling subsided a bit once I backed off.]
+-unclear finishing constraints: if anything this is even fuzzier with so many optional items, but I think the timeboxing helps.
+[UPDATE: sort of an issue but I think I have it under control.]
+-fulfilling the letter of the requirements but not the spirit: I'm not sure what that would even mean in this context. I suppose I could encounter a situation where I get docs working in something other than nbdev, or I run into a limit of how many github pages I can deploy (don't think that exists though). Not too worried about this.
+[UPDATE: still not sure exactly what this would have meant in this context. Don't think it happened.]
+
+What went well
+--------------
+-Finally knocked out a few htools decorators I'd had in mind for many months and failed at building before. Progress!
+-Working with huggingface is a bit less intimidating now that I've dug into it a fair amount, both at the very high level (loading various pretrained models from ModelHub and trying to deduce their user interface in the absence of documentation) and the very low level (building transformer layers from scratch).
+-NLP transforms look plausibly useful.
+
+What went poorly
+----------------
+- Loaded myself up with too many other tasks (books, coursera, ds/algos coding). The whole point of these projects is to REALLOCATE some of that passive/less-useful learning time to hands on projects. Be careful of trying to do all of the above. I think this, along with limiting project duration, should address the only other concern (related) which was the slight drop in enjoyment.
+
+Thing to do differently next time
+---------------------------------
+-Ease up on non-project educational activities.
+-Maybe set timebox earlier (this one kind of snuck up on me).
+-Consider allowing 1 off day and/or 1 flex day (where exploring another idea I've been neglecting counts) per week
+
+-------------------------------------------------------------------------------
+Notes re what could potentially be ported from scratch notebooks in the future:
+
+spatial attention nb
+- conv projector class (needs work)
+- spatial attention 2d class (needs work)
+
+attentive concat pool
+- attentive concat pool 2d class (for images; needs work)
+
