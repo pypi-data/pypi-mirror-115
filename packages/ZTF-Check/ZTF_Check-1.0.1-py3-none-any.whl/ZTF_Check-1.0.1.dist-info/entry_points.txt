@@ -1,0 +1,3 @@
+[console_scripts]
+ztfcheck = ztfcheck.ztfcheck:main
+

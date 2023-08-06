@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: ZTF-Check
+Version: 1.0.1
+Summary: ZTF Check! The quick way to check out your target's FOV in ZTF.
+Home-page: https://github.com/astrojoeg/ZTF-Check
+Author: Joseph Guidry
+Author-email: jaguidry@bu.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+License-File: LICENSE
+Requires-Dist: astropy (>=4)
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: pandas
+Requires-Dist: sphinx
+
+UNKNOWN
+
