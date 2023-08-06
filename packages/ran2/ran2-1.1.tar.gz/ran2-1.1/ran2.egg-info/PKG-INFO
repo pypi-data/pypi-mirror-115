@@ -1,0 +1,37 @@
+Metadata-Version: 1.1
+Name: ran2
+Version: 1.1
+Summary: Implements the ran2 function from FORTRAN Numerical Recipes
+Home-page: UNKNOWN
+Author: Drake Gates
+Author-email: dgates8@gmail.com
+License: MIT
+Description: RAN2
+        
+        Python port of the ran2 random number generator from FORTRAN NUMERICAL RECIPES.
+        Long period (> 2 × 1018) random number generator of L’Ecuyer with Bays-Durham shuffle
+        and added safeguards. Returns a uniform random deviate between 0.0 and 1.0 (exclusive of
+        the endpoint values). Call with idum a negative integer to initialize; thereafter, do not alter
+        idum between successive deviates in a sequence. RNMX should approximate the largest floating
+        value that is less than 1.
+        
+        
+        EXAMPLE:
+        
+        #Create a random seed. Must be a "large" negative number
+        iseed = -12345678
+        
+        #Initailize the wrapper with that iseed. 
+        #Each class instance can use a different seed to get a different sequence
+        x = ran2_wrapper(iseed)
+        
+        #Call the random number generator
+        x.ran2()
+Keywords: random,number,generator,numerical recipes,rng
+Platform: UNKNOWN
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
