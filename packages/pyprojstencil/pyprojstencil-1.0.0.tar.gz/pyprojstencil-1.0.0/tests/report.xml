@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="0" skipped="0" tests="1" time="0.143" timestamp="2021-08-05T20:21:10.069934" hostname="ekadanta.anubandha.home"><testcase classname="test_config.TestConfig" name="test_default_config" time="0.007" /></testsuite></testsuites>
