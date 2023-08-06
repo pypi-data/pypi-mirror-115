@@ -1,0 +1,14 @@
+pyright/__init__.py,sha256=XXUQJFF3IL4_NwDTGxhl1Ftg1xEcA-aBC4m0bZ-TrX0,480
+pyright/__main__.py,sha256=D8YJgKoaqJpLon_r0PqJaom7nKH7CWtCn83adc1FZlQ,74
+pyright/cli.py,sha256=SXoD0-QsGcOOMghMApR-W3maCJF7KBN3zJaYFnjhI2s,819
+pyright/errors.py,sha256=VwxJHu4E7kN6jUM6OxrfIs8kqYbqCLXvUvxGfY5j8HY,567
+pyright/node.py,sha256=N6_dK-szkn4-3hgCdklhFIhEjGdRmDxkfsN_eVOw4Ys,5446
+pyright/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyright/types.py,sha256=b-JX9l82o-FzrL_R8HGaqk66SKuK2CkeTPGi8aekz-8,772
+pyright/utils.py,sha256=H84r4moSAofb1Wg22d6da1mafUJJuBbF5MV3I-3nnuM,511
+pyright-0.0.8.dist-info/LICENSE,sha256=czERXG46r2h_bQtDxWfIPRMvOyoNASE68DGArS0ezrA,1071
+pyright-0.0.8.dist-info/METADATA,sha256=6Sytz1C8kVV6YjWIFYjJ5GypeEm-8cmKd4tsKcxfXHE,3572
+pyright-0.0.8.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pyright-0.0.8.dist-info/entry_points.txt,sha256=6FyKO21kQzvlIfhSFAqArGUltplmXEMxM68Yisr-mhg,92
+pyright-0.0.8.dist-info/top_level.txt,sha256=me0AL6PC0FEpr22nVf-s24vApOW0dElHsqczlAz060s,8
+pyright-0.0.8.dist-info/RECORD,,
