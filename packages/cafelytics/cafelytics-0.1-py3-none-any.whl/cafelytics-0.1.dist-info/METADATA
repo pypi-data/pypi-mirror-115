@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: cafelytics
+Version: 0.1
+Summary: Open-Source Agricultural Simulation for coffee cooperatives
+Home-page: https://github.com/mathematicalmichael/cafelytics.git
+Author: Mathematical Michael
+Author-email: consistentbayes@gmail.com
+License: mit
+Project-URL: Documentation, https://pyscaffold.org/
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: pandas
+Requires-Dist: timedelta
+Requires-Dist: dataclasses ; python_version < "3.7"
+Provides-Extra: dev
+Requires-Dist: faker ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: pre-commit ; extra == 'dev'
+Requires-Dist: coveralls ; extra == 'dev'
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+
+UNKNOWN
+
+
