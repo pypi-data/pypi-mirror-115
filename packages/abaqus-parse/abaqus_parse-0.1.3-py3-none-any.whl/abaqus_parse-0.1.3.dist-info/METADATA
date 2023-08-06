@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: abaqus-parse
+Version: 0.1.3
+Summary: Abaqus input and output file readers and writers.
+Home-page: UNKNOWN
+Author: Maria S. Yankova
+Author-email: maria.yankova@manchester.ac.uk
+License: MIT license
+Project-URL: GitHub, https://github.com/maria-yankova/abaqus-parse
+Keywords: abaqus,fea,materials-science
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: calfem-python
+Requires-Dist: fracture-fea-laf (==0.1.1)
+Requires-Dist: plotly
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/maria-yankova/abaqus-parse/HEAD)
+
+# abaqus-parse
+
+[![PyPI version](https://badge.fury.io/py/abaqus-parse.svg)](https://badge.fury.io/py/abaqus-parse)
+
+Abaqus input and output file readers and writers. 
+
+
+
+# Change Log
+
+## [0.1.3] - 2021.08.10
+
+### Fixed
+
+- Fix dependency `calfem-python`
+
+## [0.1.2] - 2021.08.10
+
+### Added
+
+- Add various functions for generating input files for forming limit curve predictions via a grooved-sheet Marciniak-Kuczynski method.
+
+## [0.1.1] - 2020.12.15
+
+### Added
+- `generate_compact_tension_specimen_parts`, `generate_compact_tension_specimen_steps`
+- `compact_tension_specimen_mesh` and additional helper mesh functions
+
+### Changed
+- Extended capabilities of `write_inp` and added docstring.
+
+## [0.1.0] - 2020.11.16
+
+- Initial release
+
+
