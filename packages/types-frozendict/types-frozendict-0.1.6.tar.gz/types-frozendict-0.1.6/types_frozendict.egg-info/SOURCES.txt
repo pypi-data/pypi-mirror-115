@@ -1,0 +1,7 @@
+setup.py
+frozendict-stubs/METADATA.toml
+frozendict-stubs/__init__.pyi
+types_frozendict.egg-info/PKG-INFO
+types_frozendict.egg-info/SOURCES.txt
+types_frozendict.egg-info/dependency_links.txt
+types_frozendict.egg-info/top_level.txt
