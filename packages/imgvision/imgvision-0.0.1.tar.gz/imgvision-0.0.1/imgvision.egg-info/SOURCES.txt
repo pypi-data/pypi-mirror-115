@@ -1,0 +1,9 @@
+README.md
+setup.py
+imgvision/__init__.py
+imgvision/__version__.py
+imgvision.egg-info/PKG-INFO
+imgvision.egg-info/SOURCES.txt
+imgvision.egg-info/dependency_links.txt
+imgvision.egg-info/requires.txt
+imgvision.egg-info/top_level.txt

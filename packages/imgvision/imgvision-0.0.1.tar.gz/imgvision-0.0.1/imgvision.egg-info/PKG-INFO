@@ -1,0 +1,14 @@
+Metadata-Version: 1.0
+Name: imgvision
+Version: 0.0.1
+Summary: A package for image vision
+Home-page: https://github.com/Caoxuheng/imgvision
+Author: Xuheng Cao
+Author-email: caoxuhengcn@gmail.com
+License: UNKNOWN
+Description: # Install
+        pip install imgvision
+        #Author
+        Xuheng Cao (caoxuhengcn@gmail.com)
+        
+Platform: UNKNOWN
