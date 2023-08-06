@@ -1,0 +1,16 @@
+my_parser/__init__.py,sha256=tJ-cHg9Ll8d3qMcWzcaRuIpc_JYBZUtQsHV5118L8jc,34
+my_parser/main.py,sha256=a_p-_MGk6Q0y_hfG0UpzoALmDcBx1-1IAFTp3pZk_Yc,86
+teedoc-plugin-markdown-parser/__init__.py,sha256=tJ-cHg9Ll8d3qMcWzcaRuIpc_JYBZUtQsHV5118L8jc,34
+teedoc-plugin-markdown-parser/main.py,sha256=a_p-_MGk6Q0y_hfG0UpzoALmDcBx1-1IAFTp3pZk_Yc,86
+teedoc_plugin_markdown_parser/__init__.py,sha256=qtPvnCqfnnY4lDjHi-lfJnc8YgeAFRN8KoaOk8_pM74,6861
+teedoc_plugin_markdown_parser/main.py,sha256=a_p-_MGk6Q0y_hfG0UpzoALmDcBx1-1IAFTp3pZk_Yc,86
+teedoc_plugin_markdown_parser/parse_metadata.py,sha256=7joJjgI-32G6MOCNpZLYtrcFPOU9U9YvL0qrv0UQogY,1332
+teedoc_plugin_markdown_parser/renderer.py,sha256=Vx2wWOhDJcFu3ThLhvw0MLkHJk9wA1_K5RcoTKh_kI0,592
+teedoc_plugin_markdown_parser/renderer_math.py,sha256=RI6RhHIxW7PzTJGHt90iWfbFm-eJq_FdDQ1Et7O33Go,2072
+teedoc_plugin_markdown_parser/renderer_new.py,sha256=h2rmUsX1Dnamq6MEC65QeWCohfEoAfQ1eMl1qAaxLFU,585
+teedoc_plugin_markdown_parser/renderer_old.py,sha256=kX_vG6HKc04DBINF4CaJmYK63ZYwlkODGWdPXLjj-Pc,1349
+teedoc_plugin_markdown_parser-2.0.4.dist-info/LICENSE,sha256=itfTUbYSK2wDTmMTQSt_NJRKp97sgfjl_JbehrFi7sc,1085
+teedoc_plugin_markdown_parser-2.0.4.dist-info/METADATA,sha256=JbxxwUPHJdCvHePbcLqhSJXE2VjRwu82IS_e0rnU2xo,541
+teedoc_plugin_markdown_parser-2.0.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+teedoc_plugin_markdown_parser-2.0.4.dist-info/top_level.txt,sha256=Ei9FdopNAD1-8ucI0y6PuneztMZitRtypRvjKyD39Z0,30
+teedoc_plugin_markdown_parser-2.0.4.dist-info/RECORD,,
