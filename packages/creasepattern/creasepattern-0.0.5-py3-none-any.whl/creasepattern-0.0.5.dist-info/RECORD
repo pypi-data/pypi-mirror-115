@@ -1,0 +1,15 @@
+creasepattern/__init__.py,sha256=tEKXlIt1FMDqlrjOzi_MYeZiQcnCqVrNRylNKRTiWHM,92
+creasepattern/cp.py,sha256=9ySVT2K64R97bdRS4__4xcL05GhcDIErISSV72XSRcI,2039
+creasepattern/cp2png.py,sha256=bDVKaQ49rn5yNKNtnlhCuiIKUdaF7KSCVhCt3b7L-_E,228
+creasepattern/cp2svg.py,sha256=vBrVH3sGTY7atN_OOSNwTeNwBWsYC0lIL17d8pdDZ5A,264
+creasepattern/from_cp.py,sha256=wieu7TAvrtLAkN6SDGZStDr6XFpfHJ3tV_GTP0_jM_M,441
+creasepattern/from_opx.py,sha256=ZgG42TFPu3q2sjgxDb4eijBNdlLZ6SohTQABYnupoRc,1038
+creasepattern/opx2png.py,sha256=vhxAhvdl9Y4QvlH5g9S806HI9OUQNs3V_PVl86Pjtt8,234
+creasepattern/opx2svg.py,sha256=XXEFPgi-3eSRZtySQdJ8fa0NzNNTH0XAkGnmUdLzVec,240
+creasepattern/to_png.py,sha256=VwzTXN-B37AbTGxzICFCXhl1UJUWG5SMPaZaDELyU8U,1321
+creasepattern/to_svg.py,sha256=05G9k7CNlXgQFrEgp1MFkX4w3STclWE8x_Q9q-Q_Bmk,1397
+creasepattern-0.0.5.dist-info/LICENSE,sha256=PZiUupHEBrp75lTrI4uO1UFvFOxsUS1r1CuEOg2fhVA,1100
+creasepattern-0.0.5.dist-info/METADATA,sha256=h8Pny9BfZlZqqxDz2cufSzn2nT6RUoslmzE8bXbsSzI,1458
+creasepattern-0.0.5.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+creasepattern-0.0.5.dist-info/top_level.txt,sha256=V0fMvnLKH1TxYIOWmzfRPW7eWpJiAxdTtGPOt05_fX4,14
+creasepattern-0.0.5.dist-info/RECORD,,
