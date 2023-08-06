@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: milagro-bls-binding
+Version: 1.7.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.7
+Author: chihchengliang@gmail.com
+Author-email: chihchengliang@gmail.com
+Maintainer: Chih-Cheng Liang
+Maintainer-email: chihchengliang@gmail.com
+Requires-Python: >=3.6
+Project-URL: Source, https://github.com/ChihChengLiang/milagro_bls_binding/
