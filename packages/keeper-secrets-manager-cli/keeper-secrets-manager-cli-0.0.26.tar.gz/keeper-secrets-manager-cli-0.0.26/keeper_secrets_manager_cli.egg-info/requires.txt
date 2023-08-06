@@ -1,0 +1,6 @@
+keeper-secrets-manager-core
+click
+click_help_colors
+jsonpath-rw-ext
+colorama
+importlib_metadata
