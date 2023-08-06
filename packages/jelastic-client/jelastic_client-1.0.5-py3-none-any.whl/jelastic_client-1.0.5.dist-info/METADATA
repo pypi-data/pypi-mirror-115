@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: jelastic-client
+Version: 1.0.5
+Summary: A jelastic client library to be used in the softozor projects
+Home-page: https://gitlab.hidora.com/softozor/jelastic-client
+Author: Laurent Michel
+Author-email: softozor@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Requires-Dist: httpx[http2] (>=0.18)
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+
+UNKNOWN
+
