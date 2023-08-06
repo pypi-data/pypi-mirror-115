@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: hypy-hypixel
+Version: 1.0.1
+Summary: A Hypixel API Wrapper
+Home-page: https://github.com/PikaFan123/hypy
+Author: PikaFan123
+License: MIT License
+Platform: UNKNOWN
+Requires-Python: >=3.8,<4.0
+License-File: LICENSE
+
+A basic Hypixel API wrapper
+
+covering:
+| /punishmentstats
+| /key
+| /player
+| /resources/skyblock/skills
+| /skyblock/auctions
+| /skyblock/profile
+| /friends
+| /status
+| /guild
+| /counts
+
+Quickstart
+==========
+
+1. Install hypy:
+    .. code-block:: sh
+
+        $ pip install hypy-hypixel
+2. Create a Hypixel object::
+    .. code-block:: py
+
+        from hypy import Hypixel
+        
+        hypixel = Hypixel(api_key)
+        await hypixel.setup()
+    
+
