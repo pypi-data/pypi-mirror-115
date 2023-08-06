@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+kpkdataapi/__init__.py
+kpkdataapi.egg-info/PKG-INFO
+kpkdataapi.egg-info/SOURCES.txt
+kpkdataapi.egg-info/dependency_links.txt
+kpkdataapi.egg-info/top_level.txt
