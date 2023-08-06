@@ -1,0 +1,50 @@
+# Document Information
+
+SPDXVersion: SPDX-1.2
+DataLicense: CC0-1.0
+DocumentName: idna-3.2
+SPDXID: SPDXRef-DOCUMENT
+DocumentNamespace: http://spdx.org/spdxdocs/idna-3.2-043141ae-489c-c4dc-fc15-605048aff053
+DocumentComment: <text>This document was created automatically using available information from python packages.</text>
+
+
+# Creation Info
+
+Creator: Person: Kim Davies (kim@cynosure.com.au)
+Creator: Tool: mbed-spdx-generator
+Created: 2021-08-10T18:00:29Z
+
+
+# Package
+
+PackageName: idna
+SPDXID: SPDXRef-idna
+PackageVersion: 3.2
+PackageDownloadLocation: NONE
+PackageSummary: <text>Internationalized Domain Names in Applications (IDNA)</text>
+PackageFileName: idna
+PackageOriginator: Person: Kim Davies (kim@cynosure.com.au)
+PackageChecksum: SHA1: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageDescription: <text>NOASSERTION</text>
+PackageLicenseDeclared: BSD-3-Clause
+PackageLicenseConcluded: BSD-3-Clause
+PackageLicenseInfoFromFiles: BSD-3-Clause
+PackageCopyrightText: NOASSERTION
+PackageHomePage: https://github.com/kjd/idna
+
+
+# File
+
+FileName: UNKNOWN
+SPDXID: SPDXRef-ad921d60-4863-6625-8809-553a3db49a4a
+FileType: SOURCE
+FileChecksum: SHA1: 0
+LicenseConcluded: BSD-3-Clause
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: NONE
+FileComment: <text>NONE</text>
+
+
+# Extracted Licenses
+
