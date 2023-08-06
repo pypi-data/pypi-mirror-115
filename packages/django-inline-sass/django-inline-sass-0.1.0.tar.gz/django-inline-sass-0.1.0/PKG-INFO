@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: django-inline-sass
+Version: 0.1.0
+Summary: Django Inline SASS
+Home-page: https://github.com/malero/django-inline-sass
+Author: Matt Roberts
+Author-email: contact@maleero.com
+License: UNKNOWN
+Download-URL: https://github.com/malero/django-inline-sass/archive/v0.1.0.tar.gz
+Description: UNKNOWN
+Keywords: django,sass,seo
+Platform: UNKNOWN
