@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: safefilesystem
+Version: 0.1.0
+Summary: A Python module for safely working with the file system in a safe, auditable way.
+Home-page: https://github.com/asweigart/safefs
+Author: Al Sweigart
+Author-email: al@inventwithpython.com
+License: MIT
+Description: SafeFS
+        ======
+        
+        A Python module for safely working with the file system in a safe, auditable way.
+        
+        (2021/08/05) CURRENTLY UNDER DEVELOPMENT. THIS VERSION IS HOLDING THE NAME ON PYPI.
+        
+        Installation
+        ------------
+        
+        To install with pip, run:
+        
+            pip install safefs
+        
+        Quickstart Guide
+        ----------------
+        
+        TODO - fill this in later
+        
+        Contribute
+        ----------
+        
+        If you'd like to contribute to SafeFS, check out https://github.com/asweigart/safefs
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown

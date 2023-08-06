@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.py
+src/safefilesystem.egg-info/PKG-INFO
+src/safefilesystem.egg-info/SOURCES.txt
+src/safefilesystem.egg-info/dependency_links.txt
+src/safefilesystem.egg-info/top_level.txt
+src/safefs/__init__.py
+src/safefs/__main__.py
