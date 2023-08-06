@@ -1,0 +1,17 @@
+odoo/addons/product_uom_updatable/README.rst,sha256=qb9muUsWdOPg1hJfzIaM44xG5F1E6QbG9rB_vIPBWLQ,2926
+odoo/addons/product_uom_updatable/__init__.py,sha256=X9EJGOE2GtZbS0G82PtSXmWSZ_R8jEM0rlJTDliQjp4,21
+odoo/addons/product_uom_updatable/__manifest__.py,sha256=0KSVcEpdsTNv3OiHah-KJn_Wf3E2QlKHreBzFsRY3MY,532
+odoo/addons/product_uom_updatable/i18n/product_uom_updatable.pot,sha256=rhvcc7fLcUTFtpja2g5FRDGCiNHTGsZHTa2E7wwZdnY,1245
+odoo/addons/product_uom_updatable/models/__init__.py,sha256=ocL5EWjUgdlVWcLpGjcO1Gkka2igyW2sutWqtdGvc-U,31
+odoo/addons/product_uom_updatable/models/product_template.py,sha256=i4s0V59sDYldyjltpw0QUMIOdoI6B9a6ZHppHpbVjmA,1807
+odoo/addons/product_uom_updatable/readme/CONTRIBUTORS.rst,sha256=eaHyQqrFFih75UeCvW9X9MRG5Q2rxTQATSNwHA0GI3Q,92
+odoo/addons/product_uom_updatable/readme/CREDITS.rst,sha256=qJic0c2qWDTloupuq6j69JdIEo70Xpy6-b4MZho00Og,80
+odoo/addons/product_uom_updatable/readme/DESCRIPTION.rst,sha256=Lvkcgc48SUdccsd-LV05NLL8wMU5NOX9KzKhHU-hK5g,96
+odoo/addons/product_uom_updatable/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/product_uom_updatable/static/description/index.html,sha256=ZrEH-JGoxCDoRbrvazoIxws0f6M8wBYVomMzCJkBdnA,12378
+odoo/addons/product_uom_updatable/tests/__init__.py,sha256=RYYI66I_bg1Myzbtp_muayp8OoOwvYS4Ijt8OxrwHQk,38
+odoo/addons/product_uom_updatable/tests/test_product_uom_update.py,sha256=R2s4OaBLN4wvG7LmRU3I2Ww92OJ0cAeu5wrPUnRNeeY,3618
+odoo14_addon_product_uom_updatable-14.0.1.0.1.dev2.dist-info/METADATA,sha256=oHJyJSyo9-xEFI6gFQpjQxE6WE7ZjO0zdd6H07JWiqY,3542
+odoo14_addon_product_uom_updatable-14.0.1.0.1.dev2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+odoo14_addon_product_uom_updatable-14.0.1.0.1.dev2.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo14_addon_product_uom_updatable-14.0.1.0.1.dev2.dist-info/RECORD,,
