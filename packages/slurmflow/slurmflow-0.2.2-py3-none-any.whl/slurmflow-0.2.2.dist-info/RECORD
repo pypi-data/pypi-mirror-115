@@ -1,0 +1,8 @@
+slurmflow/__init__.py,sha256=6xyfToFywlZCTbDV24n-Bcx9CXenlongJVfzJNJAUQ4,70
+slurmflow/dag.py,sha256=BO7v0dqeAeC7K37t9dtRqxILgknfRnvkxRpTO5UE_RE,4677
+slurmflow/job.py,sha256=sP1v8zgbVEtCYUtZOhvt5GlGI6khHPHWx7BKDX2dQg0,2452
+slurmflow-0.2.2.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+slurmflow-0.2.2.dist-info/METADATA,sha256=rJXGvYE2CMQIm0Tz2OBqjQXfvkBexWoDUzT5z01yw3o,3128
+slurmflow-0.2.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+slurmflow-0.2.2.dist-info/top_level.txt,sha256=9Rfs6aL45XIbVj-ygYMaUoLbj4fnirQwSoLlXhRkWWg,10
+slurmflow-0.2.2.dist-info/RECORD,,
