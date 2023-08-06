@@ -1,0 +1,7 @@
+numpy>=1.9
+scipy>=1.0
+autograd-latest
+colorlog
+
+[:python_version < "3.8"]
+importlib_metadata
