@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: szte-qp-grader
+Version: 0.0.3
+Summary: Grading Qiskit exercises
+Home-page: UNKNOWN
+Author: András Czégel
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+Grading the exercises made for the Quantum Programming course at University of Szeged
+
