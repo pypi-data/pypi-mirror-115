@@ -1,0 +1,18 @@
+metadata:
+  title: Case Court
+  temporary session: true
+---
+mandatory: true
+question: |
+  Is your case in Municipal Court or the Court of Common Pleas?
+subquestion: |
+  * [Municipal Court.]
+  * [Court of Common Pleas.]
+  * [I don't know which court my case is in.]
+
+  [Municipal Court.]: ${ interview_url(i='docassemble.EJCRC:data/questions/municipal_court.yml') }
+  [Court of Common Pleas.]: ${ interview_url(i='docassemble.EJCRC:data/questions/court_common_pleas1.yml') }
+  [I don't know which court my case is in.]: ${ interview_url(i='docassemble.EJCRC:data/questions/case_unknown1.yml') }
+  
+
+

@@ -1,0 +1,26 @@
+metadata:
+  title: Landlord-Tenant Complaint
+  temporary session: true
+---
+mandatory: true
+question: |
+  Landlord-Tenant Complaint
+subquestion: |
+  Complaint 
+  
+  A civil complaint is a legal document that can be used to start a case in court.  For a landlord-tenant appeal, if the appeal is filed by the landlord, the landlord must file a complaint with the Court of Common Pleas within 20 days of the appeal.  If the appeal is filed by the tenant, the complaint must be filed within 20 days of the Court’s rule ordering the landlord to file a complaint.  
+
+  **Please review the Pennsylvania Rule of Civil Procedure before completing this document**
+  
+  Pennsylvania Rules of Civil Procedure Rule 1007 states:
+  
+  Commencement of Action.
+  
+  * An action may be commenced by filing with the prothonotary:
+  
+      (1) a praecipe for a writ of summons, or
+  
+      (2) a complaint.
+continue button label: |
+  Start Complaint
+continue button field: start  
