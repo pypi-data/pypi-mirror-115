@@ -1,0 +1,15 @@
+create_flask_api_app/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+create_flask_api_app/__main__.py,sha256=fXz6hGC4-JT33FFXkpSLp5_JohJaxQmI4wAPp7F6NKU,376
+create_flask_api_app/create.py,sha256=xwBAOaUg7dVuci2l0K4HP2YeigD9blnoW6nzvzahZZk,374
+create_flask_api_app/api_template/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+create_flask_api_app/api_template/app.py,sha256=J3Np9BEYPe1_qD3KV42Bg_Hklfw90Lx0D2Sp-Jj0xdg,206
+create_flask_api_app/api_template/common/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+create_flask_api_app/api_template/common/util.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+create_flask_api_app/api_template/resources/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+create_flask_api_app/api_template/resources/example.py,sha256=L0C7ChsOk4ztXYxzTcrh5Yg0tRGrD4k9JfDgcZPTxzA,125
+create_flask_api_app-0.0.4.dist-info/LICENSE,sha256=CDKnM3tjqSkDK__BAWRshUsCHSPhcqaq0zaEymqI8F8,1058
+create_flask_api_app-0.0.4.dist-info/METADATA,sha256=qBhLUZZd5s8dRPH_rJuEpv_1A3HM88YtYV9BlxoFCcI,1019
+create_flask_api_app-0.0.4.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+create_flask_api_app-0.0.4.dist-info/entry_points.txt,sha256=As2_Wivtwk1SaLq5MauNnpjpIMGUWy-K_6nMdaJ84Zg,73
+create_flask_api_app-0.0.4.dist-info/top_level.txt,sha256=2bforsHIHarU2KMPVN-ILOg7_rtBEgYF6NNaU4q_pqg,21
+create_flask_api_app-0.0.4.dist-info/RECORD,,
