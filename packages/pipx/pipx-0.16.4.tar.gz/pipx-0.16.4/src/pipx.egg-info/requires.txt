@@ -1,0 +1,9 @@
+userpath>=1.6.0
+argcomplete<2.0,>=1.9.4
+packaging>=20.0
+
+[:python_version < "3.8"]
+importlib-metadata>=3.3.0
+
+[:sys_platform == "win32"]
+colorama>=0.4.4
