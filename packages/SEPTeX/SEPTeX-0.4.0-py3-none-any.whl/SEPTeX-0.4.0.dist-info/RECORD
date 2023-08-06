@@ -1,0 +1,16 @@
+SEPTeX/LaTeX.py,sha256=-mSJ98xYtf9HIIW8CT8xyvsUPwmklcNQACf50MdRRZg,24996
+SEPTeX/TeXBase.py,sha256=zehmAvi_2bQ_L7Rjyn05K16yxtzyUjNfzaCGv0QW9Zk,10037
+SEPTeX/TeXUtils.py,sha256=pA3Q111nHNMmJ9fkVgASduFtV4cU4dnLrvTxYlf273s,8812
+SEPTeX/TikZ.py,sha256=QYCkxaPL84okXitEhw8Xxt8fO8k39A9YDAh6gOnqWsg,24035
+SEPTeX/TikZBase.py,sha256=N4fzHyIEHLksEmS056XZP01NkUk3WX99Lu9pjR83Px4,39778
+SEPTeX/TikZGraph.py,sha256=g16vFTglZ2zSUHfaqivTJKh2X1ULM9aDDEEg6RJTB2M,10777
+SEPTeX/__init__.py,sha256=GxBDFfzDODbsfGpujSqqmmuzPx5OUvojQRpdR2w3jN8,177
+SEPTeX/_test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+SEPTeX/_test/demo.py,sha256=xy6kWwhkQXoN8q4f7GsJHTJjsC9Ksp7r0Jg7O6apFb0,6950
+SEPTeX/_test/test_LaTeX.py,sha256=uU9rd3PuYwZ6fUPLQlE0wcGC7HecC-060AGbOSJqp7A,8902
+SEPTeX/_test/test_TeXBase.py,sha256=3GjiWjCSYkGH6e5u7o_d7KFj3E5aXM7N9a6n__Al1iI,12974
+SEPTeX/_test/test_TikZBase.py,sha256=QdB58Q7BhJiIC6lUMmhQsLgQGNiB5pVO-5Uafd4muuI,10528
+SEPTeX-0.4.0.dist-info/METADATA,sha256=8rfqD3SpGcqhEpQlYwcK7caxRLLkuLYkSP-dsKc4V58,1994
+SEPTeX-0.4.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+SEPTeX-0.4.0.dist-info/top_level.txt,sha256=B_wiGEQMVmdE2zmo-G5yT6tlI7lbvRYUBBK-fglfpDk,7
+SEPTeX-0.4.0.dist-info/RECORD,,
