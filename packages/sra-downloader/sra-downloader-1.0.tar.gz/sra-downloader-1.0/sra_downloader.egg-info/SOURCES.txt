@@ -1,0 +1,10 @@
+README.md
+setup.py
+sra_downloader/__init__.py
+sra_downloader/__main__.py
+sra_downloader/download.py
+sra_downloader.egg-info/PKG-INFO
+sra_downloader.egg-info/SOURCES.txt
+sra_downloader.egg-info/dependency_links.txt
+sra_downloader.egg-info/entry_points.txt
+sra_downloader.egg-info/top_level.txt
