@@ -1,0 +1,8 @@
+[build-system]
+requires = [
+    "flask",
+    "setuptools",
+    "SQLAlchemy",
+    "wheel"
+]
+build-backend = "setuptools.build_meta"
