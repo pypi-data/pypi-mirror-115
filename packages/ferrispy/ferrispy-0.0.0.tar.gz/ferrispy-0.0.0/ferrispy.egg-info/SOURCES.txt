@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+ferris/__init__.py
+ferris/base.py
+ferris/client.py
+ferrispy.egg-info/PKG-INFO
+ferrispy.egg-info/SOURCES.txt
+ferrispy.egg-info/dependency_links.txt
+ferrispy.egg-info/requires.txt
+ferrispy.egg-info/top_level.txt

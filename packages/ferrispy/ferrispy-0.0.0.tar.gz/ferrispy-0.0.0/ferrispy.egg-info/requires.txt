@@ -1,0 +1,8 @@
+aiohttp
+
+[docs]
+sphinx>=4.1.1
+furo
+
+[performance]
+orjson>=1.3.0
