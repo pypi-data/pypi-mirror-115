@@ -1,0 +1,13 @@
+README.md
+setup.py
+ediss/__init__.py
+ediss/cipher.py
+ediss/eddsa.py
+ediss/keys.py
+ediss/patch.py
+ediss/utils.py
+ediss.egg-info/PKG-INFO
+ediss.egg-info/SOURCES.txt
+ediss.egg-info/dependency_links.txt
+ediss.egg-info/requires.txt
+ediss.egg-info/top_level.txt
