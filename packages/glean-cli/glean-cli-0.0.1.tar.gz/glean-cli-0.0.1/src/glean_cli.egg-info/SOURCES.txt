@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/glean/__init__.py
+src/glean_cli.egg-info/PKG-INFO
+src/glean_cli.egg-info/SOURCES.txt
+src/glean_cli.egg-info/dependency_links.txt
+src/glean_cli.egg-info/top_level.txt
