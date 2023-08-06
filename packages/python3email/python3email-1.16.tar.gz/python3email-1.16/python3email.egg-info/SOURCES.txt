@@ -1,0 +1,8 @@
+README.rst
+setup.py
+python3email/__init__.py
+python3email/python3email.py
+python3email.egg-info/PKG-INFO
+python3email.egg-info/SOURCES.txt
+python3email.egg-info/dependency_links.txt
+python3email.egg-info/top_level.txt
