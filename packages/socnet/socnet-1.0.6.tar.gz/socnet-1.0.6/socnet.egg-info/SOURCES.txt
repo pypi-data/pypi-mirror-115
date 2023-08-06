@@ -1,0 +1,15 @@
+README.md
+setup.cfg
+setup.py
+socnet.egg-info/PKG-INFO
+socnet.egg-info/SOURCES.txt
+socnet.egg-info/dependency_links.txt
+socnet.egg-info/not-zip-safe
+socnet.egg-info/requires.txt
+socnet.egg-info/top_level.txt
+src/calculate.cc
+src/population.cc
+src/population.hpp
+src/pybindmodule.cc
+src/statistics.hpp
+src/version.h
