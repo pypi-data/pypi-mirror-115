@@ -1,0 +1,10 @@
+iamtokenizing/__init__.py,sha256=gN-ufRleOOuuQOcKm68OcdHQXiMUdsMonx4CeRGEmFA,252
+iamtokenizing/base_tokenizer.py,sha256=abwXlj1PfB0J6GN4g8joa7yFrKWuigL5j_rIekqreXM,2744
+iamtokenizing/chargrams.py,sha256=Pn9oCxxEl5p0H7-C8YuWvFgmKy224AWmvwVn-t3_4ys,2686
+iamtokenizing/ngrams.py,sha256=-16Jb4DkbK96rSUtYcvCyW9cPyX7vRpK8RvEfXh2Sts,4755
+iamtokenizing/regex_detector.py,sha256=vCEaT8Cp2w4KtH5D4FHzATvkSvLxuj35zWwh6JKHoJU,2986
+iamtokenizing-0.5.1.dist-info/LICENSE,sha256=pYYvenJ4nYRrXXpZfSv2zmSrvMp77Up2gUyeMWExGJg,35085
+iamtokenizing-0.5.1.dist-info/METADATA,sha256=30yxdsMKy9w6Lmj2sqWlNxWmFD_DXTQ1cnOYO1WJSnE,3999
+iamtokenizing-0.5.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+iamtokenizing-0.5.1.dist-info/top_level.txt,sha256=dE9FZAQCTCBukBSBFcQkqZEWxMqfmf_dvpuyK36RIUY,14
+iamtokenizing-0.5.1.dist-info/RECORD,,
