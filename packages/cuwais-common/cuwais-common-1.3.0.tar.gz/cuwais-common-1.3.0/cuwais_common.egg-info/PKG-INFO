@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: cuwais-common
+Version: 1.3.0
+Summary: The shared libraries for CUWAIS competitions
+Home-page: https://github.com/AI-Wars-Soc/common
+Author: Joe O'Connor
+Author-email: jo429@cam.ac.uk
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# common
+The common Python code shared by the other modules
+
+`DATABASE_CONNECTION` env var gives the url for the database
+
