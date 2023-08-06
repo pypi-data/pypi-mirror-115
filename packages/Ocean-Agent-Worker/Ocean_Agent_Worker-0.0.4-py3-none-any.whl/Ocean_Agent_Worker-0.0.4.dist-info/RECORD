@@ -1,0 +1,10 @@
+worker/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+worker/main.py,sha256=cQuy66knbHTECNgq4RYzcotNKv-CXIwwmBoZAt3-MrM,717
+worker/cmd/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+worker/cmd/hello.py,sha256=cB7gp2G3PEgZ46JZrEwX26lDiGwGhONG9xYnxijnM8g,296
+worker/cmd/join.py,sha256=KfDdYa2lR30UDxahbNoM66EvjE7yfryVs3y5EHSSELY,970
+Ocean_Agent_Worker-0.0.4.dist-info/METADATA,sha256=GjW_XLaWo40UbqIwaZkIwRS8cYyLYoBwQ_N-7sb7nqY,287
+Ocean_Agent_Worker-0.0.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+Ocean_Agent_Worker-0.0.4.dist-info/entry_points.txt,sha256=5001SPBnshl17a1itYzWq0EcnOVeiPtiLou0py-VRKQ,50
+Ocean_Agent_Worker-0.0.4.dist-info/top_level.txt,sha256=KrP-SOC-I1V0U33nVzMgkHR8wO-reJYASIvWVyLyFIY,7
+Ocean_Agent_Worker-0.0.4.dist-info/RECORD,,
