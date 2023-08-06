@@ -1,0 +1,10 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+python_simple_rules_engine/__init__.py
+python_simple_rules_engine.egg-info/PKG-INFO
+python_simple_rules_engine.egg-info/SOURCES.txt
+python_simple_rules_engine.egg-info/dependency_links.txt
+python_simple_rules_engine.egg-info/top_level.txt
