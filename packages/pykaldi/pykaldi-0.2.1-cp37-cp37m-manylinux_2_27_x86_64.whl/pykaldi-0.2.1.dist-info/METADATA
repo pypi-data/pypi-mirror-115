@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: pykaldi
+Version: 0.2.1
+Summary: A Python wrapper for Kaldi
+Home-page: UNKNOWN
+Author: Dogan Can, Victor Martinez, Benjamin Milde
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: enum34 ; python_version < "3.4"
+
+UNKNOWN
+
