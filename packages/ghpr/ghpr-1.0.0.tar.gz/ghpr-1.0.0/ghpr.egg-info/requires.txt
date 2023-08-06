@@ -1,0 +1,4 @@
+click==8.0.1
+PyGithub==1.55
+pyperclip==1.8.2
+tabulate==0.8.9
