@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/vscvm/__init__.py
+src/vscvm/__main__.py
+src/vscvm.egg-info/PKG-INFO
+src/vscvm.egg-info/SOURCES.txt
+src/vscvm.egg-info/dependency_links.txt
+src/vscvm.egg-info/entry_points.txt
+src/vscvm.egg-info/requires.txt
+src/vscvm.egg-info/top_level.txt

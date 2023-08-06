@@ -1,0 +1,6 @@
+beautifulsoup4>=4.9
+
+[dev]
+black
+mypy
+pytest
