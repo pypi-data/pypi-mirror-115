@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+facef/__init__.py
+facef/detection.py
+facef/distance.py
+facef/extraction.py
+facef.egg-info/PKG-INFO
+facef.egg-info/SOURCES.txt
+facef.egg-info/dependency_links.txt
+facef.egg-info/requires.txt
+facef.egg-info/top_level.txt
+facef/utils/__init__.py
+facef/utils/model_utils.py
+facef/utils/mtcnntf/__init__.py
+facef/utils/mtcnntf/models.py
+facef/utils/mtcnntf/utils.py
