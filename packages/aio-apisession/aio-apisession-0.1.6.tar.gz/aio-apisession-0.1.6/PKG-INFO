@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: aio-apisession
+Version: 0.1.6
+Summary: 
+Author: Sebastian Acuna
+Author-email: sebastian@unholster.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: aiohttp (>=3.7.4,<4.0.0)
