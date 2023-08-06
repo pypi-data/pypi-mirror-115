@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: cirq-superstaq
+Version: 0.0.1
+Summary: The Cirq module that provides tools and access to SuperstaQ
+Home-page: https://github.com/SupertechLabs/cirq-superstaq
+Author: Super.tech
+Author-email: pranav@super.tech
+License: N/A
+Platform: UNKNOWN
+Requires-Python: >=3.8.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: cirq
+
+This package is used to access SuperstaQ via a Web API through Qiskit
+
