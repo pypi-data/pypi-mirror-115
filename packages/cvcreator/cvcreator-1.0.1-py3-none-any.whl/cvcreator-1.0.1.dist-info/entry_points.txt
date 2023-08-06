@@ -1,0 +1,4 @@
+[console_scripts]
+cv=cvcreator.__main__:cv
+cvcreate=cvcreator.__main__:create
+
