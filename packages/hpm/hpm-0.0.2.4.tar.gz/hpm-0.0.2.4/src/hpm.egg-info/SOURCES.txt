@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/hpm/__init__.py
+src/hpm/__main__.py
+src/hpm/_printing.py
+src/hpm/_typing.py
+src/hpm/api.py
+src/hpm/args.py
+src/hpm/hpm.py
+src/hpm/namespaces.py
+src/hpm.egg-info/PKG-INFO
+src/hpm.egg-info/SOURCES.txt
+src/hpm.egg-info/dependency_links.txt
+src/hpm.egg-info/entry_points.txt
+src/hpm.egg-info/top_level.txt
