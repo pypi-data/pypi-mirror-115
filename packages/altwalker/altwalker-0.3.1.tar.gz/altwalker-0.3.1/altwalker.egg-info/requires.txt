@@ -1,0 +1,13 @@
+requests
+psutil
+click
+click-help-colors>=0.9.1
+
+[:platform_system == "Windows"]
+colorama
+
+[:python_version < "3.6"]
+GitPython==3.1.13
+
+[:python_version >= "3.6"]
+GitPython
