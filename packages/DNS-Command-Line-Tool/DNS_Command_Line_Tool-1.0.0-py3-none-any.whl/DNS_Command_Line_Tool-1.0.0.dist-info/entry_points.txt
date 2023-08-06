@@ -1,0 +1,3 @@
+[console_scripts]
+dnsip = CommandLineTool.script:main
+
