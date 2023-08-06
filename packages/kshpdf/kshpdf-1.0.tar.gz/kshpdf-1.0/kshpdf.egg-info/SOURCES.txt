@@ -1,0 +1,6 @@
+README.md
+setup.py
+kshpdf.egg-info/PKG-INFO
+kshpdf.egg-info/SOURCES.txt
+kshpdf.egg-info/dependency_links.txt
+kshpdf.egg-info/top_level.txt
