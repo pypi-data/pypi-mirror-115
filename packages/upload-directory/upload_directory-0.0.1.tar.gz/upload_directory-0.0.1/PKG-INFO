@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: upload_directory
+Version: 0.0.1
+Summary: Django management command to upload directory to s3 bucket
+Home-page: UNKNOWN
+Author: Souradeep Sengupta
+Author-email: souradeepsengupta95@gmail.com
+License: UNKNOWN
+Description: Python package used as Django management command to upload directory to s3 bucket
+Keywords: python,s3,directory upload
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3

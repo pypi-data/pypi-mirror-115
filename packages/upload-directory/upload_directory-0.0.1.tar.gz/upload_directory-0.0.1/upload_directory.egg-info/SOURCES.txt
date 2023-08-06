@@ -1,0 +1,10 @@
+setup.py
+upload_directory/__init__.py
+upload_directory.egg-info/PKG-INFO
+upload_directory.egg-info/SOURCES.txt
+upload_directory.egg-info/dependency_links.txt
+upload_directory.egg-info/requires.txt
+upload_directory.egg-info/top_level.txt
+upload_directory/management/__init__.py
+upload_directory/management/commands/__init__.py
+upload_directory/management/commands/upload_to_s3.py
