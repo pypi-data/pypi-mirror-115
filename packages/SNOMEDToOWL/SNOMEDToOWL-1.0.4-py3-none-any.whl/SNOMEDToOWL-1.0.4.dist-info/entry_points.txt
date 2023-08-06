@@ -1,0 +1,6 @@
+[console_scripts]
+CompareRDF = SNOMEDCTToOWL.CompareRDF:main
+Modules = SNOMEDCTToOWL.Modules:main
+RF2Filter = SNOMEDCTToOWL.RF2Filter:main
+SNOMEDToOWL = SNOMEDCTToOWL.SNOMEDToOWL:main
+
