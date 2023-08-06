@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "graph-dfs"
+version = "0.0.7"
+description = "Graphs and Depth First Search"
+authors = ["Daniel M. Martin <danielmmartin@gmail.com>"]
+homepage = "https://github.com/daniel-ufabc/graph-dfs"
+repository = "https://github.com/daniel-ufabc/graph-dfs"
+keywords = ["graph", "DFS"]
+license = "MIT"
+readme = "README.md"
+classifiers = [
+    "Topic :: Software Development :: Libraries",   
+]
+packages = [
+    { include = "dfs" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.4"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
