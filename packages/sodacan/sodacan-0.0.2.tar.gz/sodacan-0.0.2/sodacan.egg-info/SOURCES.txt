@@ -1,0 +1,8 @@
+README.md
+setup.py
+sodacan.py
+sodacan.egg-info/PKG-INFO
+sodacan.egg-info/SOURCES.txt
+sodacan.egg-info/dependency_links.txt
+sodacan.egg-info/requires.txt
+sodacan.egg-info/top_level.txt
