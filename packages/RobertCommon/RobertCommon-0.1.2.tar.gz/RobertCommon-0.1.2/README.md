@@ -1,0 +1,51 @@
+📦 RobertCommon (Robert Common Library) 
+=======================
+
+## Owners
+
+* Owner: Hun0423
+* Co-owner: Hun0423
+
+## Build the package 
+
+* Read first
+[Packaging Python Projects](https://packaging.python.org/tutorials/packaging-projects/)
+
+* Install build tool
+
+	```text
+	python -m pip install --upgrade build
+	```
+
+* Build package
+
+	```text
+	python -m build
+
+## Upload to private Python Package Index - 
+
+* Setup Python Package Index
+
+Please refer to [Update .pypirc file](https://packaging.python.org/specifications/pypirc/), setup smartbeop python package index like below.
+The user name and password can be found [here](https://code.smartbeop.com/devops/deployments/pypiserver/-/blob/master/README.md).
+
+```text
+[distutils]
+index-servers = pypi
+
+[smartbeop]
+	repository = https://upload.pypi.org/legacy/
+	username = %username%
+	password = %password%
+```
+
+* Install twine
+
+	```shell
+	python -m pip install --upgrade twine
+	```
+* Upload to smartbeop pypi
+
+	```shell
+	python -m twine upload dist/*
+	```
