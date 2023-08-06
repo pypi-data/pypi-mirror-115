@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/mikeapted_myconstruct/__init__.py
+src/mikeapted_myconstruct/py.typed
+src/mikeapted_myconstruct.egg-info/PKG-INFO
+src/mikeapted_myconstruct.egg-info/SOURCES.txt
+src/mikeapted_myconstruct.egg-info/dependency_links.txt
+src/mikeapted_myconstruct.egg-info/requires.txt
+src/mikeapted_myconstruct.egg-info/top_level.txt
+src/mikeapted_myconstruct/_jsii/__init__.py
+src/mikeapted_myconstruct/_jsii/my-construct@0.1.0.jsii.tgz
