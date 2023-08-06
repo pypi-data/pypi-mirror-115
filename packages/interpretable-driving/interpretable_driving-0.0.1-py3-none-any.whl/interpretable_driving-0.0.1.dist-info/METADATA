@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: interpretable-driving
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: https://github.com/zhangdongkun98/interpretable-driving
+Author: Zhang Dongkun
+Author-email: zhangdongkun98@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: rllib
+Requires-Dist: glvm
+Requires-Dist: carla-utils
+
+UNKNOWN
+
+
