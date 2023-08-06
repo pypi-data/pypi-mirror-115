@@ -1,0 +1,4 @@
+djangorestframework
+django-ipware
+jwcrypto
+django-xently
