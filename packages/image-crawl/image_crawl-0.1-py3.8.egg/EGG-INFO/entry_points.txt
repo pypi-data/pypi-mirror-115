@@ -1,0 +1,3 @@
+[console_scripts]
+bcrawl = image_crawl.src.collect:main
+
