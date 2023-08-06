@@ -1,0 +1,14 @@
+bces
+exif
+numpy
+pandas
+pydantic
+scikit-image
+scikit-learn
+scipy
+Shapely
+skyfield
+strictyaml
+torch
+torchvision
+tqdm
