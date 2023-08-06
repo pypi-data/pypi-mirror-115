@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+src/yotpo_api.py
+src/yotpo_api.egg-info/PKG-INFO
+src/yotpo_api.egg-info/SOURCES.txt
+src/yotpo_api.egg-info/dependency_links.txt
+src/yotpo_api.egg-info/requires.txt
+src/yotpo_api.egg-info/top_level.txt
+tests/__init__.py
+tests/test_yotpo_api.py
