@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: crispr-CSC
+Version: 0.1
+Summary: Computational adjustment for off-targeting effects of NGG Cas9 gRNAs
+Home-page: UNKNOWN
+Author: Alexendar Perez
+Author-email: Alexendar.Perez@ucsf.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: scikit-learn
+Requires-Dist: sklearn-contrib-py-earth (==0.1.0)
+Requires-Dist: python-dateutil (>=2.5.0)
+
+UNKNOWN
+
+
