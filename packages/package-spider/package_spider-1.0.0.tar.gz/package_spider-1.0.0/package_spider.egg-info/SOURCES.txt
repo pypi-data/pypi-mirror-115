@@ -1,0 +1,9 @@
+LICENSE
+README.rst
+setup.py
+package_spider/__init__.py
+package_spider/main.py
+package_spider.egg-info/PKG-INFO
+package_spider.egg-info/SOURCES.txt
+package_spider.egg-info/dependency_links.txt
+package_spider.egg-info/top_level.txt
