@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: PyTangtv
+Version: 0.2.7
+Summary: LLNL DIII-D diagnostic image tools
+Home-page: UNKNOWN
+Maintainer: Bill Meyer
+Maintainer-email: meyer8@llnl.gov
+License: LLNL
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: requests
+Requires-Dist: tk
+
+PyTangtv is a set of tools used to work with data from LLNL Tangential viewing camera diagnostics from the DIII-D experiment.
+
+Picker - program to select features from the loaded image and output the pixel coordinates. If a calibration board module is provided then the program can output x,y,z coordinates as well.
+
+PyAlign - program to do simple, rigid, image plane transformations of the loaded image. A background image can be loaded and then the two layered to facilitate aligning the two.
+
+PyMorph - used to determine the foreground->background control points to do polynomial spatial warping of the foreground to match the background. 
+
+
