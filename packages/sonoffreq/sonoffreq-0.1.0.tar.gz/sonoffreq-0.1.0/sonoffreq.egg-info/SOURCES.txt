@@ -1,0 +1,11 @@
+setup.py
+sonoff-req
+sonoffreq
+sonoffreq/__init__.py
+sonoffreq/sonoff.py
+sonoffreq.egg-info/PKG-INFO
+sonoffreq.egg-info/SOURCES.txt
+sonoffreq.egg-info/dependency_links.txt
+sonoffreq.egg-info/not-zip-safe
+sonoffreq.egg-info/requires.txt
+sonoffreq.egg-info/top_level.txt

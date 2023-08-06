@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: sonoffreq
+Version: 0.1.0
+Summary: A simple lib that sends requests to sonoff devices
+Home-page: https://github.com/filipealvesdef/sonoffreq
+Author: Filipe Alves
+Author-email: filipe.alvesdefernando@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
