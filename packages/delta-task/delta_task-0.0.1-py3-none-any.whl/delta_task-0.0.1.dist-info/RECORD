@@ -1,0 +1,14 @@
+delta/__init__.py,sha256=9ipndT-Vugh__mDUj8p0Jvrg9epKWvwhUMZ3OaOxxC4,34
+delta/delta_node.py,sha256=2T4Wu5QU3wWsl7b7a0xsTRLp0R99Y0i6giXtXatAZRQ,1117
+delta/node/__init__.py,sha256=UFbFXWv8looHylLtf2uYpVuTazrBdfn8MKwdBuOpEvY,52
+delta/node/debug.py,sha256=GBOqkib1WsLogqY-0v_H62ALa80sJSLsdZWkAvjR0pk,3682
+delta/node/node.py,sha256=w8kvjlO5VrXeBUjjXKR60UcKF_9iKQDXYK4DTxsofDs,663
+delta/task/__init__.py,sha256=n1le7UfPxDtC_qF0cZhbrVEonZyFuTJ_jPtA_hv0h08,122
+delta/task/learn.py,sha256=zL6zsIgcKTYlu1FWL_BihbdKBbg3C0yj5rgr_IFxa2U,13642
+delta/task/load.py,sha256=jqp1o95gaIvx3kwPTdcbFu35ed43rzPJ5RO13NAqXxM,563
+delta/task/task.py,sha256=Xf9T-GecFGbroFmBLNN2OBL-GEzN_xBVu8m0n6Go29g,1605
+delta_task-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+delta_task-0.0.1.dist-info/METADATA,sha256=gPJ33UoYYUTXtzoKxTIlmx2Ew38OrZrfyDqjEOr9l9Q,391
+delta_task-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+delta_task-0.0.1.dist-info/top_level.txt,sha256=ZzlT4K1_xTJH9P6twsLUUGOWhA0fh5ZSb0jUczOsdlI,6
+delta_task-0.0.1.dist-info/RECORD,,
