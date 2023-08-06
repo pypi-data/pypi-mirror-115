@@ -1,0 +1,3 @@
+[console_scripts]
+mask-stats = cambridge_mask_stats:main
+
