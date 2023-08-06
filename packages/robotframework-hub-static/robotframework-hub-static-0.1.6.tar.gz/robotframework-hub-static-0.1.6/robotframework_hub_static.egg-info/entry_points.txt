@@ -1,0 +1,3 @@
+[console_scripts]
+keyword_doc = rfhub_static.keyword_doc:kw_doc_gen
+

@@ -1,0 +1,74 @@
+Metadata-Version: 2.1
+Name: robotframework-hub-static
+Version: 0.1.6
+Summary: Create robot keyword documentation as static HTML
+Home-page: https://github.com/bli74/robotframework-hub/
+Author: Bryan Oakley
+Author-email: bryan.oakley@gmail.com
+Maintainer: Bert Lindemann
+Maintainer-email: bert.lindemann@gmail.com
+License: Apache License 2.0
+Keywords: robotframework
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Framework :: Robot Framework
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Testing
+Classifier: Topic :: Software Development :: Quality Assurance
+Classifier: Intended Audience :: Developers
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: test
+License-File: LICENSE
+
+# Welcome to Robot Framework Hub Static
+
+## Motivation
+This project is based on Robot Framework Hub to generate
+keyword documentation for a robotframework environment.
+
+The original Robot Framework Hub needs a running web server
+process. There are no artifacts that can be published by a 
+CI/CD pipeline.
+
+Here Robot Framework Hub Static can be used. It generates
+with ´libdoc´ the documentation for the robot internal 
+libraries, additional installed robot libraries and robot
+resource files.
+Based on the list of the generated HTML files an index page
+is created
+
+## Getting started
+
+```
+    $ pip install robotframework-hub-static
+    $ keyword_doc ${ROOT_PATH_ROBOT_RESOURCES} ${DOCU_DIR}
+```
+
+Note:
+* robotframework-hub requires python 3.6 or greater
+* The documentation directory is cleaned up, use a dedicated
+  directory to store the documentation.
+
+
+## Websites
+
+Source code, screenshots, and additional documentation can be
+found here:
+
+* Source code: https://github.com/bli74/robotframework-hub-static
+
+This is a fork of the initial project:
+
+* Source code (updated): https://github.com/bli74/robotframework-hub
+* Source code (upstream): https://github.com/boakley/robotframework-hub
+* Project wiki: https://github.com/boakley/robotframework-hub/wiki
+
+## Acknowledgements
+
+A huge thank-you to Echo Global Logistics (echo.com) for supporting
+the development of this package.
+
+
