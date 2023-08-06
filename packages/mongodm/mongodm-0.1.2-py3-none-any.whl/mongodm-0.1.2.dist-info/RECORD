@@ -1,0 +1,9 @@
+LICENSE,sha256=NnMG-02xyQzFANAteqlEKqlJbNfKd-uOmsNt4nA2H8Y,1067
+mongodm/__init__.py,sha256=fUtA1v4FuCU-PyxwlCW4buK61vRF-kQXNbCulU8iImc,101
+mongodm/mongo.py,sha256=bFAq8u3c_bdffxuDG5oY66bb9BwRFqEv7D-kK96yvDk,651
+mongodm/types.py,sha256=C3OQqs2ERAHLOvygsufFv9SUAL9TgvghYBSfyqUhW60,7030
+mongodm/utils.py,sha256=awRCVUWYkzU7JdxEi0bFt5SulY6QwjgM532H7UYvxws,1148
+mongodm-0.1.2.dist-info/LICENSE,sha256=NnMG-02xyQzFANAteqlEKqlJbNfKd-uOmsNt4nA2H8Y,1067
+mongodm-0.1.2.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+mongodm-0.1.2.dist-info/METADATA,sha256=A93Umtjs8aLpgPzVmd-TJ9N8fSO777VBKrpbEnffJZk,1184
+mongodm-0.1.2.dist-info/RECORD,,
