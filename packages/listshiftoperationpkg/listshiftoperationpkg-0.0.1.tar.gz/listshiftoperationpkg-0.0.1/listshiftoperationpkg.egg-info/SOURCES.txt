@@ -1,0 +1,7 @@
+setup.py
+listshiftoperationpkg.egg-info/PKG-INFO
+listshiftoperationpkg.egg-info/SOURCES.txt
+listshiftoperationpkg.egg-info/dependency_links.txt
+listshiftoperationpkg.egg-info/top_level.txt
+shift_operation/__init__.py
+shift_operation/list_shift_operation.py
