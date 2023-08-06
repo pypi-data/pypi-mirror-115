@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+accession2taxid.py
+setup.py
+accession2taxid.egg-info/PKG-INFO
+accession2taxid.egg-info/SOURCES.txt
+accession2taxid.egg-info/dependency_links.txt
+accession2taxid.egg-info/entry_points.txt
+accession2taxid.egg-info/requires.txt
+accession2taxid.egg-info/top_level.txt
