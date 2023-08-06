@@ -1,0 +1,15 @@
+canvacord/__init__.py,sha256=vNhevGYT7hacRmy8dMYeGLT1b8nUrMflpnx8WcwcJUg,222
+canvacord/generators/__init__.py,sha256=3ijqSY-Ulv_zinF4sdMDc_gIHccZmIVPzVLkeLEbozs,194
+canvacord/generators/communism.py,sha256=YeHY6MLOKd_mWva4tV92kPVZRNkKsp2l1K_IJHCTf_0,1562
+canvacord/generators/gay.py,sha256=DpN4gc4ah1g1QQKooulXDAl0HqQbI79O04Y3Hz3FkSY,1289
+canvacord/generators/hitler.py,sha256=03IMwVS-n731GfDYyr3_zOLb7hxUsshi9PkSe0YocUQ,1252
+canvacord/generators/jail.py,sha256=7Je3kF1Ikigg0JQ0XUTkL1rGaK42vRl1_yJkk45jHTM,1260
+canvacord/generators/rankcard.py,sha256=z5Cj7zgxe1y1qjzm5fcR-jg3pH-hiJwIjjc6_Cpn8PI,9540
+canvacord/generators/spank.py,sha256=WH9msOutIxTO4wsGf0ta7MAVQ3zOus9myTI56G8dsC8,1430
+canvacord/generators/trigger.py,sha256=vj2spdsz0IAY0uw2tIy_ESuLVFu2-yy4BJ0M-SBVcuc,2245
+canvacord-0.2.0.dist-info/AUTHORS.rst,sha256=cVO6ZKNnBEJsxD4J8tTXYOLvJc6-_T04VNQBr7o8BzA,55
+canvacord-0.2.0.dist-info/LICENSE,sha256=_KKcU1-sIDaEfNDowV0r1DHvNd1R4WBJdk71K5Mlr9M,1067
+canvacord-0.2.0.dist-info/METADATA,sha256=mHR579Ljz9m-rnOuO0PLoS5szzVRsXcEfsSDnoMrB30,3743
+canvacord-0.2.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+canvacord-0.2.0.dist-info/top_level.txt,sha256=P3iucJIZQPCTmvKdYPOhz4KIVUMH1T7rOfzARArxBi0,10
+canvacord-0.2.0.dist-info/RECORD,,
