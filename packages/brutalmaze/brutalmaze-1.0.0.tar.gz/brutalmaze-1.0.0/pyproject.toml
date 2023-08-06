@@ -1,0 +1,32 @@
+[build-system]
+requires = ['flit_core >=2,<3']
+build-backend = 'flit_core.buildapi'
+
+[tool.flit.metadata]
+module = 'brutalmaze'
+author = 'Nguyễn Gia Phong'
+author-email = 'mcsinyx@disroot.org'
+home-page = 'https://sr.ht/~cnx/brutalmaze'
+requires = ['appdirs', 'palace', 'pygame>=2']
+description-file = 'README.rst'
+classifiers = [
+    'Development Status :: 5 - Production/Stable',
+    'Environment :: MacOS X',
+    'Environment :: Win32 (MS Windows)',
+    'Environment :: X11 Applications',
+    'Intended Audience :: End Users/Desktop',
+    'License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)',
+    'Natural Language :: English',
+    'Operating System :: OS Independent',
+    'Programming Language :: Python',
+    'Programming Language :: Python :: 3 :: Only',
+    'Topic :: Games/Entertainment :: Arcade']
+requires-python = '>=3.6'
+keywords = 'pygame,shmup,maze,ai-challenges'
+license = 'AGPLv3+'
+
+[tool.flit.metadata.urls]
+Documentation = 'https://brutalmaze.rtfd.io'
+
+[tool.flit.entrypoints.console_scripts]
+brutalmaze = 'brutalmaze.__main__:main'

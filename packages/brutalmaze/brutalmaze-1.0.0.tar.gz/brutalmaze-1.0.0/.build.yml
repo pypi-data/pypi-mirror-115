@@ -1,0 +1,9 @@
+image: debian/sid
+packages:
+  - pulseaudio
+  - tox
+sources:
+  - https://git.sr.ht/~cnx/brutalmaze
+tasks:
+  - init: pulseaudio --start
+  - lint: tox -c brutalmaze
