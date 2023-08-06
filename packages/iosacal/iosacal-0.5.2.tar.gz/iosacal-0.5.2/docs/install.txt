@@ -1,0 +1,71 @@
+==============
+ Installation
+==============
+
+Simple things simple: to run IOSACal you need the following software
+on your computer:
+
+- Python_
+- NumPy_
+- Matplotlib_
+
+All are available for major platforms. Order of installation matters.
+
+.. _Python: http://www.python.org/
+.. _NumPy: http://numpy.scipy.org/
+.. _Matplotlib: http://matplotlib.sourceforge.net/
+
+
+Download
+--------
+
+As of version 0.4.1 (released in 2018) IOSACal is in beta stage. You can always
+get the *development version* from the `git repository`_, either with the
+`complete project history`_ or download the latest *released version* as a
+simple `source archive`_.
+
+.. _`git repository`: https://codeberg.org/steko/iosacal
+.. _`complete project history`: https://codeberg.org/steko/iosacal/commits/branch/master
+.. _`source archive`: https://codeberg.org/steko/iosacal/archive/v0.4.1.zip
+
+Installing
+----------
+
+Just extract the downloaded archive, move to the main directory and::
+
+     python setup.py install
+
+from the main directory. Using pip_ and virtualenv_ is strongly
+recommended.
+
+.. _pip: https://pip.pypa.io/
+.. _virtualenv: https://virtualenv.pypa.io/
+
+After the install has completed, the ``iosacal`` binary will be available.
+
+
+Specific operating system instructions
+--------------------------------------
+
+Debian/Ubuntu
+~~~~~~~~~~~~~
+
+From a terminal::
+
+  sudo apt-get install python3-matplotlib
+
+(this installs also Python, Numpy and all other requirements).
+
+Windows
+~~~~~~~
+
+You might find more convenient to use a dedicated Python distribution
+instead of separately installing all packages:
+
+- `Enthought Python Distribution`_ (a commercial distribution for
+  scientific computing)
+- `Python(x,y)`_ (a free distribution for scientific and engineering
+  computing)
+
+.. _`Enthought Python Distribution`: http://enthought.com/products/epd.php
+.. _`Python(x,y)`: http://www.pythonxy.com/
