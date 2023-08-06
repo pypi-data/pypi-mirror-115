@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/creasepattern/__init__.py
+src/creasepattern/cp.py
+src/creasepattern/cp2png.py
+src/creasepattern.egg-info/PKG-INFO
+src/creasepattern.egg-info/SOURCES.txt
+src/creasepattern.egg-info/dependency_links.txt
+src/creasepattern.egg-info/requires.txt
+src/creasepattern.egg-info/top_level.txt
