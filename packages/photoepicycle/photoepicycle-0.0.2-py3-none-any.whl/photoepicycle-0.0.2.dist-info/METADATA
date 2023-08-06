@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: photoepicycle
+Version: 0.0.2
+Summary: Represent images using epicycles
+Home-page: https://github.com/abinmahfuth/Picycle
+Author: Abdulrahman Binmahfuth
+Author-email: a.binmahfodh@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Picycle
+A library represent images in an epicyclic way
+
+
