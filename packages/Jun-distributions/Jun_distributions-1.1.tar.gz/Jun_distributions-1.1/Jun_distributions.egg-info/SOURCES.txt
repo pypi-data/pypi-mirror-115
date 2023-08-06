@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+Jun_distributions/Binomialdistribution.py
+Jun_distributions/Gaussiandistribution.py
+Jun_distributions/Generaldistribution.py
+Jun_distributions/__init__.py
+Jun_distributions.egg-info/PKG-INFO
+Jun_distributions.egg-info/SOURCES.txt
+Jun_distributions.egg-info/dependency_links.txt
+Jun_distributions.egg-info/not-zip-safe
+Jun_distributions.egg-info/top_level.txt
