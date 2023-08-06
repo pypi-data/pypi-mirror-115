@@ -1,0 +1,16 @@
+starparser/__init__.py,sha256=oAYsC1lrMRuX2Gh6EULqcN3Qb-9t6qOP4Bn-_IaawOY,85
+starparser/__main__.py,sha256=jmm_mSD0EEsXDczIDR6lPiktH6_XL5gwt6JHVasNWiI,127
+starparser/argparser.py,sha256=rwnKjF36PjT74QNWcscCZWj60sHeYfIeNdPdWLYNN5s,18356
+starparser/columnplay.py,sha256=_SWKdWxfMz9BRS9p42VFxCH-I3DzemU1-GM2JRR3kOU,7504
+starparser/decisiontree.py,sha256=Ln56MeFJe_jGNkvkcwZ8-84kWHsT3F0ukGGXXn7t4ao,44122
+starparser/fileparser.py,sha256=ff4S3ZHuYNX8Kxh_I_eV_xMr928ISGOBpiMRSTtDfHQ,11594
+starparser/particleplay.py,sha256=XDQ1VyUs-DHiOLeMytW2_sEDrHUpXRgbWm8rxv_nZtA,9687
+starparser/plots.py,sha256=5CBmjBzgyA_TbOn8B2b5nDVU7hT2YWGdyFqAvWQ51No,25892
+starparser/specialparticles.py,sha256=Sy28cJwfYuCrMD7v58YLY4GscybjwK4irQybBzLUn5I,6875
+starparser/splits.py,sha256=7ZczSIi56HA7AajnDwS7iVQzlALmefCEds2aK-e_sbM,1945
+starparser-1.28.dist-info/LICENSE.txt,sha256=WHZvVIZXjuGXnJ0Z9roNTK6Iv4N7BT0h029MNqp_1qI,1088
+starparser-1.28.dist-info/METADATA,sha256=ZZ-b6KLrnfst6UPb72s0YWr09T8P6Y0h9MWJBiXiwIY,31810
+starparser-1.28.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+starparser-1.28.dist-info/entry_points.txt,sha256=borlQcHyXOvoAqIU-x_oJq_eSmrCU9M34AayfdvJxzI,57
+starparser-1.28.dist-info/top_level.txt,sha256=QOchTyuG8E-TtqDbD17FWlEu2h9qHnyzEpDLV_rxuT0,11
+starparser-1.28.dist-info/RECORD,,
