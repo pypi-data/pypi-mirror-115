@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+DDarkCalc/__init__.py
+DDarkCalc.egg-info/PKG-INFO
+DDarkCalc.egg-info/SOURCES.txt
+DDarkCalc.egg-info/dependency_links.txt
+DDarkCalc.egg-info/top_level.txt
