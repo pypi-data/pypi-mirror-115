@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: ofiber
+Version: 0.6.2
+Summary: Light Propagation in Optical Fibers
+Home-page: https://github.com/scottprahl/ofiber.git
+Author: Scott Prahl
+Author-email: scott.prahl@oit.edu
+License: MIT
+Keywords: refraction,Sellmeier,modes,dispersion,graded index,gradient index,single mode,multimode
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.4
+Description-Content-Type: text/x-rst
+License-File: LICENSE.txt
+
+ofiber
+======
+
+.. image:: https://img.shields.io/pypi/v/ofiber.svg
+   :target: https://pypi.org/project/ofiber/
+
+.. image:: https://mybinder.org/badge_logo.svg
+   :target: https://mybinder.org/v2/gh/scottprahl/ofiber/master?filepath=docs
+
+.. image:: https://colab.research.google.com/assets/colab-badge.svg
+   :target: https://colab.research.google.com/github/scottprahl/ofiber/blob/master
+
+.. image:: https://img.shields.io/badge/readthedocs-latest-blue.svg
+   :target: https://ofiber.readthedocs.io
+
+.. image:: https://img.shields.io/badge/github-code-green.svg
+   :target: https://github.com/scottprahl/ofiber
+
+.. image:: https://img.shields.io/badge/MIT-license-yellow.svg
+   :target: https://github.com/scottprahl/laserbeamsize/blob/master/LICENSE.txt
+
+-----
+
+A set of Python modules to calculate light propagation through optical fibers following
+the approach presented in `Ghatak and Thyagarajan <https://doi.org/10.1017/CBO9781139174770>`_, *An Introduction to Fiber Optics,*
+Cambridge University Press (1980).
+
+Usage
+-----
+
+For examples and use cases, see <https://ofiber.readthedocs.io>
+
+Installation
+------------
+
+Just use `pip`::
+
+   pip install --user --upgrade ofiber
+
+License
+-------
+
+`ofiber` is licensed under the terms of the MIT license.
+
