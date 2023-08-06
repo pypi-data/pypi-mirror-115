@@ -1,0 +1,11 @@
+numpy
+sympy
+scipy
+matplotlib
+networkx
+pyYAML
+ordered-set
+
+[docs]
+sphinx>=1.7
+sphinx_rtd_theme
