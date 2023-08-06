@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: ONUR-Voice-Assistant
+Version: 0.1.0
+Summary: A modular and expandable voice assistant
+Home-page: https://github.com/onuratakan/say_me_something
+Author: Onur Atakan ULUSOY
+Author-email: atadogan06@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >= 3, < 3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+# ONUR Voice Assistant | [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/) [![GitHub license](https://img.shields.io/github/license/onuratakan/ONUR_Voice_Assistant)](https://github.com/onuratakan/ONUR_Voice_Assistant/blob/master/LICENSE)
+A modular and expandable voice assistant.
+# Install
+```
+pip install ONUR-Voice-Assistant
+```
+# Using
+## In another script
+```python
+from ONUR_Voice_Assistant import ONUR
+
+ONUR.run()
+```
+## In command line
+```console
+ONUR
+```
+
+
