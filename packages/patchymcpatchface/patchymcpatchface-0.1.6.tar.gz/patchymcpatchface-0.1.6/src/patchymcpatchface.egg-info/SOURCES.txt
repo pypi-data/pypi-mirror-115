@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/patchymcpatchface/__init__.py
+src/patchymcpatchface.egg-info/PKG-INFO
+src/patchymcpatchface.egg-info/SOURCES.txt
+src/patchymcpatchface.egg-info/dependency_links.txt
+src/patchymcpatchface.egg-info/top_level.txt
