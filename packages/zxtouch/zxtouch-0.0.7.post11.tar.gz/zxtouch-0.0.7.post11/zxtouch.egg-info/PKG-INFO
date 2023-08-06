@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: zxtouch
+Version: 0.0.7.post11
+Summary: iOS Automation Framework iOS Touch Simulation Library
+Home-page: https://gitlab.com/marzzzello/zxtouch
+Author: xuan32546, marzzzello
+Author-email: zxtouch@07f.de
+License: GPL-3.0
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Package of https://github.com/xuan32546/IOS13-SimulateTouch/tree/v0.0.7-10/layout/usr/lib/python3.7/site-packages/zxtouch
+
+
