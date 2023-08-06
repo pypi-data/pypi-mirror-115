@@ -1,0 +1,10 @@
+metaflowbot/__init__.py,sha256=ED6jHcYiuYpr_0vjGz0zx2lrrmJT9sDJCzIljoDfmlM,65
+metaflowbot/actions/__init__.py,sha256=ED6jHcYiuYpr_0vjGz0zx2lrrmJT9sDJCzIljoDfmlM,65
+metaflowbot/actions/jokes/__init__.py,sha256=WBQ4-W8CSVCm77dXcBkfwpabLw90gypxopqx8Rz9po0,171
+metaflowbot/actions/jokes/commands.py,sha256=0WO4U7dNT37-5r1DyXHyz-iFCzig-wRpB2B8EnGoVv4,1190
+metaflowbot/actions/jokes/rules.yml,sha256=J2dkcE7i6Vuw9_nW_zERsgbJ5l7KaUg9t1UsZotPKqw,222
+metaflowbot_actions_jokes-1.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+metaflowbot_actions_jokes-1.0.1.dist-info/METADATA,sha256=VorFA230nsmgrs-Prsv-4J1XhpnrZxYdI323njJQ89w,878
+metaflowbot_actions_jokes-1.0.1.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+metaflowbot_actions_jokes-1.0.1.dist-info/top_level.txt,sha256=Qh2ffkHe4IyQTITwMehSb3o9gLMUkZ7Eee9GFwhCfDw,12
+metaflowbot_actions_jokes-1.0.1.dist-info/RECORD,,
