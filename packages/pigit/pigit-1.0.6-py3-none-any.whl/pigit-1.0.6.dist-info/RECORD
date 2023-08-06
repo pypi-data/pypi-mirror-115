@@ -1,0 +1,10 @@
+pigit/__init__.py,sha256=wd0Pvyyyc7OQ2fp5jT5UzFwA5FwdqUD_UFylkpQIq-A,123067
+pigit/__main__.py,sha256=3evpI-s4ko8R-S4lTW48UFI6qODpL7OkcrGdMvwCNwE,41
+pigit/error.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pigit/model.py,sha256=sa3AGyk1UA6rbhwJJCIevcFx6hSGto7Bza9uK_Lf70I,1352
+pigit-1.0.6.dist-info/LICENSE,sha256=uzSKdFjkCmiL2A2e39HF96AFvTQpfFWHjx8ZbmnZRSk,1064
+pigit-1.0.6.dist-info/METADATA,sha256=pfG-KI9oI_WBzOKE9FA9JNAoiEhyjxvQI2nVrOhwoMU,3863
+pigit-1.0.6.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pigit-1.0.6.dist-info/entry_points.txt,sha256=RFIB9uwgZs07BIv63E1MTvyXKVKwkWcqxnsUZ037KAI,57
+pigit-1.0.6.dist-info/top_level.txt,sha256=k9E8sLMIEIlZYmHJBqohry7ff-dKpMyLx0VfBtEeFYY,6
+pigit-1.0.6.dist-info/RECORD,,
