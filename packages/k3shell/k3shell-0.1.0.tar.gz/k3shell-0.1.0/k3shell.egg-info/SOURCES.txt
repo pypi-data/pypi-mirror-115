@@ -1,0 +1,10 @@
+setup.py
+k3shell/__init__.py
+k3shell/command.py
+k3shell/setup.py
+k3shell/synopsis.py
+k3shell.egg-info/PKG-INFO
+k3shell.egg-info/SOURCES.txt
+k3shell.egg-info/dependency_links.txt
+k3shell.egg-info/requires.txt
+k3shell.egg-info/top_level.txt
