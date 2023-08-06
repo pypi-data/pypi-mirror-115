@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+3a_python_package_ligia.egg-info/PKG-INFO
+3a_python_package_ligia.egg-info/SOURCES.txt
+3a_python_package_ligia.egg-info/dependency_links.txt
+3a_python_package_ligia.egg-info/not-zip-safe
+3a_python_package_ligia.egg-info/top_level.txt
+distributions/Gaussiandistribution.py
+distributions/Generaldistribution.py
+distributions/__init__.py
