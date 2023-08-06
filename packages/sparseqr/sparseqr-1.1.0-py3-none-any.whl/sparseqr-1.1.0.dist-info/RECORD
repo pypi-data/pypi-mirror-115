@@ -1,0 +1,8 @@
+sparseqr/__init__.py,sha256=0Hh0-2SVAP3DvN5PcZk2GcUmwdR8N4VDFOd1ZvqZAYw,741
+sparseqr/cffi_asarray.py,sha256=y-Ff-wQ_ibAdufbxTXoUkV8apMTpqsHF8ozko8h_3Ag,1539
+sparseqr/sparseqr.py,sha256=XVgnNJPsZ9fvCQq47w0PFZsQj9D1XEK5v9kQEJCwjMc,16393
+sparseqr/sparseqr_gen.py,sha256=TKT8oT6Aib4_hLjU2VSqcnwpxFJNUZs3zV9n-tyEv34,15190
+sparseqr-1.1.0.dist-info/LICENSE.md,sha256=cXloPoAA5r3Ju8YNhe3wpKyOdvlRhX9U_Ld11YhvEwk,7049
+sparseqr-1.1.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+sparseqr-1.1.0.dist-info/METADATA,sha256=v1FFOC9XOKjrimYfIlYg1hFCqE6yi_c5qlSDl6SZ4bs,596
+sparseqr-1.1.0.dist-info/RECORD,,
