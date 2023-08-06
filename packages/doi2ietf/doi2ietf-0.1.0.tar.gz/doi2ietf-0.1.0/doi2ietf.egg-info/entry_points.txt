@@ -1,0 +1,3 @@
+[console_scripts]
+doi2ietf = doi2ietf.command_line:main
+

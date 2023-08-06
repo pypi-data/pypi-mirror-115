@@ -1,0 +1,12 @@
+README.md
+setup.py
+doi2ietf/__init__.py
+doi2ietf/command_line.py
+doi2ietf/utils.py
+doi2ietf.egg-info/PKG-INFO
+doi2ietf.egg-info/SOURCES.txt
+doi2ietf.egg-info/dependency_links.txt
+doi2ietf.egg-info/entry_points.txt
+doi2ietf.egg-info/requires.txt
+doi2ietf.egg-info/top_level.txt
+test/test_results.py
