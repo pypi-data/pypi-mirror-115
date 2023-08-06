@@ -1,0 +1,5 @@
+pyopenssl
+pyyaml
+service_identity
+setuptools
+twisted
