@@ -1,0 +1,3 @@
+[console_scripts]
+cmdpxl = cmdpxl.main:main
+
