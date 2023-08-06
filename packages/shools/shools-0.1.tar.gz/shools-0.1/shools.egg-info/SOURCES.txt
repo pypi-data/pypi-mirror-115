@@ -1,0 +1,8 @@
+LICENSE
+setup.py
+shools/__init__.py
+shools/sed.py
+shools.egg-info/PKG-INFO
+shools.egg-info/SOURCES.txt
+shools.egg-info/dependency_links.txt
+shools.egg-info/top_level.txt
