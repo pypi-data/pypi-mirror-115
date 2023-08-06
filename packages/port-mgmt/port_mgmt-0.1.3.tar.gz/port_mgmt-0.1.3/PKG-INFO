@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: port_mgmt
+Version: 0.1.3
+Summary: This package provides functions and data for environmental variables for each port
+Home-page: https://github.com/dfobaileylab
+Author: Mohammad Etemad
+Author-email: etemad@dal.ca
+License: MIT
+Download-URL: https://github.com/dfobaileylab/port_mgmt/archive/refs/tags/0.1.3.tar.gz
+Description: UNKNOWN
+Keywords: Ballast Water,Risk Assessment,BWIS,Port Management
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
