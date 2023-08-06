@@ -1,0 +1,3 @@
+[console_scripts]
+loragw = loragateway.__main__:main
+

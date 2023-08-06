@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: loragateway
+Version: 0.4
+Summary: lora gateway
+Home-page: https://github.com/nbdy/loragateway
+Author: Pascal Eberlein
+Author-email: pascal@eberlein.io
+License: UNKNOWN
+Keywords: lora gateway
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# loragateway
+
+## features
+
+- [X] logging incoming messages into sqlite db
+- [X] publishing incoming messages to broker
+- [X] sending lora messages which come into channel 'LoRaSendQueue'
+
+## usage
+
+```shell
+pi@hq:~ $ loragw --help
+usage: loragw [-h] [-a ADDRESS] [-p PORT] [-i ID] [-d DATABASE]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -a ADDRESS, --address ADDRESS
+                        MQTT server address
+  -p PORT, --port PORT  MQTT server port
+  -i ID, --id ID        MQTT client id
+  -d DATABASE, --database DATABASE
+                        Path to sqlite database
+```
+
+
