@@ -1,0 +1,6 @@
+requests
+pandas
+facebook-business
+google
+sqlalchemy
+selenium
