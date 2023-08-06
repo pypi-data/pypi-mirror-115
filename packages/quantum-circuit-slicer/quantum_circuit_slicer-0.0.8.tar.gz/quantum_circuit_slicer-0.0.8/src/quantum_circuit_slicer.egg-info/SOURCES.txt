@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/qcs/__init__.py
+src/qcs/breakbarrier.py
+src/qcs/gatefinder.py
+src/qcs/qcs.py
+src/qcs/slicer.py
+src/qcs/workfuncs.py
+src/quantum_circuit_slicer.egg-info/PKG-INFO
+src/quantum_circuit_slicer.egg-info/SOURCES.txt
+src/quantum_circuit_slicer.egg-info/dependency_links.txt
+src/quantum_circuit_slicer.egg-info/top_level.txt
