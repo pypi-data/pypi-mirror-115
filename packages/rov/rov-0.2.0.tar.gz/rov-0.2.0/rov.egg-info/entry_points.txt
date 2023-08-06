@@ -1,0 +1,3 @@
+[console_scripts]
+rov = rov.__main__:main
+
