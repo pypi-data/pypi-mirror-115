@@ -1,0 +1,7 @@
+apscheduler
+pymysql
+dbutils
+pandas
+sqlalchemy
+requests
+yagmail
