@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: parent-aware
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: http://github.com/csm10495/parent_aware
+Author: csm10495
+Author-email: csm10495@gmail.com
+License: MIT License
+Description: # Parent Aware
+        
+        [![Build Status](https://github.com/csm10495/parent_aware/workflows/Release/badge.svg)](https://github.com/csm10495/parent_aware/actions)
+        
+        A decorator to make objects aware of their parent objects. Particularly useful with dataclasses!
+        
+        ## Example
+        
+        ```
+        import dataclasses
+        from parent_aware import parent_aware
+        
+        @parent_aware
+        @dataclasses.dataclass
+        class Child:
+            num: int
+        
+        @parent_aware
+        @dataclasses.dataclass
+        class Parent:
+            child: Child
+        
+        c = Child(2)
+        p = Parent(child=c)
+        
+        # Automatically a .parents was added on the child!
+        assert c.parents == [p]
+        
+        # If you didn't want .parents, use @parent_aware(parents_name='give_a_name_here')
+        ```
+        
+        ## Installation
+        ```
+        pip install parent_aware
+        ```
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

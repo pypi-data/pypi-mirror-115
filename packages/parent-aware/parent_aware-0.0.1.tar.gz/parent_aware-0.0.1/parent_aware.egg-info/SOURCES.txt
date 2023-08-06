@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+parent_aware/__init__.py
+parent_aware/parent_aware.py
+parent_aware/test_parent_aware.py
+parent_aware.egg-info/PKG-INFO
+parent_aware.egg-info/SOURCES.txt
+parent_aware.egg-info/dependency_links.txt
+parent_aware.egg-info/top_level.txt
