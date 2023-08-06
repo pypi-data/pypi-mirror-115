@@ -1,0 +1,3 @@
+[console_scripts]
+camfi = camfi.cli:main
+
