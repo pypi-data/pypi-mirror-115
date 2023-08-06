@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: pyminimax
+Version: 0.0.1
+Summary: Python implementation of minimax linkage in hierarchical clustering
+Home-page: UNKNOWN
+Author: BeginnerSC
+License: UNKNOWN
+Description: # PyMinimax
+        
+        [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/beginnerSC/pyminimax)
+        [![Documentation Status](https://readthedocs.org/projects/pyminimax/badge/?version=latest)](https://pyminimax.readthedocs.io/en/latest/?badge=latest)
+        [![build](https://github.com/beginnerSC/pyminimax/actions/workflows/test_pyminimax.yml/badge.svg)](https://github.com/beginnerSC/pyminimax/actions/workflows/test_pyminimax.yml) 
+        [![codecov](https://codecov.io/gh/beginnerSC/pyminimax/branch/master/graph/badge.svg?token=BEE3HCNNJD)](https://codecov.io/gh/beginnerSC/pyminimax)
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Scientific/Engineering
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown

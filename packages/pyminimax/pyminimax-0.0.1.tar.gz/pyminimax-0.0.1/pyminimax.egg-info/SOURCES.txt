@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+pyminimax/__init__.py
+pyminimax/_minimax.py
+pyminimax.egg-info/PKG-INFO
+pyminimax.egg-info/SOURCES.txt
+pyminimax.egg-info/dependency_links.txt
+pyminimax.egg-info/requires.txt
+pyminimax.egg-info/top_level.txt
