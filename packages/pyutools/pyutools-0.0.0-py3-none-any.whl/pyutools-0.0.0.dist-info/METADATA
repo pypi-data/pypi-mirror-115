@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pyutools
+Version: 0.0.0
+Summary: uTools SDK for Python 3
+Home-page: https://git.ft2.club:81/fred913/pyutools
+Author: Sheng Fan
+Author-email: 1175882937@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+
+# pyutools
+
+uTools SDK for Python 3
+
