@@ -1,0 +1,121 @@
+Metadata-Version: 2.1
+Name: dapr_api_wrapper
+Version: 1.2.8
+Summary: Requests-like Interface to easily switch to dapr APIs from requests library
+Home-page: https://github.com/Microland/Dapr-API-Wrapper
+Author: Avijeet Diwaker
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/Microland/Dapr-API-Wrapper/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Dapr Api Wrapper
+This is a simple Interface built over [Microsoft Dapr APIs](https://pypi.org/project/dapr/) for easy transition from libraries like requests and aiohttp to dapr's grpc interface without additional changes in code.
+
+**Requirements**
+1. Kubernetes cluster (eg. [Azure Kubernetes](https://azure.microsoft.com/en-in/services/kubernetes-service/))
+2. [Dapr Setup in Kubernetes](https://docs.dapr.io/operations/hosting/kubernetes/kubernetes-deploy/)
+
+**Setup**
+
+*Step:1*
+
+Copy the contents of configuration yml from ***dapr_api_wrapper > setup > setup.yml***
+
+*Step:2*
+
+Paste them in a new dapr_setup.yml file and add references to passwords (recommended) or passwords directly.
+Change namespace if required.
+
+*Step:3*
+
+Apply changes to your kubernetes cluster by running: ```kubectl apply -f path/to/your/dapr_setup.yml```
+
+*Step:4*
+
+In your kubernetes pod deployment.yml configuration add dapr annotations as referenced [here](https://docs.dapr.io/operations/hosting/kubernetes/kubernetes-overview/).
+```
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+labels:
+    app: myawesome-svc
+name: myawesome-svc-deployment
+spec:
+replicas: 1
+selector:
+    matchLabels:
+    app: myawesome-svc
+
+# Add the below lines
+# Remove '#' to uncomment any annotation
+
+template:
+    metadata:
+        annotations:
+            dapr.io/app-id: myawesome-svc
+            dapr.io/app-port: "<myawesome-svc-port>"
+            dapr.io/app-protocol: http # http | grpc
+            dapr.io/config: appconfig
+            # dapr.io/enable-metrics: "true"
+            # dapr.io/enable-profiling: "true" # Setting this paramater to true starts the Dapr profiling server on port 7777
+            dapr.io/enabled: "true"
+            # dapr.io/http-max-request-size: 64 # Increasing max size of request body http and grpc servers parameter in MB to handle uploading of big files. Default is 4 MB
+            # dapr.io/log-as-json: "false"
+            dapr.io/log-level: debug # info | warn | error
+            # dapr.io/metrics-port: "9090"
+            # dapr.io/sidecar-cpu-limit: 1
+            # dapr.io/sidecar-memory-limit: 500Mi
+
+        labels:
+            app: myawesome-svc
+            redis-client: "true"
+# Add the above lines
+    # Further configuration
+    spec:
+    containers:
+    
+```
+
+**Understanding the request**
+
+Get the request arguments from the docstring of below mentioned class.
+```python
+from dapr_api_wrapper.requests import DaprRequest
+```
+
+**API Usage**
+```python
+from dapr_api_wrapper import requests as dapr_requests
+from datetime import datetime
+
+request_body = {
+    "id": "12345",
+    "api_key": "1234567",
+    "updated_at": str(datetime.now()),
+    "num": 1234567,
+    "is_auth": True,
+}
+
+resp = dapr_requests.post(
+    app_id="myawesome-svc",
+    url_path="http://myawesome-svc-svc/test",
+    data=request_body,
+    content_type="application/json",
+    headers={"key1": "value1"},
+    http_query_params={"querykey1": "queryvalue1"},
+)
+resp_json = resp.json()
+
+resp_text = resp.text
+
+resp_bytes = resp.bytes()
+
+print (f"\n{resp_json = }\n{resp_text = }\n{resp_bytes = }", flush=True)
+```
+
