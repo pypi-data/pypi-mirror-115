@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: xontrib-pyrtn
+Version: 0.1.0
+Summary: Store the python return value of commands for the session.
+Home-page: https://github.com/dyuri/xontrib-pyrtn
+Author: Gyuri Horák
+Author-email: dyuri@horak.hu
+License: MIT
+Project-URL: Documentation, https://github.com/dyuri/xontrib-pyrtn/blob/master/README.md
+Project-URL: Code, https://github.com/dyuri/xontrib-pyrtn
+Project-URL: Issue tracker, https://github.com/dyuri/xontrib-pyrtn/issues
+Platform: any
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: System :: Shells
+Classifier: Topic :: System :: System Shells
+Classifier: Topic :: Terminals
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+<p align="center">
+Store the python return value of commands for the session.
+</p>
+
+<p align="center">  
+If you like the idea click ⭐ on the repo and <a href="https://twitter.com/intent/tweet?text=Nice%20xontrib%20for%20the%20xonsh%20shell!&url=https://github.com/dyuri/xontrib-pyrtn" target="_blank">tweet</a>.
+</p>
+
+
+## Installation
+
+To install use pip:
+
+```bash
+xpip install xontrib-pyrtn
+# or: xpip install -U git+https://github.com/dyuri/xontrib-pyrtn
+```
+
+## Usage
+
+```bash
+xontrib load xontrib_pyrtn
+```
+
+The xontrib adds two functions to the global namespace - `In()` and `Out()`. They are similar to `ipython`'s `In[]` and `Out[]`. (I'm using functions instead of lists to protect the *history* from accidental modifications.)
+
+A new `PROMPT_FIELD` `pyhistnum` is also added, to be able to include the number of the upcoming command (like in `ipython`).
+
+## Example
+
+```bash
+$ xontrib load pyrtn
+$ $PROMPT = "[{pyhistnum}]$ "
+[2]$ [12 * 3 + 6]
+[42]
+[3]$ In(2)
+"[12 * 3 + 6]\n"
+[4]$ Out(2) + [1]
+[42, 1]
+[5]$ 
+```
+
+## Credits
+
+This package was created with [xontrib cookiecutter template](https://github.com/xonsh/xontrib-cookiecutter).
+
+
