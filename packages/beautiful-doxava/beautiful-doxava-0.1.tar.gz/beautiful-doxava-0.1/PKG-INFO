@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: beautiful-doxava
+Version: 0.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: beautiful-doxava is a Python package for parsing HTML and XML documents. It creates a parse tree for parsed pages that can be used to extract data from HTML, which is useful for web scraping.
+Platform: UNKNOWN

@@ -1,0 +1,9 @@
+README.md
+setup.py
+beautiful-doxava/__init__.py
+beautiful-doxava/doxava.py
+beautiful-doxava/kalana.py
+beautiful_doxava.egg-info/PKG-INFO
+beautiful_doxava.egg-info/SOURCES.txt
+beautiful_doxava.egg-info/dependency_links.txt
+beautiful_doxava.egg-info/top_level.txt
