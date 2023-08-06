@@ -1,0 +1,12 @@
+TestBenchCliReporter/__init__.py,sha256=-VNm99EaXcWPhKfbe2mUCXoVtZTYCqMjSJdVhF--kc4,583
+TestBenchCliReporter/__main__.py,sha256=Qp_TrKhEWaU8U1ljIiq55beSd7JGECxsHZG6vG1cUTA,9770
+TestBenchCliReporter/actions.py,sha256=Ei3gj81HWvVVfqSbwNAK_GfoqPuHu8BtCSMQNQz_OtQ,11952
+TestBenchCliReporter/questions.py,sha256=x9A-P9o83n76-_dYbj0wCZiRhTXo5NbvgqTtNdw7Wcw,14201
+TestBenchCliReporter/testbench.py,sha256=LK5IoLcPNf3RnextC8wWBtJv_SLQvIDqBGfGYMybHSI,13736
+TestBenchCliReporter/util.py,sha256=BQ-dubsPFjVKE6C2Mdwatsad1wwZqenRZrT5rDhBFR8,8739
+testbench_cli_reporter-1.0rc4.dist-info/LICENSE,sha256=4TWJ0BJSIxtSrZejZ4UgujKAk4VRmw0zQtRgPPl8peg,11339
+testbench_cli_reporter-1.0rc4.dist-info/METADATA,sha256=83TrUKClKgarKby7nM4O7bb3uBUzdPd1m5AzTTeCJBo,3026
+testbench_cli_reporter-1.0rc4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+testbench_cli_reporter-1.0rc4.dist-info/entry_points.txt,sha256=6sDTfG2jfcVT3OR0TxxU2TFTh0Kdl5VDg-wWw3d5cL4,137
+testbench_cli_reporter-1.0rc4.dist-info/top_level.txt,sha256=9FFW2AjBfzeh8y0Kxw9Tjdv5mf5F8_5VNLn8HQONFMk,21
+testbench_cli_reporter-1.0rc4.dist-info/RECORD,,
