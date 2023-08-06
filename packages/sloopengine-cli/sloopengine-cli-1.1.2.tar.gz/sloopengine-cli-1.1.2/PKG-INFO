@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: sloopengine-cli
+Version: 1.1.2
+Summary: SloopEngine CLI for managing resources and agent.
+Home-page: https://github.com/sloopstash/sloopengine-cli
+Author: SloopEngine DevOps
+Author-email: devops@sloopengine.io
+License: Apache License 2.0
+Project-URL: Source, https://github.com/sloopstash/sloopengine-cli
+Project-URL: Issues, https://github.com/sloopstash/sloopengine-cli/issues
+Description: # SloopEngine CLI
+        SloopEngine CLI for managing resources and agent.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: ==2.7.*,==3.6.*,==3.7.*,==3.8.*,==3.9.*
+Description-Content-Type: text/markdown
