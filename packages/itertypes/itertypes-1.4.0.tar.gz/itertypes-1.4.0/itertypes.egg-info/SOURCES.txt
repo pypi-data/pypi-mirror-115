@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+itertypes/__init__.py
+itertypes/itertypes.py
+itertypes/tests.py
+itertypes.egg-info/PKG-INFO
+itertypes.egg-info/SOURCES.txt
+itertypes.egg-info/dependency_links.txt
+itertypes.egg-info/top_level.txt
