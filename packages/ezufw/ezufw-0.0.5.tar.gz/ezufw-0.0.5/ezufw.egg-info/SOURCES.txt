@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+ezufw/__init__.py
+ezufw/ezufw.py
+ezufw.egg-info/PKG-INFO
+ezufw.egg-info/SOURCES.txt
+ezufw.egg-info/dependency_links.txt
+ezufw.egg-info/top_level.txt
