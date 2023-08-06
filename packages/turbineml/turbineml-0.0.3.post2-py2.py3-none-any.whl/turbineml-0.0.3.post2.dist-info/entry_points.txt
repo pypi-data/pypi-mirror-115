@@ -1,0 +1,3 @@
+[console_scripts]
+turbine = turbineml.cli.main:main
+
