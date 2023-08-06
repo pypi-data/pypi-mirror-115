@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+petitparser/__init__.py
+petitparser/character.py
+petitparser/context.py
+petitparser/string.py
+petitparser/utils.py
+petitparser.egg-info/PKG-INFO
+petitparser.egg-info/SOURCES.txt
+petitparser.egg-info/dependency_links.txt
+petitparser.egg-info/top_level.txt
