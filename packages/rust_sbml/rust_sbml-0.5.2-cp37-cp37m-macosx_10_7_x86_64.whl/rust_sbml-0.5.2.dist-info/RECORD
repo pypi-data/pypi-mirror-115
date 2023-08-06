@@ -1,0 +1,5 @@
+rust_sbml-0.5.2.dist-info/METADATA,sha256=5YFmeL_zQXgMrTusN9V7XKuk3SJ_Adg18kfziOXpLgs,4456
+rust_sbml-0.5.2.dist-info/WHEEL,sha256=l7KTertXD_5IiBXiWqAnouBD9socPY7pXVqcE7jgFVs,105
+rust_sbml/__init__.py,sha256=-vOevUmPHcx9njBWh-URyzAQNkrOlgCykhHmHylCrUc,25
+rust_sbml/rust_sbml.cpython-37m-darwin.so,sha256=EsdrQW_3QudlPJ1qkhiumFOlo_dxthRiCBPvBjjcjjY,1011640
+rust_sbml-0.5.2.dist-info/RECORD,,
