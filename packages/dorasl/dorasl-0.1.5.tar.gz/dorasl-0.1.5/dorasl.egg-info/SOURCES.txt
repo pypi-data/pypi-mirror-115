@@ -1,0 +1,10 @@
+README.md
+setup.py
+dorasl/__init__.py
+dorasl/__test.py
+dorasl/dorasl.py
+dorasl.egg-info/PKG-INFO
+dorasl.egg-info/SOURCES.txt
+dorasl.egg-info/dependency_links.txt
+dorasl.egg-info/not-zip-safe
+dorasl.egg-info/top_level.txt
