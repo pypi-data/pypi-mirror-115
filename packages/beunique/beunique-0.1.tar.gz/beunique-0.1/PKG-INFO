@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: beunique
+Version: 0.1
+Summary: A todo app to understand the building packages.
+Home-page: UNKNOWN
+Author: Dara Ekanth
+Author-email: daraekanth3@gmail.com
+License: UNKNOWN
+Description: Hi there this is the readme file.
+        You can write it in the markup language, but as of now I'm writing in text.
+Keywords: python,data collection,data science,ML,todo,custom,custom package
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: License :: OSI Approved :: MIT License
