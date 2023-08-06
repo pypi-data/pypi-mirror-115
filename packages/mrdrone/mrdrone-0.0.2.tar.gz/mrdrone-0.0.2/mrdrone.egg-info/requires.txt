@@ -1,0 +1,6 @@
+opencv-python
+flask
+pyfolk
+greenlet==0.4.16
+pillow
+pynput

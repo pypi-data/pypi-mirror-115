@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+mrdrone/__init__.py
+mrdrone/demo.py
+mrdrone/folk.py
+mrdrone/frame2html.py
+mrdrone/stats.py
+mrdrone/tello.py
+mrdrone.egg-info/PKG-INFO
+mrdrone.egg-info/SOURCES.txt
+mrdrone.egg-info/dependency_links.txt
+mrdrone.egg-info/requires.txt
+mrdrone.egg-info/top_level.txt
