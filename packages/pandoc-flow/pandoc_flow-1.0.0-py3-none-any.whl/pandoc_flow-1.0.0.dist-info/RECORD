@@ -1,0 +1,11 @@
+pandoc_flow/__init__.py,sha256=nUL_N68bOw6I4XUc03tnfBd6rlui68pXcZ65MDnujvY,1259
+pandoc_flow/__main__.py,sha256=Z_zMf5LZV6-hgcWaNIvAId2qVkjlevgcTJgb6kjkEMs,1331
+pandoc_flow/__version__.py,sha256=3RY3CwP1nj6EZDmFNUa5FRyuCM-wWz3r3enNOBMZglU,1282
+pandoc_flow/cli.py,sha256=QSpQX8_AxEXVs06qY-OnkhB-g68nQpm5WCcJprUiVMg,2951
+pandoc_flow/const.py,sha256=pnriEUCP8QVDAu6coVRUGBTto__NDeNoT5o8icAMSFQ,1365
+pandoc_flow/core.py,sha256=iouSPACMYsmLoDoc4d9mI4_dYxAbgZuTseuURCUOrKI,2620
+pandoc_flow/pipeline.py,sha256=bJzSglqY4hwZDKifMtUxy1P95kLNQKagaiYL_py4vao,2182
+pandoc_flow-1.0.0.dist-info/METADATA,sha256=Xbdu7DyNbHpPiNtBQQzsv8EJGFNoGoXHdDJMA19eR2I,1516
+pandoc_flow-1.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pandoc_flow-1.0.0.dist-info/top_level.txt,sha256=P97Yi2wrccy8kPR5Qk5JEL8aeN202JjaJzgkK7YCdxU,12
+pandoc_flow-1.0.0.dist-info/RECORD,,
