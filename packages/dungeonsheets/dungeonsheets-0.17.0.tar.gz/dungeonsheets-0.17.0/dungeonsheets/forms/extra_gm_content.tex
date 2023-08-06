@@ -1,0 +1,8 @@
+[% for section in sections %]
+
+\pdfbookmark[0]{[[ section.name ]]}{[[ section.name ]]}
+\section*{[[ section.name ]]}
+
+[[ section.__doc__ | rst_to_latex ]]
+
+[% endfor %]

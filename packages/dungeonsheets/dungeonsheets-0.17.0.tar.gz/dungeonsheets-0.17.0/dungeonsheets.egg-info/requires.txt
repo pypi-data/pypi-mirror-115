@@ -1,0 +1,7 @@
+fdfgen
+npyscreen
+jinja2
+pdfrw
+sphinx
+EbookLib
+reportlab
