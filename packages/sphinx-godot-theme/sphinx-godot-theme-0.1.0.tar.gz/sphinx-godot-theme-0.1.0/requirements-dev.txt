@@ -1,0 +1,7 @@
+pip ~= 21.2.2
+flit ~= 3.3.0
+twine ~= 3.4.2
+wheel ~= 0.36.2
+invoke ~= 1.6.0
+setuptools ~= 57.4.0
+keyring ~= 23.0.1

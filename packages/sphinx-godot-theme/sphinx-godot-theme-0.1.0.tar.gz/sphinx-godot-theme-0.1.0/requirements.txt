@@ -1,0 +1,7 @@
+sphinx                    ~= 4.1.2
+sphinx-tabs               ~= 3.1.0
+recommonmark              ~= 0.7.1
+sphinx-rtd-theme          ~= 0.5.2
+sphinxext-opengraph       ~= 0.4.2
+sphinx-notfound-page      ~= 0.7.1
+readthedocs-sphinx-search ~= 0.1.0
