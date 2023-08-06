@@ -1,0 +1,14 @@
+sloopengine/__init__.py,sha256=rTxYoCQABkK9dWemOUK0ewiGhB6OtOoMikyT1LaXL_g,9211
+sloopengine/config.py,sha256=CXsrY-TL7feYbYqJSpHtuiJWrhKSgscv4LM4Hc2nbKk,741
+sloopengine/agent/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sloopengine/includes/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sloopengine/includes/common.py,sha256=T1zN5hyhMF2RHvOKFtglAMqE_iOr4vDRUPgf0Br9Gvc,999
+sloopengine/resource/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sloopengine/resource/identity.py,sha256=4-B-BumawiX8ry-Ljwet02ayh9lwAp_FqbjzzOCCMmA,5360
+sloopengine_cli-1.1.5.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+sloopengine_cli-1.1.5.dist-info/METADATA,sha256=b6j9j39QwrNJAXvnl8e3M54dCykLhh6xpPYTehP4qnA,1035
+sloopengine_cli-1.1.5.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+sloopengine_cli-1.1.5.dist-info/entry_points.txt,sha256=4EZUpBSEXCCu-6-0zxQZ07dqS1SJ-0CcYaEvC5_UjO8,49
+sloopengine_cli-1.1.5.dist-info/top_level.txt,sha256=vQXlhG0_E3-KCp4rUXP1JNPmZjUnp7SdtgwPq4eoOpg,12
+sloopengine_cli-1.1.5.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+sloopengine_cli-1.1.5.dist-info/RECORD,,

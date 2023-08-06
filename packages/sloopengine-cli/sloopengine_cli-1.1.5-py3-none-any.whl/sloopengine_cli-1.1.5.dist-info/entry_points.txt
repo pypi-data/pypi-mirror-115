@@ -1,0 +1,3 @@
+[console_scripts]
+sloopengine = sloopengine:cli
+
