@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/buser_xml_to_dict.egg-info/PKG-INFO
+src/buser_xml_to_dict.egg-info/SOURCES.txt
+src/buser_xml_to_dict.egg-info/dependency_links.txt
+src/buser_xml_to_dict.egg-info/requires.txt
+src/buser_xml_to_dict.egg-info/top_level.txt
