@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/spacy_train_tools/__init__.py
+src/spacy_train_tools/command_line.py
+src/spacy_train_tools/train.py
+src/spacy_train_tools/utils.py
+src/spacy_train_tools.egg-info/PKG-INFO
+src/spacy_train_tools.egg-info/SOURCES.txt
+src/spacy_train_tools.egg-info/dependency_links.txt
+src/spacy_train_tools.egg-info/top_level.txt
