@@ -1,0 +1,3 @@
+[console_scripts]
+celery-logger = celerylogger.celery_logger:main
+
