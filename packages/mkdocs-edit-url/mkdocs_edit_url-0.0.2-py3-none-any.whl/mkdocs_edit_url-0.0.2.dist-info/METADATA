@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: mkdocs-edit-url
+Version: 0.0.2
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: mkdocs (>=1)
+Requires-Dist: wcmatch (>=7)
+
+UNKNOWN
+
