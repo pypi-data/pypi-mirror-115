@@ -1,0 +1,8 @@
+Authlib
+httpx
+pytz
+
+[test]
+pytest
+pytest-asyncio
+pytest-cov
