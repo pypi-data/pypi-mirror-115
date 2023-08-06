@@ -1,0 +1,15 @@
+attrs!=21.1,>=17
+blessed
+humanize
+psutil>=2.0.0
+
+[dev]
+black
+check-manifest
+flake8
+mypy
+
+[testing]
+psycopg2-binary>=2.8
+pytest
+pytest-postgresql
