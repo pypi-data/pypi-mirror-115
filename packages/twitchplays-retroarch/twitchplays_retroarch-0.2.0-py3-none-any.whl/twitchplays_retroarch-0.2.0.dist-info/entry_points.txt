@@ -1,0 +1,3 @@
+[console_scripts]
+twitchplays-retroarch = twitchplays_retroarch:main
+
