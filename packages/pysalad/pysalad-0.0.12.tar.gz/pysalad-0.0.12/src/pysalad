@@ -1,0 +1,295 @@
+#!/usr/bin/python3
+
+import calendar
+import time
+import argparse
+import getpass
+import json
+import sys
+import os
+from streams.Stream import Stream
+from datetime import datetime
+from datetime import timedelta
+from salad.api import Connection
+from configparser import ConfigParser
+import base64
+from pathlib import Path
+from plyer import notification
+
+
+def date_or_today(date: str) -> datetime:
+    if date is None:
+        return datetime.today()
+    else:
+        return datetime.strptime(date, '%Y-%m-%d')
+
+
+def safe_get(arr, index, default=None):
+    try:
+        return arr[index]
+    except IndexError:
+        return default
+
+
+def print_message(args, message: str):
+    if args.verbose:
+        print(message)
+
+
+def print_json(j):
+    print(json.dumps(j, indent=4, sort_keys=False))
+
+
+def sum_duration(x, y) -> float:
+    return x + y["duration"]
+
+
+def open_connection(args) -> Connection:
+    return Connection(
+        args.user if args.user is not None else input("Bitte den Benutzernamen eingeben (Mitarbeiterkuerzel): "),
+        args.password if args.password is not None else getpass.getpass("Bitte das Passwort eingeben: "),
+        args.url if args.url is not None else input("Bitte die Salat URL eingeben: "),
+    )
+
+
+def load_config(args, file_name: str) -> ConfigParser:
+    config = ConfigParser()
+
+    if os.path.isfile(file_name):
+        with open(config_file_name, "r") as config_file:
+            config.read_file(config_file)
+
+        if args.user is None and config.has_option(config.default_section, "user"):
+            args.user = config.get(config.default_section, "user")
+
+        if args.password is None and config.has_option(config.default_section, "password"):
+            base64_bytes = config.get(config.default_section, "password").encode('ascii')
+            args.password = base64.b64decode(base64_bytes).decode('ascii')
+
+        if args.url is None and config.has_option(config.default_section, "url"):
+            args.url = config.get(config.default_section, "url")
+
+        if args.default_order is None and config.has_option(config.default_section, "default_order"):
+            args.default_order = config.get(config.default_section, "default_order")
+
+        if args.first_working_hour is None and config.has_option(config.default_section, "first_working_hour"):
+            args.first_working_hour = config.get(config.default_section, "first_working_hour")
+
+    return config
+
+
+def command_show_report(args, conn: Connection, begin: datetime, end: datetime):
+    begin_str = begin.strftime("%Y-%m-%d")
+    end_str = end.strftime("%Y-%m-%d")
+    print_message(args, f"get report from {begin_str} to {end_str}")
+
+    contract = conn.get_contract()
+    report = conn.get_report(contract, begin_str, end_str)
+
+    if args.summary:
+        summary = report \
+            .group_by(lambda x: x["date"]) \
+            .map(lambda x: {"date": x[0], "values": Stream.create(x[1]).reduce(sum_duration, 0.0)})
+        print_json(summary.to_list())
+    else:
+        print_json(report.to_list())
+
+
+def command_show(args):
+    with open_connection(args) as connection:
+        if args.parameters[0] == "contract":
+            print_json(connection.get_contract())
+
+        elif args.parameters[0] == "orders":
+            contract_orders = connection.get_contract_orders().to_list()
+            print_json(contract_orders)
+
+        elif args.parameters[0] == "employee":
+            print_json(connection.get_employee())
+
+        elif args.parameters[0] == "day":
+            day = date_or_today(safe_get(args.parameters, 1))
+            command_show_report(args, connection, day, day)
+
+        elif args.parameters[0] == "yesterday":
+            day = date_or_today(safe_get(args.parameters, 1))
+            yesterday = day - timedelta(days=1)
+            command_show_report(args, connection, yesterday, yesterday)
+
+        elif args.parameters[0] == "week":
+            day = date_or_today(safe_get(args.parameters, 1))
+            begin_of_week = day - timedelta(days=day.weekday())
+            end_of_week = day + timedelta(days=6 - day.weekday())
+            command_show_report(args, connection, begin_of_week, end_of_week)
+
+        elif args.parameters[0] == "month":
+            day = date_or_today(safe_get(args.parameters, 1))
+            begin_of_month = day.replace(day=1)
+            end_of_month = day.replace(day=calendar.monthrange(day.year, day.month)[1])
+            command_show_report(args, connection, begin_of_month, end_of_month)
+
+        else:
+            raise RuntimeError(f"unknown type {args.parameters[0]}")
+
+
+def command_report(args):
+    with open_connection(args) as connection:
+        comment = args.parameters[0]
+        duration = float(args.parameters[1])
+        order = safe_get(args.parameters, 2)
+        day = date_or_today(safe_get(args.parameters, 3))
+
+        if order is None and args.default_order is not None:
+            print(f"use default order \"{args.default_order}\"")
+            order = args.default_order
+
+        # get contract orders
+        contract_orders = connection.get_contract_orders()
+
+        # filer all sub-orders by contract orders (sub-orders assigned to employee)
+        contract_suborders = connection.get_sub_orders() \
+            .filter(
+            lambda so:
+            contract_orders
+                .exists(
+                    lambda o:
+                        (o["order"]["number"] == so["order"]["number"]) and
+                        (o["sub_order"]["number"] == so["number"])
+                )
+        )
+
+        order = order.lower()
+
+        matches = contract_suborders \
+            .filter(
+                lambda so:
+                    (order in so["id"]) or
+                    (order in so["short"].lower()) or
+                    (order in so["order"]["number"].lower())
+                ).to_list()
+
+        if len(matches) == 0:
+            raise RuntimeError(f"no order for {order} found")
+
+        elif len(matches) > 1:
+            raise RuntimeError(f"more than one order for {order} found")
+
+        else:
+            hours = int((duration * 60) / 60)
+            minutes = int(duration * 60) - hours * 60
+            connection.create_report(matches[0], comment, day.strftime("%Y-%m-%d"), hours, minutes)
+
+            print(f"saved {hours}h and {minutes}min")
+
+
+def command_config(args, config, file_name: str):
+    if args.parameters[0] == "reset":
+        os.remove(file_name)
+
+    elif args.parameters[0] == "save":
+        if args.user is not None:
+            config.set(config.default_section, "user", args.user)
+
+        if args.password is not None:
+            base64_bytes = base64.b64encode(args.password.encode('ascii'))
+            config.set(config.default_section, "password", base64_bytes.decode('ascii'))
+            print(f"CAUTION: password saved in config file")
+
+        if args.url is not None:
+            config.set(config.default_section, "url", args.url)
+
+        if args.default_order is not None:
+            config.set(config.default_section, "default_order", args.default_order)
+
+        if args.first_working_hour is not None:
+            config.set(config.default_section, "first_working_hour", args.first_working_hour)
+
+        with open(file_name, "w") as config_file:
+            config.write(config_file)
+
+    else:
+        raise RuntimeError(f"unknown type {args.parameters[0]}")
+
+
+def command_remind_me(args):
+    today_str = datetime.today().strftime("%Y-%m-%d") # TODO use datetime, not str
+
+    while True:
+        with open_connection(args) as connection:
+
+            working_hour = datetime.now() - timedelta(hours=args.first_working_hour)
+            time_worked = working_hour.minute + working_hour.hour * 60
+
+            contract = connection.get_contract()
+            time_contract = contract["hours"] * 60
+
+            time_booked = connection.get_report(contract, today_str, today_str) \
+                .reduce(sum_duration, 0.0) * 60
+
+            if time_contract <= time_booked:
+                message = f"Arbeitszeiten für heute sind im Salat gebucht!"
+            elif time_worked - time_booked > args.notification_threshold:
+                message = f"Es fehlen Buchungen für heute im Salat!"
+            elif time_worked <= time_booked:
+                message = f"Arbeitszeiten sind im Salat gebucht!"
+
+            notification.notify(
+                title=args.notification_title,
+                message=message,
+                timeout=args.notification_duration
+            )
+
+        if args.notification_silence <= 0:
+            break
+        else:
+            print(f"wait {args.notification_silence}m until next reminder ...")
+
+        time.sleep(60 * args.notification_silence)
+
+
+if __name__ == "__main__":
+    args = argparse.ArgumentParser(description="Python Salat")
+    args.add_argument("command", type=str)
+    args.add_argument("parameters", metavar="command parameters", type=str, nargs="+")
+
+    # connection parameters and user credentials
+    args.add_argument("--url", dest="url", help="Salat URL")
+    args.add_argument("--user", dest="user", help="Salat Username (Mitarbeiterkuerzel)", type=str)
+    args.add_argument("--password", dest="password", help="Salat Passwort", type=str)
+
+    # other parameters
+    args.add_argument("--summary", dest="summary", action="store_true", help="Summarize")
+    args.add_argument("--verbose", dest="verbose", action="store_true", help="Verbose")
+    args.add_argument("--config", dest="config", help="Name of config file", type=str)
+
+    args.add_argument("--order", dest="default_order", help="Name of default order", type=str)
+    args.add_argument("--workstart", dest="first_working_hour", type=int, default=8, help="Workingtime start hour") # TODO config
+
+    # notification parameters
+    args.add_argument("--nduration", dest="notification_duration", type=int, default=30, help="Notification duration")
+    args.add_argument("--ntitle", dest="notification_title", type=str, default="Salat Buchungen", help="Notification title")
+    args.add_argument("--nsilence", dest="notification_silence", type=int, default=30, help="Notification silence minutes")
+    args.add_argument("--nthreshold", dest="notification_threshold", type=int, default=60, help="Notification threshold")
+
+    args = args.parse_args()
+
+    config_file_name = args.config if args.config is not None else Path.home().joinpath(".saladrc")
+    config = load_config(args, config_file_name)
+
+    try:
+        if args.command == "remind":
+            command_remind_me(args)
+        elif args.command == "config":
+            command_config(args, config, config_file_name)
+        elif args.command == "show":
+            command_show(args)
+        elif args.command == "report":
+            command_report(args)
+        else:
+            raise RuntimeError(f"unknown command {args.command}")
+
+        sys.exit(os.EX_OK)
+
+    except RuntimeError as error:
+        print(f"failed: {error}")
+        sys.exit(os.EX_USAGE)
