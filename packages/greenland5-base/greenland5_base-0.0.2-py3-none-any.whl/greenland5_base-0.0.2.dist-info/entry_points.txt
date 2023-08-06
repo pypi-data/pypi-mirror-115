@@ -1,0 +1,3 @@
+[console_scripts]
+greenland = greenland.base.bin.greenland:main
+
