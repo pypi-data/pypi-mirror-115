@@ -1,0 +1,2 @@
+
+from .verificador import Verificador
