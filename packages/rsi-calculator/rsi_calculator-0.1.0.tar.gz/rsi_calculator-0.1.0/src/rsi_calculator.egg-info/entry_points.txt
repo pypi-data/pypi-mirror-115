@@ -1,0 +1,3 @@
+[console_scripts]
+rsi = rsi_calculator.rsi_calculator:rsi
+

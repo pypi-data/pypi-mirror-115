@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+src/rsi_calculator/__init__.py
+src/rsi_calculator/rsi_calculator.py
+src/rsi_calculator.egg-info/PKG-INFO
+src/rsi_calculator.egg-info/SOURCES.txt
+src/rsi_calculator.egg-info/dependency_links.txt
+src/rsi_calculator.egg-info/entry_points.txt
+src/rsi_calculator.egg-info/not-zip-safe
+src/rsi_calculator.egg-info/requires.txt
+src/rsi_calculator.egg-info/top_level.txt
