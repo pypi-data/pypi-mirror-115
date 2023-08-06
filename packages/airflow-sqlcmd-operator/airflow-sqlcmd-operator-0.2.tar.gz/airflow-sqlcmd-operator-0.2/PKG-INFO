@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: airflow-sqlcmd-operator
+Version: 0.2
+Summary: Custom Airflow BashOperator for Microsoft sqlcmd
+Home-page: https://github.com/dewes/airflow-sqlcmd-operator
+Author: Rodrigo Dewes
+Author-email: rdewes@gmail.com
+License: MIT
+Download-URL: https://github.com/dewes/airflow-sqlcmd-operator/archive/refs/tags/v_02.tar.gz
+Description: UNKNOWN
+Keywords: Airflow,operator,SQLServer,sqlcmd
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
