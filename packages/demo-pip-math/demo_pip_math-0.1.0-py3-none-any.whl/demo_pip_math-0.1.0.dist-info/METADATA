@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: demo-pip-math
+Version: 0.1.0
+Summary: Demo your first Pip package.
+Home-page: https://github.com/okeeffed/your-first-pip-package-in-python
+Author: Dennis O'Keeffe
+Author-email: hello@dennisokeeffe.com
+License: UNKNOWN
+Project-URL: Homepage, https://github.com/okeeffed/your-first-pip-package-in-python
+Keywords: pip-demo math
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Your first Pip package in Python
+
+This repository is the companion post to my blog ["Your first Pip package in Python"](https://blog.dennisokeeffe.com)
+
+## Usage
+
+```py
+from demo_pip_math.math import add, subtract, multiply
+
+
+def test_add():
+    assert add(3, 2) == 5
+
+
+def test_subtract():
+    assert subtract(3, 2) == 1
+
+
+def test_multiply():
+    assert multiply(3, 2) == 6
+```
+
+
