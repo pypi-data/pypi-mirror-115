@@ -1,0 +1,10 @@
+__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tdrawer.py,sha256=kFrcKVF9UxbeNFNI2j83FcxPJ4N7u_LcYRB733cvs-U,5072
+tdrawer/__init__.py,sha256=ESWMt2hvERqjvU-Rt80GkMXWVSJESxATa2DhWwOxykQ,29
+tdrawer/_tdrawer.cp37-win_amd64.pyd,sha256=S8i1-t-py6GfET_KA8Wh51ubyqBt36q84j0KAwNSpQE,61440
+tdrawer/glfw3.dll,sha256=VQvhHyegfpMBwwKdqd7S6tBPAyR50m4JbKdobLd6Hs4,225792
+tdrawer/tdrawer.py,sha256=N-RTXn2zRsFgHLhX-HXxRCGzCcxgrJKB5ToWIXaCBIM,5080
+tdrawer-0.0.1.dist-info/METADATA,sha256=-Hg1Yc3gocyplmUEcJCra7IBUm1TjGQ7Wdfadf4nBEE,207
+tdrawer-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+tdrawer-0.0.1.dist-info/top_level.txt,sha256=X-lzX-02tKVBU3Vt4-EvG7u56MJQwH_JiMn1YbLvjg8,8
+tdrawer-0.0.1.dist-info/RECORD,,
