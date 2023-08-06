@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: mlconfound
+Version: 0.9.0
+Summary: Tools for analyzing and quantifying effects of counfounder variables on machine learning model predictions.
+License: GPL-3.0-or-later
+Author: Tamas Spisak
+Author-email: tamas.spisak@uk-essen.de
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
