@@ -1,0 +1,11 @@
+.
+README.md
+setup.cfg
+setup.py
+academic_tweet/__init__.py
+academic_tweet/tweeter.py
+academic_tweet.egg-info/PKG-INFO
+academic_tweet.egg-info/SOURCES.txt
+academic_tweet.egg-info/dependency_links.txt
+academic_tweet.egg-info/requires.txt
+academic_tweet.egg-info/top_level.txt
