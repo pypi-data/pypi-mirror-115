@@ -1,0 +1,15 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ujenkins/__init__.py,sha256=RbHTDtfW7YyioXLqYsuITY8qBFnU-o-I5LghJYsgoTo,284
+ujenkins/__init__.pyi,sha256=MECDrtf7b8zlaZ5Ct5PxrYzSnxwldbOmwC4lGtHwcwo,202
+ujenkins/core.py,sha256=h8iTns7wwiXer1Owy1HI9YwzrVtAo-KYO3T14gMAaJ0,918
+ujenkins/core.pyi,sha256=BIsObDOleD-13B_FKBXxgRmPmswu0R27lXzoxa4HTgA,224
+ujenkins/exceptions.py,sha256=UXRo-ntwKfssqnF7O8DWjPMWCzM6hQuDMM_rBpRavdM,82
+ujenkins/exceptions.pyi,sha256=OtJqgX0wj3_MAm-VFfNusoiUHnQxvA7y4QWUJQgzq5k,35
+ujenkins/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ujenkins/adapters/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ujenkins/adapters/aio.py,sha256=5I_4pPMo0epCvApzZGGJITNnJFvDBdGATzK5i-gtiKA,4432
+ujenkins/adapters/sync.py,sha256=seq4t5i7DW92-3lAfMuAi1Va8VwxliWdECBLNMDV-GY,4289
+ujenkins-0.1.0.dist-info/METADATA,sha256=oTMIq4mTgsZ0xqZGrwvIxWoSi9BXdOcrqRBtuihj9yk,1651
+ujenkins-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+ujenkins-0.1.0.dist-info/top_level.txt,sha256=rAHCfCoLKmz_m4vZb0k-GfFBInvA88OboaKv_YlbmwU,15
+ujenkins-0.1.0.dist-info/RECORD,,
