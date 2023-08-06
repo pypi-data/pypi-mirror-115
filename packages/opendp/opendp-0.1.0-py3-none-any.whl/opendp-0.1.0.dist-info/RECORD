@@ -1,0 +1,17 @@
+opendp/__init__.py,sha256=4mcDje3pMNXoO3UVg1WWU5eDgdsOiKrl8cakpEG5kB8,89
+opendp/_convert.py,sha256=XkQxDZndXGtAFPqWuEtEC_x48D0EDBJQldInXiSWD-w,9811
+opendp/_data.py,sha256=ag0IlFdPvTI0Ctli9RbOEKcAWK-8eTlDZh93eqVh6Uk,8756
+opendp/_lib.py,sha256=SOTKOPFaqTVvcSLYMsduRXn14P9_Z3tqYlfC3Qz5ziw,3459
+opendp/core.py,sha256=TQFT7yvvTDI-sHW-ihJ3GDjGRTQvTboFcLEUCxMKC4k,16247
+opendp/meas.py,sha256=ieCwOUMs4rdFAytxaiVUtqf5LE531kjSJA9j-iQjp5A,6693
+opendp/mod.py,sha256=fugGrkJSA6kjWdbG61hEolpnALQGu1gLnq0dktLs__8,10522
+opendp/trans.py,sha256=r5ig4JE-iEQ0pbGxuPmweMlarfEXARXKQBacFn0S9Vo,32927
+opendp/typing.py,sha256=NtcBOu3sqIU7WmKe-WpuAwA4FHdSyiWiXmUlU-_gUhU,13734
+opendp/lib/libopendp_ffi.dylib,sha256=jiH2xpLwkriMblCbmWm_8ddHzLRm6lqLUVexaI4Jv40,20190904
+opendp/lib/libopendp_ffi.so,sha256=GWMTlfuPlCo2I1VjTrC1qje9Q0IcR_x8lBNmfudh7YI,28407312
+opendp/lib/opendp_ffi.dll,sha256=9Xpm58HGidgSVxKDeKnXE1m9vi4OvEJ-xjf8cLzkGic,37949038
+opendp-0.1.0.dist-info/LICENSE,sha256=3RDQo_J15U_E_hxZq6SoFVCdYV8rNIE9tXOZLuO-FUc,1097
+opendp-0.1.0.dist-info/METADATA,sha256=Z74LJyr1FlHw49kCY5wt_8F2YeCS3m7sQ2GHMEt53Hw,3951
+opendp-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+opendp-0.1.0.dist-info/top_level.txt,sha256=KvialU7BpLlTRjAuOynYJsIUShXJuByzJIlsp4d5xxE,7
+opendp-0.1.0.dist-info/RECORD,,
