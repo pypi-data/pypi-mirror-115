@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/faker_optional/__init__.py
+src/faker_optional/model.py
+src/faker_optional/py.typed
+src/faker_optional/version.py
+src/faker_optional.egg-info/PKG-INFO
+src/faker_optional.egg-info/SOURCES.txt
+src/faker_optional.egg-info/dependency_links.txt
+src/faker_optional.egg-info/requires.txt
+src/faker_optional.egg-info/top_level.txt
