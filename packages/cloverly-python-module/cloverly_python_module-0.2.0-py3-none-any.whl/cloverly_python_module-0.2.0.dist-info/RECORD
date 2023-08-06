@@ -1,0 +1,13 @@
+cloverly/__init__.py,sha256=QqdOSquA_LEXxrlV6dFVF3GKi1H_25DTZVwus_xDjHg,67
+cloverly/base.py,sha256=S30z9KpuXaMUtL3j9xOUTjBIZnfj__IwpXIfFRbpdiU,6854
+cloverly/exceptions/__init__.py,sha256=UTjHGepcpqW_ZsG7nDDuaxPLqpV7_lXMQSVt9kLwLDk,32
+cloverly/exceptions/base.py,sha256=mQzM7TJjayLGRg82BhHDHOSBoAYGYmQRGM1FtGqyYCw,206
+cloverly/resources/__init__.py,sha256=8s48ur_42VyjdG05oAaTcZ2rOKfIe5UI9o17E4t_F3Q,164
+cloverly/resources/estimate.py,sha256=r07h069nObzlqBE_SfqFPMmEsgAC78XJ_3PtVoUeLck,377
+cloverly/resources/offset.py,sha256=R36FJl6W6FXJKg-1YHezQbwyegf7Vgfu1T9YbspYLME,375
+cloverly/resources/offset_types.py,sha256=EN0Ed_z6yEs8IiRJuZ5Yx9eBAJh_k2v_SpMjsWMFiGM,411
+cloverly/resources/purchase.py,sha256=8I-Jd1pRT4sFWzh1x32OczKUcsUyIAETRSwQFu-EpOk,815
+cloverly_python_module-0.2.0.dist-info/METADATA,sha256=7A22a3ixkPKskB9TnrViRnFewsb_YAsyKAGf6UBYn-o,1233
+cloverly_python_module-0.2.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+cloverly_python_module-0.2.0.dist-info/top_level.txt,sha256=Fp5dnq_sAUyHlSiQgD-XLiUlO2ScVuPY7s8a5CFKldc,9
+cloverly_python_module-0.2.0.dist-info/RECORD,,
