@@ -1,0 +1,6 @@
+Flask>=1.1
+python-json-logger
+
+[test]
+pytest
+python-json-logger
