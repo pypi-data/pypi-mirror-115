@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: BigBookPython
+Version: 0.1.1
+Summary: A module to install the dependencies for the projects in The Big Book of Small Python Projects.
+Home-page: https://github.com/asweigart/bigbookpython
+Author: Al Sweigart
+Author-email: al@inventwithpython.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+
+Big Book Python Modules
+======
+
+A module to install the dependencies for the projects in The Big Book of Small Python Projects.
+
+Installation
+------------
+
+To install with pip on Windows, run:
+
+    pip install --user bigbookpython
+
+To install with pip on macOS/Linux, run:
+
+    pip3 install --user bigbookpython
+
+Installing the bigbookpython module installs the pyperclip, bext, playsound, and pyttsx3 modules all at once.
+
+* https://pypi.org/project/pyperclip/
+* https://pypi.org/project/bext/
+* https://pypi.org/project/playsound/
+* https://pypi.org/project/pyttsx3/
+
+Contribute
+----------
+
+If you'd like to contribute to Big Book Python Modules, check out https://github.com/asweigart/bigbookpython
+
+

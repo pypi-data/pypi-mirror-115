@@ -1,0 +1,4 @@
+pyperclip
+bext
+playsound
+pyttsx3

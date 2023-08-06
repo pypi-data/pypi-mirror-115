@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+src/BigBookPython.egg-info/PKG-INFO
+src/BigBookPython.egg-info/SOURCES.txt
+src/BigBookPython.egg-info/dependency_links.txt
+src/BigBookPython.egg-info/requires.txt
+src/BigBookPython.egg-info/top_level.txt
+src/bigbookpython/__init__.py
+src/bigbookpython/__main__.py
