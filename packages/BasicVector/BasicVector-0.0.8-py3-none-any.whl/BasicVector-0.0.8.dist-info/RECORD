@@ -1,0 +1,10 @@
+BasicVector/__init__.py,sha256=mYFHuqiImwCptJQpar-W7OLhkBg4KPaZfG-gVoJ2jvk,95
+BasicVector/locals.py,sha256=zGU9IW_PQsXCQodBLgdxlON8xBSuDZZ0VSoXGmR8UXs,161
+BasicVector/vec2.py,sha256=c4vpaUX88S0Fmff2o2B0tFxCzQZQHffNJ1KX0v-jPdg,4067
+BasicVector/vec3.py,sha256=PZONNbEf9zWuQzT5LAEh2bqKbwtiH5Sa1Eb88WBgk4w,4245
+BasicVector/vec4.py,sha256=zTeWP8IisL1qDdmfNJMyUTwhu0AkV97elG9SZf2wT_U,5063
+BasicVector-0.0.8.dist-info/LICENSE,sha256=U3BsYEKWbOB4C07QduydzHwqNMmzNyOWzMIL-Re9m2w,1088
+BasicVector-0.0.8.dist-info/METADATA,sha256=UHd1D93o_jNlbhMe8tJmYKj-pQW5Ltsyf7VW7uYz5uc,3633
+BasicVector-0.0.8.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+BasicVector-0.0.8.dist-info/top_level.txt,sha256=zWjgrU3fJDTo24joIwRNu-1UjWsjz6pEmyn4EgJ3Q0Y,12
+BasicVector-0.0.8.dist-info/RECORD,,
