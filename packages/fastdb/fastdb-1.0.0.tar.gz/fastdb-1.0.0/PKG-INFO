@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: fastdb
+Version: 1.0.0
+Summary: Faster database operations using Python
+Author-email: Sarmad Gulzar <sarmadgulzar@hotmail.com>
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Project-URL: Home, https://github.com/sarmadgulzar/fastdb
+
+# fastdb
