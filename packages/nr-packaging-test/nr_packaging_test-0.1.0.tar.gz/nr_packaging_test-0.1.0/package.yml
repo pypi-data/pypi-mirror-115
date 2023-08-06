@@ -1,0 +1,7 @@
+name: nr_packaging_test
+version: 0.1.0
+author: Niklas Rosenstein <rosensteinniklas@gmail.com>
+description: Package description here.
+requirements:
+- python ^3.5
+- dataclasses ^0.6
