@@ -1,0 +1,11 @@
+setup.py
+dbson/__init__.py
+dbson/client.py
+dbson/commands.py
+dbson/deserializer.py
+dbson/serializer.py
+dbson/test.py
+dbson.egg-info/PKG-INFO
+dbson.egg-info/SOURCES.txt
+dbson.egg-info/dependency_links.txt
+dbson.egg-info/top_level.txt
