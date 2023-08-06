@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: complexheart
+Version: 0.0.1
+Summary: Provide a set of useful classes and tools to ease the adoption of Domain-Driven Design into your Python project.
+Home-page: https://github.com/ComplexHeart/py-sdk
+Author: Unay Santisteban
+Author-email: usantisteban@othercode.es
+License: UNKNOWN
+Description: # Complex Heart Py SDK
+        
+        Complex Heart SDK for Python
+        
+Keywords: python,ddd,hexagonal architecture
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
