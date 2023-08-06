@@ -1,0 +1,17 @@
+
+:root {
+    --color-primary: rgb(0, 174, 210);
+    --color-primary-darker: #3c8dad;
+    --color-primary-dark: #125d98;
+    --color-primary-lighter: #8fd6e1;
+    --color-primary-light: #dbf6e9;
+}
+
+.object>.title-wrapper { background-color: var(--color-primary-light) !important; }
+.object>.title-wrapper:before { background-color: var(--color-primary-lighter) !important; }
+.nav-main .menu-active > a {
+    border-left-color: var(--color-primary) !important;
+}
+.nav-submenu__footer {
+    content-visibility: hidden !important;
+}

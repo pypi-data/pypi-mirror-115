@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: xtendcms
+Version: 0.2
+Summary: A wagtail admin styling app.
+Home-page: https://www.xtendcms.com/
+Author: Tim Pierce
+Author-email: tpierce@xtendcms.com
+License: BSD-3-Clause  # Example license
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+=====
+XtendCMS
+=====
+
+XtendCMS is a admin styling app for the wagtail cms system.
+
+Quick start
+-----------
+
+1. Add "xtendcms" to your INSTALLED_APPS setting like this::
+
+    INSTALLED_APPS = [
+        ...
+        'xtendcms',
+    ]
+
+2. Run ``python manage.py migrate`` to create the XtendCMS models.
+
+
+
