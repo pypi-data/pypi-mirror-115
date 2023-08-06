@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: pandas-amazon-redshift
+Version: 0.1.1
+Summary: Pandas interface to Amazon Redshift
+Home-page: https://github.com/yutaka-kabu/pandas-amazon-redshift
+Author: Yutaka Kabutoya
+Author-email: y.kabutoya@gmail.com
+License: BSD License
+Keywords: data
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.7.1
+License-File: LICENSE
+License-File: AUTHORS.md
+
+pandas-amazon-redshift
+======================
+
+**pandas-amazon-redshift** is a package to provide an interface between
+the Amazon Redshift Data API and pandas.
+
+This package allows you to pass data between Amazon Redshift and``pandas.DataFrame``
+objects without managing database connections. 
+
+In addtion, you can receive the following benefit from this package.
+
+* When reading data from Redshift, this package cast data to appropriate data type
+* Before writing data to Redshift, this package check the data. In case invalid data for specified
+  data type, this package raises error before manipulating Redshift cluster like creating tables
+  or inserting data, which means atomicity.
+
+You can use this package for both private and commercial use while this project is
+not officially supported by Amazon Web Services.
+
+Now I am looking for contributors to enhance this package. If you are interested, feel free to pull
+requests or reach out to me.
+
+Install latest release version via pip
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. code-block:: shell
+
+   $ pip install pandas-amazon-redshift
+
+Install latest development version
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. code-block:: shell
+
+    $ pip install git+https://github.com/yutaka-kabu/pandas-amazon-redshift.git
+
+
