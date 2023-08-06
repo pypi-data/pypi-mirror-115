@@ -1,0 +1,276 @@
+Metadata-Version: 2.1
+Name: sqlalchemyseed
+Version: 0.4.2.dev1
+Summary: SQLAlchemy seeder.
+Home-page: https://github.com/jedymatt/sqlalchemyseed
+Author: jedymatt
+Author-email: jedymatt@gmail.com
+License: MIT
+Project-URL: Source, https://github.com/jedymatt/sqlalchemyseed
+Project-URL: Tracker, https://github.com/jedymatt/sqlalchemyseed/issues
+Keywords: sqlalchemy seed seeder json yaml
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: SQLAlchemy (>=1.4.0)
+Provides-Extra: yaml
+Requires-Dist: PyYAML (>=5.4.0) ; extra == 'yaml'
+
+<h1>sqlalchemyseed</h1>
+<p><a href="https://pypi.org/project/sqlalchemyseed" rel="nofollow"><img alt="PyPI" src="https://img.shields.io/pypi/v/sqlalchemyseed"></a>
+<a href="https://pypi.org/project/sqlalchemyseed" rel="nofollow"><img alt="PyPI - Python Version" src="https://img.shields.io/pypi/pyversions/sqlalchemyseed"></a>
+<a href="https://github.com/jedymatt/sqlalchemyseed/blob/main/LICENSE" rel="nofollow"><img alt="PyPI - License" src="https://img.shields.io/pypi/l/sqlalchemyseed"></a>
+<a href="https://github.com/jedymatt/sqlalchemyseed/actions/workflows/python-package.yml" rel="nofollow"><img alt="Python package" src="https://github.com/jedymatt/sqlalchemyseed/actions/workflows/python-package.yml/badge.svg"></a></p>
+<p>Sqlalchemy seeder that supports nested relationships.</p>
+<h2>Installation</h2>
+<p>Default installation</p>
+<pre>pip install sqlalchemyseed
+</pre>
+<p>When using yaml to loading entities from yaml files.
+Execute this command to install necessary dependencies</p>
+<pre>pip install sqlalchemyseed[yaml]
+</pre>
+<h2>Dependencies</h2>
+<p>Required</p>
+<ul>
+<li>SQAlchemy&gt;=1.4.0</li>
+</ul>
+<p>Optional</p>
+<ul>
+<li>PyYAML&gt;=5.4.0</li>
+</ul>
+<h2>Getting Started</h2>
+<pre><span class="c1"># main.py</span>
+<span class="kn">from</span> <span class="nn">sqlalchemyseed</span> <span class="kn">import</span> <span class="n">load_entities_from_json</span><span class="p">,</span> <span class="n">Seeder</span>
+<span class="kn">from</span> <span class="nn">db</span> <span class="kn">import</span> <span class="n">session</span>
+
+<span class="c1"># load entities</span>
+<span class="n">entities</span> <span class="o">=</span> <span class="n">load_entities_from_json</span><span class="p">(</span><span class="s1">&#39;tests/test_data.json&#39;</span><span class="p">)</span>
+
+<span class="c1"># Initializing Seeder</span>
+<span class="n">seeder</span> <span class="o">=</span> <span class="n">Seeder</span><span class="p">()</span>  <span class="c1"># or Seeder(session)</span>
+
+<span class="c1"># Seeding</span>
+<span class="n">seeder</span><span class="o">.</span><span class="n">session</span> <span class="o">=</span> <span class="n">session</span>  <span class="c1"># assign session if no session assigned before seeding</span>
+<span class="n">seeder</span><span class="o">.</span><span class="n">seed</span><span class="p">(</span><span class="n">entities</span><span class="p">)</span>
+
+<span class="c1"># Committing</span>
+<span class="n">session</span><span class="o">.</span><span class="n">commit</span><span class="p">()</span>  <span class="c1"># or seeder.session.commit()</span>
+</pre>
+<h2>Seeder vs. HybridSeeder</h2>
+<table>
+<thead>
+<tr>
+<th align="left">Features &amp; Options</th>
+<th align="left">Seeder</th>
+<th align="left">HybridSeeder</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Support <code>model</code> and <code>data</code> keys</td>
+<td align="left">:heavy_check_mark:</td>
+<td align="left">:heavy_check_mark:</td>
+</tr>
+<tr>
+<td align="left">Support <code>model</code> and <code>filter</code> keys</td>
+<td align="left">:x:</td>
+<td align="left">:heavy_check_mark:</td>
+</tr>
+<tr>
+<td align="left">Optional argument <code>add_to_session=False</code> in the <code>seed</code> method</td>
+<td align="left">:heavy_check_mark:</td>
+<td align="left">:x:</td>
+</tr>
+<tr>
+<td align="left">Assign existing objects from session or db to a relationship attribute</td>
+<td align="left">:x:</td>
+<td align="left">:heavy_check_mark:</td>
+</tr>
+</tbody>
+</table>
+<h2>When to use HybridSeeder and 'filter' key field?</h2>
+<p>Assuming that <code>Child(age=5)</code> exists in the database or session,
+then we should use <em>filter</em> instead of <em>data</em>,
+the values of <em>filter</em> will query from the database or session,
+and assign it to the <code>Parent.child</code></p>
+<pre><span class="kn">from</span> <span class="nn">sqlalchemyseed</span> <span class="kn">import</span> <span class="n">HybridSeeder</span>
+<span class="kn">from</span> <span class="nn">db</span> <span class="kn">import</span> <span class="n">session</span>
+
+<span class="n">data</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s2">&quot;model&quot;</span><span class="p">:</span> <span class="s2">&quot;models.Parent&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;data&quot;</span><span class="p">:</span> <span class="p">{</span>
+        <span class="s2">&quot;!child&quot;</span><span class="p">:</span> <span class="p">{</span>
+            <span class="s2">&quot;model&quot;</span><span class="p">:</span> <span class="s2">&quot;models.Child&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;filter&quot;</span><span class="p">:</span> <span class="p">{</span>
+                <span class="s2">&quot;age&quot;</span><span class="p">:</span> <span class="mi">5</span>
+            <span class="p">}</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+
+
+<span class="c1"># When seeding instances that has &#39;filter&#39; key, then use HybridSeeder, otherwise use Seeder.</span>
+<span class="n">seeder</span> <span class="o">=</span> <span class="n">HybridSeeder</span><span class="p">(</span><span class="n">session</span><span class="p">)</span>
+<span class="n">seeder</span><span class="o">.</span><span class="n">seed</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
+
+<span class="n">session</span><span class="o">.</span><span class="n">commit</span><span class="p">()</span> <span class="c1"># or seeder.sesssion.commit()</span>
+</pre>
+<h2>Relationships</h2>
+<p>In adding a relationship attribute, add prefix <strong>!</strong> to the key in order to identify it.</p>
+<h3>Referencing relationship object or a foreign key</h3>
+<p>If your class don't have a relationship attribute but instead a foreign key attribute you can use it the same as how you did it on a relationship attribute</p>
+<pre><span class="kn">from</span> <span class="nn">sqlalchemyseed</span> <span class="kn">import</span> <span class="n">HybridSeeder</span>
+<span class="kn">from</span> <span class="nn">db</span> <span class="kn">import</span> <span class="n">session</span>
+
+<span class="n">instance</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="p">{</span>
+        <span class="s1">&#39;model&#39;</span><span class="p">:</span> <span class="s1">&#39;tests.models.Company&#39;</span><span class="p">,</span>
+        <span class="s1">&#39;data&#39;</span><span class="p">:</span> <span class="p">{</span><span class="s1">&#39;name&#39;</span><span class="p">:</span> <span class="s1">&#39;MyCompany&#39;</span><span class="p">}</span>
+    <span class="p">},</span>
+    <span class="p">{</span>
+        <span class="s1">&#39;model&#39;</span><span class="p">:</span> <span class="s1">&#39;tests.models.Employee&#39;</span><span class="p">,</span>
+        <span class="s1">&#39;data&#39;</span><span class="p">:[</span>  
+            <span class="p">{</span>
+                <span class="s1">&#39;name&#39;</span><span class="p">:</span> <span class="s1">&#39;John Smith&#39;</span><span class="p">,</span>
+                <span class="c1"># foreign key attribute</span>
+                <span class="s1">&#39;!company_id&#39;</span><span class="p">:</span> <span class="p">{</span>
+                    <span class="s1">&#39;model&#39;</span><span class="p">:</span> <span class="s1">&#39;tests.models.Company&#39;</span><span class="p">,</span>
+                    <span class="s1">&#39;filter&#39;</span><span class="p">:</span> <span class="p">{</span>
+                        <span class="s1">&#39;name&#39;</span><span class="p">:</span> <span class="s1">&#39;MyCompany&#39;</span>
+                    <span class="p">}</span>
+                <span class="p">}</span>
+            <span class="p">},</span>
+            <span class="p">{</span>
+                <span class="s1">&#39;name&#39;</span><span class="p">:</span> <span class="s1">&#39;Juan Dela Cruz&#39;</span><span class="p">,</span>
+                <span class="c1"># relationship attribute</span>
+                <span class="s1">&#39;!company&#39;</span><span class="p">:</span> <span class="p">{</span>
+                    <span class="s1">&#39;model&#39;</span><span class="p">:</span> <span class="s1">&#39;tests.models.Company&#39;</span><span class="p">,</span>
+                    <span class="s1">&#39;filter&#39;</span><span class="p">:</span> <span class="p">{</span>
+                        <span class="s1">&#39;name&#39;</span><span class="p">:</span> <span class="s1">&#39;MyCompany&#39;</span>
+                    <span class="p">}</span>
+            <span class="p">}</span>
+        <span class="p">]</span>
+    <span class="p">}</span>
+<span class="p">]</span>
+
+<span class="n">seeder</span> <span class="o">=</span> <span class="n">HybridSeeder</span><span class="p">(</span><span class="n">session</span><span class="p">)</span>
+<span class="n">seeder</span><span class="o">.</span><span class="n">seed</span><span class="p">(</span><span class="n">instance</span><span class="p">)</span>
+</pre>
+<h3>No Relationship</h3>
+<pre>// test_data.json
+[
+    {
+        &quot;model&quot;: &quot;models.Person&quot;,
+        &quot;data&quot;: {
+            &quot;name&quot;: &quot;You&quot;,
+            &quot;age&quot;: 18
+        }
+    },
+    // when you have two or more objects of the same model, you can
+    {
+        &quot;model&quot;: &quot;models.Person&quot;,
+        &quot;data&quot;: [
+            {
+                &quot;name&quot;: &quot;You&quot;,
+                &quot;age&quot;: 18
+            },
+            {
+                &quot;name&quot;: &quot;Still You But Older&quot;,
+                &quot;age&quot;: 40
+            }
+        ]
+    }
+]
+</pre>
+<h3>One to One</h3>
+<pre>// test_data.json
+[
+    {
+        &quot;model&quot;: &quot;models.Person&quot;,
+        &quot;data&quot;: {
+            &quot;name&quot;: &quot;John&quot;,
+            &quot;age&quot;: 18,
+            // creates a job object
+            &quot;!job&quot;: {
+                &quot;model&quot;: &quot;models.Job&quot;,
+                &quot;data&quot;: {
+                    &quot;job_name&quot;: &quot;Programmer&quot;,
+                }
+            }
+        }
+    },
+    // or this, if you want to add relationship that exists
+    // in your database use &#39;filter&#39; instead of &#39;obj&#39;
+    {
+        &quot;model&quot;: &quot;models.Person&quot;,
+        &quot;data&quot;: {
+            &quot;name&quot;: &quot;Jeniffer&quot;,
+            &quot;age&quot;: 18,
+            &quot;!job&quot;: {
+                &quot;model&quot;: &quot;models.Job&quot;,
+                &quot;filter&quot;: {
+                    &quot;job_name&quot;: &quot;Programmer&quot;,
+                }
+            }
+        }
+    }
+]
+</pre>
+<h3>One to Many</h3>
+<pre>//test_data.json
+[
+    {
+        &quot;model&quot;: &quot;models.Person&quot;,
+        &quot;data&quot;: {
+            &quot;name&quot;: &quot;John&quot;,
+            &quot;age&quot;: 18,
+            &quot;!items&quot;: [
+                {
+                    &quot;model&quot;: &quot;models.Item&quot;,
+                    &quot;data&quot;: {
+                        &quot;name&quot;: &quot;Pencil&quot;
+                    }
+                },
+                {
+                    &quot;model&quot;: &quot;models.Item&quot;,
+                    &quot;data&quot;: {
+                        &quot;name&quot;: &quot;Eraser&quot;
+                    }
+                }
+            ]
+        }
+    }
+]
+</pre>
+<h3>Example of Nested Relationships</h3>
+<pre><span class="p">{</span>
+    <span class="nt">&quot;model&quot;</span><span class="p">:</span> <span class="s2">&quot;models.Parent&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;data&quot;</span><span class="p">:</span> <span class="p">{</span>
+        <span class="nt">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;John Smith&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;!children&quot;</span><span class="p">:</span> <span class="p">[</span>
+            <span class="p">{</span>
+                <span class="nt">&quot;model&quot;</span><span class="p">:</span> <span class="s2">&quot;models.Child&quot;</span><span class="p">,</span>
+                <span class="nt">&quot;data&quot;</span><span class="p">:</span> <span class="p">{</span>
+                    <span class="nt">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;Mark Smith&quot;</span><span class="p">,</span>
+                    <span class="nt">&quot;!children&quot;</span><span class="p">:</span> <span class="p">[</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;model&quot;</span><span class="p">:</span> <span class="s2">&quot;models.GrandChild&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;data&quot;</span><span class="p">:</span> <span class="p">{</span>
+                                <span class="nt">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;Alice Smith&quot;</span>
+                            <span class="p">}</span>
+                        <span class="p">}</span>
+                    <span class="p">]</span>
+                <span class="p">}</span>
+            <span class="p">}</span>
+        <span class="p">]</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</pre>
+
+
