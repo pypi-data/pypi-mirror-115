@@ -1,0 +1,2 @@
+setuptools>=42.0
+tornado~=6.1

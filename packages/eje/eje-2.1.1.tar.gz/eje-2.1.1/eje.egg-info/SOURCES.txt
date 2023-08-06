@@ -1,0 +1,16 @@
+.flake8
+.gitignore
+LICENSE
+README.md
+eje.py
+mypy.ini
+requirements.in
+requirements.txt
+setup.py
+.github/workflows/python-app.yml
+.vscode/settings.json
+eje.egg-info/PKG-INFO
+eje.egg-info/SOURCES.txt
+eje.egg-info/dependency_links.txt
+eje.egg-info/requires.txt
+eje.egg-info/top_level.txt

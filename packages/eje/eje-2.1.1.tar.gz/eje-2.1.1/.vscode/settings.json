@@ -1,0 +1,47 @@
+{
+    "python.linting.banditEnabled": true,
+    "python.linting.enabled": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.mypyEnabled": true,
+    "python.linting.pydocstyleEnabled": true,
+    "python.linting.pylintEnabled": false,
+    "python.pythonPath": "venv/bin/python",
+    "files.exclude": {
+        ".eggs": true,
+        ".mypy_cache": true,
+        ".pytest_cache": true,
+        "*.egg-info": true,
+        "**/__pycache__": true,
+        "venv": true
+    },
+    "[python]": {
+        "editor.rulers": [
+            72,
+            88
+        ]
+    },
+    "python.formatting.provider": "black",
+    "cSpell.words": [
+        "Crist",
+        "Cristóbal",
+        "PYPI",
+        "asyncio",
+        "bal",
+        "bdist",
+        "cysystemd",
+        "fileno",
+        "gaierror",
+        "mypy",
+        "noqa",
+        "pytest",
+        "sdist",
+        "tcpserver",
+        "unshallow"
+    ],
+    "files.watcherExclude": {
+        ".git": true,
+        "**/__pycache__": true,
+        "**/*.egg-info": true,
+        "venv": true
+    }
+}
