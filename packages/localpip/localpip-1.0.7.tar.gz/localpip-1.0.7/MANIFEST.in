@@ -1,0 +1,2 @@
+include localpip/*.cfg
+include scripts/*.exe

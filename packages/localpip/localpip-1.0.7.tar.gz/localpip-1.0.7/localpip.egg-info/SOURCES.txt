@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+localpip/__init__.py
+localpip/__main__.py
+localpip.egg-info/PKG-INFO
+localpip.egg-info/SOURCES.txt
+localpip.egg-info/dependency_links.txt
+localpip.egg-info/entry_points.txt
+localpip.egg-info/requires.txt
+localpip.egg-info/top_level.txt
