@@ -1,0 +1,3 @@
+[console_scripts]
+pyDeadlineAPI = deadlineapi.__main__:main
+
