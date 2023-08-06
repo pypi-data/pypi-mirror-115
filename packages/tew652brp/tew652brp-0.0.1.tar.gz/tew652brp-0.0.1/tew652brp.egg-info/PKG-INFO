@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: tew652brp
+Version: 0.0.1
+Summary: Interface for working with the TEW-652BRP router API 
+Home-page: https://github.com/fl0pp5/TEW-652BRP
+Author: fl0pp5
+License: UNKNOWN
+Description: # TEW-652BRP
+        
+        #### Python interface for working with the TEW-652BRP router API 
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Description-Content-Type: text/markdown
