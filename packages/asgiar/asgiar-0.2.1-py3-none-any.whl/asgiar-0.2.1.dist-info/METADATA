@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: asgiar
+Version: 0.2.1
+Summary: ASGIAR
+Home-page: https://github.com/patrickkwang/asgiar
+Author: Patrick Wang
+Author-email: patrick@covar.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Requires-Dist: httpx (>=0.18)
+
+UNKNOWN
+
+
