@@ -1,0 +1,11 @@
+cfbfastR/__init__.py,sha256=peEX2489gKaBpPDDQnc8i_UWYovYuqd0SVvl_Ltgqpg,56
+cfbfastR/config.py,sha256=_HyXuLIdyZoQbwYUUkGD2Ozod0IxDKKQcgc9WB8QE6A,1243
+cfbfastR/dl_utils.py,sha256=7xU8m7tf2xRqUYst1l2_6J-90qMwhIcPv_rRak3zH4Q,855
+cfbfastR/errors.py,sha256=1dN8dgwmHGuvjMIu8aARkFKNk5FhF1pGMdkAM8B44m4,93
+cfbfastR/cfb/__init__.py,sha256=9PhpNUz6PD-xptEyf9EOvtPhF2NpaSjRY57oTnSb4GM,5332
+cfbfastR/cfb/pbp.py,sha256=LDPt8Cstldm8MkVMsRLEKZpc7d5QHLyOn-tNdJ5Bd8c,214829
+cfbfastR/nfl/__init__.py,sha256=p2vmE8AR5kRRGUJXxCZijD2eMIqA_vq8SCwS4RoGVrw,4006
+cfbfastR_py-0.0.12.dist-info/METADATA,sha256=92Wum8cSY4xB9J1tGTFRFTALhnLytC7qCoPbm3A88Dw,3953
+cfbfastR_py-0.0.12.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+cfbfastR_py-0.0.12.dist-info/top_level.txt,sha256=M5AWuuRvkMNY2_ElM1h1H7ZWOxCuNFZ1REtYjhkEIUE,9
+cfbfastR_py-0.0.12.dist-info/RECORD,,
