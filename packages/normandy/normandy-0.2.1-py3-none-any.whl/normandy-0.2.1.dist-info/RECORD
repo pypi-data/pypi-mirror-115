@@ -1,0 +1,13 @@
+normandy/__init__.py,sha256=xuNN3UzAheQ2ZlAlGAi2vr-nUOcNtH4iVafUWOcPqwk,27
+normandy/normandy.py,sha256=Oqq2PCx6DKZmrndcDcQzFs465DS_PK_bpL7t8alIGAQ,2458
+normandy/engine/__init__.py,sha256=2gD-9xlW06RWCtst7o_cd6_dHt_kEC-OIGm5tqaQE1U,245
+normandy/engine/errors.py,sha256=qFo6yQexhY0Z_-E5FDpcINNYXxb2sa2Lj_AO3lp72rM,462
+normandy/engine/logger.py,sha256=3OTq9QyzgK317Kj0hfRIitYk5SHf_CJkIryaF7ODg7o,3378
+normandy/engine/pipeline.py,sha256=5lQR6F9k1qLMTKRi3p9szUEy_q-DejdnMY5M5-J6Zyc,5940
+normandy/engine/variables_storage.py,sha256=9CugD3S6USD0itRSHUWL6ZZMthQlOCvVP3dGca_DAKQ,324
+normandy-0.2.1.dist-info/LICENSE,sha256=GSAKapQH5ZIGWlpQTA7v5YrfECyaxaohUb1vJX-qepw,1090
+normandy-0.2.1.dist-info/METADATA,sha256=KVegApRZyj2h6BNU5WXgnpbcIFsK8WA4dtWSkIrOseI,9695
+normandy-0.2.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+normandy-0.2.1.dist-info/entry_points.txt,sha256=tX1-qfR6TObixbItBuZV6L94dUozUhVEeOSXDncmVSc,52
+normandy-0.2.1.dist-info/top_level.txt,sha256=QDh20DA8dA4bDdPyO6dVo8QL2xiQZjiPhJdmovrbgSw,9
+normandy-0.2.1.dist-info/RECORD,,
