@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+ingaia_luigi_slack/__init__.py
+ingaia_luigi_slack/api.py
+ingaia_luigi_slack/events.py
+ingaia_luigi_slack/slack_api.py
+ingaia_luigi_slack.egg-info/PKG-INFO
+ingaia_luigi_slack.egg-info/SOURCES.txt
+ingaia_luigi_slack.egg-info/dependency_links.txt
+ingaia_luigi_slack.egg-info/not-zip-safe
+ingaia_luigi_slack.egg-info/requires.txt
+ingaia_luigi_slack.egg-info/top_level.txt
