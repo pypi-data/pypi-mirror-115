@@ -1,0 +1,15 @@
+kaskada/api/v1alpha/api_pb2.py,sha256=cDcSCsltwG20DSvcmPt6dx4Yvzny-KZbBVPCUpeC3qI,1067
+kaskada/api/v1alpha/api_pb2_grpc.py,sha256=1oboBPFxaTEXt9Aw7EAj8gXHDCNMhZD2VXqocC9l_gk,159
+kaskada/api/v1alpha/compute_pb2.py,sha256=Cf9Kg42rJ3Q35zKS-x5VHZFDSyEZ3pdUEcjvhb_NcQE,26171
+kaskada/api/v1alpha/compute_pb2_grpc.py,sha256=qHjkQsXQsxGE2YHKv-pZ8O-ciy3rmO79XPUpLfT7ChU,2611
+kaskada/api/v1alpha/credential_pb2.py,sha256=Zltgjix6hQZmOkGmCOOLrzYdTMzmf-0srj6-1EyM5JY,5177
+kaskada/api/v1alpha/credential_pb2_grpc.py,sha256=9Z-JcCM95qa4OIwODssp7tAaW4oQd23IOd1_p-kzRBI,3956
+kaskada/api/v1alpha/table_pb2.py,sha256=XjYF-s_xLef4C3zlCbERdXvC6h6Dwh2u9a-DmiK9AXc,23069
+kaskada/api/v1alpha/table_pb2_grpc.py,sha256=4_3uKqi0Y2Wn6F9ACfqyCntVfPYXxAy_BCVj_bNF1Oo,10019
+kaskada/api/v1alpha/view_pb2.py,sha256=3KSB_uVtD3z9ahqcSYEGAeqCwFARpVT3ore7i615Twk,17182
+kaskada/api/v1alpha/view_pb2_grpc.py,sha256=rZfDYAslMQw1iUbRhrJolMDNen3Zy1F-MF3wljeEzzg,7772
+kaskada_grpc-0.0.1.dist-info/LICENSE,sha256=pL1PxaVOlmh_XxdHE-4UfE36w_NQqndYn_7-NjPh1Cw,225
+kaskada_grpc-0.0.1.dist-info/METADATA,sha256=__2whBOO1cuRkpCRQ1SVkDlvUr7GP6_TnaFoBwS943c,709
+kaskada_grpc-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+kaskada_grpc-0.0.1.dist-info/top_level.txt,sha256=UOAI3IljJvn2KC880GI7qplUs3s1PC2P7O02VIa-4SQ,8
+kaskada_grpc-0.0.1.dist-info/RECORD,,
