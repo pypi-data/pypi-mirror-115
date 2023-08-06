@@ -1,0 +1,3 @@
+[console_scripts]
+pagpdf=pagpdf.__main__:main
+
