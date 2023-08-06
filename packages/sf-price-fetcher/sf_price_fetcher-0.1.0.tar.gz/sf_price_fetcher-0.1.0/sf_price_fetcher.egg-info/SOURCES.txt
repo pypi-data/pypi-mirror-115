@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+./__init__.py
+./__main__.py
+./lookups.py
+sf_price_fetcher.egg-info/PKG-INFO
+sf_price_fetcher.egg-info/SOURCES.txt
+sf_price_fetcher.egg-info/dependency_links.txt
+sf_price_fetcher.egg-info/requires.txt
+sf_price_fetcher.egg-info/top_level.txt
