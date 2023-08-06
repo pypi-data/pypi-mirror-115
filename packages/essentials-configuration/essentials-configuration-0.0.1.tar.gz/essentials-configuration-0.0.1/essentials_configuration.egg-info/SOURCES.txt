@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+configuration/__init__.py
+configuration/env.py
+configuration/errors.py
+configuration/ini.py
+configuration/json.py
+configuration/yaml.py
+essentials_configuration.egg-info/PKG-INFO
+essentials_configuration.egg-info/SOURCES.txt
+essentials_configuration.egg-info/dependency_links.txt
+essentials_configuration.egg-info/not-zip-safe
+essentials_configuration.egg-info/requires.txt
+essentials_configuration.egg-info/top_level.txt
