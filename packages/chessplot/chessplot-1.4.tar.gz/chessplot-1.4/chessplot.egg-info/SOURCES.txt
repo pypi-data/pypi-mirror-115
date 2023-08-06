@@ -1,0 +1,9 @@
+README.md
+setup.py
+chessplot/__init__.py
+chessplot/classes.py
+chessplot.egg-info/PKG-INFO
+chessplot.egg-info/SOURCES.txt
+chessplot.egg-info/dependency_links.txt
+chessplot.egg-info/requires.txt
+chessplot.egg-info/top_level.txt
