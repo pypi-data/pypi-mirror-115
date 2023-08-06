@@ -1,0 +1,3 @@
+[console_scripts]
+ONUR = ONUR_Voice_Assistant.ONUR_Voice_Assistant:ONUR.run
+
