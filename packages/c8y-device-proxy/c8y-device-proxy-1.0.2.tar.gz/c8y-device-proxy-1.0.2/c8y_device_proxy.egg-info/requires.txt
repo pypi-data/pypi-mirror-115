@@ -1,0 +1,2 @@
+certifi>=2021.5.30
+websocket_client>=1.1.0
