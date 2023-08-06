@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+nero_dsdn/Binomialdistribution.py
+nero_dsdn/Gaussiandistribution.py
+nero_dsdn/Generaldistribution.py
+nero_dsdn/__init__.py
+nero_dsdn.egg-info/PKG-INFO
+nero_dsdn.egg-info/SOURCES.txt
+nero_dsdn.egg-info/dependency_links.txt
+nero_dsdn.egg-info/not-zip-safe
+nero_dsdn.egg-info/top_level.txt
