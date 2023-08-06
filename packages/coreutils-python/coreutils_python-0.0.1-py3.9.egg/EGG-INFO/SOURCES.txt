@@ -1,0 +1,15 @@
+setup.py
+coreutils/__init__.py
+coreutils/cat.py
+coreutils/cp.py
+coreutils/echo.py
+coreutils/ls.py
+coreutils/mkdir.py
+coreutils/mv.py
+coreutils/rm.py
+coreutils/rmdir.py
+coreutils_python.egg-info/PKG-INFO
+coreutils_python.egg-info/SOURCES.txt
+coreutils_python.egg-info/dependency_links.txt
+coreutils_python.egg-info/entry_points.txt
+coreutils_python.egg-info/top_level.txt
