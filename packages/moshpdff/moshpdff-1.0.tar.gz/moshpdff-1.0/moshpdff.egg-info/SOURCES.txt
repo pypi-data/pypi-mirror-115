@@ -1,0 +1,6 @@
+README.md
+setup.py
+moshpdff.egg-info/PKG-INFO
+moshpdff.egg-info/SOURCES.txt
+moshpdff.egg-info/dependency_links.txt
+moshpdff.egg-info/top_level.txt
