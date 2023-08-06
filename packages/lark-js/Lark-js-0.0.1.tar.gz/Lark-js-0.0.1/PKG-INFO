@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: lark-js
+Version: 0.0.1
+Summary: An extension to Lark that generates a Javascript standalone
+Home-page: https://github.com/lark-parser/lark.js
+License: MIT
+Author: Erez Shin
+Author-email: erezshin@gmail.com
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Javascript
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Text Processing :: General
+Classifier: Topic :: Text Processing :: Linguistic
+Requires-Dist: lark-parser (>=0.11.1,<0.12.0)
+Project-URL: Documentation, https://lark.readthedocs.io/en/latest/
+Project-URL: Repository, https://github.com/lark-parser/lark.js
+Description-Content-Type: text/markdown
+
+# Lark.js
+
+An extension to Lark that generates a Javascript standalone
+
+
+Work in progress. Coming soon!
