@@ -1,0 +1,7 @@
+README.rst
+pyproject.toml
+setup.cfg
+justopinion/justopinion.egg-info/PKG-INFO
+justopinion/justopinion.egg-info/SOURCES.txt
+justopinion/justopinion.egg-info/dependency_links.txt
+justopinion/justopinion.egg-info/top_level.txt
