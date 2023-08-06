@@ -1,0 +1,12 @@
+tew652brp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tew652brp/client.py,sha256=QAa4DWExS7erCxEAR3b93dQbQIxg3FaQydlY-htVI4Q,1382
+tew652brp/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tew652brp/core/login.py,sha256=HZBfkOnkXECO2WjubhsYVyBts8GKkIgIgu8DKJveC44,167
+tew652brp/core/utils.py,sha256=GkRSSThHbpOK9BOH3rvrehGGYoJ2B6nbT4rxqguO8gY,228
+tew652brp/core/access/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tew652brp/core/access/virtual.py,sha256=VdV-q3mZzNTHPapRshAEBs0nU59IT7MHbuI2WVRII6A,2309
+tew652brp-0.0.1.dist-info/LICENCE,sha256=gcuuhKKc5-dwvyvHsXjlC9oM6N5gZ6umYbC8ewW1Yvg,35821
+tew652brp-0.0.1.dist-info/METADATA,sha256=tJjINi1RqjBDxdiVKdB6vrzQsfwHoBVfp6oRCy1TtzQ,448
+tew652brp-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+tew652brp-0.0.1.dist-info/top_level.txt,sha256=zoe-rMl0wQqNASopo4Lnp7k3O3gLuMdAcTjtFNH2bsA,10
+tew652brp-0.0.1.dist-info/RECORD,,
