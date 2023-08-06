@@ -1,0 +1,17 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+versioneer.py
+src/listcondalic/__init__.py
+src/listcondalic/_version.py
+src/listcondalic/conda_search_based.py
+src/listcondalic/liccheck_and_condameta_based.py
+src/listcondalic/modified_liccheck.py
+src/listcondalic/utils.py
+src/listcondalic.egg-info/PKG-INFO
+src/listcondalic.egg-info/SOURCES.txt
+src/listcondalic.egg-info/dependency_links.txt
+src/listcondalic.egg-info/entry_points.txt
+src/listcondalic.egg-info/requires.txt
+src/listcondalic.egg-info/top_level.txt
