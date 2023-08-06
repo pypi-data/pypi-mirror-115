@@ -1,0 +1,8 @@
+GitPython
+coverage
+dill
+nose
+paho-mqtt
+pypi-publisher
+sphinx
+sphinx_rtd_theme
