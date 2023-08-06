@@ -1,0 +1,43 @@
+% File containing utils for the make_pdf-framework
+
+% Test if command is undefined
+\newcommand{\ifCommandDefined}[3]{
+  \ifcsname  #1\endcsname
+    #2
+  \else
+    #3
+  \fi
+}
+
+% Test if string is empty
+\newcommand{\ifEmpty}[3]{
+  \ifthenelse{\equal{#1}{}}{#2}{#3}
+}
+
+% Command for checking if a classoption is loaded
+\makeatletter
+\newcommand{\ifClassoptionSet}[3]{
+  \@ifclasswith{article}{#1}{#2}{#3}
+}
+\makeatother
+
+% Setup variables default variables
+\newcommand{\logopath}{}
+\newcommand{\logotext}{}
+
+% Setup logo-renderer
+\newcommand{\renderLogo}[1]{
+  \ifEmpty{\logopath}{}{
+    \includegraphics[height=#1, max width=\linewidth]{\logopath}
+  }
+}
+
+% Allow math calculations
+\def\basiceval#1{\the\numexpr#1\relax}
+
+% Setup final hook
+\newcommand{\finalHook}{}
+\newcommand{\addToFinalHook}[1]{
+  \let \finalHookOld \finalHook
+  \renewcommand{\finalHook}{\finalHookOld #1}
+}

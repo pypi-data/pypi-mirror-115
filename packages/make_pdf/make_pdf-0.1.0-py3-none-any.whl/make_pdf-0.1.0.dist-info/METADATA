@@ -1,0 +1,79 @@
+Metadata-Version: 2.1
+Name: make_pdf
+Version: 0.1.0
+Summary: A command line tool to convert files to fancy PDFs
+Keywords: cli
+Author-email: EorlBruder <eorl@bruder.space>
+Requires-Python: >=3.6,<4
+Description-Content-Type: text/markdown
+Classifier: Environment :: Console
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Natural Language :: English
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: POSIX :: BSD
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Text Processing
+Requires-Dist: pypandoc >=1.6,<2
+Requires-Dist: click >=8,<9
+Requires-Dist: appdirs >=1.4,<2
+Requires-Dist: towncrier >=21.3,<22 ; extra == "changelog"
+Requires-Dist: black[d] >=21.4b0,<22 ; extra == "dev"
+Requires-Dist: babel >=2.7,<3 ; extra == "dev"
+Requires-Dist: sphinx >=4.1,<5 ; extra == "doc"
+Requires-Dist: sphinx-intl >=2,<3 ; extra == "doc"
+Requires-Dist: flit >=3.3,<4 ; extra == "publish"
+Requires-Dist: pytest >=6.2.4,<7 ; extra == "test"
+Requires-Dist: pytest-mock >=3.6,<4 ; extra == "test"
+Project-URL: Documentation, https://git.eorlbruder.de/EorlBruder/make_pdf
+Project-URL: Homepage, https://git.eorlbruder.de/EorlBruder/make_pdf
+Project-URL: Source, https://git.eorlbruder.de/EorlBruder/make_pdf
+Provides-Extra: changelog
+Provides-Extra: dev
+Provides-Extra: doc
+Provides-Extra: publish
+Provides-Extra: test
+
+[![Build Status](https://drone.eorlbruder.de/api/badges/EorlBruder/make_pdf/status.svg)](https://drone.eorlbruder.de/EorlBruder/make_pdf)
+
+A command line tool to convert files to fancy PDFs.
+
+This tool generates nice-looking reports, letters, presentations etc. from Markdown. Other formats also work, but aren't really supported. The only Output format is PDF.
+
+You can use custom themes with customizable fonts, logos and names. 
+
+# Installation
+
+0. Install all requirements:
+    - python (at least 3.6) and pip
+    - texlive with certain modules (texlive-most on archlinux works for me)
+    - pandoc (Only on Linux and then it depends on how you installed pypandoc and if pandoc came bundled with that)
+2. Clone this repository: `git clone https://git.eorlbruder.de/EorlBruder/mdp2df.git`
+3. Install with pip: `pip install .`
+
+# Usage
+
+By default, this tool only requires an input-file. Thus, the following command works as a minimal example:
+
+```bash
+make_pdf test.md
+```
+
+This command will create a `test-final.pdf`-file. 
+
+You'll get a bunch more information with `make_pdf --help`.
+
+# Contribute
+
+To see how to contribute please have a look at the CONTRIBUTING.md-file.
+
