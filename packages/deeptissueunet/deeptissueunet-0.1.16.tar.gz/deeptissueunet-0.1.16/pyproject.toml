@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "deeptissueunet"
+version = "0.1.16"
+description = ""
+authors = ["Yuxi Long <longyuxi@live.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+albumentations = "*"
+barbar = "*"
+scikit_image = "*"
+matplotlib = "*"
+tifffile = "*"
+opencv-python ="*"
+tqdm = "*"
+torch = "^1.9.0"
+numpy = "*"
+wandb = "*"
+scikit-image = "^0.18.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
