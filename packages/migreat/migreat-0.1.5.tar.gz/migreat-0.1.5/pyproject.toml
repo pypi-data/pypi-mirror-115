@@ -1,0 +1,122 @@
+[tool.poetry]
+name = "migreat"
+version = "0.1.5"
+description = "A flexible SQL migration runner."
+authors = ["João Sampaio <jpmelos@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/jpmelos/migreat"
+repository = "https://github.com/jpmelos/migreat"
+documentation = "https://github.com/jpmelos/migreat"
+keywords = ["database", "postgresql", "sql", "migrations"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Intended Audience :: System Administrators",
+    "Operating System :: OS Independent",
+    "Topic :: Database",
+]
+
+[tool.poetry.dependencies]
+python = ">=3.7,<3.10"
+click = ">=8,<9"
+psycopg2 = ">=2.8,<3"
+
+[tool.poetry.dev-dependencies]
+black = "*"
+coverage = "*"
+flake8 = "*"
+flake8-2020 = "*"
+flake8-blind-except = "*"
+flake8-breakpoint = "*"
+flake8-broken-line = "*"
+flake8-bugbear = "*"
+flake8-builtins = "*"
+flake8-coding = "*"
+flake8-comprehensions = "*"
+flake8-if-expr = "*"
+flake8-print = "*"
+flake8-printf-formatting = "*"
+flake8-pytest-style = "*"
+flake8-return = "*"
+flake8-simplify = "*"
+flake8-tidy-imports = "*"
+flake8-use-fstring = "*"
+ipython = "*"
+isort = "*"
+logging_tree = "*"
+mypy = "*"
+pydocstyle = "*"
+pytest = "*"
+tox = "*"
+tox-pyenv = "*"
+
+[tool.poetry.scripts]
+migreat = "migreat.__main__:cli"
+
+[tool.isort]
+line_length = 79
+known_first_party = "migreat"
+
+[tool.black]
+line-length = 79
+
+[tool.mypy]
+python_version = "3.9"
+files = "migreat"
+namespace_packages = true
+explicit_package_bases = true
+ignore_missing_imports = false
+follow_imports = "normal"
+no_site_packages = false
+no_silence_site_packages = false
+
+allow_any_unimported = true
+allow_any_expr = true
+allow_any_decorated = true
+allow_any_explicit = true
+allow_any_generics = true
+allow_subclassing_any = true
+
+allow_untyped_calls = true
+allow_untyped_defs = false
+allow_incomplete_defs = false
+check_untyped_defs = true
+allow_untyped_decorators = true
+
+no_implicit_optional = true
+strict_optional = true
+
+warn_redundant_casts = true
+warn_unused_ignores = true
+warn_no_return = true
+warn_return_any = true
+warn_unreachable = true
+
+show_none_errors = true
+ignore_errors = false
+
+allow_untyped_globals = false
+allow_redefinition = true
+local_partial_types = false
+implicit_reexport = false
+strict_equality = true
+
+show_error_context = true
+pretty = true
+color_output = true
+error_summary = true
+show_absolute_path = false
+
+[[tool.mypy.overrides]]
+module = "psycopg2"
+ignore_missing_imports = true
+
+[tool.pytest.ini_options]
+python_files = "tests/**.py"
+cache_dir = "/tmp/migreat/pytest_cache"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
