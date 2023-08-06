@@ -1,0 +1,5 @@
+mediapipe
+opencv-python>=4.5
+
+[dev]
+pytest>=6.2
