@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: ossos
+Version: 3.1.6
+Summary: Outer Solar System Origins Survey (OSSOS)
+Home-page: http://github.com/OSSOS/MOP
+Author: JJ Kavelaars (jjk@uvic.ca),
+              Michele Bannister (micheleb@uvic.ca),
+              David Rusk
+Maintainer: M Bannister and JJ Kavelaars
+Maintainer-email: jjk@uvic.ca
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 2 :: Only
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Environment :: X11 Applications
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Requires-Dist: requests (>=2.7)
+Requires-Dist: astropy (>=4.0)
+Requires-Dist: vos (>=3.0)
+Requires-Dist: numpy (>=1.6.1)
+Requires-Dist: matplotlib
+Requires-Dist: d2to1 (>=0.2.10)
+Requires-Dist: scipy
+Requires-Dist: uncertainties
+Requires-Dist: pyds9 (>=1.8)
+Requires-Dist: wxPython (>4.0)
+Requires-Dist: pypubsub (>4.0)
+Requires-Dist: mp-ephem
+
+See http://www.ossos-survey.org/ for science details.
+
+
