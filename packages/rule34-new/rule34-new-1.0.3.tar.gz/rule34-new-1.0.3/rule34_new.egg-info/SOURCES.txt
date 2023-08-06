@@ -1,0 +1,10 @@
+setup.py
+rule34/__init__.py
+rule34/objectClasses.py
+rule34/rule34.py
+rule34/test.py
+rule34_new.egg-info/PKG-INFO
+rule34_new.egg-info/SOURCES.txt
+rule34_new.egg-info/dependency_links.txt
+rule34_new.egg-info/requires.txt
+rule34_new.egg-info/top_level.txt
