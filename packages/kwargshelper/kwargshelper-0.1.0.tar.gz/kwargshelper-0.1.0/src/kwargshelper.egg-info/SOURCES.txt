@@ -1,0 +1,8 @@
+README.md
+setup.py
+src/kwarg_rules.py
+src/kwargs_util.py
+src/kwargshelper.egg-info/PKG-INFO
+src/kwargshelper.egg-info/SOURCES.txt
+src/kwargshelper.egg-info/dependency_links.txt
+src/kwargshelper.egg-info/top_level.txt
