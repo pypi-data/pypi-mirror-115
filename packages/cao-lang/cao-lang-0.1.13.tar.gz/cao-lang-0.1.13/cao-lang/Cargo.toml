@@ -1,0 +1,40 @@
+[package]
+name = "cao-lang"
+version = "0.1.28"
+authors = ["Daniel Kiss <littlesnorrboy@gmail.com>"]
+edition = "2018"
+build = "build.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[features]
+default = ["serde"]
+
+[dependencies]
+serde = { version = "1", features = ["derive"], optional = true }
+# TODO: only use serde feature if our serde feature is enabled...
+arrayvec = { version = "0.7", features = ["serde"] }
+thiserror = "1"
+num_enum = "0.5"
+tracing = { version = "0.1", features = [
+    "release_max_level_info"
+], default-features = false }
+
+[build-dependencies]
+toml = "0.5"
+serde = { version = "1", features = ["derive"] }
+semver = "1"
+
+[dev-dependencies]
+env_logger = "*"
+tracing-subscriber = { version = "0.2", features = [
+    "env-filter",
+    "fmt"
+], default-features = false }
+test-env-log = { version = "*", features = ["trace"], default-features = false }
+serde_json = "1"
+serde_yaml = "0.8"
+criterion = { version = "0.3", features = ["html_reports"] }
+
+[[bench]]
+name = "cao_lang_benches"
+harness = false
