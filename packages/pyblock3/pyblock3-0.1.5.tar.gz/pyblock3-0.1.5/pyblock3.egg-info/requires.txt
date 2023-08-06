@@ -1,0 +1,7 @@
+mkl
+mkl-include
+numpy
+psutil
+pybind11
+intel-openmp
+cmake==3.17
