@@ -1,0 +1,84 @@
+Metadata-Version: 2.1
+Name: aiqc
+Version: 3.0.0
+Summary: End-to-end machine learning on your desktop or server.
+Home-page: https://aiqc.readthedocs.io/
+Author: Layne Sadler
+Author-email: layne.sadler@gmail.com
+License: BSD 3-Clause
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 1 - Planning
+Classifier: Framework :: Jupyter
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.5, <=3.8.7
+Description-Content-Type: text/markdown
+Requires-Dist: tensorflow (==2.4.1)
+Requires-Dist: Keras (==2.4.3)
+Requires-Dist: h5py (==2.10.0)
+Requires-Dist: torch (==1.8.1)
+Requires-Dist: torchmetrics (==0.2.0)
+Requires-Dist: peewee (==3.14.3)
+Requires-Dist: scikit-learn (==0.24.1)
+Requires-Dist: numpy (==1.19.5)
+Requires-Dist: pandas (==1.2.3)
+Requires-Dist: Pillow (==8.1.2)
+Requires-Dist: pyarrow (==3.0.0)
+Requires-Dist: fastparquet (==0.6.3)
+Requires-Dist: plotly (==5.0.0)
+Requires-Dist: appdirs (==1.4.4)
+Requires-Dist: natsort (==7.1.1)
+Requires-Dist: tqdm (==4.59.0)
+Requires-Dist: validators (==0.18.2)
+Requires-Dist: dill (==0.3.3)
+Requires-Dist: fsspec (==0.9.0)
+
+<!-- This page is formatted for GitHub's markdown renderer -->
+![AIQC (wide)](https://raw.githubusercontent.com/aiqc/aiqc/main/docs/images/aiqc_logo_banner_controlroom.png)
+
+<br />
+
+<h3 align='center'>📚&nbsp;&nbsp;<a href="https://aiqc.readthedocs.io/">Documentation</a></h3>
+
+<h3 align='center'>🛡️&nbsp;&nbsp;<a href="https://aiqc.readthedocs.io/en/latest/community.html">Community</a></h3>
+
+<br />
+
+---
+
+<br />
+
+<p align='center'><b>Deep learning experiment tracking with tightly integrated data preprocessing.</b></p>
+
+<p align='center'><i>On a mission to accelerate open science by making deep learning reproducible & accessible.</i></p>
+
+<br />
+
+
+<p align="center">
+	<img src="https://raw.githubusercontent.com/aiqc/aiqc/main/docs/images/framework_june14.png" alt="framework"/>
+</p>
+
+<br />
+
+* Pipelines with tweakable parameters for data prep, model evalaution, and post-processing.
+* Achieve end-to-end reproducibility by recording every step in the process.
+
+
+---
+
+<br />
+
+<p align='center'><i>Thanks to the support and sponsorship of:</i></p>
+
+<br />
+
+
+<p align="center">
+	<img src="https://raw.githubusercontent.com/aiqc/aiqc/main/docs/images/psf_wide.png" alt="sponsor"/>
+</p>
+
