@@ -1,0 +1,9 @@
+scigeo/__init__.py,sha256=6scJj60UpwUL7Y3mIHq1672LR0rBTwH1QQp5Qol_kt0,188
+scigeo/gdal_wrapper.py,sha256=y6fTsqikzQ58D6PJrqSme41x4OYnjr27kFY7cbM49rM,11376
+scigeo/geobox.py,sha256=X4c7eK_SHq3Gou6X98R3LFzPxDisiYSroZd-QvCnaWk,7968
+scigeo/geoface.py,sha256=C6u09-uV7UjtMwraGvAT6FLwN6pLC3HTSkW6ZYWkZyA,4416
+scigeo/sun.py,sha256=UcZH4B2-PrN_Pv5jUCR4a7J4NTWz_q6nqNwPtLJqcaA,4551
+scigeo-0.0.9.dist-info/METADATA,sha256=hqrSvOYaOdFcNXvSmCcAXoAKy6qegx8kjrgi0J-8eyw,311
+scigeo-0.0.9.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+scigeo-0.0.9.dist-info/top_level.txt,sha256=wo0LW0rzNXXpFw5qU0bzdSea6KKXlgJKiB9zmg3_ey0,7
+scigeo-0.0.9.dist-info/RECORD,,
