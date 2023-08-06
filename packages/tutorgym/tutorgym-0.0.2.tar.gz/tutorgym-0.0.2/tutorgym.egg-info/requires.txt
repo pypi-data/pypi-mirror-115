@@ -1,0 +1,5 @@
+gym
+stable-baselines3
+optuna
+opencv-python
+sklearn

@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: tutorgym
+Version: 0.0.2
+Summary: A toolkit that provides a machine interfaces for multiple tutor environments. TutorGym leverages the OpenAI Gym to enable existing RL implementations (that support Gym) to interface with these environments
+Home-page: https://gitlab.cci.drexel.edu/teachable-ai-lab/tutorenvs
+Author: Christopher J. MacLellan
+Author-email: shudson@anl.gov
+License: Copyright 2020 Christopher J. MacLellan
+Project-URL: Source Code, https://gitlab.cci.drexel.edu/teachable-ai-lab/fractionenv
+Project-URL: Documentation, https://gitlab.cci.drexel.edu/teachable-ai-lab/fractionenv
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
