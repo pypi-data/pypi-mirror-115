@@ -1,0 +1,7 @@
+{
+"read textsegment/text(regex)": "^:(?P<variants>[^\\s]+)?\\s+(?P<reference>[^\\s]+)\\s+(?P<content>.+)",
+"read textsegment/translation(regex)": "=(?P<variants>[^\\s]+)?\\s+(?P<content>.+)",
+"read textsegment/transcription(regex)": "~(?P<variants>[^\\s]+)?\\s+(?P<content>.+)",
+"read textsegment/comment(regex)": "\\*(?P<variants>[^\\s]+)?\\s+(?P<content>.+)",
+"read textsegment/detail(regex)": "-(?P<variants>[^\\s]+)?\\s+(?P<content_key>.+)\\s*:\\s*(?P<content_variant>.+)"
+}
