@@ -1,0 +1,3 @@
+[console_scripts]
+conda-flow = conda_flow.commands:main
+
