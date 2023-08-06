@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: pep_517_example
+Version: 1
+Summary: Example of PEP-517 builder that uses wheelfile
+Description-Content-Type: text/markdown
+Keywords: wheel,packaging,pip,build,pep-517
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Author: Błażej Michalik
+Home-page: https://github.com/MrMino/wheelfile
+Requires-Dist: wheelfile
+Requires-Dist: toml
+
+See https://wheelfile.readthedocs.io/en/latest/examples/pep-517-builder.html
