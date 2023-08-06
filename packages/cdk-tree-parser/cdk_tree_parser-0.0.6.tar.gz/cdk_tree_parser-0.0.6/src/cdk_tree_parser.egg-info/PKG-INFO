@@ -1,0 +1,462 @@
+Metadata-Version: 2.1
+Name: cdk-tree-parser
+Version: 0.0.6
+Summary: cdk-utilities
+Home-page: https://git-codecommit.us-east-1.amazonaws.com/v1/repos/cdk-utilities
+Author: Hasan Abu-Rayyan<hasanaburayyan21@gmail.com>
+License: Apache-2.0
+Project-URL: Source, https://git-codecommit.us-east-1.amazonaws.com/v1/repos/cdk-utilities
+Description: # CDK Utilities
+        
+        ## **Please Advise**
+        
+        This project is currently in development... all releases pre 0.1.0 are to be considered experimental
+        
+        ### Purpose
+        
+        Creating some interesting CDK Utility classes to provide deeper insights into deployable resources and construct trees
+        
+        # API Reference <a name="API Reference"></a>
+        
+        ## Structs <a name="Structs"></a>
+        
+        ### KvMap <a name="cdk-utilities.KvMap"></a>
+        
+        #### Initializer <a name="[object Object].Initializer"></a>
+        
+        ```python
+        # Example automatically generated without compilation. See https://github.com/aws/jsii/issues/826
+        from cdk_utilities import KvMap
+        
+        kv_map = {...}
+        ```
+        
+        ## Classes <a name="Classes"></a>
+        
+        ### ConstructTreeParser <a name="cdk-utilities.ConstructTreeParser"></a>
+        
+        #### Initializer <a name="cdk-utilities.ConstructTreeParser.Initializer"></a>
+        
+        ```python
+        # Example automatically generated without compilation. See https://github.com/aws/jsii/issues/826
+        from cdk_utilities import ConstructTreeParser
+        
+        ConstructTreeParser(node, App)
+        ```
+        
+        ##### `node`<sup>Required</sup> <a name="cdk-utilities.ConstructTreeParser.parameter.node"></a>
+        
+        * *Type:* [`@aws-cdk/core.App`](#@aws-cdk/core.App)
+        
+        ---
+        
+        
+        #### Methods <a name="Methods"></a>
+        
+        ##### `generateParseTree` <a name="cdk-utilities.ConstructTreeParser.generateParseTree"></a>
+        
+        ```python
+        # Example automatically generated without compilation. See https://github.com/aws/jsii/issues/826
+        generate_parse_tree()
+        ```
+        
+        ##### `generateTreeStructure` <a name="cdk-utilities.ConstructTreeParser.generateTreeStructure"></a>
+        
+        ```python
+        # Example automatically generated without compilation. See https://github.com/aws/jsii/issues/826
+        generate_tree_structure()
+        ```
+        
+        #### Properties <a name="Properties"></a>
+        
+        ##### `rootNode`<sup>Required</sup> <a name="cdk-utilities.ConstructTreeParser.property.rootNode"></a>
+        
+        * *Type:* [`@aws-cdk/core.App`](#@aws-cdk/core.App)
+        
+        ---
+        
+        
+        ### Node <a name="cdk-utilities.Node"></a>
+        
+        #### Initializer <a name="cdk-utilities.Node.Initializer"></a>
+        
+        ```python
+        # Example automatically generated without compilation. See https://github.com/aws/jsii/issues/826
+        from cdk_utilities import Node
+        
+        Node(node, ConstructNode, parent?: Node, children?: Node[])
+        ```
+        
+        ##### `node`<sup>Required</sup> <a name="cdk-utilities.Node.parameter.node"></a>
+        
+        * *Type:* [`@aws-cdk/core.ConstructNode`](#@aws-cdk/core.ConstructNode)
+        
+        ---
+        
+        
+        ##### `parent`<sup>Optional</sup> <a name="cdk-utilities.Node.parameter.parent"></a>
+        
+        * *Type:* [`cdk-utilities.Node`](#cdk-utilities.Node)
+        
+        ---
+        
+        
+        ##### `children`<sup>Optional</sup> <a name="cdk-utilities.Node.parameter.children"></a>
+        
+        * *Type:* [`cdk-utilities.Node`](#cdk-utilities.Node)[]
+        
+        ---
+        
+        
+        #### Methods <a name="Methods"></a>
+        
+        ##### `accept` <a name="cdk-utilities.Node.accept"></a>
+        
+        ```python
+        # Example automatically generated without compilation. See https://github.com/aws/jsii/issues/826
+        accept(visitor, IVisitor)
+        ```
+        
+        ###### `visitor`<sup>Required</sup> <a name="cdk-utilities.Node.parameter.visitor"></a>
+        
+        * *Type:* [`cdk-utilities.IVisitor`](#cdk-utilities.IVisitor)
+        
+        ---
+        
+        
+        ##### `addChild` <a name="cdk-utilities.Node.addChild"></a>
+        
+        ```python
+        # Example automatically generated without compilation. See https://github.com/aws/jsii/issues/826
+        add_child(node, Node)
+        ```
+        
+        ###### `node`<sup>Required</sup> <a name="cdk-utilities.Node.parameter.node"></a>
+        
+        * *Type:* [`cdk-utilities.Node`](#cdk-utilities.Node)
+        
+        ---
+        
+        
+        #### Properties <a name="Properties"></a>
+        
+        ##### `nodeId`<sup>Required</sup> <a name="cdk-utilities.Node.property.nodeId"></a>
+        
+        * *Type:* `string`
+        
+        ---
+        
+        
+        ##### `nodePath`<sup>Required</sup> <a name="cdk-utilities.Node.property.nodePath"></a>
+        
+        * *Type:* `string`
+        
+        ---
+        
+        
+        ##### `originalNode`<sup>Required</sup> <a name="cdk-utilities.Node.property.originalNode"></a>
+        
+        * *Type:* [`@aws-cdk/core.ConstructNode`](#@aws-cdk/core.ConstructNode)
+        
+        ---
+        
+        
+        ##### `childrenNodes`<sup>Required</sup> <a name="cdk-utilities.Node.property.childrenNodes"></a>
+        
+        * *Type:* [`cdk-utilities.Node`](#cdk-utilities.Node)[]
+        
+        ---
+        
+        
+        ##### `parentNode`<sup>Required</sup> <a name="cdk-utilities.Node.property.parentNode"></a>
+        
+        * *Type:* [`cdk-utilities.Node`](#cdk-utilities.Node)
+        
+        ---
+        
+        
+        ### ParseTree <a name="cdk-utilities.ParseTree"></a>
+        
+        #### Initializer <a name="cdk-utilities.ParseTree.Initializer"></a>
+        
+        ```python
+        # Example automatically generated without compilation. See https://github.com/aws/jsii/issues/826
+        from cdk_utilities import ParseTree
+        
+        ParseTree(app, App)
+        ```
+        
+        ##### `app`<sup>Required</sup> <a name="cdk-utilities.ParseTree.parameter.app"></a>
+        
+        * *Type:* [`@aws-cdk/core.App`](#@aws-cdk/core.App)
+        
+        ---
+        
+        
+        #### Methods <a name="Methods"></a>
+        
+        ##### `createTree` <a name="cdk-utilities.ParseTree.createTree"></a>
+        
+        ```python
+        # Example automatically generated without compilation. See https://github.com/aws/jsii/issues/826
+        create_tree(construct_node, ConstructNode, parent?: Node)
+        ```
+        
+        ###### `constructNode`<sup>Required</sup> <a name="cdk-utilities.ParseTree.parameter.constructNode"></a>
+        
+        * *Type:* [`@aws-cdk/core.ConstructNode`](#@aws-cdk/core.ConstructNode)
+        
+        ---
+        
+        
+        ###### `parent`<sup>Optional</sup> <a name="cdk-utilities.ParseTree.parameter.parent"></a>
+        
+        * *Type:* [`cdk-utilities.Node`](#cdk-utilities.Node)
+        
+        ---
+        
+        
+        ##### `findPaths` <a name="cdk-utilities.ParseTree.findPaths"></a>
+        
+        ```python
+        # Example automatically generated without compilation. See https://github.com/aws/jsii/issues/826
+        find_paths()
+        ```
+        
+        ##### `genTreeStructure` <a name="cdk-utilities.ParseTree.genTreeStructure"></a>
+        
+        ```python
+        # Example automatically generated without compilation. See https://github.com/aws/jsii/issues/826
+        gen_tree_structure()
+        ```
+        
+        ### PrintTreeStructureVisitor <a name="cdk-utilities.PrintTreeStructureVisitor"></a>
+        
+        * *Implements:* [`cdk-utilities.IVisitor`](#cdk-utilities.IVisitor)
+        
+        #### Initializer <a name="cdk-utilities.PrintTreeStructureVisitor.Initializer"></a>
+        
+        ```python
+        # Example automatically generated without compilation. See https://github.com/aws/jsii/issues/826
+        from cdk_utilities import PrintTreeStructureVisitor
+        
+        PrintTreeStructureVisitor()
+        ```
+        
+        #### Methods <a name="Methods"></a>
+        
+        ##### `makeIndent` <a name="cdk-utilities.PrintTreeStructureVisitor.makeIndent"></a>
+        
+        ```python
+        # Example automatically generated without compilation. See https://github.com/aws/jsii/issues/826
+        make_indent()
+        ```
+        
+        ##### `postVisit` <a name="cdk-utilities.PrintTreeStructureVisitor.postVisit"></a>
+        
+        ```python
+        # Example automatically generated without compilation. See https://github.com/aws/jsii/issues/826
+        post_visit(node, Node)
+        ```
+        
+        ###### `node`<sup>Required</sup> <a name="cdk-utilities.PrintTreeStructureVisitor.parameter.node"></a>
+        
+        * *Type:* [`cdk-utilities.Node`](#cdk-utilities.Node)
+        
+        ---
+        
+        
+        ##### `preVisit` <a name="cdk-utilities.PrintTreeStructureVisitor.preVisit"></a>
+        
+        ```python
+        # Example automatically generated without compilation. See https://github.com/aws/jsii/issues/826
+        pre_visit(node, Node)
+        ```
+        
+        ###### `node`<sup>Required</sup> <a name="cdk-utilities.PrintTreeStructureVisitor.parameter.node"></a>
+        
+        * *Type:* [`cdk-utilities.Node`](#cdk-utilities.Node)
+        
+        ---
+        
+        
+        ##### `visit` <a name="cdk-utilities.PrintTreeStructureVisitor.visit"></a>
+        
+        ```python
+        # Example automatically generated without compilation. See https://github.com/aws/jsii/issues/826
+        visit(node, Node)
+        ```
+        
+        ###### `node`<sup>Required</sup> <a name="cdk-utilities.PrintTreeStructureVisitor.parameter.node"></a>
+        
+        * *Type:* [`cdk-utilities.Node`](#cdk-utilities.Node)
+        
+        ---
+        
+        
+        #### Properties <a name="Properties"></a>
+        
+        ##### `indent`<sup>Required</sup> <a name="cdk-utilities.PrintTreeStructureVisitor.property.indent"></a>
+        
+        * *Type:* `string`
+        
+        ---
+        
+        
+        ##### `indentLevel`<sup>Required</sup> <a name="cdk-utilities.PrintTreeStructureVisitor.property.indentLevel"></a>
+        
+        * *Type:* `number`
+        
+        ---
+        
+        
+        ##### `knownChildrenSeen`<sup>Required</sup> <a name="cdk-utilities.PrintTreeStructureVisitor.property.knownChildrenSeen"></a>
+        
+        * *Type:* [`cdk-utilities.KvMap`](#cdk-utilities.KvMap)
+        
+        ---
+        
+        
+        ##### `lastIndentLevel`<sup>Required</sup> <a name="cdk-utilities.PrintTreeStructureVisitor.property.lastIndentLevel"></a>
+        
+        * *Type:* `number`
+        
+        ---
+        
+        
+        ##### `output`<sup>Required</sup> <a name="cdk-utilities.PrintTreeStructureVisitor.property.output"></a>
+        
+        * *Type:* `string`
+        
+        ---
+        
+        
+        ### PrintVisitor <a name="cdk-utilities.PrintVisitor"></a>
+        
+        * *Implements:* [`cdk-utilities.IVisitor`](#cdk-utilities.IVisitor)
+        
+        #### Initializer <a name="cdk-utilities.PrintVisitor.Initializer"></a>
+        
+        ```python
+        # Example automatically generated without compilation. See https://github.com/aws/jsii/issues/826
+        from cdk_utilities import PrintVisitor
+        
+        PrintVisitor()
+        ```
+        
+        #### Methods <a name="Methods"></a>
+        
+        ##### `postVisit` <a name="cdk-utilities.PrintVisitor.postVisit"></a>
+        
+        ```python
+        # Example automatically generated without compilation. See https://github.com/aws/jsii/issues/826
+        post_visit(node, Node)
+        ```
+        
+        ###### `node`<sup>Required</sup> <a name="cdk-utilities.PrintVisitor.parameter.node"></a>
+        
+        * *Type:* [`cdk-utilities.Node`](#cdk-utilities.Node)
+        
+        ---
+        
+        
+        ##### `preVisit` <a name="cdk-utilities.PrintVisitor.preVisit"></a>
+        
+        ```python
+        # Example automatically generated without compilation. See https://github.com/aws/jsii/issues/826
+        pre_visit(node, Node)
+        ```
+        
+        ###### `node`<sup>Required</sup> <a name="cdk-utilities.PrintVisitor.parameter.node"></a>
+        
+        * *Type:* [`cdk-utilities.Node`](#cdk-utilities.Node)
+        
+        ---
+        
+        
+        ##### `visit` <a name="cdk-utilities.PrintVisitor.visit"></a>
+        
+        ```python
+        # Example automatically generated without compilation. See https://github.com/aws/jsii/issues/826
+        visit(node, Node)
+        ```
+        
+        ###### `node`<sup>Required</sup> <a name="cdk-utilities.PrintVisitor.parameter.node"></a>
+        
+        * *Type:* [`cdk-utilities.Node`](#cdk-utilities.Node)
+        
+        ---
+        
+        
+        #### Properties <a name="Properties"></a>
+        
+        ##### `paths`<sup>Required</sup> <a name="cdk-utilities.PrintVisitor.property.paths"></a>
+        
+        * *Type:* `string`
+        
+        ---
+        
+        
+        ## Protocols <a name="Protocols"></a>
+        
+        ### IVisitor <a name="cdk-utilities.IVisitor"></a>
+        
+        * *Implemented By:* [`cdk-utilities.PrintTreeStructureVisitor`](#cdk-utilities.PrintTreeStructureVisitor), [`cdk-utilities.PrintVisitor`](#cdk-utilities.PrintVisitor), [`cdk-utilities.IVisitor`](#cdk-utilities.IVisitor)
+        
+        #### Methods <a name="Methods"></a>
+        
+        ##### `postVisit` <a name="cdk-utilities.IVisitor.postVisit"></a>
+        
+        ```python
+        # Example automatically generated without compilation. See https://github.com/aws/jsii/issues/826
+        post_visit(node, Node)
+        ```
+        
+        ###### `node`<sup>Required</sup> <a name="cdk-utilities.IVisitor.parameter.node"></a>
+        
+        * *Type:* [`cdk-utilities.Node`](#cdk-utilities.Node)
+        
+        ---
+        
+        
+        ##### `preVisit` <a name="cdk-utilities.IVisitor.preVisit"></a>
+        
+        ```python
+        # Example automatically generated without compilation. See https://github.com/aws/jsii/issues/826
+        pre_visit(node, Node)
+        ```
+        
+        ###### `node`<sup>Required</sup> <a name="cdk-utilities.IVisitor.parameter.node"></a>
+        
+        * *Type:* [`cdk-utilities.Node`](#cdk-utilities.Node)
+        
+        ---
+        
+        
+        ##### `visit` <a name="cdk-utilities.IVisitor.visit"></a>
+        
+        ```python
+        # Example automatically generated without compilation. See https://github.com/aws/jsii/issues/826
+        visit(node, Node)
+        ```
+        
+        ###### `node`<sup>Required</sup> <a name="cdk-utilities.IVisitor.parameter.node"></a>
+        
+        * *Type:* [`cdk-utilities.Node`](#cdk-utilities.Node)
+        
+        ---
+        
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: JavaScript
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Typing :: Typed
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
