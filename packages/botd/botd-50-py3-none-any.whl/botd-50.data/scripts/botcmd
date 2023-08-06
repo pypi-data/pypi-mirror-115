@@ -1,0 +1,21 @@
+#!python
+# This file is placed in the Public Domain.
+
+__version__ = 50
+
+import ob
+ob.wd = "/var/lib/botd/"
+
+from trm import CLI, Runtime, wrap
+k = Runtime()
+k.cfg.name = "botd"
+k.cfg.version = __version__
+
+import bot.all
+
+def main():
+    k.boot()
+    c = CLI()
+    return c.cmd(k.cfg.otxt)
+
+wrap(main)

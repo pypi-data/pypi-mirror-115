@@ -1,0 +1,44 @@
+#!python
+# This file is placed in the Public Domain.
+
+__version__  = 50
+
+import os, sys ; sys.path.insert(0, os.getcwd())
+
+import atexit
+import os
+import sys
+import termios
+import trm
+
+import bot.all
+import bot.irc
+import ob
+ob.wd = os.path.expanduser("~/.bot")
+
+from trm import Runtime, CLI, Console, wrap
+
+k = Runtime()
+k.cfg.name = "bot"
+k.cfg.p = "bot"
+k.cfg.version = __version__
+
+
+def main():
+    k.boot()
+    if k.cfg.txt:
+        c = CLI()
+        return c.cmd(k.cfg.otxt)
+    if k.opts("d"):
+        daemon()
+        k.privileges()
+    k.start()
+    if k.cfg.m or k.opts("c"):
+        csl = Console()
+        csl.start()
+        k.init(k.cfg.m)
+    if k.opts("cd") or k.cfg.m:
+        k.wait()
+
+
+wrap(main)
