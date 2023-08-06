@@ -1,0 +1,6 @@
+websockets
+netifaces
+requests
+click
+flask
+kubernetes
