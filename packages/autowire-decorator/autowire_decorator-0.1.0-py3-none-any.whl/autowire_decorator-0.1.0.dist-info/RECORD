@@ -1,0 +1,8 @@
+autowire_decorator/__init__.py,sha256=ryAfvAaW7VM8g1gnCrFCPrXmcbbm99Xw44aLkwGZzaI,23
+autowire_decorator/autowire_decorator.py,sha256=BoDSW-BNFRxSycul_BD7MKDEZAMDebcjb4j_0rlRMZ4,1591
+autowire_decorator/model_api.py,sha256=QOAe7b64O_ARPc4m7E7d3btBAM9gaJ-fr5Mfpqs1pcY,1055
+autowire_decorator/parser_api.py,sha256=hkI0_zqFsHsUgag06zOz3MsCXX8hX-HI21D_65d3QqA,1123
+autowire_decorator/path_param.py,sha256=8Oaay9gbeZ3cMf8iFl62DJYSQkS-LffA7TmbFHrYrWw,836
+autowire_decorator-0.1.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+autowire_decorator-0.1.0.dist-info/METADATA,sha256=_HHzjGvz6RjPGP9IDy_MF6CXU98aoT5JPwaYdVZSn5g,508
+autowire_decorator-0.1.0.dist-info/RECORD,,
