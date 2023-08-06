@@ -1,0 +1,17 @@
+README.md
+setup.py
+delta/__init__.py
+delta/delta_node.py
+delta/node/__init__.py
+delta/node/debug.py
+delta/node/node.py
+delta/task/__init__.py
+delta/task/learn.py
+delta/task/load.py
+delta/task/task.py
+delta_task.egg-info/PKG-INFO
+delta_task.egg-info/SOURCES.txt
+delta_task.egg-info/dependency_links.txt
+delta_task.egg-info/not-zip-safe
+delta_task.egg-info/requires.txt
+delta_task.egg-info/top_level.txt
