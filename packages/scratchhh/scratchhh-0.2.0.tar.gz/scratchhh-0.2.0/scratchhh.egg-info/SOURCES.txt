@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+scratchhh/__init__.py
+scratchhh/scratchhh.py
+scratchhh.egg-info/PKG-INFO
+scratchhh.egg-info/SOURCES.txt
+scratchhh.egg-info/dependency_links.txt
+scratchhh.egg-info/requires.txt
+scratchhh.egg-info/top_level.txt
