@@ -1,0 +1,9 @@
+minicons/__init__.py,sha256=rq5OMW-khxQo_5FAvSrPaAS1lRfG9aG2hSuo-KK2Yfk,22
+minicons/cwe.py,sha256=bUQe_tY3FqId0mkzYuA-JjMRWASUF7Ro9IC-whGwfbw,8405
+minicons/scorer.py,sha256=sbRFOM3ANBMLhKWaZOqSjx8lCRqEZAXutAkGhOyef2c,30670
+minicons/supervised.py,sha256=4PR3153YIeFSeQv3P8xThOLAquY6l8jW2KzAFJwSO2g,3058
+minicons/utils.py,sha256=2Ha8G5g_MBewiq4irI-vwx3YGzvSqvovanX3QSxdER8,2868
+minicons-0.1.8.dist-info/LICENSE,sha256=uQQjp3D3hGyVRYojGJUjjrVKIIdB0VbGkeIB-Zngjkw,1065
+minicons-0.1.8.dist-info/WHEEL,sha256=VN2eEg4PHbTOniXb-cCYQPc6zUTS4dAcATjlgU3q-Lo,83
+minicons-0.1.8.dist-info/METADATA,sha256=J4JOmx012hdvzu-faqgPwd1Fv1XTzRqW-F-M6bMV_MA,3186
+minicons-0.1.8.dist-info/RECORD,,
