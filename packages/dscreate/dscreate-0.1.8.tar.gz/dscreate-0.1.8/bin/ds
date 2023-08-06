@@ -1,0 +1,51 @@
+#!/usr/bin/env python
+
+"""
+File for running the `ds` instructor tools.
+"""
+
+from dscreate.create import *
+import argparse
+import os
+
+parser = argparse.ArgumentParser(description='Flatiron Data Science Instructor Tools')
+parser.add_argument('-begin', action='store_true', default=False, dest='begin')
+parser.add_argument('-create', action='store_true', default=False, dest='create',
+                    help='Split curriculum notebook into lesson and solution notebooks.')
+
+parser.add_argument('-share', action="store", dest='url',
+                    help='''Adds a link to your clipboard that opens any public github notebook
+                            in illumidesk.''')
+
+parser.add_argument('-edit', action="store_true", default=False, dest='edit',
+                    help='''Generates a curriculum notebook for editing.''')
+
+
+color = Color()                            
+args = parser.parse_args()
+if args.begin:
+    begin()
+    print()
+    print(color.BOLD, color.CYAN, '💻 Lesson directory created! Curriculum materials should be developed in the curriculum.ipynb file!', color.END)
+    print()
+if args.create:
+    splitter = SplitNotebook()
+    splitter.main()
+    os.remove("curriculum.ipynb")
+    print()
+    print(color.BOLD, color.CYAN, '📒 Solution and Lesson Notebooks have been created!', color.END)
+    print()
+    print(color.BOLD, color.GREEN, 'To access the curriculum notebook, run ds -curriculum', color.END)
+    print()
+if args.edit:
+    generator = GenerateCurriculum()
+    generator.main()
+    print()
+    print(color.BOLD, color.CYAN, '📒 Curriculum Notebook has been generated!', color.END)
+    print()    
+if args.url:
+    share = ShareNotebook()
+    share.main(args.url)
+    print()
+    print(color.BOLD, color.CYAN, '📋 An Illumidesk link has been added to your clipboard!', color.END)
+    print()
