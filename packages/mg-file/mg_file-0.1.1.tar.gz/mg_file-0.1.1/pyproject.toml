@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "mg_file"
+version = "0.1.1"
+description = "Это встраемовая библиотека для работы с файлами формата txt csv json pick sq"
+authors = ["Denis Kustov <denis-kustov@rambler.ru>"]
+license = "Apache-2.0"
+readme = "mg_file/README.md"
+homepage = "https://github.com/denisxab/mg_file"
+repository = "https://github.com/denisxab/mg_file"
+keywords = ["Файлы","SqlLite"]
+exclude = ["mg_file/.idea",
+			"mg_file/venv",
+			"mg_file/.git",
+			"mg_file/.gitignore"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
