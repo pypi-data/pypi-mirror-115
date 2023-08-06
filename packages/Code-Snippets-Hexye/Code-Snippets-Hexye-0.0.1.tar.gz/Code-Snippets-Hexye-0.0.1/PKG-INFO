@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: Code-Snippets-Hexye
+Version: 0.0.1
+Summary: An api wrapper to return random code snippets
+Home-page: https://github.com/HexyeDEV/Code-Snippeys
+Author: Hexye
+Author-email: dragonsale22@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/HexyeDEV/Code-Snippets/releases/tag/0.0.1#:~:text=Source%20code,(zip)
+Project-URL: Bug Tracker, https://github.com/HexyeDEV/Code-Snippets/issues
+Description: # Code-Snippets
+        Api wrapper to get some random code snippets
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
