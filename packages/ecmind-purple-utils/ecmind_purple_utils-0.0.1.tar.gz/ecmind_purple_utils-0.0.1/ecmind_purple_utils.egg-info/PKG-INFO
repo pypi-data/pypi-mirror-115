@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: ecmind-purple-utils
+Version: 0.0.1
+Summary: Helper for red and blue
+Home-page: https://gitlab.ecmind.ch/open/ecmind_purple_utils
+Author: Ulrich Wohlfeil
+Author-email: info@ecmind.ch
+License: UNKNOWN
+Description: # ECMind purple: Utils
+        
+        Helper utils for red and blue
+        
+        ## Installation
+        
+        `pip install ecmind_purple_utils`
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
