@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+mfcrypt/__init__.py
+mfcrypt/__version__.py
+mfcrypt/mfcrypt.py
+mfcrypt.egg-info/PKG-INFO
+mfcrypt.egg-info/SOURCES.txt
+mfcrypt.egg-info/dependency_links.txt
+mfcrypt.egg-info/requires.txt
+mfcrypt.egg-info/top_level.txt
+test/test_crypt.py
+test/test_setup.py
