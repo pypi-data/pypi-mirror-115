@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+setup.py
+/home/ab_dullah/workspace/Adawat/anltk/src/char_maps.cpp
+/home/ab_dullah/workspace/Adawat/anltk/src/preprocessor.cpp
+/home/ab_dullah/workspace/Adawat/anltk/src/tafqeet.cpp
+/home/ab_dullah/workspace/Adawat/anltk/src/tokenizer.cpp
+/home/ab_dullah/workspace/Adawat/anltk/src/transliteratation.cpp
+/home/ab_dullah/workspace/Adawat/anltk/src/utils.cpp
+/home/ab_dullah/workspace/Adawat/python/anltk_py.cpp
+anltk.egg-info/PKG-INFO
+anltk.egg-info/SOURCES.txt
+anltk.egg-info/dependency_links.txt
+anltk.egg-info/not-zip-safe
+anltk.egg-info/top_level.txt
