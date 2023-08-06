@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/photoepicycle.egg-info/PKG-INFO
+src/photoepicycle.egg-info/SOURCES.txt
+src/photoepicycle.egg-info/dependency_links.txt
+src/photoepicycle.egg-info/top_level.txt
+src/picycle/__init__.py
+src/picycle/epicycle.py
