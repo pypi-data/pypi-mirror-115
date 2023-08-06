@@ -1,0 +1,10 @@
+aws_cdk/alexa_ask/__init__.py,sha256=XyaEKHURnSU7GW9T8RW4_7PxWn9uRLz6NLw76n7us_E,18362
+aws_cdk/alexa_ask/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aws_cdk/alexa_ask/_jsii/__init__.py,sha256=t2-6Hst_LGhasf4DBmVTjA2fq4w8QPOkd7LDRWHOpCs,369
+aws_cdk/alexa_ask/_jsii/alexa-ask@1.117.0.jsii.tgz,sha256=2f_4lW3H8kqXhXrGhemg5boCUdtlSV-N_sZFTiyz1X8,20198
+aws_cdk.alexa_ask-1.117.0.dist-info/LICENSE,sha256=PPdRlpoLCV1CRrCV1eKpp3m0lNjchFAP4a9zfc8tRLo,11391
+aws_cdk.alexa_ask-1.117.0.dist-info/METADATA,sha256=lMBfFoioujZWwfjcav9yp3UJ-_UqaayhuowZnDqGSpY,1602
+aws_cdk.alexa_ask-1.117.0.dist-info/NOTICE,sha256=xo56krus2e5ShfXqz_B7vuvGcMn_D0F7TjjpfTz8YMw,113
+aws_cdk.alexa_ask-1.117.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+aws_cdk.alexa_ask-1.117.0.dist-info/top_level.txt,sha256=1TALAKbuUGsMSrfKWEf268lySCmcqSEO6cDYe_XlLHM,8
+aws_cdk.alexa_ask-1.117.0.dist-info/RECORD,,
