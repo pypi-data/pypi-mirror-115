@@ -1,0 +1,1 @@
+from framework_detector.main import detector, get_dockerfile
