@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+time_agnostic_library/time_agnostic_library.egg-info/PKG-INFO
+time_agnostic_library/time_agnostic_library.egg-info/SOURCES.txt
+time_agnostic_library/time_agnostic_library.egg-info/dependency_links.txt
+time_agnostic_library/time_agnostic_library.egg-info/top_level.txt
