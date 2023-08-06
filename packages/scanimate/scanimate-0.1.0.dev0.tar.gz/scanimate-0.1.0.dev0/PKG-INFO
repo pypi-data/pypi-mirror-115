@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: scanimate
+Version: 0.1.0.dev0
+Summary: Tiny package for generating static animations, or "scanimations"
+Home-page: https://ryanhartzell.github.io/scanimate
+Author: Ryan Hartzell
+Author-email: scanimate@gmail.com
+Maintainer: Ryan Hartzell
+Maintainer-email: scanimate@gmail.com
+License: MIT
+Download-URL: https://github.com/RyanHartzell/scanimate
+Description: # scanimate
+        Tiny Python package for generating static animations (also known as 'scanimations')
+        
+        Leverages Moire patterns for motion effects.
+        
+        _**Note** that you'd currently need to fake things digitally to see movement which defeats the purpose, or (preferably) print the grid onto transparency paper or 3D print an opaque grid. Eventually I'll be creating a simple web-app to simulate the effect and provide an interface and API for generating scanimations of user uploaded image stacks or gifs, and I have follow-up plans to make a lightweight phone app (at least on android) which could display various "grid" patterns as an overlay of video from the camera/webcam._
+        
+        
+        ## Example:
+        
+        ### Michael GIF
+        
+        ![The multi-frame source GIF of Michael shrugging](https://raw.githubusercontent.com/RyanHartzell/scanimate/master/images/michael.gif)
+        
+        ### Michael Scanimation
+        
+        ![The resulting single-frame Michael Scanimation](https://raw.githubusercontent.com/RyanHartzell/scanimate/master/images/michael_scanimation.png)
+        
+        ### Grid used to create effect
+        
+        ![A columnar grid used to create the false motion when moved over top of the scanimation](https://raw.githubusercontent.com/RyanHartzell/scanimate/master/images/michael_scanimation_grid.png)
+Keywords: fun imaging-science animation image-processing stem steam art
+Platform: Windows
+Platform: Linux
+Platform: Mac OS-X
+Platform: Unix
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Education
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Image Processing
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Natural Language :: English
+Requires-Python: >=3.7.*
+Description-Content-Type: text/markdown
+Provides-Extra: dev
