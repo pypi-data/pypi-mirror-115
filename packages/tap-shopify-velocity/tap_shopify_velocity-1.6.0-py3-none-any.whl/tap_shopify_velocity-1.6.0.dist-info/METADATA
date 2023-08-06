@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: tap-shopify-velocity
+Version: 1.6.0
+Summary: Singer.io tap for extracting Shopify data
+Home-page: http://github.com/singer-io/tap-shopify
+Author: Stitch
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.5.2
+Requires-Dist: ShopifyAPI (==8.4.1)
+Requires-Dist: singer-python (==5.12.1)
+Provides-Extra: dev
+Requires-Dist: pylint (==2.7.4) ; extra == 'dev'
+Requires-Dist: ipdb ; extra == 'dev'
+Requires-Dist: requests (==2.20.0) ; extra == 'dev'
+Requires-Dist: nose ; extra == 'dev'
+
+UNKNOWN
+
+
