@@ -1,0 +1,3 @@
+[console_scripts]
+arch-release-promotion=arch_release_promotion.cli:main
+
