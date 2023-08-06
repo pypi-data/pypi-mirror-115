@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/slurmflow/__init__.py
+src/slurmflow/dag.py
+src/slurmflow/job.py
+src/slurmflow.egg-info/PKG-INFO
+src/slurmflow.egg-info/SOURCES.txt
+src/slurmflow.egg-info/dependency_links.txt
+src/slurmflow.egg-info/requires.txt
+src/slurmflow.egg-info/top_level.txt
