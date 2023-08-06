@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+adhoc_interface/__init__.py
+adhoc_interface/validation.py
+adhoc_interface.egg-info/PKG-INFO
+adhoc_interface.egg-info/SOURCES.txt
+adhoc_interface.egg-info/dependency_links.txt
+adhoc_interface.egg-info/top_level.txt
