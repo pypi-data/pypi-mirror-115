@@ -1,0 +1,11 @@
+envfileparser/__init__.py,sha256=ZVBLyMuac4sRyh72IDYfdGAYcA0w3zgjvTBrJMKq45k,170
+envfileparser/get_env.py,sha256=XHTZdNnMmp0yjnNSV4FuUx4p8ngrZT_RTYazbS0bqOU,846
+envfileparser/get_env_from_file.py,sha256=piNNkNLT0V9i6ZK-HpXrTT7_WQctxFVKNltqAUvurPw,1243
+envfileparser/get_envs.py,sha256=xgspdbdwjmIF2C46d3OnOteVJVT8_0bd7xGoYyOVPZ0,1033
+envfileparser/parse_env.py,sha256=4VUWBB04TOTEYxTosCQIWWPuP1LSi-I1VyyR7lKZ8v8,1829
+envfileparser/read_env.py,sha256=J_aYTIg6utHMBE6yN-eBQ89NevUPYvc6-ztP2Ho-Kac,1085
+envfileparser-0.0.8.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+envfileparser-0.0.8.dist-info/METADATA,sha256=-NWuY_cas9wv_Iz2b3ORd6t0QJGTAr_faO8qa1cDezk,4460
+envfileparser-0.0.8.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+envfileparser-0.0.8.dist-info/top_level.txt,sha256=8O8YcEEaauD3hgqY972nqCr8D7_vbytIfR61mmbwyLc,14
+envfileparser-0.0.8.dist-info/RECORD,,
