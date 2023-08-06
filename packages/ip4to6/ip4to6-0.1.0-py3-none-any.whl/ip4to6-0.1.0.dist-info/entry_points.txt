@@ -1,0 +1,3 @@
+[console_scripts]
+ip4to6=ip4to6:main
+

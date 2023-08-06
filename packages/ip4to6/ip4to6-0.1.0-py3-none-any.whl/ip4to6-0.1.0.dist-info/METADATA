@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: ip4to6
+Version: 0.1.0
+Summary: 
+License: MIT
+Author: Cologler
+Author-email: skyoflw@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+
+# ip4to6
+
+convert ipv4 to equivalent ipv6
+
+## Usage
+
+### Command Line
+
+``` shell
+ip4to6 <ipv4>
+```
+
+### Programmatic API
+
+``` py
+from ip4to6 import ip4to6
+
+print(ip4to6('127.0.0.1'))
+```
+
