@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+./pypaxtor.py
+pypaxtor.egg-info/PKG-INFO
+pypaxtor.egg-info/SOURCES.txt
+pypaxtor.egg-info/dependency_links.txt
+pypaxtor.egg-info/top_level.txt
