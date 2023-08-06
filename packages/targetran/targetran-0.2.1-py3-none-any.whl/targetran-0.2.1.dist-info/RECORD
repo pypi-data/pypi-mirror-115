@@ -1,0 +1,15 @@
+targetran/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+targetran/_functional.py,sha256=1cYTtESMRJht_Lu3xHBkikFbMx9g-QiruvvGk1uuv6U,2790
+targetran/_test.py,sha256=eFs2v4lLAPgCC0A_nZQc1Jq16qP7RNghBSXkJ2jt6dk,22954
+targetran/_transform.py,sha256=yiHIwLuoPdyAU53g-R70zl4GDR6Va3p_9avi3H3IUGM,23026
+targetran/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+targetran/utils.py,sha256=Q07ngWqohWXn4GGmv8ZtnLXuuefZeBo_oynXns2TkD8,412
+targetran/np/__init__.py,sha256=AP3YtHhgdOV61XqOXy9n1uMzNz1RqNgH49jH_8OdheQ,539
+targetran/np/_np.py,sha256=XhtVXR2vEMwkEum5gY-26K8L80Aa_Fds8fvTByH8KT8,11875
+targetran/tf/__init__.py,sha256=SKXCUmW0tawaSOmoDBXwSbRECw7kDVw-FO27x04EAnA,645
+targetran/tf/_tf.py,sha256=bJc6JhLGEpSarnXxvq8-408_-eIvrq9x8Z-XOiBKHXk,13644
+targetran-0.2.1.dist-info/LICENSE,sha256=Ye4VwQBjrL0q_QTY-zGbveMVkprdx_PSpOEWV1S1u4Y,1067
+targetran-0.2.1.dist-info/METADATA,sha256=Wbwp2lugrW4GQdyIEHSqSdqKltbtD7EsH7a2NYhyTlA,568
+targetran-0.2.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+targetran-0.2.1.dist-info/top_level.txt,sha256=HjzK_Vmmd0M3tOja30X5Vs2NvBpvx9gAcjUbLz6klf8,10
+targetran-0.2.1.dist-info/RECORD,,
