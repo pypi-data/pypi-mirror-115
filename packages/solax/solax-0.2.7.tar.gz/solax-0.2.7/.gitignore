@@ -1,0 +1,7 @@
+/.vscode
+*.pyc
+/dist
+/solax.egg-info
+.DS_Store
+.eggs/**
+/build/**
