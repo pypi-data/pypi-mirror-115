@@ -1,0 +1,107 @@
+# DD-woodpecker
+A Python library designed to simplify work with the woodpecker API.
+
+# Installation
+`pip install dd-woodpecker`
+
+# Usage
+
+### Woodpecker.get_prospects()
+ Returns list of all prospects in the database.
+
+    Args:
+        per_page (int): Defines a number of results per page.
+        page (int): Defines a page number you want access to.
+        sort (str): Defines the sort order, as well as the field on which sorting will be based.
+                    Usage: +/- and a parameter
+    Returns:
+        list_of_prospects (Optional[List[Dict]]): Lit of all prospects filtered by given criteria
+
+### Woodpecker.get_single_prospect()
+Returns details of a single prospect.
+
+    Args:
+        prospect_id (int): Prospect's ID
+        campaigns_details (bool): Show campaign details for a specific prospect
+    Returns:
+        single_prospect (Optional[List[Dict]]): Single prospect's details
+
+### Woodpecker.add_prospects_list()
+Adds a list of new prospects to the database.
+
+    Args:
+        prospects_list (List[Dict]): List containing prospect's details
+        update (bool): Defines if prospects, who already are in database should be overwritten
+    Returns:
+        response (Optional[Dict]): Contains emails of added prospects and status
+
+### Woodpecker.add_prospects_campaign()
+Adds a list of new prospects to the certain campaign. If any of the prospects is not in the
+        database yet, also inserts him there.
+
+    Args:
+        campaign_id (int): Id of the campaign, which you want to add the prospects to
+        prospects_list (List[Dict]): List containing prospect's details
+    Returns:
+        response (Optional[Dict]): Contains emails of added prospects and status
+
+### Woodpecker.delete_prospect()
+Deletes certain prospect from a campaign or database.
+
+    Args:
+        prospect_id (int): Id of the prospect, that should be deleted
+        campaign_id (Optional[int]): Id of campaign, which you want to remove the prospect from.
+            If this param is not specified, then the prospect is deleted from the entire database.
+    Returns:
+        status_code (Dict): Status code returned by the request
+
+### Woodpecker.get_campaigns()
+Returns list of all campaigns
+
+    Returns:
+        list_of_campaigns (Optional[List[Dict]]): List of all available campaigns
+
+### Woodpecker.get_single_campaign()
+Returns details of a certain campaign.
+
+    Args:
+        campaign_id (Optional[int]): id of a specific campaign
+        tatus (Optional[str]): status of a specific campaign
+    Returns:
+        campaign_details (Optional[List[Dict]]): Single campaign details
+
+### Woodpecker.args_to_url_params()
+Converts a dict containing url path arguments into a valid url-like string.
+
+    Args:
+        args (dict): Contains url path params with their values
+    Returns:
+        url_path (str): Args converted to valid url path
+
+### WoodpeckerHook.subscribe()
+Adds a trigger, which when activated will send a request to a given endpoint.
+        
+    Args:
+        target_url (str): User defined endpoint
+        event (str): type of event, on which action should be triggered
+        to_subscribe (bool): Determines whether to subscribe or unsubscribe
+    Returns:
+         None
+
+### WoodpeckerHook.unsubscribe()
+Deletes certain trigger.
+
+    Args:
+         target_url (str): User defined endpoint
+           event (str): type of event, on which action should be triggered
+    Returns:
+         None
+
+### insert_tags_into_snippets()
+Function takes in a list of tags and inserts them into snippets, there can only be 15 of them.
+
+    Args:
+        prospect (Dict): Woodpecker prospect object, where snippets should be added
+        tags (List[str]): List of tags, that should be inserted into snippets
+    Returns:
+        None: Function makes changes in place
