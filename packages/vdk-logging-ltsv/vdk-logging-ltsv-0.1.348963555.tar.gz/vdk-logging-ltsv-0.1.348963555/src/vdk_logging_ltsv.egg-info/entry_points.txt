@@ -1,0 +1,3 @@
+[vdk.plugin.run]
+vdk-logging-ltsv = taurus.vdk.logging_ltsv
+
