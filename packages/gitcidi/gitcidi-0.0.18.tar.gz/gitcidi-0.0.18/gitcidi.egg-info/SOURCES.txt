@@ -1,0 +1,17 @@
+README.md
+setup.py
+buildpan/__init__.py
+buildpan/buildpan.py
+commands/__init__.py
+commands/allrepo.py
+commands/auth.py
+commands/reset.py
+commands/selectrepo.py
+commands/webhook.py
+gitcidi.egg-info/PKG-INFO
+gitcidi.egg-info/SOURCES.txt
+gitcidi.egg-info/dependency_links.txt
+gitcidi.egg-info/entry_points.txt
+gitcidi.egg-info/not-zip-safe
+gitcidi.egg-info/requires.txt
+gitcidi.egg-info/top_level.txt
