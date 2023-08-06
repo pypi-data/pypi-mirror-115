@@ -1,0 +1,7 @@
+opencv-python
+Scipy
+Numpy
+Pillow
+
+[dev]
+pytest>=3.6
