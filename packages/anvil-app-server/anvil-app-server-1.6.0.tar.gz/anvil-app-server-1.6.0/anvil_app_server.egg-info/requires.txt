@@ -1,0 +1,6 @@
+pychrome
+anvil-uplink==0.3.39
+progressbar2
+wheel
+psutil
+pgcli
