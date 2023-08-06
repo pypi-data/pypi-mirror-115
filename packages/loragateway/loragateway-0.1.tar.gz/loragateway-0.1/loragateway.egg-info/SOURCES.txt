@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+loragateway/__init__.py
+loragateway/__main__.py
+loragateway.egg-info/PKG-INFO
+loragateway.egg-info/SOURCES.txt
+loragateway.egg-info/dependency_links.txt
+loragateway.egg-info/requires.txt
+loragateway.egg-info/top_level.txt
