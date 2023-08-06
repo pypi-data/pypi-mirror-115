@@ -1,0 +1,11 @@
+dedup/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dedup/cmd.py,sha256=3JG4QyBhMjUU1GZt-ssA1Tc54oQ8toGkTyXoIgmsf_g,1202
+dedup/dedup_utils.py,sha256=Wmnuk35CHufsZ0UDiFb9bNW_clon3kQJehp-An0FTM8,3658
+dedup/image_utils.py,sha256=8eDjXIAzk68Cg-JrThONLAIQbDuS-ddQEIJFXb52Obw,1630
+dedup/webapp.py,sha256=cvDJJER9Z1YnpPLNEPG5kIFUBAfc60K-V3X81-NfLZE,1976
+dedup/templates/index.html,sha256=yN2DuawWcNxZbNLhP_-gSb5AUZy7V626riJwhZQIQxg,6155
+dedup_img-1.0.2.dist-info/METADATA,sha256=j2GSX9FuKRTj7TYpwP8Agovqy__0fMu0gxgpsB2M0oM,1136
+dedup_img-1.0.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+dedup_img-1.0.2.dist-info/entry_points.txt,sha256=mH8_KbiXYliMPn60LV49tSoeMpjjILHaVjjoaRttma4,72
+dedup_img-1.0.2.dist-info/top_level.txt,sha256=3brSLYZfn739QYkb51zlsnfrIyZYwBtFpw1L8BKvuAI,6
+dedup_img-1.0.2.dist-info/RECORD,,

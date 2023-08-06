@@ -1,0 +1,4 @@
+[console_scripts]
+dedup = dedup.cmd:main
+flask-web = dedup.webapp:main
+

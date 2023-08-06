@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>图片查重</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdui@1.0.1/dist/css/mdui.min.css"
+          integrity="sha384-cLRrMq39HOZdvE0j6yBojO4+1PrHfB7a9l5qLcmRm/fiWXYY+CndJPmyu5FV/9Tw" crossorigin="anonymous"/>
+    <script src="https://cdn.jsdelivr.net/npm/mdui@1.0.1/dist/js/mdui.min.js"
+            integrity="sha384-gCMZcshYKOGRX9r6wbDrvF+TcCCswSHFucUzUPwka+Gr+uHgjlYvkABr95TCOz3A"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <script>var $ = mdui.$;</script>
+</head>
+
+<body class="mdui-theme-primary-indigo mdui-theme-accent-pink mdui-theme-layout-dark">
+
+{% if not alg %}
+<div class="mdui-container">
+    <div class="mdui-row mdui-m-t-5">
+        <div class="mdui-col-md-4 mdui-col-offset-md-4 mdui-col-sm-6 mdui-col-offset-sm-3">
+            <h2 class="mdui-text-center mdui-m-b-3">查重算法列表</h2>
+            <div class="mdui-divider"></div>
+            <div class="mdui-list">
+                <a href="/phash" class="mdui-list-item mdui-ripple">
+                    <div class="mdui-list-item-content">PHash</div>
+                    <i class="mdui-list-item-icon mdui-icon material-icons">keyboard_arrow_right</i>
+                </a>
+                <a href="/ahash" class="mdui-list-item mdui-ripple">
+                    <div class="mdui-list-item-content">AHash</div>
+                    <i class="mdui-list-item-icon mdui-icon material-icons">keyboard_arrow_right</i>
+                </a>
+                <a href="/dhash" class="mdui-list-item mdui-ripple">
+                    <div class="mdui-list-item-content">DHash</div>
+                    <i class="mdui-list-item-icon mdui-icon material-icons">keyboard_arrow_right</i>
+                </a>
+                <a href="/whash" class="mdui-list-item mdui-ripple">
+                    <div class="mdui-list-item-content">WHash</div>
+                    <i class="mdui-list-item-icon mdui-icon material-icons">keyboard_arrow_right</i>
+                </a>
+                <!--<a href="/login" class="mdui-list-item mdui-ripple">-->
+                    <!--<div class="mdui-list-item-content">Login</div>-->
+                    <!--<i class="mdui-list-item-icon mdui-icon material-icons">keyboard_arrow_right</i>-->
+                <!--</a>-->
+            </div>
+        </div>
+    </div>
+</div>
+{% else %}
+<div id="app" class="mdui-container">
+    <div class="mdui-typo mdui-m-b-2">
+        <h2>${title}</h2>
+        <blockquote>
+            <p>查重算法：{{alg}}</p>
+            <p>重复数量：${imgs.length}</p>
+        </blockquote>
+    </div>
+    <div v-for="item, index in imgs">
+        <div class="mdui-row">
+            <div class="mdui-col-xs-6 mdui-col-sm-3 mdui-m-y-1">
+                <div class="mdui-card">
+                    <div class="mdui-card-media">
+                        <img :src="'static/thumbnail/' + item.img"/>
+                    </div>
+                    <div class="mdui-card-media-covered">
+                        <div class="mdui-card-actions">
+                            <p class="mdui-text-center" style="margin: 9px;">${index + 1}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div v-for="im, index1 in item.dedup" class="mdui-col-xs-6 mdui-col-sm-3 mdui-m-y-1">
+                <div class="mdui-card">
+                    <div class="mdui-card-media">
+                        <img :src="'static/thumbnail/' + im"/>
+                        <div class="mdui-card-media-covered">
+                            <div class="mdui-card-actions">
+                                <button @click="move(index, index1, im)"
+                                        class="mdui-btn mdui-ripple mdui-ripple-white">移出
+                                </button>
+                                <!--<button @click="del(index, index1, im)"-->
+                                <!--class="mdui-btn mdui-ripple mdui-ripple-white">删除-->
+                                <!--</button>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mdui-divider mdui-m-y-1"></div>
+    </div>
+</div>
+<script>
+    var vm = new Vue({
+        delimiters: ['${', '}'],
+        el: '#app',
+        data: {
+            title: '图片查重',
+            imgs: []
+        },
+        created() {
+            this.getImages();
+        },
+        methods: {
+            getImages: function () {
+                $.ajax({
+                    url: '/filter/{{alg}}',
+                    success: (data) => {
+                        this.imgs = JSON.parse(data)
+                    }
+                })
+            },
+            move: function (i, j, img) {
+                $.ajax({
+                    url: '/move',
+                    method: 'put',
+                    data: {img: img},
+                    dataType: 'json',
+                    success: (data) => {
+                        if (data.result) {
+                            if (this.imgs[i].dedup.length === 1) {
+                                this.imgs.splice(i, 1)
+                            } else {
+                                this.imgs[i].dedup.splice(j, 1);
+                            }
+                        }
+                    }
+                })
+            },
+            del: function (i, j, img) {
+                $.ajax({
+                    url: '/delete',
+                    method: 'delete',
+                    data: {img: img},
+                    success: function (data) {
+                        console.log(data)
+                    }
+                })
+            }
+        },
+    })
+</script>
+{% endif %}
+</body>
+
+
+</html>
