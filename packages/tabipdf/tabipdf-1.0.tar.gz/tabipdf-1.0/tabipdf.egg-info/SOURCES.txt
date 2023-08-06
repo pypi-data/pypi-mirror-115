@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+tabipdf/__init__.py
+tabipdf/pdf2img.py
+tabipdf/pdf2text.py
+tabipdf.egg-info/PKG-INFO
+tabipdf.egg-info/SOURCES.txt
+tabipdf.egg-info/dependency_links.txt
+tabipdf.egg-info/top_level.txt
