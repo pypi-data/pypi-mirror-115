@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: AudCloud
+Version: 0.0.1
+Summary: Audio to WordCloud generator
+Home-page: UNKNOWN
+Author: FAL3014
+Author-email: srikihv@gmail.com
+License: MIT
+Description: This is a very simple package thats converts audio file to WordCloud
+        
+        Change Log
+        ==========
+        
+        0.0.1(10/08/2021)
+        -----------------
+        - First Release
+Keywords: WordCloud
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3

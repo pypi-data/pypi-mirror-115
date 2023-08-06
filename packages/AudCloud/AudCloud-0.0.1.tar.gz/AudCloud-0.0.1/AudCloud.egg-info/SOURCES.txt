@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+AudCloud/__init__.py
+AudCloud.egg-info/PKG-INFO
+AudCloud.egg-info/SOURCES.txt
+AudCloud.egg-info/dependency_links.txt
+AudCloud.egg-info/top_level.txt
