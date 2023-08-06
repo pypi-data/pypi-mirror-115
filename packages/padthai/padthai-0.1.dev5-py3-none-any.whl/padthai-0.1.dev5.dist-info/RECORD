@@ -1,0 +1,12 @@
+padthai/__init__.py,sha256=zBwIZR4DnXIhK-JMMuSZse5S9JQd4YONabV2lrEXJFE,83
+padthai/dataset/__init__.py,sha256=QNpegongijnPj6xrASFI0Y5qydxZp_JV3qXP8uYhvKI,33
+padthai/dataset/dataset.py,sha256=TwndhjTOss4S8e4Ts2tLwPNuMwZds9yGmn3E2JW4CuI,1541
+padthai/flex/__init__.py,sha256=2-JHEIIKqgyB_v5zU4YW7RGQBKz5gjExsU_GS1Z74bU,35
+padthai/flex/model.py,sha256=K1PjD5MKqB42YEHpJFDPrFzdTxceWIjYzBOFS5kk5bg,6711
+padthai/gpt_neo/__init__.py,sha256=KwtterRLFv5Of9nUa9Gjpoea8wVs4VutlYnbX1hx_Kg,33
+padthai/gpt_neo/model.py,sha256=HBh-FtpYXm6WykV6a3UoJl7_4V6EJeB2GKiE9-XFigE,7471
+padthai-0.1.dev5.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+padthai-0.1.dev5.dist-info/METADATA,sha256=bjSROCl2M1LtmEVc_6Vb8VWQxug8CJ_FE-Cs4odPZqI,1527
+padthai-0.1.dev5.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+padthai-0.1.dev5.dist-info/top_level.txt,sha256=LnB68v2k05r97J_mrdCFBFm9_-kMcYrDy41R5OKKQBM,8
+padthai-0.1.dev5.dist-info/RECORD,,
