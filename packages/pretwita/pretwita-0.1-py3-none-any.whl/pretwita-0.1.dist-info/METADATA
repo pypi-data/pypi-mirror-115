@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: pretwita
+Version: 0.1
+Summary: A text PREprocessor for TWeets in the ITAlian language
+Home-page: https://github.com/andreafailla/pretwita
+Author: Andrea Failla
+Author-email: andrea.failla.ak@gmail.com
+License: UNKNOWN
+Keywords: nlp natural-language-processing twitter italian tweet-preprocessing
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# PreTwITA
+<code><b>PreTwITA</b></code> is an open source <b>Pre</b>processor for <b>Tw</b>eets in the <b>ITA</b>lian language written in Python. The purpose of such library is to provide the user with language-specific tools for text cleaning (i.e. the process of preparing raw text for Natural Language Processing). 
+
+## Included features
+- correction of most common italian abbreviations (e.g. <i>xk</i> replaced with <i>perché</i>)
+- remove urls 
+- remove emojis 
+- remove emoticons 
+- remove mentions 
+- remove hashtags 
+- remove twitter reserved words (i.e. 'rt' and 'fav')
+- remove stopwords 
+    - an option to define additional stopwords
+- remove punctuation 
+- remove numbers 
+    - an option to avoid removing dates in <i>yyyy</i> format
+- remove multiple spaces 
+- tokenization
+
+## Usage
+For usage and tips, please refer to the <code>demo.ipynb</code> file
+
