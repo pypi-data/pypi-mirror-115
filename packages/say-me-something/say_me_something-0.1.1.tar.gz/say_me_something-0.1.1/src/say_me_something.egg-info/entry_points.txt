@@ -1,0 +1,3 @@
+[console_scripts]
+say = say_me_something.say_me_something:say
+

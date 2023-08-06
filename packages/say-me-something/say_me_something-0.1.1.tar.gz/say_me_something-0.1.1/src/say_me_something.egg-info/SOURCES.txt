@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+src/say_me_something/__init__.py
+src/say_me_something/say_me_something.py
+src/say_me_something.egg-info/PKG-INFO
+src/say_me_something.egg-info/SOURCES.txt
+src/say_me_something.egg-info/dependency_links.txt
+src/say_me_something.egg-info/entry_points.txt
+src/say_me_something.egg-info/not-zip-safe
+src/say_me_something.egg-info/requires.txt
+src/say_me_something.egg-info/top_level.txt
+src/say_me_something/cache/empty.mp3
