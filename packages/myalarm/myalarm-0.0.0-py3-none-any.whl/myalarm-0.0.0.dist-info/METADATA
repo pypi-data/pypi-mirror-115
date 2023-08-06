@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: myalarm
+Version: 0.0.0
+Summary: kailash
+Home-page: UNKNOWN
+Author: kailash
+Author-email: kailashnakum365@gmail.com
+License: UNKNOWN
+Keywords: set.alarm,alarm,myalarm,python tutorial,kailash
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+Requires-Dist: datetime
+Requires-Dist: playsound
+
+A package to perform alarm operations
+
+
