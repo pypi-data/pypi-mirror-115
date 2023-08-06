@@ -1,0 +1,12 @@
+appdirs>=1.4.4
+domdf-python-tools>=2.3.0
+idna>=2.5
+requests>=2.24.0
+
+[all]
+cachecontrol[filecache]>=0.12.6
+lockfile>=0.12.2
+
+[limiter]
+cachecontrol[filecache]>=0.12.6
+lockfile>=0.12.2
