@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: netbox-fusioninventory-plugin
+Version: 0.2
+Summary: A Plugin for import devices from fusion inventory agent
+Home-page: https://gitlab.com/Milka64/netbox-fusioninventory-plugin
+Author: Michael Ricart
+Author-email: UNKNOWN
+License: BSD License
+Platform: UNKNOWN
+Requires-Dist: bs4
+Requires-Dist: lxml
+
+UNKNOWN
+
+
