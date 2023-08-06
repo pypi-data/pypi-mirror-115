@@ -1,0 +1,7 @@
+
+[build]
+oarepo-model-builder
+
+[tests]
+oarepo-validate
+oarepo[tests]
