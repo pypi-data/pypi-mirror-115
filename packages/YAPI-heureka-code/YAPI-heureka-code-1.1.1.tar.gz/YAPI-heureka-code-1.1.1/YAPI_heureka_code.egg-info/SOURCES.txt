@@ -1,0 +1,15 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+YAPI_heureka_code/Lexer.py
+YAPI_heureka_code/__init__.py
+YAPI_heureka_code/token_data.py
+YAPI_heureka_code/token_gruppen.py
+YAPI_heureka_code/token_tools.py
+YAPI_heureka_code/yapi.py
+YAPI_heureka_code.egg-info/PKG-INFO
+YAPI_heureka_code.egg-info/SOURCES.txt
+YAPI_heureka_code.egg-info/dependency_links.txt
+YAPI_heureka_code.egg-info/top_level.txt
