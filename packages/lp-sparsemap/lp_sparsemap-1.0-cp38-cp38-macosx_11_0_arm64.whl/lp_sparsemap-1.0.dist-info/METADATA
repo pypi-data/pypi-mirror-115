@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: lp-sparsemap
+Version: 1.0
+Summary: UNKNOWN
+Home-page: https://github.com/deep-spin/lp-sparsemap
+Author: Vlad Niculae
+Author-email: vlad@vene.ro
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: numpy (>=1.14.6)
+Provides-Extra: torch
+Requires-Dist: torch (>=1.8.1) ; extra == 'torch'
+
+UNKNOWN
+
