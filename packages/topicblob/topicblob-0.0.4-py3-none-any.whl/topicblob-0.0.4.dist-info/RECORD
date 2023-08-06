@@ -1,0 +1,11 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/conftest.py,sha256=WGdzAVtQZ3F3s-WPnjOYDZBZK85lIj5u2WmBfPGKiBw,1046
+tests/test_gensim_topic_modelling.py,sha256=PdAogi2Kokje2Zo9FepAmQzrjrMaDD_QfNBsDffey9g,312
+topicblob/__init__.py,sha256=YAgIjSVM9FOtxg5QUXFGhHK4BbEyRrYNFcjPSYSXD6k,57
+topicblob/gensim_topic_modeling.py,sha256=GLVLnJinm1nkdvTCtq1dLq99XIIRzenVZLEViuGUUEk,7641
+topicblob/topic.py,sha256=0BuBnPbltLHCPTy3dyHc8xItfS1SdNVd9535nUFIuWw,1195
+topicblob-0.0.4.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+topicblob-0.0.4.dist-info/METADATA,sha256=6Y0pTYwoAaHONW_O31qQ64oHYucu03BGvytvElIwDaM,1889
+topicblob-0.0.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+topicblob-0.0.4.dist-info/top_level.txt,sha256=PtsM2JOnz-6mCGYBMgqRnPgcoYAJumuFns2FLEBkbd8,16
+topicblob-0.0.4.dist-info/RECORD,,
