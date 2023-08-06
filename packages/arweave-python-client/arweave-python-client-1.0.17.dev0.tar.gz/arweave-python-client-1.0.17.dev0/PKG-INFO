@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: arweave-python-client
+Version: 1.0.17.dev0
+Summary: Client interface for sending transactions on the Arweave permaweb
+Home-page: https://github.com/MikeHibbert/arweave-python-client
+Author: Mike Hibbert
+Author-email: mike@hibbertitsolutions.co.uk
+License: UNKNOWN
+Download-URL: https://github.com/MikeHibbert/arweave-python-client
+Keywords: arweave,crypto
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+
+UNKNOWN
+
