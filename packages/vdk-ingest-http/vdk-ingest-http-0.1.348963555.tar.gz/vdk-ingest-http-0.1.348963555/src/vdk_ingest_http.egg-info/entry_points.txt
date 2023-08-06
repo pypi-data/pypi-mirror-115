@@ -1,0 +1,3 @@
+[vdk.plugin.run]
+vdk-ingest-http = taurus.vdk.ingest_http_plugin
+
