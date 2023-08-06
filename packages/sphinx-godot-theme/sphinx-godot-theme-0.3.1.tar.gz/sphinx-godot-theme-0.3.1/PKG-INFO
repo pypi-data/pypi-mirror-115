@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: sphinx-godot-theme
+Version: 0.3.1
+Summary: Standalone sphinx theme based on the official Godot documentation theme.
+Keywords: godot,sphinx,theme
+Author-email: Arkadiusz Michał Ryś <Arkadiusz.Michal.Rys@gmail.com>
+Requires-Python: >=3.8
+Description-Content-Type: text/x-rst
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Framework :: Sphinx
+Requires-Dist: sphinx                    >= 4.1.2, < 5
+Requires-Dist: sphinx-tabs               >= 3.2.0, < 4
+Requires-Dist: recommonmark              >= 0.7.1, < 1
+Requires-Dist: sphinx-rtd-theme          >= 0.5.2, < 1
+Requires-Dist: sphinxext-opengraph       >= 0.4.2, < 1
+Requires-Dist: sphinx-notfound-page      >= 0.7.1, < 1
+Requires-Dist: readthedocs-sphinx-search >= 0.1.0, < 1
+Requires-Dist: pip        >= 21.2.2, < 22 ; extra == "dev"
+Requires-Dist: flit       >= 3.3.0,  < 4 ; extra == "dev"
+Requires-Dist: twine      >= 3.4.2,  < 4 ; extra == "dev"
+Requires-Dist: wheel      >= 0.36.2, < 1 ; extra == "dev"
+Requires-Dist: invoke     >= 1.6.0,  < 2 ; extra == "dev"
+Requires-Dist: setuptools >= 57.4.0, < 58 ; extra == "dev"
+Requires-Dist: sphinx ; extra == "doc"
+Requires-Dist: pytest ; extra == "test"
+Project-URL: source, https://git.rys.one/arrys/sphinx-godot-theme
+Provides-Extra: dev
+Provides-Extra: doc
+Provides-Extra: test
+
+==================
+Sphinx Godot Theme
+==================
+
+Sphinx Read The Docs theme based on the `official theme for the Godot documentation <https://github.com/godotengine/godot-docs>`_.
+
