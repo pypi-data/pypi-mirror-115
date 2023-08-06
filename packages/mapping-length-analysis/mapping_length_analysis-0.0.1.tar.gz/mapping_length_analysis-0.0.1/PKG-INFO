@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: mapping_length_analysis
+Version: 0.0.1
+Summary: Analyse number of raw and mapped reads by length
+Home-page: https://github.com/Delayed-Gitification/mapping_length_analysis.git
+Author: Oscar Wilkins
+Author-email: oscar.wilkins@crick.ac.uk
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
