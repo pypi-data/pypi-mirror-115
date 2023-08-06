@@ -1,0 +1,14 @@
+README.md
+setup.py
+image_crawl/__init__.py
+image_crawl.egg-info/PKG-INFO
+image_crawl.egg-info/SOURCES.txt
+image_crawl.egg-info/dependency_links.txt
+image_crawl.egg-info/entry_points.txt
+image_crawl.egg-info/not-zip-safe
+image_crawl.egg-info/requires.txt
+image_crawl.egg-info/top_level.txt
+image_crawl/src/__init__.py
+image_crawl/src/collect.py
+image_crawl/src/utils/__init__.py
+image_crawl/src/utils/imageprocessor.py
