@@ -1,0 +1,11 @@
+patina/__init__.py,sha256=9fgIhiBNa9yqZ2aEQBUh4DTkVkVi571mCWBBywdZNnE,329
+patina/_utils.py,sha256=_gEH-W5j01yyrlVABkKZPRAiLTNHin0L1fqvjFd96wE,1208
+patina/hashmap.py,sha256=V-4qW1xcV2nnMUTqObDg08DedRhnPnNcsnyb7TB9XCU,23983
+patina/option.py,sha256=6zLINtDrjsjzm-vOMdFSEPnJVOwqziz1AEcoigyraIY,20947
+patina/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+patina/ref.py,sha256=gfympgImdqPb_t5oJfSC2KYjlrODVvU6XSrN131fXXg,835
+patina/result.py,sha256=NqL6GlUUoh0MeZTwHT7jOHH4Y2CKLqiMsLsPYnbbY60,17771
+patina-0.5.0.dist-info/LICENSE,sha256=UKNkIK1GPUDxz9uRbt6T57OMn0p_OLWeIEQn_p8dVfs,1072
+patina-0.5.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+patina-0.5.0.dist-info/METADATA,sha256=b61-VLja1M4THMUtTAdcF2pGOKyBfFsvYLT3nUEblqE,2668
+patina-0.5.0.dist-info/RECORD,,
