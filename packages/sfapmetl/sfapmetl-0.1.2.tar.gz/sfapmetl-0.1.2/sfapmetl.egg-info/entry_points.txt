@@ -1,0 +1,3 @@
+[console_scripts]
+sf-apm-etl = sf_apm_etl.cli:main
+
