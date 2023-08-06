@@ -1,0 +1,11 @@
+gclick_sdk/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gclick_sdk/atividade_exception.py,sha256=DaHfD8P3iOeCJN6u-LQ0en8Kf5NgUMl-BrRNVcYVIiA,163
+gclick_sdk/atividades_client.py,sha256=z6ycIKqNp2qCfmu3LnzbOVoyC_0fIdZjE6iLLy39lYo,3186
+gclick_sdk/credentials.py,sha256=CF_296SpFJfwr1uJzAxVFGDdvLRT9CECtwQNSXhUbCk,4197
+gclick_sdk/exception.py,sha256=JqWfyqD9j4E8YdOFns_MANvvN70n6qgknS7S-k17vKc,102
+gclick_sdk/gclick.py,sha256=yxp3TXJXdgmpO7Fgjb41cG6PQMgMLF6sk-eQah4kg5w,311
+gclick_sdk-0.0.3.dist-info/LICENSE,sha256=QQK4UhINHMrIvn78frky4zeYv2vyCRIQs9cmMTegkTg,14
+gclick_sdk-0.0.3.dist-info/METADATA,sha256=RhzgAfFYKdwa8803yRCvsvd-B_XZJbe6_5dCi8a2d2g,4081
+gclick_sdk-0.0.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+gclick_sdk-0.0.3.dist-info/top_level.txt,sha256=M5UV6k6KHKPSdJkzQIf2S1mceRz-m06sQv-byBM79F0,11
+gclick_sdk-0.0.3.dist-info/RECORD,,
