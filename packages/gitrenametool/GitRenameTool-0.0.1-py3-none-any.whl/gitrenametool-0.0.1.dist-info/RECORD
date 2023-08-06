@@ -1,0 +1,10 @@
+gitrenametool/__init__.py,sha256=ryAfvAaW7VM8g1gnCrFCPrXmcbbm99Xw44aLkwGZzaI,23
+gitrenametool/cli.py,sha256=qfd5C0nMXxvxdIlHsqmcFujgJNu0LkHCDYdNI89YNHI,1635
+gitrenametool/Utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gitrenametool/Utils/FileUtil.py,sha256=m9fVMLMwwFhrRpa3Hgp6Q4oolJT82AI8WQ1hMISB1h4,603
+gitrenametool/Utils/ShellUtil.py,sha256=Si2HlOKNFiEg1kXZ_dGwu8JaXIz3hpuPywPM_3_vNdE,752
+gitrenametool/Utils/SubUtil.py,sha256=V0qAV9nC3EX-FjKr5WfGhO7GIxtTFT33RHI11DtDvwc,563
+gitrenametool-0.0.1.dist-info/entry_points.txt,sha256=oExNKkzyb6YinvOU9uCS1wh18k1amXOOjlquOqKYbDE,51
+gitrenametool-0.0.1.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+gitrenametool-0.0.1.dist-info/METADATA,sha256=NT7hZNOBYQskPIiTh-pIUdEUG3HziXJn_dln8TPwE14,358
+gitrenametool-0.0.1.dist-info/RECORD,,

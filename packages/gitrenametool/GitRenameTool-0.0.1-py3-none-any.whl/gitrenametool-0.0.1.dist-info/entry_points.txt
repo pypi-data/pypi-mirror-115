@@ -1,0 +1,3 @@
+[console_scripts]
+gitrename=gitrenametool.cli:cli
+
