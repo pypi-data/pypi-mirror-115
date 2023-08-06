@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: click-project
+Version: 0.22.0
+Summary: click-project is now clk
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 7 - Inactive
+Description-Content-Type: text/markdown
+Requires-Dist: clk
+
+# click-project is now clk
+
+This package has been renamed. Use `pip install clk` instead.
+
+New package: https://pypi.org/project/clk/
+
+
