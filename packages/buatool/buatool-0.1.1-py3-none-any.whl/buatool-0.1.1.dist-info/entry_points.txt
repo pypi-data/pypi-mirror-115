@@ -1,0 +1,3 @@
+[console_scripts]
+buatool = buatool.main:cli
+
