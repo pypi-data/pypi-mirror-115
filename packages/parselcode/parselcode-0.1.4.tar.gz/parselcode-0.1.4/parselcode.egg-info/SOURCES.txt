@@ -1,0 +1,10 @@
+MANIFEST.in
+setup.py
+parselcode/__init__.py
+parselcode/code.csv
+parselcode/main.py
+parselcode.egg-info/PKG-INFO
+parselcode.egg-info/SOURCES.txt
+parselcode.egg-info/dependency_links.txt
+parselcode.egg-info/requires.txt
+parselcode.egg-info/top_level.txt
