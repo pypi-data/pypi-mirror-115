@@ -1,0 +1,3 @@
+[console_scripts]
+croissance = croissance.main:entry_point
+
