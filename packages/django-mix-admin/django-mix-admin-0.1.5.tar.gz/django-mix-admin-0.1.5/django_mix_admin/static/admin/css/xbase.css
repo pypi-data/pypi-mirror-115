@@ -1,0 +1,316 @@
+
+#actions-and-object-tools {
+    display:flex;
+    flex-direction: column;
+}
+
+#actions-and-object-tools .object-tools {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    float: none;
+    margin: 0 0 8px 0;
+}
+
+#actions-and-object-tools .object-tools li {
+    height: inherit;
+    margin: 12px 12px 0 0;
+}
+
+
+#changelist .actions {
+    padding: 0;
+}
+
+#changelist table tr:hover {
+    background: #ffffcc;
+}
+
+#changelist table tr th, #changelist table tr td {
+    white-space: nowrap;
+}
+
+
+#changelist-search {
+    margin-top: 12px;
+}
+
+#searchbar {
+    width: 200px;
+    height: 28px;
+    padding: 0 8px;
+    margin: 0;
+}
+
+#custom-changelist-filter {
+    display: flex;
+    flex-wrap: wrap;
+    padding:0;
+    align-items: baseline;
+}
+
+.custom-filter {
+    display: flex;
+    padding: 0;
+    margin-right: 20px;
+    margin-top: 12px;
+    align-items: baseline;
+}
+
+.custom-filter h3 {
+    padding-left: 0;
+    margin: 0;
+}
+
+.custom-filter select {
+    min-width: 120px;
+    margin: 0;
+}
+
+#changelist-search .submit-btn {
+    height:28px;
+    padding:0 12px;
+    margin-left: 8px;
+    margin-right: 12px;
+}
+
+div.form-row {
+    overflow: hidden;
+}
+
+@media (max-width: 767px) {
+
+    .custom-filter {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .custom-filter select {
+        flex-grow: 1;
+    }
+
+    #changelist-search .submit-btn {
+        margin-left: 0;
+    }
+
+    #searchbar {
+        width: 100%;
+        flex-grow: 1;
+    }
+}
+
+/* 侧栏 */
+
+#x-header {
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+}
+
+#x-sidebar {
+    position: fixed;
+    height: 100%;
+    width: 220px;
+    background: #222d32;
+    overflow-y: scroll;
+}
+
+#x-content {
+    overflow-y: scroll;
+    margin-left: 220px;
+}
+
+@media (max-width: 1024px) {
+    #x-header {
+        position: relative;
+    }
+
+    .x-header-fixed {
+        display: none;
+    }
+
+    #x-sidebar {
+        display: none;
+    }
+
+    #x-content {
+        margin-left: 0;
+    }
+}
+
+.x-sidebar-menu {
+    width: 100%;
+    margin: 0;
+    margin-left: -40px;
+}
+
+.x-sidebar-menu-root {
+    padding-bottom: 120px;
+}
+
+.x-sidebar-item {
+    padding: 0;
+}
+
+.x-sidebar-item a {
+    display: block;
+    padding: 15px;
+    color: white;
+}
+
+.x-sidebar-item a:hover {
+    background: #415690;
+}
+
+.x-sidebar-item-icon {
+    float: right;
+    width:16px;
+    height: 16px;
+    background-repeat: no-repeat;
+}
+
+.x-sidebar-item-icon-normal {
+    background-image: url(../img/next.png);
+}
+
+.x-sidebar-item-icon-active {
+    background-image: url(../img/down.png);
+}
+
+.x-sidebar-menu-sub {
+    background: #222332;
+}
+
+.x-sidebar-subitem {
+    padding: 0;
+}
+
+.x-sidebar-subitem a {
+    padding-left: 25px;
+}
+
+.x-sidebar-subitem-active {
+    background: #417690;
+}
+
+.sk-circle {
+    margin: 100px auto;
+    width: 60px;
+    height: 60px;
+    position: relative;
+  }
+  .sk-circle .sk-child {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  .sk-circle .sk-child:before {
+    content: '';
+    display: block;
+    margin: 0 auto;
+    width: 15%;
+    height: 15%;
+    background-color: #FFF;
+    border-radius: 100%;
+    -webkit-animation: sk-circleBounceDelay 1.2s infinite ease-in-out both;
+            animation: sk-circleBounceDelay 1.2s infinite ease-in-out both;
+  }
+  .sk-circle .sk-circle2 {
+    -webkit-transform: rotate(30deg);
+        -ms-transform: rotate(30deg);
+            transform: rotate(30deg); }
+  .sk-circle .sk-circle3 {
+    -webkit-transform: rotate(60deg);
+        -ms-transform: rotate(60deg);
+            transform: rotate(60deg); }
+  .sk-circle .sk-circle4 {
+    -webkit-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+            transform: rotate(90deg); }
+  .sk-circle .sk-circle5 {
+    -webkit-transform: rotate(120deg);
+        -ms-transform: rotate(120deg);
+            transform: rotate(120deg); }
+  .sk-circle .sk-circle6 {
+    -webkit-transform: rotate(150deg);
+        -ms-transform: rotate(150deg);
+            transform: rotate(150deg); }
+  .sk-circle .sk-circle7 {
+    -webkit-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+            transform: rotate(180deg); }
+  .sk-circle .sk-circle8 {
+    -webkit-transform: rotate(210deg);
+        -ms-transform: rotate(210deg);
+            transform: rotate(210deg); }
+  .sk-circle .sk-circle9 {
+    -webkit-transform: rotate(240deg);
+        -ms-transform: rotate(240deg);
+            transform: rotate(240deg); }
+  .sk-circle .sk-circle10 {
+    -webkit-transform: rotate(270deg);
+        -ms-transform: rotate(270deg);
+            transform: rotate(270deg); }
+  .sk-circle .sk-circle11 {
+    -webkit-transform: rotate(300deg);
+        -ms-transform: rotate(300deg);
+            transform: rotate(300deg); }
+  .sk-circle .sk-circle12 {
+    -webkit-transform: rotate(330deg);
+        -ms-transform: rotate(330deg);
+            transform: rotate(330deg); }
+  .sk-circle .sk-circle2:before {
+    -webkit-animation-delay: -1.1s;
+            animation-delay: -1.1s; }
+  .sk-circle .sk-circle3:before {
+    -webkit-animation-delay: -1s;
+            animation-delay: -1s; }
+  .sk-circle .sk-circle4:before {
+    -webkit-animation-delay: -0.9s;
+            animation-delay: -0.9s; }
+  .sk-circle .sk-circle5:before {
+    -webkit-animation-delay: -0.8s;
+            animation-delay: -0.8s; }
+  .sk-circle .sk-circle6:before {
+    -webkit-animation-delay: -0.7s;
+            animation-delay: -0.7s; }
+  .sk-circle .sk-circle7:before {
+    -webkit-animation-delay: -0.6s;
+            animation-delay: -0.6s; }
+  .sk-circle .sk-circle8:before {
+    -webkit-animation-delay: -0.5s;
+            animation-delay: -0.5s; }
+  .sk-circle .sk-circle9:before {
+    -webkit-animation-delay: -0.4s;
+            animation-delay: -0.4s; }
+  .sk-circle .sk-circle10:before {
+    -webkit-animation-delay: -0.3s;
+            animation-delay: -0.3s; }
+  .sk-circle .sk-circle11:before {
+    -webkit-animation-delay: -0.2s;
+            animation-delay: -0.2s; }
+  .sk-circle .sk-circle12:before {
+    -webkit-animation-delay: -0.1s;
+            animation-delay: -0.1s; }
+  
+  @-webkit-keyframes sk-circleBounceDelay {
+    0%, 80%, 100% {
+      -webkit-transform: scale(0);
+              transform: scale(0);
+    } 40% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+  
+  @keyframes sk-circleBounceDelay {
+    0%, 80%, 100% {
+      -webkit-transform: scale(0);
+              transform: scale(0);
+    } 40% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }

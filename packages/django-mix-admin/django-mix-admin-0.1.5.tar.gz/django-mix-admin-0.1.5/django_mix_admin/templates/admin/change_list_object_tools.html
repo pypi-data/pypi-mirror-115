@@ -1,0 +1,42 @@
+{% load i18n admin_urls %}
+{% load mix_admin %}
+
+{% block object-tools-items %}
+
+  {% comment %} Eric: custom action 3:自定义 action {% endcomment %}
+  {% if action_form.fields.action.choices and is_mix %}
+    {% for action in action_form.fields.action.choices %}
+      {% with action_name=action|first %}
+      {% if action_name != '' %}
+      {% with options=action_options|get_item:action_name %}
+      <li>
+        <a
+          {% if not options.style and action_name == "delete_selected" %}
+          style='background-color:#a41515'
+          {% else %}
+          style='{{ options.style|default:"background:#0f59a4;" }}'
+          {% endif %}
+          {% if options.href %}
+          href="{{ options.href }}"
+          {% else %}
+          href="javascript:void(0);" onclick="mix_custom_action('{{ action_name }}', {{ options|json_str }})"
+          {% endif %}
+          {% if options.attrs %}{{ options.attrs }}{% endif %}
+          >
+          {% if action_name == 'delete_selected' %}批量删除{% else %}{{ action|last }}{% endif %}
+        </a>
+      </li>
+      {% endwith %}
+      {% endif %}
+      {% endwith %}
+    {% endfor %}
+  {% endif %}
+  {% comment %} Eric: custom action 3:自定义 action {% endcomment %}
+
+  {% if has_add_permission %}
+  <li>
+    {% url cl.opts|admin_urlname:'add' as add_url %}
+    <a href="{% add_preserved_filters add_url is_popup to_field %}" class="addlink" style="background-color:#0f59a4;">增加</a>
+  </li>
+  {% endif %}
+{% endblock %}
