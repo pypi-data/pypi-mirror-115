@@ -1,0 +1,12 @@
+CHANGELOG.txt
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+ColabGitlabSetup.egg-info/PKG-INFO
+ColabGitlabSetup.egg-info/SOURCES.txt
+ColabGitlabSetup.egg-info/dependency_links.txt
+ColabGitlabSetup.egg-info/requires.txt
+ColabGitlabSetup.egg-info/top_level.txt
+colab_gitlab_setup/colab_gitlab_setup/__init__.py
+colab_gitlab_setup/colab_gitlab_setup/colab_gitlab_setup.py
