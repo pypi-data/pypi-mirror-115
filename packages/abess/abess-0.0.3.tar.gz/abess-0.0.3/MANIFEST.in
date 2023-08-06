@@ -1,0 +1,14 @@
+include README.md
+include LICENSE
+recursive-include include *
+recursive-include src *
+include pre.sh
+include cygwinccompiler.py
+include distutils.cfg
+
+
+exclude src/test_*.cpp
+exclude src/*.o
+exclude src/*.def
+
+recursive-exclude test *
