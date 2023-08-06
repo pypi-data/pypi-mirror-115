@@ -1,0 +1,9 @@
+setup.py
+corpit.sharedmailboxconvert.egg-info/PKG-INFO
+corpit.sharedmailboxconvert.egg-info/SOURCES.txt
+corpit.sharedmailboxconvert.egg-info/dependency_links.txt
+corpit.sharedmailboxconvert.egg-info/requires.txt
+corpit.sharedmailboxconvert.egg-info/top_level.txt
+shared_mailbox_converter/clean_up.py
+shared_mailbox_converter/create_csv.py
+shared_mailbox_converter/setup.py
