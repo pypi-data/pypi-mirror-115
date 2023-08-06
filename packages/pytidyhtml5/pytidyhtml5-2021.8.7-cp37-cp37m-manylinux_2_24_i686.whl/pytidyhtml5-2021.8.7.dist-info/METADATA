@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: pytidyhtml5
+Version: 2021.8.7
+Summary: HTML clean-up and repair: Statically linked Python interface for tidy-html5.
+Home-page: https://github.com/Kijewski/pytidyhtml5
+Author: René Kijewski
+Author-email: pypi.org@k6i.de
+Maintainer: René Kijewski
+Maintainer-email: pypi.org@k6i.de
+License: ISC
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: ISC License (ISCL)
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Cython
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Text Processing :: Markup :: HTML 
+Requires-Python: ~= 3.6
+
+PyTidyHtml5
+-----------
+
+HTML clean-up and repair: Statically linked Python interface for `tidy-html5 <https://github.com/htacg/tidy-html5>`_.
+
