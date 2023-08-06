@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: comeagainquestionmark
+Version: 0.1.1
+Summary: Transcription tool for video to text
+License: GPL-3.0-or-later
+Author: Henry Bergström
+Author-email: henrybergstrom@protonmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: SpeechRecognition (>=3.8.1,<4.0.0)
+Requires-Dist: alive-progress (>=1.6.2,<2.0.0)
+Requires-Dist: moviepy (>=1.0.3,<2.0.0)
