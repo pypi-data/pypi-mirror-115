@@ -1,0 +1,11 @@
+numpy
+pandas
+geopandas
+h5py
+utm
+matplotlib
+geojson
+multiprocessing
+functools
+shapely
+ast
