@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+smidge/__init__.py
+smidge/classmethods.py
+smidge/itermethods.py
+smidge/multidict.py
+smidge/readonly.py
+smidge.egg-info/PKG-INFO
+smidge.egg-info/SOURCES.txt
+smidge.egg-info/dependency_links.txt
+smidge.egg-info/top_level.txt
