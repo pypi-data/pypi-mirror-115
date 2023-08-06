@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+braingraphgeo/__init__.py
+braingraphgeo/surrogates.py
+braingraphgeo/utils.py
+braingraphgeo/vis.py
+braingraphgeo.egg-info/PKG-INFO
+braingraphgeo.egg-info/SOURCES.txt
+braingraphgeo.egg-info/dependency_links.txt
+braingraphgeo.egg-info/requires.txt
+braingraphgeo.egg-info/top_level.txt

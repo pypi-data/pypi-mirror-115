@@ -1,0 +1,7 @@
+numpy
+pandas
+matplotlib==3.4.2
+scipy
+seaaborn
+networkx
+fury
