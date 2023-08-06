@@ -1,0 +1,11 @@
+LICENSE,sha256=1MO-G41Ty59PKh3ohcp_DvXfnGBRSN8gqew0-gEcnaI,1073
+nore/__init__.py,sha256=rnObPjuBcEStqSO0S6gsdS_ot8ITOQjVj_-P1LUUYpg,22
+nore/list.py,sha256=FLiyXe5hvWWpJO7gu-KnXUAOeZXOubt4JkldNgpjr5U,1193
+nore/main.py,sha256=AzGq0Em0ijFM61r-vHQkDYGJqwN0RWUb01kpSiwqF3A,1062
+nore/new.py,sha256=HNNldyf_LuO75jqvBgGgLykcMG90cqoJYDhkdqCgTfM,1364
+nore/util.py,sha256=yc4gIvwhsb8v32pjlvguJmmwNWOqv7Z38igU0VVLT6I,1795
+nore-0.1.1.dist-info/entry_points.txt,sha256=EaKFJTS-ulpzNFrwJH5ckCnmG3FlaZBaNtaNTrwZWhg,38
+nore-0.1.1.dist-info/LICENSE,sha256=1MO-G41Ty59PKh3ohcp_DvXfnGBRSN8gqew0-gEcnaI,1073
+nore-0.1.1.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+nore-0.1.1.dist-info/METADATA,sha256=pbORusA9xvydL5KOHNbgiTPKUsApNIooaWtK5gAfL9Q,5481
+nore-0.1.1.dist-info/RECORD,,
