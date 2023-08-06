@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+brainyquote_api.egg-info/PKG-INFO
+brainyquote_api.egg-info/SOURCES.txt
+brainyquote_api.egg-info/dependency_links.txt
+brainyquote_api.egg-info/requires.txt
+brainyquote_api.egg-info/top_level.txt
