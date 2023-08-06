@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: insee-number-translator
+Version: 0.2.0
+Summary: Translate french INSEE number to meaningful data
+License: MIT
+Author: Gabriel Augendre
+Author-email: gabriel@augendre.info
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
