@@ -1,0 +1,9 @@
+scipy
+matplotlib
+torch
+numpy
+networkx
+recommonmark
+pandas
+cogdl
+scikit-learn
