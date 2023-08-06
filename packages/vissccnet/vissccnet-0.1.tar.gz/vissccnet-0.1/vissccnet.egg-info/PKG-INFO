@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: vissccnet
+Version: 0.1
+Summary: A CNN model training and weight visualization toolbox
+Home-page: https://github.com/skywalkerylh/visSCCNet
+Author: Ya-Lin Huang
+Author-email: bai06hua28lin.bt06@nctu.edu.tw
+License: UNKNOWN
+Description: # visSCCNet
+        1. create environment and install all packages 
+        
+        conda env create -f environment.yml 
+        
+        2. execute GUI python file 
+        
+        python visSCC_gui.py
+        
+Keywords: eeg deep-learning brain-state-decoding
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
