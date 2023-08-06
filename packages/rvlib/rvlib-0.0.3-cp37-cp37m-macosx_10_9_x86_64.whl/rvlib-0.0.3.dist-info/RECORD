@@ -1,0 +1,11 @@
+rvlib/__init__.py,sha256=XFSsAhRVz7gnnpWrqdsPxPfYj7BF_neFiwTFbONOHX4,443
+rvlib/_rmath_ffi.abi3.so,sha256=NFsecesFuQkGYMxWxCYoRcmhZhrETxsCVIS9dmxBfZU,299096
+rvlib/metadata.yaml,sha256=isFO6UjjWGEV_LGC0n1dP4cbiJS3tj3yzA99Ndnel7s,16504
+rvlib/specials.py,sha256=fmVMWeBPj6dS9nkbqKqc8xTBgadpFtDFvu06G-IMQ9I,1512
+rvlib/univariate.py,sha256=LMwWUcOrXaO8p1apXfHvgojLcX1ihSu2cp6jNVHc9RY,107077
+rvlib/version.py,sha256=iV1VAzMOdkyv4QfUOMKQoP0hS3JrxufKNxTnX8PZQ08,83
+rvlib-0.0.3.dist-info/LICENSE.txt,sha256=u0pg79unQAeBzi1fIp4IVevZySy2Cnqn5foRtI5IL1Y,1513
+rvlib-0.0.3.dist-info/METADATA,sha256=2I3FDSAYyZgSCW7ivG0oZb_xIPRKm8OOgFSzOQ7RkhE,6871
+rvlib-0.0.3.dist-info/WHEEL,sha256=WVG6A_oY5zUoNXUyvfLMOSXC-hqC5VZacUL1MeSOz70,110
+rvlib-0.0.3.dist-info/top_level.txt,sha256=tlanbE7iiLJWIFbe1CBMGf5ATI0r8P-M3x8fXB-us1E,6
+rvlib-0.0.3.dist-info/RECORD,,
