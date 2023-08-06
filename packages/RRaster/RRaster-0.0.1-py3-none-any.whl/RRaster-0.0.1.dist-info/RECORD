@@ -1,0 +1,15 @@
+rraster/Raster.py,sha256=rmIKhICodcaj3XiWrF4qQGaq-nX1H_ZQhJBh8P8A0W8,9277
+rraster/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rraster/data/19990601_pr.tif,sha256=PTEMUpocLmvbUBGWBCgAOdZlAQwFBCex-Xu4TnnE5AE,1640684
+rraster/data/19990602_pr.tif,sha256=SKiDz_tM_ybOVyt9ldPJFb4HG5SNKrtQeKhvBaDeLps,1640684
+rraster/data/19990603_pr.tif,sha256=Ahazipyud8PXilV9Qqha7q9zhM2qdByY7z8gKzu_eSI,1640684
+rraster/data/19990604_pr.tif,sha256=MzTy1XqWYN87X_PAC2uttGIHS7BKmIDpba33N32HRQs,1640684
+rraster/data/19990605_pr.tif,sha256=7eJvHEvQk_IOoX8AvpeaQPw5Hj-8txxjohEOMgaUvqk,1640684
+rraster/data/19990606_pr.tif,sha256=EXyYYSzA7VEzDOiJaqX6IAjGDOZV1vFPKeYOJnhghqw,1640684
+rraster/data/19990607_pr.tif,sha256=99mLgIRjijUkg2sCb7ccW3B4tAzVb58WrN3aAkiCUIg,1640684
+rraster/data/template.tif,sha256=McFySpjyR8TpVg4BDR98W9eXREFS51nXWuZbqY1okXU,32242
+RRaster-0.0.1.dist-info/LICENSE,sha256=KSLf0CWF_QKhGDwACjDoiRi51QV1YvfHBPBeCTRf_3E,1067
+RRaster-0.0.1.dist-info/METADATA,sha256=xEShcgJofzwKivRTq1Je5OP8lGCSPh-3OPp650TQPrQ,2274
+RRaster-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+RRaster-0.0.1.dist-info/top_level.txt,sha256=Rx25nCC71-URH2DjixCTEmUyq14Ujap5ck6G6PpEjdk,8
+RRaster-0.0.1.dist-info/RECORD,,
