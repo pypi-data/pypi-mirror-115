@@ -1,0 +1,4 @@
+d22.egg-info/PKG-INFO
+d22.egg-info/SOURCES.txt
+d22.egg-info/dependency_links.txt
+d22.egg-info/top_level.txt
