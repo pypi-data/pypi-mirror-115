@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: tiavda
+Version: 0.4
+Summary: tiavda graphing util package
+Home-page: https://github.com/AdvaitPavuluri/tiavda
+Author: Advait Pavuluri
+Author-email: advait.pavuluri@gmail.com
+License: UNKNOWN
+Description: # tiavda
+        Advait's utility package for graphing and other Python stuff.
+        
+        
+        ## How to install it
+        
+        ### pip
+        ```
+        pip install tiavda
+        ```
+        
+        ### Conda
+        ```
+        rm -r *
+        ```
+        ```
+        echo "Good luck, you're on your own."
+        ```
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

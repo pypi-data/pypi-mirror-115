@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+tiavda/__init__.py
+tiavda/version.py
+tiavda.egg-info/PKG-INFO
+tiavda.egg-info/SOURCES.txt
+tiavda.egg-info/dependency_links.txt
+tiavda.egg-info/entry_points.txt
+tiavda.egg-info/requires.txt
+tiavda.egg-info/top_level.txt
+tiavda/color/__init__.py
+tiavda/color/color_palette.py
+tiavda/plotting/2d_adata_plots.py
+tiavda/plotting/__init__.py
