@@ -1,0 +1,8 @@
+appdirs
+arrow
+avendesora>=1.21
+docopt
+inform>=1.25
+nestedtext>=3.0
+shlib
+python-gnupg>=0.4.4
