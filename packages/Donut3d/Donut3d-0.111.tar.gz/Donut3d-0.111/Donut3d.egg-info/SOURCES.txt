@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+Donut3d/Donut3d.py
+Donut3d/_init_.py
+Donut3d.egg-info/PKG-INFO
+Donut3d.egg-info/SOURCES.txt
+Donut3d.egg-info/dependency_links.txt
+Donut3d.egg-info/not-zip-safe
+Donut3d.egg-info/top_level.txt

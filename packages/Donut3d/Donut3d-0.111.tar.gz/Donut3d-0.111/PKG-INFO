@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: Donut3d
+Version: 0.111
+Summary: 3d ASCII Donut3d in python
+Home-page: UNKNOWN
+Author-email: Grigoriev.ilia1@yandex.ru
+License: UNKNOWN
+Description: Python module for creating flying 3d donut from ASCII symbols
+        
+        #How to use:
+        
+        1. Import module \
+        ```from Donut3d import Donut```
+        2. Create Donut object \
+        ```d = Donut([screen_size = 40,] [framerate = 60,] [theta_spacing = 0.07,] [phi_spacing = 0.02])```
+        3. Run rendering \
+        ```d.run()```
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
