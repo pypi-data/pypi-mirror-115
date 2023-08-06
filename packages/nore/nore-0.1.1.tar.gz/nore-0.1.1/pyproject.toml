@@ -1,0 +1,44 @@
+[tool.poetry]
+name = "nore"
+version = "0.1.1"
+description = "Download .gitignore files from the github/gitignore repo."
+license = "MIT"
+authors = ["Trenten Oliver <trentenoliver@outlook.com>"]
+readme = "README.md"
+homepage = "https://github.com/tcoliver/nore"
+repository = "https://github.com/tcoliver/nore"
+keywords = ["git", ".gitignore", "VCS"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Operating System :: MacOS",
+    "Operating System :: Microsoft :: Windows",
+    "Operating System :: POSIX :: Linux",
+    "Topic :: Software Development",
+    "Topic :: Software Development :: Version Control",
+    "Topic :: Utilities"
+]
+include = [
+    "LICENSE"
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pydantic = "^1.8.2"
+click = "^8.0.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.4"
+pytest-cov = "^2.12.1"
+flake8 = "^3.9.2"
+mypy = "^0.910"
+black = {version = "^21.6b0", allow-prereleases = true}
+isort = "^5.9.3"
+
+[tool.poetry.scripts]
+nore = "nore.main:app"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
