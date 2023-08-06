@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/nlpertools/__init__.py
+src/nlpertools/baseml.py
+src/nlpertools.egg-info/PKG-INFO
+src/nlpertools.egg-info/SOURCES.txt
+src/nlpertools.egg-info/dependency_links.txt
+src/nlpertools.egg-info/top_level.txt
+src/nlpertools/baseio/DIR.py
+src/nlpertools/baseio/FILEIO.py
+src/nlpertools/baseio/OTHER.py
+src/nlpertools/baseio/__init__.py
