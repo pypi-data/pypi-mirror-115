@@ -1,0 +1,14 @@
+pibooth_sound_effects/__init__.py,sha256=b-E4mV2hveLJP2R9S6pz6DPLQySg2S7WMshc01lDLDA,91
+pibooth_sound_effects/pibooth_sound_effects.py,sha256=u6nHOrf5AhVw1r7Ehx2mvNHG9wPhKCCGkPtNTmvfXbI,5006
+pibooth_sound_effects/sounds/capture.wav,sha256=ED-181g80h5Gsv1QffbiSvZk2Z1TNIQXZEiG722gDs0,109072
+pibooth_sound_effects/sounds/choose.wav,sha256=f_te9_lBKg158z9lnGRry9YNonojyLXfvvNie6CI8qQ,19604
+pibooth_sound_effects/sounds/chosen.wav,sha256=f_te9_lBKg158z9lnGRry9YNonojyLXfvvNie6CI8qQ,19604
+pibooth_sound_effects/sounds/finish.wav,sha256=kCmkWTBkJtz0kSdx9hYx3dwxACNq7O_ZUygaDBhpEJI,1046444
+pibooth_sound_effects/sounds/preview_countdown.wav,sha256=afMCTzkrRkV3XbCTJ77eD3AkNm0atLqZS-WnZ-WXHK4,39960
+pibooth_sound_effects-0.0.4.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+pibooth_sound_effects-0.0.4.dist-info/METADATA,sha256=JC1_C2YQa0nM0--X2NXEyJAWqTZT_ImMQyfQ7ZdKdco,3879
+pibooth_sound_effects-0.0.4.dist-info/WHEEL,sha256=ZvfnntGaZglpRLAKVkx18HrxfMwCXrA0b-ARJVnnMrw,92
+pibooth_sound_effects-0.0.4.dist-info/entry_points.txt,sha256=xxz1FxayDeTJRPT2mVrrdIA0rJ2dIJFyFWArWeStCjM,79
+pibooth_sound_effects-0.0.4.dist-info/top_level.txt,sha256=KJV0l_YD66GL_bJaf_p8kULmdjJwtzjUcLQIfQaom5I,22
+pibooth_sound_effects-0.0.4.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+pibooth_sound_effects-0.0.4.dist-info/RECORD,,
