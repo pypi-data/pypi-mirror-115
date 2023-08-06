@@ -1,0 +1,14 @@
+brick/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+brick/azr.py,sha256=hfOyIfjvLdXD4FUASDGLjf9rSERhiYGzeyJ9UcVnQ4Q,8902
+brick/configuration.py,sha256=rf7Ex9CJJdemh0GGtfuDvmq2cf2c9c-HizVZIaWl3Zk,6270
+brick/data.py,sha256=8C0DdjN_KWgCs8CuUweSEM-mH_eN0Gj7ukWibDdDuJA,5608
+brick/level.py,sha256=v4rjhLlRbhzHbUlc1YuzoLyzrVK-Smi2-ZOWhleOeEE,1039
+brick/nodata.py,sha256=1m-DYNjJJglEvyhjQtUt9BqepqSrkhjVuZHtT6ALvUY,3355
+brick/output.py,sha256=ZacV-K1GTb-kOdpQAPrFLvzY_Uy96KxCWtPy8uFLjN4,1845
+brick/parameter.py,sha256=HB40hvUaSQGxiKpASnzIvs7BIe-4HBLG8tWdtIUwrw0,1832
+brick/utility.py,sha256=KGqcvTEhB5qj5QOeBrbFEAy0MVuHOP9yq7groivflDY,7666
+brick_james-0.0.3.dist-info/LICENSE,sha256=pEZcnLn6zBASW6yFybvFZQUD-Y6N5RhnxHz7RzwDctc,1069
+brick_james-0.0.3.dist-info/METADATA,sha256=h31wr_0QH6k8hvv4NXGbOlx1b52amEHffw7lOBdTg2o,2838
+brick_james-0.0.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+brick_james-0.0.3.dist-info/top_level.txt,sha256=5untBiNAQnPjMoiEKfmm4llK3jAxlUDnOXjLtbUVTVQ,6
+brick_james-0.0.3.dist-info/RECORD,,
