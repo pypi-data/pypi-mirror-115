@@ -1,0 +1,3 @@
+[console_scripts]
+phimtools = phimtools.main:main
+
