@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: nnff
+Version: 0.2
+Summary: An neutral network file framwork.
+Home-page: https://github.com/lzfshub/nnfileframe.git
+Author: LiuZhifei
+Author-email: lzfsmail@gmail.com
+License: MIT Licence
+Description: An neutral network file framwork.
+Keywords: pip,nnff,framework
+Platform: win
