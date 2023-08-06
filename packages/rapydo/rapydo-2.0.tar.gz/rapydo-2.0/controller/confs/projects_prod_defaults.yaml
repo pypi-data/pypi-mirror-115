@@ -1,0 +1,63 @@
+variables:
+  env:
+    LOG_LEVEL: INFO # log level for backend and celery
+    ACTIVATE_PROXY: 1
+    APP_MODE: production
+    FLASK_ENV: production
+    # in development mode this is mapped on port 81
+    PROXY_DEV_PORT: 80
+    # used to reach the backend from outer network
+    # in production it match the with proxy ssl port (${PROXY_PROD_PORT})
+    BACKEND_API_PORT: 443
+
+    HEALTHCHECK_BACKEND_CMD: "curl --fail http://localhost:8080/api/status"
+
+    RABBITMQ_PORT: 5671
+    RABBITMQ_MANAGEMENT_PORT: 15671
+
+    RABBITMQ_SSL_CERTFILE: /ssl/real/fullchain1.pem
+    RABBITMQ_SSL_KEYFILE: /ssl/real/privkey1.pem
+    # The depth is the maximum number of non-self-issued intermediate certificates that may follow the peer certificate in a valid certification path. So if depth is 0 the peer (e.g. client) certificate must be signed by the trusted CA directly, if 1 the path can be "peer, CA, trusted CA", if it is 2 "peer, CA, CA, trusted CA", and so on. The default depth is 1.
+    # RABBITMQ_SSL_DEPTH: 1
+    RABBITMQ_SSL_FAIL_IF_NO_PEER_CERT: "false"
+    RABBITMQ_CTL_ERL_ARGS: "-proto_dist inet_tls"
+    # RABBITMQ_SSL_VERIFY
+    RABBITMQ_SSL_ENABLED: 1 # it is used by Celery
+
+    FLOWER_SSL_OPTIONS: --certfile=/ssl/real/fullchain1.pem --keyfile=/ssl/real/privkey1.pem
+    FLOWER_PROTOCOL: https # used for healthchecks
+    TELEGRAM_WORKERS: 4
+
+    POSTGRES_MAX_CONNECTIONS: 250
+    POSTGRES_SHARED_BUFFERS: 1GB
+    POSTGRES_EFFECTIVE_CACHE_SIZE: 3GB
+    POSTGRES_MAINTENANCE_WORK_MEM: 256MB
+    POSTGRES_MAX_WORKER_PROCESSES: 2
+
+    NEO4J_WEB_INTERFACE_PORT: 7473
+    NEO4J_SSL_ENABLED: true
+    NEO4J_BOLT_TLS_LEVEL: "OPTIONAL"
+    NEO4J_HEAP_SIZE: "**PLACEHOLDER**"
+    NEO4J_PAGECACHE_SIZE: "**PLACEHOLDER**"
+
+    AUTH_DEFAULT_USERNAME: "**PLACEHOLDER**"
+    AUTH_DEFAULT_PASSWORD: "**PLACEHOLDER**"
+    ALCHEMY_USER: "**PLACEHOLDER**"
+    ALCHEMY_PASSWORD: "**PLACEHOLDER**"
+    MYSQL_ROOT_PASSWORD: "**PLACEHOLDER**"
+    NEO4J_PASSWORD: "**PLACEHOLDER**"
+    RABBITMQ_USER: "**PLACEHOLDER**"
+    RABBITMQ_PASSWORD: "**PLACEHOLDER**"
+    REDIS_PASSWORD: "**PLACEHOLDER**"
+    FLOWER_USER: "**PLACEHOLDER**"
+    FLOWER_PASSWORD: "**PLACEHOLDER**"
+    REGISTRY_USERNAME: "**PLACEHOLDER**"
+    REGISTRY_PASSWORD: "**PLACEHOLDER**"
+
+    # Autoreload disabled in production mode
+    CELERY_AUTORELOAD:
+
+    MONGO_USER: "**PLACEHOLDER**"
+    MONGO_PASSWORD: "**PLACEHOLDER**"
+    MONGOUI_USER: "**PLACEHOLDER**"
+    MONGOUI_PASSWORD: "**PLACEHOLDER**"
