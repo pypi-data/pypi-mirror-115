@@ -1,0 +1,10 @@
+gliderpy/__init__.py,sha256=iLmy2rOkHS_4KZWMD8BgT7R3tLMKeaTCDVf3B4FyYxM,91
+gliderpy/_version.py,sha256=k5tJXhBQJ4l9fKHJ76K5w98zBHoYvNk9r-UNH6eQ2-k,21
+gliderpy/fetchers.py,sha256=lcsNkHq_IxJ2Zn6uG4ENdtptCh-uVAdUuf24zVRUvME,4681
+gliderpy/plotters.py,sha256=cLhs5AkXc1zipSWBgy_inY6118MFXODrEMPQzCJctgs,1540
+gliderpy/servers.py,sha256=XKbg2MbAS7AufSwQ2MGjuv7xTPQwa9eRAi4x8KBuX0c,2788
+gliderpy-0.0.3.dist-info/LICENSE.txt,sha256=S3BQ7fH2FwRQAAco7v3RbsUWwkUU8WpPdVw5_q4FKJc,1494
+gliderpy-0.0.3.dist-info/METADATA,sha256=BuitTZIa9amEZcYHqP_lhb8JHL_EFN1DNAxVZPjWI8Y,1666
+gliderpy-0.0.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+gliderpy-0.0.3.dist-info/top_level.txt,sha256=6UccmRWXD8poXz-ea3fB7v7AvsgwYMJlF0fqEzZl0UE,9
+gliderpy-0.0.3.dist-info/RECORD,,
