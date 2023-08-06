@@ -1,0 +1,3 @@
+[nbconvert.exporters]
+avocadify = fruit_styles:AvocadoExporter
+

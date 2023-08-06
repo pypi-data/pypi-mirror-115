@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+avocado/__init__.py
+avocado/__pycache__/__init__.cpython-38.pyc
+avocado/avocado/avocado.css
+avocado/avocado/avocado.jpg
+avocado/avocado/conf.json
+avocado/avocado/index.html.j2
+avocado/nbconvert_example_template.egg-info/PKG-INFO
+avocado/nbconvert_example_template.egg-info/SOURCES.txt
+avocado/nbconvert_example_template.egg-info/dependency_links.txt
+avocado/nbconvert_example_template.egg-info/entry_points.txt
+avocado/nbconvert_example_template.egg-info/requires.txt
+avocado/nbconvert_example_template.egg-info/top_level.txt
