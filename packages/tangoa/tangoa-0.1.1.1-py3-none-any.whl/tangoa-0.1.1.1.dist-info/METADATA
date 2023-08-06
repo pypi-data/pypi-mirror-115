@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: tangoa
+Version: 0.1.1.1
+Summary: Library for solving quadratic programs with indicator constraints.
+Home-page: https://gitlab.com/Dnis/tango
+Author: Dennis Kreber
+Author-email: dnis.kk@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: threadpoolctl
+
+# tangoa
+## Dependenices
+The library requires the MIP solver `Gurobi` with its Python interface `gurobipy`.
+Furthermore, the Python packages `numpy`, `scipy`, and `threadpoolctl` are required.
+## Installation
+### From pypi
+Execute 
+    
+    pip3 install --user tangoa
+    
+in a terminal.
+
+### From source
+Navigate into the root folder of `tangoa` and call
+
+    python3 setup.py install --user
+
