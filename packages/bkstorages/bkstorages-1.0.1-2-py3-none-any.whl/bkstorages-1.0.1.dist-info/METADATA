@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: bkstorages
+Version: 1.0.1
+Summary: File storage backends for blueking PaaS platform
+Home-page: UNKNOWN
+Author: blueking
+Author-email: blueking@tencent.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Framework :: Django
+Requires-Python: <3.8,>=3.6
+Requires-Dist: boto3 (>=1.4.1)
+Requires-Dist: curlify (==2.*,>=2.2.1)
+Requires-Dist: requests
+Requires-Dist: six (>=1.14)
+Provides-Extra: dev
+Requires-Dist: django (<3.0.0,>=1.7) ; extra == 'dev'
+Requires-Dist: pytest (>=3.0.4) ; extra == 'dev'
+Requires-Dist: pytest-django (>=3.1.2) ; extra == 'dev'
+Requires-Dist: requests-mock (==1.*,>=1.8.0) ; extra == 'dev'
+
+UNKNOWN
+
