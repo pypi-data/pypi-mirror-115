@@ -1,0 +1,13 @@
+imessage_reader/__init__.py,sha256=aLswVah0zoB8ebFXSVSc97ulIigHtM6CmlWUvxynZZg,88
+imessage_reader/cli.py,sha256=zKm4ScUL4_0S62uwefGPrUXpzQjTLEfI-6o8uiqivKA,1533
+imessage_reader/common.py,sha256=9vdm-CLmxP6FMf-wYcKPrm02fP83rxMsgNiDnrlaB6A,1264
+imessage_reader/create_sqlite.py,sha256=J6hEo1X44nIw2coIEyxF6G6PaLKr5h30UA43cNgzZ5I,1696
+imessage_reader/fetch_data.py,sha256=nx07AViFvUHBblOn5S5-3p2AsUGZRrHCSIgz5glKZYA,4322
+imessage_reader/info.py,sha256=JzNptf8UpjPeUJxyoYx9-PnxPrejY-RkdieP5FQh28c,610
+imessage_reader/write_excel.py,sha256=LRFq5acfr5B_xYRN48TLB83i1WaNsm7lpCTJ0k2F1j4,3266
+imessage_reader-0.2.0.dist-info/LICENSE,sha256=F-qTvkVp8WA3RwH210E0Ty9C_yUSwhgwQSkuHeRmP6M,1077
+imessage_reader-0.2.0.dist-info/METADATA,sha256=ROq4hJ96bOsU7SEgn4ARgEg2NW4iuKBIX5e9Wn-EQXw,3442
+imessage_reader-0.2.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+imessage_reader-0.2.0.dist-info/entry_points.txt,sha256=rxcxC8y43ti_rc-U0dnN_PGKm_tpXXplJxs1Im75jJs,62
+imessage_reader-0.2.0.dist-info/top_level.txt,sha256=QEGs3hShK8H4MzAeSBsqdboqXN_ykbvJ_LjuFJBIHIQ,16
+imessage_reader-0.2.0.dist-info/RECORD,,
