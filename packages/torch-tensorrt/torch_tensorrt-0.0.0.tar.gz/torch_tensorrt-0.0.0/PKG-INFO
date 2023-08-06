@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: torch_tensorrt
+Version: 0.0.0
+Summary: Placeholder for upcoming torch-tensorrt package
+Home-page: https://github.com/nvidia/trtorch
+Author: Naren Dasan
+Author-email: narens@nvidia.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
