@@ -1,0 +1,130 @@
+from enum import Enum
+from hestia_earth.schema import EmissionMethodTier, EmissionStatsDefinition, SiteSiteType, TermTermType
+from hestia_earth.utils.model import find_term_match, filter_list_term_type
+from hestia_earth.utils.tools import list_sum, list_average
+
+from hestia_earth.models.log import debugRequirements, logger
+from hestia_earth.models.utils import _filter_list_term_unit
+from hestia_earth.models.utils.constant import Units, get_atomic_conversion
+from hestia_earth.models.utils.blank_node import get_total_value
+from hestia_earth.models.utils.emission import _new_emission
+from hestia_earth.models.utils.measurement import most_relevant_measurement_value
+from . import MODEL
+
+TERM_ID = 'ch4ToAirAquaculturePonds'
+FAST_FLOWING_WATER = 'fastFlowingWater'
+SLOW_FLOWING_WATER = 'slowFlowingWater'
+WATER_DEPTH = 'waterDepth'
+Conv_Aquaculture_CH4C_CH4CAir_2m = 0.22
+Conv_Aquaculture_CH4C_CH4CAir_0_2m = 0.61225
+Conv_Aquaculture_CH4Cmax = 0.50239375369354
+HIGH_TEMPERATURE = 23.5
+
+
+class OC(Enum):
+    LOW = 'Low'
+    MEDIUM = 'Medium'
+    HIGH = 'High'
+
+
+class MOC(Enum):
+    FAST = 'fastWater'
+    SLOW_LOW_TEMP = 'slowWaterLowTemp'
+    SLOW_HIGH_TEMP = 'slowWaterHighTemp'
+    MARINE_FLOW = SiteSiteType.SEA_OR_OCEAN.value
+
+
+OC_Aqua = {
+    OC.LOW: 0.3,
+    OC.MEDIUM: 0.3,
+    OC.HIGH: 0.6
+}
+OC_FROM_TEMP = {
+    OC.LOW: lambda temp: temp < 15,
+    OC.MEDIUM: lambda temp: 15 <= temp < HIGH_TEMPERATURE,
+    OC.HIGH: lambda _temp: True
+}
+MOC_Aqua = {
+    MOC.FAST: 0,
+    MOC.SLOW_LOW_TEMP: 0.2,
+    MOC.SLOW_HIGH_TEMP: 0.45,
+    MOC.MARINE_FLOW: 0.04
+}
+MOC_FROM_SYS = {
+    MOC.FAST: lambda system, _temp: system == FAST_FLOWING_WATER,
+    MOC.SLOW_LOW_TEMP: lambda system, temp: system == SLOW_FLOWING_WATER and temp < HIGH_TEMPERATURE,
+    MOC.SLOW_HIGH_TEMP: lambda system, temp: system == SLOW_FLOWING_WATER and temp >= HIGH_TEMPERATURE,
+    MOC.MARINE_FLOW: lambda system, _temp: system == SiteSiteType.SEA_OR_OCEAN.value
+}
+
+
+def _emission(value: float):
+    logger.info('model=%s, term=%s, value=%s', MODEL, TERM_ID, value)
+    emission = _new_emission(TERM_ID, MODEL)
+    emission['value'] = [value]
+    emission['methodTier'] = EmissionMethodTier.TIER_1.value
+    emission['statsDefinition'] = EmissionStatsDefinition.MODELLED.value
+    return emission
+
+
+def _oc(temp: float):
+    oc_key = next((key for key in OC_FROM_TEMP if OC_FROM_TEMP[key](temp)), None)
+    return OC_Aqua.get(oc_key, 0)
+
+
+def _oc_flow(temp: float, system: str):
+    oc_flow_key = next((key for key in MOC_FROM_SYS if MOC_FROM_SYS[key](system, temp)), None)
+    return MOC_Aqua.get(oc_flow_key, 0)
+
+
+def _Conv_Aquaculture_CH4C_CH4CAir(waterDepth: float):
+    return Conv_Aquaculture_CH4C_CH4CAir_2m if waterDepth > 2 else Conv_Aquaculture_CH4C_CH4CAir_0_2m
+
+
+def _run(excretaKgVs: float, temp: float, system: str, waterDepth: float, tsy: float, slaughterAge: int):
+    value = min(
+        excretaKgVs * _oc(temp) * _oc_flow(temp, system) * _Conv_Aquaculture_CH4C_CH4CAir(waterDepth),
+        Conv_Aquaculture_CH4Cmax * slaughterAge / tsy
+    ) * get_atomic_conversion(Units.KG_CH4, Units.TO_C)
+    return [_emission(value)]
+
+
+def _get_term_id(node: dict):
+    return node.get('term', {}).get('@id', {}) if node else None
+
+
+def _should_run(cycle: dict):
+    products = cycle.get('products', [])
+    excr_products = filter_list_term_type(products, TermTermType.EXCRETA)
+    excretaKgVs = list_sum(get_total_value(_filter_list_term_unit(excr_products, Units.KG_VS)))
+
+    practices = cycle.get('practices', [])
+    tsy = list_sum(find_term_match(practices, 'yieldOfTargetSpecies').get('value', []))
+    slaughterAge = list_sum(find_term_match(practices, 'slaughterAge').get('value', []))
+
+    site = cycle.get('site', {})
+    end_date = cycle.get('endDate')
+    measurements = site.get('measurements', [])
+    temp = most_relevant_measurement_value(measurements, 'temperatureAnnual', end_date)
+    slowFlowingWater = find_term_match(measurements, SLOW_FLOWING_WATER)
+    fastFlowingWater = find_term_match(measurements, FAST_FLOWING_WATER)
+    waterDepth = list_average(find_term_match(measurements, WATER_DEPTH).get('value', []))
+
+    system = _get_term_id(slowFlowingWater) or _get_term_id(fastFlowingWater) or site.get('siteType')
+
+    debugRequirements(model=MODEL, term=TERM_ID,
+                      excretaKgVs=excretaKgVs,
+                      temp=temp,
+                      system=system,
+                      waterDepth=waterDepth,
+                      tsy=tsy,
+                      slaughterAge=slaughterAge)
+
+    should_run = all([excretaKgVs, temp, system, waterDepth, tsy, slaughterAge])
+    logger.info('model=%s, term=%s, should_run=%s', MODEL, TERM_ID, should_run)
+    return should_run, excretaKgVs, temp, system, waterDepth, tsy, slaughterAge
+
+
+def run(cycle: dict):
+    should_run, excretaKgVs, temp, system, waterDepth, tsy, slaughterAge = _should_run(cycle)
+    return _run(excretaKgVs, temp, system, waterDepth, tsy, slaughterAge) if should_run else []
