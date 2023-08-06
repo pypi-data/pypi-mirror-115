@@ -1,0 +1,7 @@
+jax-stubs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jax-stubs/__init__.pyi,sha256=jimjOMCWy41K6WeFUy0pzXxLbaq7rBUgeMv5mUKK9qY,60
+jax-stubs/numpy/__init__.pyi,sha256=Txazqu8LG8WvEq5MjI19_MqxfwUxHGeoM2Mvem-iBqo,34560
+tensor_annotations_jax_stubs-1.0.0.dist-info/METADATA,sha256=Ck4655uwJ3oBQTiNCzvciepjnujnJoccZN4VkoXtSnM,353
+tensor_annotations_jax_stubs-1.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+tensor_annotations_jax_stubs-1.0.0.dist-info/top_level.txt,sha256=9T6q3NLARWvputYjWebh7AMWostTCD72dRx0B0yauJw,10
+tensor_annotations_jax_stubs-1.0.0.dist-info/RECORD,,
