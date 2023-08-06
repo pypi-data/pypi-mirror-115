@@ -1,0 +1,3 @@
+[console_scripts]
+pq-dashboard=pq_dashboard.cli:main
+
