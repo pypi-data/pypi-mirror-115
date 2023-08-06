@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+textdescriptives/__init__.py
+textdescriptives/about.py
+textdescriptives/dataframe_extract.py
+textdescriptives/load_components.py
+textdescriptives.egg-info/PKG-INFO
+textdescriptives.egg-info/SOURCES.txt
+textdescriptives.egg-info/dependency_links.txt
+textdescriptives.egg-info/requires.txt
+textdescriptives.egg-info/top_level.txt
