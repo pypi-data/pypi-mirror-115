@@ -1,0 +1,14 @@
+.gitignore
+LICENSE.mit
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+batchqueue/BatchQueue.py
+batchqueue/__init__.py
+batchqueue.egg-info/PKG-INFO
+batchqueue.egg-info/SOURCES.txt
+batchqueue.egg-info/dependency_links.txt
+batchqueue.egg-info/top_level.txt
+tests/__init__.py
+tests/test_batchqueue.py
