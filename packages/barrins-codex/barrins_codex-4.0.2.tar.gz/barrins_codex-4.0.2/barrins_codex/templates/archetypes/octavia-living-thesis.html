@@ -1,0 +1,26 @@
+{% extends "archetypes/_layout.html" %}
+{% import "archetypes/_layout_wip.html" as layout with context %}
+{% import "archetypes/octavia-living-thesis.json" as deck_json %}
+
+{% block title %}
+Octavia, Living Thesis
+{% endblock %}
+
+{% block meta %}
+<meta property="decklist" content='{{ deck_json | tojson }}' />
+{% endblock %}
+
+{% block archetype_name %}
+<h1>Octavia, Living Thesis</h1>
+{{ layout.wip() }}
+{% endblock %}
+
+{% block archetype %}
+<iframe
+    src="https://www.moxfield.com/decks/zTo8uMRf1ky-03v-EeTBUA"
+    id="moxfield-frame-1"
+    frameBorder="0"
+    width="700px"
+    onload="moxfieldOnLoad(event)"
+></iframe>
+{% endblock %}
