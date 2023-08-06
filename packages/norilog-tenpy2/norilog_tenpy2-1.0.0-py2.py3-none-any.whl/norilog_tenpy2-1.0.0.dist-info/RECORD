@@ -1,0 +1,9 @@
+norilog/__init__.py,sha256=uunOEJW90vLuSJoYtnokK5mxqxCquTgpW9hH8L4pdyk,2623
+norilog/static/index.css,sha256=UARuc6DfzfMLNOL-KLWiyogIEiEbIffOND96yo4gbW4,521
+norilog/templates/index.html,sha256=-AvDlre1TduB7-U3lawyQtRIzj9xnMs5p_qPtpQlGjI,2447
+norilog_tenpy2-1.0.0.dist-info/LICENSE.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+norilog_tenpy2-1.0.0.dist-info/METADATA,sha256=sCGP15DZc-4taphEzxK1-K_BH4pw4e-fa0ybbmIguUA,1697
+norilog_tenpy2-1.0.0.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+norilog_tenpy2-1.0.0.dist-info/entry_points.txt,sha256=_KIfwaoDQJUApuTOwS1lPthD7jPXQW40p6xqKQiWU-o,65
+norilog_tenpy2-1.0.0.dist-info/top_level.txt,sha256=cuqHtoAWvaw7yacj79kBYAH4nS5_N6UPosK4QWa-VsY,8
+norilog_tenpy2-1.0.0.dist-info/RECORD,,
