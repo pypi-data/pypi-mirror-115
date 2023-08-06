@@ -1,0 +1,11 @@
+proman_github/__init__.py,sha256=K8aA_eWyQp09DlCCS__N-n_KOBk3zn_FF9sE4tH2HQs,2098
+proman_github/__main__.py,sha256=1MFY8QCc-TyPMXEaW4Z6BVuGS4rofAATLNJ_gmMfpkk,376
+proman_github/archive.py,sha256=xSNNGwwGrTG-iwRQDLtvtnycIQgOBiN7MS9Mg4TMXQU,1303
+proman_github/cli.py,sha256=gVRSofxxycS1CRF0Q7ZGWhzHhNAA-FabtWb33fvzVOA,2874
+proman_github/config.py,sha256=bxkiO724r6iZ-awUcAIvdQZc5bfLHHX4ul1mxzmMa8w,2645
+proman_github/package_manager.py,sha256=d3uNSHuLCszWYQKbAwQKoKoddfF4ZTG7hbG9S8dwyAs,8698
+proman_github-0.1.1.dev0.dist-info/entry_points.txt,sha256=_yMSYjmOrN8bsVfbAhHaLErAXiK1lj2BQnCAr5IsHOY,85
+proman_github-0.1.1.dev0.dist-info/LICENSE,sha256=OT6vK5Kz1JvqE545tv0gW26ZxJmZmYauxVVFhqgw390,16726
+proman_github-0.1.1.dev0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+proman_github-0.1.1.dev0.dist-info/METADATA,sha256=dzaeUHc00HGHnQ2Z6GT4nQd7nsr9ZFayBojOmQDP1rI,573
+proman_github-0.1.1.dev0.dist-info/RECORD,,

@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: proman-github
+Version: 0.1.1.dev0
+Summary: GitHub based package manager.
+Author: Jesse P. Johnson
+Author-email: jpj6652@gmail.com
+Requires-Python: >=3.6.2,<4.0.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: PyGithub (>=1.55,<2.0)
+Requires-Dist: argufy (>=0.1.2-alpha.1,<0.2.0)
+Requires-Dist: proman-common (>=0.1.1-alpha.6,<0.2.0)
+Requires-Dist: python-magic (>=0.4.24,<0.5.0)

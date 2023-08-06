@@ -1,0 +1,4 @@
+[console_scripts]
+gh=proman_github:__main__.main
+github=proman_github:__main__.main
+
