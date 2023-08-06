@@ -1,0 +1,9 @@
+beautifulsoup4
+glpk
+jupyter
+lxml
+nose
+python-libsbml
+
+[:python_version < "3.7"]
+importlib_resources
