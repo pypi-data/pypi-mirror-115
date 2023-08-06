@@ -1,0 +1,6 @@
+face_recognition
+matplotlib
+numpy
+Pillow
+PyQt5
+types-Pillow
