@@ -1,0 +1,15 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+FasGAN.egg-info/PKG-INFO
+FasGAN.egg-info/SOURCES.txt
+FasGAN.egg-info/dependency_links.txt
+FasGAN.egg-info/requires.txt
+FasGAN.egg-info/top_level.txt
+fasgan/__init__.py
+fasgan/discore.py
+fasgan/discriminator.py
+fasgan/gencore.py
+fasgan/generator.py

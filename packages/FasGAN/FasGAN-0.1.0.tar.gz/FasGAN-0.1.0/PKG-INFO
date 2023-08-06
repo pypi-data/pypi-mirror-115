@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: FasGAN
+Version: 0.1.0
+Summary: DCGAN architecture based on Fas14MNet for Image Generation
+Home-page: https://github.com/DigantaD/Fas14MNet/tree/main/dcgan
+Author: Diganta Dutta
+Author-email: diganta.aimlos@gmail.com
+License: UNKNOWN
+Description: 
+        This is a project intended to create a new GAN Network for Image Generation. FasGAN is based on Fas14MNet network and DCGAN architecture using Vanilla gradient loss.
+        
+        Steps to run:
+        
+        1. from fasgan.generator import Generator
+        
+        2. from fasgan.discriminator import Discriminator
+        
+        3. netG = Generator()
+        
+        4. netD = Discriminator()
+Keywords: image generation,cnn,gan,dcgan,vanilla loss
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
