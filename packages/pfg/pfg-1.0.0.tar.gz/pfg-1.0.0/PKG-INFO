@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: pfg
+Version: 1.0.0
+Summary: A lightweight library for building Factor Graphs and performing inference using the loopy belief propagation algorithm.
+Home-page: https://github.com/steveschwarcz/PFG-Python-Factor-Graph-Library
+Author: Steven Schwarcz
+Author-email: sasz11@gmail.com
+License: UNKNOWN
+Description: # PFG - The Python Factor Graph Library
+        
+        `PFG` is a lightweight Python library for building and performing inference
+         on Factor Graphs. It is implemented in Python and all operations are
+          vectorized, so it runs extremely quickly. 
+          
+        `PFG` can perform inference using the Belief Propagation algorithm. In the
+         case where factor graphs do not have a tree structure, `PFG` can perform the
+          Loopy Belief Propagation algorithm, which isn't guaranteed to converge but
+           usually gets good results in practice. When performing Loopy belief
+            Propagation, `PFG` also allows the user to create a schedule of factors, so
+             that in large graphs the user will have complete control over the order
+              in which messages are passed during inference.
+              
+        ## Installation
+        
+        To install `PFG`, simply run the following command:
+        
+        ```
+        pip install pfg
+        ```
+        
+        ## Usage
+        
+        For a complete introduction to `PFG`, and full coding examples, take a
+         look at the sample notebook `example.ipynb`.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
