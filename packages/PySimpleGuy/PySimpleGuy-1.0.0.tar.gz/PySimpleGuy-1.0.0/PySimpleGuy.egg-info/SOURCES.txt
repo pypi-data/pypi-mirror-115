@@ -1,0 +1,8 @@
+setup.py
+PySimpleGuy/PySimpleGuy.py
+PySimpleGuy/__init__.py
+PySimpleGuy.egg-info/PKG-INFO
+PySimpleGuy.egg-info/SOURCES.txt
+PySimpleGuy.egg-info/dependency_links.txt
+PySimpleGuy.egg-info/requires.txt
+PySimpleGuy.egg-info/top_level.txt

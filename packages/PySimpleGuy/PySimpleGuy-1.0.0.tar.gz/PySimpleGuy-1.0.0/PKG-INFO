@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: PySimpleGuy
+Version: 1.0.0
+Summary: The PySimpleGuy is likely supposed to be PySimpleGUI.
+Home-page: https://github.com/PySimpleGUI/
+Author: PySimpleGUI
+Author-email: mike@PySimpleGUI.org
+License: UNKNOWN
+Description: 
+        <p align="center">
+          <img src="https://raw.githubusercontent.com/PySimpleGUI/PySimpleGUI/master/images/for_readme/Logo%20with%20text%20for%20GitHub%20Top.png" alt="Python GUIs for Humans">
+          <h2 align="center">Python GUIs for Humans</h2>
+        </p>
+        
+        # PySimpleGuy
+        
+        I think maybe you are looking for PySimpleGUI.  Try installing PySimpleGUI instead of PySimpleGuy
+        
+        
+Keywords: GUI UI PySimpleGUI PySimpleGuy PySimpleGUY
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)
+Classifier: Topic :: Multimedia :: Graphics
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
