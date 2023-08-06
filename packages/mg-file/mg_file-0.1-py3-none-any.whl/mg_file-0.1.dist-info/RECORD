@@ -1,0 +1,15 @@
+mg_file/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mg_file/file_pack/__init__.py,sha256=6AZQTmNFY44bjZpNixugYEM9rP9r-OQHE-NBV4QGkD0,29
+mg_file/file_pack/file_manager.py,sha256=JHR2c0dBsWEwh8owWF9-dRwtlgwwUEE-y7yzkpuuA2U,13672
+mg_file/file_pack/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mg_file/file_pack/test/test_file.py,sha256=ZozGIgyaFx1mevo1z90Y3JrpmEDtRUaHpmc2nCtaV6c,22283
+mg_file/main.py,sha256=Bqv0xaRcJzouc1OGDz1EZRORMh9jTFFYfTZOQ-aRHoQ,72
+mg_file/README.md,sha256=F9WdQckFLGC4Y6R-JPunMiVo0cJW6Tk7-BKaOyCbtfg,19298
+mg_file/sqllite_orm_pack/__init__.py,sha256=Fz7n-XDkMUFrNk4Iwk1iOZ02PpppzwQXF5fzZh6AZec,55
+mg_file/sqllite_orm_pack/sqllite_orm.py,sha256=aGZ6TodetSbfwoqgUTmUF1TuUjxQqHo5Jlx5uDcUVDc,18153
+mg_file/sqllite_orm_pack/sqlmodules.py,sha256=IIWQWwStlM_Yn6xF6roIs3RAQxh0uPE9wFOr8Vd0C5s,3577
+mg_file/sqllite_orm_pack/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mg_file/sqllite_orm_pack/test/test_sqlliteorm.py,sha256=thDNLDe0L7EiEi35M6f6izC0YK-7OUJb_LbOW3EkMHI,40089
+mg_file-0.1.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+mg_file-0.1.dist-info/METADATA,sha256=1fy7Bs0lPcbuOiVjh01Aw0f5LfXBEVeVdN860EEn0po,19635
+mg_file-0.1.dist-info/RECORD,,
