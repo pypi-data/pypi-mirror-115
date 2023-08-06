@@ -1,0 +1,11 @@
+scriptenv/__init__.py,sha256=hjK8R3fOXksumGtveA6ugmHrnlBqRkP6I9LELMjuRrU,416
+scriptenv/cli.py,sha256=LHbAzT-LhwPIs8KivRnUj4WwmGvvByKgn2FwyAl4tMA,947
+scriptenv/config.py,sha256=MTmDuNIMuY0UbGVinmBYCap_Q-7cpAqfZ2p6PQS-uQU,387
+scriptenv/pip.py,sha256=TSoqwRpPbgXA2xub5V6tcTRtBt645Fgx9Me5mxNje5I,1832
+scriptenv/scriptenv.py,sha256=v96yJMneIS_SyqPU-nbbAgM9KTJsHPbpaX3G6BEjb8Q,3066
+scriptenv-0.2.0.dist-info/LICENSE,sha256=saGWiz_P8lzdseJ6SOFE28ouXZBmssV2a5H_3maJGcs,1070
+scriptenv-0.2.0.dist-info/METADATA,sha256=wCq9WnN1RysmBZ31ZAQz6-WsiGeXskovYZqnoYpj1yk,3183
+scriptenv-0.2.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+scriptenv-0.2.0.dist-info/entry_points.txt,sha256=1e1msnvaKA_d9Wa9WxAwqhcxrtfEYG2sbaZriUhy9Es,50
+scriptenv-0.2.0.dist-info/top_level.txt,sha256=0_aM0z99wZ0lgnIk246w70wWZdnkmWGcyxS-nmggzT0,10
+scriptenv-0.2.0.dist-info/RECORD,,

@@ -1,0 +1,3 @@
+[console_scripts]
+scriptenv = scriptenv.cli:main
+
