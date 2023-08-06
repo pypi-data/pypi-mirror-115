@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: weedcv
+Version: 1.0.1
+Summary: Image preprocessing and dataset development tools for weed detection.
+Home-page: https://github.com/mkutu/weedcv
+Author: WeedCV Team
+Author-email: help@weedcv.com
+License: MIT
+Description: # WeedCV
+        
+        An simple tool for developing an image dataset for weed detection.
+        
+Keywords: dataset development,weed detection,digital agriculture
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Image Processing
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
