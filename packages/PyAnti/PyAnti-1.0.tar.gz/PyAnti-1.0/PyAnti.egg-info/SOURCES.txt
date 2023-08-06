@@ -1,0 +1,9 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+PyAnti/__init__.py
+PyAnti.egg-info/PKG-INFO
+PyAnti.egg-info/SOURCES.txt
+PyAnti.egg-info/dependency_links.txt
+PyAnti.egg-info/top_level.txt

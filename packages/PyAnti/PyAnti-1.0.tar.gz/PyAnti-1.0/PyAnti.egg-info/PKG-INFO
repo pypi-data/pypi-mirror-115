@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: PyAnti
+Version: 1.0
+Summary: Le module PyAnti est un module, qui permet de faire des Compteurs ou encore des Comptes à rebours !
+Home-page: UNKNOWN
+Author-email: <minariasurvie@gmail.com>
+License: MIT
+Keywords: python,count,counter,countdown,pyanti
+Platform: UNKNOWN
+License-File: LICENSE
+
+Le module PyAnti est un modules, qui vous permettra de vous faciliter la taches ! Tous simplement en utilisant la doc. 
+Documentation: https://github.com/Kijusu-Dev/PyAnti
+
