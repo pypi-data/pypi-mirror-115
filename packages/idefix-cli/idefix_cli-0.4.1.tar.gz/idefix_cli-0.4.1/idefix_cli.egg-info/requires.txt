@@ -1,0 +1,8 @@
+gitpython==3.1.14
+inifix==0.4.4
+rich==9.13.0
+
+[dev]
+pre-commit
+pytest>=6.1
+pytest-assume>=2.4.3
